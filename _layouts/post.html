@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="post col-md-9">
+
+  <header class="post-header">
+    <h2 class="post-title">{{ page.title }}</h2>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <p>Tags: 
+  {{ page.tags | array_to_sentence_string }}
+  </p>
+  
+</div>
+
+<div class="col-md-3">
+  {% include sidemenu.html %}
+</div>
