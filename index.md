@@ -8,7 +8,3 @@ RealGrid는 비즈니스 웹에서 유통되는 다양한 Data를 표시하고 �
 
 ## This site is
 이 사이트는 RealGrid를 이용하여 웹 사이트를 개발하는 개발자 분들을 위한 도움말을 제공하기 위해 구성된 사이트 입니다.
-
----
-
-{% include about.md %}
