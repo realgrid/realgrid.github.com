@@ -13,12 +13,20 @@
           </svg>
         </a>
         <div class="trigger">
+          <a class="page-link" href="{{ '/api/' | prepend: site.baseurl }}">API</a>
+          <a class="page-link" href="{{ '/articles/' | prepend: site.baseurl }}">Article</a>
+          <a target="_new" class="page-link" href="http://demo.realgrid.com/Manager/Questions">Question</a>
+          <a class="page-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+        </div>
+        <!--
+        <div class="trigger">
           {% for page in site.pages %}
             {% if page.title %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}
           {% endfor %}
         </div>
+        -->
       </nav>
     </div>
 </header>
