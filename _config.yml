@@ -5,7 +5,7 @@ description:
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://help.realgrid.com" # the base hostname & protocol for your site
 twitter_username: 
-github_username:  realgrid
+github_username:  realgrid help
 
 # Build settings
 markdown: kramdown
