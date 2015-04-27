@@ -9,3 +9,16 @@ github_username:  realgrid help
 
 # Build settings
 markdown: kramdown
+
+# Collections
+collections:
+  api_fectures:
+    output: true
+
+object_names:
+  - GridBase
+  - GridView
+  - TreeView
+  - DataProvider
+  - LocalDataProvider
+  - TreeDataProvider

@@ -180,6 +180,16 @@
     }
 }
 
+.post-api-list {
+    margin-left: 0;
+    list-style: none;
+    font-size: $middle-font-size;
+
+    > li {
+        margin-bottom: 0;
+    }
+}
+
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
@@ -235,9 +245,28 @@
 
     h4 {
         font-size: 22px;
+        font-weight: bold;
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
     }
+
+    h5 {
+        font-size: 18px;
+        font-weight: bold;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+
+    h6 {
+        font-size: 14px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+
 }
