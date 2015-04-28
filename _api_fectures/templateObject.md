@@ -1,6 +1,6 @@
 ---
 layout: apipost
-title: testcallback
+title: onRowAdded
 part: Objects
 objectname: GridBase
 directiontype: Callback
