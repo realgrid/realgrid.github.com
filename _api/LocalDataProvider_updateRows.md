@@ -1,0 +1,51 @@
+---
+layout: apipost
+title: updateRows
+part: Objects
+objectname: LocalDataProvider
+directiontype: Function
+permalink: /api/LocalDataProvider/updateRows/
+---
+
+
+#### Description
+
+> 지정한 데이터행으로 부터 한 행 이상의 값을 수정한다.
+
+#### Syntax
+
+> function updateRows(row, rows, start, count, rowEvents)
+
+#### Parameters
+
+> *row*
+> Type: number
+> 수정할 시작 데이터행 인덱스.
+
+> *rows*
+> Type: Array of Array|object
+> 값들의 배열. 각 행의 값은 Array이나 object.
+
+> *start*
+> Type: number
+> rows에 지정된 배열 중에서 시작 위치. 지정하지 않으면 0.
+
+> *count*
+> Type: number
+> rows에 지정된 배열 중 수정할 행의 개수. -1이면 모든 행. 지정하지 않으면 -1.
+
+> *rowEvents*
+> Type: Boolean
+> true이면 [LocalDataProvider onRowStateChanged|onRowStateChanged](/api/LocalDataProvider/) 이벤트를 건별로 발생시킨다.
+> false이면 [LocalDataProvider onRowStatesChanged|onRowStatesChagned](/api/LocalDataProvider/) 이벤트를 한번만 발생시킨다.
+> 지정하지 않으면 false다.
+
+#### Return value
+
+> None.
+
+#### Example
+
+<pre>
+    dataProvider.updateRows(row, rows, 0, -1, false);
+</pre>
