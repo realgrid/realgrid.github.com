@@ -1,11 +1,11 @@
 ---
 layout: apipost
 title: indicator
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/indicator/
+permalink: /api/features/indicator/
 ---
 
 
-@Deprecated [getIndicator](/api/fectures/), [setIndicator](/api/fectures/)를 대신 사용할 것.
+@Deprecated [getIndicator](/api/features/), [setIndicator](/api/features/)를 대신 사용할 것.

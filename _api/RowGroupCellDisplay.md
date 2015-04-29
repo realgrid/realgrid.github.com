@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: RowGroupCellDisplay
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/RowGroupCellDisplay/
+permalink: /api/features/RowGroupCellDisplay/
 ---
 
 

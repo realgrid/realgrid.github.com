@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: DataFilterMode
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/DataFilterMode/
+permalink: /api/features/DataFilterMode/
 ---
 
 

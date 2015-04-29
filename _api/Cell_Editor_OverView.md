@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: Cell Editor OverView
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/Cell Editor OverView/
+permalink: /api/features/Cell Editor OverView/
 ---
 
 

@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: ColumnFilterAction
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/ColumnFilterAction/
+permalink: /api/features/ColumnFilterAction/
 ---
 
 

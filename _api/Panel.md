@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: Panel
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/Panel/
+permalink: /api/features/Panel/
 ---
 
 

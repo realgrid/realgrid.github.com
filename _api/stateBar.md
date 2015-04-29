@@ -1,11 +1,11 @@
 ---
 layout: apipost
 title: stateBar
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/stateBar/
+permalink: /api/features/stateBar/
 ---
 
 
-@Deprecated [getStateBar](/api/fectures/), [setStateBar](/api/fectures/)를 대신 사용할 것.
+@Deprecated [getStateBar](/api/features/), [setStateBar](/api/features/)를 대신 사용할 것.

@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: Cell Renderer OverView
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/Cell Renderer OverView/
+permalink: /api/features/Cell Renderer OverView/
 ---
 
 

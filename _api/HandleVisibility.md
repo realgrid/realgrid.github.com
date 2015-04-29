@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: HandleVisibility
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/HandleVisibility/
+permalink: /api/features/HandleVisibility/
 ---
 
 

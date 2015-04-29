@@ -1,11 +1,11 @@
 ---
 layout: apipost
 title: Grid fixedOptions
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/Grid fixedOptions/
+permalink: /api/features/Grid fixedOptions/
 ---
 
 
-@Deprecated [getFixedOptions](/api/fectures/), [setFixedOptions](/api/fectures/)를 대신 사용할 것.
+@Deprecated [getFixedOptions](/api/features/), [setFixedOptions](/api/features/)를 대신 사용할 것.

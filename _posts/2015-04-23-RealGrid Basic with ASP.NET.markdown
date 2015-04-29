@@ -5,7 +5,7 @@ date:   2015-04-23 15:47:54
 categories: 기초과정
 ---
 
-### Architectures
+### Architeatures
 > * Tools & Tech: VisualStudio Professional 2012, ASP.NET 4.5 Web Pages (Razor2)
 > * Web Server & WAS: Windows Server 2008 64bit, IIS 7, .NET Framework
 > * Database: MS SQLServer 2008 R2

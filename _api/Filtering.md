@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: Filtering
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/Filtering/
+permalink: /api/features/Filtering/
 ---
 
 

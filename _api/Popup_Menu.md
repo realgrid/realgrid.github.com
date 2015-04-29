@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: Popup Menu
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/Popup Menu/
+permalink: /api/features/Popup Menu/
 ---
 
 

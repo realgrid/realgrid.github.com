@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: FilterSelectorOptions
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/FilterSelectorOptions/
+permalink: /api/features/FilterSelectorOptions/
 ---
 
 

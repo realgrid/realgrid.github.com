@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: Edit Validation
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/Edit Validation/
+permalink: /api/features/Edit Validation/
 ---
 
 

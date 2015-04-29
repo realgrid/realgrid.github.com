@@ -1,16 +1,12 @@
 ---
 layout: page
 permalink: /api/
-my_array:
-  - one
-  - two
-  - three
 ---
 
 <div class="col-md-4">
-  <h4>Fectures</h4>
+  <h4>Features</h4>
   <ul class="post-api-list">
-	{% for post in site.api %}{% if post.part == 'Fectures' %}
+	{% for post in site.api %}{% if post.part == 'Features' %}
 	    <li>
 	    <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	    </li>

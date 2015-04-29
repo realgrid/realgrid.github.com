@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: DynamicStyle
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/DynamicStyle/
+permalink: /api/features/DynamicStyle/
 ---
 
 

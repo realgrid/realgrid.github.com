@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: Expression
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/Expression/
+permalink: /api/features/Expression/
 ---
 
 

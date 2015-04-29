@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: ValidationResult
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/ValidationResult/
+permalink: /api/features/ValidationResult/
 ---
 
 
@@ -13,7 +13,7 @@ permalink: /api/fectures/ValidationResult/
 #### Properties
 
 > *level* 
-> Type: [ValidationLevel](/api/fectures/)
+> Type: [ValidationLevel](/api/features/)
 > default: ValidationLevel.ERROR
 > Row 데이터 검증 결과 수준을 지정한다.
 

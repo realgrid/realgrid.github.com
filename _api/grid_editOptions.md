@@ -1,11 +1,11 @@
 ---
 layout: apipost
 title: grid editOptions
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/grid editOptions/
+permalink: /api/features/grid editOptions/
 ---
 
 
-@Deprecated [getEditOptions](/api/fectures/), [setEditOptions](/api/fectures/)를 대신 사용할 것.
+@Deprecated [getEditOptions](/api/features/), [setEditOptions](/api/features/)를 대신 사용할 것.

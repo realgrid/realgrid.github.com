@@ -22,8 +22,8 @@ layout: default
 
 <div class="col-md-3">
 	<ul class="post-list">
-	<h4>Fectures</h4>
-	{% for post in site.api_fectures %}{% if post.part == 'Fectures' %}
+	<h4>Features</h4>
+	{% for post in site.api %}{% if post.part == 'Features' %}
 	    <li>
 	    <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	    </li>

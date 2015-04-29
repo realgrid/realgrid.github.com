@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: RestoreMode
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/RestoreMode/
+permalink: /api/features/RestoreMode/
 ---
 
 

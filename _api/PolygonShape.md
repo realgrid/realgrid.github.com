@@ -1,10 +1,10 @@
 ---
 layout: apipost
 title: PolygonShape
-part: Fectures
+part: Features
 objectname: 
 directiontype: 
-permalink: /api/fectures/PolygonShape/
+permalink: /api/features/PolygonShape/
 ---
 
 
