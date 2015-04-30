@@ -12,6 +12,8 @@ tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 </blockquote>
 
 #### 목차
+---
+
 * [들어가며](#head1)
 * [깃허브(GitHub) 아이디 만들기](#head2)
 * 깃허브 아바타(Avata) 변경하기
@@ -22,6 +24,9 @@ tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 * 작성한 강좌를 깃허블에 올리기
 * 깃허브에서 직접 코드 수정하기
 * 본 페이지 소스 코드 보기
+
+---
+
 
 ### 들어가며
 
@@ -54,21 +59,9 @@ https://octodex.github.com/
 
 페이지 작성에 대한 예를 확인 하고 싶다면 본 페이지의 markdown 텍스트를 확인 하시면 도움이 되리라 생각 됩니다.
 
-<button type="button" class="btn btn-info" onclick="javascript:$('.prettyprint').hide();">
-  Simple collapsible
+<button type="button" class="btn btn-info" onclick="javascript:$('.prettyprint').toggle();">
+  코드 보기/감추기
 </button>
-
-<div name="demo" class="collapse in">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</div>
-
-<div class="bs-callout bs-callout-info" id="callout-navs-tabs-plugin">
-    <h4 id="using-navs-for-tab-panels-requires-javascript-tabs-plugin">Using navs for tab panels requires JavaScript tabs plugin<a class="anchorjs-link" href="#using-navs-for-tab-panels-requires-javascript-tabs-plugin"><span class="anchorjs-icon"></span></a></h4>
-    <p>For tabs with tabbable areas, you must use the <a href="../javascript/#tabs">tabs JavaScript plugin</a>. The markup will also require additional <code>role</code> and ARIA attributes – see the plugin's <a href="../javascript/#tabs-usage">example markup</a> for further details.</p>
-  </div>
 
 <pre class="prettyprint">
 ---
