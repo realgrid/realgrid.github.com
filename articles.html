@@ -5,7 +5,7 @@ permalink: /articles/
 ---
 
 <ul class="post-list">
-    {% for post in site.posts %}{% if post.categories != "about" %}
+    {% for post in site.posts %}{% if post.category != "releasenote" and post.category != 'about' %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

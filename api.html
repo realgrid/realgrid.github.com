@@ -4,7 +4,7 @@ permalink: /api/
 ---
 
 <div class="col-md-4">
-  <h4>Features</h4>
+  <h3>Features</h3>
   <ul class="post-api-list">
 	{% for post in site.api %}{% if post.part == 'Features' %}
 	    <li>
@@ -13,7 +13,7 @@ permalink: /api/
 	{% endif %}{% endfor %}
   </ul>
 
-  <h4>Types</h4>
+  <h3>Types</h3>
   <ul class="post-api-list">
 	{% for post in site.api %}{% if post.part == 'Types' %}
 		<li>
@@ -24,7 +24,7 @@ permalink: /api/
 </div>
 
 <div class="col-md-8">
-  <h4>Objects</h4>
+  <h3>Objects</h3>
 	  {% for object_name in site.object_names %}
 	  <h5 class="text-warning">{{ object_name }}</h5>
 	  <div class="row">

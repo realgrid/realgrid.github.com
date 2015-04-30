@@ -190,6 +190,16 @@
     }
 }
 
+.post-release-list {
+    margin-left: 0;
+    list-style: none;
+    font-size: $middle-font-size;
+
+    > li {
+        margin-bottom: 0;
+    }
+}
+
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
@@ -208,6 +218,14 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+}
+
+.post-bigfont {
+    font-size: 18px;
+}
+
+.post-smallfont {
+    font-size: 14px;
 }
 
 .post-title {
