@@ -21,4 +21,13 @@ layout: default
   
 </div>
 
-{% include apisidemenu.html %}
+<script>
+  $(document).ready( function() {
+    var url = "/apisidemenu.html";
+    $("#sidemenu").html("<p>loading...</p>").load(url);
+  });
+</script>
+
+<div class="col-md-3" id="sidemenu">
+   
+</div>

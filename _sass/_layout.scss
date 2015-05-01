@@ -3,8 +3,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid #999;
+    border-bottom: 1px solid #ccc;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -17,10 +17,11 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    font-weight: bold;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #000;
     }
 }
 

@@ -79,9 +79,33 @@ realgrid/realgrid.github.com
 
 페이지 작성에 대한 예를 확인 하고 싶다면 본 페이지의 markdown 텍스트를 확인 하시면 도움이 되리라 생각 됩니다.
 
+**javascript테스트**
+
 <button type="button" class="btn btn-info" onclick="javascript:$('.prettyprint').toggle();">
   코드 보기/감추기
 </button>
+
+<script>
+    $(document).ready( function() {
+        $.ajaxSetup ({
+            cache: false
+        });
+
+        $("#link").click( function(e) {
+            e.preventDefault();
+
+            var url = "/apisidemenu.html";
+            $("#sidemenu").html("<p>loading...</p>").load(url);
+
+        });
+    });
+</script>
+
+<button type="button" id="link" class="btn btn-info">
+  메뉴 보기
+</button>
+
+<div id="sidemenu"> </div>
 
 <pre class="prettyprint">
 ---

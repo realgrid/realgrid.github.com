@@ -1,4 +1,10 @@
-<div class="col-md-3">
+---
+layout: rowdiv
+---
+
+this page include the api side menus
+
+
   <ul class="post-api-list">
   <h4>Types</h4>
   {% for post in site.api %}{% if post.part == 'Types' %}
@@ -8,7 +14,6 @@
   {% endif %}{% endfor %}
   </ul>
 
-{% comment %}
   <ul class="post-api-list">
   <h4>Features</h4>
   {% for post in site.api %}{% if post.part == 'Features' %}
@@ -39,5 +44,3 @@
     {% endif %}{% endfor %}
     </ul>
   {% endfor %}
-{% endcomment %}
-</div>
