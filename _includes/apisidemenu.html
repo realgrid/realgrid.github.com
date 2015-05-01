@@ -1,27 +1,4 @@
----
-layout: default
----
-<div class="post col-md-9">
-
-  <header class="post-header">
-    <h2 class="post-title">{{ page.title }}</h2>
-    <p class="post-meta">{{ page.part }} 
-    	{% if page.objectname %} &gt; {{ page.objectname }} {% endif %} 
-    	{% if page.directiontype %} &gt; {{ page.directiontype }} {% endif %} 
-	</p>
-    <!--
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    -->
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-  
-</div>
-
 <div class="col-md-3">
-
   <ul class="post-api-list">
   <h4>Types</h4>
   {% for post in site.api %}{% if post.part == 'Types' %}
@@ -31,6 +8,7 @@ layout: default
   {% endif %}{% endfor %}
   </ul>
 
+{% comment %}
   <ul class="post-api-list">
   <h4>Features</h4>
   {% for post in site.api %}{% if post.part == 'Features' %}
@@ -61,5 +39,5 @@ layout: default
     {% endif %}{% endfor %}
     </ul>
   {% endfor %}
-
+{% endcomment %}
 </div>
