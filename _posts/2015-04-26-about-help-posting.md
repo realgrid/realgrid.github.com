@@ -12,8 +12,6 @@ tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 </blockquote>
 
 #### 목차
----
-
 * [들어가며](#head1)
 * [깃허브(GitHub) 아이디 만들기](#head2)
 * 깃허브 아바타(Avata) 변경하기
@@ -24,8 +22,6 @@ tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 * 작성한 강좌를 깃허블에 올리기
 * 깃허브에서 직접 코드 수정하기
 * 본 페이지 소스 코드 보기
-
----
 
 
 ### 들어가며
@@ -42,7 +38,15 @@ doc.realgrid.com공동개발에 참여하기 위해서는 [깃허브](http://git
 https://octodex.github.com/
 
 ### 리파지터리(repository)에 참여하기
-realgrid/realgrid.github.com 
+doc.realgrid.com의 깃허브 리파지터리는 아래와 같습니다.
+
+`realgrid/realgrid.github.com`
+
+이 리파지터리에 참여 하는 방법은 다음과 같습니다.
+1. doc.realgrid.com 리파지터리를 본인의 리파지터리로 fork해서 수정된 내용을 pull request하는 방법이 있습니다.
+2. 리파지터리 오너에게 메일로 본인의 깃허브 아이디를 알려주고 협업자(Collaborator)로 참여 하는 방법이 있습니다.
+
+내부의 직원이 아닌 경우 보통 1번의 방법을 이용하여 개발에 참여 할 수 있습니다.
 
 ### 내 PC에 로컬 클론(local clone)만들기
 
