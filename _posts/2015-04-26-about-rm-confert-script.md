@@ -24,16 +24,16 @@ drop table if exists tempWiki5;
 /*작업전 원본 text
 
     select `text` from bitnami_redmine.wiki_contents where id = 34 into outfile 'D:\\rm_wiki_files\\origine_32.md' CHARACTER SET utf8;;
-    
+
 */
 
 -- realgrid web wiki만 뽑아낸다. 첫행을 분리해 내고 제거한다.
 create temporary table if not exists tempWiki1 AS (
-    select id, substring_index(`text`, '\r\n', 1) as filename, 
+    select id, substring_index(`text`, '\r\n', 1) as filename,
             replace(text, substring_index(`text`, '\r\n', 1), '') as body
     from bitnami_redmine.wiki_contents
     where page_id in (
-            select id 
+            select id
             from bitnami_redmine.wiki_pages
             where wiki_id = 2 and parent_id = 33)
     and page_id <> 467
@@ -41,14 +41,14 @@ create temporary table if not exists tempWiki1 AS (
 
 -- filename을 파일명으로 만들기 위한 작업
  create temporary table if not exists tempWiki1_1 as (
-    select id, replace(replace(replace(filename, '  ', ' '), 'h1. ', ''), 'h2. ', '') filename, 
+    select id, replace(replace(replace(filename, '  ', ' '), 'h1. ', ''), 'h2. ', '') filename,
             replace(replace(body, 'h1.', '###'), 'h2. ', '#### ') body
     from tempWiki1
  );
 
 -- pre code tag
  create temporary table if not exists tempWiki1_2 as (
-    select id, filename, 
+    select id, filename,
             replace(body, 'pre type="code"', 'pre class="prettyprint"') body
     from tempWiki1_1
  );
@@ -70,7 +70,7 @@ create temporary table if not exists tempWiki1 AS (
                 when locate('TreeView', filename) > 0 then 'Objects'
                 when locate('GridView', filename) > 0 then 'Objects'
                 else 'Features'
-            end as part, 
+            end as part,
            case when locate('Type', filename) > 0 then trim(replace(filename, ' Type', ''))
                 when locate('Class', filename) > 0 then trim(replace(filename, 'Class', ''))
                 when locate('GridBase', filename) > 0 then trim(replace(filename, 'GridBase', ''))
@@ -80,7 +80,7 @@ create temporary table if not exists tempWiki1 AS (
                 when locate('TreeView', filename) > 0 then trim(replace(filename, 'TreeView', ''))
                 when locate('GridView', filename) > 0 then trim(replace(filename, 'GridView', ''))
                 else filename
-            end as title, 
+            end as title,
            case when locate('GridBase', filename) > 0 then 'GridBase'
                 when locate('TreeDataProvider', filename) > 0 then 'TreeDataProvider'
                 when locate('LocalDataProvider', filename) > 0 then 'LocalDataProvider'
@@ -88,16 +88,16 @@ create temporary table if not exists tempWiki1 AS (
                 when locate('TreeView', filename) > 0 then 'TreeView'
                 when locate('GridView', filename) > 0 then 'GridView'
                 else null
-            end as objectname, 
+            end as objectname,
             filename, body
     from tempWiki2
 );
 
 -- get object directiontype
 create temporary table if not exists tempWiki4 as (
-    
-    select id, part, objectname, 
-            replace(replace(filename, ' ', '_'), '\r\n', '') as filename, 
+
+    select id, part, objectname,
+            replace(replace(filename, ' ', '_'), '\r\n', '') as filename,
         case when left(title, 2) = 'on' and part = 'Objects' then 'Callback'
              when left(title, 2) <> 'on' and part = 'Objects' then 'Function'
         end as directiontype,
@@ -168,4 +168,4 @@ select concat('a', '\n', 'b') into outfile 'D:\\rm_wiki_files\\outfile_test1.md'
 select concat('a', CHAR(10 using utf8), 'b', '한') into outfile 'D:\\rm_wiki_files\\outfile_test2.md' CHARACTER SET utf8;
 select concat('a', CHAR(10 using utf8), 'b', '한') into outfile 'D:\\rm_wiki_files\\outfile_test3.md' CHARACTER SET utf8 LINES TERMINATED BY '\n';
 */
-</pre> 
+</pre>

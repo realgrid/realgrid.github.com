@@ -2,7 +2,7 @@
 layout: post
 title: Released RealGrid Flash 1.1.13
 date: 2015-03-13 15:47:54 +9:00 GMT
-category: releasenote
+category: "Release Notes"
 product: flash
 version: 1.1.13
 ---

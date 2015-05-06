@@ -2,7 +2,8 @@
 layout: post
 title:  RealGrid Basic with ASP.NET & MS SQLServer
 date:   2015-04-23 15:47:54
-categories: 기초과정
+categories: article
+course: 기초과정
 ---
 
 ### Architeatures
@@ -13,7 +14,7 @@ categories: 기초과정
 >   * <th>Field Name</th>
 >   * <td>Code</td>
 >   * <td>ProductName</td>
->   * <td>Volume</td>
+>   * <td>Volume</td> 
 >   * <td>Unit</td>
 >   * <td>Price</td>
 

@@ -36,7 +36,7 @@ tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 [Github를 이용하는 전체 흐름 이해하기 #2](http://blog.outsider.ne.kr/866)
 
 ### <a name="head2"></a>깃허브 아이디 만들기
-doc.realgrid.com공동개발에 참여하기 위해서는 [깃허브](http://github.com) 아이디가 있어야 합니다. 만약 깃허브 아이디가 없다면, 아래 링크된 사이트에서 아이디, 메일주소, 암호를 입력하고 새로운 계정을 만들어야 합니다. 아이디가 있다면 
+doc.realgrid.com공동개발에 참여하기 위해서는 [깃허브](http://github.com) 아이디가 있어야 합니다. 만약 깃허브 아이디가 없다면, 아래 링크된 사이트에서 아이디, 메일주소, 암호를 입력하고 새로운 계정을 만들어야 합니다. 아이디가 있다면
 계정을 만들고 처음 깃허브에 로그인 하면 화면과 같습니다.
 
 ![](/images/help/img-git01.png)
@@ -66,6 +66,7 @@ help.realgrid.com의 깃허브 리파지터리는 아래와 같습니다.
 * [지킬(Jekyll) 설치](http://jekyllrb-ko.github.io/docs/installation/)
 * [Sublime Text 설치](http://www.sublimetext.com/)
 * [Visual Studio Code 설치](https://code.visualstudio.com/)
+* [Atom 설치](https://atom.io/)
 
 ##### 재료(for Windows)
 * 깃허브 API 설치
@@ -98,7 +99,7 @@ help.realgrid.com의 깃허브 리파지터리는 아래와 같습니다.
 
 ### <a name="head8"></a>작성한 강좌를 깃허브에 올리기
 
-\_draft폴더내에 작성된 강좌는 git hub에 add, push합니다. desktop GUI를 이용할 경우 `changes`탭에서 `Commit and Sync master`로 작성한 내용을 push합니다. 
+\_draft폴더내에 작성된 강좌는 git hub에 add, push합니다. desktop GUI를 이용할 경우 `changes`탭에서 `Commit and Sync master`로 작성한 내용을 push합니다.
 
 ![](/images/help/img-mac-git-commit.png)
 
@@ -153,7 +154,7 @@ tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 [Github&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xb294; &#xc804;&#xccb4; &#xd750;&#xb984; &#xc774;&#xd574;&#xd558;&#xae30; #2](http://blog.outsider.ne.kr/866)
 
 ### &lt;a name=&quot;head2&quot;&gt;&lt;/a&gt;&#xae43;&#xd5c8;&#xbe0c; &#xc544;&#xc774;&#xb514; &#xb9cc;&#xb4e4;&#xae30;
-doc.realgrid.com&#xacf5;&#xb3d9;&#xac1c;&#xbc1c;&#xc5d0; &#xcc38;&#xc5ec;&#xd558;&#xae30; &#xc704;&#xd574;&#xc11c;&#xb294; [&#xae43;&#xd5c8;&#xbe0c;](http://github.com) &#xc544;&#xc774;&#xb514;&#xac00; &#xc788;&#xc5b4;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;. &#xb9cc;&#xc57d; &#xae43;&#xd5c8;&#xbe0c; &#xc544;&#xc774;&#xb514;&#xac00; &#xc5c6;&#xb2e4;&#xba74;, &#xc544;&#xb798; &#xb9c1;&#xd06c;&#xb41c; &#xc0ac;&#xc774;&#xd2b8;&#xc5d0;&#xc11c; &#xc544;&#xc774;&#xb514;, &#xba54;&#xc77c;&#xc8fc;&#xc18c;, &#xc554;&#xd638;&#xb97c; &#xc785;&#xb825;&#xd558;&#xace0; &#xc0c8;&#xb85c;&#xc6b4; &#xacc4;&#xc815;&#xc744; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;. &#xc544;&#xc774;&#xb514;&#xac00; &#xc788;&#xb2e4;&#xba74; 
+doc.realgrid.com&#xacf5;&#xb3d9;&#xac1c;&#xbc1c;&#xc5d0; &#xcc38;&#xc5ec;&#xd558;&#xae30; &#xc704;&#xd574;&#xc11c;&#xb294; [&#xae43;&#xd5c8;&#xbe0c;](http://github.com) &#xc544;&#xc774;&#xb514;&#xac00; &#xc788;&#xc5b4;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;. &#xb9cc;&#xc57d; &#xae43;&#xd5c8;&#xbe0c; &#xc544;&#xc774;&#xb514;&#xac00; &#xc5c6;&#xb2e4;&#xba74;, &#xc544;&#xb798; &#xb9c1;&#xd06c;&#xb41c; &#xc0ac;&#xc774;&#xd2b8;&#xc5d0;&#xc11c; &#xc544;&#xc774;&#xb514;, &#xba54;&#xc77c;&#xc8fc;&#xc18c;, &#xc554;&#xd638;&#xb97c; &#xc785;&#xb825;&#xd558;&#xace0; &#xc0c8;&#xb85c;&#xc6b4; &#xacc4;&#xc815;&#xc744; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;. &#xc544;&#xc774;&#xb514;&#xac00; &#xc788;&#xb2e4;&#xba74;
 &#xacc4;&#xc815;&#xc744; &#xb9cc;&#xb4e4;&#xace0; &#xcc98;&#xc74c; &#xae43;&#xd5c8;&#xbe0c;&#xc5d0; &#xb85c;&#xadf8;&#xc778; &#xd558;&#xba74; &#xd654;&#xba74;&#xacfc; &#xac19;&#xc2b5;&#xb2c8;&#xb2e4;.
 
 ![](/images/help/img-git01.png)
@@ -215,7 +216,7 @@ help.realgrid.com&#xc758; &#xae43;&#xd5c8;&#xbe0c; &#xb9ac;&#xd30c;&#xc9c0;&#xd1
 
 ### &lt;a name=&quot;head8&quot;&gt;&lt;/a&gt;&#xc791;&#xc131;&#xd55c; &#xac15;&#xc88c;&#xb97c; &#xae43;&#xd5c8;&#xbe0c;&#xc5d0; &#xc62c;&#xb9ac;&#xae30;
 
-\_draft&#xd3f4;&#xb354;&#xb0b4;&#xc5d0; &#xc791;&#xc131;&#xb41c; &#xac15;&#xc88c;&#xb294; git hub&#xc5d0; add, push&#xd569;&#xb2c8;&#xb2e4;. desktop GUI&#xb97c; &#xc774;&#xc6a9;&#xd560; &#xacbd;&#xc6b0; `changes`&#xd0ed;&#xc5d0;&#xc11c; `Commit and Sync master`&#xb85c; &#xc791;&#xc131;&#xd55c; &#xb0b4;&#xc6a9;&#xc744; push&#xd569;&#xb2c8;&#xb2e4;. 
+\_draft&#xd3f4;&#xb354;&#xb0b4;&#xc5d0; &#xc791;&#xc131;&#xb41c; &#xac15;&#xc88c;&#xb294; git hub&#xc5d0; add, push&#xd569;&#xb2c8;&#xb2e4;. desktop GUI&#xb97c; &#xc774;&#xc6a9;&#xd560; &#xacbd;&#xc6b0; `changes`&#xd0ed;&#xc5d0;&#xc11c; `Commit and Sync master`&#xb85c; &#xc791;&#xc131;&#xd55c; &#xb0b4;&#xc6a9;&#xc744; push&#xd569;&#xb2c8;&#xb2e4;.
 
 ![](/images/help/img-mac-git-commit.png)
 
@@ -236,4 +237,3 @@ help.realgrid.com&#xc758; &#xae43;&#xd5c8;&#xbe0c; &#xb9ac;&#xd30c;&#xc9c0;&#xd1
 &lt;/pre&gt;
 
 </pre>
-
