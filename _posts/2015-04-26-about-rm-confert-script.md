@@ -2,8 +2,8 @@
 layout: post
 title: Redmine WiKi Convert Script
 date: 2015-04-24 15:47:54 +9:00 GMT
-category: about
-permalink: /about/rm-convert-script/
+category: help
+permalink: /help/rm-convert-script/
 ---
 
 ### rm convert code
