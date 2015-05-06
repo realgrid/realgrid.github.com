@@ -2,7 +2,7 @@
 layout: post
 title: DOC.REALGRID.COM 공동개발에 참여하기
 date: 2015-04-30 15:47:54 +9:00 GMT
-category: about
+category: help
 permalink: /about/help-posing
 tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 ---
@@ -27,6 +27,8 @@ tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 ### 들어가며
 
 이 문서는 doc.realgrid.com(help.realgrid.com)에 자신의 컨텐츠를 게시하는 것과 같이, 사이트의 개발에 직접 참여하는 방법을 설명 하고 있습니다. 하지만, 내부직원이 아닌 경우 API 문서를 추가/변경 하는 것에는 제한이 있으며, RealGrid를 사용하는 방법이나 활용하여 응용프로그램을 만드는 방법등에 대한 강좌는 작성하여 게시할 수 있습니다.
+
+doc.realgrid.com
 
 ### 깃허브(GitHub) 아이디 만들기
 doc.realgrid.com공동개발에 참여하기 위해서는 [깃허브](http://github.com) 아이디가 있어야 합니다. 만약 깃허브 아이디가 없다면, 아래 링크된 사이트에서 아이디, 메일주소, 암호를 입력하고 새로운 계정을 만들어야 합니다. 아이디가 있다면 
@@ -150,3 +152,7 @@ https://octodex.github.com/
 
 ### &lt;a name=&quot;head6&quot;&gt;&lt;/a&gt;새로운 강좌 올리기
 </pre>
+
+### 포스트 작성 방법(문법)
+[http://jekyllrb-ko.github.io/docs/posts/](http://jekyllrb-ko.github.io/docs/posts/)
+[Markdown 작성 방법 참조](https://guides.github.com/features/mastering-markdown/)
