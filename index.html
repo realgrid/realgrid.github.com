@@ -19,8 +19,8 @@ layout: page
 		</p>
 
 		<!-- RealGrid Js Rlease Notes -->
-		<h3 class="page-header"> RealGrid Js 최근 변경 내용 <button type="button" class="btn btn-primary btn-xs pull-right">more</button> </h3>
-	    {% for post in site.posts %}{% if post.category == "releasenote" and post.product == "js" %}
+		<h3 class="page-header"> RealGrid Js 최근 변경 내용 <a href="{{ 'releases' | prepend: site.baseurl }}" ><button type="button" class="btn btn-primary btn-xs pull-right">more</button></a> </h3>
+	    {% for post in site.posts %}{% if post.category == "Release Notes" and post.product == "js" %}
 		<header class="post-title">
 			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
 				{{ post.date | date: "%b %-d, %Y" }} {{ post.title }}
@@ -33,8 +33,8 @@ layout: page
 	    {% endif %}{% endfor %}
 
 		<!-- RealGrid Flash Rlease Notes -->
-		<h3 class="page-header"> RealGrid Flash 최근 변경 내용 </h3>
-	    {% for post in site.posts %}{% if post.category == "releasenote" and post.product == "flash" %}
+		<h3 class="page-header"> RealGrid Flash 최근 변경 내용 <a href="{{ 'releases' | prepend: site.baseurl }}" ><button type="button" class="btn btn-primary btn-xs pull-right">more</button></a> </h3>
+	    {% for post in site.posts %}{% if post.category == "Release Notes" and post.product == "flash" %}
 		<header class="post-title">
 			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
 				{{ post.date | date: "%b %-d, %Y" }} {{ post.title }}
@@ -51,4 +51,3 @@ layout: page
 	<div class="col-md-1">
 	</div>
 </div>
-

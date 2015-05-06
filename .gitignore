@@ -1,5 +1,8 @@
 _site
+
 .sass-cache
+
+.settings
 
 .Ulysses-Group.plist
 

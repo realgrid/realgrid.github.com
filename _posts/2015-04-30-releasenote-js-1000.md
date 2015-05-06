@@ -7,4 +7,4 @@ product: js
 version: 1.0.0
 ---
 
-* RealGrid Js 1.0.0 정식 버전이 출시되었습니다.
+1. RealGrid Js 1.0.0 정식 버전이 출시되었습니다.
