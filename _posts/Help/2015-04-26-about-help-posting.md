@@ -78,7 +78,7 @@ help.realgrid.com의 깃허브 리파지터리는 아래와 같습니다.
 
 ##### Sublime Markdown Package 설치
 * Package Control 설치 (https://packagecontrol.io/installation)후 sublime restart
-* Cmd+Shift+P 단축키를 눌러 "Package Control:Install Package" 선
+* Cmd+Shift+P 단축키를 눌러 "Package Control:Install Package" 선택.
 * Package Browser에서 Markdown editor 선택하여 설치.
 
 
