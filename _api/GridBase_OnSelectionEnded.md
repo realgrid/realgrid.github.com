@@ -4,7 +4,7 @@ title: onSelectionEnded
 part: Objects
 objectname: GridBase
 directiontype: Callback
-permalink: /api/GridBase/OnSelectionEnded/
+permalink: /api/GridBase/onSelectionEnded/
 ---
 
 
