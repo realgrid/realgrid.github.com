@@ -12,12 +12,12 @@ permalink: /api/features/ValidationResult/
 
 #### Properties
 
-> *level* 
+> **level** 
 > Type: [ValidationLevel](/api/features/)
 > default: ValidationLevel.ERROR
 > Row 데이터 검증 결과 수준을 지정한다.
 
-> *message* 
+> **message** 
 > Type: String  
 > default: "Validation error." 
 > 표시할 메시지 내용을 지정한다.

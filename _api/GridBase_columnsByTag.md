@@ -20,7 +20,7 @@ permalink: /api/GridBase/columnsByTag/
 
 #### Parameters
 
-> *tag*
+> **tag**
 > Type: string
 > 컬럼 tag
 

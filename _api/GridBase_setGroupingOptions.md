@@ -18,7 +18,7 @@ permalink: /api/GridBase/setGroupingOptions/
 
 #### Parameters
 
-> *Options*
+> **Options**
 > Type: Object
 > 
 

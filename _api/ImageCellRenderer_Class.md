@@ -12,7 +12,7 @@ permalink: /api/types/ImageCellRenderer/
 
 #### Properties
 
-> *smoothing*
+> **smoothing**
 > Type: boolean
 > Default: false
 > true이면 실제 이미지보다 크게 그릴 때 보정하여 그린다. 느리지만 보다 품질 좋은 렌더링을 하게된다.

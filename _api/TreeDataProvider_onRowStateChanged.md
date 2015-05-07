@@ -18,11 +18,11 @@ permalink: /api/TreeDataProvider/onRowStateChanged/
 
 #### Arguments
 
-> *provider*
-> Type: [TreeDataProvider|TreeDataProvider](/api/TreeDataProvider/)
+> **provider**
+> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
 > TreeDataProvider object.
 
-> *rowId*
+> **rowId**
 > Type: number
 > 
 

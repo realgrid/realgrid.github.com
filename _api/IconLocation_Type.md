@@ -13,23 +13,23 @@ permalink: /api/types/IconLocation/
   
 #### Members
 
-> *LEFT*
+> **LEFT**
 > Value: "LEFT"
 > Icon을 Text 왼쪽에 표시한다.
 
-> *RIGHT*
+> **RIGHT**
 > Value: "right"
 > Icon을 Text 오른쪽에 표시한다.
 
-> *TOP*
+> **TOP**
 > Value: "top"
 > Icon을 Text 위에 표시한다.
 
-> *BOTTOM* 
+> **BOTTOM** 
 > Value: "bottom"
 > Icon을 Text 아래 표시한다.
 
-> *CENTER* 
+> **CENTER** 
 > Value: "center"
 > Icon을 Cell의 중앙에 표시한다. 이때는 Text가 표시되지 않는다.
 

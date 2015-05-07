@@ -18,11 +18,11 @@ permalink: /api/GridBase/getModelsOfRows/
 
 #### Parameters
 
-> *dataRow*
+> **dataRow**
 > Type: Array of Number
 > data의 행번호들
 
-> *extended*
+> **extended**
 > Type: Boolean
 > 확장정보 포함 여부
 

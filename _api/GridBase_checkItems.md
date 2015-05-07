@@ -18,11 +18,11 @@ permalink: /api/GridBase/checkItems/
 
 #### Parameters
 
-> *items*
+> **items**
 > Type: Array of Number
 > 아이템 Index배열을 입력한다.
 
-> *checked*
+> **checked**
 > Type: Boolean
 > Default: true
 > true를 입력하면 items로 입력된 아이템배열에 해당하는 아이템을 체크한다. false로 입력하면 체크를 해제한다.

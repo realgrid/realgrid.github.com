@@ -12,23 +12,23 @@ permalink: /api/types/ItemState/
 
 #### Members
 
-> *NORMAL*
+> **NORMAL**
 > Value: "normal"
 > 일반 상태
 
-> *FOCUSED*
+> **FOCUSED**
 > Value: "focused"
 > Row가 선택중인 상태 (current가 Row의 cell중 하나)
 
-> *UPDATING*
+> **UPDATING**
 > Value: "updating"
 > Row 수정을 시작해서 commit되기 전까지의 상태
 
-> *INSERTING*
+> **INSERTING**
 > Value: "inserting"
 > Row 삽입을 시작해서 commit되기 전까지의 상태
 
-> *APPENDING*
+> **APPENDING**
 > Value: "appending"
 > Row 추가를 시작해서 commit되기 전까지의 상태
 

@@ -18,23 +18,23 @@ permalink: /api/GridBase/onValidateRow/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *itemIndex*
+> **itemIndex**
 > Type: number
 > 검증하는 행의 아이템 인덱스
 
-> *dataRow*
+> **dataRow**
 > Type: number
 > 검증하는 행의 데이터 행 번호.
 
-> *inserting*
+> **inserting**
 > Type: boolean
 > 행 추가 중이면 true. 행 수정 중이면 false.
 
-> *values*
+> **values**
 > Type: array
 > 입력된 필드들의 값이 순서대로 들어 있다.
 

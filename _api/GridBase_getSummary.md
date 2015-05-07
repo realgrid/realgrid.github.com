@@ -10,7 +10,7 @@ permalink: /api/GridBase/getSummary/
 
 #### Description
 
-> Field의 합계값을 가져온다. [summaryMode|summaryMode](/api/GridBase/)에 따라서 가져올수 있는 값이 다르다.
+> Field의 합계값을 가져온다. [summaryMode\|summaryMode](/api/GridBase/)에 따라서 가져올수 있는 값이 다르다.
 
 #### Syntax
 
@@ -18,11 +18,11 @@ permalink: /api/GridBase/getSummary/
 
 #### Parameters
 
-> *field*
-> Type: String|integer
+> **field**
+> Type: String\|integer
 > 필드명 또는 fieldIndex
 
-> *summary*
+> **summary**
 > Type: String
 > Default: "sum"
 > sum, avg등을 입력한다.

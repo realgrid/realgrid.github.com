@@ -10,7 +10,7 @@ permalink: /api/GridBase/getGridOptions/
 
 #### Description
 
-> 그리드 옵션 정보를 가져온다. [GridBase_setGridOptions|setGridOptions](/api/GridBase/)와 다르게 [GridOptions](/api/GridBase/)에서 선언된 그리드 수준의 정보만을 반환한다.
+> 그리드 옵션 정보를 가져온다. [GridBase_setGridOptions\|setGridOptions](/api/GridBase/)와 다르게 [GridOptions](/api/GridBase/)에서 선언된 그리드 수준의 정보만을 반환한다.
 
 #### Syntax
 

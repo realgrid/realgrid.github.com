@@ -20,14 +20,14 @@ permalink: /api/LocalDataProvider/removeRows/
 
 #### Parameters
 
-> *rows*
+> **rows**
 > Type: Array of number
 > 삭제하려는 dataRow의 배열이다.
 
-> *rowEvents*
+> **rowEvents**
 > Type: Boolean
-> true인경우 삭제되는 건별로 [LocalDataProvider onRowDeleted|onRowDeleted](/api/LocalDataProvider/)가 호출된다.
-> false인경우 삭제가 완료된후 [LocalDataProvider onRowsDeleted|onRowsDeleted](/api/LocalDataProvider/)가 한번만 호출된다.
+> true인경우 삭제되는 건별로 [LocalDataProvider onRowDeleted\|onRowDeleted](/api/LocalDataProvider/)가 호출된다.
+> false인경우 삭제가 완료된후 [LocalDataProvider onRowsDeleted\|onRowsDeleted](/api/LocalDataProvider/)가 한번만 호출된다.
 > 지정되지 않으면 false이다.
 
 #### Return value

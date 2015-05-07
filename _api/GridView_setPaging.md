@@ -18,19 +18,19 @@ permalink: /api/GridView/setPaging/
 
 #### Parameters
 
-> *paging*
+> **paging**
 > Type: number
 > true면 그리드가 페이징 모드로 데이터를 표시한다.
 
-> *pageSize*
+> **pageSize**
 > Type: number
 > 페이지에 표시할 행의 개수. 지정하지 않으면 10.
 
-> *pageCount*
+> **pageCount**
 > Type: number
 > 페이지 개수. 지정하지 않으면 -1.
 
-> *pageSoruce*
+> **pageSoruce**
 > Type:
 >
 

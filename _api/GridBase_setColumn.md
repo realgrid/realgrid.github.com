@@ -20,7 +20,7 @@ permalink: /api/GridBase/setColumn/
 
 #### Parameters
 
-> *column*
+> **column**
 > Type: Object
 > 컬럼 설정 정보
 

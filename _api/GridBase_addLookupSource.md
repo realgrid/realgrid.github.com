@@ -20,7 +20,7 @@ permalink: /api/GridBase/addLookupSource/
 
 #### Parameters
 
-> *source*
+> **source**
 > Type: Object
 > LookupSource Object
 

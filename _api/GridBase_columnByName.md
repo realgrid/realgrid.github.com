@@ -19,14 +19,14 @@ permalink: /api/GridBase/columnByName/
 
 #### Parameters
 
-> *name*
+> **name**
 > Type: string
 > 컬럼 이름
 
 #### Return value
 
 > Type: Object
-> [dataColumn|컬럼 설정 정보](/api/GridBase/)나 컬럼이 존재하지 않는 경우 null.
+> [dataColumn\|컬럼 설정 정보](/api/GridBase/)나 컬럼이 존재하지 않는 경우 null.
 
 #### Example
 

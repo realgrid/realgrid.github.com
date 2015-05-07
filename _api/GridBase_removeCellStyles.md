@@ -18,7 +18,7 @@ permalink: /api/GridBase/removeCellStyles/
 
 #### Parameters
 
-> *ids*
+> **ids**
 > Type: Array of String
 > 삭제할 셀 스타일명의 배열
 

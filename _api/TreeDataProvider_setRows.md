@@ -18,23 +18,23 @@ permalink: /api/TreeDataProvider/setRows/
 
 #### Parameters
 
-> *rows*
+> **rows**
 > Type: Array of Array
 > 추가할 행들.
 
-> *treeField*
+> **treeField**
 > Type: String
 > 계층 정보로 사용할 필드의 이름.
 
-> *needSorting*
+> **needSorting**
 > Type: Boolean
 > 트리를 구성하기 전에 treeField를 기준으로 정렬을 먼저 해야 하는 지를 지정한다.
 
-> *childrenField*
+> **childrenField**
 > Type: String
 > 자식 행이 있는 지를 지시하는 필드.
 
-> *iconField*
+> **iconField**
 > Type: String
 > 트리 노드에 표시할 아이콘 경로를 값으로 가지고 있는 필드 이름.
 

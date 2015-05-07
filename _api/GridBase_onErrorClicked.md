@@ -18,11 +18,11 @@ permalink: /api/GridBase/onErrorClicked/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *error*
+> **error**
 > Type: String
 > 에러 메시지
 

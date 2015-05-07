@@ -18,11 +18,11 @@ permalink: /api/GridBase/onSelectionAdded/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *selection*
+> **selection**
 > Type: [SelectionItem](/api/GridBase/)과 같은 구조의 object.
 > 선택 영영 정보.
 

@@ -18,7 +18,7 @@ permalink: /api/GridBase/setFilteringOptions/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [FilteringOptions](/api/GridBase/) 모델과 같은 설정 정보. [FilteringOptions](/api/GridBase/) 중 변경하고자 하는 속성만 전달하면 된다.  
 

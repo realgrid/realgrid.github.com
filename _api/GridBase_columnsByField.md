@@ -19,7 +19,7 @@ permalink: /api/GridBase/columnsByField/
 
 #### Parameters
 
-> *fieldName*
+> **fieldName**
 > Type: string
 > 데이터필드 이름
 

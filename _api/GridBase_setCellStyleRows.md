@@ -20,11 +20,11 @@ permalink: /api/GridBase/setCellStyleRows/
 
 #### Parameters
 
-> *rows*
+> **rows**
 > Type: array of object
 > 셀 스타일을 적용할 데이터 행들
 
-> *fieldMap*
+> **fieldMap**
 > Type: array of object
 > 셀 스타일을 적용할 맵핑 정보들
 

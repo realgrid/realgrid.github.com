@@ -12,11 +12,11 @@ permalink: /api/types/SortDirection/
 
 #### Memebers
 
-> *ASCENDING* 
+> **ASCENDING** 
 > Value: "ascending" 
 > 순방향으로 정렬합니다. 
 
-> *DESCENDING* 
+> **DESCENDING** 
 > Value: "descending"
 > 역방향으로 정렬합니다. 
 

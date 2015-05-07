@@ -19,12 +19,12 @@ permalink: /api/DataProvider/updateStrictRow/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 수정할 행을 지정한다.
 
-> *values*
-> Type: array|object
+> **values**
+> Type: array\|object
 > 필드값의 배열이거나 object.
 
 #### Return value

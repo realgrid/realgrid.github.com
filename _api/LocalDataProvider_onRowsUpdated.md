@@ -11,7 +11,7 @@ permalink: /api/LocalDataProvider/onRowsUpdated/
 #### Description
 
 > LocalDataProvider에 데이터행들이 수정된 후에 호출된다.
-> [LocalDataProvider updateRows|updateRows](/api/LocalDataProvider/) 또는 [LocalDataProvider updateStrictRows|updateStrictRows](/api/LocalDataProvider/)에서 rowEvents를 false로 입력하고 실행하는 경우에만 호출된다.
+> [LocalDataProvider updateRows\|updateRows](/api/LocalDataProvider/) 또는 [LocalDataProvider updateStrictRows\|updateStrictRows](/api/LocalDataProvider/)에서 rowEvents를 false로 입력하고 실행하는 경우에만 호출된다.
 
 #### Syntax
 
@@ -19,15 +19,15 @@ permalink: /api/LocalDataProvider/onRowsUpdated/
 
 #### Arguments
 
-> *provider*
-> Type: [LocalDataProvider|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**
+> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
 > LocalDataProvider object.
 
-> *row*
+> **row**
 > Type:number
 > 수정이 시작된 행의 인덱스.
 
-> *count*
+> **count**
 > Type:Number
 > 수정된 행의 건수
 

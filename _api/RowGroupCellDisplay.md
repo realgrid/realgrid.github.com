@@ -12,15 +12,15 @@ permalink: /api/features/RowGroupCellDisplay/
 
 #### Members
 
-> *NORMAL*   
+> **NORMAL**   
 > Value: "normal"   
 > 그룹핑되지 않은 컬럼처럼 모든 row의 셀들을 표시한다.
 
-> *MERGE* 
+> **MERGE** 
 > Value: "merge" 
 > 해당 그룹의 모든 row의 셀들을 하나의 대표 셀로 표시한다.
 
-> *HIDE* 
+> **HIDE** 
 > Value: "hide" 
 > 해당 컬럼 자체를 표시하지 않는다.      
 

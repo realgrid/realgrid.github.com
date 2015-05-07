@@ -19,11 +19,11 @@ permalink: /api/GridBase/orderBy/
 
 #### Parameters
 
-> *fieldNames*
+> **fieldNames**
 > Type: Array of String
 > 정렬할 필드 이름 목록
 
-> *sortDirs*
+> **sortDirs**
 > Type: Array of [SortDirection](/api/GridBase/)
 > 각 필드에 대한 정렬 방식 목록
 

@@ -19,11 +19,11 @@ permalink: /api/TreeDataProvider/onRowStatesChanged/
 
 #### Arguments
 
-> *provider*
+> **provider**
 > Type: TreeDataProvider
 > TreeDataProvider object.
 
-> *rowIds*
+> **rowIds**
 > Array of Number
 > 변경된 행 Index의 배열
 

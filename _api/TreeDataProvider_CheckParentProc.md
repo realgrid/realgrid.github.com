@@ -18,11 +18,11 @@ permalink: /api/TreeDataProvider/CheckParentProc/
 
 #### Arguments
 
-> *parent*
+> **parent**
 > Type: 
 > 
 
-> *child*
+> **child**
 > Type:
 >
 

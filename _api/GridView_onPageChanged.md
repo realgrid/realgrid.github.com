@@ -18,11 +18,11 @@ permalink: /api/GridView/onPageChanged/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridView/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridView/)
 > GridView 컨트롤
 
-> *page*
+> **page**
 > Type: number
 > 새로 이동한 페이지 인덱스.
 

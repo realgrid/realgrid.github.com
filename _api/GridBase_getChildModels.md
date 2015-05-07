@@ -18,7 +18,7 @@ permalink: /api/GridBase/getChildModels/
 
 #### Parameters
 
-> *model*
+> **model**
 > Type: Object
 > Parent Model
 

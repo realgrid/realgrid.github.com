@@ -18,12 +18,12 @@ permalink: /api/GridBase/getCellStyle/
 
 #### Parameters
 
-> *dataRow*
+> **dataRow**
 > Type: number
 > 셀 스타일을 가져올 데이터 행의 번호
 
-> *field*
-> Type: string | number
+> **field**
+> Type: string \| number
 > 셀 스타일을 가져올 필드명이나 필드순서
 
 #### Return value

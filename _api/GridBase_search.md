@@ -18,7 +18,7 @@ permalink: /api/GridBase/search/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [SearchOptions](/api/GridBase/) 모델로 지정한다.
 

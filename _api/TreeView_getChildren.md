@@ -18,7 +18,7 @@ permalink: /api/TreeView/getChildren/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 자식행을 가져오려는 부모행의 itemIndex를 입력한다.
 

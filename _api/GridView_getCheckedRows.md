@@ -18,7 +18,7 @@ permalink: /api/GridView/getCheckedRows/
 
 #### Parameters
 
-> *sort*
+> **sort**
 > Type: Boolean
 > Default: true
 > false로 입력하면 화면에 보이는 순서대로 결과값이 반환된다. true로 입력하면 결과값을 올림차순으로 정렬해서 반환된다.

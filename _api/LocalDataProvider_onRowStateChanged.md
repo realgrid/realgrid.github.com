@@ -19,11 +19,11 @@ permalink: /api/LocalDataProvider/onRowStateChanged/
 
 #### Arguments
 
-> *provider*
-> Type: [LocalDataProvider|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**
+> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
 > LocalDataProvider object.
 
-> *row*
+> **row**
 > Number
 > rowState가 변경된 데이터행의 Index.
 

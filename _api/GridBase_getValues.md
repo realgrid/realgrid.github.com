@@ -19,7 +19,7 @@ permalink: /api/GridBase/getValues/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: integer
 > itemIndex를 입력한다.
 

@@ -19,28 +19,28 @@ permalink: /api/GridBase/onEditRowPasted/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 변경된 ItemIndex
 
-> *dataRow*
+> **dataRow**
 > Type: Number
 > 변경된 dataRow
 
-> *fields*
+> **fields**
 > Type: Array of Number
 >  필드의 인덱스값
 
-> *oldValues*
-> Type: Array of *
+> **oldValues**
+> Type: Array of **
 > 편집전 셀의 데이터 값들
 
-> *newValues*
-> Type: Array of *
+> **newValues**
+> Type: Array of **
 > 편집후 셀의 데이터 값들
 
 #### Return

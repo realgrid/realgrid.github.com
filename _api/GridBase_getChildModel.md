@@ -18,11 +18,11 @@ permalink: /api/GridBase/getChildModel/
 
 #### Parameters
 
-> *model*
+> **model**
 > Type: Object
 > Parent Model
 
-> *index*
+> **index**
 > Type: Number
 > 가져올 child model의 index
 

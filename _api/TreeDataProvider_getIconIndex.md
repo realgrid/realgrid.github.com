@@ -18,7 +18,7 @@ permalink: /api/TreeDataProvider/getIconIndex/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > 데이터 행의 트리 아이디.
 

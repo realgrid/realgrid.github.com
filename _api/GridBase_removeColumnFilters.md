@@ -18,11 +18,11 @@ permalink: /api/GridBase/removeColumnFilters/
 
 #### Parameters
 
-> *column*
-> Type: String|Object
-> columnName 또는 [DataColumn|column객체](/api/GridBase/)
+> **column**
+> Type: String\|Object
+> columnName 또는 [DataColumn\|column객체](/api/GridBase/)
 
-> *filterNames*
+> **filterNames**
 > Type: Array of String
 > 필터명의 배열이다.
 

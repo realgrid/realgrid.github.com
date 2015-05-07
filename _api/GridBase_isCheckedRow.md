@@ -18,7 +18,7 @@ permalink: /api/GridBase/isCheckedRow/
 
 #### Parameters
 
-> *dataRow*
+> **dataRow**
 > Type: Number
 > data행의 index
 

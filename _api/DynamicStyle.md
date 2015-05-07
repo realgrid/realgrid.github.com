@@ -12,12 +12,12 @@ permalink: /api/features/DynamicStyle/
 
 #### Properties
 
-> *criteria*
+> **criteria**
 > Type: String 
 > Default: null    
 > 조건식을 설정한다.    
 
-> *styles*
+> **styles**
 > Type: Object
 > 스타일을 설정한다.    
 

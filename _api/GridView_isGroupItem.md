@@ -18,7 +18,7 @@ permalink: /api/GridView/isGroupItem/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: number
 > 확인하려는 그리드상의 index
 

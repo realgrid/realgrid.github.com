@@ -18,7 +18,7 @@ permalink: /api/DataProvider/setFields/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: Array of object
 > 배열의 각 항목은 [DataField](/api/DataProvider/)와 같은 내용으로 구성되는 object다. 
 

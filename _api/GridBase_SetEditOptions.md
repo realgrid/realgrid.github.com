@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: SetEditOptions
+title: setEditOptions
 part: Objects
 objectname: GridBase
 directiontype: Function
-permalink: /api/GridBase/SetEditOptions/
+permalink: /api/GridBase/setEditOptions/
 ---
 
 
@@ -18,7 +18,7 @@ permalink: /api/GridBase/SetEditOptions/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: Object
 > [EditOptions](/api/GridBase/) 모델과 같은 설정 정보. [EditOptions](/api/GridBase/) 중 변경하고자 하는 값들만 전달하면 된다.  
 

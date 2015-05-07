@@ -18,7 +18,7 @@ permalink: /api/GridBase/removeLookupSource/
 
 #### Parameters
 
-> *sourceId*
+> **sourceId**
 > Type: String
 > 삭제할 룩업소스id
 

@@ -18,19 +18,19 @@ permalink: /api/GridBase/fillEditSearchItems/
 
 #### Parameters
 
-> *column*
-> Type: String|Object
+> **column**
+> Type: String\|Object
 > list가 표시될 컬럼의 name 또는 Column객체이다.
 
-> *searchKey*
+> **searchKey**
 > Type: String
 > 검색 키값이다.
 
-> *values*
+> **values**
 > Type: Array of String
 > 검색된 value값들
 
-> *labels*
+> **labels**
 > Type: Array of String
 > 검색된 label값들
 

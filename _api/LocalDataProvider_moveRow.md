@@ -19,11 +19,11 @@ permalink: /api/LocalDataProvider/moveRow/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 이동시키려는 dataRow를 지정한다.
 
-> *newRow*
+> **newRow**
 > Type: number
 > 이동될 dataRow를 지정한다.
 

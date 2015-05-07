@@ -11,8 +11,8 @@ permalink: /api/types/ActualTargetDifferenceRenderer/
 
 #### properties
 
-> **
+> ****
 >
 
-> **
+> ****
 >

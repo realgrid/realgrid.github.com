@@ -12,15 +12,15 @@ permalink: /api/types/Alignment/
 
 #### Members
 
-> *NEAR*
+> **NEAR**
 > Value: "near"
 > 텍스트나 아이콘을 좌측으로 정렬하거나, 위쪽에 정렬한다.
 
-> *CENTER*
+> **CENTER**
 > Value: "center"
 > 가운데나 중앙에 정렬한다.
 
-> *FAR*
+> **FAR**
 > Value: "far"
 > 우측이나 아래쪽에 정렬한다.
 

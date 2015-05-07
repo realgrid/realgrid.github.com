@@ -18,7 +18,7 @@ permalink: /api/TreeDataProvider/getChildren/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > Row Id
 

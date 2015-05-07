@@ -12,19 +12,19 @@ permalink: /api/types/SortStyle/
 
 #### Memebers
 
-> *NONE*      
+> **NONE**      
 > Value: "none"      
 > 정렬하지 않습니다.                                     
 
-> *EXCLUSIVE* 
+> **EXCLUSIVE** 
 > Value: "exclusive" 
 > 마지막으로 클릭한 컬럼으로 정렬합니다.                 
 
-> *INCLUSIVE* 
+> **INCLUSIVE** 
 > Value: "inclusive" 
 > 처음으로 클릭한 컬럼을 우선으로 순서대로 정렬합니다.   
 
-> *REVERSE*
+> **REVERSE**
 > Value: "reverse"
 > 마지막으로 클릭한 컬럼을 우선으로 순서대로 정렬합니다. 
 

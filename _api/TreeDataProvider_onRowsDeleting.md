@@ -19,11 +19,11 @@ permalink: /api/TreeDataProvider/onRowsDeleting/
 
 #### Parameters
 
-> *provider*
+> **provider**
 > Type: TreeDataProvider
 > TreeDataProvider object.
 
-> *rowIds*
+> **rowIds**
 > Type: Array of Number
 > 삭제되는 데이터행들의 id
 

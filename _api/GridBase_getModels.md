@@ -18,11 +18,11 @@ permalink: /api/GridBase/getModels/
 
 #### Parameters
 
-> *itemIndices*
+> **itemIndices**
 > Type: Array of Number
 > 아이템 index들
 
-> *extended*
+> **extended**
 > Type: Boolean
 > 확장정보 포함 여부
 

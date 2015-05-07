@@ -18,16 +18,16 @@ permalink: /api/GridBase/SetValue/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 아이템 인덱스
 
-> *field*
+> **field**
 > Type: Number
 > 필드 인덱스
 
-> *value*
-> Type: * 
+> **value**
+> Type: ** 
 > 필드에 설정할 값
 
 #### Return value

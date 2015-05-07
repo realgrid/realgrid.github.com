@@ -18,7 +18,7 @@ permalink: /api/TreeView/isCheckedRow/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > 체크되었는지 확인하려는 데이터행의 rowId를 입력한다.
 

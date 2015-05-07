@@ -18,7 +18,7 @@ permalink: /api/DataProvider/getJsonRow/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 >  행 번호
 

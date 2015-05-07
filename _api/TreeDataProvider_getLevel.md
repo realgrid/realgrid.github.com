@@ -18,7 +18,7 @@ permalink: /api/TreeDataProvider/getLevel/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > 데이터 행의 트리 아이디.
 

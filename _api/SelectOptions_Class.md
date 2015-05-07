@@ -12,7 +12,7 @@ permalink: /api/types/SelectOptions/
 
 #### Properties
 
-> *style*
+> **style**
 > Type: [SelectionStyle](/api/types/) 
 > Default: SelectionStyle.BLOCK 
 > 선택 영역이 설정되는 방식이다. 

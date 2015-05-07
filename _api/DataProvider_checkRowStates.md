@@ -18,7 +18,7 @@ permalink: /api/DataProvider/checkRowStates/
 
 #### Parameters
 
-> *check*
+> **check**
 > Type: boolean
 > true면 상태를 기록한다.
 > default: false

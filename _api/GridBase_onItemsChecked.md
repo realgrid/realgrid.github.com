@@ -10,7 +10,7 @@ permalink: /api/GridBase/onItemsChecked/
 
 #### Description
 
-> [GridBase_checkItems|GridBase.checkItems()](/api/GridBase/)을 입력하여 여러건의 체크상태를 변경하면 호출된다.
+> [GridBase_checkItems\|GridBase.checkItems()](/api/GridBase/)을 입력하여 여러건의 체크상태를 변경하면 호출된다.
 
 #### Syntax
 
@@ -18,15 +18,15 @@ permalink: /api/GridBase/onItemsChecked/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *items*
+> **items**
 > Type: Array of Number
 > 체크상태가 변경된 아이템인덱스 배열이다.
 
-> *checked*
+> **checked**
 > Type: Boolean
 > 체크가 되었으면 true, 해제가 되었으면 false가 출력된다.
 

@@ -12,22 +12,22 @@ permalink: /api/types/DateCellRenderer/
 
 #### Properties
 
-> *textReadOnly*
+> **textReadOnly**
 > Type: Boolean
 > Default: false
 >
 
-> *yearNavigation*
+> **yearNavigation**
 > Type: Boolean
 > Default: false
 >
 
-> *commitOnSelect*
+> **commitOnSelect**
 > Type: Boolean
 > Default: true
 >
 
-> *editFormat*
+> **editFormat**
 > Type: String
 > Default: null
 >

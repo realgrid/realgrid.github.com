@@ -18,7 +18,7 @@ permalink: /api/GridBase/getDataRow/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 그리드의 행번호
 

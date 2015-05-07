@@ -20,7 +20,7 @@ permalink: /api/GridBase/setLookups/
 
 #### Parameters
 
-> *source*
+> **source**
 > Type: Array of Object
 > LookupSource 정보 배열
 

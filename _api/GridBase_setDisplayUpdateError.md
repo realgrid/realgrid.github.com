@@ -18,7 +18,7 @@ permalink: /api/GridBase/setDisplayUpdateError/
 
 #### Parameters
 
-> *displayError*
+> **displayError**
 > Type: boolean
 > Default: true
 > true이면 검은색 바탕의 에러메시지가 표시된다.

@@ -18,7 +18,7 @@ permalink: /api/GridBase/clearStyles/
 
 #### Parameters
 
-> *region*
+> **region**
 > Type: string
 > 영역 이름
 

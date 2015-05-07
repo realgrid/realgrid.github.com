@@ -19,7 +19,7 @@ permalink: /api/GridBase/setAllCheck/
 
 #### Parameters
 
-> *checked*
+> **checked**
 > Type: Boolean
 > v 표시 활성화 여부
 

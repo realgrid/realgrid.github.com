@@ -18,11 +18,11 @@ permalink: /api/GridBase/onRowInserting/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *itemIndex*
+> **itemIndex**
 > Type: number
 > -1이면 마지막 행 다음에 추가하려는 것이고, 0 이상이면 행 삽입 위치다.
 

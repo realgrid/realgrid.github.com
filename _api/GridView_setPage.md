@@ -18,11 +18,11 @@ permalink: /api/GridView/setPage/
 
 #### Parameters
 
-> *page*
+> **page**
 > Type: number
 > 페이지 번호.
 
-> *startRow*
+> **startRow**
 > Type: number
 > 이 페이지에 표시할 첫번째 행의 인덱스. -1이면 [setPaging](/api/GridView/)에 지정한 페이지 크기에 따라 결정된다. 지정하지 않으면 -1이다.
 

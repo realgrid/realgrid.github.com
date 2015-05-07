@@ -18,16 +18,16 @@ permalink: /api/GridBase/checkRow/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > 데이터행의 Index
 
-> *checked*
+> **checked**
 > Type: Boolean
 > Default: true
 > true를 입력하면 지정된 rowId에 연결된 데이터행을 체크한다.
 
-> *exclusive*
+> **exclusive**
 > Type: Boolean
 > Default: false
 > true로 입력하면 체크된 다른아이템이 있는 경우 모두 해제하고 rowId에 연결된 데이터행만 체크한다.

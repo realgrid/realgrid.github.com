@@ -18,7 +18,7 @@ permalink: /api/GridBase/setIndicator/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [Indicator](/api/GridBase/) 모델과 같은 설정 정보. [Indicator](/api/GridBase/) 중 변경하고자 하는 속성만 전달하면 된다.  
 

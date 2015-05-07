@@ -18,20 +18,20 @@ permalink: /api/GridBase/onValidateColumn/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *column*
+> **column**
 > Type: object
 > [DataColumn](/api/GridBase/) 모델과 같은 구조의 컬럼 object.
 
-> *inserting*
+> **inserting**
 > Type: boolean
 > 열 추가 중이면 true. 열 수정 중이면 false.
 
-> *value*
-> Type: *
+> **value**
+> Type: **
 > 입력된 필드의 값.
 
 #### Return

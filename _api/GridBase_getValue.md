@@ -18,17 +18,17 @@ permalink: /api/GridBase/getValue/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 아이템 인덱스
 
-> *field*
-> Type: Number|String
+> **field**
+> Type: Number\|String
 > 필드 인덱스 또는 fieldName
 
 #### Return value
 
-> Type: *
+> Type: **
 > 데이터 필드의 값.
 
 #### Example

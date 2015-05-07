@@ -12,15 +12,15 @@ permalink: /api/types/RowGroupAdornments/
 
 #### Members
 
-> *BOTH*   
+> **BOTH**   
 > Value: "both"   
 > 그룹 Header와 Footer모두 표시합니다. 
 
-> *HEADER* 
+> **HEADER** 
 > Value: "header" 
 > 그룹 Header만 표시합니다.            
 
-> *FOOTER* 
+> **FOOTER** 
 > Value: "footer" 
 > 그룹 Footer만 표시합니다.            
 

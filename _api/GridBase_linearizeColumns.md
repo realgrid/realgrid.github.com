@@ -18,7 +18,7 @@ permalink: /api/GridBase/linearizeColumns/
 
 #### Parameters
 
-> *sortProps*
+> **sortProps**
 > Type: 
 >
 

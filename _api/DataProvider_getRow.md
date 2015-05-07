@@ -10,7 +10,7 @@ permalink: /api/DataProvider/getRow/
 
 #### Description
 
-> 폐기 대상입니다. getRow 대신에서 [DataProvider_getJsonRow|getJsonRow](/api/DataProvider/)를 사용하세요
+> 폐기 대상입니다. getRow 대신에서 [DataProvider_getJsonRow\|getJsonRow](/api/DataProvider/)를 사용하세요
 > 지정한 데이터행의 값들을 JSON 객체로 가져온다.
 
 
@@ -21,7 +21,7 @@ permalink: /api/DataProvider/getRow/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 행 번호
 

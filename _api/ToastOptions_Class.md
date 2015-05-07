@@ -13,11 +13,11 @@ permalink: /api/types/ToastOptions/
 
 #### Properties
 
-> *visible*
+> **visible**
 > Type: boolean
 > Default: false
 >
 
-> *message*
+> **message**
 > Type: string
 > Default: 지정되지 않으면 sorting/filtering/grouping 별로 기본값이 표시

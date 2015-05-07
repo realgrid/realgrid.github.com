@@ -18,7 +18,7 @@ permalink: /api/GridBase/exportGrid/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [GridExportOptions](/api/GridBase/)과 같은 설정 모델로 지정한다.
 

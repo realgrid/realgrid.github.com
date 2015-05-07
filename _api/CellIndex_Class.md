@@ -10,22 +10,22 @@ permalink: /api/types/CellIndex/
 
 #### Properties
 
-> *itemIndex* 
+> **itemIndex** 
 > Type: Number  
 > Default: -1   
 > Grid상의 Index            
 
-> *column*    
+> **column**    
 > Type: String  
 > Default: null 
 > 컬럼 이름
                  
-> *dataRow*   
+> **dataRow**   
 > Type: Number  
 > Default: -1   
 > provider에서의 고유 번호  
 
-> *fieldName* 
+> **fieldName** 
 > Type: String  
 > Default: null 
 > 필드 이름                 

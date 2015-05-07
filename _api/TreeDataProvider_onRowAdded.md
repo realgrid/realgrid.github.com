@@ -19,11 +19,11 @@ permalink: /api/TreeDataProvider/onRowAdded/
 
 #### Arguments
 
-> *provider*
-> Type: [TreeDataProvider|TreeDataProvider](/api/TreeDataProvider/)
+> **provider**
+> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
 > TreeDataProvider object.
 
-> *rowId*
+> **rowId**
 > number
 > 
 

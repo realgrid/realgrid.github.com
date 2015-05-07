@@ -19,7 +19,7 @@ permalink: /api/GridView/getGroupIndex/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: number
 > Grid상의 인덱스
 

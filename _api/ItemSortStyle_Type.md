@@ -12,15 +12,15 @@ permalink: /api/types/ItemSortStyle/
 
 #### Members
 
-> *NONE*
+> **NONE**
 > Values: "none"
 > 정렬하지 않는다.
 
-> *ASCENDING*
+> **ASCENDING**
 > Value: "ascending"
 > 순방향 정렬
 
-> *DESCENDING*
+> **DESCENDING**
 > Value: "descending"
 > 역방향 정렬
 

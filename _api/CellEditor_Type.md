@@ -12,23 +12,23 @@ permalink: /api/types/CellEditor/
 
 #### Members
 
-> *LINE*      
+> **LINE**      
 > Value: "line"     
 > 일반 Text 에디터                 
 
-> *MULTILINE* 
+> **MULTILINE** 
 > Value: "multiLine" 
 > 다중라인 Text 에디터             
 
-> *DROPDOWN*  
+> **DROPDOWN**  
 > Value: "dropDown" 
 > 여러 개 중 선택하는 Combo 에디터 
 
-> *NUMBER*    
+> **NUMBER**    
 > Value: "number"   
 > 숫자 에디터                      
 
-> *DATE*      
+> **DATE**      
 > Value: "date"      
 > 날짜 에디터                      
 

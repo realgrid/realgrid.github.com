@@ -13,12 +13,12 @@ permalink: /api/types/CheckCellRenderer/
 
 #### properties
 
-> *trueValues*
+> **trueValues**
 > Type: Array
 > Default: none
 > true로 표시할 값들의 배열
 
-> *falseValues*
+> **falseValues**
 > Type: Array
 > Default: none
 > false로 표시할 값들의 배열

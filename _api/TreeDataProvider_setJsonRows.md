@@ -18,19 +18,19 @@ permalink: /api/TreeDataProvider/setJsonRows/
 
 #### Parameters
 
-> *json*
-> Type: Array | object.
+> **json**
+> Type: Array \| object.
 > Json 배열이거나 Json 배열을 속성으로 갖는 object. Json 배열이 아닌 경우 rowsProp에 지정된 속성을 배열로 지정해야 한다.
 
-> *rowsProp*
+> **rowsProp**
 > Type: String
 > Json 중 트리의 데이터행들로 사용될 배열을 값으로 하는 속성의 이름.
 
-> *childrenProp*
+> **childrenProp**
 > Type: String
 > 자식 행이 있는 지를 지시하는 속성 이름.
 
-> *iconProp*
+> **iconProp**
 > Type: String
 > 트리 노드에 표시할 아이콘 경로를 값으로 가지고 있는 속성 이름.
 

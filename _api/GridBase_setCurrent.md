@@ -19,7 +19,7 @@ permalink: /api/GridBase/setCurrent/
 
 #### Parameters
 
-> *current*
+> **current**
 > Type: object
 > [CellIndex](/api/GridBase/) 값.
 

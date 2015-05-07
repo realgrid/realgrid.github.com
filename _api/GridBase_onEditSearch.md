@@ -10,7 +10,7 @@ permalink: /api/GridBase/onEditSearch/
 
 #### Description
 
-> [SearchCellEditor|Search Editor](/api/GridBase/)에서 searchLength와 searchDelay조건이 만족하면 발생한다.
+> [SearchCellEditor\|Search Editor](/api/GridBase/)에서 searchLength와 searchDelay조건이 만족하면 발생한다.
 
 #### Syntax
 
@@ -18,16 +18,16 @@ permalink: /api/GridBase/onEditSearch/
 
 #### Arguments
 
-> *id*
-> Type: [GridView|GridView](/api/GridBase/)
+> **id**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *index*
-> Type:  [CellIndex|CellIndex](/api/GridBase/)
+> **index**
+> Type:  [CellIndex\|CellIndex](/api/GridBase/)
 > 변경된 CellIndex
 
-> *text*
-> Type: *
+> **text**
+> Type: **
 > 편집전 셀의 데이터 값
 
 #### Return

@@ -10,7 +10,7 @@ permalink: /api/LocalDataProvider/hasData/
 
 #### Description
 
-> 지정한 데이터행이 실제 값이 들어 있는 행이면 true를 리턴한다. [LocalDataProvider setRowCount|setRowCount](/api/LocalDataProvider/)로 생성된 가상 행 상태이면 false를 리턴한다.
+> 지정한 데이터행이 실제 값이 들어 있는 행이면 true를 리턴한다. [LocalDataProvider setRowCount\|setRowCount](/api/LocalDataProvider/)로 생성된 가상 행 상태이면 false를 리턴한다.
 
 #### Syntax
 
@@ -18,7 +18,7 @@ permalink: /api/LocalDataProvider/hasData/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 행 번호
 

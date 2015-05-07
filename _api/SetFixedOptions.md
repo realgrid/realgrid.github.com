@@ -18,7 +18,7 @@ permalink: /api/features/SetFixedOptions/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: Object
 > [FixedOptions](/api/features/) 모델과 같은 설정 정보. [FixedOptions](/api/features/) 중 변경하고자 하는 값들만 전달하면 된다.  
 

@@ -12,22 +12,22 @@ permalink: /api/types/SubDataType/
 
 #### Members
 
-> *CHAR*
+> **CHAR**
 > Value: "char"
 > 0 보다 큰 "length" 속성과 더불어 길이가 제한된 문자열로 저장된다. "length"를 0 이하로 지정하면 "text" 기본 자료형과 동일하다.
 
-> *UNUM*
+> **UNUM**
 > Value: "unum"
 > 0 이상의 숫자로 저장된다.
 
-> *INT*
+> **INT**
 > Value: "int"
 > 정수형 값으로 저장된다. i = v >= 0 ? Math.floor(v) : Math.ceil(v); 와 같은 방식으로 저장된다. 즉, 1.1 이면 1 로, -1.1 이면 -1 로 저장된다.
 
-> *UINT*
+> **UINT**
 > Value: "uint"
 > 0 이상의 정수형 값으로 저장된다. i = Math.floor(v); 와 같은 방식으로 저장된다.
 
-> *DATE*
+> **DATE**
 > Value: "date"
 > 시간 부분이 제거된 날짜값으로 저장된다.

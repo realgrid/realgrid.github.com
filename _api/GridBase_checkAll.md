@@ -10,7 +10,7 @@ permalink: /api/GridBase/checkAll/
 
 #### Description
 
-> 그리드의 데이터행을 모두 체크,해제한다. [CheckBar|CheckBar](/api/GridBase/)의 exclusive에 영향을 받지않는다.
+> 그리드의 데이터행을 모두 체크,해제한다. [CheckBar\|CheckBar](/api/GridBase/)의 exclusive에 영향을 받지않는다.
 
 #### Syntax
 
@@ -18,12 +18,12 @@ permalink: /api/GridBase/checkAll/
 
 #### Parameters
 
-> *checked*
+> **checked**
 > Type: Boolean
 > Default: true
 
 
-> *visibleOnly*
+> **visibleOnly**
 > Type: Boolean
 > Default: false
 > collapse로 인해 접혀서 보이지 않는 행의 포함여부

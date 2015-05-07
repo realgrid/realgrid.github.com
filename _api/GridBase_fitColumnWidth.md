@@ -18,22 +18,22 @@ permalink: /api/GridBase/fitColumnWidth/
 
 #### Parameters
 
-> *column*
-> Type: Object|String
+> **column**
+> Type: Object\|String
 > Data Column, 폭을 지정할 컬럼을 지정한다. 
 > null을 입력하면 전체 컬럼에 적용된다.
 
-> *maxWidth*
+> **maxWidth**
 > Type: Number
 > Default: 0
 > 조절되는 최대 폭을 지정한다. 0을 입력하면 데이터의 길이에 따라 변경된다.
 
-> *minWidth*
+> **minWidth**
 > Type: Number
 > Default: 0
 > 조절되는 최소 폭을 지정한다. 0을 입력하면 데이터의 길이에 따라 변경된다.
 
-> *visibleOnly*
+> **visibleOnly**
 > Type: Boolean
 > Default: true
 > 현재 그리드에 보이는 데이터만 가지고 폭을 결정한다.

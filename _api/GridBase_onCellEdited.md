@@ -18,19 +18,19 @@ permalink: /api/GridBase/onCellEdited/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *itemIndex*
+> **itemIndex**
 > Type: number
 > 편집 중인 행의 아이템 인덱스.
 
-> *dataRow*
+> **dataRow**
 > Type: number
 > 편집 중인 행의 데이터 행 번호.
 
-> *field*
+> **field**
 > Type: number
 > 방금 편집된 필드의 인덱스.
 

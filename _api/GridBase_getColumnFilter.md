@@ -18,11 +18,11 @@ permalink: /api/GridBase/getColumnFilter/
 
 #### Parameters
 
-> *column*
+> **column**
 > Type: Object
 > Data Column
 
-> *filterName*
+> **filterName**
 > Type: String
 > 가져오려고 하는 필터의 이름
 

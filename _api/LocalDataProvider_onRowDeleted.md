@@ -19,11 +19,11 @@ permalink: /api/LocalDataProvider/onRowDeleted/
 
 #### Parameters
 
-> *provider*
-> Type: [LocalDataProvider|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**
+> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
 > LocalDataProvider object.
 
-> *row*
+> **row**
 > Type: Number
 > 삭제되는 데이터행의 id
 

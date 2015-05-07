@@ -13,18 +13,18 @@ permalink: /api/types/NumberCellEditor/
 
 #### Properties
 
-> *maxLength*
+> **maxLength**
 > Type: Number
 > Default: 0
 > 사용자가 입력할 수 있는 문자의 최대 개수. 0으로 지정하면 제한이 없다.
 
 
-> *positiveOnly*
+> **positiveOnly**
 > Type: boolean
 > Default: false
 > true이면 양수값만 입력할수 있다.
 
-> *integerOnly*
+> **integerOnly**
 > Type: boolean
 > Default: false
 > true이면 정수만 입력할수 있다.

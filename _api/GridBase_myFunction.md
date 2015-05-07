@@ -1,12 +1,11 @@
 ---
 layout: apipost
-title: ActualTargetBulletRenderer
-part: Types
-objectname: 
-directiontype: 
-permalink: /api/types/ActualTargetBulletRenderer/
+title: MyFunction
+part: Objects
+objectname: GridBase
+directiontype: Function
+permalink: /api/GridBase/myFunction/
 ---
-
 
 > 각각 두 개의 데이터 필드에 저장된 목표값(혹은 기대값)과 실행값을 비교하여 표시하는 시리즈 렌더러이다. 
 > Bullet renderer는 목표값을 수직바로 실행값을 수평바로 표시한다. 
@@ -27,3 +26,7 @@ permalink: /api/types/ActualTargetBulletRenderer/
 > Type: String
 > Default: null
 > 배경색을 지정한다.
+
+### See Also
+[onDataCellClicked](/api/GridBase/onDataCellClicked/)
+

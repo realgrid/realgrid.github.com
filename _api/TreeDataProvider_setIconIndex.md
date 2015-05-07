@@ -18,11 +18,11 @@ permalink: /api/TreeDataProvider/setIconIndex/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > 아이콘을 변경할 데이터행의 트리 아이디.
 
-> *iconIndex*
+> **iconIndex**
 > Type: Number
 > 새로 변경할 아이콘 인덱스.
 

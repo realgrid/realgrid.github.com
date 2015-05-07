@@ -18,11 +18,11 @@ permalink: /api/GridBase/setColumnFilterActions/
 
 #### Parameters
 
-> *column*
-> Type: String|Object
-> column명 또는 [DataColumn|Column](/api/GridBase/)객체이다.
+> **column**
+> Type: String\|Object
+> column명 또는 [DataColumn\|Column](/api/GridBase/)객체이다.
 
-> *actions*
+> **actions**
 > Type: Object
 > [ColumnFilterAction](/api/GridBase/)객체이다.
 

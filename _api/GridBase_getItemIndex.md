@@ -18,7 +18,7 @@ permalink: /api/GridBase/getItemIndex/
 
 #### Parameters
 
-> *dataRow*
+> **dataRow**
 > Type: Number
 > dataProvider의 row index이다.
 

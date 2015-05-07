@@ -18,7 +18,7 @@ permalink: /api/DataProvider/savePoint/
 
 #### Parameters
 
-> *saveStates*
+> **saveStates**
 > Type: boolean
 > 지정하지 않으면 true이다.
 

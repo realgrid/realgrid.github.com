@@ -19,11 +19,11 @@ permalink: /api/LocalDataProvider/insertRow/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 삽입할 시작 데이터행 인덱스.
 
-> *values*
+> **values**
 > Type: Array of value
 > 입력할 값의 배열
 

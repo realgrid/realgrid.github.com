@@ -12,19 +12,19 @@ permalink: /api/types/ValidationLevel/
 
 #### Memebers
 
-> *ERROR*
+> **ERROR**
 > Type: "error"
 > 검증 수준이 오류 
 
-> *WARNING*
+> **WARNING**
 > Type: "warning"
 > 검증 수준이 경고 
 
-> *INFO*
+> **INFO**
 > Type: "info"    
 > 검증 수준이 정보 
 
-> *IGNORE*  
+> **IGNORE**  
 > Type: "ignore"  
 > 검증 수준이 없음 
 

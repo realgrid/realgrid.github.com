@@ -18,15 +18,15 @@ permalink: /api/LocalDataProvider/onRowMoved/
 
 #### Arguments
 
-> *provider*
-> Type: [LocalDataProvider|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**
+> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
 > LocalDataProvider object.
 
-> *row*
+> **row**
 > Number
 > 이동되기전의 데이터행 Index
 
-> *newRow*
+> **newRow**
 > Number
 > 이동된 후의 데이터행 Index
 

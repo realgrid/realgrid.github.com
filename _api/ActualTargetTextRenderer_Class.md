@@ -13,27 +13,27 @@ permalink: /api/types/ActualTargetTextRenderer/
 
 #### Properties
 
-> *separator*
+> **separator**
 > Type: String
 > Default: /
 > 실행값과 목표값의 구분자를 지정한다.
 
-> *actualForeground*
+> **actualForeground**
 > Type: String
 > Default: null
 > 실행값의 색을 지정한다.
 
-> *actualFont*
+> **actualFont**
 > Type: String
 > Default: null
 > 실행값의 글꼴을 지정한다.
 
-> *targetForeground*
+> **targetForeground**
 > Type: String
 > Default: null
 > 목표값의 색을 지정한다.
 
-> *targetFont*
+> **targetFont**
 > Type: String
 > Default: null
 > 목표값의 글꼴을 지정한다.

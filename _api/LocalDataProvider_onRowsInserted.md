@@ -18,15 +18,15 @@ permalink: /api/LocalDataProvider/onRowsInserted/
 
 #### Arguments
 
-> *provider*
-> Type: [LocalDataProvider|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**
+> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
 > LocalDataProvider object.
 
-> *row*
+> **row**
 > number
 > 추가된 행의 인덱스.
 
-> *count*
+> **count**
 > number
 > 추가된 행의 개수.
 
@@ -43,9 +43,9 @@ None.
 
 
     var datas = [ 
-        {userid:"2", company:"3", first_name: "4", last_name: "5", gender: "6", id:"*1"}, 
-        {userid:"2", company:"3", first_name: "4", last_name: "5", gender: "6", id:"*2"}, 
-        {userid:"2", company:"3", first_name: "4", last_name: "5", gender: "6", id:"*3"} 
+        {userid:"2", company:"3", first_name: "4", last_name: "5", gender: "6", id:"**1"}, 
+        {userid:"2", company:"3", first_name: "4", last_name: "5", gender: "6", id:"**2"}, 
+        {userid:"2", company:"3", first_name: "4", last_name: "5", gender: "6", id:"**3"} 
     ] 
     dataProvider.insertRows(7, datas, 0, 2); 
 </pre>

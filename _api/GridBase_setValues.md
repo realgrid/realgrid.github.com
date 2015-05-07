@@ -19,15 +19,15 @@ permalink: /api/GridBase/setValues/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 아이템 인덱스
 
-> *values*
+> **values**
 > Type: Object
 > 수정할 필드와 필드 값들
 
-> *strict*
+> **strict**
 > Type: boolean 
 > Default: false
 > 수정할 필드의 값이 undefined 일때 기존 값의 유지 여부.

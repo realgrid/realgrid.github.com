@@ -18,7 +18,7 @@ permalink: /api/GridBase/addImageList/
 
 #### Parameters
 
-> *imageList*
+> **imageList**
 > Type: object
 > 이미지리스트의 이름과 이미지 url 목록을 포함한다. 
 

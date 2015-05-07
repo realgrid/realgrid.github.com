@@ -12,17 +12,17 @@ permalink: /api/features/ColumnFilterAction/
 
 #### Properties
 
-> *name*
+> **name**
 > Type: String 
 > Default:  null    
 > 필터 이름. 
 
-> *text*
+> **text**
 > Type: String 
 > Default: null   
 > selector에 표시되는 문자열이다. null이면 name 이 표시된다.
 
-> *description*
+> **description**
 > Type: String 
 > Default:  null    
 > 필터의 설명을 기재한다.

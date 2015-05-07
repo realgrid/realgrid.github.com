@@ -19,15 +19,15 @@ permalink: /api/GridBase/addCellStyle/
 
 #### Parameters
 
-> *id*
+> **id**
 > Type: String
 > 셀 스타일의 id
 
-> *cellStyle*
+> **cellStyle**
 > Type: Object
 > 계층적 구조로 구성되는 셀 스타일 데이터
 
-> *overwrite*
+> **overwrite**
 > Type: Boolean
 > Default: false
 > true로 지정하면 기존에 중복된 id가 있을 경우 해당하는 스타일을 제거하고 새로 추가한다

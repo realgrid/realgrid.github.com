@@ -12,19 +12,19 @@ permalink: /api/types/DataType/
 
 #### Members
 
-> *TEXT*
+> **TEXT**
 > Value: "text"
 > 문자형
 
-> *BOOL*
+> **BOOL**
 > Value: "bool"
 > 논리형(true or false)
 
-> *NUMBER*
+> **NUMBER**
 > Value: "number"
 > 숫자형
 
-> *DATETIME*
+> **DATETIME**
 > Value: "datetime"
 > 날짜형
 

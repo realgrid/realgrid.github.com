@@ -18,7 +18,7 @@ permalink: /api/TreeView/getAncestors/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 
 

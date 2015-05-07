@@ -18,7 +18,7 @@ permalink: /api/TreeDataProvider/getChildCount/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > 데이터행의 트리 아이디.
 

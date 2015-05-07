@@ -18,19 +18,19 @@ permalink: /api/DataProvider/setRowStates/
 
 #### Parameters
 
-> *rows*
+> **rows**
 > Type: Array
 > 상태를 변경하려는 dataRow 배열이다.
 
-> *state*
+> **state**
 > Type: RealGrids.RowState
 > 변경하려는 rowState를 지정한다. 지정하지 않으면 "none"이다.
 
-> *force*
+> **force**
 > Type: boolean
 > 지정하지 않으면 "false"이다.
 
-> *rowEvents*
+> **rowEvents**
 > Type: boolean
 > true이면 상태가 변경되는 횟수만큼 onRowStateChanged 이 호출되고
 > false이면 onRowStatesChanged 가 한번 호출된다. 지정하지 않으면 false다.

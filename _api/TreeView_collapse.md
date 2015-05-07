@@ -18,11 +18,11 @@ permalink: /api/TreeView/collapse/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 축소할 아이템행의 Index이다.
 
-> *recursive*
+> **recursive**
 > Type: Boolean
 > Default: false
 > true로 입력하면 펼쳐진 자식행이 있는 경우 모두 축소 시킨다.

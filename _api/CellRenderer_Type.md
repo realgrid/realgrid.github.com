@@ -12,26 +12,26 @@ permalink: /api/types/CellRenderer/
 
 #### Members
 
-> *BAR*    
+> **BAR**    
 > Value: "bar"   
 > "Bar Cell Renderer":http://demo.realgrid.net/Demo/BarCellRenderer             
 
-> *CHECK*  
+> **CHECK**  
 > Value: "check" 
 > "Check Cell Renderer(Editor)":http://demo.realgrid.net/Demo/CheckCellRenderer 
 
-> *IMAGE*  
+> **IMAGE**  
 > Value: "image" 
 > "Image Cell Renderer":http://demo.realgrid.net/Demo/ImageCellRenderer         
 
-> *ICON*   
+> **ICON**   
 > Value: "icon" 
 > "Icon Cell Renderer":http://demo.realgrid.net/Demo/IconCellRenderer           
 
-> *SHAPE*  
+> **SHAPE**  
 > Value: "shape"
 > "Shape Cell Renderer":http://demo.realgrid.net/Demo/ShapeCellRenderer         
 
-> *SIGNAL* 
+> **SIGNAL** 
 > Value: "signal"
 > "Signal Cell Render":http://demo.realgrid.net/Demo/BarCellRenderer            

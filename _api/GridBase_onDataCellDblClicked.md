@@ -18,11 +18,11 @@ permalink: /api/GridBase/onDataCellDblClicked/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *index*
+> **index**
 > Type: [CellIndex](/api/GridBase/)과 같은 구조의 object.
 > 더블클릭된 데이터 셀의 인덱스
 

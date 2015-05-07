@@ -12,15 +12,15 @@ permalink: /api/types/CellButton/
 
 #### Members
 
-> *NONE*
+> **NONE**
 > Value: "none"
 > 버튼을 표시하지 않는다.
 
-> *ACTION*
+> **ACTION**
 > Value: "action"
 > 사용자가 마우스 클릭할 수 있는 버튼을 표시한다.
 
-> *POPUP*
+> **POPUP**
 > Value: "popup"
 > 사용자가 마우스 클릭 시 팝업 메뉴가 실행되는 버튼을 표시한다.
 

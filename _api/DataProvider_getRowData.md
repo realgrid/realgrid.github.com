@@ -18,7 +18,7 @@ permalink: /api/DataProvider/getRowData/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 행 번호
 

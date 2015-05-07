@@ -19,19 +19,19 @@ permalink: /api/GridBase/setCellStyle/
 
 #### Parameters
 
-> *dataRow*
+> **dataRow**
 > Type: number
 > 셀 스타일을 적용할 데이터 행의 번호
 
-> *field*
-> Type: string | number
+> **field**
+> Type: string \| number
 > 셀 스타일을 적용할 필드명이나 필드순서
 
-> *styleId*
+> **styleId**
 > Type: string
 > 적용할 스타일 id
 
-> *updateNow*
+> **updateNow**
 > Type: boolean
 > 지정한 스타일의 바로 반영 여부. 
 > 여러번 setCellStyle 을 실행하는 경우 가장 마지막에만 true로 지정한다.

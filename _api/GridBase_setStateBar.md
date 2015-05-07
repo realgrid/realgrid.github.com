@@ -18,7 +18,7 @@ permalink: /api/GridBase/setStateBar/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [StateBar](/api/GridBase/) 모델과 같은 설정 정보. [StateBar](/api/GridBase/) 모델의 속성들 중 변경하고자 하는 값들만 전달하면 된다.  
 

@@ -18,15 +18,15 @@ permalink: /api/TreeDataProvider/onLoadFailed Callback/
 
 #### Arguments
 
-> *provider*
-> Type: [TreeDataProvider |TreeDataProvider ](/api/TreeDataProvider/)
+> **provider**
+> Type: [TreeDataProvider \|TreeDataProvider ](/api/TreeDataProvider/)
 > TreeDataProvider object.
 
-> *error*
+> **error**
 > Type:
 > 실패 메시지.
 
-> *ticket*
+> **ticket**
 > string
 > None.
 

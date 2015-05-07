@@ -18,11 +18,11 @@ permalink: /api/LocalDataProvider/getJsonRows/
 
 #### Parameters
 
-> *startRow*
+> **startRow**
 > Type: number
 > 시작 행 번호
 
-> *endRow*
+> **endRow**
 > Type: number
 > 끝 행 번호. 0보다 작은 값이면 마지막 행까지 가져온다.
 

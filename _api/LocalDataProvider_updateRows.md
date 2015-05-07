@@ -18,26 +18,26 @@ permalink: /api/LocalDataProvider/updateRows/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 수정할 시작 데이터행 인덱스.
 
-> *rows*
-> Type: Array of Array|object
+> **rows**
+> Type: Array of Array\|object
 > 값들의 배열. 각 행의 값은 Array이나 object.
 
-> *start*
+> **start**
 > Type: number
 > rows에 지정된 배열 중에서 시작 위치. 지정하지 않으면 0.
 
-> *count*
+> **count**
 > Type: number
 > rows에 지정된 배열 중 수정할 행의 개수. -1이면 모든 행. 지정하지 않으면 -1.
 
-> *rowEvents*
+> **rowEvents**
 > Type: Boolean
-> true이면 [LocalDataProvider onRowStateChanged|onRowStateChanged](/api/LocalDataProvider/) 이벤트를 건별로 발생시킨다.
-> false이면 [LocalDataProvider onRowStatesChanged|onRowStatesChagned](/api/LocalDataProvider/) 이벤트를 한번만 발생시킨다.
+> true이면 [LocalDataProvider onRowStateChanged\|onRowStateChanged](/api/LocalDataProvider/) 이벤트를 건별로 발생시킨다.
+> false이면 [LocalDataProvider onRowStatesChanged\|onRowStatesChagned](/api/LocalDataProvider/) 이벤트를 한번만 발생시킨다.
 > 지정하지 않으면 false다.
 
 #### Return value

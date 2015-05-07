@@ -18,7 +18,7 @@ permalink: /api/GridBase/setThrowUpdateError/
 
 #### Parameters
 
-> *throwError*
+> **throwError**
 > Type: boolean
 > Default: true
 > true이면 UI가 더 이상 진행되지 않는다.

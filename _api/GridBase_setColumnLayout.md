@@ -18,7 +18,7 @@ permalink: /api/GridBase/setColumnLayout/
 
 #### Parameters
 
-> *layout*
+> **layout**
 > Type: Array of String
 > 그리드에 표시할 column명들 
 

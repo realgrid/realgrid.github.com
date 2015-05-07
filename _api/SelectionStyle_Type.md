@@ -12,27 +12,27 @@ permalink: /api/types/SelectionStyle/
 
 #### Members
 
-> *BLOCK*
+> **BLOCK**
 > Type: "block"  
 > 블럭 형태로 선택            
 
-> *ROWS*    
+> **ROWS**    
 > Type: "rows"   
 > 행 단위로 선택              
 
-> *COLUMNS* 
+> **COLUMNS** 
 > Type: "columns"
 > 열 단위로 선택              
 
-> *SINGLE_ROW*    
+> **SINGLE_ROW**    
 > Type: "singleRow"   
 > 하나의 행만 선택              
 
-> *SINGLE_COLUMN* 
+> **SINGLE_COLUMN** 
 > Type: "singleColumn"
 > 하나의 열 선택  
             
-> *NONE*    
+> **NONE**    
 > Type: "none"   
 > 다중선택하지 않음(단일 셀)  
 

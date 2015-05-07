@@ -18,11 +18,11 @@ permalink: /api/LocalDataProvider/onRowInserted/
 
 #### Arguments
 
-> *provider*
-> Type: [LocalDataProvider|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**
+> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
 > LocalDataProvider object.
 
-> *row*
+> **row**
 > number
 > 추가된 행의 인덱스.
 

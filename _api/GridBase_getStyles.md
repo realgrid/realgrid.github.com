@@ -18,11 +18,11 @@ permalink: /api/GridBase/getStyles/
 
 #### Parameters
 
-> *region*
+> **region**
 > Type: string
 > 영역 이름
 
-> *all*
+> **all**
 > Type: boolean
 > true면 계승된 스타일 값까지 포함한다.
 

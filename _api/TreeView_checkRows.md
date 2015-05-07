@@ -18,11 +18,11 @@ permalink: /api/TreeView/checkRows/
 
 #### Parameters
 
-> *rowIds*
+> **rowIds**
 > Type: Array of Number
 > 체크하거나 해제할 데이터행의 rowId배열이다.
 
-> *checked*
+> **checked**
 > Type: Boolean
 > Default: true
 > true로 입력하면 rowIds로 입력한 데이터행을 모두체크한다. false로 입력하면 모두 해제한다.

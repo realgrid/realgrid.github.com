@@ -7,7 +7,7 @@ product: flash
 version: 1.0.10
 ---
 
-1. GridBase.isVisible(), GridBase.setVisible() 추가.
+1. GridBase.isVisible(), [GridBase.setVisible()](/api/GridBase/setVisible/) 추가.
 2. GridView.commit(force) 메쏘드 추가 - 현재 편집 중인 행의 data를 provider에 커밋한다. force가 true이면 실제 수정이 없어도 data provider에 commit한다.  
      GridView.cancel() 추가 - 편집 중인 행의 수정 내용을 무시하고 편집 상태를 종료한다.
 3. DataColumn.editable, DataColumn.readOnly 속성 추가.  

@@ -10,7 +10,7 @@ permalink: /api/DataProvider/onLoadCompleted/
 
 #### Description
 
-> [DataProvider loadData|loadData](/api/DataProvider/)() 호출이 성공적으로 완료됐을 때 호출된다. 하지만 [DataProvider loadData|loadData](/api/DataProvider/)의 onCompleted 매개변수에 callback 함수를 지정했다면 이 callback은 호출되지 않는다.
+> [DataProvider loadData\|loadData](/api/DataProvider/)() 호출이 성공적으로 완료됐을 때 호출된다. 하지만 [DataProvider loadData\|loadData](/api/DataProvider/)의 onCompleted 매개변수에 callback 함수를 지정했다면 이 callback은 호출되지 않는다.
 
 #### Syntax
 
@@ -18,11 +18,11 @@ permalink: /api/DataProvider/onLoadCompleted/
 
 #### Arguments
 
-> *provider*
-> Type: [DataProvider|DataProvider](/api/DataProvider/)
+> **provider**
+> Type: [DataProvider\|DataProvider](/api/DataProvider/)
 > DataProvider.
 
-> *ticket*
+> **ticket**
 > Type: Number 
 > 실행 횟수
 

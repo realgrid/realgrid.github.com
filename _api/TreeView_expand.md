@@ -18,11 +18,11 @@ permalink: /api/TreeView/expand/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 확장하려는 아이템의 index를 입력한다.
 
-> *recursive*
+> **recursive**
 > Type: Boolean
 > Default: false
 > true를 입력하면 입력된 아이템의 자식아이템까지 모두 확장한다.

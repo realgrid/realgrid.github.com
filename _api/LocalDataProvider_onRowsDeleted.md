@@ -18,11 +18,11 @@ permalink: /api/LocalDataProvider/onRowsDeleted/
 
 #### Arguments
 
-> *provider*
-> Type: [LocalDataProvider|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**
+> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
 > LocalDataProvider object.
 
-> *rows*
+> **rows**
 > Array of number
 > 삭제된 행들의 인덱스.
 > 이미 삭제가 되었기 때문에 더이상 참조할수 없다.

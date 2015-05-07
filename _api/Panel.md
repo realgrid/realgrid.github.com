@@ -12,17 +12,17 @@ permalink: /api/features/Panel/
 
 #### Properties
 
-> *minHeight*
+> **minHeight**
 > Type: number
 > Default: 20 
 > 그리드 Panel의 최소 높이를 픽셀 단위로 지정한다. height가 0이면 이 높이가 Panel의 높이를 결정한다. 
 
-> *visible*  
+> **visible**  
 > Type: boolean 
 > Default: true 
 > true면 그리드 Panel을 표시한다.
 
-> *height*
+> **height**
 > Type: number
 > Default: 0
 > 그리드 Panel의 높이를 픽셀 단위로 지정한다. 

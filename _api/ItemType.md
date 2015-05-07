@@ -12,19 +12,19 @@ permalink: /api/types/ItemType/
 
 #### Members
 
-> *ROW*
+> **ROW**
 > Value: "row"
 > 아이템이 행이다.
 
-> *GROUP*
+> **GROUP**
 > Value: "group"
 > 아이템이 그룹이다.
 
-> *FOOTER*
+> **FOOTER**
 > Value: "footer"
 > 아이템이 푸터이다..
 
-> *TREE*
+> **TREE**
 > Value: "tree"
 > 아이템에 트리이다.
 

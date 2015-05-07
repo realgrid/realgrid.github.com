@@ -18,11 +18,11 @@ permalink: /api/TreeDataProvider/onRowUpdating/
 
 #### Arguments
 
-> *provider*
-> Type: [TreeDataProvider|TreeDataProvider](/api/TreeDataProvider/)
+> **provider**
+> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
 > TreeDataProvider object.
 
-> *rowId*
+> **rowId**
 > Type: number
 > 변경되는 데이터행의 id
 

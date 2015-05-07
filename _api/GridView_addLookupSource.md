@@ -18,7 +18,7 @@ permalink: /api/GridView/addLookupSource/
 
 #### Parameters
 
-> *source*
+> **source**
 > Type: 
 > 
 

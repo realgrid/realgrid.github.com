@@ -12,12 +12,12 @@ permalink: /api/types/ActualTargetPieRenderer/
 
 #### properties
 
-> **
+> ****
 > Type:
 > Default:
 >
 
-> **
+> ****
 > Type:
 > Default:
 >

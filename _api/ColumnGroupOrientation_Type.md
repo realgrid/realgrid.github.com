@@ -12,11 +12,11 @@ permalink: /api/types/ColumnGroupOrientation/
 
 #### Members
 
-> *HORIZONTAL* 
+> **HORIZONTAL** 
 > Value: "horizontal" 
 > 하위 컬럼들을 가로 방향으로 배치합니다. 
 
-> *VERTICAL*   
+> **VERTICAL**   
 > Value: "vertical"   
 > 하위 컬럼들을 세로 방향으로 배치합니다. 
 

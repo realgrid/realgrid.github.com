@@ -18,7 +18,7 @@ permalink: /api/GridBase/deleteSelection/
 
 #### Parameters
 
-> *force*
+> **force**
 > Type: boolean
 > true면 설정에 상관없이 여부를 묻지 않고 선택된 행들을 삭제한다.
 

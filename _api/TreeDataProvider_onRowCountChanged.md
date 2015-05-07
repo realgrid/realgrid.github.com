@@ -17,11 +17,11 @@ permalink: /api/TreeDataProvider/onRowCountChanged/
 
 #### Arguments
 
-> *provider*
+> **provider**
 > Type: [TreeDataProvider](/api/TreeDataProvider/)
 > TreeDataProvider object
 
-> *count*
+> **count**
 > Type: Number
 > 변경된 행의 갯수
 

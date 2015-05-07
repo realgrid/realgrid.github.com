@@ -18,11 +18,11 @@ permalink: /api/GridBase/checkRows/
 
 #### Parameters
 
-> *dataRows*
+> **dataRows**
 > Type: Array of Integer
 > dataRow 배열
 
-> *checked*
+> **checked**
 > Type: Boolean
 > true를 입력하면 dataRows와 연결된 Item을 체크한다.
 

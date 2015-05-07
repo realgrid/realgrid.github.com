@@ -19,7 +19,7 @@ permalink: /api/GridView/onEditRowChanged/
 #### Arguments
 
 > grid
-> Type: [GridView|GridView](/api/GridView/)
+> Type: [GridView\|GridView](/api/GridView/)
 > GridView 컨트롤
 
 > itemIndex
@@ -35,11 +35,11 @@ permalink: /api/GridView/onEditRowChanged/
 > 편집이된 필드의 이름
 
 > oldValue
-> Type: *
+> Type: **
 > 편집전 셀의 데이터 값
 
 > newValue
-> Type: *
+> Type: **
 > 편집후 셀의 데이터 값
 
 #### Return

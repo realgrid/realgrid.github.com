@@ -18,7 +18,7 @@ permalink: /api/GridBase/clearColumnFilterActions/
 
 #### Parameters
 
->*column*
+>**column**
 >Type: string or Object
 >컬럼 이름이나 컬럼 정보 객체
 

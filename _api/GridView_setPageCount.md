@@ -18,7 +18,7 @@ permalink: /api/GridView/setPageCount/
 
 #### Parameters
 
-> *pageCount*
+> **pageCount**
 > Type: number
 > 페이지 개수.
 

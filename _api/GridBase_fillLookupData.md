@@ -18,11 +18,11 @@ permalink: /api/GridBase/fillLookupData/
 
 #### Parameters
 
-> *sourceId*
+> **sourceId**
 > Type: String
 > LookupSource Id
 
-> *data*
+> **data**
 > Type: Object
 > LookupData Object
 

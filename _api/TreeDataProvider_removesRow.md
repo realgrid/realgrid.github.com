@@ -20,7 +20,7 @@ permalink: /api/TreeDataProvider/removesRow/
 
 #### Parameters
 
-> *rowIds*
+> **rowIds**
 > Type: Array of number
 > 삭제하려는 dataRow의 배열이다.
 

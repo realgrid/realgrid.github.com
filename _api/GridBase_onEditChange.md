@@ -18,16 +18,16 @@ permalink: /api/GridBase/onEditChange/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *index*
+> **index**
 > Type: [CellIndex](/api/GridBase/)
 > CellIndex 모델 값을 갖는 현재 포커스 셀 위치 정보
 
-> *value*
-> Type: *
+> **value**
+> Type: **
 > 편집중인 셀의 데이터 값
 
 #### Return

@@ -12,14 +12,14 @@ permalink: /api/types/ValidationMode/
 
 #### Memebers
 
-> *ALWAYS*
+> **ALWAYS**
 > Value: "always"
 > 추가, 수정된 행이 Commit될 경우에 검증
 
-> *INSERT*
+> **INSERT**
 > Value: "insert"
 > 추가된 행이 Commit될 경우에 검증
 
-> *UPDATE*
+> **UPDATE**
 > Value: "update"
 > 수정된 행이 Commit될 경우에 검증        

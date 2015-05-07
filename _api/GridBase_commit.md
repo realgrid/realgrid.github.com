@@ -18,7 +18,7 @@ permalink: /api/GridBase/commit/
 
 #### Parameters
 
-> *force*
+> **force**
 > Type: boolean
 > true면 하나의 셀도 commit되지 않아도 행을 commit 한다. 지정하지 않으면 false로 해석한다.
 

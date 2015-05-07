@@ -18,15 +18,15 @@ permalink: /api/GridBase/getGroupSummary/
 
 #### Parameters
 
-> *model*
+> **model**
 > Type: object
 > ItemModel Object
 
-> *field*
-> Type: number | stirng
+> **field**
+> Type: number \| stirng
 > field Index 이거나 field Name.
 
-> *statistical*
+> **statistical**
 > Type: boolean
 > Default: false
 > [SummaryMode](/api/GridBase/)를 statistical로 할 경우 true, aggregate으로 할 경우 false로 한다.

@@ -12,30 +12,30 @@ TreeView 표시에 대한 설정들이다.
 
 #### Properties
 
-> *checkBoxSize* 
+> **checkBoxSize** 
 > Type: Number  
 > default: 17 
 
-> *expanderWidth* 
+> **expanderWidth** 
 > Type: Number  
 > default: 17 
 
-> *expanderWithCellStyles* 
+> **expanderWithCellStyles** 
 > Type: Boolean 
 > default: true
 
-> *iconHeight*     
+> **iconHeight**     
 > Type: Number 
 > default: 0
 
-> *iconImages*    
+> **iconImages**    
 > Type: String  
 
-> *iconWidth*     
+> **iconWidth**     
 > Type: Number 
 > default: 0
 
-> *showCheckBox* 
+> **showCheckBox** 
 > Type: Boolean  
 > default: false 
 

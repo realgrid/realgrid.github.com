@@ -19,7 +19,7 @@ permalink: /api/LocalDataProvider/removeRow/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 삭제할 데이터행의 인덱스.
 

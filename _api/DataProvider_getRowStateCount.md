@@ -19,7 +19,7 @@ permalink: /api/DataProvider/getRowStateCount/
 
 #### Parameters
 
-> *rowStates*
+> **rowStates**
 > Type: RealGrids.rowState
 > 가져올려는 rowState를 지정한다. 
 

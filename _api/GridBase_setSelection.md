@@ -19,7 +19,7 @@ permalink: /api/GridBase/setSelection/
 
 #### Parameters
 
-> *selection*
+> **selection**
 > Type: object
 > [SelectionItem](/api/GridBase/) 모델과 같은 설정 정보. [SelectionItem](/api/GridBase/) 중 선택하고자 하는 영역의 속성만 전달하면 된다.  
 

@@ -19,11 +19,11 @@ permalink: /api/GridBase/setRowData/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 아이템 인덱스
 
-> *values*
+> **values**
 > Type: Object
 > 필드들의 값을 Json 객체로 전달
 

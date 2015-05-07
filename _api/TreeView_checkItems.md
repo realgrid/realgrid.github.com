@@ -18,11 +18,11 @@ permalink: /api/TreeView/checkItems/
 
 #### Parameters
 
-> *items*
+> **items**
 > Type: Array of Number
 > 체크하거나 해제할 아이템 배열이다.
 
-> *checked*
+> **checked**
 > Type: Boolean
 > Default: true
 > true로 입력하면 입력된 items배열에 포함되는 아이템들을 체크하거나 해제한다.

@@ -18,12 +18,12 @@ permalink: /api/GridBase/mouseToIndex/
 
 #### Parameters
 
-> *x*
+> **x**
 > Type: number
 > x 좌표.
 
 
-> *y*
+> **y**
 > Type: number
 > y 좌표.
 

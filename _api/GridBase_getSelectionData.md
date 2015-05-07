@@ -18,7 +18,7 @@ permalink: /api/GridBase/getSelectionData/
 
 #### Parameters
 
-> *maxRows*
+> **maxRows**
 > Type: number
 > 반환할 최대 행의 개수. 지정하지 않으면 -1. 0보다 작은 값이면 제한 없이 모든 행을 가져온다.
 

@@ -18,11 +18,11 @@ permalink: /api/TreeDataProvider/onLoadCompleted Callback/
 
 #### Arguments
 
-> *provider*
-> Type: [TreeDataProvider |TreeDataProvider ](/api/TreeDataProvider/)
+> **provider**
+> Type: [TreeDataProvider \|TreeDataProvider ](/api/TreeDataProvider/)
 > TreeDataProvider object.
 
-> *ticket*
+> **ticket**
 > Type: 
 > None.
 

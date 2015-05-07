@@ -19,8 +19,8 @@ permalink: /api/GridBase/options/
 
 #### Parameters
 
-> |_.name |_.type |_.default |_.description |
-> |options| object| null | 설정 정보 |
+> \|_.name \|_.type \|_.default \|_.description \|
+> \|options\| object\| null \| 설정 정보 \|
 
 #### Return value
 

@@ -19,7 +19,7 @@ permalink: /api/GridBase/addCellRenderers/
 
 #### Parameters
 
-> *renderers*
+> **renderers**
 > Type: Object
 > 계층적 구조로 구성되는 렌더러 데이터
 

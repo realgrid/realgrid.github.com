@@ -18,11 +18,11 @@ permalink: /api/GridBase/toggleColumnFilters/
 
 #### Parameters
 
-> *column*
+> **column**
 > Type: Object
 > 컬럼 설정 정보
 
-> *filterNames*
+> **filterNames**
 > Type: Array of String
 > 토글할 필터들의 이름
 

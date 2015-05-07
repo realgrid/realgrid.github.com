@@ -20,7 +20,7 @@ permalink: /api/GridView/getGroupLevel/
 
 #### Parameters
 
-> *field*
+> **field**
 > Type: string or number
 > 그리드의 필드명 이거나 그리드의 필드 인덱스
 

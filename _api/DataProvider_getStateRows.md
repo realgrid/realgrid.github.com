@@ -18,7 +18,7 @@ permalink: /api/DataProvider/getStateRows/
 
 #### Parameters
 
-> *rowState*
+> **rowState**
 > Type: string
 > 상태 이름.
 

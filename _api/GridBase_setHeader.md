@@ -18,7 +18,7 @@ permalink: /api/GridBase/setHeader/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [Header](/api/GridBase/) 모델과 같은 설정 정보. [Header](/api/GridBase/) 중 변경하고자 하는 속성만 전달하면 된다.  
 

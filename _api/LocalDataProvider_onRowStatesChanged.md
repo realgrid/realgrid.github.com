@@ -11,7 +11,7 @@ permalink: /api/LocalDataProvider/onRowStatesChanged/
 #### Description
 
 > LocalDataProvider에서 여러건의 데이터행의 rowState가 변경되는 경우 호출된다.
-> [LocalDataProvider updateRows|updateRows](/api/LocalDataProvider/), [LocalDataProvider updateStrictRows|updateStrictRows](/api/LocalDataProvider/), [LocalDataProvider removeRows|removeRows](/api/LocalDataProvider/)등의 method에서 rowEvents를 false로 실행하는 경우 호출된다.
+> [LocalDataProvider updateRows\|updateRows](/api/LocalDataProvider/), [LocalDataProvider updateStrictRows\|updateStrictRows](/api/LocalDataProvider/), [LocalDataProvider removeRows\|removeRows](/api/LocalDataProvider/)등의 method에서 rowEvents를 false로 실행하는 경우 호출된다.
 
 
 #### Syntax
@@ -20,11 +20,11 @@ permalink: /api/LocalDataProvider/onRowStatesChanged/
 
 #### Arguments
 
-> *provider*
-> Type: [LocalDataProvider|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**
+> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
 > LocalDataProvider object.
 
-> *rows*
+> **rows**
 > Array of Number
 > 변경된 행 Index의 배열
 

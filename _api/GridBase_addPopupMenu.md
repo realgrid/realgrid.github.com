@@ -18,11 +18,11 @@ permalink: /api/GridBase/addPopupMenu/
 
 #### Parameters
 
-> *name*
+> **name**
 > Type: string
 > 메뉴 이름.
 
-> *menuItems*
+> **menuItems**
 > Type: Array
 > 계층적 구조의 메뉴 정보.
 

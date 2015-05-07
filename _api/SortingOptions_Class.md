@@ -12,17 +12,17 @@ permalink: /api/types/SortingOptions/
 
 #### Properties
 
-> *enabled*
+> **enabled**
 > Type: boolean
 > Default: true
 > 사용자가 컬럼 헤더를 클릭해서 컬럼을 정렬시킬 수 있도록 할 것인지를 지정한다. GridView.orderBy()는 이 속성 값과 상관없이 실행된다.
 
-> *style*
+> **style**
 > Type: [SortStyle](/api/types/) 
 > Default: SortStyle.EXCLUSIVE   
 > 그리드의 여러 컬럼에 대해 정렬 상태를 지정하는 방식을 지정한다.
 
-> *toast*
+> **toast**
 > Type: [ToastOptions](/api/types/)
 > Default: none
 > ToastOptions 참조

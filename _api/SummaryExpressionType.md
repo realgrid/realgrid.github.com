@@ -13,39 +13,39 @@ permalink: /api/types/SummaryExpressionType/
 
 #### Members
 
-> *COUNT*
+> **COUNT**
 > Value: "count"
 > 건수를 계산한다.
 
-> *SUM*
+> **SUM**
 > Value: "sum"
 > 합계를 계산한다.
  
-> *MAX*
+> **MAX**
 > Value: "MAX"
 > 최대값을 뽑아낸다.
 
-> *MIN*
+> **MIN**
 > Value: "min"
 > 최소값을 뽑아낸다.
 
-> *AVG*
+> **AVG**
 > Value: "avg"
 > 평균값을 계산한다.
 
-> *VAR*
+> **VAR**
 > Value: "var"
 > 분산값을 계산한다.
 
-> *VARP*
+> **VARP**
 > Value: "varp"
 > 모집단 분산값을 계산한다.
 
-> *STDEV*
+> **STDEV**
 > Value: "stdev"
 > 표준편차를 계산한다.
 
-> *STDEVP*
+> **STDEVP**
 > Value: "stdevp"
 > 모집단 표준편차를 계산한다.
 

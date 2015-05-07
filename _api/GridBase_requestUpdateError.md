@@ -18,11 +18,11 @@ permalink: /api/GridBase/requestUpdateError/
 
 #### Parameters
 
-> *context*
+> **context**
 > Type: String
 > 
 
-> *message*
+> **message**
 > Type: String
 > 표시할 에러 메시지 내용
 

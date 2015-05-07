@@ -14,22 +14,22 @@ permalink: /api/types/LinkCellRenderer/
 
 #### Properties
 
-> *url*
+> **url**
 > Type: string
 > Default: null
 > 필드값을 url Format값으로 사용할 url을 지정한다. 
 
-> *urlField*
+> **urlField**
 > Type: string
 > Default: null
 > url 형태의 값을 가진 필드를 지정한다.
 
-> *showUrl*
+> **showUrl**
 > Type: boolean
 > Default: true
 > url을 ToolTip창으로 표시할것인지를 결정한다.
 
-> *requiredFields*
+> **requiredFields**
 > Type: string
 > Default: null
 > url 표현식으로 지정할때 표현식에 포함된 필드값중에 빈값이면 안되는 field명을 콤마(,)로 구분하여 입력한다. requiredFields에 명시된 필드중 하나이상이 빈값인 경우 해당 셀은 Hyperlink가 생기지 않는다.

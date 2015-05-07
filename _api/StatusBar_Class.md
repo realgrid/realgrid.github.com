@@ -12,12 +12,12 @@ permalink: /api/types/StatusBar/
 
 #### Properties
 
-> *width*
+> **width**
 > Type: number
 > Default: 20
 > StatusBar의 너비를 픽셀 단위로 지정한다. 최소 너비는 1 픽셀이다.
 
-> *visible*
+> **visible**
 > Type: boolean 
 > Default: true   
 > true면 StatueBar를 표시한다.

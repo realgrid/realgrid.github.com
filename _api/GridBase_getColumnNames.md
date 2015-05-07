@@ -18,7 +18,7 @@ permalink: /api/GridBase/getColumnNames/
 
 #### Parameters
 
-> *columnsOnly*
+> **columnsOnly**
 > Type: Boolean
 > Default: false
 > true면 컬럼 그룹들을 포함한 모든 컬럼들의 이름을 가져온다. 

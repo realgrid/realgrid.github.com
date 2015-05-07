@@ -18,7 +18,7 @@ permalink: /api/DataProvider/getValues/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: integer
 > dataRow를 입력한다.
 

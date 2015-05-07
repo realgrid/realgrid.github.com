@@ -12,14 +12,14 @@ permalink: /api/types/PrintVisibility/
 
 #### Members
 
-> *DEFAULT* 
+> **DEFAULT** 
 > Value: "default" 
 > 기본 표시, 각 영역별 기본값으로 처리됩니다. 
 
-> *VISIBLE*
+> **VISIBLE**
 > Value: "visible" 
 > 표시합니다.                                 
 
-> *HIDDEN*  
+> **HIDDEN**  
 > Value: "hidden"  
 > 표시하지 않습니다.                          

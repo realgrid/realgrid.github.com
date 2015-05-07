@@ -12,18 +12,18 @@ permalink: /api/types/MenuItemType/
 
 #### Memebers
 
-> *NORMAL*   
+> **NORMAL**   
 > Type: "normal"    
 > 일반 Text로 구성된 메뉴 항목    
 
-> *CHECK*    
+> **CHECK**    
 > Type: "check"     
 > Check box와 Text로 구성된 메뉴 항목 
 
-> *RADIO*    
+> **RADIO**    
 > Type: "radio"     
 > Radio button과 Text로 구성된 메뉴 항목 
 
-> *SEPARATOR*
+> **SEPARATOR**
 > Type: "separator" 
 > 메뉴 항목간 구분                

@@ -18,7 +18,7 @@ permalink: /api/TreeDataProvider/getDescendantCount/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > 데이터행의 RowId.
 

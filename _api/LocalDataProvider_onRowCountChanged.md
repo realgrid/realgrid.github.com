@@ -18,11 +18,11 @@ permalink: /api/LocalDataProvider/onRowCountChanged/
 
 #### Arguments
 
-> *provider*
-> Type: [LocalDataProvider|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**
+> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
 > LocalDataProvider object.
 
-> *count*
+> **count**
 > Type: Number
 > 변경된 행의 개수.
 

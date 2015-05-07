@@ -10,7 +10,7 @@ permalink: /api/GridBase/setColumnLayouts/
 
 #### Description
 
-> 컬럼 레이아웃들을 미리 설정한다. [GridBase_registerColumnLayouts|registerColumnLayouts](/api/GridBase/)을 사용하도록 한다.
+> 컬럼 레이아웃들을 미리 설정한다. [GridBase_registerColumnLayouts\|registerColumnLayouts](/api/GridBase/)을 사용하도록 한다.
 
 #### Syntax
 
@@ -18,7 +18,7 @@ permalink: /api/GridBase/setColumnLayouts/
 
 #### Parameters
 
-> *layouts*
+> **layouts**
 > Type: Objects
 > 컬럼 레이아웃 세트들.
 

@@ -18,15 +18,15 @@ permalink: /api/TreeDataProvider/onRowsAdded/
 
 #### Arguments
 
-> *provider*
-> Type: [TreeDataProvider|TreeDataProvider](/api/TreeDataProvider/)
+> **provider**
+> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
 > TreeDataProvider object.
 
-> *parentId*
+> **parentId**
 > Type: Array of number
 > 부모 rowId
 
-> *rowIds*
+> **rowIds**
 > Type: Array of number
 > 
 

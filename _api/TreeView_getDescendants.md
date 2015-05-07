@@ -18,7 +18,7 @@ permalink: /api/TreeView/getDescendants/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 자손행을 가져오려는 부모행의 index를 입력한다.
 

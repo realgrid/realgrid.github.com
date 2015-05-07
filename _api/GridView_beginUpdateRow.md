@@ -18,7 +18,7 @@ permalink: /api/GridView/beginUpdateRow/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > Default: -1
 > 

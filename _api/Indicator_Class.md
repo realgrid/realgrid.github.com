@@ -12,47 +12,47 @@ permalink: /api/types/Indicator/
 
 #### Properties
 
-> *displayValue*
+> **displayValue**
 > Type: [IndicatorValue](/api/types/) 
 > Default: IndicatorValue.INDEX 
 > 인디케이터 셀들에 표시할 내용을 지정한다. 아이템 index나 데이터 행 번호를 표시할 수 있다. 
 
-> *minWidth*    
+> **minWidth**    
 > Type: number  
 > Default: 40  
 > Indicator의 최소 너비를 픽셀 단위로 지정한다. 
 
-> *maxWidth*    
+> **maxWidth**    
 > Type: number  
 > Default: 0   
 > Indicator의 최대 너비를 픽셀 단위로 지정한다  
 
-> *width*        
+> **width**        
 > Type: number  
 > Default: 0   
 > Indicator의 너비를 픽셀 단위로 지정한다. 이 값이 0보다 크면 minWidth, maxWidth는 무시된다. 0이면 표시할 내용과 minWidth, maxWidth에 맞춰 너비가 자동 조정된다. 
 
-> *selectable*     
+> **selectable**     
 > Type: boolean 
 > Default: true 
 > 선택가능 여부를 지정한다.
 
-> *visible*     
+> **visible**     
 > Type: boolean 
 > Default: true 
 > true면 Indicator를 표시한다. 
 
-> *zeroBase*     
+> **zeroBase**     
 > Type: boolean 
 > Default: false 
 > 인디케이터의 숫자가 0부터 시작할것인지의 여부를 지정한다.
 
-> *indexOffset*     
+> **indexOffset**     
 > Type: Number
 > Default: 0
 > 인디케이터에 표시될 숫자와 아이템 index와의 간격을 지정한다. (인디케이터 숫자 = 아이템 index + indexOffset)
 
-> *rowOffset*     
+> **rowOffset**     
 > Type: Number
 > Default: 0
 > 인디케이터에 표시될 숫자와 데이터 행 번호와의 간격을 지정한다. (인디케이터 숫자 = 데이터 행 번호 + rowOffset)

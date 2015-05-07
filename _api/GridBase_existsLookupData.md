@@ -18,12 +18,12 @@ permalink: /api/GridBase/existsLookupData/
 
 #### Parameters
 
-> *sourceId*
+> **sourceId**
 > Type: string
 > lookupSource의 Id
 
-> *keys*
-> Type: String | Array of String
+> **keys**
+> Type: String \| Array of String
 > 찾을 키값
 
 

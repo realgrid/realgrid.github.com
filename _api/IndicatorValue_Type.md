@@ -12,15 +12,15 @@ permalink: /api/types/IndicatorValue/
 
 #### Members
 
-> *NONE*  
+> **NONE**  
 > Value: "none"  
 > 표시하지 않습니다.                                        
 
-> *INDEX*
+> **INDEX**
 > Value: "index" 
 > 1부터 시작하여 표시합니다. (정렬에 무관하게 1번부터 시작) 
 
-> *ROW*   
+> **ROW**   
 > Value: "row"  
 > Row의 고유번호를 표시합니다. (정렬에 따라서 섞여서 표시)  
 

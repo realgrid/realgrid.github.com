@@ -18,7 +18,7 @@ permalink: /api/GridBase/endUpdate/
 
 #### Parameters
 
-> *force*
+> **force**
 >   Type: Boolean
 >   Default: true
 >   이 전에 [beginUpdate](/api/GridBase/)가 호출되었는 지와 상관 없이 그리드를 다시 그리게 한다.

@@ -18,7 +18,7 @@ permalink: /api/GridBase/getRowsOfItems/
 
 #### Parameters
 
-> *items*
+> **items**
 > Type: Array of Number
 > itemIndex배열이다.
 

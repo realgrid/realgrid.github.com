@@ -13,12 +13,12 @@ permalink: /api/types/ColumnGroupHeader/
 
 #### Properties
 
-> *text*
+> **text**
 > Type: String 
 > Default: null    
 > 컬럼그룹 헤더에 표시될 문자열을 지정한다. 이 값이 null 이면  컬럼그룹의 이름을 표시한다.
 
-> *visible*
+> **visible**
 > Type: Boolean 
 > Default: true    
 > 컬럼그룹 헤더를 표시할 것인 지를 지정한다. 

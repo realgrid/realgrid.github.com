@@ -12,27 +12,27 @@ permalink: /api/types/ColumnFilter/
 
 #### Properties
 
-> *name*
+> **name**
 > Type: String 
 > Default:  null    
 > 필터 이름. 
 
-> *criteria*
+> **criteria**
 > Type: String 
 > Default: null   
 > 필터에 표시될 [Expression](/api/types/)을 지정한다. 
 
-> *text*
+> **text**
 > Type: String 
 > Default: null   
 > selector에 표시되는 문자열이다. null이면 name 이 표시된다.
 
-> *description*
+> **description**
 > Type: String 
 > Default:  null    
 > 필터의 설명을 기재한다.
 
-> *active*
+> **active**
 > Type: Boolean 
 > Default: true    
 > 필터를 수행할 것인 지를 지정한다.

@@ -18,15 +18,15 @@ permalink: /api/TreeView/onTreeItemExpanding/
 
 #### Arguments
 
-> *tree*
-> Type: [TreeView|TreeView](/api/TreeView/)
+> **tree**
+> Type: [TreeView\|TreeView](/api/TreeView/)
 > TreeView컨트롤
 
-> *itemIndex*
+> **itemIndex**
 > Type: number
 > 펼쳐지려는 행의 아이템 인덱스
 
-> *rowId*
+> **rowId**
 > Type: number
 > 펼쳐지려는 행의 rowId.
 

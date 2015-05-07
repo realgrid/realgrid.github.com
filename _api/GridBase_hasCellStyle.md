@@ -18,7 +18,7 @@ permalink: /api/GridBase/hasCellStyle/
 
 #### Parameters
 
-> *id*
+> **id**
 > Type: String
 > 확인하려는 셀 스타일id
 

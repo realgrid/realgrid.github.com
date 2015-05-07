@@ -18,16 +18,16 @@ permalink: /api/GridBase/expandModel/
 
 #### Parameters
 
-> *model*
+> **model**
 > Type: Object
 > 확장하려는 그룹아이템 모델을 입력한다.
 
-> *recursive*
+> **recursive**
 > Type: boolean
 > Default: false
 > true로 입력하면 자손그룹들도 모두 확장된다.
 
-> *force*
+> **force**
 > Type: boolean
 > Default : false
 > true로 입력하면 이미 확장된 그룹아이템의 자손그룹들을 모두 확장한다.

@@ -18,7 +18,7 @@ permalink: /api/GridBase/setValidations/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: Array of [EditValidation](/api/GridBase/)
 > [EditValidation](/api/GridBase/) 모델과 같은 설정 정보들의 배열.
 

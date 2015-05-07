@@ -18,11 +18,11 @@ permalink: /api/GridBase/getRootModel/
 
 #### Parameters
 
-> *model*
+> **model**
 > Type: Object
 > 아이템 모델
 
-> *extended*
+> **extended**
 > Type: Boolean
 > 확장정보 포함 여부
 

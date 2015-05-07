@@ -12,23 +12,23 @@ permalink: /api/types/RowState/
 
 #### Members
 
-> *NONE*
+> **NONE**
 > Value: "none"
 > 로드된 후 변경이 없는 상태.
 
-> *CREATED*
+> **CREATED**
 > Type: "created"
 > 새로 추가된 행의 상태.
 
-> *UPDATED*
+> **UPDATED**
 > Type: "updated"
 > 로드된 후 하나 이상의 필드 값이 변경된 상태. CREATE인 행은 값이 변경 되어도 UPDATED로 변경되지 않는다.
 
-> *DELETED*
+> **DELETED**
 > Value: "deleted"
 > 삭제된 행의 상태. DataProvider의 softDeleting이 true면 사용자가 삭제를 요청할 때 실제 삭제하지 않고 상태만 이 값으로 변경한다.
 
-> *CREATE_AND_DELETED*
+> **CREATE_AND_DELETED**
 > Type: "createAndDeleted"
 > 새로 추가된 후에 다시 삭제된 행의 상태.
 

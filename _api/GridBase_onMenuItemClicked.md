@@ -10,7 +10,7 @@ permalink: /api/GridBase/onMenuItemClicked/
 
 #### Description
 
-> [GridBase addPopupMenu|addPopupMenu](/api/GridBase/)로 추가한 팝업메뉴 항목이 클릭됐을 때 호출된다.
+> [GridBase addPopupMenu\|addPopupMenu](/api/GridBase/)로 추가한 팝업메뉴 항목이 클릭됐을 때 호출된다.
 
 #### Syntax
 
@@ -18,8 +18,8 @@ permalink: /api/GridBase/onMenuItemClicked/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
 #### Return

@@ -12,7 +12,7 @@ permalink: /api/types/SignalBarCellRenderer/
 
 #### Properties
 
-> *barCount*
+> **barCount**
 > Type: Number
 > Default: 4
 > 바의 개수를 지정한다.

@@ -18,15 +18,15 @@ permalink: /api/GridBase/onCellButtonClicked/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *itemIndex*
+> **itemIndex**
 > Type: number
 > 데이터셀이 포함된 아이템의 인덱스.
 
-> *column*
+> **column**
 > Type: object
 > 데이터셀에 연결된 컬럼. [DataColumn](/api/GridBase/)과 같은 구조의 object.
 

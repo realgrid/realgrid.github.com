@@ -13,15 +13,15 @@ permalink: /api/types/SummaryMode/
 
 #### Members
 
-> *NONE*
+> **NONE**
 > Value: "none"
 > 컬럼의 합계를 계산하지 않는다.
 
-> *AGGREGATE*
+> **AGGREGATE**
 > Value: "aggregate"
 > 합, 평균, 최대값, 최소값 등 산술적인 합계를 자동으로 계산한다.
 
-> *STATISTICAL*
+> **STATISTICAL**
 > Value: "statistical"
 > 분산, 표준 편차 등 통계적 합계를 자동으로 계산한다.
 

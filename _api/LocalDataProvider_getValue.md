@@ -18,17 +18,17 @@ permalink: /api/LocalDataProvider/getValue/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: Number
 > dataRow 인덱스
 
-> *field*
-> Type: Number|String
+> **field**
+> Type: Number\|String
 > 필드 인덱스 또는 fieldName
 
 #### Return value
 
-> Type: *
+> Type: **
 > 데이터 필드의 값.
 
 #### Example

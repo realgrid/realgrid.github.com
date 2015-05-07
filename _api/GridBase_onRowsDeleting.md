@@ -18,11 +18,11 @@ permalink: /api/GridBase/onRowsDeleting/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > 그리드.
 
-> *rows*
+> **rows**
 > Array of number
 > 삭제하려는 행들의 데이터행 인덱스 배열.
 

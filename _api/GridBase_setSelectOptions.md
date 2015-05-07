@@ -18,7 +18,7 @@ permalink: /api/GridBase/setSelectOptions/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [SelectOptions](/api/GridBase/)과 같은 내용의 설정 정보. [SelectOptions](/api/GridBase/) 중 변경하고자 하는 속성만 전달하면 된다.  
 

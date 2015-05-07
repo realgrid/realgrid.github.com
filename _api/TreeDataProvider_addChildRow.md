@@ -18,19 +18,19 @@ permalink: /api/TreeDataProvider/addChildRow/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > Parent 행의 아이디.
 
-> *values*
-> Type: Array|Object
+> **values**
+> Type: Array\|Object
 > 추가할 행의 필드 값 배열 또는 Object.
 
-> *iconIndex*
+> **iconIndex**
 > Type: Number
 > 트리 행에 표시할 아이콘 인덱스.
 
-> *hasChildren*
+> **hasChildren**
 > Type: Boolean
 > true면 자식이 있는 것으로 표시.
 

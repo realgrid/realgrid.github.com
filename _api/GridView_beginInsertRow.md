@@ -19,7 +19,7 @@ permalink: /api/GridView/beginInsertRow/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > Default: -1
 > itemIndex를 입력하지 않으면 이전에 실행된 beginInsertRow의 itemIndex 앞에 추가되거나 실행된적이 없으면 0번째 itemIndex앞에 추가된다.

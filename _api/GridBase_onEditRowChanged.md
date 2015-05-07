@@ -19,24 +19,24 @@ permalink: /api/GridBase/onEditRowChanged/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *itemIndex*
+> **itemIndex**
 > Type:  number
 > 변경된 ItemIndex
 
-> *dataRow*
+> **dataRow**
 > Type:  number
 > 변경된 dataRow
 
-> *oldValue*
-> Type: *
+> **oldValue**
+> Type: **
 > 편집전 셀의 데이터 값
 
-> *newValue*
-> Type: *
+> **newValue**
+> Type: **
 > 편집후 셀의 데이터 값
 
 #### Return

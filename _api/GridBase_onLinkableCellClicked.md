@@ -18,15 +18,15 @@ permalink: /api/GridBase/onLinkableCellClicked/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *index*
-> Type:  [CellIndex|CellIndex](/api/GridBase/)
+> **index**
+> Type:  [CellIndex\|CellIndex](/api/GridBase/)
 > 클릭된 CellIndex
 
-> *url*
+> **url**
 > Type: String
 > 클릭된 셀에 담겨 있던 url 정보
 

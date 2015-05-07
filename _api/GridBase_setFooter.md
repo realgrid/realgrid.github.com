@@ -18,7 +18,7 @@ permalink: /api/GridBase/setFooter/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [Footer](/api/GridBase/) 모델과 같은 설정 정보. [Footer](/api/GridBase/) 중 변경하고자 하는 속성만 전달하면 된다.  
 

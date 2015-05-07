@@ -18,11 +18,11 @@ permalink: /api/DataProvider/getDistinctValues/
 
 #### Parameters
 
-> *field*
+> **field**
 > Type: String
 >  필드명
 
-> *maxCount*
+> **maxCount**
 > Type: Number
 >  가져올 데이터의 개수
 

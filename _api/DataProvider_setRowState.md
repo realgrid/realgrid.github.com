@@ -19,15 +19,15 @@ permalink: /api/DataProvider/setRowState/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: Number
 > 변경하려는 row를 지정한다.
 
-> *state*
+> **state**
 > Type:RealGrids.RowState
 > 지정하지 않으면 "none"이다.
 
-> *force*
+> **force**
 > Type: Boolean;
 > 지정하지 않으면 false이다.
 

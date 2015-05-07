@@ -18,8 +18,8 @@ permalink: /api/GridBase/onScrollToBottom/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
 #### Return

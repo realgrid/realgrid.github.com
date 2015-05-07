@@ -18,11 +18,11 @@ permalink: /api/GridBase/collapseModel/
 
 #### Parameters
 
-> *model*
+> **model**
 > Type: Object
 > 축소하려는 그룹아이템 모델을 입력한다.
 
-> *recursive*
+> **recursive**
 > Type: boolean
 > Default: false
 > true로 입력하면 자손그룹들도 모두 축소된다.

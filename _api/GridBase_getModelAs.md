@@ -19,15 +19,15 @@ permalink: /api/GridBase/getModelAs/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 아이템의 index
 
-> *itemType*
+> **itemType**
 > Type: Number
 > 아이템의 type. "row", "group", "footer", "tree"를 지정할 수 있다.
 
-> *extended*
+> **extended**
 > Type: Boolean
 > 확장정보 포함 여부
 

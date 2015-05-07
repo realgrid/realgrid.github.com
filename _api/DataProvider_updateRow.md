@@ -18,12 +18,12 @@ permalink: /api/DataProvider/updateRow/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 수정할 데이터행 인덱스.
 
-> *values*
-> Type: Array|object
+> **values**
+> Type: Array\|object
 > 필드값의 배열이거나 object.
 
 #### Return value

@@ -18,7 +18,7 @@ permalink: /api/GridBase/getItemState/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 상태를 가져오려는 itemIndex를 입력한다.
 

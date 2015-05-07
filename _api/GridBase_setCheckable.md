@@ -18,11 +18,11 @@ permalink: /api/GridBase/setCheckable/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > Grid Item의 index이다.
 
-> *value*
+> **value**
 > Type: Boolean
 > Checkable 상태
 

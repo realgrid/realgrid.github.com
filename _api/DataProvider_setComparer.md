@@ -18,11 +18,11 @@ permalink: /api/DataProvider/setComparer/
 
 #### Parameters
 
-> *field*
+> **field**
 > Type: number
 > 데이터필드 인덱스
 
-> *comparer*
+> **comparer**
 > Type: Function
 > 데이터 비교 함수
 

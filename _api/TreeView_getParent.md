@@ -18,7 +18,7 @@ permalink: /api/TreeView/getParent/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 자식행의 itemIndex를 입력한다.
 

@@ -18,16 +18,16 @@ permalink: /api/GridBase/setColumnProperty/
 
 #### Parameters
 
-> *column*
+> **column**
 > Type: Object
 > 컬럼 속성 정보
 
-> *prop*
+> **prop**
 > Type: string
 > 변경하고자 하는 속성명
 
-> *value*
-> Type: *
+> **value**
+> Type: **
 > 변경 값
 
 #### Return value

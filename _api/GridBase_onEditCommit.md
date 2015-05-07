@@ -19,20 +19,20 @@ permalink: /api/GridBase/onEditCommit/
 
 #### Arguments
 
-> *grid*
-> Type: [GridView|GridView](/api/GridBase/)
+> **grid**
+> Type: [GridView\|GridView](/api/GridBase/)
 > GridView 컨트롤
 
-> *index*
-> Type:  [CellIndex|CellIndex](/api/GridBase/)
+> **index**
+> Type:  [CellIndex\|CellIndex](/api/GridBase/)
 > 변경된 CellIndex
 
-> *oldValue*
-> Type: *
+> **oldValue**
+> Type: **
 > 편집전 셀의 데이터 값
 
-> *newValue*
-> Type: *
+> **newValue**
+> Type: **
 > 편집후 셀의 데이터 값
 
 #### Return

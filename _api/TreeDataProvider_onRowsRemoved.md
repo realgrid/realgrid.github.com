@@ -19,11 +19,11 @@ permalink: /api/TreeDataProvider/onRowsRemoved/
 
 #### Arguments
 
-> *provider*
-> Type: [TreeDataProvider|TreeDataProvider](/api/TreeDataProvider/)
+> **provider**
+> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
 > TreeDataProvider object.
 
-> *rowIds*
+> **rowIds**
 > Type: Array of number
 > 
 

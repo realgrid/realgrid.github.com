@@ -12,18 +12,18 @@ permalink: /api/features/HandleVisiblity/
 
 #### Members
 
-> *VISIBLE*
+> **VISIBLE**
 > Value: "visible" 
 > 표시합니다.                                 
 
-> *HOVERED*
+> **HOVERED**
 > Value: "hovered" 
 > 호버링 된 경우에만 표시합니다.                                 
 
-> *ALWAYS*
+> **ALWAYS**
 > Value: "always" 
 > 항상 표시합니다.                                 
 
-> *HIDDEN*  
+> **HIDDEN**  
 > Value: "hidden"  
 > 표시하지 않습니다.                          

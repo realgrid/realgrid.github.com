@@ -20,7 +20,7 @@ permalink: /api/TreeDataProvider/removeRows/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: number
 > 삭제할 데이터행의 인덱스.
 

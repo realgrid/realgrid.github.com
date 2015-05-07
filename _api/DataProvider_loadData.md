@@ -18,15 +18,15 @@ permalink: /api/DataProvider/loadData/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [DataLoadOptions](/api/DataProvider/)와 같은 내용의 설정 object.
 
-> *onCompleted*
+> **onCompleted**
 > Type: Function
 > 데이터 로드가 성공적으로 완료됐을 때 호출된다.
 
-> *onFailed*
+> **onFailed**
 > Type: Function
 > 데이터 로드가 실패 했을 때 호출된다.
 

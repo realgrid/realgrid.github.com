@@ -19,15 +19,15 @@ permalink: /api/GridBase/setCellStyles/
 
 #### Parameters
 
-> *dataRow*
+> **dataRow**
 > Type: number
 > 셀 스타일을 적용할 데이터 행의 번호
 
-> *field*
-> Type: array of string | number
+> **field**
+> Type: array of string \| number
 > 셀 스타일을 적용할 필드명이나 필드순서들
 
-> *styleId*
+> **styleId**
 > Type: string
 > 적용할 스타일 id
 

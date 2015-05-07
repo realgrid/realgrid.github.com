@@ -12,7 +12,7 @@ permalink: /api/GridBase/getRowData/
 
 > [Grid Item](/api/GridBase/)이 참조하는 데이터 행의 ,필드 값들을 Json 객체로 반환한다.
 > 필드 값들 외에 "__rowId" 속성에 데이터 행의 인덱스를 같이 반환한다.
-> 더 이상 사용되지 않습니다. [GridBase_getValues|getValues](/api/GridBase/)를 대신 사용하세요.
+> 더 이상 사용되지 않습니다. [GridBase_getValues\|getValues](/api/GridBase/)를 대신 사용하세요.
 
 #### Syntax
 
@@ -20,7 +20,7 @@ permalink: /api/GridBase/getRowData/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > 아이템 인덱스
 

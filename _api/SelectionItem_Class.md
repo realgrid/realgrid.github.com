@@ -12,31 +12,31 @@ permalink: /api/types/SelectionItem/
 
 #### Properties
 
-> *style*
+> **style**
 > Type: string 
 > 선택 형태. "block", "rows", "columns" 중 하나다.
 
-> *startItem*
+> **startItem**
 > Type: number 
 > 시작 행의 아이템 인덱스.
 
-> *startRow* 
+> **startRow** 
 > Type: number       
 > 시작 행의 데이터 행 번호. 
 
-> *startColumn* 
+> **startColumn** 
 > Type: string 
 > 시작 컬럼의 이름.   
 
-> *endItem*
+> **endItem**
 > Type: number 
 > 끝 행의 아이템 인덱스.
 
-> *endRow* 
+> **endRow** 
 > Type: number       
 > 끝 행의 데이터 행 번호. 
 
-> *endColumn* 
+> **endColumn** 
 > Type: string 
 > 끝 컬럼의 이름.   
 

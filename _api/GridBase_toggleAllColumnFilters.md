@@ -18,7 +18,7 @@ permalink: /api/GridBase/toggleAllColumnFilters/
 
 #### Parameters
 
-> *column*
+> **column**
 > Type: Object
 > 컬럼 설정 정보
 

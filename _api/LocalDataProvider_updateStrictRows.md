@@ -19,26 +19,26 @@ permalink: /api/LocalDataProvider/updateStrictRows/
 
 #### Parameters
 
-> *row*
+> **row**
 > Type: number
 > 수정을 시작할 데이터행
 
-> *rows*
-> Type: Array of Array|Object
+> **rows**
+> Type: Array of Array\|Object
 > 값들의 배열. 각 행의 값은 Array이나 object.
 
-> *start*
+> **start**
 > Type: number
 > rows로 입력된 Array의 시작Index 생략되면 0 이다.
 
-> *count*
+> **count**
 > Type: number
 > 수정할 건수 생략되면 -1 이며 rows.length만큼 수정된다.
 
-> *rowEvents*
+> **rowEvents**
 > Type: Boolean
-> true이면 [LocalDataProvider_onRowStateChanged|onRowStateChanged](/api/LocalDataProvider/) event가 건별로 호출된다.
-> false이면 [LocalDataProvider_onRowStatesChanged|onRowStatesChanged](/api/LocalDataProvider/) event가 한번만 호출된다.
+> true이면 [LocalDataProvider_onRowStateChanged\|onRowStateChanged](/api/LocalDataProvider/) event가 건별로 호출된다.
+> false이면 [LocalDataProvider_onRowStatesChanged\|onRowStatesChanged](/api/LocalDataProvider/) event가 한번만 호출된다.
 > 지정하지 않으면 false이다.
 
 #### Return value

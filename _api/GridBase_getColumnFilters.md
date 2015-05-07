@@ -18,7 +18,7 @@ permalink: /api/GridBase/getColumnFilters/
 
 #### Parameters
 
-> *column*
+> **column**
 > Type: Object
 > Data Column
 

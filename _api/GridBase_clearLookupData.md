@@ -18,7 +18,7 @@ permalink: /api/GridBase/clearLookupData/
 
 #### Parameters
 
-> *sourceId*
+> **sourceId**
 > Type: String
 > LookupSource의 Id
 

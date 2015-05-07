@@ -12,50 +12,50 @@ permalink: /api/features/PolygonShape/
 
 #### Memebers
 
-> *NULL*              
+> **NULL**              
 > Value: "null"
 
-> *RECTANGLE*         
+> **RECTANGLE**         
 > Value: "rectangle"       
 > 사각형       
 
-> *TRIANLGE*          
+> **TRIANLGE**          
 > Value: "triangle"        
 > 삼각형       
 
-> *INVERTED_TRIANLGE* 
+> **INVERTED_TRIANLGE** 
 > Value: "invertedtriangle"
 > 역삼각형     
 
-> *DIAMOND*           
+> **DIAMOND**           
 > Value: "diamond"         
 > 마름모       
 
-> *UP_ARROW*          
+> **UP_ARROW**          
 > Value: "uparrow"         
 > 윗방향       
 
-> *DOWN_ARROW*        
+> **DOWN_ARROW**        
 > Value: "downarrow"       
 > 아랫방향     
 
-> *LEFT_ARROW*        
+> **LEFT_ARROW**        
 > Value: "leftarrow"       
 > 왼방향       
 
-> *RIGHT_ARROW*       
+> **RIGHT_ARROW**       
 > Value: "rightarrow"      
 > 오른방향     
 
-> *PLUS*              
+> **PLUS**              
 > Value: "plus"            
 > 플러스기호   
 
-> *MINUS*             
+> **MINUS**             
 > Value: "minus"           
 > 마이너스기호 
 
-> *EQUAL*             
+> **EQUAL**             
 > Value: "equal"           
 > 등호         
 

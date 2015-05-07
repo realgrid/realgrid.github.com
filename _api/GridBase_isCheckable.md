@@ -10,7 +10,7 @@ permalink: /api/GridBase/isCheckable/
 
 #### Description
 
-> [CheckBar|CheckBar](/api/GridBase/)에 체크가 가능한 상태이면 true를 반환한다.
+> [CheckBar\|CheckBar](/api/GridBase/)에 체크가 가능한 상태이면 true를 반환한다.
 
 #### Syntax
 
@@ -18,7 +18,7 @@ permalink: /api/GridBase/isCheckable/
 
 #### Parameters
 
-> *itemIndex*
+> **itemIndex**
 > Type: Number
 > Grid Item의 index이다.
 

@@ -18,7 +18,7 @@ permalink: /api/TreeDataProvider/getAncestors/
 
 #### Parameters
 
-> *rowId*
+> **rowId**
 > Type: Number
 > Row Id
 

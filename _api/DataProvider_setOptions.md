@@ -18,7 +18,7 @@ permalink: /api/DataProvider/setOptions/
 
 #### Parameters
 
-> *options*
+> **options**
 > Type: object
 > [DataProviderOptions](/api/DataProvider/)과 같은 내용의 설정 object. [DataProviderOptions](/api/DataProvider/) 중 변경하고자 하는 속성만 전달하면 된다.  
 

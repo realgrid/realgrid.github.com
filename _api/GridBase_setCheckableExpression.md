@@ -18,11 +18,11 @@ permalink: /api/GridBase/setCheckableExpression/
 
 #### Parameters
 
-> *expression*
+> **expression**
 > Type: String
 > 체크 가능 여부의 수식을 지정한다.
 
-> *apply*
+> **apply**
 > Type: Boolean
 > Default: true
 > Checkable 의 즉시 적용여부

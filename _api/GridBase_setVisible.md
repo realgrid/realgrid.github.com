@@ -18,7 +18,7 @@ permalink: /api/GridBase/setVisible/
 
 #### Parameters
 
-> *visible*
+> **visible**
 > Type: boolean
 > true면 그리드를 표시하고, false면 그리드를 감춘다.
 
