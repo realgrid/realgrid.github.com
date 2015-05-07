@@ -32,13 +32,15 @@ layout: rowdiv
   {% endif %}{% endfor %}
   </ul>
 
+  {% assign sorted_by_orderno = site.api | sort: "order" %}
+
   <h4>Types</h4>
   {% for type_name in site.type_names %}
     <h6><strong>{{ type_name }}</strong></h6>
     <ul class="post-api-list">
-    {% for post in site.api %}{% if post.part == 'Types' and post.typename == type_name %}
+    {% for api in sorted_by_orderno %}{% if api.part == 'Types' and api.typename == type_name %}
       <li>
-      <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
       </li>
     {% endif %}{% endfor %}
     </ul> 
