@@ -116,6 +116,10 @@ blockquote {
     background-color: $grey-color-light;
     border-left: 4px solid $grey-color;
     
+    > pre {
+        border: none;
+    }
+
     > p {
         font-family: Monaco, monospace !important;
         font-size: 14px;

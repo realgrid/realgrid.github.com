@@ -14,9 +14,9 @@ permalink: /api/GridBase/activateAllColumnFilters/
 
 #### Syntax
 
-> ```
+> <pre class="prettyprint">
 > function activateAllColumnFilters(column, active)
-> ```
+> </pre>
 
 #### Parameters
 
