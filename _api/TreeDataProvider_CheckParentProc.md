@@ -1,6 +1,6 @@
 ---
 layout: apipost
-title: CheckParentProc
+title: checkParentProc
 part: Objects
 objectname: TreeDataProvider
 directiontype: Function

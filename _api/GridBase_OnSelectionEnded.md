@@ -1,6 +1,6 @@
 ---
 layout: apipost
-title: OnSelectionEnded
+title: onSelectionEnded
 part: Objects
 objectname: GridBase
 directiontype: Callback

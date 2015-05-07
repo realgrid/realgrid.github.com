@@ -11,13 +11,19 @@ permalink: /api/types/CellIndex/
 #### Properties
 
 > **itemIndex** 
+> 
 > Type: Number  
+> 
 > Default: -1   
+> 
 > Grid상의 Index            
 
 > **column**    
+> 
 > Type: String  
+> 
 > Default: null 
+> 
 > 컬럼 이름
                  
 > **dataRow**   

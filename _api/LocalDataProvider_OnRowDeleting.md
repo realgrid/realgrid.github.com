@@ -1,6 +1,6 @@
 ---
 layout: apipost
-title: OnRowDeleting
+title: onRowDeleting
 part: Objects
 objectname: LocalDataProvider
 directiontype: Callback

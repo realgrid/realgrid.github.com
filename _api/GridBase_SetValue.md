@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: SetValue
+title: setValue
 part: Objects
 objectname: GridBase
 directiontype: Function
-permalink: /api/GridBase/SetValue/
+permalink: /api/GridBase/setValue/
 ---
 
 
