@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HELP.REALGRID.COM 공동개발에 참여하기
+title: 공동개발 참여 방법
 date: 2015-04-30 15:47:54 +9:00 GMT
 category: help
 permalink: /help/help-posting
@@ -22,6 +22,7 @@ tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 * [작성한 강좌를 깃허블에 올리기](#head8)
 * [깃허브에서 직접 코드 수정하기](#head9)
 * [본 페이지 소스 코드 보기](#head10)
+* [도움이 될만한 사이트](#head11)
 
 
 ### <a name="head1"></a>들어가며
@@ -122,124 +123,9 @@ help.realgrid.com의 깃허브 리파지터리는 아래와 같습니다.
 </button>
 
 <pre class="prettyprint">
----
-layout: post
-title: HELP.REALGRID.COM &#xacf5;&#xb3d9;&#xac1c;&#xbc1c;&#xc5d0; &#xcc38;&#xc5ec;&#xd558;&#xae30;
-date: 2015-04-30 15:47:54 +9:00 GMT
-category: help
-permalink: /help/help-posing
-tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
----
-
-&lt;blockquote class=&quot;quote-from&quot;&gt;
-&lt;strong&gt;&#xbcf8; &#xc0ac;&#xc774;&#xd2b8;&#xc758; &#xac1c;&#xbc1c;&#xc5d0; &#xcc38;&#xc5ec;&#xd558;&#xc5ec; &#xc791;&#xc131;&#xd558;&#xb294; &#xbaa8;&#xb4e0; &#xbb38;&#xc11c;&#xc758; &lt;code&gt;&#xc800;&#xc791;&#xad8c;&lt;/code&gt;&#xc740; &#xc791;&#xc131;&#xc790; &#xbcf8;&#xc778;&#xc5d0;&#xac8c; &#xc788;&#xc9c0;&#xb9cc; &#xbb38;&#xc11c;&#xc758; &lt;code&gt;&#xac8c;&#xc2dc;&#xc5ec;&#xbd80;&lt;/code&gt;&#xb294; (&#xc8fc;)&#xc6b0;&#xb9ac;&#xd14c;&#xd06c;&#xc778;&#xd130;&#xb0b4;&#xc154;&#xb0a0;&#xc758; &#xad8c;&#xb9ac;&#xc784;&#xc744; &#xc54c;&#xb824;&#xb4dc;&#xb9bd;&#xb2c8;&#xb2e4;.&lt;/strong&gt;
-&lt;/blockquote&gt;
-
-#### &#xbaa9;&#xcc28;
-* [&#xb4e4;&#xc5b4;&#xac00;&#xba70;](#head1)
-* [&#xae43;&#xd5c8;&#xbe0c;(GitHub) &#xc774;&#xd574;&#xd558;&#xae30;](#head1-1)
-* [&#xae43;&#xd5c8;&#xbe0c; &#xc544;&#xc774;&#xb514; &#xb9cc;&#xb4e4;&#xae30;](#head2)
-* [&#xae43;&#xd5c8;&#xbe0c; &#xc544;&#xbc14;&#xd0c0;(Avata) &#xbcc0;&#xacbd;&#xd558;&#xae30;](#head3)
-* [&#xb9ac;&#xd30c;&#xc9c0;&#xd130;&#xb9ac;(repository)&#xc5d0; &#xcc38;&#xc5ec;&#xd558;&#xae30;](#head4)
-* [&#xb0b4; PC&#xc5d0; &#xb85c;&#xceec; &#xd074;&#xb860;(local clone)&#xb9cc;&#xb4e4;&#xae30;](#head5)
-* [&#xc0c8;&#xb85c;&#xc6b4; &#xac15;&#xc88c; &#xc62c;&#xb9ac;&#xae30;](#head7)
-* [&#xc791;&#xc131;&#xd55c; &#xac15;&#xc88c;&#xb97c; &#xae43;&#xd5c8;&#xbe14;&#xc5d0; &#xc62c;&#xb9ac;&#xae30;](#head8)
-* [&#xae43;&#xd5c8;&#xbe0c;&#xc5d0;&#xc11c; &#xc9c1;&#xc811; &#xcf54;&#xb4dc; &#xc218;&#xc815;&#xd558;&#xae30;](#head9)
-* [&#xbcf8; &#xd398;&#xc774;&#xc9c0; &#xc18c;&#xc2a4; &#xcf54;&#xb4dc; &#xbcf4;&#xae30;](#head10)
-
-
-### &lt;a name=&quot;head1&quot;&gt;&lt;/a&gt;&#xb4e4;&#xc5b4;&#xac00;&#xba70;
-
-&#xc774; &#xbb38;&#xc11c;&#xb294; doc.realgrid.com(help.realgrid.com)&#xc5d0; &#xc790;&#xc2e0;&#xc758; &#xcee8;&#xd150;&#xce20;&#xb97c; &#xac8c;&#xc2dc;&#xd558;&#xb294; &#xac83;&#xacfc; &#xac19;&#xc774;, &#xc0ac;&#xc774;&#xd2b8;&#xc758; &#xac1c;&#xbc1c;&#xc5d0; &#xc9c1;&#xc811; &#xcc38;&#xc5ec;&#xd558;&#xb294; &#xbc29;&#xbc95;&#xc744; &#xc124;&#xba85; &#xd558;&#xace0; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;. &#xd558;&#xc9c0;&#xb9cc;, &#xb0b4;&#xbd80;&#xc9c1;&#xc6d0;&#xc774; &#xc544;&#xb2cc; &#xacbd;&#xc6b0; API &#xbb38;&#xc11c;&#xb97c; &#xcd94;&#xac00;/&#xbcc0;&#xacbd; &#xd558;&#xb294; &#xac83;&#xc5d0;&#xb294; &#xc81c;&#xd55c;&#xc774; &#xc788;&#xc73c;&#xba70;, RealGrid&#xb97c; &#xc0ac;&#xc6a9;&#xd558;&#xb294; &#xbc29;&#xbc95;&#xc774;&#xb098; &#xd65c;&#xc6a9;&#xd558;&#xc5ec; &#xc751;&#xc6a9;&#xd504;&#xb85c;&#xadf8;&#xb7a8;&#xc744; &#xb9cc;&#xb4dc;&#xb294; &#xbc29;&#xbc95;&#xb4f1;&#xc5d0; &#xb300;&#xd55c; &#xac15;&#xc88c;&#xb294; &#xc791;&#xc131;&#xd558;&#xc5ec; &#xac8c;&#xc2dc;&#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.
-
-### &lt;a name=&quot;head1-1&quot;&gt;&lt;/a&gt;&#xae43;&#xd5c8;&#xbe0c;(GitHub) &#xc774;&#xd574;&#xd558;&#xae30;
-&#xb9cc;&#xc57d;, &#xae43;&#xd5c8;&#xbe0c;&#xb97c; &#xc798; &#xc54c;&#xc9c0; &#xbabb;&#xd558;&#xac70;&#xb098; &#xc880;&#xb354; &#xd655;&#xc2e4;&#xd788; &#xc774;&#xd574; &#xd558;&#xace0; &#xc2f6;&#xc740; &#xbd84;&#xc740; &#xc544;&#xb798; &#xb450; &#xac1c;&#xc758; &#xb9c1;&#xd06c;&#xb97c; &#xc774;&#xc6a9;&#xd574; &#xae43;&#xd5c8;&#xbe0c;&#xc5d0; &#xb300;&#xd574; &#xc774;&#xd574;&#xd558;&#xc2dc;&#xae30; &#xbc14;&#xb78d;&#xb2c8;&#xb2e4;. &#xc815;&#xb9d0; &#xb9ce;&#xc740; &#xb3c4;&#xc6c0;&#xc774; &#xb418;&#xb9ac;&#xb77c; &#xc0dd;&#xac01; &#xb429;&#xb2c8;&#xb2e4;.
-
-[Github&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xb294; &#xc804;&#xccb4; &#xd750;&#xb984; &#xc774;&#xd574;&#xd558;&#xae30; #1](http://blog.outsider.ne.kr/865)
-
-[Github&#xb97c; &#xc774;&#xc6a9;&#xd558;&#xb294; &#xc804;&#xccb4; &#xd750;&#xb984; &#xc774;&#xd574;&#xd558;&#xae30; #2](http://blog.outsider.ne.kr/866)
-
-### &lt;a name=&quot;head2&quot;&gt;&lt;/a&gt;&#xae43;&#xd5c8;&#xbe0c; &#xc544;&#xc774;&#xb514; &#xb9cc;&#xb4e4;&#xae30;
-doc.realgrid.com&#xacf5;&#xb3d9;&#xac1c;&#xbc1c;&#xc5d0; &#xcc38;&#xc5ec;&#xd558;&#xae30; &#xc704;&#xd574;&#xc11c;&#xb294; [&#xae43;&#xd5c8;&#xbe0c;](http://github.com) &#xc544;&#xc774;&#xb514;&#xac00; &#xc788;&#xc5b4;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;. &#xb9cc;&#xc57d; &#xae43;&#xd5c8;&#xbe0c; &#xc544;&#xc774;&#xb514;&#xac00; &#xc5c6;&#xb2e4;&#xba74;, &#xc544;&#xb798; &#xb9c1;&#xd06c;&#xb41c; &#xc0ac;&#xc774;&#xd2b8;&#xc5d0;&#xc11c; &#xc544;&#xc774;&#xb514;, &#xba54;&#xc77c;&#xc8fc;&#xc18c;, &#xc554;&#xd638;&#xb97c; &#xc785;&#xb825;&#xd558;&#xace0; &#xc0c8;&#xb85c;&#xc6b4; &#xacc4;&#xc815;&#xc744; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd569;&#xb2c8;&#xb2e4;. &#xc544;&#xc774;&#xb514;&#xac00; &#xc788;&#xb2e4;&#xba74;
-&#xacc4;&#xc815;&#xc744; &#xb9cc;&#xb4e4;&#xace0; &#xcc98;&#xc74c; &#xae43;&#xd5c8;&#xbe0c;&#xc5d0; &#xb85c;&#xadf8;&#xc778; &#xd558;&#xba74; &#xd654;&#xba74;&#xacfc; &#xac19;&#xc2b5;&#xb2c8;&#xb2e4;.
-
-![](/images/help/img-git01.png)
-
-### &lt;a name=&quot;head3&quot;&gt;&lt;/a&gt;&#xae43;&#xd5c8;&#xbe0c; &#xc544;&#xbc14;&#xd0c0;(Avata) &#xbcc0;&#xacbd;&#xd558;&#xae30;
-&#xae43;&#xd5c8;&#xbe0c;&#xac00; &#xcc98;&#xc74c;&#xc774;&#xb77c;&#xba74;, &#xacf5;&#xb3d9;(Collaboration)&#xac1c;&#xbc1c;&#xc2dc; &#xbcf8;&#xc778;&#xc784;&#xc744; &#xc54c; &#xc218; &#xc788;&#xb294; &#xc0ac;&#xc9c4;&#xc774;&#xb098; &#xc544;&#xbc14;&#xd0c0;&#xb97c; &#xbcc0;&#xacbd;&#xd574; &#xc8fc;&#xc2dc;&#xae30; &#xbc14;&#xb78d;&#xb2c8;&#xb2e4;. &#xc0ac;&#xc9c4;&#xc774; &#xc5b4;&#xb824;&#xc6b0;&#xc2e0; &#xbd84;&#xb4e4; [&#xc625;&#xd1a0;&#xb371;&#xc2a4;](https://octodex.github.com/)&#xb97c; &#xc774;&#xc6a9;&#xd574; &#xc8fc;&#xc138;&#xc694;.
-
-![](/images/help/img-octodex.png)
-
-### &lt;a name=&quot;head4&quot;&gt;&lt;/a&gt;&#xb9ac;&#xd30c;&#xc9c0;&#xd130;&#xb9ac;(repository)&#xc5d0; &#xcc38;&#xc5ec;&#xd558;&#xae30;
-help.realgrid.com&#xc758; &#xae43;&#xd5c8;&#xbe0c; &#xb9ac;&#xd30c;&#xc9c0;&#xd130;&#xb9ac;&#xb294; &#xc544;&#xb798;&#xc640; &#xac19;&#xc2b5;&#xb2c8;&#xb2e4;.
-
-`realgrid/realgrid.github.com`
-
-&#xc774; &#xb9ac;&#xd30c;&#xc9c0;&#xd130;&#xb9ac;&#xc5d0; &#xcc38;&#xc5ec; &#xd558;&#xb294; &#xbc29;&#xbc95;&#xc740; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc2b5;&#xb2c8;&#xb2e4;.
-
-1. help.realgrid.com &#xb9ac;&#xd30c;&#xc9c0;&#xd130;&#xb9ac;&#xb97c; &#xbcf8;&#xc778;&#xc758; &#xb9ac;&#xd30c;&#xc9c0;&#xd130;&#xb9ac;&#xb85c; fork&#xd574;&#xc11c; &#xc218;&#xc815;&#xb41c; &#xb0b4;&#xc6a9;&#xc744; pull request&#xd558;&#xb294; &#xbc29;&#xbc95;&#xc774; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;. &#xc774; &#xbc29;&#xbc95;&#xc740; &#xbcc4;&#xb3c4;&#xc758; &#xbe0c;&#xb80c;&#xce58;(branch)&#xb97c; &#xad6c;&#xc131;&#xd558;&#xac8c; &#xb429;&#xb2c8;&#xb2e4;.
-2. &#xb9ac;&#xd30c;&#xc9c0;&#xd130;&#xb9ac; &#xc624;&#xb108;&#xc5d0;&#xac8c; &#xba54;&#xc77c;&#xb85c; &#xbcf8;&#xc778;&#xc758; &#xae43;&#xd5c8;&#xbe0c; &#xc544;&#xc774;&#xb514;&#xb97c; &#xc54c;&#xb824;&#xc8fc;&#xace0; &#xd611;&#xc5c5;&#xc790;(Collaborator)&#xb85c; &#xcc38;&#xc5ec; &#xd558;&#xb294; &#xbc29;&#xbc95;&#xc774; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;. &#xc774; &#xbc29;&#xbc95;&#xc740; master &#xbe0c;&#xb80c;&#xce58;&#xc5d0;&#xc11c; &#xc9c1;&#xc811; &#xc791;&#xc5c5; &#xd569;&#xb2c8;&#xb2e4;. (only staff)
-
-### &lt;a name=&quot;head5&quot;&gt;&lt;/a&gt;&#xb0b4; PC&#xc5d0; &#xb85c;&#xceec; &#xd074;&#xb860;(local clone)&#xb9cc;&#xb4e4;&#xae30;
-
-&#xc544;&#xb798; &#xb098;&#xc5f4;&#xb41c; &#xc7ac;&#xb8cc;&#xb294; &#xac1c;&#xbc1c;&#xc790;&#xc758; &#xac1c;&#xbc1c; &#xd658;&#xacbd;&#xc5d0; &#xb530;&#xb77c; &#xc120;&#xd0dd;&#xc801;&#xc73c;&#xb85c; &#xc124;&#xce58;&#xd558;&#xba74; &#xb429;&#xb2c8;&#xb2e4;.
-
-##### &#xc7ac;&#xb8cc;(for Mac)
-* &#xae43;&#xd5c8;&#xbe0c; API &#xc124;&#xce58;
-* [&#xae43;&#xd5c8;&#xbe0c; &#xb9e5; &#xb370;&#xc2a4;&#xd06c;&#xd0d1; &#xc124;&#xce58;](https://mac.github.com/)
-* [&#xc9c0;&#xd0ac;(Jekyll) &#xc124;&#xce58;](http://jekyllrb-ko.github.io/docs/installation/)
-* [Sublime Text &#xc124;&#xce58;](http://www.sublimetext.com/)
-* [Visual Studio Code &#xc124;&#xce58;](https://code.visualstudio.com/)
-
-##### &#xc7ac;&#xb8cc;(for Windows)
-* &#xae43;&#xd5c8;&#xbe0c; API &#xc124;&#xce58;
-* [&#xae43;&#xd5c8;&#xbe0c; &#xc708;&#xb3c4;&#xc6b0; &#xb370;&#xc2a4;&#xd06c;&#xd0d1; &#xc124;&#xce58;](https://windows.github.com/)
-* [Visual Studio &#xd655;&#xc7a5; &#xc124;&#xce58;](https://visualstudio.github.com/)
-* [&#xc9c0;&#xd0ac;(Jekyll) &#xc124;&#xce58;](http://jekyllrb-ko.github.io/docs/installation/)
-* [Sublime Text &#xc124;&#xce58;](http://www.sublimetext.com/)
-* [Visual Studio Code &#xc124;&#xce58;](https://code.visualstudio.com/)
-
-##### &#xb9ac;&#xd034;&#xb4dc;(Liquid) &#xd15c;&#xd50c;&#xb9bf; &#xc0ac;&#xc6a9;&#xc2dc; &#xc8fc;&#xc758;&#xd560; &#xc810;
-&#xd15c;&#xd50c;&#xb9bf;&#xc740; &#xc0ac;&#xc774;&#xd2b8;&#xac00; &#xc0dd;&#xc131;(Generate)&#xb418;&#xb294; &#xc2dc;&#xc810;&#xc5d0; &#xbc88;&#xc5ed;&#xb418;&#xb294; &#xc5b8;&#xc5b4;&#xc774;&#xbbc0;&#xb85c; &#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xc8fc;&#xc11d;(&amp;lt;!--  --&amp;gt;)&#xb0b4;&#xbd80;&#xc5d0; &#xc874;&#xc7ac; &#xd55c;&#xb2e4;&#xace0; &#xd574;&#xb3c4; &#xbc88;&#xc5ed;&#xb418;&#xae30; &#xb54c;&#xbb38;&#xc5d0; &#xc0ac;&#xc6a9;&#xd558;&#xc9c0; &#xc54a;&#xb294; &#xcf54;&#xb4dc;&#xb97c; &#xc8fc;&#xc11d;&#xc5d0; &#xc798;&#xbabb; &#xb123;&#xc5b4; &#xb458; &#xacbd;&#xc6b0; &#xc0ac;&#xc774;&#xd2b8; &#xc0dd;&#xc131;&#xc774;&#xb098; &#xc2e4;&#xd589;&#xc5d0; &#xbd80;&#xd558;&#xb97c; &#xc904; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;. &#xc774;&#xb54c;&#xc5d0;&#xb294; &#xb9ac;&#xd034;&#xb4dc; &#xc5b8;&#xc5b4;&#xc758; &#xc8fc;&#xc11d; &#xad6c;&#xbb38;&#xc778; `{% comment %} ... {% endcomment %}`&#xb97c; &#xc0ac;&#xc6a9;&#xd569;&#xb2c8;&#xb2e4;.
-
-&#xb9ac;&#xd034;&#xb4dc; &#xc5b8;&#xc5b4; &#xc0ac;&#xc6a9;&#xc5d0; &#xb300;&#xd55c; &#xc790;&#xc138;&#xd55c; &#xc124;&#xba85;&#xc740; [&#xb9ac;&#xd034;&#xb4dc; &#xb9c8;&#xd06c;&#xc5c5; &#xae43;&#xd5c8;&#xbe0c;](https://github.com/Shopify/liquid)&#xb97c; &#xcc38;&#xc870; &#xd558;&#xc138;&#xc694;.
-
-##### help.realgrid.com &#xc0ac;&#xc774;&#xd2b8; &#xad6c;&#xc870; &#xc774;&#xd574;&#xd558;&#xae30;
-
-&#xae30;&#xbcf8;&#xc801;&#xc778; &#xc0ac;&#xc774;&#xd2b8; &#xad6c;&#xc870;&#xb294; [&#xc9c0;&#xd0ac;&#xc758; &#xb514;&#xb809;&#xd1a0;&#xb9ac; &#xad6c;&#xc870;](http://jekyllrb-ko.github.io/docs/structure/)&#xb97c; &#xc774;&#xd574;&#xd558;&#xc2dc;&#xba74; &#xb429;&#xb2c8;&#xb2e4;. &#xcd94;&#xac00;&#xc801;&#xc73c;&#xb85c; &#xc9c0;&#xd0ac;&#xc758; collection&#xae30;&#xb2a5;&#xc744; &#xc0ac;&#xc6a9;&#xd558;&#xc5ec; api&#xb77c;&#xb294; &#xbcc4;&#xb3c4;&#xc758; collection&#xc744; &#xb9cc;&#xb4e4;&#xc5c8;&#xc2b5;&#xb2c8;&#xb2e4;. api&#xbb38;&#xc11c;&#xb4e4;&#xc740; \_api&#xb77c;&#xb294; &#xd3f4;&#xb354;&#xc5d0; &#xc815;&#xb9ac;&#xb418;&#xc5b4; &#xc788;&#xc73c;&#xba70;, api collection&#xc73c;&#xb85c; &#xd45c;&#xd604;&#xd569;&#xb2c8;&#xb2e4;.
-
-### &lt;a name=&quot;head7&quot;&gt;&lt;/a&gt;&#xc0c8;&#xb85c;&#xc6b4; &#xac15;&#xc88c; &#xc791;&#xc131;&#xd558;&#xae30;
-
-&#xba87; &#xac00;&#xc9c0; &#xaddc;&#xce59;&#xb9cc; &#xc9c0;&#xcf1c;&#xc8fc;&#xc2dc;&#xba74; &#xb429;&#xb2c8;&#xb2e4;.
-
-* \_draft&#xd3f4;&#xb354;&#xc5d0; &#xae43;&#xd5c8;&#xbe0c; post &#xd30c;&#xc77c;&#xba85; &#xc791;&#xc131;&#xbc95;&#xc5d0; &#xb530;&#xb77c; &#xd30c;&#xc77c;&#xc744; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd569;&#xb098;&#xb2e4;.
-* category meta &#xac12;&#xc740; `&#xae30;&#xcd08;&#xacfc;&#xc815;`, `&#xc911;&#xae09;&#xacfc;&#xc815;`, `&#xace0;&#xae09;&#xacfc;&#xc815;` &#xc911; &#xd558;&#xb098;&#xb97c; &#xb123;&#xc5b4;&#xc8fc;&#xba74; &#xb429;&#xb2c8;&#xb2e4;.
-
-&#xc880;&#xb354; &#xc0c1;&#xc138;&#xd55c; &#xc791;&#xc131; &#xbc29;&#xbc95;&#xc740; &#xc544;&#xb798; &#xb9c1;&#xd06c;&#xb97c; &#xcc38;&#xc870;&#xd558;&#xc138;&#xc694;.
-
-* [&#xc9c0;&#xd0ac; &#xd3ec;&#xc2a4;&#xd2b8; &#xc791;&#xc131; &#xbc29;&#xbc95; &#xcc38;&#xc870;](http://jekyllrb-ko.github.io/docs/posts/)
-* [Markdown &#xc791;&#xc131; &#xbc29;&#xbc95; &#xcc38;&#xc870;](https://guides.github.com/features/mastering-markdown/)
-
-### &lt;a name=&quot;head8&quot;&gt;&lt;/a&gt;&#xc791;&#xc131;&#xd55c; &#xac15;&#xc88c;&#xb97c; &#xae43;&#xd5c8;&#xbe0c;&#xc5d0; &#xc62c;&#xb9ac;&#xae30;
-
-\_draft&#xd3f4;&#xb354;&#xb0b4;&#xc5d0; &#xc791;&#xc131;&#xb41c; &#xac15;&#xc88c;&#xb294; git hub&#xc5d0; add, push&#xd569;&#xb2c8;&#xb2e4;. desktop GUI&#xb97c; &#xc774;&#xc6a9;&#xd560; &#xacbd;&#xc6b0; `changes`&#xd0ed;&#xc5d0;&#xc11c; `Commit and Sync master`&#xb85c; &#xc791;&#xc131;&#xd55c; &#xb0b4;&#xc6a9;&#xc744; push&#xd569;&#xb2c8;&#xb2e4;.
-
-![](/images/help/img-mac-git-commit.png)
-
-### &lt;a name=&quot;head9&quot;&gt;&lt;/a&gt;&#xae43;&#xd5c8;&#xbe0c;&#xc5d0;&#xc11c; &#xc9c1;&#xc811; &#xcf54;&#xb4dc; &#xc218;&#xc815;&#xd558;&#xae30;
-
-**`&#xac00;&#xb2a5;&#xd558;&#xc9c0;&#xb9cc;, &#xcd94;&#xcc9c; &#xd558;&#xc9c0; &#xc54a;&#xc2b5;&#xb2c8;&#xb2e4;. &#xb85c;&#xceec; &#xc800;&#xc7a5;&#xc18c;&#xb97c; &#xb9cc;&#xb4dc;&#xc138;&#xc694;.`**
-
-### &lt;a name=&quot;head10&quot;&gt;&lt;/a&gt;&#xbcf8; &#xd398;&#xc774;&#xc9c0; &#xc18c;&#xc2a4; &#xcf54;&#xb4dc; &#xbcf4;&#xae30;
-
-&#xd398;&#xc774;&#xc9c0; &#xc791;&#xc131;&#xc5d0; &#xb300;&#xd55c; &#xc608;&#xb97c; &#xd655;&#xc778; &#xd558;&#xace0; &#xc2f6;&#xb2e4;&#xba74; &#xbcf8; &#xd398;&#xc774;&#xc9c0;&#xc758; markdown &#xd14d;&#xc2a4;&#xd2b8;&#xb97c; &#xd655;&#xc778; &#xd558;&#xc2dc;&#xba74; &#xac15;&#xc88c;&#xb098; API&#xbb38;&#xc11c;&#xb97c; &#xc791;&#xc131;&#xd558;&#xb294;&#xb370; &#xb3c4;&#xc6c0;&#xc774; &#xb418;&#xb9ac;&#xb77c; &#xc0dd;&#xac01; &#xb429;&#xb2c8;&#xb2e4;.
-
-&lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot; onclick=&quot;javascript:$(&#039;.prettyprint&#039;).toggle();&quot;&gt;
-  &#xcf54;&#xb4dc; &#xbcf4;&#xae30;/&#xac10;&#xcd94;&#xae30;
-&lt;/button&gt;
-
-&lt;pre class=&quot;prettyprint&quot;&gt;
-//&#xc18c;&#xc2a4;&#xcf54;&#xb4dc;
-&lt;/pre&gt;
-
+//코드는 생략 합니다.
 </pre>
+
+
+### <a name="head11"></a>도움이 될만한 사이트
+* [지킬에서 다국어 처리 방법에 대한 포스팅](http://sylvaindurand.org/making-jekyll-multilingual/)
