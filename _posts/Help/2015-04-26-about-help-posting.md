@@ -76,6 +76,12 @@ help.realgrid.com의 깃허브 리파지터리는 아래와 같습니다.
 * [Sublime Text 설치](http://www.sublimetext.com/)
 * [Visual Studio Code 설치](https://code.visualstudio.com/)
 
+##### Sublime Markdown Package 설치
+* Package Control 설치 (https://packagecontrol.io/installation)후 sublime restart
+* Cmd+Shift+P 단축키를 눌러 "Package Control:Install Package" 선
+* Package Browser에서 Markdown editor 선택하여 설치.
+
+
 ##### 리퀴드(Liquid) 템플릿 사용시 주의할 점
 템플릿은 사이트가 생성(Generate)되는 시점에 번역되는 언어이므로 스크립트 주석(&lt;!--  --&gt;)내부에 존재 한다고 해도 번역되기 때문에 사용하지 않는 코드를 주석에 잘못 넣어 둘 경우 사이트 생성이나 실행에 부하를 줄 수 있습니다. 이때에는 리퀴드 언어의 주석 구문인 `{% comment %} ... {% endcomment %}`를 사용합니다.
 
