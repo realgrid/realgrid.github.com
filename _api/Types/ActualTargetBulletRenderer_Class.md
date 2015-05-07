@@ -2,6 +2,7 @@
 layout: apipost
 title: ActualTargetBulletRenderer
 part: Types
+typename: Cell Renderers
 objectname: 
 directiontype: 
 permalink: /api/types/ActualTargetBulletRenderer/
@@ -13,17 +14,17 @@ permalink: /api/types/ActualTargetBulletRenderer/
 
 #### Properties
 
-> **minValue**
-> Type: Number
-> Default: 0
-> 최소값을 지정한다.
+> **minValue**  
+> Type: Number  
+> Default: 0  
+> 최소값을 지정한다.  
 
-> **maxValue**
-> Type: Number
-> Default: 1
-> 최대값을 지정한다.
+> **maxValue**  
+> Type: Number  
+> Default: 1  
+> 최대값을 지정한다.  
 
-> **maximumBackground**
-> Type: String
-> Default: null
-> 배경색을 지정한다.
+> **maximumBackground**  
+> Type: String  
+> Default: null  
+> 배경색을 지정한다.  

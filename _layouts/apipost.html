@@ -7,6 +7,7 @@ layout: default
   <header class="post-header">
     <h2 class="post-title">{{ page.title }}</h2>
     <p class="post-meta">{{ page.part }}
+      {% if page.typename %} &gt; {{ page.typename }} {% endif %}
     	{% if page.objectname %} &gt; {{ page.objectname }} {% endif %}
     	{% if page.directiontype %} &gt; {{ page.directiontype }} {% endif %}
 	</p>

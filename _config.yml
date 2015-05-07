@@ -17,6 +17,12 @@ collections:
   api:
     output: true
 
+type_names:
+  - Constants
+  - Config Classes
+  - Cell Renderers
+  - Cell Editors
+
 object_names:
   - GridBase
   - GridView
