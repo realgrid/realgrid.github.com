@@ -14,18 +14,21 @@ permalink: /api/
   </ul>
 
   <h3>Types</h3>
-  <ul class="post-api-list">
-	{% for api in site.api %}{% if api.part == 'Types' %}
-		<li>
-		<a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
-		</li>
-	{% endif %}{% endfor %}
-  </ul>
+  {% for type_name in site.type_names %}
+	  <h6><strong>{{ type_name }}</strong></h6>
+	  <ul class="post-api-list">
+		{% for post in site.api %}{% if post.part == 'Types' and post.typename == type_name %}
+			<li>
+			<a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</li>
+		{% endif %}{% endfor %}
+	  </ul>	
+  {% endfor %}
 </div>
 
 <div class="col-md-8">
   <h3>Objects</h3>
-	  {% for object_name in site.object_names %}
+  {% for object_name in site.object_names %}
 	  <h5 class="text-warning">{{ object_name }}</h5>
 	  <div class="row">
 	      <div class="col-md-6">
@@ -50,5 +53,5 @@ permalink: /api/
 		  </ul>
 		  </div>
 	  </div>
-	  {% endfor %}
+  {% endfor %}
 </div>

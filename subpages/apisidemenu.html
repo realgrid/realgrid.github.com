@@ -32,14 +32,17 @@ layout: rowdiv
   {% endif %}{% endfor %}
   </ul>
 
-  <ul class="post-api-list">
   <h4>Types</h4>
-  {% for post in site.api %}{% if post.part == 'Types' %}
+  {% for type_name in site.type_names %}
+    <h6><strong>{{ type_name }}</strong></h6>
+    <ul class="post-api-list">
+    {% for post in site.api %}{% if post.part == 'Types' and post.typename == type_name %}
       <li>
       <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
-  {% endif %}{% endfor %}
-  </ul>
+    {% endif %}{% endfor %}
+    </ul> 
+  {% endfor %}
 
   <h4>Objects</h4>
   {% for object_name in site.object_names %}
