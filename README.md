@@ -1,1 +1,5 @@
-# RealGrid Help
+# RealGrid Help Site
+
+* GitHub Pages
+* Jekyll
+* Markdown
