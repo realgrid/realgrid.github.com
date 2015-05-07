@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: grid editOptions
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/grid editOptions/

@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: stateBar
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/stateBar/

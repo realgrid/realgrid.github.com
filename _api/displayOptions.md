@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: displayOptions
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/displayOptions/

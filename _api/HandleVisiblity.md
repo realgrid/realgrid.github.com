@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: HandleVisiblity
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/HandleVisiblity/

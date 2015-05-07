@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: indicator
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/indicator/

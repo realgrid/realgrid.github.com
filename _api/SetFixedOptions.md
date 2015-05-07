@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: SetFixedOptions
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/SetFixedOptions/

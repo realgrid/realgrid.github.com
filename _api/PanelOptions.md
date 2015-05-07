@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: PanelOptions
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/PanelOptions/

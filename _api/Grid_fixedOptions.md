@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: Grid fixedOptions
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/Grid fixedOptions/

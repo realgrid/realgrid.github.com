@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: Cell Editor OverView
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/Cell Editor OverView/

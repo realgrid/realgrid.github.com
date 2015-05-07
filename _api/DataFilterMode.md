@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: DataFilterMode
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/DataFilterMode/

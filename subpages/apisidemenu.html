@@ -24,8 +24,8 @@ layout: rowdiv
 	</div>
 
   <ul class="post-api-list">
-  <h4>Types</h4>
-  {% for post in site.api %}{% if post.part == 'Types' %}
+  <h4>Features</h4>
+  {% for post in site.api %}{% if post.part == 'Features' %}
       <li>
       <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
@@ -33,8 +33,8 @@ layout: rowdiv
   </ul>
 
   <ul class="post-api-list">
-  <h4>Features</h4>
-  {% for post in site.api %}{% if post.part == 'Features' %}
+  <h4>Types</h4>
+  {% for post in site.api %}{% if post.part == 'Types' %}
       <li>
       <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>

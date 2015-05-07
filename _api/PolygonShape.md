@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: PolygonShape
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/PolygonShape/

@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: DynamicStyle
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/DynamicStyle/

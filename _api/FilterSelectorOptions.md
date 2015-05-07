@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: FilterSelectorOptions
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/FilterSelectorOptions/

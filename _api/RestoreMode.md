@@ -1,7 +1,7 @@
 ---
 layout: apipost
 title: RestoreMode
-part: Features
+part: Types
 objectname: 
 directiontype: 
 permalink: /api/features/RestoreMode/
