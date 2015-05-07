@@ -2,6 +2,8 @@
 layout: apipost
 title: ActualTargetTextRenderer
 part: Types
+typename: Cell Renderers
+order: ActualTargetTextRenderer
 objectname: 
 directiontype: 
 permalink: /api/types/ActualTargetTextRenderer/
@@ -13,28 +15,28 @@ permalink: /api/types/ActualTargetTextRenderer/
 
 #### Properties
 
-> **separator**
-> Type: String
-> Default: /
-> 실행값과 목표값의 구분자를 지정한다.
+> **separator**  
+> Type: String  
+> Default: /  
+> 실행값과 목표값의 구분자를 지정한다.  
 
-> **actualForeground**
-> Type: String
-> Default: null
-> 실행값의 색을 지정한다.
+> **actualForeground**  
+> Type: String  
+> Default: null  
+> 실행값의 색을 지정한다.  
 
-> **actualFont**
-> Type: String
-> Default: null
-> 실행값의 글꼴을 지정한다.
+> **actualFont**  
+> Type: String  
+> Default: null  
+> 실행값의 글꼴을 지정한다.  
 
-> **targetForeground**
-> Type: String
-> Default: null
-> 목표값의 색을 지정한다.
+> **targetForeground**  
+> Type: String  
+> Default: null  
+> 목표값의 색을 지정한다.  
 
-> **targetFont**
-> Type: String
-> Default: null
-> 목표값의 글꼴을 지정한다.
+> **targetFont**  
+> Type: String  
+> Default: null  
+> 목표값의 글꼴을 지정한다.  
 

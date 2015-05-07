@@ -2,6 +2,8 @@
 layout: apipost
 title: Cell Renderer OverView
 part: Types
+typename: Cell Renderers
+order: A1
 objectname: 
 directiontype: 
 permalink: /api/features/Cell Renderer OverView/

@@ -13,11 +13,13 @@ permalink: /api/
 	{% endif %}{% endfor %}
   </ul>
 
+  {% assign sorted_by_orderno = site.api | sort: 'order' %}
+
   <h3>Types</h3>
   {% for type_name in site.type_names %}
 	  <h6><strong>{{ type_name }}</strong></h6>
 	  <ul class="post-api-list">
-		{% for post in site.api %}{% if post.part == 'Types' and post.typename == type_name %}
+		{% for post in sorted_by_orderno %}{% if post.part == 'Types' and post.typename == type_name %}
 			<li>
 			<a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</li>

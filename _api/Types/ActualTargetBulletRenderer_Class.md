@@ -3,6 +3,7 @@ layout: apipost
 title: ActualTargetBulletRenderer
 part: Types
 typename: Cell Renderers
+order: ActualTargetBulletRenderer
 objectname: 
 directiontype: 
 permalink: /api/types/ActualTargetBulletRenderer/
