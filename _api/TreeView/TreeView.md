@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: 
+title: TreeView
 part: Objects
 objectname: TreeView
-directiontype: Function
-permalink: /api/TreeView//
+directiontype: 
+permalink: /api/TreeView/
 ---
 
 

@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: 
+title: GridView
 part: Objects
 objectname: GridView
-directiontype: Function
-permalink: /api/GridView//
+directiontype: 
+permalink: /api/GridView/
 ---
 
 

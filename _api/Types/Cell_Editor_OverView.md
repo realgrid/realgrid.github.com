@@ -6,7 +6,7 @@ typename: Cell Editors
 order: A
 objectname: 
 directiontype: 
-permalink: /api/features/Cell Editor OverView/
+permalink: /api/types/Cell Editor OverView/
 ---
 
 

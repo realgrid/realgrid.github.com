@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: 
+title: LocalDataProvider
 part: Objects
 objectname: LocalDataProvider
-directiontype: Function
-permalink: /api/LocalDataProvider//
+directiontype: 
+permalink: /api/LocalDataProvider/
 ---
 
 

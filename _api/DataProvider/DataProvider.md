@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: 
+title: DataProvider
 part: Objects
 objectname: DataProvider
-directiontype: Function
-permalink: /api/DataProvider//
+directiontype: 
+permalink: /api/DataProvider/
 ---
 
 

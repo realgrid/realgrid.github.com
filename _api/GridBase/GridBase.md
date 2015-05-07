@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: 
+title: GridBase
 part: Objects
 objectname: GridBase
 directiontype: Function
-permalink: /api/GridBase//
+permalink: /api/GridBase/
 ---
 
 

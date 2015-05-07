@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: 
+title: TreeDataProvider
 part: Objects
 objectname: TreeDataProvider
-directiontype: Function
-permalink: /api/TreeDataProvider//
+directiontype: 
+permalink: /api/TreeDataProvider/
 ---
 
 
