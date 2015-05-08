@@ -10,7 +10,7 @@ permalink: /api/GridView/beginUpdateRow/
 
 #### Description
 
-> 입력된 itemIndex에 해당하는 데이터행을 편집상태로 변경한다.
+> 입력된 itemIndex에 해당하는 데이터 행을 편집상태로 변경한다.
 
 #### Syntax
 
@@ -18,10 +18,9 @@ permalink: /api/GridView/beginUpdateRow/
 
 #### Parameters
 
-> **itemIndex**
-> Type: Number
-> Default: -1
-> 
+> **itemIndex**  
+> Type: Number  
+> Default: -1  
 
 #### Return value
 

@@ -18,19 +18,20 @@ permalink: /api/GridView/expandModel/
 
 #### Parameters
 
-> **model**
-> Type: Object
-> 펼치려는 그룹아이템 모델을 입력한다.
+> **model**  
+> Type: Object  
+> 펼치려는 그룹아이템 모델을 입력한다.  
 
-> **recursive**
-> Type: boolean
-> Default: false
+> **recursive**  
+> Type: boolean  
+> Default: false  
 > true로 하면 그룹에 포함된 자손 그룹도 펼친 상태가 된다.
 
-> **force**
-> Type: boolean
-> Default: false
+> **force**  
+> Type: boolean  
+> Default: false  
 > true로 하면 이미 expanded 상태라도 recursive가 true일 때 자손들을 펼친다.
+
 #### Return value
 
 > None.

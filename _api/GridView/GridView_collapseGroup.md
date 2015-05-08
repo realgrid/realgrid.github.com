@@ -18,14 +18,14 @@ permalink: /api/GridView/collapseGroup/
 
 #### Parameters
 
-> **itemIndex**
-> Type: number
-> Grid상의 인덱스
+> **itemIndex**  
+> Type: number  
+> Grid상의 인덱스  
 
-> **recursive**
-> Type: boolean
-> 그룹에 포함된 자손 그룹의 접힘 여부. 
-> true 일때 이미 collapsed된 상태라면 아무일도 하지 않는다. 
+> **recursive**  
+> Type: boolean  
+> 그룹에 포함된 자손 그룹의 접힘 여부.  
+> true 일때 이미 collapsed된 상태라면 아무일도 하지 않는다.  
 
 #### Return value
 

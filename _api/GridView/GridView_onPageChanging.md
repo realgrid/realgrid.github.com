@@ -10,7 +10,7 @@ permalink: /api/GridView/onPageChanging/
 
 #### Description
 
-> 그리드가 [Paging](/api/GridView/) 상태일 때, 다른 페이지로 이동하기 직전에 호출된다.
+> 그리드가 [Paging](/api/Features/Paging/) 상태일 때, 다른 페이지로 이동하기 직전에 호출된다.
 
 #### Syntax
 
@@ -18,17 +18,17 @@ permalink: /api/GridView/onPageChanging/
 
 #### Arguments
 
-> **grid**
-> Type: [GridView\|GridView](/api/GridView/)
+> **grid**  
+> Type: [GridView](/api/GridView/)  
 > GridView 컨트롤
 
-> **newPage**
-> Type: number
+> **newPage**  
+> Type: number  
 > 새로 이동하게 될 페이지 인덱스.
 
 #### Return
 
-> Type: boolean
+> Type: boolean  
 > false를 리턴하면 페이지 이동이 취소된다.
 
 #### Example

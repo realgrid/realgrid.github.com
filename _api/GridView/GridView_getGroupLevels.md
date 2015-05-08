@@ -22,7 +22,7 @@ permalink: /api/GridView/getGroupLevels/
 
 #### Return value
 
-> Type: number
+> Type: number  
 > 그룹 레벨의 깊이
 
 #### Example

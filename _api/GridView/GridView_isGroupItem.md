@@ -18,13 +18,13 @@ permalink: /api/GridView/isGroupItem/
 
 #### Parameters
 
-> **itemIndex**
-> Type: number
+> **itemIndex**  
+> Type: number  
 > 확인하려는 그리드상의 index
 
 #### Return value
 
-> Type: boolean
+> Type: boolean  
 > 그룹 아이템 여부
 
 #### Example

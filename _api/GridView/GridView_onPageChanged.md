@@ -10,7 +10,7 @@ permalink: /api/GridView/onPageChanged/
 
 #### Description
 
-> 그리드가 [Paging](/api/GridView/) 상태일 때, 다른 페이지로 이동한 후 호출된다.
+> 그리드가 [Paging](/api/Features/Paging/) 상태일 때, 다른 페이지로 이동한 후 호출된다.
 
 #### Syntax
 
@@ -18,17 +18,17 @@ permalink: /api/GridView/onPageChanged/
 
 #### Arguments
 
-> **grid**
-> Type: [GridView\|GridView](/api/GridView/)
+> **grid**  
+> Type: [GridView](/api/GridView/)  
 > GridView 컨트롤
 
-> **page**
-> Type: number
+> **page**  
+> Type: number  
 > 새로 이동한 페이지 인덱스.
 
 #### Return
 
-None.
+> None.
 
 #### Example
 

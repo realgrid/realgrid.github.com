@@ -10,7 +10,7 @@ permalink: /api/GridView/setPaging/
 
 #### Description
 
-> 그리드가 [Paging](/api/GridView/) 모드로 실행되도록 한다. 
+> 그리드가 [Paging](/api/Features/Paging/) 모드로 실행되도록 한다. 
 
 #### Syntax
 
@@ -18,21 +18,24 @@ permalink: /api/GridView/setPaging/
 
 #### Parameters
 
-> **paging**
-> Type: number
+> **paging**  
+> Type: number  
 > true면 그리드가 페이징 모드로 데이터를 표시한다.
 
-> **pageSize**
-> Type: number
-> 페이지에 표시할 행의 개수. 지정하지 않으면 10.
+> **pageSize**  
+> Type: number  
+> Default: 10  
+> 페이지에 표시할 행의 개수.
 
-> **pageCount**
-> Type: number
-> 페이지 개수. 지정하지 않으면 -1.
+> **pageCount**  
+> Type: number  
+> Default: -1  
+> 페이지 수.
 
-> **pageSoruce**
-> Type:
->
+> **pageSoruce**  
+> Type: "rows" | "items"  
+> Default: "rows"  
+> Paging 처리에 사용되는 원본 데이터의 유형, "items"로 하면 화면상에 보여지는 행을 기준으로 paging처리한다.
 
 #### Return value
 

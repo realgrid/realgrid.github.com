@@ -18,16 +18,16 @@ permalink: /api/GridView/expandGroup/
 
 #### Parameters
 
-> **itemIndex**
-> Type: number
-> Grid상의 인덱스
+> **itemIndex**  
+> Type: number  
+> Grid상의 인덱스  
 
-> **recursive**
-> Type: boolean
+> **recursive**  
+> Type: boolean  
 > 그룹에 포함된 데이터 행들의 표시여부.
 
-> **force**
-> Type: boolean
+> **force**  
+> Type: boolean  
 > 이미 expanded 상태라도 recursive가 true일 때 자손들의 펼침여부.
 
 

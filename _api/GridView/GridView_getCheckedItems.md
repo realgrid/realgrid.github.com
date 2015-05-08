@@ -22,7 +22,7 @@ permalink: /api/GridView/getCheckedItems/
 
 #### Return value
 
-> Type: Array of Number
+> Type: Array of Number  
 > 아이템 인덱스들의 배열.
 
 #### Example

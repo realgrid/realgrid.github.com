@@ -19,9 +19,9 @@ permalink: /api/GridView/groupBy/
 
 #### Parameters
 
-> **fieldNames**
-> Type: Array of String
-> 데이터필드 이름 목록
+> **fieldNames**  
+> Type: Array of String  
+> 데이터필드 이름 목록  
 > 그룹을 해제하려는 경우 빈 배열을 입력한다.
 
 #### Return value

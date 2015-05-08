@@ -10,7 +10,7 @@ permalink: /api/GridView/getGroupIndex/
 
 #### Description
 
-> 자신이 속한 그룹의 ItemIndex를 반환한다.
+> 자신이 속한 그룹의 ItemIndex를 반환한다.  
 > 그룹이 없거나 그룹이 있을 경우 가장 첫 행의 getGroupIndex 결과는 -1 이다. 
 
 #### Syntax
@@ -19,9 +19,9 @@ permalink: /api/GridView/getGroupIndex/
 
 #### Parameters
 
-> **itemIndex**
-> Type: number
-> Grid상의 인덱스
+> **itemIndex**  
+> Type: number  
+> Grid상의 인덱스  
 
 #### Return value
 

@@ -18,7 +18,7 @@ permalink: /api/GridView/loadGrid/
 
 #### Parameters
 
-> Type: Objects
+> Type: Objects  
 > 필드 및 컬럼 정보 등 모든 설정 정보 및 데이터
 
 #### Return value
