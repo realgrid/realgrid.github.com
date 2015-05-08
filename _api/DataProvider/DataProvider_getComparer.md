@@ -18,8 +18,9 @@ permalink: /api/DataProvider/getComparer/
 
 #### Parameters
 
+> **comparerId**
 > Type: number
-> [setComparer](/api/DataProvider/)로 추가하고 넘겨받은 id.
+> [setComparer](/api/DataProvider/setComparer/)로 추가하고 넘겨받은 id.
 
 #### Return value
 

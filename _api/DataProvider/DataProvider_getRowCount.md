@@ -20,7 +20,7 @@ permalink: /api/DataProvider/getRowCount/
 
 #### Return value
 
-> Type: number
+> Type: number  
 > 데이터행 개수.
 
 #### Example

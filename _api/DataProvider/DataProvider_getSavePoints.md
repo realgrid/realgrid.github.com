@@ -10,8 +10,7 @@ permalink: /api/DataProvider/getSavePoints/
 
 #### Description
 
-> 
-> 
+> [DataProvider savePoint](/api/DataProvider/savePoint)를 이용해서 복제한 dataSet의 id를 가져온다.
 
 #### Syntax
 
@@ -23,8 +22,8 @@ permalink: /api/DataProvider/getSavePoints/
 
 #### Return value
 
-> Type: Array of Number
-> 저장되어있는 savePoint의 id를 배열로 반환한다.
+> Type: Array of Number  
+> 저장되어있는 savePoint의 id를 배열로 반환한다.  
 
 #### Example
 

@@ -18,14 +18,14 @@ permalink: /api/DataProvider/getRowState/
 
 #### Parameters
 
-> **row**
-> Type: number
-> 행 번호.
+> **row**  
+> Type: number  
+> 행 번호.  
 
 #### Return value
 
-> Type: string
-> 행 상태 이름.
+> Type: string  
+> 행 상태 이름.  
 
 #### Example
 

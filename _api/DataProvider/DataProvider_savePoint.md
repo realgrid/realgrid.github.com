@@ -18,14 +18,15 @@ permalink: /api/DataProvider/savePoint/
 
 #### Parameters
 
-> **saveStates**
-> Type: boolean
-> 지정하지 않으면 true이다.
+> **saveStates**  
+> Type: boolean  
+> 지정하지 않으면 true이다. 현재 row의 [RowState](/api/types/RowState/)를 함께 저장한다.  
 
 
 #### Return value
 
-> Type: Number;
+> Type: Number  
+> 복제된 dataSet의 id이다.  
 
 #### Example
 

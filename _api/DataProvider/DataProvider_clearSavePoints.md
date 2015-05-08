@@ -7,7 +7,6 @@ directiontype: Function
 permalink: /api/DataProvider/clearSavePoints/
 ---
 
-
 #### Description
 
 > savePoint를 이용하여 복제한 데이터셋을 삭제한다.

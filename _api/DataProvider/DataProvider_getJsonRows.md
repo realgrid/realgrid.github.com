@@ -18,18 +18,18 @@ permalink: /api/DataProvider/getJsonRows/
 
 #### Parameters
 
-> **startRow**
-> Type: number
-> 시작 행 번호
+> **startRow**  
+> Type: number  
+> 시작 행 번호  
 
-> **endRow**
-> Type: number
-> 끝 행 번호. 0보다 작은 값이면 마지막 행까지 가져온다.
+> **endRow**  
+> Type: number  
+> 끝 행 번호. 0보다 작은 값이면 마지막 행까지 가져온다.  
 
 #### Return value
 
-> Type: Array of object.
-> JSON 객체로 만들어진 데이터행들의 목록.
+> Type: Array of object.  
+> JSON 객체로 만들어진 데이터행들의 목록.  
 
 #### Example
 
