@@ -22,8 +22,8 @@ permalink: /api/GridBase/saveColumnLayout/
 
 #### Return value
 
-> Type: Array of String
-> 그리드에 표시된 column명들 
+> Type: Array of String  
+> 그리드에 표시된 column명들   
 
 #### Example
 

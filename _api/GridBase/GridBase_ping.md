@@ -18,9 +18,9 @@ permalink: /api/GridBase/ping/
 
 #### Parameters
 
-> **message**
-> Type: String
-> 입력된 메세지를 그리드 대화상자에 표시한다.
+> **message**  
+> Type: String  
+> 입력된 메세지를 그리드 대화상자에 표시한다.  
 
 #### Return value
 

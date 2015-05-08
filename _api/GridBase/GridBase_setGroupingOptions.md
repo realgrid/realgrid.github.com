@@ -10,7 +10,7 @@ permalink: /api/GridBase/setGroupingOptions/
 
 #### Description
 
-> 그리드 RowGrouping에 관한 설정을 한다. [GroupingOptions](/api/GridBase/)가 설정 모델이다.
+> 그리드 RowGrouping에 관한 설정을 한다. [GroupingOptions](/api/Types/GroupingOptions/)가 설정 모델이다.
 
 #### Syntax
 
@@ -18,14 +18,14 @@ permalink: /api/GridBase/setGroupingOptions/
 
 #### Parameters
 
-> **Options**
-> Type: Object
-> 
+> **Options**  
+> Type: Object  
+>   
 
 #### Return value
 
 > Type: object
-> [GroupingOptions](/api/GridBase/) 모델과 같은 설정 정보. GroupingOptions 중 변경하고자 하는 속성만 전달하면 된다.
+> [GroupingOptions](/api/Types/GroupingOptions/) 모델과 같은 설정 정보. GroupingOptions 중 변경하고자 하는 속성만 전달하면 된다.
 
 #### Example
 

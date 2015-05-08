@@ -18,9 +18,9 @@ permalink: /api/GridBase/registerColumnLayouts/
 
 #### Parameters
 
-> **layouts**
-> Type: Objects
-> 컬럼 레이아웃 세트들.
+> **layouts**  
+> Type: Objects  
+> 컬럼 레이아웃 세트들.  
 
 #### Return value
 

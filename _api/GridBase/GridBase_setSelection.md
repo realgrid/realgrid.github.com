@@ -10,7 +10,7 @@ permalink: /api/GridBase/setSelection/
 
 #### Description
 
-> 그리드에서 선택할 영역을 지정한다. [SelectionItem](/api/GridBase/)이 설정모델이다.
+> 그리드에서 선택할 영역을 지정한다. [SelectionItem](/api/Types/SelectionItem/)이 설정모델이다.
 
 
 #### Syntax
@@ -19,9 +19,9 @@ permalink: /api/GridBase/setSelection/
 
 #### Parameters
 
-> **selection**
-> Type: object
-> [SelectionItem](/api/GridBase/) 모델과 같은 설정 정보. [SelectionItem](/api/GridBase/) 중 선택하고자 하는 영역의 속성만 전달하면 된다.  
+> **selection**  
+> Type: object  
+> [SelectionItem](/api/Types/SelectionItem/) 모델과 같은 설정 정보. [SelectionItem](/api/Types/SelectionItem/) 중 선택하고자 하는 영역의 속성만 전달하면 된다.  
 
 #### Return value
 

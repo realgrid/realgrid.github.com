@@ -10,7 +10,7 @@ permalink: /api/GridBase/setFooter/
 
 #### Description
 
-> 그리드 Footer와 관련된 정보들을 설정한다. [Footer](/api/GridBase/)가 설정 모델이다.
+> 그리드 Footer와 관련된 정보들을 설정한다. [Footer](/api/Types/Footer/)가 설정 모델이다.
 
 #### Syntax
 
@@ -18,9 +18,9 @@ permalink: /api/GridBase/setFooter/
 
 #### Parameters
 
-> **options**
-> Type: object
-> [Footer](/api/GridBase/) 모델과 같은 설정 정보. [Footer](/api/GridBase/) 중 변경하고자 하는 속성만 전달하면 된다.  
+> **options**  
+> Type: object  
+> [Footer](/api/Types/Footer/) 모델과 같은 설정 정보. [Footer](/api/Types/Footer/) 중 변경하고자 하는 속성만 전달하면 된다.    
 
 #### Return value
 

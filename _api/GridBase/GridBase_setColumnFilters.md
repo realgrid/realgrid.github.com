@@ -18,17 +18,17 @@ permalink: /api/GridBase/setColumnFilters/
 
 #### Parameters
 
-> **column**
-> Type: String\|Object
-> column명 또는 [DataColumn\|Column](/api/GridBase/)객체이다.
+> **column**  
+> Type: String\|Object  
+> column명 또는 [Column](/api/Types/DataColumn/)객체이다.  
 
-> **filters**
-> Type: Array of Object
-> filter객체의 배열이다.
+> **filters**  
+> Type: Array of Object  
+> filter객체의 배열이다.  
 
 #### Return value
 
-> none
+> None.
 
 #### Example
 

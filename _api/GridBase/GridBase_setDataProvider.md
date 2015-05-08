@@ -10,7 +10,7 @@ permalink: /api/GridBase/setDataProvider/
 
 #### Description
 
-> 그리드에 [LocalDataProvider\|Data Provider](/api/GridBase/)를 연결한다.
+> 그리드에 [Data Provider](/api/LocalDataProvider/)를 연결한다.
 
 #### Syntax
 
@@ -18,9 +18,9 @@ permalink: /api/GridBase/setDataProvider/
 
 #### Parameters
 
-> **provider**
-> Type: [LocalDataProvider\|LocalDataProvider](/api/GridBase/)
-> Data Provider
+> **provider**  
+> Type: [LocalDataProvider](/api/LocalDataProvider/)  
+> Data Provider  
 
 #### Return value
 

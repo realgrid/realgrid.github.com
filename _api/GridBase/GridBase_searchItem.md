@@ -18,14 +18,14 @@ permalink: /api/GridBase/searchItem/
 
 #### Parameters
 
-> **options**
-> Type: object
-> [SearchOptions](/api/GridBase/) 모델로 지정한다.
+> **options**  
+> Type: object  
+> [SearchOptions](/api/Types/SearchOptions/) 모델로 지정한다.
 
 #### Return value
 
-> Type: Number
-> 검색된 행 번호. 검색되지 않으면 -1.
+> Type: Number  
+> 검색된 행 번호. 검색되지 않으면 -1.  
 
 #### Example
 

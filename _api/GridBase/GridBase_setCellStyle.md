@@ -10,8 +10,8 @@ permalink: /api/GridBase/setCellStyle/
 
 #### Description
 
-> dataRow 행의 field 셀에 styleId에 해당하는 DataCellStyle을 지정한다. 
-> field가 0보다 작은 값이면 그 행의 모든 셀에 스타일을 지정하며, styleId를 null로 지정하면 기존에 지정된 스타일을 제거한다.
+> dataRow 행의 field 셀에 styleId에 해당하는 DataCellStyle을 지정한다.   
+> field가 0보다 작은 값이면 그 행의 모든 셀에 스타일을 지정하며, styleId를 null로 지정하면 기존에 지정된 스타일을 제거한다.  
 
 #### Syntax
 
@@ -19,22 +19,22 @@ permalink: /api/GridBase/setCellStyle/
 
 #### Parameters
 
-> **dataRow**
-> Type: number
-> 셀 스타일을 적용할 데이터 행의 번호
+> **dataRow**  
+> Type: number  
+> 셀 스타일을 적용할 데이터 행의 번호  
 
-> **field**
-> Type: string \| number
-> 셀 스타일을 적용할 필드명이나 필드순서
+> **field**  
+> Type: string \| number  
+> 셀 스타일을 적용할 필드명이나 필드순서  
 
-> **styleId**
-> Type: string
-> 적용할 스타일 id
+> **styleId**  
+> Type: string  
+> 적용할 스타일 id  
 
-> **updateNow**
-> Type: boolean
-> 지정한 스타일의 바로 반영 여부. 
-> 여러번 setCellStyle 을 실행하는 경우 가장 마지막에만 true로 지정한다.
+> **updateNow**  
+> Type: boolean  
+> 지정한 스타일의 바로 반영 여부.   
+> 여러번 setCellStyle 을 실행하는 경우 가장 마지막에만 true로 지정한다.  
 
 #### Return value
 

@@ -14,17 +14,17 @@ permalink: /api/GridBase/setCheckable/
 
 #### Syntax
 
-> function setCheckBar(options)
+> function setCheckable(itemIndex, value)
 
 #### Parameters
 
-> **itemIndex**
-> Type: Number
-> Grid Item의 index이다.
+> **itemIndex**  
+> Type: Number  
+> Grid Item의 index이다.  
 
-> **value**
-> Type: Boolean
-> Checkable 상태
+> **value**  
+> Type: Boolean  
+> Checkable 상태  
 
 #### Return value
 

@@ -10,8 +10,8 @@ permalink: /api/GridBase/orderBy/
 
 #### Description
 
-> 하나 이상의 데이터 필드를 기준으로 [Grid Item](/api/GridBase/)들을 정렬한다.
-> 정렬은 [Item Model](/api/GridBase/) 수준에서 실행되고, [Data Provider](/api/GridBase/) 행들의 실제 위치는 변경되지 않는다.
+> 하나 이상의 데이터 필드를 기준으로 [Grid Item](/api/Features/Grid Item/)들을 정렬한다.  
+> 정렬은 Item Model 수준에서 실행되고, [Data Provider](/api/Features/Data_Provider/) 행들의 실제 위치는 변경되지 않는다.  
 
 #### Syntax
 
@@ -19,13 +19,13 @@ permalink: /api/GridBase/orderBy/
 
 #### Parameters
 
-> **fieldNames**
-> Type: Array of String
-> 정렬할 필드 이름 목록
+> **fieldNames**  
+> Type: Array of String  
+> 정렬할 필드 이름 목록  
 
 > **sortDirs**
-> Type: Array of [SortDirection](/api/GridBase/)
-> 각 필드에 대한 정렬 방식 목록
+> Type: Array of [SortDirection](/api/Types/SortDirection/)  
+> 각 필드에 대한 정렬 방식 목록  
 
 #### Return value
 

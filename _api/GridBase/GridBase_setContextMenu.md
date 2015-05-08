@@ -18,9 +18,9 @@ permalink: /api/GridBase/setContextMenu/
 
 #### Parameters
 
-> **menuItems**
-> Type: Array
-> 메뉴 정보 배열.
+> **menuItems**  
+> Type: Array  
+> 메뉴 정보 배열.  
 
 #### Return value
 
