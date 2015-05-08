@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 새로운 강좌글 작성 템플릿
+title: Release Notes pre note
 date: 2015-04-25 15:47:54 +9:00 GMT
 categories: article
 ---
