@@ -2,7 +2,9 @@
 layout: apipost
 title: DataProviderOptions
 part: Types
-objectname: DataProvider
+typename: Config Classes
+order: DataLoadOptions
+objectname: 
 directiontype: 
 permalink: /api/types/DataProviderOptions/
 ---
