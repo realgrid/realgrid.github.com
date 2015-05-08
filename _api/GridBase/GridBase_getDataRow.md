@@ -18,13 +18,13 @@ permalink: /api/GridBase/getDataRow/
 
 #### Parameters
 
-> **itemIndex**
-> Type: Number
-> 그리드의 행번호
+> **itemIndex**  
+> Type: Number  
+> 그리드의 행번호  
 
 #### Return value
 
-> Type: Number
+> Type: Number  
 > Row ID값
 
 #### Example

@@ -22,7 +22,7 @@ permalink: /api/GridBase/isAllChecked/
 
 #### Return value
 
-> Type: Boolean
+> Type: Boolean  
 > [CheckBar\|CheckBar](/api/GridBase/).head의 v 표시가 활성 상태이면 true를 반환한다.
 
 #### Example

@@ -22,7 +22,7 @@ permalink: /api/GridBase/getEditingItem/
 
 #### Return value
 
-> Type: Object
+> Type: Object  
 > 편집중인 그리드 item의 정보. 편집중이 아닌경우 null이 출력된다.
 
 #### Example

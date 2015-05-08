@@ -19,9 +19,11 @@ permalink: /api/GridBase/getSelection/
 
 #### Parameters
 
+> None.
+
 #### Return value
 
-> Type: object
+> Type: object  
 > 선택 영역 정보
 
 #### Example

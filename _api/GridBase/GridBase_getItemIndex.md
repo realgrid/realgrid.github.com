@@ -10,22 +10,22 @@ permalink: /api/GridBase/getItemIndex/
 
 #### Description
 
-> dataRow와 연결된 itemIndex를 가져온다.
+> dataRow와 연결된 itemIndex를 가져온다.  
 
 #### Syntax
 
-> function getItemIndex(dataRow)
+> function getItemIndex(dataRow)  
 
 #### Parameters
 
-> **dataRow**
-> Type: Number
-> dataProvider의 row index이다.
+> **dataRow**  
+> Type: Number  
+> dataProvider의 row index이다.  
 
 #### Return value
 
-> Type: Number
-> 입력된 dataRow와 연결된 itemIndex이다.
+> Type: Number  
+> 입력된 dataRow와 연결된 itemIndex이다.  
 
 #### Example
 

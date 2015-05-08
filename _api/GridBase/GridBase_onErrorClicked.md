@@ -10,25 +10,25 @@ permalink: /api/GridBase/onErrorClicked/
 
 #### Description
 
-> 그리드에 발생한 에러창을 클릭할때 발생한다.
+> 그리드에 발생한 에러창을 클릭할때 발생한다.  
 
 #### Syntax
 
-> function onErrorClicked(grid, error)
+> function onErrorClicked(grid, error)  
 
 #### Arguments
 
-> **grid**
-> Type: [GridView\|GridView](/api/GridBase/)
-> GridView 컨트롤
+> **grid**  
+> Type: [GridView](/api/types/GridView/)  
+> GridView 컨트롤  
 
-> **error**
-> Type: String
-> 에러 메시지
+> **error**  
+> Type: String  
+> 에러 메시지  
 
 #### Return
 
-None.
+> None.
 
 #### Example
 

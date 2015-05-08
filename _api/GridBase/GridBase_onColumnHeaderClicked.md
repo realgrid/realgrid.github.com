@@ -10,25 +10,25 @@ permalink: /api/GridBase/onColumnHeaderClicked/
 
 #### Description
 
-> 사용자가 마우스로 컬럼 헤더셀을 클릭했을 때 호출된다.
+> 사용자가 마우스로 컬럼 헤더셀을 클릭했을 때 호출된다.  
 
 #### Syntax
 
-> function onColumnHeaderClicked (grid, column)
+> function onColumnHeaderClicked (grid, column)  
 
 #### Arguments
 
-> **grid**
-> Type: [GridView\|GridView](/api/GridBase/)
-> GridView 컨트롤
+> **grid**  
+> Type: [GridView](/api/types/GridView/)  
+> GridView 컨트롤  
 
-> **column**
-> Type: object
-> [ColumnGroup\|Column](/api/GridBase/) 혹은 [DataColumn](/api/GridBase/)과 같은 구조의 object.
+> **column**  
+> Type: object  
+> [ColumnGroup](/api/types/ColumnGroup/) 혹은 [DataColumn](/api/types/DataColumn/)과 같은 구조의 object.  
 
 #### Return
 
-> None.
+> None.  
 
 #### Example
 

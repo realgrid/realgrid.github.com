@@ -22,7 +22,7 @@ permalink: /api/GridBase/isLocalExporting/
 
 #### Return value
 
-> Type: Boolean
+> Type: Boolean  
 > 엑셀 저장중일 경우 true 가 리턴된다.
 
 #### Example

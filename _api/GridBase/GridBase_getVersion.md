@@ -22,7 +22,7 @@ permalink: /api/GridBase/getVersion/
 
 #### Return value
 
-> Type: String
+> Type: String  
 > 버전을 가져온다.
 
 #### Example

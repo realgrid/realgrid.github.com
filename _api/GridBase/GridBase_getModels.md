@@ -10,26 +10,26 @@ permalink: /api/GridBase/getModels/
 
 #### Description
 
-> 지정한 아이템 index들에 해당하는 아이템 모델들을 배열로 리턴한다. 
+> 지정한 아이템 index들에 해당하는 아이템 모델들을 배열로 리턴한다.   
 
 #### Syntax
 
-> function getModels(itemIndices, extended)
+> function getModels(itemIndices, extended)  
 
 #### Parameters
 
-> **itemIndices**
-> Type: Array of Number
-> 아이템 index들
+> **itemIndices**  
+> Type: Array of Number  
+> 아이템 index들  
 
-> **extended**
-> Type: Boolean
-> 확장정보 포함 여부
+> **extended**  
+> Type: Boolean  
+> 확장정보 포함 여부  
 
 #### Return value
 
-> Type: Array of Object
-> Item Model 객체들
+> Type: Array of Object  
+> Item Model 객체들  
 
 #### Example
 

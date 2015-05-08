@@ -10,29 +10,29 @@ permalink: /api/GridBase/onCellButtonClicked/
 
 #### Description
 
-> 사용자가 데이터셀 내부의 버튼을 클릭했을 때 호출된다.
+> 사용자가 데이터셀 내부의 버튼을 클릭했을 때 호출된다.  
 
 #### Syntax
 
-> function onCellButtonClicked (grid, itemIndex, column)
+> function onCellButtonClicked (grid, itemIndex, column)  
 
 #### Arguments
 
-> **grid**
-> Type: [GridView\|GridView](/api/GridBase/)
-> GridView 컨트롤
+> **grid**  
+> Type: [GridView](/api/types/GridView/)  
+> GridView 컨트롤  
 
-> **itemIndex**
-> Type: number
-> 데이터셀이 포함된 아이템의 인덱스.
+> **itemIndex**  
+> Type: number  
+> 데이터셀이 포함된 아이템의 인덱스.  
 
-> **column**
-> Type: object
-> 데이터셀에 연결된 컬럼. [DataColumn](/api/GridBase/)과 같은 구조의 object.
+> **column**  
+> Type: object  
+> 데이터셀에 연결된 컬럼. [DataColumn](/api/types/DataColumn/)과 같은 구조의 object.  
 
 #### Return
 
-> None.
+> None.  
 
 #### Example
 

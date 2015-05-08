@@ -10,22 +10,22 @@ permalink: /api/GridBase/isCheckedItem/
 
 #### Description
 
-> [CheckBar\|CheckBar](/api/GridBase/)에 체크가 되어있으면 true를 반환한다.
+> [CheckBar](/api/types/CheckBar/)에 체크가 되어있으면 true를 반환한다.  
 
 #### Syntax
 
-> function isCheckedItem(itemIndex)
+> function isCheckedItem(itemIndex)  
 
 #### Parameters
 
-> **itemIndex**
-> Type: Number
-> Grid Item의 index이다.
+> **itemIndex**  
+> Type: Number  
+> Grid Item의 index이다.  
 
 #### Return value
 
-> Type: Boolean
-> CheckBar에 체크가 되어있으면 true가 반환된다.
+> Type: Boolean  
+> CheckBar에 체크가 되어있으면 true가 반환된다.  
 
 #### Example
 

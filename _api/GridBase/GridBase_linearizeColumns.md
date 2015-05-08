@@ -18,9 +18,9 @@ permalink: /api/GridBase/linearizeColumns/
 
 #### Parameters
 
-> **sortProps**
-> Type: 
->
+> **sortProps**  
+> Type: bit (1,2,4,8,16) \| Array   
+> 컬럼 순서 정렬을 지정하기 위한 정보.
 
 #### Return value
 

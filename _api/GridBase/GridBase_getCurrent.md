@@ -22,8 +22,8 @@ None
 
 #### Return value
 
-> Type: object
-> [CellIndex](/api/GridBase/) 모델 값을 갖는 현재 포커스 셀 위치 정보.
+> Type: object  
+> [CellIndex](/api/types/CellIndex/) 모델 값을 갖는 현재 포커스 셀 위치 정보.
 
 #### Example
 

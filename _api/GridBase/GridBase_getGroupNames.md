@@ -22,7 +22,7 @@ permalink: /api/GridBase/getGroupNames/
 
 #### Return value
 
-> Type: array of string
+> Type: array of string  
 > 컬럼그룹 이름 배열.
 
 #### Example

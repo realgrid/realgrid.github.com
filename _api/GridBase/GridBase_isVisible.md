@@ -22,7 +22,7 @@ permalink: /api/GridBase/isVisible/
 
 #### Return value
 
-> Type: boolean
+> Type: boolean  
 > 그리드가 표시된 상태면 true.
 
 #### Example

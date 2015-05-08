@@ -10,17 +10,17 @@ permalink: /api/GridBase/onMenuItemClicked/
 
 #### Description
 
-> [GridBase addPopupMenu\|addPopupMenu](/api/GridBase/)로 추가한 팝업메뉴 항목이 클릭됐을 때 호출된다.
+> [GridBase addPopupMenu](/api/GridBase/addPopupMenu/)로 추가한 팝업메뉴 항목이 클릭됐을 때 호출된다.  
 
 #### Syntax
 
-> function onMenuItemClicked (grid, data)
+> function onMenuItemClicked (grid, data)  
 
 #### Arguments
 
-> **grid**
-> Type: [GridView\|GridView](/api/GridBase/)
-> GridView 컨트롤
+> **grid**  
+> Type: [GridView](/api/types/GridView/)  
+> GridView 컨트롤  
 
 #### Return
 

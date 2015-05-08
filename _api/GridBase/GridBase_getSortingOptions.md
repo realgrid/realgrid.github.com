@@ -10,7 +10,7 @@ permalink: /api/GridBase/getSortingOptions/
 
 #### Description
 
-> 그리드 정렬과 관련된 설정 정보들을 가져온다. [SortingOptions](/api/GridBase/)이 설정 모델이다.
+> 그리드 정렬과 관련된 설정 정보들을 가져온다. [SortingOptions](/api/types/SortingOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -22,8 +22,8 @@ permalink: /api/GridBase/getSortingOptions/
 
 #### Return value
 
-> Type: object
-> [SortingOptions](/api/GridBase/) 설정 모델과 동일한 내용의 객체가 반환된다.
+> Type: object  
+> [SortingOptions](/api/types/SortingOptions/) 설정 모델과 동일한 내용의 객체가 반환된다.
 
 #### Example
 

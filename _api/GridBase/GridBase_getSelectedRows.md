@@ -23,7 +23,7 @@ permalink: /api/GridBase/getSelectedRows/
 
 #### Return value
 
-> Type: Arrary of Number
+> Type: Arrary of Number  
 > 현재 선택된 데이터 행들.
 
 #### Example

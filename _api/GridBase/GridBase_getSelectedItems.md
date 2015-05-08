@@ -23,7 +23,7 @@ permalink: /api/GridBase/getSelectedItems/
 
 #### Return value
 
-> Type: Arrary of Number
+> Type: Arrary of Number  
 > 현재 선택된 행들.
 
 #### Example

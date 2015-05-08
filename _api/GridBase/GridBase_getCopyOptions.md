@@ -22,8 +22,8 @@ permalink: /api/GridBase/getCopyOptions/
 
 #### Return value
 
-> Type: Object
-> [CopyOptions\|CopyOptions](/api/GridBase/) 설정 모델과 동일한 내용의 객체가 반환된다.
+> Type: Object  
+> [CopyOptions](/api/types/CopyOptions/) 설정 모델과 동일한 내용의 객체가 반환된다.
 
 #### Example
 

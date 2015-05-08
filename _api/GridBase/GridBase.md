@@ -3,7 +3,7 @@ layout: apipost
 title: GridBase
 part: Objects
 objectname: GridBase
-directiontype: Function
+directiontype: 
 permalink: /api/GridBase/
 ---
 

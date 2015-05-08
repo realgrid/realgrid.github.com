@@ -10,22 +10,22 @@ permalink: /api/GridBase/isCheckedRow/
 
 #### Description
 
-> 입력된 dataRow와 연결된 item이 체크되어있으면 true를 반환한다.
+> 입력된 dataRow와 연결된 item이 체크되어있으면 true를 반환한다.  
 
 #### Syntax
 
-> function isCheckedRow(dataRow)
+> function isCheckedRow(dataRow)  
 
 #### Parameters
 
-> **dataRow**
-> Type: Number
-> data행의 index
+> **dataRow**  
+> Type: Number  
+> data행의 index  
 
 #### Return value
 
-> Type: Boolean
-> dataRow와 연결된 item이 체크되어있으면 true를 반환한다.
+> Type: Boolean  
+> dataRow와 연결된 item이 체크되어있으면 true를 반환한다.  
 
 #### Example
 

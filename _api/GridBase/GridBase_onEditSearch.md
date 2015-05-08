@@ -10,25 +10,25 @@ permalink: /api/GridBase/onEditSearch/
 
 #### Description
 
-> [SearchCellEditor\|Search Editor](/api/GridBase/)에서 searchLength와 searchDelay조건이 만족하면 발생한다.
+> [SearchCellEditor](/api/types/SearchCellEditor/)에서 searchLength와 searchDelay조건이 만족하면 발생한다.  
 
 #### Syntax
 
-> function onEditSearch(id, index, text)
+> function onEditSearch(id, index, text)  
 
 #### Arguments
 
-> **id**
-> Type: [GridView\|GridView](/api/GridBase/)
-> GridView 컨트롤
+> **id**  
+> Type: [GridView](/api/types/GridView/)  
+> GridView 컨트롤  
 
-> **index**
-> Type:  [CellIndex\|CellIndex](/api/GridBase/)
-> 변경된 CellIndex
+> **index**  
+> Type:  [CellIndex](/api/types/CellIndex/)  
+> 변경된 CellIndex  
 
-> **text**
-> Type: **
-> 편집전 셀의 데이터 값
+> **text**  
+> Type: *  
+> 편집전 셀의 데이터 값  
 
 #### Return
 

@@ -22,7 +22,7 @@ permalink: /api/GridBase/isItemEditing/
 
 #### Return value
 
-> Type: Boolean
+> Type: Boolean  
 > 그리드가 편집중이면 true를 반환한다.
 
 #### Example

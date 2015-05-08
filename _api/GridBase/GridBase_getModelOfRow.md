@@ -10,26 +10,26 @@ permalink: /api/GridBase/getModelOfRow/
 
 #### Description
 
-> dataRow에 해당하는 아이템모델을 리턴한다. 
+> dataRow에 해당하는 아이템모델을 리턴한다.   
 
 #### Syntax
 
-> function getModelOfRow(dataRow, extended)
+> function getModelOfRow(dataRow, extended)  
 
 #### Parameters
 
-> **dataRow**
-> Type: Number
-> data의 행번호
+> **dataRow**  
+> Type: Number  
+> data의 행번호  
 
-> **extended**
-> Type: Boolean
-> 확장정보 포함 여부
+> **extended**  
+> Type: Boolean  
+> 확장정보 포함 여부  
 
 #### Return value
 
-> Type: Object
-> Item Model 객체
+> Type: Object  
+> Item Model 객체  
 
 #### Example
 

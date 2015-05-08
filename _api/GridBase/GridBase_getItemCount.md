@@ -10,7 +10,7 @@ permalink: /api/GridBase/getItemCount/
 
 #### Description
 
-> 그리드에 현재 표시된 [Grid Item](/api/GridBase/) 개수를 반환한다.
+> 그리드에 현재 표시된 [Grid Item](/api/Features/Grid_item) 개수를 반환한다.
 
 #### Syntax
 
@@ -22,8 +22,8 @@ permalink: /api/GridBase/getItemCount/
 
 #### Return value
 
-> Type: Number
-> 그리드에 표시된 [Grid Item](/api/GridBase/) 개수
+> Type: Number  
+> 그리드에 표시된 [Grid Item](/api/Features/Grid_item) 개수
 
 #### Example
 

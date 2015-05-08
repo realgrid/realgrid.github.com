@@ -10,22 +10,22 @@ permalink: /api/GridBase/getItemsOfRows/
 
 #### Description
 
-> 입력된 dataRow와 연결된 그리드 itemIndex를 가져온다.
+> 입력된 dataRow와 연결된 그리드 itemIndex를 가져온다.  
 
 #### Syntax
 
-> function getItemsOfRows(dataRows)
+> function getItemsOfRows(dataRows)  
 
 #### Parameters
 
-> **dataRows**
-> Type: Array of Number
-> dataRow index배열이다.
+> **dataRows**  
+> Type: Array of Number  
+> dataRow index배열이다.  
 
 #### Return value
 
-> Type: array of Number
-> 입력된 dataRow와 연결된 itemIndex이다.
+> Type: array of Number  
+> 입력된 dataRow와 연결된 itemIndex이다.  
 
 #### Example
 

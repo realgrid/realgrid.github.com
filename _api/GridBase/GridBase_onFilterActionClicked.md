@@ -10,37 +10,37 @@ permalink: /api/GridBase/onFilterActionClicked/
 
 #### Description
 
-> 사용자가 임의의 동작을 할 수 있게 추가한 filter action을 클릭했을때 발생한다. 
+> 사용자가 임의의 동작을 할 수 있게 추가한 filter action을 클릭했을때 발생한다.   
 
 #### Syntax
 
-> function onFilterActionClicked(grid, column, action, x, y)
+> function onFilterActionClicked(grid, column, action, x, y)  
 
 #### Arguments
 
-> **grid**
-> Type: [GridView\|GridView](/api/GridBase/)
-> GridView 컨트롤
+> **grid**  
+> Type: [GridView](/api/types/GridView/)  
+> GridView 컨트롤  
 
-> **column**
-> Type: String\|Object
-> column명 또는 [DataColumn\|Column](/api/GridBase/)객체이다.
+> **column**  
+> Type: String\|Object  
+> column명 또는 [DataColumn](/api/types/DataColumn/)객체이다.  
 
-> **action**
-> Type: String
-> [ColumnFilterAction](/api/GridBase/)객체의 이름이다.
+> **action**  
+> Type: String  
+> [ColumnFilterAction](/api/types/ColumnFilterAction/)객체의 이름이다.  
 
-> **x**
-> Type: Number
-> x축 좌표이다.
+> **x**  
+> Type: Number  
+> x축 좌표이다.  
 
-> **y**
-> Type: Number
-> y축 좌표이다.
+> **y**  
+> Type: Number  
+> y축 좌표이다.  
 
 #### Return value
 
-> none
+> none  
 
 #### Example
 
