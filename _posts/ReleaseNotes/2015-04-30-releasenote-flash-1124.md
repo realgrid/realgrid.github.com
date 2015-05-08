@@ -10,7 +10,7 @@ version: 1.1.24
 1. dataRow가 변경되었을 때 이벤트가 발생하는 [GridBase.onCurrentRowChanged](/api/GridBase/onCurrentRowChanged/) 콜백 추가. (기존의 onCurrentChanged는 itemIndex변경시 발생)
 2. 현재 Editor의 내용을 Cell에 반영하는 GridBase.commitEditor(hideEditor) 함수 추가. hideEditor매개변수가 true이면 editor를 종료.(기본값은 true)
 3. Cell별로 Editor의 표시여부를 임의로 변경하기 위해서 [GridBase.onShowEditor](/api/GridBase/onShowEditor/) 콜백 추가, onShowEditor에서 false를 return하면 Editor가 표시하지 않음.
-4. [SortingOptions.keepFocusedRow](/api/Types/SortingOptions/) 속성 추가. keepFocusedRow가 true이면 정렬시 선택된 행(dataRow)가 유지. [Column Sorting](http://demo.realgrid.com/Demo/ColumnSorting) 페이지를 참조.
+4. [SortingOptions](/api/types/SortingOptions/).keepFocusedRow 속성 추가. keepFocusedRow가 true이면 정렬시 선택된 행(dataRow)가 유지. [Column Sorting](http://demo.realgrid.com/Demo/ColumnSorting) 페이지를 참조.
 5. Row Grouping기준컬럼이 변경되는 경우 발생하는 onGroupingChanged 콜백 및 isGrouped, isMergedGrouped, getGroupFields, getGroupFieldNames 함수 추가. [Row Grouping](http://demo.realgrid.com/Demo/RowGrouping) 페이지를 참조.
 6. EditOptions.crossWhenExitLast 속성 추가, 이 값이 true이면 tab/enter 키로 마지막 셀을 벗어날 때 다음 행으로 이동  
      EditOptions.commitWhenExitLast 속성 추가, 이 값이 true이면 tab/enter 키로 마지막 셀을 벗어날 때 해당 행을 commit  
