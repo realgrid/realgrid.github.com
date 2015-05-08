@@ -41,6 +41,9 @@ layout: rowdiv
     {% for api in sorted_by_orderno %}{% if api.part == 'Types' and api.typename == type_name %}
       <li>
       <a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
+      {% if api.deprecated == true %}
+        <span class="octicon octicon-circle-slash api-deprecated"></span>
+      {% endif %}
       </li>
     {% endif %}{% endfor %}
     </ul> 
@@ -48,21 +51,27 @@ layout: rowdiv
 
   <h4>Objects</h4>
   {% for object_name in site.object_names %}
-    <h5><a class="page-link" href="{{ site.baseurl }}/api/{{ object_name }}">{{ object_name }}</a></h5>
+    <h5><span class="octicon octicon-git-commit"> </span><strong><a class="page-link" href="{{ site.baseurl }}/api/{{ object_name }}"> {{ object_name }}</a></strong></h5>
     <h6>Functions</h6>
     <ul class="post-api-list">
-    {% for post in site.api %}{% if post.part == 'Objects' and post.objectname == object_name and post.directiontype == 'Function' %}
+    {% for api in site.api %}{% if api.part == 'Objects' and api.objectname == object_name and api.directiontype == 'Function' %}
       <li>
-      <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
+      {% if api.deprecated == true %}
+        <span class="octicon octicon-circle-slash api-deprecated"></span>
+      {% endif %}
       </li>
     {% endif %}{% endfor %}
     </ul> 
     
     <h6>Callbacks</h6>
     <ul class="post-api-list">
-    {% for post in site.api %}{% if post.part == 'Objects' and post.objectname == object_name and post.directiontype == 'Callback' %}
+    {% for api in site.api %}{% if api.part == 'Objects' and api.objectname == object_name and api.directiontype == 'Callback' %}
       <li>
-      <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
+      {% if api.deprecated == true %}
+        <span class="octicon octicon-circle-slash api-deprecated"></span>
+      {% endif %}
       </li>
     {% endif %}{% endfor %}
     </ul>
