@@ -17,7 +17,7 @@ permalink: /api/types/ValidationResult/
 #### Properties
 
 > **level**  
-> Type: [ValidationLevel](/api/features/ValidationLevel)  
+> Type: [ValidationLevel](/api/types/ValidationLevel)  
 > default: ValidationLevel.ERROR  
 > Row 데이터 검증 결과 수준을 지정한다.  
 

@@ -33,4 +33,4 @@ permalink: /api/types/ColumnFooter/
 > **groupExpression**  
 > Type: [Expression](/api/features/Expression)  
 > Default: null     
-> 행 그룹 푸터에 표시될 [Expression](/api/features/Expression)을 지정한다. [Row Grouping](/api/types/Row Grouping/)을 참조한다.  
+> 행 그룹 푸터에 표시될 [Expression](/api/features/Expression)을 지정한다. [Row Grouping](/api/features/Row Grouping/)을 참조한다.  
