@@ -10,22 +10,22 @@ permalink: /api/GridBase/getColumnHeader/
 
 #### Description
 
-> 컬럼 정보 객체나 컬럼 이름으로 해당 컬럼의 헤더 정보를 가져온다.
+> 컬럼 정보 객체나 컬럼 이름으로 해당 컬럼의 헤더 정보를 가져온다.  
 
 #### Syntax
 
-> function getColumnHeader(column)
+> function getColumnHeader(column)  
 
 #### Parameters
 
-> **column**
-> Type: string or Object
-> 컬럼 이름이나 컬럼 정보 객체
+> **column**  
+> Type: string or Object  
+> 컬럼 이름이나 컬럼 정보 객체  
 
 #### Return value
 
-> Type: Object
-> 컬럼 정보이거나 존재하지 않으면 null.
+> Type: Object  
+> 컬럼 정보이거나 존재하지 않으면 null.  
 
 #### Example
 

@@ -10,11 +10,11 @@ permalink: /api/GridBase/clearColumnFilterActions/
 
 #### Description
 
-> 지정된 컬럼에 존재하는 FilterActions을 clear한다.
+> 지정된 컬럼에 존재하는 FilterActions을 clear한다.  
 
 #### Syntax
 
-> function clearColumnFilterActions(column)
+> function clearColumnFilterActions(column)  
 
 #### Parameters
 
@@ -24,7 +24,7 @@ permalink: /api/GridBase/clearColumnFilterActions/
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

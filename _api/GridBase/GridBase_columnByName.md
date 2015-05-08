@@ -10,23 +10,23 @@ permalink: /api/GridBase/columnByName/
 
 #### Description
 
-> 컬럼 이름으로 컬럼 설정 정보를 가져온다. 
-> 매개변수로 지정한 컬럼 이름에 해당하는 컬럼이 존재하지 않으면 null을 반환한다.
+> 컬럼 이름으로 컬럼 설정 정보를 가져온다.   
+> 매개변수로 지정한 컬럼 이름에 해당하는 컬럼이 존재하지 않으면 null을 반환한다.  
 
 #### Syntax
 
-> function columnByName(name)
+> function columnByName(name)  
 
 #### Parameters
 
-> **name**
-> Type: string
-> 컬럼 이름
+> **name**  
+> Type: string  
+> 컬럼 이름  
 
 #### Return value
 
-> Type: Object
-> [dataColumn\|컬럼 설정 정보](/api/GridBase/)나 컬럼이 존재하지 않는 경우 null.
+> Type: Object  
+> [dataColumn](/api/types/dataColumn/)나 컬럼이 존재하지 않는 경우 null.  
 
 #### Example
 

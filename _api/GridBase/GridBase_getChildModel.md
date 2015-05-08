@@ -10,27 +10,27 @@ permalink: /api/GridBase/getChildModel/
 
 #### Description
 
-> 아이템 모델의 자식 아이템 모델을 리턴합니다.
+> 아이템 모델의 자식 아이템 모델을 리턴합니다.  
 
 #### Syntax
 
-> function getChildModel (model, index)
+> function getChildModel (model, index)  
 
 #### Parameters
 
-> **model**
-> Type: Object
-> Parent Model
+> **model**  
+> Type: Object  
+> Parent Model  
 
-> **index**
-> Type: Number
-> 가져올 child model의 index
+> **index**  
+> Type: Number  
+> 가져올 child model의 index  
 
 
 #### Return value
 
-> Type: Object
-> Item Model 객체.
+> Type: Object  
+> Item Model 객체.  
 
 
 #### Example

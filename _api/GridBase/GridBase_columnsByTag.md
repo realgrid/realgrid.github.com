@@ -20,15 +20,15 @@ permalink: /api/GridBase/columnsByTag/
 
 #### Parameters
 
-> **tag**
-> Type: string
-> 컬럼 tag
+> **tag**  
+> Type: string  
+> 컬럼 tag  
 
 #### Return value
 
->Type: array of Object
->컬럼 설정 정보 배열.
->컬럼이 존재하지 않는 경우 null.
+> Type: array of Object  
+> 컬럼 설정 정보 배열.  
+> 컬럼이 존재하지 않는 경우 null.  
 
 #### Example
 

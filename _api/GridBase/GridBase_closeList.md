@@ -18,7 +18,7 @@ permalink: /api/GridBase/closeList/
 
 #### Parameters
 
-> none
+> None.
 
 #### Return value
 

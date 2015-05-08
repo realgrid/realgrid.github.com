@@ -10,21 +10,21 @@ permalink: /api/GridBase/addImageList/
 
 #### Description
 
-> [ImageList](/api/GridBase/)는 셀 렌더러나 트리뷰의 아이콘으로 사용될 이미지 url 목록이다. 이 목록을 그리드에 추가한다.
+> [ImageList](/api/types/ImageList)는 셀 렌더러나 트리뷰의 아이콘으로 사용될 이미지 url 목록이다. 이 목록을 그리드에 추가한다.  
 
 #### Syntax
 
-> function addImageList(imageList)
+> function addImageList(imageList)  
 
 #### Parameters
 
-> **imageList**
-> Type: object
-> 이미지리스트의 이름과 이미지 url 목록을 포함한다. 
+> **imageList**  
+> Type: object  
+> 이미지리스트의 이름과 이미지 url 목록을 포함한다.   
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

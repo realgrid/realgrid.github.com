@@ -10,23 +10,23 @@ permalink: /api/GridBase/getColumnFilters/
 
 #### Description
 
-> 지정한 컬럼의 필터를 가져온다.
+> 지정한 컬럼의 필터를 가져온다.  
 
 #### Syntax
 
-> function getColumnFilters (column)
+> function getColumnFilters (column)  
 
 #### Parameters
 
-> **column**
-> Type: Object
-> Data Column
+> **column**  
+> Type: Object  
+> Data Column  
 
 
 #### Return value
 
-> Type: Objects
-> 필터 Objects
+> Type: Objects  
+> 필터 Objects  
 
 
 #### Example

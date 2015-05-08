@@ -10,27 +10,27 @@ permalink: /api/GridBase/getColumnFilter/
 
 #### Description
 
-> 지정한 필터이름에 해당하는 필터를 가져온다.
+> 지정한 필터이름에 해당하는 필터를 가져온다.  
 
 #### Syntax
 
-> function getColumnFilter (column, filterName)
+> function getColumnFilter (column, filterName)  
 
 #### Parameters
 
-> **column**
-> Type: Object
-> Data Column
+> **column**  
+> Type: Object  
+> Data Column  
 
-> **filterName**
-> Type: String
-> 가져오려고 하는 필터의 이름
+> **filterName**  
+> Type: String  
+> 가져오려고 하는 필터의 이름  
 
 
 #### Return value
 
-> Type: Object
-> 필터
+> Type: Object  
+> 필터  
 
 
 #### Example

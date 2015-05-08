@@ -19,9 +19,9 @@ permalink: /api/GridBase/addCellRenderers/
 
 #### Parameters
 
-> **renderers**
-> Type: Object
-> 계층적 구조로 구성되는 렌더러 데이터
+> **renderers**  
+> Type: Object  
+> 계층적 구조로 구성되는 렌더러 데이터  
 
 #### Return value
 

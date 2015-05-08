@@ -10,7 +10,7 @@ permalink: /api/GridBase/activateAllColumnFilters/
 
 #### Description
 
-> [DataColumn](/api/types/DataColumn)에 등록된 [ColumnFilter](/api/types/ColumnFilter)들을 모두 적용시키거나 해제시킨다.
+> [DataColumn](/api/types/DataColumn)에 등록된 [ColumnFilter](/api/types/ColumnFilter)들을 모두 적용시키거나 해제시킨다.  
 
 #### Syntax
 
@@ -20,19 +20,15 @@ permalink: /api/GridBase/activateAllColumnFilters/
 
 #### Parameters
 
-> **column**
-> 
-> Type: String\|Object
-> 
+> **column**  
+> Type: String\|Object  
 > ColumnName, FieldName 또는 [DataColumn](/api/types/DataColumn) Object
 
-> **active**
-> 
-> Type: Boolean
-> 
-> true를 입력하면 column의 filter들을 적용시키고, false면 모두 해제.
+> **active**  
+> Type: Boolean  
+> true를 입력하면 column의 filter들을 적용시키고, false면 모두 해제.  
 
-#### Return value
+#### Return value  
 
 > None.
 

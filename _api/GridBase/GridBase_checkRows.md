@@ -10,25 +10,25 @@ permalink: /api/GridBase/checkRows/
 
 #### Description
 
-> 입력된 dataRow와 연결된 Item을 체크하거나 해제한다.
+> 입력된 dataRow와 연결된 Item을 체크하거나 해제한다.  
 
 #### Syntax
 
-> function checkRows(dataRows, checked)
+> function checkRows(dataRows, checked)  
 
 #### Parameters
 
-> **dataRows**
-> Type: Array of Integer
-> dataRow 배열
+> **dataRows**  
+> Type: Array of Integer  
+> dataRow 배열  
 
-> **checked**
-> Type: Boolean
-> true를 입력하면 dataRows와 연결된 Item을 체크한다.
+> **checked**  
+> Type: Boolean  
+> true를 입력하면 dataRows와 연결된 Item을 체크한다.  
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

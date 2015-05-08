@@ -10,26 +10,26 @@ permalink: /api/GridBase/existsLookupData/
 
 #### Description
 
-> 지정된 lookupsource에 지정된 키가 존재하는지 확인한다.
+> 지정된 lookupsource에 지정된 키가 존재하는지 확인한다.  
 
 #### Syntax
 
-> function existsLookupData(sourceId, keys)
+> function existsLookupData(sourceId, keys)  
 
 #### Parameters
 
-> **sourceId**
-> Type: string
-> lookupSource의 Id
+> **sourceId**  
+> Type: string  
+> lookupSource의 Id  
 
-> **keys**
-> Type: String \| Array of String
-> 찾을 키값
+> **keys**  
+> Type: String \| Array of String  
+> 찾을 키값  
 
 
 #### Return value
 
-Boolean
+> Boolean
 
 #### Example
 

@@ -10,25 +10,25 @@ permalink: /api/GridBase/addLookupSource/
 
 #### Description
 
-> lookup tree에서 사용할 lookup source를 추가 등록한다.
-> 추가등록되는 lookup source가 기존것과 중복되는경우 overwrite된다.
-> ※ 기존id에 추가를 원하는 경우는 fillLookupData()를 사용한다.
+> lookup tree에서 사용할 lookup source를 추가 등록한다.  
+> 추가등록되는 lookup source가 기존것과 중복되는경우 overwrite된다.  
+> ※ 기존id에 추가를 원하는 경우는 fillLookupData()를 사용한다.  
 
 #### Syntax
 
-> function addLookupSource(source)
+> function addLookupSource(source)  
 
 #### Parameters
 
-> **source**
-> Type: Object
-> LookupSource Object
+> **source**  
+> Type: Object  
+> LookupSource Object  
 
 
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

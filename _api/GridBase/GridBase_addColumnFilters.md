@@ -10,26 +10,26 @@ permalink: /api/GridBase/addColumnFilters/
 
 #### Description
 
-> [DataColumn\|DataColumn](/api/GridBase/)에 하나 이상의 [ColumnFilter\|ColumnFilter](/api/GridBase/)를 등록한다.
+> [DataColumn](/api/types/DataColumn/)에 하나 이상의 [ColumnFilter](/api/types/ColumnFilter/)를 등록한다.  
 
 #### Syntax
 
-> function addColumnFilters(column, filters)
+> function addColumnFilters(column, filters)  
 
 #### Parameters
 
-> **column**
-> Type: String \| Object
-> fieldName 또는 [DataColumn\|DataColumn](/api/GridBase/) Object
+> **column**  
+> Type: String \| Object  
+> fieldName 또는 [DataColumn](/api/types/DataColumn/) Object  
 
-> **filters**
-> Type: Array of Object \| Object
-> [ColumnFilter\|ColumnFilter](/api/GridBase/) 배열 혹은 [ColumnFilter\|ColumnFilter](/api/GridBase/) 개체.
+> **filters**  
+> Type: Array of Object \| Object  
+> [ColumnFilter](/api/types/ColumnFilter/) 배열 혹은 [ColumnFilter](/api/types/ColumnFilter/) 개체.  
 
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

@@ -10,25 +10,25 @@ permalink: /api/GridBase/addPopupMenu/
 
 #### Description
 
-> 그리드에 Popup Menu를 추가한다. 추가된 메뉴는 데이터셀 등에 연결할 수 있다.
+> 그리드에 Popup Menu를 추가한다. 추가된 메뉴는 데이터셀 등에 연결할 수 있다.  
 
 #### Syntax
 
-> function addPopupMenu(name, menuItems)
+> function addPopupMenu(name, menuItems)  
 
 #### Parameters
 
-> **name**
-> Type: string
-> 메뉴 이름.
+> **name**  
+> Type: string  
+> 메뉴 이름.  
 
-> **menuItems**
-> Type: Array
-> 계층적 구조의 메뉴 정보.
+> **menuItems**  
+> Type: Array  
+> 계층적 구조의 메뉴 정보.  
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

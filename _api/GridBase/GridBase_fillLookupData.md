@@ -10,26 +10,26 @@ permalink: /api/GridBase/fillLookupData/
 
 #### Description
 
-> lookupSource에 lookupData를 추가한다.
+> lookupSource에 lookupData를 추가한다.  
 
 #### Syntax
 
-> function fillLookupData (sourceId, data)
+> function fillLookupData (sourceId, data)  
 
 #### Parameters
 
-> **sourceId**
-> Type: String
-> LookupSource Id
+> **sourceId**  
+> Type: String  
+> LookupSource Id  
 
-> **data**
-> Type: Object
-> LookupData Object
+> **data**  
+> Type: Object  
+> LookupData Object  
 
 
 #### Return value
 
-> None.
+> None.  
 
 
 #### Example

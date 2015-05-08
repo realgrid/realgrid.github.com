@@ -10,21 +10,21 @@ permalink: /api/GridBase/clearLookupData/
 
 #### Description
 
-> 지정된 SourceId에 해당하는 lookup source를 clear한다.
+> 지정된 SourceId에 해당하는 lookup source를 clear한다.  
 
 #### Syntax
 
-> function clearLookupData(sourceId)
+> function clearLookupData(sourceId)  
 
 #### Parameters
 
-> **sourceId**
-> Type: String
-> LookupSource의 Id
+> **sourceId**  
+> Type: String  
+> LookupSource의 Id  
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

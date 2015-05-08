@@ -10,22 +10,22 @@ permalink: /api/GridBase/endUpdate/
 
 #### Description
 
-> 이 전에 [beginUpdate](/api/GridBase/)가 호출되었다면 update lock을 풀고 그리드를 다시 그리게 한다.
+> 이 전에 [beginUpdate](/api/GridBase/GridBase_beginUpdate/)가 호출되었다면 update lock을 풀고 그리드를 다시 그리게 한다.  
 
 #### Syntax
 
-> function endUpdate(force)
+> function endUpdate(force)  
 
 #### Parameters
 
-> **force**
->   Type: Boolean
->   Default: true
->   이 전에 [beginUpdate](/api/GridBase/)가 호출되었는 지와 상관 없이 그리드를 다시 그리게 한다.
+> **force**  
+>   Type: Boolean  
+>   Default: true  
+>   이 전에 [beginUpdate](/api/GridBase/)가 호출되었는 지와 상관 없이 그리드를 다시 그리게 한다.  
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

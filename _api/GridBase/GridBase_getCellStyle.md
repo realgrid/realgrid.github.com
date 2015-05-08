@@ -10,26 +10,26 @@ permalink: /api/GridBase/getCellStyle/
 
 #### Description
 
-> dataRow 행의 field 셀에 지정된 DataCellStyle을 가져온다. 
+> dataRow 행의 field 셀에 지정된 DataCellStyle을 가져온다.   
 
 #### Syntax
 
-> function getCellStyle(dataRow, field)
+> function getCellStyle(dataRow, field)  
 
 #### Parameters
 
-> **dataRow**
-> Type: number
-> 셀 스타일을 가져올 데이터 행의 번호
+> **dataRow**  
+> Type: number  
+> 셀 스타일을 가져올 데이터 행의 번호  
 
-> **field**
-> Type: string \| number
-> 셀 스타일을 가져올 필드명이나 필드순서
+> **field**  
+> Type: string \| number  
+> 셀 스타일을 가져올 필드명이나 필드순서  
 
 #### Return value
 
-> Type: string
-> 셀 스타일 id가 반환된다.
+> Type: string  
+> 셀 스타일 id가 반환된다.  
 
 #### Example
 
