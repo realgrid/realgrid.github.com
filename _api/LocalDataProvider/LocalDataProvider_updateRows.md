@@ -40,7 +40,7 @@ permalink: /api/LocalDataProvider/updateRows/
 > Type: Boolean  
 > Default: false  
 > true이면 [onRowStateChanged](/api/LocalDataProvider/onRowStateChanged/) 이벤트를 건별로 발생시킨다.  
-> false이면 [onRowStatesChagned](/api/LocalDataProvider/onRowStatesChagned/) 이벤트를 한번만 발생시킨다.  
+> false이면 [onRowStatesChanged](/api/LocalDataProvider/onRowStatesChanged/) 이벤트를 한번만 발생시킨다.  
 
 #### Return value
 
