@@ -3,7 +3,7 @@ title: RealGrid Help
 email: support@realgrid.com
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://help.realgrid.com" # the base hostname & protocol for your site
+url: "http://realgrid.github.io" # the base hostname & protocol for your site
 homeurl: "http://www.realgrid.com"
 demourl: "http://demo.realgrid.com"
 twitter_username: 
