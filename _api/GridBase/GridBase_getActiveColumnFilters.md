@@ -10,7 +10,7 @@ permalink: /api/GridBase/getActiveColumnFilters/
 
 #### Description
 
-> 입력된 [DataColumn](/api/types/DataColumn/)에 등록된 [columnFilter](/api/types/columnFilter/) 중 적용된 필터 또는 해제된 필터의 이름을 가져온다.  
+> 입력된 [DataColumn](/api/types/DataColumn/)에 등록된 [ColumnFilter](/api/types/ColumnFilter/) 중 적용된 필터 또는 해제된 필터의 이름을 가져온다.  
 
 #### Syntax
 
@@ -30,7 +30,7 @@ permalink: /api/GridBase/getActiveColumnFilters/
 #### Return value
 
 > Type: array of Object  
-> 입력된 active상태에 해당하는 [columnFilter](/api/types/columnFilter)의 배열이 반환된다.  
+> 입력된 active상태에 해당하는 [ColumnFilter](/api/types/ColumnFilter)의 배열이 반환된다.  
 
 #### Example
 
