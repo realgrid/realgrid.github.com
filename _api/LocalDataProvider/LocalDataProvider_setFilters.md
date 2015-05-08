@@ -18,13 +18,14 @@ permalink: /api/LocalDataProvider/setFilters/
 
 #### Parameters
 
-> **filters**
-> Type: Array of Object
-> filter객체의 배열이다.
+> **filters**  
+> Type: Array of String  
+> filter조건의 배열이다.
 
-> **filterMode**
-> Type: String
-> filter의 동작 모드이다. 'and', 'or' 가 있다.
+> **filterMode**  
+> Type: String  
+> Default: 'and'  
+> filters에 지정된 필터 조건들의 합산 방법. 'and' \| 'or'
 
 #### Return value
 

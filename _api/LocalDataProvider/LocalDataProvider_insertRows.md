@@ -18,25 +18,28 @@ permalink: /api/LocalDataProvider/insertRows/
 
 #### Parameters
 
-> **row**
-> Type: number
+> **row**  
+> Type: number  
 > 삽입할 시작 데이터행 인덱스.
 
-> **rows**
-> Type: Array of Array\|object
+> **rows**  
+> Type: Array of Array \| object  
 > 값들의 배열. 각 행의 값은 Array이나 object.
 
-> **start**
-> Type: number
-> rows에 지정된 배열 중에서 시작 위치. 지정하지 않으면 0.
+> **start**  
+> Type: number  
+> Default: 0  
+> rows에 지정된 배열 중에서 시작 위치.
 
-> **count**
-> Type: number
-> rows에 지정된 배열 중 수정할 행의 개수. -1이면 모든 행. 지정하지 않으면 -1.
+> **count**  
+> Type: number  
+> Default: -1 (모든 행)  
+> rows에 지정된 배열 중 수정할 행의 개수.
 
-> **rowEvents**
-> Type: Boolean
-> false면 상태 변경 이벤트를 발생시키지 않는다. 지정하지 않으면 true다.
+> **rowEvents**  
+> Type: Boolean  
+> Default: true  
+> false면 상태 변경 이벤트를 발생시키지 않는다. 
 
 #### Return value
 

@@ -18,16 +18,16 @@ permalink: /api/LocalDataProvider/setValue/
 
 #### Parameters
 
-> **row**
-> Type: Number
-> 아이템 인덱스
+> **row**  
+> Type: Number  
+> Data row index.
 
-> **field**
-> Type: Number\|String
-> 필드 인덱스또는 FieldName
+> **field**  
+> Type: Number \| String  
+> 필드 인덱스 또는 FieldName
 
-> **value**
-> Type: ** 
+> **value**  
+> Type: *  
 > 필드에 설정할 값
 
 #### Return value

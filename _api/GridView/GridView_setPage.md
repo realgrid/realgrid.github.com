@@ -10,7 +10,7 @@ permalink: /api/GridView/setPage/
 
 #### Description
 
-> [Paging](/api/Features/Paging/) 모드일 때 표시할 페이지 번호를 지정한다.
+> [Paging](/api/features/Paging/) 모드일 때 표시할 페이지 번호를 지정한다.
 
 #### Syntax
 

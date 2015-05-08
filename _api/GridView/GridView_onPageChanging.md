@@ -10,7 +10,7 @@ permalink: /api/GridView/onPageChanging/
 
 #### Description
 
-> 그리드가 [Paging](/api/Features/Paging/) 상태일 때, 다른 페이지로 이동하기 직전에 호출된다.
+> 그리드가 [Paging](/api/features/Paging/) 상태일 때, 다른 페이지로 이동하기 직전에 호출된다.
 
 #### Syntax
 

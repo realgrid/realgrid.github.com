@@ -18,23 +18,23 @@ permalink: /api/LocalDataProvider/setXmlRows/
 
 #### Parameters
 
-> **rows**
-> Type: String
+> **rows**  
+> Type: String  
 > XML 소스.
 
-> **rowElement**
-> Type: String
+> **rowElement**  
+> Type: String  
 > XML 중 데이터행들로 사용될 element의 이름.
 
-> **start**
-> Type: Number
-> Default: 0
+> **start**  
+> Type: Number  
+> Default: 0  
 > 가져올 XML 시작행. 
 
-> **count**
-> Type: Number
-> Default: -1
-> 가져올 XML 행의 개수. -1일 경우 모든 행을 가져온다.
+> **count**  
+> Type: Number  
+> Default: -1 (모든 행)  
+> 가져올 XML 행의 개수.
 
 #### Return value
 

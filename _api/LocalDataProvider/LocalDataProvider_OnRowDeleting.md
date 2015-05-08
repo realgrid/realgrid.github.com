@@ -4,13 +4,13 @@ title: onRowDeleting
 part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
-permalink: /api/LocalDataProvider/OnRowDeleting/
+permalink: /api/LocalDataProvider/onRowDeleting/
 ---
 
 
 #### Description
 
-> LocalDataProvider에서 데이터행이 삭제되기 직전에 호출된다.
+> LocalDataProvider에서 데이터행이 삭제되기 직전에 호출된다.  
 > 삭제를 취소하려는 경우 false를 return한다.
 
 #### Syntax
@@ -19,12 +19,12 @@ permalink: /api/LocalDataProvider/OnRowDeleting/
 
 #### Parameters
 
-> **provider**
-> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**  
+> Type: [LocalDataProvider](/api/LocalDataProvider/)  
 > LocalDataProvider object.
 
-> **row**
-> Type: Number
+> **row**  
+> Type: Number  
 > 삭제되는 데이터행의 id
 
 #### Return value

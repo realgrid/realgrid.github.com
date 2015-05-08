@@ -10,7 +10,7 @@ permalink: /api/LocalDataProvider/setRows/
 
 #### Description
 
-> 기존 데이터행들을 모두 삭제하고 매개변수로 넘어온 행들을 추가한다. 개별 행 추가 이벤트는 발생하지 않고 [LocalDataProvider onRowCountChanged\|onRowCountChanged](/api/LocalDataProvider/) 콜백만 호출된다.
+> 기존 데이터행들을 모두 삭제하고 매개변수로 넘어온 행들을 추가한다. 개별 행 추가 이벤트는 발생하지 않고 [onRowCountChanged](/api/LocalDataProvider/onRowCountChanged/) 콜백만 호출된다.
 
 #### Syntax
 
@@ -18,17 +18,19 @@ permalink: /api/LocalDataProvider/setRows/
 
 #### Parameters
 
-> **rows**
-> Type: Array or Array\|Object
-> 입력하려는 데이터행들의 배열이다.
+> **rows**  
+> Type: Array or Array \| Object  
+> 입력하려는 데이터행들의 배열이다.  
 
-> **start**
-> Type: Number
-> rows의 시작 index를 입력한다. 입력하지 않으면 0이다.
+> **start**  
+> Type: Number  
+> Default: 0  
+> rows의 시작 index를 입력한다. 
 
-> **count**
-> Type: Number
-> 추가할 행의 건수를 입력한다. 입력하지 않으면 -1이며 start이후의 데이터를 입력한다.
+> **count**  
+> Type: Number  
+> Default: -1 (start이후의 데이터를 입력)  
+> 추가할 행의 건수를 입력한다.
 
 #### Return value
 

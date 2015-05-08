@@ -18,17 +18,17 @@ permalink: /api/LocalDataProvider/getRows/
 
 #### Parameters
 
-> **startRow**
-> Type: number
+> **startRow**  
+> Type: number  
 > 시작 행 번호
 
-> **endRow**
-> Type: number
+> **endRow**  
+> Type: number  
 > 끝 행 번호. 0보다 작은 값이면 마지막 행까지 가져온다.
 
 #### Return value
 
-> Type: Array of object.
+> Type: Array of object.  
 > 배열로 만들어진 데이터행들의 목록.
 
 #### Example

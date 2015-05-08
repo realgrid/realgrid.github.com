@@ -18,13 +18,13 @@ permalink: /api/LocalDataProvider/onRowUpdated/
 
 #### Parameters
 
-> **provider**
-> Type: [LocalDataProvider](/api/LocalDataProvider/)
+> **provider**  
+> Type: [LocalDataProvider](/api/LocalDataProvider/)  
 > LocalDataProvider object.
 
-> **row**
-> Type: Number
-> 수정된 데이터행이다.
+> **row**  
+> Type: Number  
+> 수정된 데이터행
 
 #### Return value
 

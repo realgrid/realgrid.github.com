@@ -10,7 +10,7 @@ permalink: /api/LocalDataProvider/onRowStateChanged/
 
 #### Description
 
-> LocalDataProvider의 데이터행의 rowState가 변경되는 경우 호출된다.
+> LocalDataProvider의 데이터행의 rowState가 변경되는 경우 호출된다.  
 > 데이터행이 insert되는 경우에는 발생되지 않는다.
 
 #### Syntax
@@ -19,17 +19,17 @@ permalink: /api/LocalDataProvider/onRowStateChanged/
 
 #### Arguments
 
-> **provider**
-> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**  
+> Type: [LocalDataProvider](/api/LocalDataProvider/)  
 > LocalDataProvider object.
 
-> **row**
-> Number
+> **row**  
+> Number  
 > rowState가 변경된 데이터행의 Index.
 
 #### Return
 
-None.
+> None.
 
 #### Example
 

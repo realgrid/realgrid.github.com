@@ -10,7 +10,7 @@ permalink: /api/LocalDataProvider/onRowStatesCleared/
 
 #### Description
 
-> [DataProvider clearRowStates\|DataProvider.clearRowStates](/api/LocalDataProvider/)를 호출하여 rowState가 deleted이거나 createAndDeleted인 데이터를 삭제하고 rowState를 초기화 한 후 호출된다.
+> [DataProvider.clearRowStates](/api/DataProvider/clearRowStates/)를 호출하여 rowState가 deleted이거나 createAndDeleted인 데이터를 삭제하고 rowState를 초기화 한 후 호출된다.
 
 #### Syntax
 
@@ -18,13 +18,13 @@ permalink: /api/LocalDataProvider/onRowStatesCleared/
 
 #### Arguments
 
-> **provider**
-> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**  
+> Type: [LocalDataProvider](/api/LocalDataProvider/)  
 > LocalDataProvider object.
 
 #### Return
 
-None.
+> None.
 
 #### Example
 

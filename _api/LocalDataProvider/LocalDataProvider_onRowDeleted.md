@@ -10,7 +10,7 @@ permalink: /api/LocalDataProvider/onRowDeleted/
 
 #### Description
 
-> LocalDataProvider에서 데이터행이 삭제된 후 호출된다.
+> LocalDataProvider에서 데이터행이 삭제된 후 호출된다.  
 > softDeleting = true 일 경우 호출되지 않는다.
 
 #### Syntax
@@ -19,12 +19,12 @@ permalink: /api/LocalDataProvider/onRowDeleted/
 
 #### Parameters
 
-> **provider**
-> Type: [LocalDataProvider\|LocalDataProvider](/api/LocalDataProvider/)
+> **provider**  
+> Type: [LocalDataProvider](/api/LocalDataProvider/)  
 > LocalDataProvider object.
 
-> **row**
-> Type: Number
+> **row**  
+> Type: Number  
 > 삭제되는 데이터행의 id
 
 #### Return value

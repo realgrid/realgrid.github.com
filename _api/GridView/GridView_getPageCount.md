@@ -10,7 +10,7 @@ permalink: /api/GridView/getPageCount/
 
 #### Description
 
-> [Paging](/api/Features/Paging) 모드일 때 전체 페이지 개수를 리턴한다.
+> [Paging](/api/features/Paging/) 모드일 때 전체 페이지 개수를 리턴한다.
 
 #### Syntax
 

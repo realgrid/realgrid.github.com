@@ -10,7 +10,7 @@ permalink: /api/GridView/setPageCount/
 
 #### Description
 
-> [Paging](/api/Features/Paging/) 개수를 변경한다.
+> [Paging](/api/features/Paging/) 개수를 변경한다.
 
 #### Syntax
 

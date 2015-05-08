@@ -10,9 +10,9 @@ permalink: /api/LocalDataProvider/removeRows/
 
 #### Description
 
-> rows에 지정된 데이타행들을 삭제한다.
-> dataProvider의 softDeleting이 true인 경우 실제로 삭제되지않고 rowState만 변경된다.
-> 이 경우 onRowDeleted나 onRowsDeleted가 발생하지 않고 onRowStateChanged나 onRowStatesChanged가 발생한다.
+> rows에 지정된 데이타행들을 삭제한다.  
+> [DataProviderOptions](/api/types/DataProviderOptions/)의 softDeleting이 true인 경우 실제로 삭제되지않고 rowState만 변경된다.  
+> 이 경우 [onRowDeleted](/api/LocalDataProvider/onRowDeleted/)나 [onRowsDeleted](/api/LocalDataProvider/onRowsDeleted/)가 발생하지 않고 [onRowStateChanged](/api/LocalDataProvider/onRowStateChanged/)나 [onRowStatesChanged](/api/LocalDataProvider/onRowStatesChanged)가 발생한다.
 
 #### Syntax
 
@@ -20,15 +20,15 @@ permalink: /api/LocalDataProvider/removeRows/
 
 #### Parameters
 
-> **rows**
-> Type: Array of number
+> **rows**  
+> Type: Array of number  
 > 삭제하려는 dataRow의 배열이다.
 
-> **rowEvents**
-> Type: Boolean
-> true인경우 삭제되는 건별로 [LocalDataProvider onRowDeleted\|onRowDeleted](/api/LocalDataProvider/)가 호출된다.
-> false인경우 삭제가 완료된후 [LocalDataProvider onRowsDeleted\|onRowsDeleted](/api/LocalDataProvider/)가 한번만 호출된다.
-> 지정되지 않으면 false이다.
+> **rowEvents**  
+> Type: Boolean  
+> Default: false  
+> true인경우 삭제되는 행 별로 [onRowDeleted](/api/LocalDataProvider/onRowDeleted/)가 호출된다.  
+> false인경우 삭제가 완료된 후 [onRowsDeleted](/api/LocalDataProvider/onRowsDeleted/)가 한번만 호출된다.
 
 #### Return value
 

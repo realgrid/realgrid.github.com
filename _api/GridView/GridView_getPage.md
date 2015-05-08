@@ -10,7 +10,7 @@ permalink: /api/GridView/getPage/
 
 #### Description
 
-> [Paging](/api/Features/Paging/) 모드에서 현재 페이지 번호를 리턴한다.
+> [Paging](/api/features/Paging/) 모드에서 현재 페이지 번호를 리턴한다.
 
 #### Syntax
 

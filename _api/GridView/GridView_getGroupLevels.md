@@ -18,7 +18,7 @@ permalink: /api/GridView/getGroupLevels/
 
 #### Parameters
 
-> **NONE**
+> NONE
 
 #### Return value
 
