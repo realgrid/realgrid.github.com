@@ -19,8 +19,8 @@ permalink: /api/GridBase/onDataCellDblClicked/
 #### Arguments
 
 > **grid**  
-> Type: [GridView](/api/types/GridView/)  
-> GridView 컨트롤  
+> Type: [GridBase](/api/types/GridBase/)  
+> GridBase 컨트롤  
 
 > **index**  
 > Type: [CellIndex](/api/types/CellIndex/)과 같은 구조의 object.  

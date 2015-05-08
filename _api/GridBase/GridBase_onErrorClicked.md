@@ -19,8 +19,8 @@ permalink: /api/GridBase/onErrorClicked/
 #### Arguments
 
 > **grid**  
-> Type: [GridView](/api/types/GridView/)  
-> GridView 컨트롤  
+> Type: [GridBase](/api/types/GridBase/)  
+> GridBase 컨트롤  
 
 > **error**  
 > Type: String  

@@ -19,8 +19,8 @@ permalink: /api/GridBase/onSelectionAdded/
 #### Arguments
 
 > **grid**  
-> Type: [GridView](/api/types/GridView/)  
-> GridView 컨트롤  
+> Type: [GridBase](/api/types/GridBase/)  
+> GridBase 컨트롤  
 
 > **selection**  
 > Type: [SelectionItem](/api/types/SelectionItem/)과 같은 구조의 object.  

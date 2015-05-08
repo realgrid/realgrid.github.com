@@ -10,7 +10,7 @@ permalink: /api/GridBase/onItemAllChecked/
 
 #### Description
 
-> 사용자가 checkBar의 Header를 클릭하여 전체선택,해제를 하거나 또는 [GridView checkAll](/api/GridView/checkAll/) true 을 입력하여 전체선택,해제를 하면 호출된다.  
+> 사용자가 checkBar의 Header를 클릭하여 전체선택,해제를 하거나 또는 [GridBase checkAll](/api/GridBase/checkAll/) true 을 입력하여 전체선택,해제를 하면 호출된다.  
 
 #### Syntax
 
@@ -19,8 +19,8 @@ permalink: /api/GridBase/onItemAllChecked/
 #### Arguments
 
 > **grid**  
-> Type: [GridView](/api/types/GridView/)  
-> GridView 컨트롤  
+> Type: [GridBase](/api/types/GridBase/)  
+> GridBase 컨트롤  
 
 > **checked**  
 > Type: Boolean  

@@ -10,7 +10,7 @@ permalink: /api/GridBase/onItemChecked/
 
 #### Description
 
-> 사용자가 checkBar의 체크박스를 클릭하거나 [GridView checkItem](/api/GridView/checkItem/)을 호출하여 체크를 변경한 경우 호출된다.  
+> 사용자가 checkBar의 체크박스를 클릭하거나 [GridBase checkItem](/api/GridBase/checkItem/)을 호출하여 체크를 변경한 경우 호출된다.  
 
 #### Syntax
 
@@ -19,8 +19,8 @@ permalink: /api/GridBase/onItemChecked/
 #### Arguments
 
 > **grid**  
-> Type: [GridView](/api/types/GridView/)  
-> GridView 컨트롤  
+> Type: [GridBase](/api/types/GridBase/)  
+> GridBase 컨트롤  
 
 > **itemIndex**  
 > Type: Number  
