@@ -10,7 +10,7 @@ permalink: /api/GridBase/clearColumnFilters/
 
 #### Description
 
-> 입력된 [DataColumn](/api/types/DataColumn/)에 등록된 [Columnfilter](/api/types/Columnfilter/)들을 모두 제거한다.  
+> 입력된 [DataColumn](/api/types/DataColumn/)에 등록된 [ColumnFilter](/api/types/ColumnFilter/)들을 모두 제거한다.  
 
 #### Syntax
 

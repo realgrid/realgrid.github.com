@@ -26,7 +26,7 @@ permalink: /api/GridBase/columnByName/
 #### Return value
 
 > Type: Object  
-> [dataColumn](/api/types/dataColumn/)나 컬럼이 존재하지 않는 경우 null.  
+> [DataColumn](/api/types/DataColumn/)나 컬럼이 존재하지 않는 경우 null.  
 
 #### Example
 

@@ -10,7 +10,7 @@ permalink: /api/GridBase/getColumnProperty/
 
 #### Description
 
-> [dataColumn](/api/types/dataColumn/) 또는 [columnGroup](/api/types/columnGroup/)의 속성을 가져온다.  
+> [DataColumn](/api/types/DataColumn/) 또는 [ColumnGroup](/api/types/ColumnGroup/)의 속성을 가져온다.  
 
 #### Syntax
 

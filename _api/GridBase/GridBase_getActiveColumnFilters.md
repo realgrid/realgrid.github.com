@@ -10,7 +10,7 @@ permalink: /api/GridBase/getActiveColumnFilters/
 
 #### Description
 
-> 입력된 [dataColumn](/api/types/dataColumn/)에 등록된 [columnFilter](/api/types/columnFilter/) 중 적용된 필터 또는 해제된 필터의 이름을 가져온다.  
+> 입력된 [DataColumn](/api/types/DataColumn/)에 등록된 [columnFilter](/api/types/columnFilter/) 중 적용된 필터 또는 해제된 필터의 이름을 가져온다.  
 
 #### Syntax
 

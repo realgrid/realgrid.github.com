@@ -10,7 +10,7 @@ permalink: /api/GridBase/getSummary/
 
 #### Description
 
-> Field의 합계값을 가져온다. [summaryMode](/api/types/summaryMode/)에 따라서 가져올수 있는 값이 다르다.  
+> Field의 합계값을 가져온다. [summaryMode](/api/types/SummaryMode/)에 따라서 가져올수 있는 값이 다르다.  
 
 #### Syntax
 

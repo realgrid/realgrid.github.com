@@ -36,7 +36,7 @@ permalink: /api/GridBase/onColumnHeaderClicked/
     grid.onColumnHeaderClicked =  function (grid, column) {
         console.log(column);  
         if (column.type == "data") {
-            alert("dataColumn클릭");
+            alert("DataColumn클릭");
         } else if (column.type == "group") {
             alert("columnGroup클릭");
         };
