@@ -18,7 +18,7 @@ permalink: /api/DataProvider/getFields/
 
 #### Parameters
 
-None.
+> None.
 
 #### Return value
 

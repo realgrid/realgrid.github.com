@@ -17,6 +17,7 @@ permalink: /api/DataProvider/getRowCount/
 > function getRowCount()
 
 #### Parameters
+> None
 
 #### Return value
 

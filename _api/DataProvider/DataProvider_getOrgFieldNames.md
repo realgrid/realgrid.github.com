@@ -19,7 +19,7 @@ permalink: /api/DataProvider/getOrgFieldNames/
 
 #### Parameters
 
-None.
+> None.
 
 #### Return value
 

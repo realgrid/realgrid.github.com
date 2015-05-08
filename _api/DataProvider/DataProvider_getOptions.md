@@ -18,7 +18,7 @@ permalink: /api/DataProvider/getOptions/
 
 #### Parameters
 
-None.
+> None.
 
 #### Return value
 

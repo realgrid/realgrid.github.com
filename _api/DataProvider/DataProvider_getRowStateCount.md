@@ -19,15 +19,16 @@ permalink: /api/DataProvider/getRowStateCount/
 
 #### Parameters
 
+
 > **rowStates**  
-> Type: array of [RealGrids.rowState](/api/types/rowstate/)\|string  
+> Type: [RealGrids.rowState](/api/types/RowState/)\|string\|array of string  
 > 가져올려는 rowState를 지정한다.  
 
 
 #### Return value
 
 > Number  
-> 지정된 rowStates에 해당하는 Row의 건수를 이다.  
+> 지정된 rowStates에 해당하는 Row의 건수들 이다.  
 
 #### Example
 

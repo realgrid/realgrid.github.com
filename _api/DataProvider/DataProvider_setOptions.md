@@ -20,7 +20,7 @@ permalink: /api/DataProvider/setOptions/
 
 > **options**  
 > Type: object  
-> [DataProviderOptions](/api/types/DataProviderOptions/)과 같은 내용의 설정 object. [DataProviderOptions](/api/DataProvider/) 중 변경하고자 하는 속성만 전달하면 된다.  
+> [DataProviderOptions](/api/types/DataProviderOptions/)과 같은 내용의 설정 object. DataProviderOptions 중 변경하고자 하는 속성만 전달하면 된다.  
 
 #### Return value
 
