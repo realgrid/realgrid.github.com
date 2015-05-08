@@ -10,7 +10,7 @@ permalink: /api/GridBase/getValue/
 
 #### Description
 
-> [Grid Item](/api/features/Grid_item/) 인덱스와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 반환한다.  
+> [Grid Item](/api/features/Grid Item/) 인덱스와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 반환한다.  
 
 #### Syntax
 

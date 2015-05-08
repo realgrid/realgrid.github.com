@@ -10,7 +10,7 @@ permalink: /api/GridBase/getRowId/
 
 #### Description
 
-> [Grid Item](/api/features/Grid_item/)에 연결된 Data 행의 인덱스를 반환한다.   
+> [Grid Item](/api/features/Grid Item/)에 연결된 Data 행의 인덱스를 반환한다.   
 > getRowId는 더이상 사용되지 않습니다. [getDataRow](/api/GridBase/getDataRow/)를 사용하세요  
 
 #### Syntax
