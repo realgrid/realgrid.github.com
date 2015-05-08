@@ -14,21 +14,21 @@ permalink: /api/TreeDataProvider/CheckParentProc/
 
 #### Syntax
 
-> function checkParentProc(parent, child)
+> function checkParentProc(parent, child)  
 
 #### Arguments
 
-> **parent**
-> Type: 
+> **parent**  
+> Type:   
 > 
 
-> **child**
-> Type:
+> **child**  
+> Type:  
 >
 
 #### Return
 
-> Type: boolean
+> Type: boolean  
 >
 
 #### Example

@@ -18,13 +18,14 @@ permalink: /api/DataProvider/getFieldIndex/
 
 #### Parameters
 
-> Type: string
-> 필드 이름.
+> **fieldName**  
+> Type: string  
+> 필드 이름.  
 
 #### Return value
 
-> Type: number
-> 필드 인덱스.
+> Type: number  
+> 필드 인덱스.  
 
 #### Example
 

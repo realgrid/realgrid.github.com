@@ -48,7 +48,7 @@ layout: rowdiv
 
   <h4>Objects</h4>
   {% for object_name in site.object_names %}
-    <h5 class="text-warning">{{ object_name }}</h5>
+    <h5><a class="page-link" href="{{ site.baseurl }}/api/{{ object_name }}">{{ object_name }}</a></h5>
     <h6>Functions</h6>
     <ul class="post-api-list">
     {% for post in site.api %}{% if post.part == 'Objects' and post.objectname == object_name and post.directiontype == 'Function' %}

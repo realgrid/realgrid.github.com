@@ -10,7 +10,7 @@ permalink: /api/GridBase/setPanel/
 
 #### Description
 
-> 그리드 Panel과 관련된 정보들을 설정한다. [Panel](/api/GridBase/)이 설정 모델이다.
+> 그리드 Panel과 관련된 정보들을 설정한다. [Panel](/api/Types/Panel/)이 설정 모델이다.
 
 #### Syntax
 
@@ -18,9 +18,9 @@ permalink: /api/GridBase/setPanel/
 
 #### Parameters
 
-> **options**
-> Type: object
-> [Panel](/api/GridBase/) 모델과 같은 설정 정보. [Panel](/api/GridBase/) 중 변경하고자 하는 속성만 전달하면 된다.  
+> **options**  
+> Type: object  
+> [Panel](/api/Types/Panel/) 모델과 같은 설정 정보. [Panel](/api/Types/Panel/) 중 변경하고자 하는 속성만 전달하면 된다.    
 
 #### Return value
 

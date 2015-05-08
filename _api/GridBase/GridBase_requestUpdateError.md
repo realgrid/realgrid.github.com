@@ -18,8 +18,8 @@ permalink: /api/GridBase/requestUpdateError/
 
 #### Parameters
 
-> **context**
-> Type: String
+> **context**  
+> Type: String  
 > 
 
 > **message**

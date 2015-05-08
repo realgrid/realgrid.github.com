@@ -10,7 +10,7 @@ permalink: /api/GridBase/setCheckableExpression/
 
 #### Description
 
-> [CheckBar](/api/GridBase/)에 checkableExpression 설정과 적용을 동시에 수행한다.
+> [CheckBar](/api/Types/CheckBar/)에 checkableExpression 설정과 적용을 동시에 수행한다.
 
 #### Syntax
 
@@ -18,14 +18,14 @@ permalink: /api/GridBase/setCheckableExpression/
 
 #### Parameters
 
-> **expression**
-> Type: String
-> 체크 가능 여부의 수식을 지정한다.
+> **expression**  
+> Type: String  
+> 체크 가능 여부의 수식을 지정한다.  
 
-> **apply**
-> Type: Boolean
-> Default: true
-> Checkable 의 즉시 적용여부
+> **apply**  
+> Type: Boolean  
+> Default: true  
+> Checkable 의 즉시 적용여부  
 
 #### Return value
 

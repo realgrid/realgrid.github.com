@@ -18,26 +18,26 @@ permalink: /api/TreeDataProvider/addChildRow/
 
 #### Parameters
 
-> **rowId**
-> Type: Number
-> Parent 행의 아이디.
+> **rowId**  
+> Type: Number  
+> Parent 행의 아이디.  
 
-> **values**
-> Type: Array\|Object
-> 추가할 행의 필드 값 배열 또는 Object.
+> **values**  
+> Type: Array\|Object  
+> 추가할 행의 필드 값 배열 또는 Object.  
 
-> **iconIndex**
-> Type: Number
-> 트리 행에 표시할 아이콘 인덱스.
+> **iconIndex**  
+> Type: Number  
+> 트리 행에 표시할 아이콘 인덱스.  
 
-> **hasChildren**
-> Type: Boolean
-> true면 자식이 있는 것으로 표시.
+> **hasChildren**  
+> Type: Boolean  
+> true면 자식이 있는 것으로 표시.  
 
 #### Return value
 
-> Type: Number
-> 새로 추가된 행의 트리 아이디.
+> Type: Number  
+> 새로 추가된 행의 트리 아이디.  
 
 #### Example
 

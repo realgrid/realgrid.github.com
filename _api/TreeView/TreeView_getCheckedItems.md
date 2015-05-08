@@ -14,11 +14,11 @@ permalink: /api/TreeView/getCheckedItems/
 
 #### Syntax
 
-> function getCheckedItems()
+> function getCheckedItems()  
 
 #### Parameters
 
-> none
+> None.
 
 #### Return value
 
@@ -28,6 +28,6 @@ permalink: /api/TreeView/getCheckedItems/
 #### Example
 
 <pre class="prettyprint">
-var items = treeMain.getCheckedItems();
+    var items = treeMain.getCheckedItems();
 </pre>
 

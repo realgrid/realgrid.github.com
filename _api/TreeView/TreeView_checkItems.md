@@ -14,18 +14,18 @@ permalink: /api/TreeView/checkItems/
 
 #### Syntax
 
-> function checkItems(items, checked)
+> function checkItems(items, checked)  
 
 #### Parameters
 
-> **items**
-> Type: Array of Number
-> 체크하거나 해제할 아이템 배열이다.
+> **items**  
+> Type: Array of Number  
+> 체크하거나 해제할 아이템 배열이다.  
 
-> **checked**
-> Type: Boolean
-> Default: true
-> true로 입력하면 입력된 items배열에 포함되는 아이템들을 체크하거나 해제한다.
+> **checked**  
+> Type: Boolean  
+> Default: true  
+> true로 입력하면 입력된 items배열에 포함되는 아이템들을 체크하거나 해제한다.  
 
 
 #### Return value

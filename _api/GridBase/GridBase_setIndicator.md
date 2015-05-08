@@ -10,7 +10,7 @@ permalink: /api/GridBase/setIndicator/
 
 #### Description
 
-> 그리드 Indicator와 관련된 정보들을 설정한다. [Indicator](/api/GridBase/)이 설정 모델이다.
+> 그리드 Indicator와 관련된 정보들을 설정한다. [Indicator](/api/Types/Indicator/)이 설정 모델이다.
 
 #### Syntax
 
@@ -18,9 +18,9 @@ permalink: /api/GridBase/setIndicator/
 
 #### Parameters
 
-> **options**
-> Type: object
-> [Indicator](/api/GridBase/) 모델과 같은 설정 정보. [Indicator](/api/GridBase/) 중 변경하고자 하는 속성만 전달하면 된다.  
+> **options**  
+> Type: object  
+> [Indicator](/api/Types/Indicator/) 모델과 같은 설정 정보. [Indicator](/api/Types/Indicator/) 중 변경하고자 하는 속성만 전달하면 된다.    
 
 #### Return value
 

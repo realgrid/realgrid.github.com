@@ -18,13 +18,13 @@ permalink: /api/GridBase/setColumnLayout/
 
 #### Parameters
 
-> **layout**
-> Type: Array of String
-> 그리드에 표시할 column명들 
+> **layout**  
+> Type: Array of String  
+> 그리드에 표시할 column명들   
 
 #### Return value
 
-> none
+> None.
 
 #### Example
 

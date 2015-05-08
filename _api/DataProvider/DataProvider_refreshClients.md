@@ -18,11 +18,11 @@ permalink: /api/DataProvider/refreshClients/
 
 #### Parameters
 
-None.
+> None.
 
 #### Return value
 
-None
+> None
 
 #### Example
 

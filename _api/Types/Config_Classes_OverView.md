@@ -1,6 +1,6 @@
 ---
 layout: apipost
-title: Config es OverView
+title: Config Classes OverView
 part: Types
 typename: Config Classes
 order: A1

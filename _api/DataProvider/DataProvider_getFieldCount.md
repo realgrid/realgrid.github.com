@@ -22,8 +22,8 @@ permalink: /api/DataProvider/getFieldCount/
 
 #### Return value
 
-> Type: number
-> 필드 개수.
+> Type: number  
+> 필드 개수.  
 
 #### Example
 

@@ -14,16 +14,16 @@ permalink: /api/DataProvider/getOptions/
 
 #### Syntax
 
-> function getOptions()
+> function getOptions()  
 
 #### Parameters
 
-None.
+> None.
 
 #### Return value
 
-> Type: object
-> [DataProviderOptions](/api/DataProvider/)과 같은 내용의 설정 object.
+> Type: object  
+> [DataProviderOptions](/api/types/DataProviderOptions)과 같은 내용의 설정 object.  
 
 #### Example
 

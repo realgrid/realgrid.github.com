@@ -7,7 +7,6 @@ directiontype: Function
 permalink: /api/DataProvider/clearRows/
 ---
 
-
 #### Description
 
 > DataProvider의 모든 행을 삭제한다.

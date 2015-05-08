@@ -17,10 +17,11 @@ permalink: /api/DataProvider/getRowCount/
 > function getRowCount()
 
 #### Parameters
+> None
 
 #### Return value
 
-> Type: number
+> Type: number  
 > 데이터행 개수.
 
 #### Example

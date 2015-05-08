@@ -14,25 +14,24 @@ permalink: /api/TreeDataProvider/onRowsAdded/
 
 #### Syntax
 
-> function onRowsAdded (provider, parentId, rowIds)
+> function onRowsAdded (provider, parentId, rowIds)  
 
 #### Arguments
 
-> **provider**
-> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
-> TreeDataProvider object.
+> **provider**  
+> Type: [TreeDataProvider](/api/TreeDataProvider/)  
+> TreeDataProvider object.  
 
-> **parentId**
-> Type: Array of number
-> 부모 rowId
+> **parentId**  
+> Type: Array of number  
+> 부모 rowId  
 
-> **rowIds**
-> Type: Array of number
-> 
+> **rowIds**  
+> Type: Array of number  
 
 #### Return
 
-> None.
+> None.  
 
 #### Example
 

@@ -28,7 +28,7 @@ permalink: /api/TreeView/getCheckedRows/
 #### Example
 
 <pre class="prettyprint">
-var rows = treeMain.getCheckRows();
+    var rows = treeMain.getCheckRows();
 </pre>
 
 

@@ -19,13 +19,13 @@ permalink: /api/DataProvider/clearRowStates/
 
 #### Parameters
 
-> **deleteRows**
-> Type: boolean
-> true면 "deleted"나 "createAndDeleted" 상태를 갖는 행들을 실제로 삭제한다.
+> **deleteRows**  
+> Type: boolean  
+> true면 "deleted"나 "createAndDeleted" 상태를 갖는 행들을 실제로 삭제한다.  
 
-> **rowEvents**
-> Type: Boolean
-> false면 상태 변경 이벤트를 발생시키지 않는다. 지정하지 않으면 false다.
+> **rowEvents**  
+> Type: Boolean  
+> false면 상태 변경 이벤트를 발생시키지 않는다. 지정하지 않으면 false다.  
 
 #### Return value
 

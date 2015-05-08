@@ -18,9 +18,9 @@ permalink: /api/GridBase/setStyles/
 
 #### Parameters
 
-> **styles**
-> Type: object
-> 계층적 구조로 구성되는 스타일 데이터.
+> **styles**  
+> Type: object  
+> 계층적 구조로 구성되는 스타일 데이터.  
 
 #### Return value
 

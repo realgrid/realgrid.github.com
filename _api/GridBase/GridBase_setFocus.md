@@ -10,8 +10,8 @@ permalink: /api/GridBase/setFocus/
 
 #### Description
 
-> 그리드가 입력 포커스를 갖도록 합니다. 
-> ie에서만 작동한다.
+> 그리드가 입력 포커스를 갖도록 합니다.   
+> ie에서만 작동한다.  
 
 #### Syntax
 

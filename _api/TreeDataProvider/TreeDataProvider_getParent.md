@@ -10,22 +10,22 @@ permalink: /api/TreeDataProvider/getParent/
 
 #### Description
 
-> 지정한 데이터 행의 부모 rowId를 가져온다.
+> 지정한 데이터 행의 부모 rowId를 가져온다.  
 
 #### Syntax
 
-> function getParent(rowId)
+> function getParent(rowId)  
 
 #### Parameters
 
-> **rowId**
-> Type: Number
-> Row Id
+> **rowId**  
+> Type: Number  
+> Row Id  
 
 #### Return value
 
-> Type: Number.
-> 부모 행의 Row Id.
+> Type: Number.  
+> 부모 행의 Row Id.  
 
 #### Example
 

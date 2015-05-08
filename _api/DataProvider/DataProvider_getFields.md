@@ -18,12 +18,12 @@ permalink: /api/DataProvider/getFields/
 
 #### Parameters
 
-None.
+> None.
 
 #### Return value
 
-> Type: array of object
-> 배열의 각 항목은 [DataField](/api/DataProvider/)와 동일한 내용의 object다.
+> Type: array of object  
+> 배열의 각 항목은 [DataField](/api/types/dataField)와 동일한 내용의 object다.
 
 #### Example
 

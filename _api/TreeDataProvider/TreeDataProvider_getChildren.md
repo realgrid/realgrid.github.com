@@ -18,14 +18,14 @@ permalink: /api/TreeDataProvider/getChildren/
 
 #### Parameters
 
-> **rowId**
-> Type: Number
-> Row Id
+> **rowId**  
+> Type: Number  
+> Row Id  
 
 #### Return value
 
-> Type: Array of Number.
-> 배열로 만들어진 Row Id들의 목록.
+> Type: Array of Number.  
+> 배열로 만들어진 Row Id들의 목록.  
 
 #### Example
 

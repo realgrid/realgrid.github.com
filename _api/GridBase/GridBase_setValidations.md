@@ -10,7 +10,7 @@ permalink: /api/GridBase/setValidations/
 
 #### Description
 
-> 행(row) 수준의 편집 [EditValidation](/api/GridBase/) 목록을 설정한다.
+> 행(row) 수준의 편집 [EditValidation](/api/Types/EditValidation/) 목록을 설정한다.
 
 #### Syntax
 
@@ -18,9 +18,9 @@ permalink: /api/GridBase/setValidations/
 
 #### Parameters
 
-> **options**
-> Type: Array of [EditValidation](/api/GridBase/)
-> [EditValidation](/api/GridBase/) 모델과 같은 설정 정보들의 배열.
+> **options**  
+> Type: Array of [EditValidation](/api/Types/EditValidation/)  
+> [EditValidation](/api/Types/EditValidation/) 모델과 같은 설정 정보들의 배열.  
 
 #### Return value
 

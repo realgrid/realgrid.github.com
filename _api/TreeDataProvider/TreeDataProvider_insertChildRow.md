@@ -10,7 +10,7 @@ permalink: /api/TreeDataProvider/insertChildRow/
 
 #### Description
 
-> 지정한 행에 자식 행을 추가한다.
+> 지정한 행에 자식 행을 추가한다.    
 
 #### Syntax
 
@@ -18,32 +18,32 @@ permalink: /api/TreeDataProvider/insertChildRow/
 
 #### Parameters
 
-> **rowId**
-> Type: Number
-> Row Id
+> **rowId**  
+> Type: Number  
+> Row Id  
 
-> **index**
-> Type: Number
-> 지정한 부모 행의 자식들 중 삽입하려는 행이 들어갈 위치(순서)
+> **index**  
+> Type: Number  
+> 지정한 부모 행의 자식들 중 삽입하려는 행이 들어갈 위치(순서)  
 
-> **values**
-> Type: Object\|Array of String
-> 필드값의 배열이나 필드들을 속성으로 하는 json 객체.
+> **values**  
+> Type: Object\|Array of String  
+> 필드값의 배열이나 필드들을 속성으로 하는 json 객체.  
 
-> **iconIndex**
-> Type: Number
-> Default: -1
-> 표시하려는 아이콘의 인덱스
+> **iconIndex**  
+> Type: Number  
+> Default: -1  
+> 표시하려는 아이콘의 인덱스  
 
-> **hasChildren**
-> Type: Boolean
-> Default: false
-> 추가된 자식행의 tree expander 표시 여부
+> **hasChildren**  
+> Type: Boolean  
+> Default: false  
+> 추가된 자식행의 tree expander 표시 여부  
 
 #### Return value
 
-> Type: Number.
-> 추가된 자식 행의 Row Id.
+> Type: Number.  
+> 추가된 자식 행의 Row Id.  
 
 #### Example
 

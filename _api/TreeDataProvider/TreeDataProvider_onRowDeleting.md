@@ -15,23 +15,23 @@ permalink: /api/TreeDataProvider/onRowDeleting/
 
 #### Syntax
 
-> function onRowDeleting(provider, rowId);
+> function onRowDeleting(provider, rowId);  
 
 #### Parameters
 
-> **provider**
-> Type: TreeDataProvider
-> TreeDataProvider object.
+> **provider**  
+> Type: TreeDataProvider  
+> TreeDataProvider object.  
 
-> **rowId**
-> Type: Number
-> 삭제되는 데이터행의 id
+> **rowId**  
+> Type: Number  
+> 삭제되는 데이터행의 id  
 
 #### Return value
 
-> Boolean
-> Default: true
-> 삭제하려면 true, 삭제를 취소하려면 false 를 리턴한다.
+> Boolean  
+> Default: true  
+> 삭제하려면 true, 삭제를 취소하려면 false 를 리턴한다.  
 
 #### Example
 

@@ -18,17 +18,17 @@ permalink: /api/DataProvider/getDistinctValues/
 
 #### Parameters
 
-> **field**
-> Type: String
->  필드명
+> **field**  
+> Type: String  
+> 필드명  
 
-> **maxCount**
-> Type: Number
->  가져올 데이터의 개수
+> **maxCount**  
+> Type: Number  
+> 가져올 데이터의 개수  
 
 #### Return value
 
-> Type: Array
+> Type: Array  
 > 중복제거한 필드데이터
 
 #### Example

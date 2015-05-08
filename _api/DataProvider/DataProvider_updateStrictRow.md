@@ -10,22 +10,22 @@ permalink: /api/DataProvider/updateStrictRow/
 
 #### Description
 
-> row로 지정된 기존 데이터행의 값을 수정.
+> row로 지정된 기존 데이터행의 값을 수정.  
 > undefined로 지정하거나 명시되지 않은 경우 기존의 값을 유지한다.
 
 #### Syntax
 
-> function updateStrictRow(row, values)
+> function updateStrictRow(row, values)  
 
 #### Parameters
 
-> **row**
-> Type: number
-> 수정할 행을 지정한다.
+> **row**  
+> Type: number  
+> 수정할 행을 지정한다.  
 
-> **values**
-> Type: array\|object
-> 필드값의 배열이거나 object.
+> **values**  
+> Type: array\|object  
+> 필드값의 배열이거나 object.  
 
 #### Return value
 

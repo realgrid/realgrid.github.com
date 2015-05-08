@@ -10,7 +10,7 @@ permalink: /api/GridBase/setStateBar/
 
 #### Description
 
-> 그리드 StateBar와 관련된 정보들을 설정한다. [StateBar](/api/GridBase/)가 설정 모델이다.
+> 그리드 StateBar와 관련된 정보들을 설정한다. [StateBar](/api/Types/StateBar/)가 설정 모델이다.
 
 #### Syntax
 
@@ -18,9 +18,9 @@ permalink: /api/GridBase/setStateBar/
 
 #### Parameters
 
-> **options**
-> Type: object
-> [StateBar](/api/GridBase/) 모델과 같은 설정 정보. [StateBar](/api/GridBase/) 모델의 속성들 중 변경하고자 하는 값들만 전달하면 된다.  
+> **options**  
+> Type: object  
+> [StateBar](/api/Types/StateBar/) 모델과 같은 설정 정보. [StateBar](/api/Types/StateBar/) 모델의 속성들 중 변경하고자 하는 값들만 전달하면 된다.    
 
 #### Return value
 

@@ -18,14 +18,14 @@ permalink: /api/DataProvider/getValues/
 
 #### Parameters
 
-> **row**
-> Type: integer
-> dataRow를 입력한다.
+> **row**  
+> Type: integer  
+> dataRow를 입력한다.  
 
 #### Return value
 
-> Type: Object
-> Array객체로 만들어진 행의 값
+> Type: Object  
+> Array객체로 만들어진 행의 값  
 
 #### Example
 

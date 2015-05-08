@@ -10,7 +10,7 @@ permalink: /api/GridBase/setCopyOptions/
 
 #### Description
 
-> Copy 정보를 설정한다. [CopyOptions](/api/GridBase/)가 설정 모델이다.
+> Copy 정보를 설정한다. [CopyOptions](/api/Types/CopyOptions/)가 설정 모델이다.
 
 #### Syntax
 
@@ -18,9 +18,9 @@ permalink: /api/GridBase/setCopyOptions/
 
 #### Parameters
 
-> **options**
-> Type: object
-> [CopyOptions](/api/GridBase/) 모델과 같은 설정 정보. [CopyOptions](/api/GridBase/) 중 변경하고자 하는 속성만 전달하면 된다.  
+> **options**  
+> Type: object  
+> [CopyOptions](/api/Types/CopyOptions/) 모델과 같은 설정 정보. [CopyOptions](/api/Types/CopyOptions/) 중 변경하고자 하는 속성만 전달하면 된다.  
 
 #### Return value
 

@@ -18,14 +18,14 @@ permalink: /api/DataProvider/getRowData/
 
 #### Parameters
 
-> **row**
-> Type: number
-> 행 번호
+> **row**  
+> Type: number  
+> 행 번호  
 
 #### Return value
 
-> Type: object.
-> JSON 객체로 만들어진 데이터행의 값.
+> Type: object.  
+> JSON 객체로 만들어진 데이터행의 값.  
 
 #### Example
 

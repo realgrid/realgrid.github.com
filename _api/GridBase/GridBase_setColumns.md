@@ -18,9 +18,9 @@ permalink: /api/GridBase/setColumns/
 
 #### Parameters
 
-> **columns**
-> Type: Array of Object
-> 컬럼 설정 정보 배열
+> **columns**  
+> Type: Array of Object  
+> 컬럼 설정 정보 배열  
 
 #### Return value
 
