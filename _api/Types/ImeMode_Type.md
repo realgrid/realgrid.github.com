@@ -2,17 +2,21 @@
 layout: apipost
 title: ImeMode
 part: Types
+typename: Constants
+order: ImeMode
 objectname: 
 directiontype: 
 permalink: /api/types/ImeMode/
 ---
 
 
+#### Description
+
 > 입력 전환시 기본 IME 상태를 정의한다.
 
 #### Members
 
-> **ALPHA**                  
+> **ALPHA**                    
 > Value: "alpha"        
 > 영숫자 싱글바이트 문자 입력 모드
 
@@ -27,7 +31,7 @@ permalink: /api/types/ImeMode/
 > **CHINESE**                
 > Value: "chinese"      
 > 한자 입력 모드
-         
+
 > **JAPANESE_HIRAGANA**      
 > Value: "hiragana"     
 > 히라가나 입력 모드
@@ -35,9 +39,9 @@ permalink: /api/types/ImeMode/
 > **JAPANESE_KATAKANA**      
 > Value: "katakana"     
 > 카타카나  입력 모드
-     
+
 > **JAPANESE_KATAKANA_FULL** 
-> Value: "katakanaFull"
+> Value: "katakanaFull"  
 > 카타카나 더블바이트 문자 입력 모드
 
 > **DONT_CARE**              

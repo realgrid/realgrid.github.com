@@ -2,6 +2,8 @@
 layout: apipost
 title: ImageList
 part: Types
+typename: Constants
+order: ImageList
 objectname: 
 directiontype: 
 permalink: /api/types/ImageList/
@@ -10,14 +12,14 @@ permalink: /api/types/ImageList/
 
 #### Properties
 
-> **name** 
-> Type: String           
+> **name**   
+> Type: String             
 > Default: null   
 > 이름. 이미지리스트를 참조하는 곳에서 이 이름을 사용한다.               
 
-> **rootUrl** 
-> Type: String 
-> Default: null 
+> **rootUrl**   
+> Type: String   
+> Default: null   
 > 이미지의 경로. images의 값들에 images값이 더해져서 최종 url을 만든다
  
 > **images** 

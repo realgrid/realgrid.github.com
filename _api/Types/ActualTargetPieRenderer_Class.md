@@ -9,6 +9,7 @@ directiontype:
 permalink: /api/types/ActualTargetPieRenderer/
 ---
 
+#### Description
 
 > 설명
 

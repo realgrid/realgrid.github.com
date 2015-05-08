@@ -2,6 +2,8 @@
 layout: apipost
 title: CellIndex
 part: Types
+typename: Config Classes
+order: CellIndex
 objectname: 
 directiontype: 
 permalink: /api/types/CellIndex/
@@ -10,30 +12,24 @@ permalink: /api/types/CellIndex/
 
 #### Properties
 
-> **itemIndex** 
-> 
-> Type: Number  
-> 
+> **itemIndex**  
+> Type: Number   
 > Default: -1   
-> 
 > Grid상의 Index            
 
-> **column**    
-> 
-> Type: String  
-> 
-> Default: null 
-> 
-> 컬럼 이름
-                 
-> **dataRow**   
+> **column**     
+> Type: String   
+> Default: null  
+> 컬럼 이름  
+
+> **dataRow**    
 > Type: Number  
 > Default: -1   
 > provider에서의 고유 번호  
 
-> **fieldName** 
-> Type: String  
-> Default: null 
-> 필드 이름                 
+> **fieldName**  
+> Type: String   
+> Default: null  
+> 필드 이름   
 
 

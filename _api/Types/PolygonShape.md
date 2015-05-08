@@ -2,33 +2,37 @@
 layout: apipost
 title: PolygonShape
 part: Types
+typename: Constants
+order: PolygonShape
 objectname: 
 directiontype: 
-permalink: /api/features/PolygonShape/
+permalink: /api/types/PolygonShape/
 ---
 
+
+#### Description
 
 > Shape의 유형을 정의합니다.
 
 #### Memebers
 
 > **NULL**              
-> Value: "null"
+> Value: "null"  
 
-> **RECTANGLE**         
-> Value: "rectangle"       
-> 사각형       
+> **RECTANGLE**           
+> Value: "rectangle"         
+> 사각형         
 
-> **TRIANLGE**          
-> Value: "triangle"        
+> **TRIANLGE**            
+> Value: "triangle"          
 > 삼각형       
 
-> **INVERTED_TRIANLGE** 
-> Value: "invertedtriangle"
+> **INVERTED_TRIANLGE**   
+> Value: "invertedtriangle"  
 > 역삼각형     
 
-> **DIAMOND**           
-> Value: "diamond"         
+> **DIAMOND**             
+> Value: "diamond"           
 > 마름모       
 
 > **UP_ARROW**          
@@ -61,7 +65,7 @@ permalink: /api/features/PolygonShape/
 
 #### Description
 
-> "Shape Cell Renderer":http://demo.realgrid.net/Demo/ShapeCellRenderer 참조
+> [Shape Cell Renderer](http://demo.realgrid.net/Demo/ShapeCellRenderer) 참조
 
 
 

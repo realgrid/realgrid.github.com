@@ -2,10 +2,13 @@
 layout: apipost
 title: indicator
 part: Types
+typename: Config Classes
+order: indicator
 objectname: 
 directiontype: 
-permalink: /api/features/indicator/
+deprecated: true
+permalink: /api/types/indicator/
 ---
 
 
-@Deprecated [getIndicator](/api/features/), [setIndicator](/api/features/)를 대신 사용할 것.
+@Deprecated [getIndicator](/api/GridBase/getIndicator/), [setIndicator](/api/GridBase/setIndicator/)를 대신 사용할 것.

@@ -3,11 +3,13 @@ layout: apipost
 title: Alignment
 part: Types
 typename: Constants
+order: Alignment
 objectname: 
 directiontype: 
 permalink: /api/types/Alignment/
 ---
 
+#### Description
 
 > 그리드 스타일 중 textAlignment, lineAlignment 혹은 iconAlignment 등의 값을 지정하는 상수다.
 

@@ -2,10 +2,13 @@
 layout: apipost
 title: grid editOptions
 part: Types
+typename: Config Classes
+order: grid editOptions
 objectname: 
 directiontype: 
-permalink: /api/features/grid editOptions/
+deprecated: true
+permalink: /api/types/grid editOptions/
 ---
 
 
-@Deprecated [getEditOptions](/api/features/), [setEditOptions](/api/features/)를 대신 사용할 것.
+@Deprecated [getEditOptions](/api/GridBase/getEditOptions/), [setEditOptions](/api/GridBase/getEditOptions/)를 대신 사용할 것.

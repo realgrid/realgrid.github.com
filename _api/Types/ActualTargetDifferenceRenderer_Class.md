@@ -9,6 +9,8 @@ directiontype:
 permalink: /api/types/ActualTargetDifferenceRenderer/
 ---
 
+#### Description
+
 >
 
 #### properties

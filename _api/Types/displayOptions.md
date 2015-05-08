@@ -2,10 +2,14 @@
 layout: apipost
 title: displayOptions
 part: Types
+typename: Constants
+order: displayOptions
 objectname: 
 directiontype: 
-permalink: /api/features/displayOptions/
+deprecated: true
+permalink: /api/types/displayOptions/
 ---
 
 
-@Deprecated [getDisplayOptions](/api/features/), [setDisplayOptions](/api/features/)를 대신 사용할 것.
+@Deprecated
+[getDisplayOptions](/api/GridBase/getDisplayOptions/), [setDisplayOptions](/api/GridBase/setDisplayOptions/)를 대신 사용할 것.

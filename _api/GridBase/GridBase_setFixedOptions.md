@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: SetFixedOptions
-part: Types
-objectname: 
-directiontype: 
-permalink: /api/features/SetFixedOptions/
+title: setFixedOptions
+part: Objects
+objectname: GridBase
+directiontype: Function
+permalink: /api/GridBase/setFixedOptions/
 ---
 
 
@@ -18,8 +18,8 @@ permalink: /api/features/SetFixedOptions/
 
 #### Parameters
 
-> **options**
-> Type: Object
+> **options**  
+> Type: Object   
 > [FixedOptions](/api/features/) 모델과 같은 설정 정보. [FixedOptions](/api/features/) 중 변경하고자 하는 값들만 전달하면 된다.  
 
 #### Return value

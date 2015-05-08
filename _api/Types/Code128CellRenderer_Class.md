@@ -9,6 +9,7 @@ directiontype:
 permalink: /api/types/Code128CellRenderer/
 ---
 
+#### Description
 
 > Code128 Barcode를 표시하는 렌더러이다.  
 

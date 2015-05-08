@@ -2,11 +2,14 @@
 layout: apipost
 title: CellEditor
 part: Types
+typename: Constants
+order: CellEditor
 objectname: 
 directiontype: 
 permalink: /api/types/CellEditor/
 ---
 
+#### Description
 
 > 셀의 Editor 유형을 정의합니다.
 
@@ -33,5 +36,5 @@ permalink: /api/types/CellEditor/
 > 날짜 에디터                      
 
 #### See Also
->
-> "Editors Demo":http://demo.realgrid.net/Demo/Editors 참조
+
+> [Editors Demo](http://demo.realgrid.net/Demo/Editors) 참조
