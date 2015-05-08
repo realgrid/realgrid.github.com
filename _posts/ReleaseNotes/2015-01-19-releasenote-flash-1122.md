@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Released RealGrid Flash 1.1.22
-date: 2015-01-19 01:01:01 +9:00 GMT
+title: Released RealGrid Flash 1.1.22.2568
+date: 2015-01-29 01:01:01 +9:00 GMT
 category: "Release Notes"
 product: flash
-version: 1.1.22
+version: 1.1.22.2568
 ---
 
 1. product용 swf파일과 evaluation license, evaluation용 swf파일과 product license를 잘못 사용하는 경우 사용이 불가능하도록 제한("Invalid licence type")

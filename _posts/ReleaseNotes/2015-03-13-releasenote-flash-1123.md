@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Released RealGrid Flash 1.1.13
+title: Released RealGrid Flash 1.1.23.2595
 date: 2015-03-13 15:47:54 +9:00 GMT
 category: "Release Notes"
 product: flash
-version: 1.1.13
+version: 1.1.23.2595
 ---
 
 1. EditOptions.forceInsert 속성 추가, 기본 값인 false 일 때 새로운 행을 insert하고 편집없이 다른 행으로 이동 시 편집 중인 행을 취소하도록 개선.  
@@ -19,7 +19,7 @@ version: 1.1.13
 9. Datetime field의 min, max, set속성 미동작 개선.
 10. fitColumnWidth 함수 minValue및 visibleOnly 파라메터 추가, minValue는 최소 넓이, visibleOnly를 true로 하면 현재 보이는 데이터를 기준으로 fitting하도록 개선.
 11. FixedOptions.rowResizable속성 추가, 한 행이 그리드 body 영역의 높이보다 크면 body 영역의 하단을 드래깅하여 높이 조정하도록 개선. 한 행이 그리드 body 영역의 높이보다 큰 경우, fixed bar나 그리드 bottom line이 표시되는 버그 개선.
-12. DataProvider.datetimeFormat 에 시,분의 값에서 앞의 0을 생략가능한 한자리 패턴이 추가. [DataType](/Demo/DataType) 페이지를 참조.
+12. DataProvider.datetimeFormat 에 시,분의 값에서 앞의 0을 생략가능한 한자리 패턴이 추가. [DataType](http://demo.realgrid.com/Demo/DataType) 페이지를 참조.
 13. 컬럼에 prefix나 suffix를 지정했을 때 셀 값이 null이면 셀의 text에 "null"이 더해져서 표시되는 문제 개선.
 14. setColumns 호출 시 컬럼의 alwaysShowEditButton 속성이 true이고 alwaysShowButton이 false일 때 표시되지 않는 문제 개선.
 15. ColumnFilter에서 filter가 변경될 때 onFilteringChanged 콜백이 active된 filter수 만큼 발생되는 문제 개선.
