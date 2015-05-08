@@ -14,21 +14,20 @@ permalink: /api/TreeDataProvider/onValueChanged/
 
 #### Syntax
 
-> function onValueChanged(provider, rowId)
+> function onValueChanged(provider, rowId)  
 
 #### Arguments
 
-> **provider**
-> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
-> TreeDataProvider object.
+> **provider**  
+> Type: [TreeDataProvider](/api/TreeDataProvider/)  
+> TreeDataProvider object.  
 
-> **rowId**
-> Type: number
-> 
+> **rowId**  
+> Type: number  
 
 #### Return
 
-> None.
+> None.  
 
 #### Example
 

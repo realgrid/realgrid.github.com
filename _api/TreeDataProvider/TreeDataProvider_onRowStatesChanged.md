@@ -10,26 +10,26 @@ permalink: /api/TreeDataProvider/onRowStatesChanged/
 
 #### Description
 
-> TreeDataProvider에서 여러건의 데이터행의 rowState가 변경되는 경우 호출된다.
+> TreeDataProvider에서 여러건의 데이터행의 rowState가 변경되는 경우 호출된다.   
 
 
 #### Syntax
 
-> function onRowStatesChanged(provider, rowIds)
+> function onRowStatesChanged(provider, rowIds)   
 
 #### Arguments
 
-> **provider**
-> Type: TreeDataProvider
-> TreeDataProvider object.
+> **provider**   
+> Type: TreeDataProvider   
+> TreeDataProvider object.   
 
-> **rowIds**
-> Array of Number
-> 변경된 행 Index의 배열
+> **rowIds**   
+> Array of Number   
+> 변경된 행 Index의 배열   
 
 #### Return
 
-None.
+> None.   
 
 #### Example
 

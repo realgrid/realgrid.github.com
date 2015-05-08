@@ -14,21 +14,21 @@ permalink: /api/TreeDataProvider/onRowUpdated/
 
 #### Syntax
 
-> function onRowUpdated (provider, rowId)
+> function onRowUpdated (provider, rowId)  
 
 #### Arguments
 
-> **provider**
-> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
-> TreeDataProvider object.
+> **provider**  
+> Type: [TreeDataProvider](/api/TreeDataProvider/)  
+> TreeDataProvider object.  
 
-> **rowId**
-> number
-> 변경된 데이터행의 id
+> **rowId**  
+> number  
+> 변경된 데이터행의 id  
 
 #### Return
 
-> None.
+> None.  
 
 #### Example
 

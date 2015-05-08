@@ -18,21 +18,19 @@ permalink: /api/TreeDataProvider/onRowAdding/
 
 #### Arguments
 
-> **provider**
-> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
-> TreeDataProvider object.
+> **provider**  
+> Type: [TreeDataProvider](/api/TreeDataProvider/)  
+> TreeDataProvider object.  
 
-> **rowId**
-> Type: Number
-> 
+> **rowId**  
+> Type: Number  
 
-> **index**
-> Type: Number
-> 
+> **index**  
+> Type: Number  
 
 #### Return
 
-> None.
+> None.  
 
 #### Example
 

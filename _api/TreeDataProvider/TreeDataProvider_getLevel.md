@@ -10,22 +10,22 @@ permalink: /api/TreeDataProvider/getLevel/
 
 #### Description
 
-> 트리에서 지정된 rowId의 레벨을 가져온다.
+> 트리에서 지정된 rowId의 레벨을 가져온다.  
 
 #### Syntax
 
-> function getLevel(rowId)
+> function getLevel(rowId)  
 
 #### Parameters
 
-> **rowId**
-> Type: Number
+> **rowId**  
+> Type: Number  
 > 데이터 행의 트리 아이디.
 
 #### Return value
 
-> Type: Number
-> 트리의 레벨
+> Type: Number  
+> 트리의 레벨  
 
 #### Example
 

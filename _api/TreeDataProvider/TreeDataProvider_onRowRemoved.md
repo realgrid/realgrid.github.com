@@ -14,21 +14,20 @@ permalink: /api/TreeDataProvider/onRowRemoved/
 
 #### Syntax
 
-> function onRowRemoved (provider, rowId)
+> function onRowRemoved (provider, rowId)  
 
 #### Arguments
 
-> **provider**
-> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
-> TreeDataProvider object.
+> **provider**  
+> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)  
+> TreeDataProvider object.  
 
-> **rowId**
-> number
-> 
+> **rowId**  
+> number   
 
 #### Return
 
-> None.
+> None.  
 
 #### Example
 

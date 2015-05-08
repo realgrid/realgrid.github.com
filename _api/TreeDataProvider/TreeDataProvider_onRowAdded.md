@@ -7,8 +7,6 @@ directiontype: Callback
 permalink: /api/TreeDataProvider/onRowAdded/
 ---
 
-
-
 #### Description
 
 > 
@@ -19,19 +17,18 @@ permalink: /api/TreeDataProvider/onRowAdded/
 
 #### Arguments
 
-> **provider**
-> Type: [TreeDataProvider\|TreeDataProvider](/api/TreeDataProvider/)
-> TreeDataProvider object.
+> **provider**  
+> Type: [TreeDataProvider](/api/TreeDataProvider/)  
+> TreeDataProvider object.  
 
 > **rowId**
-> number
-> 
+> number  
 
-#### Return
+#### Return  
 
-> None.
-
-#### Example
+> None.  
+  
+#### Example  
 
 <pre class="prettyprint">
     treeProvider.onRowAdded = function (provider, rowId) {

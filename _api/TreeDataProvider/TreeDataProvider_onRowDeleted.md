@@ -15,21 +15,21 @@ permalink: /api/TreeDataProvider/onRowDeleted/
 
 #### Syntax
 
-> function onRowDeleted(provider, rowId);
+> function onRowDeleted(provider, rowId);  
 
 #### Parameters
+  
+> **provider**  
+> Type: TreeDataProvider  
+> TreeDataProvider object.  
 
-> **provider**
-> Type: TreeDataProvider
-> TreeDataProvider object.
-
-> **rowId**
-> Type: Number
-> 삭제되는 데이터행의 id
+> **rowId**  
+> Type: Number  
+> 삭제되는 데이터행의 id  
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

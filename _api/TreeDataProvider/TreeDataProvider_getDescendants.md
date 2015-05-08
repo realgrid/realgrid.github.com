@@ -10,22 +10,22 @@ permalink: /api/TreeDataProvider/getDescendants/
 
 #### Description
 
-> 모든 자손 행들의 rowId를 가져온다.
+> 모든 자손 행들의 rowId를 가져온다.  
 
 #### Syntax
 
-> function getDescendants (rowId)
+> function getDescendants (rowId)  
 
 #### Parameters
 
-> **rowId**
-> Type: Number
-> Row Id
+> **rowId**  
+> Type: Number  
+> Row Id  
 
 #### Return value
 
-> Type: Array of Number.
-> 배열로 만들어진 Row Id들의 목록.
+> Type: Array of Number.  
+> 배열로 만들어진 Row Id들의 목록.  
 
 #### Example
 
