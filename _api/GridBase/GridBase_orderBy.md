@@ -10,8 +10,8 @@ permalink: /api/GridBase/orderBy/
 
 #### Description
 
-> 하나 이상의 데이터 필드를 기준으로 [Grid Item](/api/Features/Grid Item/)들을 정렬한다.  
-> 정렬은 Item Model 수준에서 실행되고, [Data Provider](/api/Features/Data_Provider/) 행들의 실제 위치는 변경되지 않는다.  
+> 하나 이상의 데이터 필드를 기준으로 [Grid Item](/api/features/Grid Item/)들을 정렬한다.  
+> 정렬은 Item Model 수준에서 실행되고, [Data Provider](/api/features/Data_Provider/) 행들의 실제 위치는 변경되지 않는다.  
 
 #### Syntax
 
