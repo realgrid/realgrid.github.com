@@ -1,4 +1,4 @@
----  
+---
 layout: apipost
 title: DataType
 part: Types

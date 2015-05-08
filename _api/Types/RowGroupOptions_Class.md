@@ -1,4 +1,4 @@
-  ---
+---
 layout: apipost
 title: RowGroupOptions
 part: Types

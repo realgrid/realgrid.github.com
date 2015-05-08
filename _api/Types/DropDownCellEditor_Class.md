@@ -1,4 +1,4 @@
-  ---
+---
 layout: apipost
 title: DropDownCellEditor
 part: Types
