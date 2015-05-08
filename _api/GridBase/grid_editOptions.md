@@ -1,13 +1,11 @@
 ---
 layout: apipost
-title: grid editOptions
-part: Types
-typename: Config Classes
-order: grid editOptions
-objectname: 
-directiontype: 
+title: editOptions
+part: Objects
+objectname: GridBase
+directiontype: Function
 deprecated: true
-permalink: /api/types/grid editOptions/
+permalink: /api/GridBase/editOptions/
 ---
 
 

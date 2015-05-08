@@ -1,13 +1,11 @@
 ---
 layout: apipost
 title: displayOptions
-part: Types
-typename: Constants
-order: displayOptions
-objectname: 
-directiontype: 
+part: Objects
+objectname: GridBase
+directiontype: Function
 deprecated: true
-permalink: /api/types/displayOptions/
+permalink: /api/GridBase/displayOptions/
 ---
 
 

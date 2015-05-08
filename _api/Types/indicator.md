@@ -1,13 +1,11 @@
 ---
 layout: apipost
 title: indicator
-part: Types
-typename: Config Classes
-order: indicator
-objectname: 
-directiontype: 
+part: Objects
+objectname: GridBase
+directiontype: Function
 deprecated: true
-permalink: /api/types/indicator/
+permalink: /api/GridBase/indicator/
 ---
 
 

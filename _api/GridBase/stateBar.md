@@ -1,13 +1,11 @@
 ---
 layout: apipost
 title: stateBar
-part: Types
-typename: Config Classes
-order: stateBar
-objectname: 
-directiontype: 
+part: Objects
+objectname: GridBase
+directiontype: Function
 deprecated: true
-permalink: /api/types/_stateBar/
+permalink: /api/GridBase/stateBar/
 ---
 
 

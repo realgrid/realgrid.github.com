@@ -1,13 +1,11 @@
 ---
 layout: apipost
-title: Grid fixedOptions
-part: Types
-typename: Config Classes
-order: Grid fixedOptions
-objectname: 
-directiontype: 
+title: fixedOptions
+part: Objects
+objectname: GridBase
+directiontype: Function
 deprecated: true
-permalink: /api/types/Grid fixedOptions/
+permalink: /api/GridBase/Grid fixedOptions/
 ---
 
 
