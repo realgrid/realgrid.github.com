@@ -22,7 +22,7 @@ permalink: /api/GridBase/setCurrent/
 
 > **current**  
 > Type: object  
-> [CellIndex](/api/Types/CellIndex/) 값.
+> [CellIndex](/api/types/CellIndex/) 값.
 
 #### Return value
 

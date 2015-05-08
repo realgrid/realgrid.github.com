@@ -24,7 +24,7 @@ permalink: /api/GridBase/orderBy/
 > 정렬할 필드 이름 목록  
 
 > **sortDirs**
-> Type: Array of [SortDirection](/api/Types/SortDirection/)  
+> Type: Array of [SortDirection](/api/types/SortDirection/)  
 > 각 필드에 대한 정렬 방식 목록  
 
 #### Return value

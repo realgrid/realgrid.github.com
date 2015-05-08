@@ -10,7 +10,7 @@ permalink: /api/GridBase/setPasteOptions/
 
 #### Description
 
-> 그리드 붙여넣기 정보를 설정한다. [PasteOptions](/api/Types/PasteOptions/)이 설정 모델이다.
+> 그리드 붙여넣기 정보를 설정한다. [PasteOptions](/api/types/PasteOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -20,7 +20,7 @@ permalink: /api/GridBase/setPasteOptions/
 
 > **options**  
 > Type: object  
-> [PasteOptions](/api/Types/PasteOptions/) 모델과 같은 설정 정보. [PasteOptions](/api/Types/PasteOptions/) 중 변경하고자 하는 속성만 전달하면 된다.    
+> [PasteOptions](/api/types/PasteOptions/) 모델과 같은 설정 정보. [PasteOptions](/api/types/PasteOptions/) 중 변경하고자 하는 속성만 전달하면 된다.    
 
 #### Return value
 

@@ -27,6 +27,6 @@ permalink: /api/GridBase/options/
 #### Return value
 
 > Type: Object  
-> 그리드 옵션 정보. [GridOptions](/api/Types/GridOptions/)에서 선언된 속성들을 반환한다.  
+> 그리드 옵션 정보. [GridOptions](/api/types/GridOptions/)에서 선언된 속성들을 반환한다.  
 
 

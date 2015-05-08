@@ -10,7 +10,7 @@ permalink: /api/GridBase/setCheckableExpression/
 
 #### Description
 
-> [CheckBar](/api/Types/CheckBar/)에 checkableExpression 설정과 적용을 동시에 수행한다.
+> [CheckBar](/api/types/CheckBar/)에 checkableExpression 설정과 적용을 동시에 수행한다.
 
 #### Syntax
 

@@ -10,7 +10,7 @@ permalink: /api/GridBase/setValue/
 
 #### Description
 
-> [Grid Item](/api/GridBase/) 인덱스와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 변경한다.
+> [Grid Item](/api/features/Grid_item) 인덱스와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 변경한다.
 
 #### Syntax
 

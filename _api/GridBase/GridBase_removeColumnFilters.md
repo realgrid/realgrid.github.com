@@ -20,7 +20,7 @@ permalink: /api/GridBase/removeColumnFilters/
 
 > **column**  
 > Type: String\|Object  
-> columnName 또는 [column](/api/Types/DataColumn/)객체  
+> columnName 또는 [column](/api/types/DataColumn/)객체  
 
 > **filterNames**  
 > Type: Array of String  

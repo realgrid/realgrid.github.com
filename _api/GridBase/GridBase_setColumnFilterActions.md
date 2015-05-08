@@ -20,11 +20,11 @@ permalink: /api/GridBase/setColumnFilterActions/
 
 > **column**  
 > Type: String\|Object  
-> column명 또는 [Column](/api/Types/DataColumn/)객체이다.  
+> column명 또는 [Column](/api/types/DataColumn/)객체이다.  
 
 > **actions**  
 > Type: Object  
-> [ColumnFilterAction](/api/Types/ColumnFilterAction/)객체이다.  
+> [ColumnFilterAction](/api/types/ColumnFilterAction/)객체이다.  
 
 #### Return value
 

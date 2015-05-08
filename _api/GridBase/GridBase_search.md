@@ -20,7 +20,7 @@ permalink: /api/GridBase/search/
 
 > **options**  
 > Type: object  
-> [SearchOptions](/api/Types/SearchOptions/) 모델로 지정한다.  
+> [SearchOptions](/api/types/SearchOptions/) 모델로 지정한다.  
 
 #### Return value
 

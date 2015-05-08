@@ -10,7 +10,7 @@ permalink: /api/GridBase/setHeader/
 
 #### Description
 
-> 그리드 Indicator와 관련된 정보들을 설정한다. [Header](/api/Types/Header/)이 설정 모델이다.
+> 그리드 Indicator와 관련된 정보들을 설정한다. [Header](/api/types/Header/)이 설정 모델이다.
 
 #### Syntax
 
@@ -20,7 +20,7 @@ permalink: /api/GridBase/setHeader/
 
 > **options**  
 > Type: object  
-> [Header](/api/Types/Header/) 모델과 같은 설정 정보. [Header](/api/Types/Header/) 중 변경하고자 하는 속성만 전달하면 된다.    
+> [Header](/api/types/Header/) 모델과 같은 설정 정보. [Header](/api/types/Header/) 중 변경하고자 하는 속성만 전달하면 된다.    
 
 #### Return value
 

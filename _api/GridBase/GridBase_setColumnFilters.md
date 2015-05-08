@@ -20,7 +20,7 @@ permalink: /api/GridBase/setColumnFilters/
 
 > **column**  
 > Type: String\|Object  
-> column명 또는 [Column](/api/Types/DataColumn/)객체이다.  
+> column명 또는 [Column](/api/types/DataColumn/)객체이다.  
 
 > **filters**  
 > Type: Array of Object  
