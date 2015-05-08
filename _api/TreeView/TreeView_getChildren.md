@@ -14,18 +14,18 @@ permalink: /api/TreeView/getChildren/
 
 #### Syntax
 
-> function getChildren(itemIndex)
+> function getChildren(itemIndex)  
 
 #### Parameters
 
-> **itemIndex**
-> Type: Number
-> 자식행을 가져오려는 부모행의 itemIndex를 입력한다.
+> **itemIndex**  
+> Type: Number  
+> 자식행을 가져오려는 부모행의 itemIndex를 입력한다.  
 
 #### Return value
 
-> Type: Array of Number
-> 자식행의 itemIndex배열.
+> Type: Array of Number  
+> 자식행의 itemIndex배열.  
 
 #### Example
 

@@ -18,22 +18,22 @@ permalink: /api/TreeView/onTreeItemExpanding/
 
 #### Arguments
 
-> **tree**
-> Type: [TreeView\|TreeView](/api/TreeView/)
-> TreeView컨트롤
+> **tree**  
+> Type: [TreeView](/api/TreeView/)  
+> TreeView컨트롤  
 
-> **itemIndex**
-> Type: number
-> 펼쳐지려는 행의 아이템 인덱스
+> **itemIndex**  
+> Type: number  
+> 펼쳐지려는 행의 아이템 인덱스  
 
-> **rowId**
-> Type: number
-> 펼쳐지려는 행의 rowId.
+> **rowId**  
+> Type: number  
+> 펼쳐지려는 행의 rowId.  
 
 #### Return
 
-> Type: boolean
-> false를 리턴하면 아이템이 펼쳐지지 않는다.
+> Type: boolean  
+> false를 리턴하면 아이템이 펼쳐지지 않는다.  
 
 #### Example
 

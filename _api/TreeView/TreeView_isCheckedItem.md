@@ -14,18 +14,18 @@ permalink: /api/TreeView/isCheckedItem/
 
 #### Syntax
 
-> function isCheckedItem(itemIndex)
+> function isCheckedItem(itemIndex)  
 
 #### Parameters
 
-> **itemIndex**
-> Type: Number
-> 체크되었는지 확인하려는 데이터행의 itemIndex를 입력한다.
+> **itemIndex**  
+> Type: Number  
+> 체크되었는지 확인하려는 데이터행의 itemIndex를 입력한다.  
 
 #### Return value
 
-> Type: Boolean
-> 체크가 되었으면 true, 해제되었으면 false를 리턴한다.
+> Type: Boolean  
+> 체크가 되었으면 true, 해제되었으면 false를 리턴한다.  
 
 #### Example
 

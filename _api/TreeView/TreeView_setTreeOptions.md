@@ -18,9 +18,9 @@ permalink: /api/TreeView/setTreeOptions/
 
 #### Parameters
 
-> **options**
-> Type: object
-> [TreeOptions](/api/TreeView/)와 같은 내용의 설정 정보. [TreeOptions](/api/TreeView/) 중 변경하고자 하는 속성만 전달하면 된다.  
+> **options**  
+> Type: object  
+> [TreeOptions](/api/types/TreeOptions)와 같은 내용의 설정 정보. [TreeOptions](/api/types/TreeOptions) 중 변경하고자 하는 속성만 전달하면 된다.  
 
 #### Return value
 

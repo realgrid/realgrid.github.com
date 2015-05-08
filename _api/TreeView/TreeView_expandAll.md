@@ -10,19 +10,19 @@ permalink: /api/TreeView/expandAll/
 
 #### Description
 
-> 트리뷰의 모든 아이템들을 펼친다.
+> 트리뷰의 모든 아이템들을 펼친다.  
 
 #### Syntax
 
-> function expandAll()
+> function expandAll()  
 
 #### Parameters
 
-None.
+> None.
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

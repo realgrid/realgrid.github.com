@@ -14,17 +14,16 @@ permalink: /api/TreeView/getAncestors/
 
 #### Syntax
 
-> function getAncestors(itemIndex)
+> function getAncestors(itemIndex)  
 
 #### Parameters
 
-> **itemIndex**
-> Type: Number
-> 
+> **itemIndex**  
+> Type: Number   
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

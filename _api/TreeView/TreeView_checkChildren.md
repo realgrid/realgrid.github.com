@@ -18,28 +18,28 @@ permalink: /api/TreeView/checkChildren/
 
 #### Parameters
 
-> **itemIndex**
-> Type: Number
-> 부모행의 Index이다.
+> **itemIndex**  
+> Type: Number  
+> 부모행의 Index이다.  
 
-> **checked**
-> Type: Boolean
-> Default: true
-> true이면 체크하고 false이면 해제한다.
+> **checked**  
+> Type: Boolean  
+> Default: true  
+> true이면 체크하고 false이면 해제한다.  
 
-> **recursive**
-> Type: Boolean
-> Default: false
-> 자식행에 자식이 있는 경우 체크 또는 해제한다.
+> **recursive**  
+> Type: Boolean  
+> Default: false  
+> 자식행에 자식이 있는 경우 체크 또는 해제한다.  
 
-> **visibleOnly**
-> Type: Boolean
-> Default: true
-> true로 입력하면 화면에 펼쳐진 자식행을 체크또는 해제하고 false로 입력하면 전체 자식행을 체크또는 해제한다.
+> **visibleOnly**  
+> Type: Boolean  
+> Default: true  
+> true로 입력하면 화면에 펼쳐진 자식행을 체크또는 해제하고 false로 입력하면 전체 자식행을 체크또는 해제한다.  
 
 #### Return value
 
-> None.
+> None.  
 
 #### Example
 

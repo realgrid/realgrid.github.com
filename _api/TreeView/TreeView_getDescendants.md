@@ -18,14 +18,13 @@ permalink: /api/TreeView/getDescendants/
 
 #### Parameters
 
-> **itemIndex**
-> Type: Number
-> 자손행을 가져오려는 부모행의 index를 입력한다.
+> **itemIndex**  
+> Type: Number  
+> 자손행을 가져오려는 부모행의 index를 입력한다.  
 
 #### Return value
 
 > Type: Array of Number
-> 
 
 #### Example
 
