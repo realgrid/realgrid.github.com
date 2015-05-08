@@ -38,6 +38,7 @@ permalink: /api/types/DataProviderOptions/
 > Type: number  
 > Default: 2000  
 > 데이터셋을 로드할 때 년도의 값이 100보다 작은 경우 자동으로 추가할 기준 년도. 
+
 > **insertable**  
 > Type: boolean  
 > Default: true  
