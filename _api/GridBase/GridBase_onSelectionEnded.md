@@ -20,7 +20,7 @@ permalink: /api/GridBase/onSelectionEnded/
 #### Arguments
 
 > **grid**  
-> Type: [GridBase](/api/types/GridBase/)  
+> Type: [GridBase](/api/GridBase/)  
 > GridBase 컨트롤  
 
 #### Return

@@ -19,7 +19,7 @@ permalink: /api/GridBase/onRowsDeleting/
 #### Arguments
 
 > **grid**  
-> Type: [GridBase](/api/types/GridBase/)  
+> Type: [GridBase](/api/GridBase/)  
 > 그리드.  
 
 > **rows**  

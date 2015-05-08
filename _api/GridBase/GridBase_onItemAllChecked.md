@@ -19,7 +19,7 @@ permalink: /api/GridBase/onItemAllChecked/
 #### Arguments
 
 > **grid**  
-> Type: [GridBase](/api/types/GridBase/)  
+> Type: [GridBase](/api/GridBase/)  
 > GridBase 컨트롤  
 
 > **checked**  
