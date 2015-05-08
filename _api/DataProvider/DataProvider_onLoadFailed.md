@@ -20,7 +20,7 @@ permalink: /api/DataProvider/onLoadFailed/
 #### Arguments
 
 > **provider**  
-> Type: [DataProvider](/api/features/data provider)  
+> Type: [DataProvider](/api/DataProvider/)  
 > DataProvider.  
 
 > **message**  
