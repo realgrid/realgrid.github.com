@@ -21,6 +21,7 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -167,6 +168,7 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: scroll !important;
+    word-wrap: normal;
 
     > code {
         padding: 5px;
