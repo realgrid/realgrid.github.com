@@ -4,7 +4,7 @@ title: getGroupNames
 part: Objects
 objectname: GridBase
 directiontype: Function
-permalink: /api/GridBase/getGroupNames/
+permalink: /api/GridBase/getColumnsGroupNames/
 ---
 
 
