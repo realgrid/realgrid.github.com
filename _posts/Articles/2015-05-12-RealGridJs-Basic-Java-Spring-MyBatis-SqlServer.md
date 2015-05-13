@@ -29,14 +29,14 @@ eGovFrame 2.6를 실행 합니다.
 File(파일)메뉴에서 New eGovFrame Web Project 메뉴를 실행 합니다.
 Project name, Group Id, Target Runtime을 설정해주고 새프로젝트를 생성 합니다.
 
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-a_new_web_site.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-a_new_web_site.gif)
     
 ### Create a Web Page
    
 RealGrid를 장착할 새로운 웹 페이지를 생성 합니다.
 새로운 웹 페이지의 이름은 default.jsp로 합니다.
 
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-create_a_web_page.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-create_a_web_page.gif)
     
 
     
@@ -45,7 +45,7 @@ RealGrid를 장착할 새로운 웹 페이지를 생성 합니다.
 RealGrid를 설치하는 작업은 어떤 개발환경이나 실행환경에서도 간단히 처리할 수 있습니다. 정식으로 제품을 구매한 경우와 평가판으로 제품을 받은 경우 모두 동일한 방법으로 설치를진행 할 수 있습니다.
 공급받은 제품에 포함된 assets폴더와 scripts폴더를 웹 사이트의 폴더 위치로 복사합니다.
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-setup_the_realgrid.gif/)  
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-setup_the_realgrid.gif)  
 RealGrid가 위치할 부분에 아래와 같이 코딩 합니다.  
 
 >작업을 쉽고 편하게 이용하기 위해 jQuery를 사용하였습니다.  
@@ -101,7 +101,7 @@ RealGrid의 core 라이브러리 파일인 realgridjs.js파일을 웹 페이지�
 
 여기까지 진행 한 다음 페이지를 실행하면 브라우저에는 아래와 같이 설치된 RealGrid가 표시 됩니다.
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-initialization.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-initialization.gif)
     
 
     
@@ -218,7 +218,7 @@ GridView의 setColumns()로 Column을 정의합니다.
 
 이제 웹 페이지를 실행해 보면 그리드에 컬럼이 추가된 모습을 확인 할 수 있습니다.
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-add_fields_and_columns.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-add_fields_and_columns.gif)
     
 
     
@@ -353,26 +353,26 @@ dispatcher-servlet.xml파일을 생성해서 스프링 설정을 합니다.
  &lt;/beans&gt;
 </pre>
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-connection_a_database.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-connection_a_database.gif)
           
   
 
 Ms SQLServer와 연결하기위한 sqljdbc4.jar파일을 lib 폴더에 넣어줍니다.  
 현재 까지 만든 파일과 위치를 보면 이렇게 구성되어 있습니다.
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-connection_a_database2.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-connection_a_database2.gif)
           
   
 
 윈도우 브라우저에 http://localhost:6918/sample/test/test.do 를 (현재 저의 톰캣서버 HTTP/1.1 포트번호는 6918입니다. ) 입력 하면은 콘솔창에 접속정보와
 
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-connection_a_database3.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-connection_a_database3.gif)
           
   
 
 윈도우 브라우저에서 연결됨의 메세지를 확인 할 수 있습니다.
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-connection_a_database4.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-connection_a_database4.gif)
           
   
 
@@ -732,7 +732,7 @@ function setupGridJs(id, width, height) {
 
 이제 웹 사이트를 실행 하면 그리드에 데이터베이스에서 가져온 데이터가 로드되는 모습을 확인 할 수 있습니다.
 
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-load_data.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-load_data.gif)
     
 
     
@@ -866,7 +866,7 @@ RealGrid는 dataProvider를 통하여 데이터 입출력을 행합니다.
 
 행 추가후 인서트할 자료를 입력 한 후 Row를 변경(commit())하여 stateBar 영역이 어떻게 바뀌었는지 확인해보세요
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-insert_data.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-insert_data.gif)
         
 >RealGrid 의 RowStates  
 >RealGrid 의 RowState는 5가지의 상태가 있으며  NONE, CREATED, UPDATED, DELETED, CREATE_AND_DELETED로 구분됩니다.
@@ -914,7 +914,7 @@ if(currState == "created") {
 
 기존에 입력되어 있는 데이터를 수정하여 편집완료(행 바꿈 or commit()) 시킨 후 statusBar 영역이 어떻게 바뀌었는지 확인해보세요.
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-update_data.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-update_data.gif)
     
 
     
@@ -994,7 +994,7 @@ function btnSaveDataClickHandler(e) {
 
 자료를 조회 후 CTRL+DEL 키를 입력하여 삭제 상태로 바꾼 후 statusBar 영역이 어떻게 바뀌었는지 확인해보세요.
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-delete_data.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-delete_data.gif)
 
 deleteRowsConfirm, softDeleting property를  true, false로 바꿔보면서 테스트해보세요.   
 저장버튼을 클릭하여 삭제가 제대로 수행되는지 확인해보세요.  
@@ -1265,11 +1265,11 @@ public class ProductsServiceImpl implements ProductsService {
 
 데이타를 변경한 후 테스트를 하면
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-save_data.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-save_data.gif)
           
   
 
 성공적으로 잘 변경됩니다.
         
-![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-save_data2.gif/)
+![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-save_data2.gif)
     

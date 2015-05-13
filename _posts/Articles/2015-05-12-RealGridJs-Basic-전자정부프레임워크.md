@@ -41,7 +41,7 @@ Next를 클릭후 Generate Example창에서 Generate Example을 채크한 다음
 
 RealGrid를 장착할 새로운 웹 페이지를 생성 합니다. 새로운 웹 페이지의 이름은 columnGrouping.jsp로 합니다. RealGrid가 위치할 부분에 아래와 같이 코딩 합니다.
 
-![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-create_a_web_page.gif/)
+![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-create_a_web_page.gif)
 
 RealGrid의 core 라이브러리 파일인 realgridjs.js파일을 웹 페이지에 포함 해야 합니다. RealGrid의 Style을 미리 설정해놓은 styles.js파일을 등록합니다. RealGrid의 화면을 구성할 스크립트 파일 ColumnGrouping.js파일을 등록합니다.
 
@@ -72,6 +72,7 @@ DataProvider의 setFields()로 Field를 정의합니다.
 GridView의 setColumns()로 Column을 정의합니다.  
 
 **ColumnGrouping.js**
+
 <pre class="prettyprint">
 function setFields(provider) {
     var fields = [{
@@ -357,7 +358,7 @@ window.onload = function () {
 
 이제 웹 페이지를 실행해 보면 그리드에 컬럼이 추가된 모습을 확인 할 수 있습니다.
 
-![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-add_fields_and_columns.gif/)
+![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-add_fields_and_columns.gif)
 
 
 
@@ -366,7 +367,7 @@ window.onload = function () {
 
 Ms SQLServer와 연결하기위한 sqljdbc4.jar파일을 lib 폴더에 넣어줍니다.  
 
-![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-connecting_a_database.gif/)
+![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-connecting_a_database.gif)
 
 먼저 DB정보를 받고 넘겨줄 CustomerOrders빈을 egovframework.example.sample.service 패키지에 생성합니다.  
 
@@ -533,7 +534,7 @@ function loadData(provider) {
 
 이제 웹 사이트를 실행 하면 그리드에 데이터베이스에서 가져온 데이터가 로드되는 모습을 확인 할 수 있습니다.
 
-![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-load_data.gif/)
+![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-load_data.gif)
 
 ### Insert Data
 
@@ -565,7 +566,7 @@ function btnInsertClick(){
 웹 페이지를 실행하여, 인서트버튼을 클릭하여 정상적으로 Insert가 되는지 확인 합니다.  
 행 추가후 stateBar 영역이 어떻게 바뀌었는지 확인해보세요.  
 
-![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-insert_data.gif/)
+![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-insert_data.gif)
 
 >※ RealGridJS 의 RowStates  
 >RealGridJS 의 RowState는 5가지의 상태가 있으며  NONE, CREATED, UPDATED, DELETED, CREATE_AND_DELETED로 구분됩니다.  
@@ -580,7 +581,7 @@ RealGridJS는 데이터가 수정되면 RowState를 UPDATED로 변경합니다.
 
 기존에 입력되어 있는 데이터를 수정하여 편집완료(행 바꿈 or commit()) 시킨 후 statusBar 영역이 어떻게 바뀌었는지 확인해보세요. 
 
-![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-update_data.gif/)
+![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-update_data.gif)
 
 ### Delete Data
 
@@ -613,7 +614,7 @@ function btnDelClick(){
 
 자료를 조회 후 Delete 버튼을를 클릭하여 삭제 상태로 바꾼 후 statusBar 영역이 어떻게 바뀌었는지 확인해보세요.
  
-![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-delete_data.gif/)
+![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-delete_data.gif)
 
 ### Save Data
 
@@ -833,7 +834,7 @@ WHERE Id=#id#
 그리고 Insert버튼으로 새로운 행을 추가 하고 추가한 아래행의 데이터를 수정합니다.  
 
 Delete역시 제대로 삭제 되었는지 확인하기 위해 삭제할 행의 Data를 “delete”로 변경하였습니다.  
-![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-ibatis.gif/)
+![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-ibatis.gif)
 
 이제 Save버튼을 누른후 다시 Order ID로 정렬하면 데이터가 잘 변경 되었음을 확인할 수 있습니다.
-![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-ibatis2.gif/)
+![](/images/articles/RealGridJS_egovFrame_MyBatis_MSSQLServer-ibatis2.gif)
