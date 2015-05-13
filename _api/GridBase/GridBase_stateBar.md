@@ -8,5 +8,5 @@ deprecated: true
 permalink: /api/GridBase/stateBar/
 ---
 
-
-@Deprecated [getStateBar](/api/GridBase/getStateBar), [setStateBar](/api/GridBase/setStateBar)를 대신 사용할 것.
+> deprecated 대상입니다.   
+> 대신 [getStateBar](/api/GridBase/getStateBar), [setStateBar](/api/GridBase/setStateBar)를 사용

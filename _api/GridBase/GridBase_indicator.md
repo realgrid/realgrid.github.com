@@ -8,5 +8,5 @@ deprecated: true
 permalink: /api/GridBase/indicator/
 ---
 
-
-@Deprecated [getIndicator](/api/GridBase/getIndicator/), [setIndicator](/api/GridBase/setIndicator/)를 대신 사용할 것.
+> deprecated 대상입니다.   
+> 대신 [getIndicator](/api/GridBase/getIndicator/), [setIndicator](/api/GridBase/setIndicator/)를 사용
