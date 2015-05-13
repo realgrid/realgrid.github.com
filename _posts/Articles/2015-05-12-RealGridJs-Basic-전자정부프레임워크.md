@@ -372,7 +372,8 @@ Ms SQLServer와 연결하기위한 sqljdbc4.jar파일을 lib 폴더에 넣어줍
 
 먼저 DB정보를 받고 넘겨줄 CustomerOrders빈을 egovframework.example.sample.service 패키지에 생성합니다.  
 
-**CostomerOrders.java**
+**CostomerOrders.java**  
+
 <pre class="prettyprint">
 package egovframework.example.sample.service;
 
@@ -420,7 +421,8 @@ public List&lt;?&gt; selectCustomerOrdersList() throws Exception{
 
 src/main/resources/egovframework/sqlmap/example/sample/ 폴더에 있는 EgovSample_Sample_SQL.xml 파일에 쿼리를 등록합니다.
 
-**select**
+**select**  
+
 <pre class="prettyprint">
 &lt;select id="sampleDAO.selectCustomerOrdersList" resultClass="egovMap"&gt;
     SELECT
@@ -441,6 +443,7 @@ src/main/resources/egovframework/sqlmap/example/sample/ 폴더에 있는 EgovSam
 </pre>
 
 pom.xml에 Json형태의 데이터를 주고받기 위해 jackson-lib를 선언해야 합니다.
+
 <pre class="prettyprint">
 &lt;dependency&gt;
     &lt;groupId&gt;net.sf.json-lib&lt;/groupId&gt;
@@ -452,6 +455,7 @@ pom.xml에 Json형태의 데이터를 주고받기 위해 jackson-lib를 선언�
 
 src/main/resources/egovframework/spring/폴더
 context-datasource.xml 파일에 Mssql DB 접속정보를 등록합니다.
+
 <pre class="prettyprint">
 &lt;bean id="dataSource" class="org.apache.tomcat.dbcp.dbcp.BasicDataSource"&gt;
     &lt;property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/&gt;
@@ -469,11 +473,13 @@ egovframework.example.sample.service.impl 패키지에 class EgovSampleServiceIm
 을 수정합니다.  
 
 **EgovSampleService**
+
 <pre class="prettyprint">
 List&lt;?&gt; selectCustomerOrdersList() throws Exception;
 </pre>
 
 **EgovSampleServiceImpl**
+
 <pre class="prettyprint">
 public List&lt;?&gt; selectCustomerOrdersList() throws Exception{
     return sampleDAO.selectCustomerOrdersList();
@@ -542,6 +548,7 @@ function loadData(provider) {
  그리드에 새로운 행을 만들기 위해 다음과 같은 버튼을 생성합니다.
 
  **columnGrouping.jsp**
+ 
 <pre class="prettyprint">
 &lt;body&gt;
 	&lt;div id="realgrid" style="height: 500px; width: 900px;"&gt;&lt;/div&gt;
@@ -558,6 +565,7 @@ DataProvider.insertRow(row, values)함수를 사용해 새로운 행을 생성�
 빈 Array([])로 설정하면 아무런 값도 입력되지 않은 행이 생성 됩니다.
  
  **ColumnGrouping.js**
+ 
 <pre class="prettyprint">
 function btnInsertClick(){
     dataProvider.insertRow(0,[ ,10000,"test1",111,"2014-11-11","test2","test3","test4","test5",test6",222,333]);
@@ -587,7 +595,9 @@ RealGridJS는 데이터가 수정되면 RowState를 UPDATED로 변경합니다.
 ### Delete Data
 
 그리드의 행을 삭제 하기위해 다음과 같은 버튼을 생성합니다.  
+
 **columnGrouping.jsp**
+
 <pre class="prettyprint">
 &lt;body&gt;  
 	&lt;div id="realgrid" style="height: 500px; width: 900px;"&gt;&lt;/div&gt;  
@@ -602,6 +612,7 @@ RealGridJS는 데이터가 수정되면 RowState를 UPDATED로 변경합니다.
 btnDellClick()함수를 다음과 같이 설정합니다.
         
  **ColumnGrouping.js**
+ 
 <pre class="prettyprint">
 function btnDelClick(){
     if(confirm("선택한 행을 삭제하시겠습니까?") == true){
@@ -623,6 +634,7 @@ function btnDelClick(){
 columnGrouping.jsp에 form 태그를 추가하고 다음과 같이 textbox와 button을 추가합니다.  
 
 **columnGrouping.jsp**
+
 <pre class="prettyprint">
 &lt;div id="realgrid" style="height: 500px; width: 900px;"&gt;&lt;/div&gt;
 &lt;div&gt;
@@ -639,7 +651,9 @@ columnGrouping.jsp에 form 태그를 추가하고 다음과 같이 textbox와 bu
 Jquery Ajax를 이용하면 더욱 쉽고 편리한 구현이 가능합니다.  
 
 btnSaveClick함수는 다음과 같이 설정합니다.  
+
 **columnGrouping.js**
+
 <pre class="prettyprint">
 function btnSaveClick(){
     gridView.commit();
@@ -697,6 +711,7 @@ State를 이용하여 삭제 하였을 때 DB에서는 삭제가 됐지만 그�
 먼저 만든 Controller,Service,Repository에 Save를 실행할 소스를 추가합니다.  
 
 **@Controller**
+
 <pre class="prettyprint">
 ＠RequestMapping(value="/cgSaveData.do")
 public String allCgSave(＠RequestParam("txtJson") String coStringList, Model model) throws Exception{
@@ -716,13 +731,16 @@ public String allCgSave(＠RequestParam("txtJson") String coStringList, Model mo
 </pre>
 
 **@Service**  
+
 **EgovSampleService**
+
 <pre class="prettyprint">
 List&lt;?&gt; selectCustomerOrdersList() throws Exception;
 int addAllCustomerOrders(List&lt;CustomerOrders&gt; coList) throws Exception;
 </pre>
 
 **EgovSampleServiceImpl**
+
 <pre class="prettyprint">
 public List&lt;?&gt; selectCustomerOrdersList() throws Exception{
     return sampleDAO.selectCustomerOrdersList();
@@ -750,6 +768,7 @@ public int addAllCustomerOrdersList(List&lt;CustomerOrders&gt; coList) throws Ex
 
 
 **@Repository**
+
 <pre class="prettyprint">
 public List<?> selectCustomerOrdersList() throws Exception{
     return list("sampleDAO.selectCustomerOrdersList");
@@ -769,7 +788,9 @@ public int delCustomerOrders(int id) throws Exception{
 </pre>
 
 **iBatis**  
+
 **Insert**
+
 <pre class="prettyprint">
 &lt;insert id="sampleDAO.insertCustomerOrders" parameterClass="egovframewrok.example.sample.service.CustomerOrders"&gt;
     &lt;![CDATA[
@@ -803,6 +824,7 @@ public int delCustomerOrders(int id) throws Exception{
 </pre>
 
 **Update**
+
 <pre class="prettyprint">
 &lt;update id="sampleDAO.updateCustomerOrders" parameterClass="egovframework.example.sample.service.CustomerOrders"&gt;
     &lt;![CDATA[
@@ -824,6 +846,7 @@ public int delCustomerOrders(int id) throws Exception{
 </pre>}
 
 **Delete**
+
 <pre class="prettyprint">
 &lt;delete id="sampleDAO.delCustomerOrders" parameterClass="int"&gt;
 DELETE demo.CustomerOrders

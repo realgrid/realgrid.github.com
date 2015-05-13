@@ -25,6 +25,7 @@ course: 기초과정
 
     
 ### A New WEB Site
+
 eGovFrame 2.6를 실행 합니다.
 File(파일)메뉴에서 New eGovFrame Web Project 메뉴를 실행 합니다.
 Project name, Group Id, Target Runtime을 설정해주고 새프로젝트를 생성 합니다.
@@ -65,6 +66,7 @@ RealGrid의 core 라이브러리 파일인 realgridjs.js파일을 웹 페이지�
         
 
 **default.jsp**  
+
 <pre class="prettyprint">
 &lt;script type="text/javascript" src="/sample/scripts/dlgrids_eval.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/sample/scripts/jszip.min.js"&gt;&lt;/script&gt;
@@ -745,7 +747,9 @@ function setupGridJs(id, width, height) {
   
 
 editOptions에 대한 보다 자세한 설명은 다음 링크를 참조하세요.
+
 [http://doc.realgrid.net/ApiDoc/EditOptions](http://doc.realgrid.net/ApiDoc/EditOptions)
+
 <pre class="prettyprint">
 function setupGridJs(id, width, height) {
     $("#"+id).css({ width : width, height : height });
@@ -801,6 +805,7 @@ default.jsp로 돌아와서 아래와 같이 삽입/추가/저장 버튼 3개를
   
 
 각 버튼이 수행할 메소드를 작성합니다.
+
 <pre class="prettyprint">
 $(function() {
     $("#btnInsert").click(btnInsertClickHandler);
@@ -891,6 +896,7 @@ public &#64;ResponseBody int updateProduct(&#64;ModelAttribute Product product){
 
 수정은 별도의 버튼이 필요하지 않고 저장시에만 이 데이터가 수정되었는지 확인하면 됩니다.
 RealGrid는 데이터가 수정되면 RowState를 UPDATED로 변경합니다. 이것을 토대로 default.jsp 을 수정해보도록 하겠습니다.
+
 <pre class="prettyprint">
 grdMain.commit();
 
@@ -950,6 +956,7 @@ public &#64;ResponseBody int delProduct(&#64;RequestParam String code){
   
 
 default.jsp 로 돌아와서 삭제 기능을 사용하기 위해 setOptions를 다음과 같이 수정합니다.
+
 <pre class="prettyprint">
 function setOption(grid) {
     grid.setOptions({
@@ -971,6 +978,7 @@ function setOption(grid) {
   
 
 btnSaveDataClickHandler()는 다음과 같이 수정합니다.
+
 <pre class="prettyprint">
 function btnSaveDataClickHandler(e) {
     grdMain.commit();
@@ -1002,7 +1010,8 @@ deleteRowsConfirm, softDeleting property를  true, false로 바꿔보면서 테�
 저장버튼을 눌러 삭제를 했음에도 불구하고 DB에서는 삭제가 됐지만 그리드에는 데이터가 남아 있음을 확인 하실 수 있습니다.    
 
 이 경우 RealGrids.clearRowStates()의 파라메터를 true로 주시면 해결하실 수 있습니다.  
-해당 파라메터의 기능은 RowState를 Clear할때 RowState가 DELETE인것은 Row를 삭제하는 기능입니다.  
+해당 파라메터의 기능은 RowState를 Clear할때 RowState가 DELETE인것은 Row를 삭제하는 기능입니다.
+  
 <pre class="prettyprint">
 function saveData(urlStr) {
     var jRowData = dataProvider.getJsonRow(grdMain.getCurrent().dataRow);
@@ -1028,6 +1037,7 @@ function saveData(urlStr) {
 지금부터는 RealGrid를 사용하여 INSERT, UPDATE, DELETE를 트랙젝션으로 묶어서 처리하는 방법으로 해보도록 하겠습니다.
 
 default.jsp에 btnSaveAllData 버튼을 추가하고 해당 메소드를 아래와 같이 작성합니다.
+
 <pre class="prettyprint">
 function btnSaveAllDataClickHandler(e) {
     grdMain.commit();
@@ -1079,7 +1089,8 @@ dataProvider.getAllStateRows() 함수를 이용하면 state가 none이 아닌 ro
 {updated: Array[0], deleted: Array[0], created: Array[0], createAndDeleted: Array[0]} 형식으로 가져올수 있습니다.
           
 
->*자세한 내용은 [http://demo.realgrid.net/Demo/RowState](http://demo.realgrid.net/Demo/RowState) 페이지를 참조해주세요.
+>*자세한 내용은 [http://demo.realgrid.net/Demo/RowState](http://demo.realgrid.net/Demo/RowState) 페이지를 참조해주세요.  
+
 <pre class="prettyprint">
 $.ajax({
         headers : {
@@ -1104,6 +1115,7 @@ $.ajax({
     });
 }
 </pre>
+
 <pre class="prettyprint">
 &lt;input type="button" id="btnInsert" value="Insert Row" /&gt;
 &lt;input type="button" id="btnAppend" value="Append Row" /&gt;
