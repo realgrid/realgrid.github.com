@@ -16,5 +16,5 @@ RealGrid가 표시되지 않는다. flash context menu가 나오는데 realgrid 
 
 # A.
 
-realgridutils.js에서 setupGrid및 setupTree에서 
-var swfUrl = "objects/RealGridWeb.swf"; 부분을 실 경로에 맞게 수정
+realgridutils.js에서 setupGrid및 setupTree함수에 정의된  
+var swfUrl = "objects/RealGridWeb.swf"; 부분을 실 경로에 맞게 수정해야 합니다.
