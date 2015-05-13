@@ -53,6 +53,7 @@ GridView와 DataProvider를 매핑하기 위한 변수를 선언하고 RealGrids
 setDataProvider()를 호출 하여 GridView에 DataProvider를 연결합니다.  
 
 **ColumnGrouping.js**  
+
 <pre class="prettyprint">
 var gridView;
 var dataProvider;
