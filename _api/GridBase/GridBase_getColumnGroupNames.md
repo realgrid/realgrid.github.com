@@ -14,7 +14,7 @@ permalink: /api/GridBase/getColumnGroupNames/
 
 #### Syntax
 
-> function getGroupNames()
+> function getColumnGroupNames()
 
 #### Parameters
 
