@@ -1,0 +1,41 @@
+---
+layout: page
+title: FAQ
+permalink: /faqs/
+---
+<h3>RealGridJS</h3>
+<ul class="post-api-list">
+	{% for post in site.posts %}{% if post.part == 'RealGridJS' %}
+    <li>
+		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    	<a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+	{% endif %}{% endfor %}
+</ul>
+<h3>RealGridPlus</h3>
+<ul class="post-api-list">
+	{% for post in site.posts %}{% if post.part == 'RealGridPlus' %}
+    <li>
+		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+	{% endif %}{% endfor %}
+</ul>
+<h3>RealGrid</h3>
+<ul class="post-api-list">
+	{% for post in site.posts %}{% if post.part == 'RealGrid' %}
+	    <li>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	    	<a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	    </li>
+	{% endif %}{% endfor %}
+</ul>
+
+<!-- <ul class="post-list"> -->
+<!--     {% for post in site.posts %}{% if post.categories contains "article" %} -->
+<!--       <li> -->
+<!--         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+<!--           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
+<!--       </li> -->
+<!--     {% endif %}{% endfor %} -->
+<!-- </ul> -->
