@@ -52,7 +52,7 @@ RealGrid의 core 라이브러리 파일인 realgridjs.js파일을 웹 페이지�
 GridView와 DataProvider를 매핑하기 위한 변수를 선언하고 RealGrids 객체로 부터 두 객체를 각각 전달 받아 넣어 둡니다.  
 setDataProvider()를 호출 하여 GridView에 DataProvider를 연결합니다.  
 
-**ColumnGrouping.js**
+**ColumnGrouping.js**  
 <pre class="prettyprint">
 var gridView;
 var dataProvider;
