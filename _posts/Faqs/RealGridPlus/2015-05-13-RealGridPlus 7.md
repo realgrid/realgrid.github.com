@@ -1,6 +1,6 @@
 ---
 layout: post
-title: &#91;RealGridPlus&#93; 그리드에서 마우스 휠(wheel)이 동작 하지 않습니다.
+title:  그리드에서 마우스 휠(wheel)이 동작 하지 않습니다.
 date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridPlus

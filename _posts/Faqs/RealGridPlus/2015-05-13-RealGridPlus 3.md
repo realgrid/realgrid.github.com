@@ -1,6 +1,6 @@
 ---
 layout: post
-title: &#91;RealGridPlus&#93; Invalid vender key  &lt;vender1&gt;, &lt;vender2&gt; 메세지 출력
+title:  Invalid vender key  &lt;vender1&gt;, &lt;vender2&gt; 메세지 출력
 date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridPlus
