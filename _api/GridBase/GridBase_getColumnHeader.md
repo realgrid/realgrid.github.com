@@ -5,12 +5,15 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getColumnHeader/
+deprecated: true
 ---
 
 
 #### Description
 
 > 컬럼 정보 객체나 컬럼 이름으로 해당 컬럼의 헤더 정보를 가져온다.  
+> deprecated 대상.  
+> [getColumnProperty](/api/GridBase/getColumnProperty)(column,"header")
 
 #### Syntax
 

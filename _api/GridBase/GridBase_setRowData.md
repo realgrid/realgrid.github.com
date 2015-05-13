@@ -5,13 +5,14 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setRowData/
+deprecated: true
 ---
 
 
 #### Description
 
-> [Grid Item](/api/features/Grid Item/)에 연결된 데이터 행의 값들을 변경한다. values에는 Json 객체로 필드들의 값을 전달해야 한다.
-> values에 포함되지 않은 필드의 값은 변경되지 않는다.
+> deprecated 대상입니다.    
+> [GridBase.setValues](/api/GridBase/setValues/)를 사용하세요  
 
 #### Syntax
 

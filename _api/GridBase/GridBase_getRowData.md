@@ -5,14 +5,14 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getRowData/
+deprecated: true
 ---
 
 
 #### Description
 
-> [Grid Item](/api/features/Grid Item/)이 참조하는 데이터 행의 ,필드 값들을 Json 객체로 반환한다.  
-> 필드 값들 외에 "__rowId" 속성에 데이터 행의 인덱스를 같이 반환한다.  
-> 더 이상 사용되지 않습니다. [getValues](/api/GridBase/getValues/)를 대신 사용하세요.  
+> deprecated 대상.  
+> 대신 [getValues](/api/GridBase/getValues)를 사용하세요.  
 
 #### Syntax
 

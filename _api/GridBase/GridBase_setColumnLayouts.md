@@ -5,12 +5,15 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setColumnLayouts/
+deprecated: true
 ---
 
 
 #### Description
 
-> 컬럼 레이아웃들을 미리 설정한다. [registerColumnLayouts](/api/GridBase/registerColumnLayouts/)을 사용하도록 한다.
+> 컬럼 레이아웃들을 미리 설정한다.  
+> deprecated 대상  
+> [registerColumnLayouts](/api/GridBase/registerColumnLayouts/)을 대신 사용한다.
 
 #### Syntax
 

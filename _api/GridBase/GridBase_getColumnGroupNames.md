@@ -5,14 +5,12 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getGroupNames/
-deprecated: true
 ---
 
 
 #### Description
 
-> deprecated 대상  
-> 대신 [getColumnGroupNames](/api/GridBase/getColumnGroupNames/)을 사용하세요.
+> 컬럼그룹들의 이름을 가져온다.
 
 #### Syntax
 
