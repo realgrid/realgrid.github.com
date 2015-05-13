@@ -1,6 +1,6 @@
 ---
 layout: apipost
-title: getGroupNames
+title: getColumnGroupNames
 part: Objects
 objectname: GridBase
 directiontype: Function
