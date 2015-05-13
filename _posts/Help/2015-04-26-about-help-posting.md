@@ -77,6 +77,8 @@ help.realgrid.com의 깃허브 리파지터리는 아래와 같습니다.
 * [Sublime Text 설치](http://www.sublimetext.com/)
 * [Visual Studio Code 설치](https://code.visualstudio.com/)
 
+참고: 윈도 Github 데스크탑에서 레파지토리를 다운로드 받지 못 하는 경우 윈도시스템 C:\Windows\SysWOW64 폴더에 있는 "libcurl.dll" 파일을 삭제하면 해결됨
+
 ##### Sublime Markdown Package 설치
 * Package Control 설치 (https://packagecontrol.io/installation)후 sublime restart
 * Cmd+Shift+P 단축키를 눌러 "Package Control:Install Package" 선택.
