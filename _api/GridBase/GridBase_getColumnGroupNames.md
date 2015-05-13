@@ -28,7 +28,7 @@ permalink: /api/GridBase/getColumnGroupNames/
 #### Example
 
 <pre class="prettyprint">
-var groups = grid.getGroupNames();
+var groups = grid.getColumnGroupNames();
 </pre>
 
 
