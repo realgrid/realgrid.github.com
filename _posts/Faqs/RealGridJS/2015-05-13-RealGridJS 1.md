@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  샘플파일을 받아서 페이지를 열어보면 다음과 같은에러가 콜솔창에서 확인됩니다. 왜그런 건가요?
+title: &#91;RealGridJS&#93; 샘플파일을 받아서 페이지를 열어보면 다음과 같은에러가 콜솔창에서 확인됩니다. 왜그런 건가요?
 date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridJS

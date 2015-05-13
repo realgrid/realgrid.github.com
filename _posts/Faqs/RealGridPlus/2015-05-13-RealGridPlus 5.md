@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Unregistered host for RealGridPlus &lt;server&gt; 메세지 출력
+title: &#91;RealGridPlus&#93; Unregistered host for RealGridPlus &lt;server&gt; 메세지 출력
 date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridPlus

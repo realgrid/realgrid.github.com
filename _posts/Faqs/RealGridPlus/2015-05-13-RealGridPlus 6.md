@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Chrome div display설정시 onload되는 문제
+title: &#91;RealGridPlus&#93; Chrome div display설정시 onload되는 문제
 date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridPlus

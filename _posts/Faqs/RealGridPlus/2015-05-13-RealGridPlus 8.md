@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  IE8에서 만 컬럼 구성을 실패하는 에러가 발생합니다.
+title: &#91;RealGridPlus&#93; IE8에서 만 컬럼 구성을 실패하는 에러가 발생합니다.
 date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridPlus

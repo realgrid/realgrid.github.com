@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  RealGrid가 표시되지 않는다. Grid 영역에서 우클릭시 html과 동일한 반응
+title: &#91;RealGridPlus&#93; RealGrid가 표시되지 않는다. Grid 영역에서 우클릭시 html과 동일한 반응
 date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridPlus
