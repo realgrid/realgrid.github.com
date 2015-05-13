@@ -11,9 +11,10 @@ deprecated: true
 
 #### Description
 
-> deprecated 대상입니다.   
-> [DataProvider getJsonRow](/api/DataProvider/getJsonRow/)를 사용하세요  
 > 지정한 데이터행의 값들을 JSON 객체로 가져온다.
+> deprecated 대상입니다.   
+> [getJsonRow](/api/DataProvider/getJsonRow/)를 사용하세요  
+
 
 #### Syntax
 
