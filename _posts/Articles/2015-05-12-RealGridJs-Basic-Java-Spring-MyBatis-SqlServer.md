@@ -320,6 +320,7 @@ WEB-INF 에 있는 web.xml에 dispather-servlet에 전해줄 url 값과 UTF-8 en
 
 dispatcher-servlet.xml파일을 생성해서 스프링 설정을 합니다.
 우선은 test component만 등록하기 때문에 component-scan에 com.test 패키지 만 설정해줍니다.
+
 <pre class="prettyprint">
 &lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;beans xmlns="http://www.springframework.org/schema/beans"
@@ -716,6 +717,7 @@ function loadData(provider) {
   
 
 다시 한번 setupGridJs에 loadData()함수를 호출하여 데이터를 RealGrid에 로드해 보도록 하겠습니다.
+
 <pre class="prettyprint">
 function setupGridJs(id, width, height) {
     $("#"+id).css({ width : width, height : height });
@@ -796,6 +798,7 @@ public &#64;ResponseBody int insertProduct(&#64;ModelAttribute Product product){
   
 
 default.jsp로 돌아와서 아래와 같이 삽입/추가/저장 버튼 3개를 추가하도록 합니다.
+
 <pre class="prettyprint">
 &lt;input type="button" id="btnInsert" value="Insert Row" /&gt;
 &lt;input type="button" id="btnAppend" value="Append Row" /&gt;
