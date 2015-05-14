@@ -8,5 +8,5 @@ deprecated: true
 permalink: /api/GridBase/Grid fixedOptions/
 ---
 
-
-@Deprecated [getFixedOptions](/api/GridBase/getFixedOptions/), [setFixedOptions](/api/GridBase/setFixedOptions/)를 대신 사용할 것.
+> deprecated 대상입니다.   
+> 대신 [getFixedOptions](/api/GridBase/getFixedOptions/), [setFixedOptions](/api/GridBase/setFixedOptions/)를 사용
