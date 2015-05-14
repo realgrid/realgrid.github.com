@@ -24,7 +24,7 @@ permalink: /api/GridBase/onCurrentChanged/
 
 > **newIndex**  
 > Type: [CellIndex](/api/types/CellIndex/)과 같은 구조의 object.  
-> 변경 되는 인텍스  
+> 변경 되는 인덱스  
 
 #### Return
 

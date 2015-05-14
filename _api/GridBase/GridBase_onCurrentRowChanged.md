@@ -37,8 +37,8 @@ permalink: /api/GridBase/onCurrentRowChanged/
 #### Example
 
 <pre class="prettyprint">
-    grid.onCurrentChanged =  function (grid, newIndex) {
-      console.log(newIndex);
+    grid.onCurrentRowChanged =  function (grid, oldRow, newRow) {
+      alert(onCurrentRowChanged: " + "(" + oldRow + " => " + newRow + ")");
     };
 </pre>
 
