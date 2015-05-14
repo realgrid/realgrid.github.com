@@ -75,6 +75,14 @@
         .trigger {
             clear: both;
             display: none;
+            height: auto;
+			position: absolute;
+			top: 30px;
+			right: 12px;
+			z-index: 1;
+			background: #ffffff;
+			border: 1px solid #000000;
+			border-radius: 4px;
         }
 
         &:hover .trigger {
