@@ -420,7 +420,9 @@ public List&lt;?&gt; selectCustomerOrdersList() throws Exception{
 }
 </pre>
 
-src/main/resources/egovframework/sqlmap/example/sample/ 폴더에 있는 EgovSample_Sample_SQL.xml 파일에 쿼리를 등록합니다.
+src-main-resources-egovframework-sqlmap-example-sample   
+src/main/resources/egovframework/sqlmap/example/sample   
+폴더에 있는 EgovSample_Sample_SQL.xml 파일에 쿼리를 등록합니다.
 
 **select**  
 
