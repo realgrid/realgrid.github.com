@@ -13,7 +13,7 @@ permalink: /api/features/Cell Renderer/
 
 * [ActualTargetBulletRenderer](/api/types/ActualTargetBulletRenderer)  
 * [ActualTargetTextRenderer](/api/types/ActualTargetTextRenderer)  
-* BarCellRenderer
+* [BarCellRenderer](/api/types/BarCellRenderer)  
 * [Code128CellRenderer](/api/types/Code128CellRenderer)  
 * [Code39CellRenderer](/api/types/Code39CellRenderer)  
 * [CheckCellRenderer](/api/types/CheckCellRenderer)   
