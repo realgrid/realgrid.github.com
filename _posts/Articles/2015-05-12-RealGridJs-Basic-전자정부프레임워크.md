@@ -413,6 +413,7 @@ public class CustomerOrders {
 
 
 퍼시스턴스 계층에 사용할 egovframework.example.sample.service.impl 패키지에 있는 SampleDAO를 수정합니다.
+
 <pre class="prettyprint">
 public List&lt;?&gt; selectCustomerOrdersList() throws Exception{
     return list("sampleDAO.selectCustomerOrdersList");
