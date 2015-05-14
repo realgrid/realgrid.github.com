@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Released RealGrid Flash 1.1.18
+title: Released RealGrid+ 1.1.18
 date: 2014-10-08 00:00:00 +9:00 GMT
 category: "Release Notes"
 product: flash

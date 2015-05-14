@@ -15,13 +15,13 @@ permalink: /api/GridBase/commitEditor/
 
 #### Syntax
 
-> function commitEditor()  
+> function commitEditor(hideEditor)  
 
 #### Parameters
 
 > **hideEditor**  
 > Type: Boolean  
-> Default: true
+> Default: true  
 > Editor의 종료 여부를 지정한다.
 
 #### Return value
