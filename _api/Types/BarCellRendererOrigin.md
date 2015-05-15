@@ -18,7 +18,7 @@ permalink: /api/types/BarCellRendererOrigin/
 
 > **DEFAULT**       
 > Type: "default"       
-> 기본값, 미지정시 BarCellRendererOrigin.LEFT 와 같습니다.      
+> 기본값, 미지정시 BarCellRendererOrigin.LEFT 와 같다.      
 
 > **LEFT**      
 > Type: "left"       
