@@ -25,10 +25,10 @@ permalink: /api/types/BarCellRenderer/
 > Default: 100  
 > 최대값을 지정한다.  
 
-> **minimumWidth**  
-> Type: Number 
-> Default: 100  
-> 막대 상자의 최소 크기를 지정한다. 
+> **minimumWidth**   
+> Type: Number   
+> Default: 100   
+> 막대 상자의 최소 크기를 지정한다.  
 
 > **showLabel**  
 > Type: Boolean  
@@ -37,5 +37,5 @@ permalink: /api/types/BarCellRenderer/
 
 > **origin**  
 > Type: String  
-> Default: BarCellRendererOrigin.DEFAULT		  
+> Default: [BarCellRendererOrigin](/api/types/BarCellRendererOrigin)\.DEFAULT		  
 > 막대 상자의 시작 위치를 지정한다. 
