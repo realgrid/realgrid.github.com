@@ -5,3 +5,6 @@
 * GitHub Pages
 * Jekyll
 * Markdown
+* Bootstrap
+* JQuery
+* RealGrid
