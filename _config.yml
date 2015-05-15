@@ -24,6 +24,7 @@ type_names:
   - Cell Editors
 
 object_names:
+  - RealGridJS
   - GridBase
   - GridView
   - TreeView
