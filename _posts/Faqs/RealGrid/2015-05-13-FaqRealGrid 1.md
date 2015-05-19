@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faqpost
 title:  dropDown리스트가 동적으로 앞의 값에 따라서 변경되는 방법이 있나요?
 date:   2015-05-13 00:00:00
 categories: faq

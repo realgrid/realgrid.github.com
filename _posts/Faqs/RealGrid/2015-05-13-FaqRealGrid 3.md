@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faqpost
 title:  특정셀만 Editable하는 방법
 date:   2015-05-13 00:00:00
 categories: faq

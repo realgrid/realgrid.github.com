@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faqpost
 title:  RealGrid가 표시되지 않는다. 팝업메뉴에 "동영상이 로드되지 않았습니다" 메세지 출력
 date:   2015-05-13 00:00:00
 categories: faq

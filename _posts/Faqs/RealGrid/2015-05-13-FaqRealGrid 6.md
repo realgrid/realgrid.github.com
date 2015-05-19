@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faqpost
 title:  excel or csv 파일 불러오기가 안됩니다.
 date:   2015-05-13 00:00:00
 categories: faq

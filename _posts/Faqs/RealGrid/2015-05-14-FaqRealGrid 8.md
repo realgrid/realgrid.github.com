@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faqpost
 title:  컬럼 헤더에 스타일을 적용하고 싶습니다.
 date:   2015-05-14 00:00:00
 categories: faq

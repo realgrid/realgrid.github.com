@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faqpost
 title:  button의 이미지나 문자를 변경할 수 있나요?
 date:   2015-05-14 00:00:00
 categories: faq

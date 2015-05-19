@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faqpost
 title:  Invalid vender key  &lt;vender1&gt;, &lt;vender2&gt; 메세지 출력
 date:   2015-05-13 00:00:00
 categories: faq

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faqpost
 title:  그리드뷰와 트리뷰를 같이 사용이 가능한가요?
 date:   2015-05-13 00:00:00
 categories: faq

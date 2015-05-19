@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  특정 칼럼만 Editable하는 방법
+layout: faqpost
+title:  특정 컬럼만 Editable하는 방법
 date:   2015-05-13 00:00:00
 categories: faq
 part: RealGrid
@@ -9,7 +9,7 @@ directiontype:
 
 # Q.
 
-특정 칼럼만 Editable하는 방법
+특정 컬럼만 Editable하는 방법
 
 ---
 ***

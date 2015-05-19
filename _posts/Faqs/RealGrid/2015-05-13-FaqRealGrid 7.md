@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: faqpost
 title:  컬럼 별로 스타일을 적용하고 싶습니다.
 date:   2015-05-13 00:00:00
 categories: faq
