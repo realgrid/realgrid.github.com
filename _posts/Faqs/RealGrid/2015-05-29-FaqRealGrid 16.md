@@ -40,8 +40,8 @@ function setColumns(grid) {
     //영업부서 column의 속성 values,labels에 값을 설정 후 setColumns로 컬럼 구성.
     $.post("/realgrid/product/dptCode.do",function(json){
         $.each(json,function(k,v){
-            values1.push(v.code);
-            labels1.push(v.name);
+            values.push(v.code);
+            labels.push(v.name);
         });
             grid.setColumns(columns);
     });
