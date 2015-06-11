@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RealGrid Basic with PHP & MySQL
+title: RealGrid+ Basic with PHP & MySQL
 date: 2015-05-11 23:14:09
 categories: article
 course: 기초과정

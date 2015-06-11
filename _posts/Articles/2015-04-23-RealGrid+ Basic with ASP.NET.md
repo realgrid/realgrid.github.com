@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  RealGrid Basic with ASP.NET & MS SQLServer
+title:  RealGrid+ Basic with ASP.NET & MS SQLServer
 date:   2015-04-23 15:47:54
 categories: article
 course: 기초과정
