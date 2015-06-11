@@ -33,14 +33,14 @@ $(function(){
 function setGrid(){
     $.get(“url”, function(data){
         var fields = [];
-        var keys = Object.keys(data["ds_data"].data[0]);
+        var keys = Object.keys(data[0]);
         for (var i in keys) {
             fields.push({fieldName:keys[i], name:keys[i]});
         };  
         dsMaster.setFields(fields);
         grid.setColumns(fields);
         // fields라는 동일한 배열을 이용해서 그리드와 dataProvider를 설정해도 상관없읍니다. 필요한 property외에는 무시합니다.
-        dsMaster.fillJsonData(data['ds_data'].data);
+        dsMaster.fillJsonData(data);
     }
 }
 </pre>
