@@ -23,9 +23,9 @@ div element가 계속 생성되게 됩니다.
 
 <pre class="prettyprint">
 $(function(){
-    dsMaster = new RealGridJS.LocalDataProvider();
+    provider = new RealGridJS.LocalDataProvider();
     grid = new RealGridJS.GridView("grid");
-    grid.setDataSource(dsMaster);
+    grid.setDataSource(provider);
 //    grid.setOptions, grid.setDisplayOptions 등을 처리.
     setGrid();
 }); 
@@ -37,10 +37,10 @@ function setGrid(){
         for (var i in keys) {
             fields.push({fieldName:keys[i], name:keys[i]});
         };  
-        dsMaster.setFields(fields);
+        provider.setFields(fields);
         grid.setColumns(fields);
         // fields라는 동일한 배열을 이용해서 그리드와 dataProvider를 설정해도 상관없읍니다. 필요한 property외에는 무시합니다.
-        dsMaster.fillJsonData(data);
+        provider.fillJsonData(data);
     }
 }
 </pre>
