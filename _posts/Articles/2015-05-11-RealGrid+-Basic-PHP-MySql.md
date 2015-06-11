@@ -86,9 +86,9 @@ var gridView;
 var dataProvider;
 
 RealGrids.onload = function (id) {
-gridView = new RealGrids.GridView(id);
-dataProvider = new RealGrids.LocalDataProvider();
-gridView.setDataProvider(dataProvider);
+	gridView = new RealGrids.GridView(id);
+	dataProvider = new RealGrids.LocalDataProvider();
+	gridView.setDataProvider(dataProvider);
 };
 &lt;/script&gt;
 </pre>
@@ -102,47 +102,66 @@ GridView의 setColumns()로 Column을 정의합니다.
 
 <pre class="prettyprint">
 function setDataFields() {
-var fields = [
-{ fieldName: "code"  },
-{ fieldName: "productname" },
-{ fieldName: "volume" },
-{ fieldName: "unit" },
-{ fieldName: "price" }
-];
-
-dataProvider.setFields(fields);
+	var fields = [
+		{ fieldName: "code"  },
+		{ fieldName: "productname" },
+		{ fieldName: "volume" },
+		{ fieldName: "unit" },
+		{ fieldName: "price" }
+	];
+	
+	dataProvider.setFields(fields);
 }
 
 function setColumns() {
-var columns = [{
-fieldName: "Code",
-width: 80,
-header: { text: "코드" },
-styles: { textAlignment: "near" }
-}, {
-fieldName: "Productname",
-width: 80,
-header: { text: "제품명" },
-styles: { textAlignment: "near" }
-
-}, {
-fieldName: "Volume",
-width: 80,
-header: { text: "용량" },
-styles: { textAlignment: "near" }
-}, {
-fieldName: "Unit",
-width: 80,
-header: { text: "단위" },
-styles: { textAlignment: "near" }
-}, {
-fieldName: "Price",
-width: 80,
-header: { text: "단가" },
-styles: { textAlignment: "far" }
-}];
-
-gridView.setColumns(columns);
+	var columns = [ {
+		fieldName : "Code",
+		width : 80,
+		header : {
+			text : "코드"
+		},
+		styles : {
+			textAlignment : "near"
+		}
+	}, {
+		fieldName : "Productname",
+		width : 80,
+		header : {
+			text : "제품명"
+		},
+		styles : {
+			textAlignment : "near"
+		}
+	}, {
+		fieldName : "Volume",
+		width : 80,
+		header : {
+			text : "용량"
+		},
+		styles : {
+			textAlignment : "near"
+		}
+	}, {
+		fieldName : "Unit",
+		width : 80,
+		header : {
+			text : "단위"
+		},
+		styles : {
+			textAlignment : "near"
+		}
+	}, {
+		fieldName : "Price",
+		width : 80,
+		header : {
+			text : "단가"
+		},
+		styles : {
+			textAlignment : "far"
+		}
+	} ];
+	
+	gridView.setColumns(columns);
 }
 </pre>
 
@@ -151,13 +170,13 @@ gridView.setColumns(columns);
 아래 화면에서 선택된 부분을 코딩 합니다. RealGrids의 onload이벤트는 RealGrid 컨트롤이 화면에 완전히 로드된 다음 호출 됩니다. 인자로 넘어오는 id는 `<object>`태그의 id 속성값 이며, 화면에 그리드가 여러개인 경우 처리를 위해 필요합니다.
 
 <pre class="prettyprint">
-RealGrids.onload = function (id) {
-gridView = new RealGrids.GridView(id);
-dataProvider = new RealGrids.LocalDataProvider();
-gridView.setDataProvider(dataProvider);
-
-setDataFields();
-setColumns();
+	RealGrids.onload = function (id) {
+	gridView = new RealGrids.GridView(id);
+	dataProvider = new RealGrids.LocalDataProvider();
+	gridView.setDataProvider(dataProvider);
+	
+	setDataFields();
+	setColumns();
 };
 </pre>
 
@@ -203,13 +222,13 @@ $result = mysql_query("SELECT * from products") or die('Could not query');
 
 while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 {
-$row_array['code'] = $row['code'];
-$row_array['productname'] = $row['productname'];
-$row_array['volume'] = $row['volume'];
-$row_array['unit'] = $row['unit'];
-$row_array['price'] = $row['price'];
-
-array_push($return_array, $row_array);  
+	$row_array['code'] = $row['code'];
+	$row_array['productname'] = $row['productname'];
+	$row_array['volume'] = $row['volume'];
+	$row_array['unit'] = $row['unit'];
+	$row_array['price'] = $row['price'];
+	
+	array_push($return_array, $row_array);  
 }
 
 echo json_encode($return_array);
@@ -230,29 +249,32 @@ RealGrid가 데이터를 가져오는 방법은 여러가지가 있습니다. �
 
 <pre class="prettyprint">
 function loadData() {
-dataProvider.loadData({
-type: "Json",
-method: "post",
-url: "/DataGet.php",
-progress: true
-}, function (provider) {
-}, function (provider, message) {
-});
+	dataProvider.loadData({
+		type: "Json",
+		method: "post",
+		url: "/DataGet.php",
+		progress: true
+	}, function (provider) {
+	}, function (provider, message) {
+	});
 }   
 </pre>
+
+> dataProvider.loadData는 RealGrid+ 버전에만 지원하는 함수로   
+> RealGridJS버전으로 데이타를 로드하는 방법은 RealGridsJs Basic 가이드를 참조하여 주세요.
 
 다시 한번 RealGrids의 onload이벤트에서 loadData()함수를 호출하여 데이터를 RealGrid에 로드해 보도록 하겠습니다.
 
 <pre class="prettyprint">
-RealGrids.onload = function (id) {
-gridView = new RealGrids.GridView(id);
-dataProvider = new RealGrids.LocalDataProvider();
-gridView.setDataProvider(dataProvider);
-
-setDataFields();
-setColumns();
-
-loadData();
+	RealGrids.onload = function (id) {
+	gridView = new RealGrids.GridView(id);
+	dataProvider = new RealGrids.LocalDataProvider();
+	gridView.setDataProvider(dataProvider);
+	
+	setDataFields();
+	setColumns();
+	
+	loadData();
 };
 </pre>
 
@@ -327,14 +349,14 @@ echo $json;
 default.html로 돌아와서 아래와 같이 삽입/추가/저장 버튼 3개를 추가하도록 합니다.
 
 <pre class="prettyprint">
-&lt;param name="flashvars" value="id=grdMain"&gt;
-&lt;/object>
-
-&lt;input type="button" id="btnInsert" value="Insert Row" &gt;
-&lt;input type="button" id="btnAppend" value="Append Row" &gt;  
-&lt;input type="button" id="btnSaveData" value="Save Data" &gt;
-&lt;/body&gt;
-&lt;/html&gt;
+	&lt;param name="flashvars" value="id=grdMain"&gt;
+	&lt;/object>
+	
+	&lt;input type="button" id="btnInsert" value="Insert Row" &gt;
+	&lt;input type="button" id="btnAppend" value="Append Row" &gt;  
+	&lt;input type="button" id="btnSaveData" value="Save Data" &gt;
+	&lt;/body&gt;
+	&lt;/html&gt;
 </pre>
 
 각 버튼이 수행할 메소드를 작성합니다.
@@ -345,9 +367,9 @@ var gridView;
 var dataProvider;
 
 $(function () {
-$("#btnInsert").click(btnInsertClickHandler);
-$("#btnAppend").click(btnAppendClickHandler);
-$("#btnSaveData").click(btnSaveDataClickHandler);
+	$("#btnInsert").click(btnInsertClickHandler);
+	$("#btnAppend").click(btnAppendClickHandler);
+	$("#btnSaveData").click(btnSaveDataClickHandler);
 });
 
 function btnInsertClickHandler(e) {
@@ -431,18 +453,18 @@ RealGrid+는 데이터가 수정되면 RowState를 UPDATED로 변경합니다. �
 
 <pre class="prettyprint">
 function btnSaveDataClickHandler(e) {
-gridView.commit();
-
-var currRow = gridView.getCurrent().dataRow;
-if (currRow &lt; 0) return;
-
-var currState = dataProvider.getRowState(currRow); 
-
-if (currState == RealGrids.RowState.CREATED) {
-    saveData("/DataInsert.php");
-}
-else if (currState == RealGrids.RowState.UPDATED) {
-    saveData("/DataUpdate.php");
+	gridView.commit();
+	
+	var currRow = gridView.getCurrent().dataRow;
+	if (currRow &lt; 0) return;
+	
+	var currState = dataProvider.getRowState(currRow); 
+	
+	if (currState == RealGrids.RowState.CREATED) {
+	    saveData("/DataInsert.php");
+	}
+	else if (currState == RealGrids.RowState.UPDATED) {
+	    saveData("/DataUpdate.php");
     }
 }
 </pre>

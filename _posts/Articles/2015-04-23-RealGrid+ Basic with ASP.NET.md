@@ -272,6 +272,10 @@ function loadData() {
 }
 </pre>
 
+> dataProvider.loadData는 RealGrid+ 버전에만 지원하는 함수로   
+> RealGridJS버전으로 데이타를 로드하는 방법은 RealGridsJs Basic 가이드를 참조하여 주세요.
+
+
 다시 한번 RealGrids의 onload이벤트에서 loadData()함수를 호출하여 데이터를 RealGrid에 로드해 보도록 하겠습니다.
 
 이제 웹 사이트를 실행 하면 그리드에 데이터베이스에서 가져온 데이터가 로드되는 모습을 확인 할 수 있습니다.
