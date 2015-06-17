@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Released RealGridJS 1.0.0
+title: Released RealGridJS 1.0.4
 date: 2015-06-13 19:28:03 +9:00 GMT
 category: "Release Notes"
 product: js
