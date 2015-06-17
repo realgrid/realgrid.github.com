@@ -16,7 +16,7 @@ Written by RealGrid Support Group
 
 RealGrid 와의 일반적 상호 작용에는 탐색, 선택 및 편집이 있습니다. 선택 동작은 [SelectionStyle](/api/types/SelectionStyle) 속성에 의해 영향을 받습니다. 이 항목에서 설명하는 동작의 원인이 되는 기본값은 BLOCK 입니다. 이러한 값을 변경하면 설명과 다른 동작이 발생할 수도 있습니다. 편집 동작은 [editOptions](/api/types/EditOptions) 속성에 의해서 영향을 받습니다. 
 
-#기본 키보드 동작 
+###기본 키보드 동작 
  
 다음 표에서는 RealGrid에 대한 기본 키보드 동작을 보여 줍니다.  
  
@@ -46,8 +46,9 @@ Esc | 컨트롤이 편집 모드에 있으면 편집을 취소하고 해당 컨�
 delete | 셀을 편집할 때 커서 뒤에 있는 문자를 삭제합니다. 편집 상태가 아닐 경우는 셀의 기존 값을 지우고 편집 상태로 전환합니다
 insert | 포커스가 위치한 행에 새로운 행을 추가합니다. 데이타를 입력하지 않고 포커스를 이동하였을 경우 행추가는 취소됩니다.
 
+<br>
 
-#기본 마우스 동작  
+###기본 마우스 동작  
 
 다음 표에서는 RealGrid에 대한 기본 마우스 동작을 보여 줍니다.  
  
@@ -62,12 +63,14 @@ insert | 포커스가 위치한 행에 새로운 행을 추가합니다. 데이�
 Shift+셀 클릭 | [SelectionStyle](/api/types/SelectionStyle) 가 BLOCK으로 설정되어 있으면 연속된 여러 셀 선택 영역이 수정됩니다.
 행 그룹 해더을 클릭합니다. | 그룹을 확장하거나 축소합니다.
 
-#마우스 선택
+<br>
+
+###마우스 선택
 
 [SelectionStyle](/api/types/SelectionStyle) 속성이 ROWS로 설정되어 있는 경우, Shift 키를 누른 채 행을 클릭하면 여러 행 선택 영역이 수정됩니다.
 Shift 키를 누른 채 행을 클릭하면 클릭하기 전의 현재 행 위치에 있는 앵커 행과 현재 행 사이의 모든 행이 선택 영역에 포함됩니다. [SelectionStyle](/api/types/SelectionStyle) 속성이 BLOCK으로 설정되어 있는 경우 마우스 왼쪽 버튼을 누른 상태에서 마우스 커서를 이동하면 이동한 방향으로 셀 선택 영역이 늘어 납니다.
 
-#참고 항목
+###참고 항목
 
 [Selecting Demo](http://demo.realgrid.com/Demo/Selecting)  
 [ColumnProperties Demo](http://demo.realgrid.com/Demo/ColumnProperties)  
