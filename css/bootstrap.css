@@ -207,6 +207,18 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    border : 1px solid black;
+}
+
+table th,tr,td {
+    border : 1px solid black;
+    padding : 2px 5px 2px;
+}
+
+table th {
+	white-space : nowrap;
+	text-align : center;
+	background-color: rgb(200,200,200);
 }
 
 @media print {
