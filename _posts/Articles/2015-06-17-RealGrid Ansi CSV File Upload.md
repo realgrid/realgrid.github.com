@@ -88,19 +88,9 @@ function receivedText() {
 function receivedText() {
 	if(fileReader)
 		fileContent = fileReader.result;
-		
-		var params = "files=" + fileContent;
-		var xmlhttp = new XMLHttpRequest();
-		
-		xmlhttp.open("post", "localCsvLoadString.do", true);
-		xmlhttp.onreadystatechange = function(e) {
-			if (xmlhttp.readyState == 4) {
-				if (xmlhttp.status == 200)
-					mainProvider.fillCsvData(xmlhttp.responseText);
-			}
-		}
-		xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-		xmlhttp.send(params);
+		$.post("localCsvLoadString.do",{files : fileContent}, function(data){
+			mainProvider.fillCsvData(xmlhttp.responseText, { start : 2 });
+		});
 }   
 
 </pre>
@@ -365,3 +355,6 @@ function largeSizeSetData(rows){
 	mainProvider.clearRowStates();
 }
 </pre>
+
+###Sample Page
+[Excel Import Sample](http://sample.realgrid.com/WaterExam/excelImport)
