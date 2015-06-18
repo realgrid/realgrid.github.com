@@ -73,26 +73,41 @@ function handleFileSelect() {
 function receivedText() {
 	if(fileReader)
 		fileContent = fileReader.result;
-		mainProvider.loadData({
-			type : "csv",
-			dataType : "csv",
-			url : "localCsvLoadString.do",
-			method : "POST",
-			params : {
-				files : fileContent
-			}
-		});
+		
+	mainProvider.loadData({
+		type : "csv",
+		dataType : "csv",
+		url : "localCsvLoadString.do",
+		method : "POST",
+		params : {
+			files : fileContent
+		}
+	});
 }   
 
 //RealGridJS version
 function receivedText() {
 	if(fileReader)
 		fileContent = fileReader.result;
-		$.post("localCsvLoadString.do",{files : fileContent}, function(data){
-			mainProvider.fillCsvData(xmlhttp.responseText, { start : 2 });
-		});
+		
+	var params = "files=" + encodeURIComponent(fileContent);
+	var xmlhttp = new XMLHttpRequest();
+	
+	xmlhttp.open("POST", "localCsvLoadString.do", true);
+	xmlhttp.onreadystatechange = function(e) {
+		if (xmlhttp.readyState == 4) {
+			if (xmlhttp.status == 200) {
+				mainProvider.fillCsvData(decodeURIComponent(xmlhttp.responseText), { start : 2 });
+				console.log("status : " + xmlhttp.status + ", text : " + xmlhttp.responseText);
+			} else
+				console.log(xmlhttp.status);
+		}
+	}
+	xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded;charset=UTF-8");
+	xmlhttp.setRequestHeader("Cache-Control","no-cache, must-revalidate");
+	xmlhttp.setRequestHeader("Pragma","no-cache");
+	xmlhttp.send(params);
 }   
-
 </pre>
 
 **new FieldReader()**
