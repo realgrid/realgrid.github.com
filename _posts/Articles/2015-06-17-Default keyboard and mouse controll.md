@@ -1,15 +1,14 @@
 ---
 layout: post
 title:  기본 키보드 및 마우스 동작
-date:   2015-06-17 09:49:54
+date:   2014-07-17 09:49:54
 categories: article
 course: 기초과정
----
-
-2014.07.17  
-Written by RealGrid Support Group  
-[www.realgrid.com](www.realgrid.com)
-
+tags:
+    - 키보드
+    - 마우스
+    - keyboard
+    - mouse
 ---
 
 본 가이드에서는 사용자가 키보드 및 마우스를 사용하여 RealGrid 컨트롤과 상호 작용하는 방법에 대해 설명합니다.  

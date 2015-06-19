@@ -5,6 +5,12 @@ date:   2015-05-29 00:00:00
 categories: faq
 part: RealGridPlus
 directiontype: 
+tags:
+    - 정지
+    - 멈춤
+    - 중지
+    - 느낌표
+    - 메모리
 ---
 
 # Q.

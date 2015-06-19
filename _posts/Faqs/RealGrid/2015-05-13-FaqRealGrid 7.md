@@ -5,6 +5,11 @@ date:   2015-05-13 00:00:00
 categories: faq
 part: RealGrid
 directiontype: 
+tags:
+    - 컬럼
+    - 스타일
+    - style
+    - column
 ---
 
 # Q.

@@ -5,6 +5,11 @@ date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridPlus
 directiontype: 
+tags:
+    - IE
+    - IE8
+    - 컬럼
+    - column
 ---
 
 # Q.

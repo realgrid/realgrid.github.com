@@ -5,11 +5,14 @@ date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridJS
 directiontype: 
+tags:
+    - 샘플
+    - sample
 ---
 
 # Q.
 
-샘플파일을 받아서 페이지를 열어보면 다음과 같은에러가 콜솔창에서 확인됩니다. 왜그런 건가요?
+샘플파일을 받아서 페이지를 열어보면 다음과 같은에러가 콘솔창에서 확인됩니다. 왜그런 건가요?
 
 >SCRIPT5007: 정의되지 않음 또는 null 참조인 '$_isMobile' 속성을 가져올 수 없습니다.  
 >SCRIPT5007: 정의되지 않음 또는 null 참조인 'setRootContext' 속성을 가져올 수 없습니다.   

@@ -5,6 +5,12 @@ date:   2015-05-13 00:00:00
 categories: faq
 part: RealGridPlus
 directiontype: install
+tags:
+    - Plus
+    - menu
+    - 동영상
+    - RealGridWeb.swf
+    - install
 ---
 
 # Q.

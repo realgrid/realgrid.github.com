@@ -5,6 +5,9 @@ date:   2015-05-29 00:00:00
 categories: faq
 part: RealGrid
 directiontype: 
+tags:
+    - 풍선말
+    - 툴팁
 ---
 
 # Q.
