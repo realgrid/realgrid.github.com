@@ -15,6 +15,14 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     -->
   </header>
+  
+  <div class="post-tags">
+    <p><span class="octicon octicon-tag"></span>
+      {% for tag in page.tags %}
+        <span class="label label-default">{{ tag }}&nbsp;</span>
+      {% endfor %}
+    </p>
+  </div>
 
   <article class="post-content">
     {{ content }}
