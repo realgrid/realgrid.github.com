@@ -204,9 +204,9 @@ textarea {
     vertical-align: top;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
     border : 1px solid black;
 }
 
@@ -216,10 +216,10 @@ table th,tr,td {
 }
 
 table th {
-	white-space : nowrap;
-	text-align : center;
-	background-color: rgb(200,200,200);
-}
+   white-space : nowrap;
+   text-align : center;
+   background-color: rgb(200,200,200);
+ }
 
 @media print {
     * {
