@@ -31,3 +31,15 @@ permalink: /api/types/SearchCellEditor/
 > Default: 8    
 > 표시될 목록의 수를 지정한다.    
 
+> **useCtrlEnterKey**    
+> Type: boolean    
+> Default: False     
+> Version Type: JS Only     
+> searchLength, searchDelay와 관계없이 Ctrl+Enter 키 입력으로 즉시 onEditSearch이벤트 발생  
+
+> **useEnterKey**    
+> Type: boolean    
+> Default: False        
+> Version Type: JS Only     
+> searchLength, searchDelay와 관계없이 Enter 키 입력으로 즉시 onEditSearch이벤트 발생, 목록이 비어 있는 경우만 동작  
+
