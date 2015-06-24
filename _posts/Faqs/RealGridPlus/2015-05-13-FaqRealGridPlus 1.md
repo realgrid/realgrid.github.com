@@ -10,6 +10,7 @@ tags:
     - flash player
     - setupGrid
     - adobe
+    - install
 ---
 
 # Q.
