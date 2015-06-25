@@ -5,6 +5,10 @@ date:   2015-05-13 00:00:00
 categories: faq
 part: RealGrid
 directiontype: 
+tags:
+    - 엑셀
+    - excel
+    - csv
 ---
 
 # Q.

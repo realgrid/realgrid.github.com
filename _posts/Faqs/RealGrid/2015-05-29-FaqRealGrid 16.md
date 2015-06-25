@@ -1,10 +1,12 @@
 ---
 layout: faqpost
-title:  db에서 읽어온 데이타로 drowdown 설정하는 방법이 궁금합니다.
+title:  db에서 읽어온 데이타로 dropdown 설정하는 방법이 궁금합니다.
 date:   2015-05-29 00:00:00
 categories: faq
 part: RealGrid
 directiontype: 
+tags:
+    - dropdown
 ---
 
 # Q.

@@ -1,9 +1,16 @@
 ---
 layout: post
-title:  RealGrid Basic with ASP.NET & MS SQLServer
+title:  RealGrid+ Basic with ASP.NET & MS SQLServer
 date:   2015-04-23 15:47:54
 categories: article
 course: 기초과정
+tags:
+    - asp.net
+    - razor
+    - sqlserver
+    - ms
+    - visualstudio
+    - vs
 ---
 
 ### Architeatures
@@ -14,7 +21,6 @@ course: 기초과정
 * 데이터베이스: MS SQLServer 2008 R2
 * Table 
     ![](/images/articles/20150423-table-product.png)
-
 
 ### Introduction
 사실 ASP.NET과 SQLServer의 조합은 MS기반 웹 개발 플랫폼 구성의 기본적인 조합이라고 할 수 있습니다. .NET Framework에서 SQLServer에 접근하기 위해서는 ADO.NET기술을 이용하게 됩니다. 본 가이드는 SQLServer의 특정 테이블에 들어 있는 데이터를 RealGrid가 포함된 웹화면에서 조회, 추가, 수정, 삭제기능을 구현하고 있습니다.
@@ -271,6 +277,10 @@ function loadData() {
     });
 }
 </pre>
+
+> dataProvider.loadData는 RealGrid+ 버전에만 지원하는 함수로   
+> RealGridJS버전으로 데이타를 로드하는 방법은 RealGridsJs Basic 가이드를 참조하여 주세요.
+
 
 다시 한번 RealGrids의 onload이벤트에서 loadData()함수를 호출하여 데이터를 RealGrid에 로드해 보도록 하겠습니다.
 

@@ -5,6 +5,11 @@ date:   2015-05-14 00:00:00
 categories: faq
 part: RealGrid
 directiontype: 
+tags:
+    - 버튼
+    - button
+    - 버튼 이미지
+    - button image
 ---
 
 # Q.

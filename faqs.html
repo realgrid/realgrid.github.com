@@ -3,30 +3,68 @@ layout: page
 title: FAQ
 permalink: /faqs/
 ---
+	<script>
+	  $(document).ready( function() {
+
+	    $('input[type="text"]').keyup(function(){
+
+	      var that = this, $allListElements = $('ul > li');
+
+	      var $matchingListElements = $allListElements.filter(function(i, li){
+	          var listItemText = $(li).text().toUpperCase(), 
+	              searchText = that.value.toUpperCase();
+	          return ~listItemText.indexOf(searchText);
+	      });
+
+	      $allListElements.hide();
+	      $matchingListElements.show();
+
+	  });
+	});
+	</script>
+
+	<div class="form-group has-success">
+	<input type="text" class="form-control input-sm" placeholder="Filter">
+	</div>
+
 <h3>RealGridJS</h3>
 <ul class="post-api-list">
 	{% for post in site.posts %}{% if post.part == 'RealGridJS' %}
     <li>
-		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    	<a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span style="display: none;">
+          {% for tag in post.tags %}
+            {{ tag }}&nbsp;
+          {% endfor %}
+          </span>
     </li>
 	{% endif %}{% endfor %}
 </ul>
+
 <h3>RealGridPlus</h3>
 <ul class="post-api-list">
 	{% for post in site.posts %}{% if post.part == 'RealGridPlus' %}
     <li>
-		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-		<a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span style="display: none;">
+          {% for tag in post.tags %}
+            {{ tag }}&nbsp;
+          {% endfor %}
+          </span>
     </li>
 	{% endif %}{% endfor %}
 </ul>
+
 <h3>공통</h3>
 <ul class="post-api-list">
 	{% for post in site.posts %}{% if post.part == 'RealGrid' %}
 	    <li>
-			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-	    	<a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	    	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span style="display: none;">
+          {% for tag in post.tags %}
+            {{ tag }}&nbsp;
+          {% endfor %}
+          </span>
 	    </li>
 	{% endif %}{% endfor %}
 </ul>

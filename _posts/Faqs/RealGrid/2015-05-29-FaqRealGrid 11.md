@@ -5,6 +5,9 @@ date:   2015-05-29 00:00:00
 categories: faq
 part: RealGrid
 directiontype: 
+tags:
+    - setFields
+    - setColumns
 ---
 
 # Q.
@@ -23,9 +26,9 @@ div element가 계속 생성되게 됩니다.
 
 <pre class="prettyprint">
 $(function(){
-    dsMaster = new RealGridJS.LocalDataProvider();
+    provider = new RealGridJS.LocalDataProvider();
     grid = new RealGridJS.GridView("grid");
-    grid.setDataSource(dsMaster);
+    grid.setDataSource(provider);
 //    grid.setOptions, grid.setDisplayOptions 등을 처리.
     setGrid();
 }); 
@@ -33,14 +36,14 @@ $(function(){
 function setGrid(){
     $.get(“url”, function(data){
         var fields = [];
-        var keys = Object.keys(data["ds_data"].data[0]);
+        var keys = Object.keys(data[0]);
         for (var i in keys) {
             fields.push({fieldName:keys[i], name:keys[i]});
         };  
-        dsMaster.setFields(fields);
+        provider.setFields(fields);
         grid.setColumns(fields);
         // fields라는 동일한 배열을 이용해서 그리드와 dataProvider를 설정해도 상관없읍니다. 필요한 property외에는 무시합니다.
-        dsMaster.fillJsonData(data['ds_data'].data);
+        provider.fillJsonData(data);
     }
 }
 </pre>
