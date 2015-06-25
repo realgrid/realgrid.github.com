@@ -24,7 +24,7 @@ dropDown리스트가 동적으로 앞의 값에 따라서 변경되는 방법이
 /**
  * 먼저 setLookups로 id(lookupTree를 사용할 컬럼에 지정), levels(선행조건 갯수+ 자신 컬럼 갯수를
  * 지정),key(실제 data값),values(그리드에 보여지는 값)을 설정합니다. type1은 teamcode컬럼의 lookupTree에
- * 사용되고 type2는 empcode컬럼의 looupTree에 사용합니다.
+ * 사용되고 type2는 empcode컬럼의 lookupTree에 사용합니다.
  */
  
 function setLookups(grid) {
