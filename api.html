@@ -25,6 +25,9 @@ permalink: /api/
 			{% if api.deprecated == true %}
 				<span class="octicon octicon-circle-slash api-deprecated"></span>
 			{% endif %}
+			{% if api.jsonly == true %}
+				<span> <img src="/images/common/ico_includejs.png" alt="JS"/></span>
+			{% endif %}
 			</li>
 		{% endif %}{% endfor %}
 	  </ul>	
@@ -45,6 +48,9 @@ permalink: /api/
 				{% if api.deprecated == true %}
 					<span class="octicon octicon-circle-slash api-deprecated"></span>
 				{% endif %}
+				{% if api.jsonly == true %}
+					<span> <img src="/images/common/ico_includejs.png" alt="JS"/></span>
+				{% endif %}
 				</li>
 			{% endif %}{% endfor %}
 		  </ul>	
@@ -58,6 +64,9 @@ permalink: /api/
 				<a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
 				{% if api.deprecated == true %}
 					<span class="octicon octicon-circle-slash api-deprecated"></span>
+				{% endif %}
+				{% if api.jsonly == true %}
+					<span> <img src="/images/common/ico_includejs.png" alt="JS"/></span>
 				{% endif %}
 				</li>
 			{% endif %}{% endfor %}
