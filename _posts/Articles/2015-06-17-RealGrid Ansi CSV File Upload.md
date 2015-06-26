@@ -20,8 +20,8 @@ tags:
 ### Introduction
 
 본 가이드에서는 JAVA Spring 환경에서 Local에 있는 Ansi CSV 파일을 업로드하는 방법을 설명합니다.  
-리얼그리드 화면 구현 설명은 생략합니다. 구현 방법은 이곳을 참조하세요.    
-본 가이드에 포함된 소스 코드는 여기를 클릭 하여 다운로드 할 수 있습니다.  
+리얼그리드 화면 구현 설명은 생략합니다. 구현 방법은 [이곳](http://help.realgrid.com/article/2015/05/12/RealGridJs-Basic-Java-Spring-MyBatis-SqlServer.html)을 참조하세요.    
+본 가이드에 포함된 소스 코드는 [여기](https://drive.google.com/file/d/0B1dc48kRrYcUQkQ0ZXdlSlVtWEE/view?usp=sharing)를 클릭 하여 다운로드 할 수 있습니다.  
 
 > ※ CSV 파일 업로드 기능은 IE 9 이상부터 지원합니다.   
 
@@ -89,23 +89,7 @@ function receivedText() {
 	if(fileReader)
 		fileContent = fileReader.result;
 		
-	var params = "files=" + encodeURIComponent(fileContent);
-	var xmlhttp = new XMLHttpRequest();
-	
-	xmlhttp.open("POST", "localCsvLoadString.do", true);
-	xmlhttp.onreadystatechange = function(e) {
-		if (xmlhttp.readyState == 4) {
-			if (xmlhttp.status == 200) {
-				mainProvider.fillCsvData(decodeURIComponent(xmlhttp.responseText), { start : 2 });
-				console.log("status : " + xmlhttp.status + ", text : " + xmlhttp.responseText);
-			} else
-				console.log(xmlhttp.status);
-		}
-	}
-	xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded;charset=UTF-8");
-	xmlhttp.setRequestHeader("Cache-Control","no-cache, must-revalidate");
-	xmlhttp.setRequestHeader("Pragma","no-cache");
-	xmlhttp.send(params);
+	mainProvider.fillCsvData(fileContent);
 }   
 </pre>
 

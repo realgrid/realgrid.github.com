@@ -164,8 +164,8 @@ RealGrids.onload = function (id) {
     
 ### Connecting a Database
 
-    <div class="content_apiEx">
-        이제 서버 작업으로 잠시 눈을 돌려 보겠습니다. ASP.NET에서 MS SQLServer에 연결하여 데이터를 가져오는 작업은 어렵지 않습니다.
+
+이제 서버 작업으로 잠시 눈을 돌려 보겠습니다. ASP.NET에서 MS SQLServer에 연결하여 데이터를 가져오는 작업은 어렵지 않습니다.
 
 데이터의 요청에 응답할 페이지를 새로 하나 만들어 보겠습니다. 웹 사이트에 DataGet.cshtml 이름을 가진 새로운 웹 페이지를 만들고 Database연결을 위한 SqlConnection을 생성합니다.
 
