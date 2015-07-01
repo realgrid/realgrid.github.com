@@ -23,11 +23,11 @@ permalink: /api/LocalDataProvider/onRowMoved/
 > LocalDataProvider object.
 
 > **row**  
-> Number  
+> Type: Number  
 > 이동되기전의 데이터행 Index
 
 > **newRow**  
-> Number  
+> Type: Number  
 > 이동된 후의 데이터행 Index
 
 #### Return

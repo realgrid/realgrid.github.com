@@ -4,6 +4,7 @@ title: getDataSource
 part: Objects
 objectname: GridBase
 directiontype: Function
+jsonly: true
 permalink: /api/GridBase/getDataSource/
 ---
 

@@ -4,6 +4,7 @@ title: registerImageList
 part: Objects
 objectname: GridView
 directiontype: Function
+jsonly: true
 permalink: /api/GridView/registerImageList/
 ---
 

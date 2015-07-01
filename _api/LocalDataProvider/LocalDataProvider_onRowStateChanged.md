@@ -24,7 +24,7 @@ permalink: /api/LocalDataProvider/onRowStateChanged/
 > LocalDataProvider object.
 
 > **row**  
-> Number  
+> Type: Number  
 > rowState가 변경된 데이터행의 Index.
 
 #### Return

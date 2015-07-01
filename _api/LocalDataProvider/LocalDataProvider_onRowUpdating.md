@@ -30,7 +30,8 @@ permalink: /api/LocalDataProvider/onRowUpdating/
 
 #### Return value
 
-> None.
+> Type: Boolean
+> false를 리턴하면 수정이 취소된다.
 
 #### Example
 

@@ -2,9 +2,9 @@
 layout: apipost
 title: getValues
 part: Objects
-objectname: GridBase
+objectname: TreeView
 directiontype: Function
-permalink: /api/GridBase/getValues/
+permalink: /api/TreeView/getValues/
 ---
 
 
@@ -31,5 +31,5 @@ permalink: /api/GridBase/getValues/
 #### Example
 
 <pre class="prettyprint">
-    var values = grdMain.getValues(0);
+    var values = treeMain.getValues(0);
 </pre>

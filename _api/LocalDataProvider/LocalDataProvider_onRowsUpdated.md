@@ -24,12 +24,12 @@ permalink: /api/LocalDataProvider/onRowsUpdated/
 > LocalDataProvider object.  
 
 > **row**  
-> Type:number  
+> Type: number  
 > 수정이 시작된 행의 인덱스.  
 
 > **count**  
-> Type:Number  
-> 수정된 행의 건수
+> Type: Number  
+> 수정된 행의 건수  
 
 #### Return
 

@@ -23,15 +23,15 @@ permalink: /api/LocalDataProvider/onRowsMoved/
 > LocalDataProvider object.
 
 > **row**  
-> type: Number  
+> Type: Number  
 > 이동되기전의 데이터 시작행 Index  
 
 > **count**  
-> type: Number  
+> Type: Number  
 > 이동된 행의 개수.
 
 > **newRow**  
-> type: Number  
+> Type: Number  
 > 이동된 후의 데이터 시작행 Index
 
 #### Return

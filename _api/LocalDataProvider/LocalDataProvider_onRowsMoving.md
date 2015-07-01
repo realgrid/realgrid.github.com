@@ -23,20 +23,21 @@ permalink: /api/LocalDataProvider/onRowsMoving/
 > LocalDataProvider object.  
 
 > **row**  
-> Number  
+> Type: Number  
 > 이동하려는 데이터행의 Index.  
 
 > **count**  
-> Number  
+> Type: Number  
 > 이동되는 행의 개수.  
 
 > **newRow**  
-> Number  
+> Type: Number  
 > 이동될 데이터행의 Index.
 
 #### Return
 
-> None.
+> Type: Boolean  
+> false를 리턴하면 이동이 취소된다.  
 
 #### Example
 

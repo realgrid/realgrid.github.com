@@ -29,7 +29,8 @@ permalink: /api/LocalDataProvider/onRowDeleting/
 
 #### Return value
 
-> None.
+> Type: Boolean  
+> false를 리턴하면 삭제가 취소된다.
 
 #### Example
 

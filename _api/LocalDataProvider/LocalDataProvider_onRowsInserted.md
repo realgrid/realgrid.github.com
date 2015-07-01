@@ -23,11 +23,11 @@ permalink: /api/LocalDataProvider/onRowsInserted/
 > LocalDataProvider object.
 
 > **row**  
-> number  
+> Type: number  
 > 추가된 행의 인덱스.
 
 > **count**  
-> number  
+> Type: number  
 > 추가된 행의 개수.
 
 #### Return

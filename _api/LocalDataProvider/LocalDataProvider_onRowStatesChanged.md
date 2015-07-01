@@ -25,7 +25,7 @@ permalink: /api/LocalDataProvider/onRowStatesChanged/
 > LocalDataProvider object.  
 
 > **rows**  
-> Array of Number  
+> Type: Array of Number  
 > 변경된 행 Index의 배열  
 
 #### Return

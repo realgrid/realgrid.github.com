@@ -23,12 +23,13 @@ permalink: /api/LocalDataProvider/onRowInserting/
 > LocalDataProvider object.  
 
 > **row**  
-> number  
+> Type: number  
 > 추가되려는 행의 인덱스.  
 
 #### Return
 
-> None.
+> Type: Boolean  
+> false를 리턴하면 추가가 취소된다.
 
 #### Example
 

@@ -4,6 +4,7 @@ title: search
 part: Objects
 objectname: GridBase
 directiontype: Function
+deprecated: true
 permalink: /api/GridBase/search/
 ---
 
