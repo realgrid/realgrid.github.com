@@ -45,6 +45,6 @@ permalink: /api/TreeDataProvider/setRows/
 #### Example
 
 <pre class="prettyprint">
-    provider.setDataRows(rows, "tree", true, "", "icon");
+    provider.setRows(rows, "tree", true, "", "icon");
 </pre>
 
