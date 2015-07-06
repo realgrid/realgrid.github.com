@@ -10,7 +10,7 @@ permalink: /api/GridBase/getCurrent/
 
 #### Description
 
-> 현재 포커스를 갖는 셀의 [CellIndex](/api/GridBase/) 값을 가져온다.
+> 현재 포커스를 갖는 셀의 [CellIndex](/api/types/CellIndex/) 값을 가져온다.
 
 #### Syntax
 

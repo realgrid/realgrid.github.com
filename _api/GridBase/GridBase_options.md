@@ -5,12 +5,13 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/options/
+deprecated: true
 ---
 
 
 #### Description
-
-> [getOptions](/api/GridBase/getOptions/), [setOptions](/api/GridBase/setOptions/)를 대신 사용해야 한다.
+> deprecated 대상.  
+> [getOptions](/api/GridBase/getOptions/), [setOptions](/api/GridBase/setOptions/)를 대신 사용해야 한다.  
 > 매개변수가 하나 존재하면 [setOptions](/api/GridBase/setOptions/), 없으면 [getOptions](/api/GridBase/getOptions/)와 동일하게 실행된다.
 
 #### Syntax
