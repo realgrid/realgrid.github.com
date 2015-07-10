@@ -12,7 +12,7 @@ deprecated: true
 #### Description
 
 > deprecated 대상.  
-> 대신 [getValues](/api/GridBase/getValues)를 사용하세요.  
+> 대신 [getValues](/api/GridView/getValues)를 사용하세요.  
 
 #### Syntax
 
