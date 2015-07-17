@@ -46,3 +46,37 @@ permalink: /api/types/Header/
 > Default: true     
 > 소트 가능여부를 지정한다.  
 
+> **subTextGap**  
+> Type: number     
+> Default: 1       
+> Text와 SubText와의 간격을 설정한다.    
+
+> **subTextLocation**  
+> Type: string   
+> Default: "lower"       
+> SubText의 위치를 지정한다. [subTextLocation](/api/types/subTextLocation/)가 설정모델이다.         
+
+> **imageList**  
+> Type: string     
+> Default: null       
+> 헤더에 표시할 이미지 목록을 지정한다.  
+
+> **itemOffset**  
+> Type: number     
+> Default: 1       
+> 헤더 테두리와 체크박스나 이미지간의 간격을 설정한다.      
+
+> **itemGap**  
+> Type: boolean     
+> Default: true       
+> Text와 체크박스나 이미지간의 간격을 설정한다.   
+
+> **styles**  
+> Type: object|string     
+> Default: null       
+> 헤더의 스타일을 지정한다.  
+
+> **subStyles**  
+> Type: object|string     
+> Default: null       
+> SubText의 스타일을 지정한다.  

@@ -38,7 +38,12 @@ permalink: /api/types/FixedOptions/
 > **editable**             
 > Type: boolean  
 > Default: true   
-> false면 다른 속성들과 상관 없이 편집기가 표시되지 않는다. 
+> false면 다른 속성들과 상관 없이 열고정된 컬럼을 수정 할 수 없다.   
+
+> **rowEditable**             
+> Type: boolean  
+> Default: true   
+> false면 다른 속성들과 상관 없이 행고정된 행을 수정 할 수 없다.  
 
 > **resizable**            
 > Type: boolean   
