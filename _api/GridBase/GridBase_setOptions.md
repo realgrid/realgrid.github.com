@@ -49,7 +49,7 @@ permalink: /api/GridBase/setOptions/
 
 <pre class="prettyprint">
     var options =  {
-    		hideDeletedRows : true,
+		hideDeletedRows : true,
             panel: {
                 visible: true
             },
