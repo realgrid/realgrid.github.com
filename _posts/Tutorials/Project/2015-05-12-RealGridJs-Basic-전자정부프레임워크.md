@@ -2,8 +2,8 @@
 layout: post
 title: RealGridJs Basic with 전자정부 프레임워크 & iBatis & MS SQLServer
 date: 2015-05-12 00:00:00 +9:00 GMT
-categories: article
-course: 기초과정
+categories: Tutorial
+course: Project
 tags:
     - 전자정부
     - 전자정부 프레임워크

@@ -1,0 +1,141 @@
+---
+layout: page
+title: Tutorial
+permalink: /tutorial/
+---
+
+	<script>
+	  $(document).ready( function() {
+
+	    $('input[type="text"]').keyup(function(){
+
+	      var that = this, $allListElements = $('ul > li').not('.nav');
+
+	      console.log($allListElements);
+
+	      var $matchingListElements = $allListElements.filter(function(i, li){
+	          var listItemText = $(li).text().toUpperCase(), 
+	              searchText = that.value.toUpperCase();
+	          return ~listItemText.indexOf(searchText);
+	      });
+
+	      $allListElements.hide();
+	      $matchingListElements.show();
+
+	    });
+	  });
+	</script>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="form-group has-success">
+		<input type="text" class="form-control input-sm" placeholder="Filter">
+		<span class="post-meta">모든 클래스의 강좌 제목과 태그에서<br/>입력 문자열을 검색하여 필터링 합니다.</span>
+		</div>
+		<div>
+			<ul class="post-api-list">
+			    {% for post in site.posts reversed %}{% if post.categories contains "tutorial" %}{% if post.course contains "guide" %}
+			      <li>			          
+			          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+			          <span class="octicon octicon-question api-deprecated"></span> {{ post.title }}</a>
+			      </li>
+			    {% endif %}{% endif %}{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+	<div class="col-md-9">
+		<div role="tabpanel">
+		  <!-- Nav tabs -->
+		  <ul class="nav nav-tabs" role="tablist">
+		    <li role="presentation" class="nav active">
+		    	<a href="#a-class" aria-controls="a-class" role="tab" data-toggle="tab">A 클래스</a></li>
+		    <li role="presentation" class="nav">
+		    	<a href="#b-class" aria-controls="b-class" role="tab" data-toggle="tab">B 클래스</a></li>
+		    <li role="presentation" class="nav">
+		    	<a href="#c-class" aria-controls="c-class" role="tab" data-toggle="tab">C 클래스</a></li>
+		    <li role="presentation" class="nav">
+		    	<a href="#project" aria-controls="project" role="tab" data-toggle="tab">업무 예제</a></li>
+		    <li role="presentation" class="nav">
+		    	<a href="#tip" aria-controls="tip" role="tab" data-toggle="tab">팁</a></li>
+		  </ul>
+
+		  <!-- Tab panes -->
+		  <div class="tab-content">
+		    <div role="tabpanel" class="tab-pane active" id="a-class">
+		    	<p><span class="octicon octicon-info text-info"></span> A 클래스는 RealGrid의 기초적인 사용법에 대한 짤막한 강좌들입니다. </p>
+				<ul class="post-api-list">
+				    {% for post in site.posts reversed %}{% if post.categories contains "tutorial" %}{% if post.course contains "A-Class" %}
+				      <li>
+				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				      	  <!--
+				          <span class="post-meta">{{ post.summary }}</span>
+				          -->
+				          <span class="hidden">
+				          {% for tag in post.tags %}
+				            {{ tag }}&nbsp;
+				          {% endfor %}
+				          </span>
+				      </li>
+				    {% endif %}{% endif %}{% endfor %}
+				</ul>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="b-class">
+		    	<p><span class="octicon octicon-info text-info"></span> B 클래스는 강좌를 준비하고 있습니다. <br/>새로운 강좌가 올라올때 Feed를 받을 수 있도록 
+		    	<a class="page-link" href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="octicon octicon-rss"></span> RealGrid Feed</a>를 링크 하세요.</p>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="c-class">
+		    	<p><span class="octicon octicon-info text-info"></span> C 클래스는 RealGrid를 실무에 적용할때 유용한 기술들을 설명합니다. 이 클래스의 강좌들은 대부분 <a href="http://jquery.com" target="_blank">JQuery</a>와 <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>에 의존적(dependency)입니다. </p>
+				<ul class="post-api-list">
+				    {% for post in site.posts reversed %}{% if post.categories contains "tutorial" %}{% if post.course contains "C-Class" %}
+				      <li>
+				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				          <span class="hidden">
+				          {% for tag in post.tags %}
+				            {{ tag }}&nbsp;
+				          {% endfor %}
+				          </span>
+				      </li>
+				    {% endif %}{% endif %}{% endfor %}
+				</ul>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="project">
+		    	<p><span class="octicon octicon-info text-info"></span> 업무예제는 JAVA, .NET, 정부표준 프레임웍등 다양한 개발환경에서 RealGrid를 활용하는 방법을 설명하고 있습니다.</p>
+				<ul class="post-api-list">
+				    {% for post in site.posts %}{% if post.categories contains "tutorial" %}{% if post.course contains "Project" %}
+				      <li>
+				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				          <span class="hidden">
+				          {% for tag in post.tags %}
+				            {{ tag }}&nbsp;
+				          {% endfor %}
+				          </span>
+				      </li>
+				    {% endif %}{% endif %}{% endfor %}
+				</ul>		    	
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="tip">
+				<ul class="post-api-list">
+				    {% for post in site.posts %}{% if post.categories contains "tutorial" %}{% if post.course contains "Tip" %}
+				      <li>
+				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				          <span class="hidden">
+				          {% for tag in post.tags %}
+				            {{ tag }}&nbsp;
+				          {% endfor %}
+				          </span>
+				      </li>
+				    {% endif %}{% endif %}{% endfor %}
+				</ul>
+		    	
+		    </div>
+		  </div>
+
+		</div>	
+	</div>
+</div>
+	

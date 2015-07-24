@@ -2,8 +2,8 @@
 layout: post
 title: RealGridJs Basic with JAVA Spring & MyBatis & MS SQLServer
 date: 2015-05-12 00:00:00 +9:00 GMT
-categories: article
-course: 기초과정
+categories: Tutorial
+course: Project
 tags:
     - sqlserver
     - tomcat
