@@ -23,6 +23,23 @@ permalink: /api/GridBase/setOptions/
 > **options**  
 > Type: Object  
 > 설정 정보  
+> [summaryMode](/api/types/GridOptions/): String  
+> [hideDeletedRows](/api/types/GridOptions/): boolean  
+> [checkBar](/api/types/CheckBar/): Object  
+> [copy](/api/types/CopyOptions/): Object  
+> [display](/api/types/DisplayOptions/): Object  
+> [edit](/api/types/EditOptions/): Object  
+> [filtering](/api/types/FilteringOptions/): Object  
+> [fixed](/api/types/FixedOptions/): Object  
+> [grouping](/api/types/GroupingOptions/): Object  
+> [header](/api/types/Header/): Object  
+> [indeicator](/api/types/Indicator/): Object  
+> [panel](/api/types/Panel/): Object  
+> [paste](/api/types/PasteOptions/): Object  
+> [rowGroup](/api/types/RowGroupOptions/): Object  
+> [select](/api/types/SelectOptions/): Object  
+> [sorting](/api/types/SortingOptions/): Object  
+> [stateBar](/api/types/StateBar/): Object  
 
 #### Return value
 
@@ -32,6 +49,7 @@ permalink: /api/GridBase/setOptions/
 
 <pre class="prettyprint">
     var options =  {
+    		hideDeletedRows : true,
             panel: {
                 visible: true
             },
@@ -55,7 +73,7 @@ permalink: /api/GridBase/setOptions/
 	    },
 	    displayOptions:{
 	      	columnWidth : 200
-	    },
+	    }
 	};
     grid.setOptions(options);
 </pre>
