@@ -36,7 +36,7 @@ permalink: /api/types/SortingOptions/
 <pre class="prettyprint">
     var options = {};
     options.style = "exclusive";
-    grdMain.sortingOptions(options);
+    grdMain.setSortingOptions(options);
 </pre>
 
 #### See Also

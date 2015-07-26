@@ -28,3 +28,7 @@ permalink: /api/types/RowGroupAdornments/
 > Value: "footer"   
 > 그룹 Footer만 표시합니다.              
 
+> **NONE**   
+> Value: "none"   
+> 아무것도 표시하지 않는다. expandedAdornments 상태에서만 적용된다.             
+
