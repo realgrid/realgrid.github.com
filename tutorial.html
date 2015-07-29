@@ -7,6 +7,8 @@ permalink: /tutorial/
 	<script>
 	  $(document).ready( function() {
 
+	  	$('input[type="text"]').focus();
+
 	    $('input[type="text"]').keyup(function(){
 
 	      var that = this, $allListElements = $('ul > li').not('.nav');
