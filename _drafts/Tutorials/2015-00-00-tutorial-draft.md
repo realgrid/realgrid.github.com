@@ -2,7 +2,7 @@
 layout: post
 title: RealGrid 튜토리얼 작성 방법
 date:   2015-07-24 21:13:31 +9:00 GMT
-permalink: /realgrid/guide
+permalink: /tutorial/guide
 categories: Tutorial
 course:
   - guide
@@ -24,28 +24,28 @@ tags:
 
 ## 작성순서
 1. 파일 생성
-    가. \\\_drafts\\Tutorials\\2015-00-00-tutorial-draft.md파일을 복사해서 새로운 파일을 만듭니다. (본 파일)
-    나. 파일명은 {날짜}-tutorial-{클래스번호}.md 로 만든다.
+    * \\\_drafts\\Tutorials\\2015-00-00-tutorial-draft.md파일을 복사해서 새로운 파일을 만듭니다. (본 파일)
+    * 파일명은 {날짜}-tutorial-{클래스번호}.md 로 만든다.
 3. 메타정보 수정
-    가. category
-    나. course : {클래스번호}를 입력합니다.
-    다. tag: 5개에서 10개 이내로 넣습니다.
-    라. summary
+    * category
+    * course : {클래스}를 입력합니다. (A-Class, B-Class, C-Class, Project, Tip 중 선택)
+    * tag: 5개에서 10개 이내로 넣습니다.
+    * summary
 4. 강좌 내용 작성
-    가. 아래 내용에 작성된 강좌 예시와 같은 형식으로 작성합니다.
-    나. 이미지는 \\images\\tutorials\\{yyyymmdd-realgrid-클래스번호-n.png}와 같은 형식으로 생성합니다. 단, 날짜는 생략해도 무방합니다. 또, 문서에 이미지 파일이 한 개인 경우는 순서번호(n)을 생략 합니다. 해당 폴더에 미리 작성되어 있는 다른 이미지 파일명을 확인 하세요.
-    다. 예제 데이터는 기초적인 설명외에는 의미있는 데이터를 사용하도록 합니다.(사용자 정보, 주소 데이터, 거래처정보 등)
+    * 아래 내용에 작성된 강좌 예시와 같은 형식으로 작성합니다.
+    * 이미지는 \\images\\tutorials\\{yyyymmdd-realgrid-클래스번호-n.png}와 같은 형식으로 생성합니다. 단, 날짜는 생략해도 무방합니다. 또, 문서에 이미지 파일이 한 개인 경우는 순서번호(n)을 생략 합니다. 해당 폴더에 미리 작성되어 있는 다른 이미지 파일명을 확인 하세요.
+    * 예제 데이터는 기초적인 설명외에는 의미있는 데이터를 사용하도록 합니다.(사용자 정보, 주소 데이터, 거래처정보 등)
 5. 참조 링크 
-    가. 관계있는 다른 강좌를 참조에 링크 합니다.
-    나. 관계있는 demo의 페이지를 링크합니다.
-    다. 관계있는 api페이지를 링크 합니다.
+    * 관계있는 다른 강좌를 참조에 링크 합니다.
+    * 관계있는 demo의 페이지를 링크합니다.
+    * 관계있는 api페이지를 링크 합니다.
 6. 배포
-    가. 작성완료된 강좌를 배포 할때에는 \_post\\Tutorial\\{클래스}\\폴더로 이동합니다.
+    * 작성완료된 강좌를 배포 할때에는 \_post\\Tutorial\\{클래스}\\폴더로 이동합니다.
 7. 작성후 강좌에 사용된 소스의 풀버전을 별도로 제작하여 깃허브에 올려야 합니다.
-    가. 소스는 {클래스번호}.html로 이름을 작성합니다.
-    나. script는 하나의 script태그안에 모두 작성합니다.
-    다. 소스에 대한 부분은 차차 기록 합니다.
-    라. 소스관리를 위한 GitHub Repository : [https://github.com/realgrid/tutorials](https://github.com/realgrid/tutorials)
+    * 소스는 {클래스번호}.html로 이름을 작성합니다. 
+    * script는 하나의 script태그안에 모두 작성합니다.
+    * 소스에 대한 부분은 차차 기록 합니다.
+    * 소스관리를 위한 GitHub Repository : [https://github.com/realgrid/tutorials](https://github.com/realgrid/tutorials)
 
 ---
 
