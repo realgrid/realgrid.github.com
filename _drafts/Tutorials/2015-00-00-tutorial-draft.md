@@ -71,6 +71,28 @@ tags:
 * 수강자의 동작이나 실행의 이해를 돕기 위한 버튼을 올리고 행위에 대해 설명합니다.
 * 그리드나 버튼 동작등은 군더더기 없이 본 강좌에 필요한 만큼만 작성합니다.
 
+### 전체 소스코드
+
+##### SCRIPT    
+<pre class="prettyprint full-source-script">
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/bootstrap.css&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/jquery-1.112.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;!--realgrid--&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/dlgrids_eval.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/realgridjs.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+
+&lt;/script&gt;
+</pre>
+
+##### HTML
+<pre class="prettyprint full-source-html">
+&lt;div id=&quot;realgrid&quot; style=&quot;width: 100%; height: 200px;&quot;&gt;&lt;/div&gt;
+</pre>
+
+
 ---
 **참조**
 
