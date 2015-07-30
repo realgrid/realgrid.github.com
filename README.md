@@ -16,4 +16,4 @@ RealGrid기술지원 내용을 정리하여 자주 받게되는 질문과 그 �
 생성된 정적 사이트 소스를 다운로드하여 로컬 웹사이트를 만들수 있습니다. 아래 링크된 압축 파일을 다운로드하여 로컬 웹사이트를 만들면 됩니다.
 
 정적 사이트 소스 생성일 : 2015년 7월 30일 
-정적 사이트 소스 파일 : 
+정적 사이트 소스 파일 : [_site.zip](https://github.com/realgrid/realgrid.github.com/blob/master/_site.zip)
