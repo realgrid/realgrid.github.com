@@ -16,7 +16,7 @@ RealGrid기술지원 내용을 정리하여 자주 받게되는 질문과 그 �
 생성된 정적 사이트 소스를 다운로드하여 로컬 웹사이트를 만들수 있습니다. 아래 링크된 압축 파일을 다운로드하여 로컬 웹사이트를 만들면 됩니다.
 
 * 정적 사이트 소스 생성일 : 2015년 7월 30일   
-* 정적 사이트 소스 파일 : 다음 파일을 다운로드 하세요.[_site.zip](https://github.com/realgrid/realgrid.github.com/raw/master/_site.zip)
+* 정적 사이트 소스 파일 : [_site.zip](https://github.com/realgrid/realgrid.github.com/raw/master/_site.zip)파일을 다운로드 하세요.
 * 로컬 웹서버 만드는 방법 링크
   * [VisualStudio를 이용하여 로컬 웹사이트를 만드는 방법](https://msdn.microsoft.com/ko-kr/library/tcywfea7(v=VS.80).aspx)
-  * [이클립스에서 웹 프로젝트 만든는 방법](http://withcoding.com/33)
+  * [이클립스에서 웹 프로젝트 만드는 방법](http://withcoding.com/33)
