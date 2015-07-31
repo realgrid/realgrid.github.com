@@ -35,7 +35,11 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * A17 행과 열 고정하기(Fixing)
 * A18 컬럼 필터링(Filtering) - I 필터선택상자 사용하기
 * A19 컬럼 필터링(Filtering) - II setColumnFilters()함수 사용하기
-* 컬럼 그룹핑(column grouping): 
+* A20 셀 선택하기(Selecting) - SelectOptions
+* A21 셀 선택하기(Selecting) - 선택한 셀의 값 가져오기
+* A20 셀 선택하기(Selecting) - 선택한 셀 클립보드에 복사하기
+* 편집기능 - 편집기 종류와 데이터형
+* 편집기능 - 행 추가, 행 삭제, 행 수정
 * 선택셀(Selected Cell)
 * 포커스셀과 선택셀의 차이 이해하기
 * 범위선택, 다중선택하기
@@ -51,6 +55,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * 각종 옵션에 대한 상세 설명
 
 #### 강좌
+* 컬럼 그룹핑(column grouping): 
 * 이벤트
 * 각종 옵션
 * 스타일
