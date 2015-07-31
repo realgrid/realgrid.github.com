@@ -7,6 +7,7 @@ var RealGridJS = (function () {
 
 	var $_debug = false;
 	var setRootContext = Grids.setRootContext;
+    var setAssetRoot = Grids.setAssetRoot;
     var getVersion = Grids.getVersion;
     var setTrace = Grids.setLogging;
 	var getTimer = Grids.getTimer;
@@ -152,6 +153,30 @@ var RealGridJS = (function () {
     });
 
     /**
+     * ColumnHeaderItemLocation
+     */
+    var ColumnHeaderItemLocation = _enum({
+        NONE: "none",
+        LEFT: "left",
+        RIGHT: "right",
+        TOP: "top",
+        BOTTOM: "bottom",
+        CENTER: "center"
+    });
+
+    /**
+     * SubTextLocation
+     */
+    var SubTextLocation = _enum({
+        DEFAULT: "default",
+        NONE: "none",
+        LEFT: "left",
+        RIGHT: "right",
+        UPPER: "upper",
+        LOWER: "lower"
+    });
+
+    /**
      * Cell index
      */
     var CellIndex = function () {
@@ -166,7 +191,19 @@ var RealGridJS = (function () {
      * ColumnHeader.
      */
     var ColumnHeader = function () {
-        this.text = null;
+        this.text = undefined;              // null
+        this.subText = undefined;           // null
+        this.subTextGap = undefined;        // Header.subTextGap
+        this.subTextLocation = undefined;   // Header.subTextLocation
+        this.itemOffset = undefined;        // Header.itemOffset
+        this.itemGap = undefined;           // Header.itemGap
+        this.checkLocation = undefined;     // ColumnHeaderItemLocation.NONE
+        this.imageLocation = undefined;     // ColumnHeaderItemLocation.NONE
+        this.imageIndex = undefined;        // -1
+        this.imageUrl = undefined;          // null
+        this.checked = undefined;           // false
+        this.styles = undefined;            // child of Header.styles
+        this.subStyles = undefined;         // child of Header.subStyles
     };
 
     /**
@@ -339,6 +376,14 @@ var RealGridJS = (function () {
     });
 
     /**
+     * Sort case.
+     */
+    var SortCase = _enum({
+        SENSITIVE: "sensitive",
+        INSENSITIVE: "insensitive"
+    });
+
+    /**
     * SelectionStyle.
     */
     var SelectionStyle = _enum({
@@ -472,12 +517,19 @@ var RealGridJS = (function () {
 	 * Header options.
 	 */
 	var Header = function () {
-		this.height = undefined;       // 0
-		this.minHeight = undefined;    // 23
-		this.resizable = undefined;    // false
-		this.visible = undefined;      // true
-		this.filterable = undefined;   // true
-		this.sortable = undefined;     // true
+		this.height = undefined;            // 0
+		this.minHeight = undefined;         // 23
+		this.resizable = undefined;         // false
+		this.visible = undefined;           // true
+		this.filterable = undefined;        // true
+		this.sortable = undefined;          // true
+        this.subTextGap = undefined;        // 1
+        this.subTextLocation = undefined;   // SubTextLocation.LOWER
+        this.imageList = undefined;         // null
+        this.itemOffset = undefined;        // 2
+        this.itemGap = undefined;           // 2
+        this.styles = undefined;            //
+        this.subStyles = undefined;         //
 	};
 
 	/**
@@ -1021,6 +1073,9 @@ var RealGridJS = (function () {
             endRow = arguments.length > 2 ? endRow : -1;
             return this._dp.getOutputObjects(options, startRow, endRow);
         },
+        getOutputRow: function (options, row) {
+            return this._dp.getOutputObject(options, row);
+        },
 		getFieldValues: function (field, startRow, endRow) {
 			startRow = arguments.length > 1 ? startRow : 0;
 			endRow = arguments.length > 2 ? endRow : -1;
@@ -1138,6 +1193,9 @@ var RealGridJS = (function () {
 		getItemsOfRows: function (rows) {
 			return this._gv.getItemIndiciesOfRows(rows);
 		},
+        getColumns: function () {
+            return _realgrid.getColumns(this._gv);
+        },
     	setColumns: function (columns) {
     		var cols = _realgrid.createColumns(columns);
     		this._gv.setColumns(cols);
@@ -1178,8 +1236,8 @@ var RealGridJS = (function () {
     	getColumnGroupNames: function () {
             return _realgrid.getColumnGroupNames(this._gv);
     	},
-    	orderBy: function (fieldNames, sortDirs) {
-            _realgrid.orderBy(this._gv, fieldNames, sortDirs);
+    	orderBy: function (fieldNames, sortDirs, textCases) {
+            _realgrid.orderBy(this._gv, fieldNames, sortDirs, textCases);
     	},
 		getSortedFields: function () {
 			return _realgrid.getSortedFields(this._gv);
@@ -1245,19 +1303,17 @@ var RealGridJS = (function () {
     	},
     	// index
     	getCurrent: function () {
-    		var index = this._gv.focusedIndex();
-    		return index ? index.proxy() : Grids.CellIndex.nullProxy();
+            return _realgrid.getCurrent(this._gv);
     	},
 		setCurrent: function (current, select) {
 			select = arguments.length > 1 ? select : true;
-			this._gv.setCurrent(current, select);
+			_realgrid.setCurrent(this._gv, current, select);
 		},
 		resetCurrent: function () {
 			_realgrid.resetCurrent(this._gv);
 		},
 		mouseToIndex: function (x, y) {
-			var index = this._gv.pointToIndex(x, y, true);
-			return index ? index.proxy() : Grids.CellIndex.nullProxy();
+            return _realgrid.mouseToIndex(this._gv, x, y);
 		},
     	// options
 		getDisplayOptions: function () {
@@ -1557,6 +1613,9 @@ var RealGridJS = (function () {
 		getModelAs: function (itemIndex, itemType, extended) {
 			return _realgrid.getModelAs(this._gv, itemIndex, itemType, extended);
 		},
+        getGroupModel: function (itemIndex, extended) {
+            return _realgrid.getGroupModel(this._gv, itemIndex, extended);
+        },
 		getParentModel: function (model, extended) {
 			return _realgrid.getParentModel(this._gv, model, extended);
 		},
@@ -1610,6 +1669,7 @@ var RealGridJS = (function () {
 		},
 
 		setCellStyle: function (dataRow, field, styleId, updateNow) {
+            updateNow = arguments.length > 3 ? updateNow : true;
 			this._gv.setDataCellStyle(dataRow, field, styleId, updateNow);
 		},
 		setCellStyles: function (dataRows, fields, styleId) {
@@ -1635,6 +1695,29 @@ var RealGridJS = (function () {
 			this._gv.closeProgress();
 		},
 		// utils
+        searchItem: function (options) {
+            if (options) {
+                var fields = options.fields;
+                var values = options.values;
+                var startIndex = options.startIndex !== undefined ? options.startIndex : 0;
+                var wrap = options.wrap !== undefined ? options.wrap : true;
+                var select = options.select !== undefined ? options.select : true;
+                return this._gv.searchItem(fields, values, options, startIndex, wrap, select);
+            }
+            return -1;
+        },
+        searchCell: function (options) {
+            if (options) {
+                var fields = options.fields;
+                var value = options.value;
+                var startItemIndex = options.startItemIndex !== undefined ? options.startItemIndex : 0;
+                var startFieldIndex = options.startFieldIndex !== undefined ? options.startFieldIndex : 0;
+                var wrap = options.wrap !== undefined ? options.wrap : true;
+                var select = options.select !== undefined ? options.select : true;
+                return this._gv.searchCell(fields, value, options, startItemIndex, startFieldIndex, wrap, select);
+            }
+            return null;
+        },
 		resetSize: function () {
 			_realgrid.resetSize(this._gv);
 		},
@@ -1662,6 +1745,69 @@ var RealGridJS = (function () {
 		onColumnHeaderDblClicked: $_debug ? function (grid, column) {
 			_log("onColumnHeaderDblClicked: " + "(" + column.name + ")");
 		} : null,
+        onColumnCheckedChanged: $_debug ? function (grid, column, checked) {
+            _log("onColumnCheckedChanged: " + "(" + column.name + ", " + checked + ")");
+        } : null,
+        onFooterCellClicked: $_debug ? function (grid, column) {
+            _log("onFooterCellClicked : " + "(" + column.name + ")");
+        } : null,
+        onFooterCellDblClicked : $_debug ? function (grid, column) {
+            _log("onFooterCellDblClicked : " + "(" + column.name + ")");
+        } : null,
+        onCheckBarFootClicked : $_debug ? function (grid) {
+            _log("onCheckBarFootClicked");
+        } : null,
+        onIndicatorCellClicked : $_debug ? function (grid, column) {
+            _log("onIndicatorCellClicked : " + "(" + column.name + ")");
+        } : null,
+        onStateBarCellClicked : $_debug ? function (grid, index) {
+            _log("onStateBarCellClicked : " + "(" + index + ")");
+        } : null,
+        onRowGroupHeadClicked : $_debug ? function (grid) {
+            _log("onRowGroupHeadClicked");
+        } : null,
+        onRowGroupFootClicked : $_debug ? function (grid) {
+            _log("onRowGroupFootClicked");
+        } : null,
+        onRowGroupHeaderFooterClicked : $_debug ?  function (grid, index) {
+            _log("onRowGroupHeaderFooterClicked : " + "(" + index + ")");
+        } : null,
+        onRowGroupBarClicked : $_debug ?  function (grid, index) {
+            _log("onRowGroupBarClicked : " + "(" + index + ")");
+        } : null,
+        onCheckBarFootDblClicked : $_debug ? function (grid) {
+            _log("onCheckBarFootDblClicked");
+        } : null,
+        onIndicatorCellDblClicked : $_debug ? function (grid, index) {
+            _log("onIndicatorCellDblClicked : " + "(" + index + ")");
+        } : null,
+        onStateBarCellDblClicked : $_debug ? function (grid, index) {
+            _log("onStateBarCellDblClicked : " + "(" + index + ")");
+        } : null,
+        onRowGroupHeadDblClicked : $_debug ? function (grid) {
+            _log("onRowGroupHeadDblClicked");
+        } : null,
+        onRowGroupFootDblClicked : $_debug ? function (grid) {
+            _log("onRowGroupFootDblClicked");
+        } : null,
+        onRowGroupHeaderFooterDblClicked : $_debug ? function (grid, index) {
+            _log("onRowGroupHeaderFooterDblClicked : " + "(" + index + ")");
+        } : null,
+        onRowGroupBarDblClicked : $_debug ? function (grid, index) {
+            _log("onRowGroupBarDblClicked : " + "(" + index + ")");
+        } : null,
+        onPanelClicked : $_debug ? function (grid) {
+            _log("onPanelClicked");
+        } : null,
+        onPanelDblClicked : $_debug ? function (grid) {
+            _log("onPanelDblClicked");
+        } : null,
+        onRowGroupPanelClicked : $_debug ? function (grid, column) {
+            _log("onRowGroupPanelClicked : " + "(" + column.name + ")");
+        } : null,
+        onRowGroupPanelDblClicked : $_debug ? function (grid, column) {
+            _log("onRowGroupPanelDblClicked : " + "(" + column.name + ")");
+        } : null,
 		onValidateColumn: $_debug ? function (grid, column, inserting, value) {
 			return null;
 		} : null,
@@ -1792,7 +1938,7 @@ var RealGridJS = (function () {
 			this._gv.setRowGroup(value);
 		},
         groupBy: function (fieldNames) {
-        	this._gv.groupByNames(fieldNames, true, SortDirection.ASCENDING);
+        	this._gv.groupByFieldNames(fieldNames, true, SortDirection.ASCENDING);
         },
         isGrouped: function () {
             return this._gv.isRowGrouped();
@@ -1818,12 +1964,21 @@ var RealGridJS = (function () {
 		isGroupItem: function (itemIndex) {
 			return _realgrid.isGroupItem(this._gv, itemIndex);
 		},
+        isParentVisible: function (itemIndex) {
+            return _realgrid.isParentVisible(this._gv, itemIndex);
+        },
 		expandGroup: function (itemIndex, recursive, force) {
 			_realgrid.expandGroup(this._gv, itemIndex, recursive, force);
 		},
 		collapseGroup: function (itemIndex, recursive) {
 			_realgrid.collapseGroup(this._gv, itemIndex, recursive);
 		},
+        expandParent: function (itemIndex, recursive, force) {
+            _realgrid.expandParent(this._gv, itemIndex, recursive, force);
+        },
+        collapseParent: function (itemIndex, recursive) {
+            _realgrid.collapseParent(this._gv, itemIndex, recursive);
+        },
 		// grouping
     	getGroupingOptions: function () {
     		return this._gv.groupingOptions().proxy();
@@ -1862,30 +2017,6 @@ var RealGridJS = (function () {
 		setPageCount: function (newCount) {
 			this._gv.setPageCount(newCount);
 		},
-		// utilities
-		searchItem: function (options) {
-			if (options) {
-				var fields = options.fields;
-				var values = options.values;
-				var startIndex = options.startIndex !== undefined ? options.startIndex : 0;
-				var wrap = options.wrap !== undefined ? options.wrap : true;
-				var select = options.select !== undefined ? options.select : true;
-				return this._gv.searchItem(fields, values, options, startIndex, wrap, select);
-			}
-			return -1;
-		},
-        searchCell: function (options) {
-            if (options) {
-                var fields = options.fields;
-                var value = options.value;
-                var startItemIndex = options.startItemIndex !== undefined ? options.startItemIndex : 0;
-                var startFieldIndex = options.startFieldIndex !== undefined ? options.startFieldIndex : 0;
-                var wrap = options.wrap !== undefined ? options.wrap : true;
-                var select = options.select !== undefined ? options.select : true;
-                return this._gv.searchCell(fields, value, options, startItemIndex, startFieldIndex, wrap, select);
-            }
-            return null;
-        },
 		// event handlers -- 불필요한 handler는 설정하지 않는다.
         onGrouping: $_debug ? function (grid, fields) {
             _log("onGrouping: " + JSON.stringify(fields));
@@ -1980,6 +2111,10 @@ var RealGridJS = (function () {
 			iconProp = arguments.length > 3 ? iconProp : "iconIndex";
 			return _realgrid.getTreeJsonRows(this._dp, rowId, recursive, childRowsProp, iconProp);
 		},
+        getOutputRow: function (options, rowId, iconProp) {
+            iconProp = arguments.length > 2 ? iconProp : "iconIndex";
+            return _realgrid.getTreeOutuputRow(this._dp, options, rowId, iconProp);
+        },
         getOutputRows: function (options, rowId, recursive, childRowsProp, iconProp) {
             childRowsProp = arguments.length > 3 ? childRowsProp : "rows";
             iconProp = arguments.length > 4 ? iconProp : "iconIndex";
@@ -2146,6 +2281,7 @@ var RealGridJS = (function () {
     return {
     	getVersion: getVersion,
 		setRootContext: setRootContext,
+        setAssetRoot: setAssetRoot,
 		setDebug: _setDebug,
     	setTrace: setTrace,
         setLogging: setTrace,
@@ -2171,6 +2307,7 @@ var RealGridJS = (function () {
         IndicatorValue: IndicatorValue,
 		SortStyle: SortStyle,
 		SortDirection: SortDirection,
+        SortCase: SortCase,
 		SelectionStyle: SelectionStyle,
 		ItemType: ItemType,
 		ItemState: ItemState,
