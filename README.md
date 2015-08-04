@@ -69,6 +69,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 #### 강좌
 * C1 RealGridJS 별도 다이얼로그를 이용한 하나의 행 추가
 * C2 RealGridJS 다이얼로그 그리드에서 메인 그리드로 행 복사
+* C4 RealGridJS Excel Export remote 서버 구현
 * 컬럼의 특정 값을 보고 편집가능여부를 조작하기(flowmt)
 * 그리드에서 수정된 데이터를 복원하는 방법
 * 홀수행과 짝수행의 행 색깔을 다르게 표현하는 방법(fanelia)
