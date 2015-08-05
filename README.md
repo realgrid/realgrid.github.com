@@ -38,7 +38,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * A19 컬럼 필터링(Filtering) - II setColumnFilters()함수 사용하기
 * A20 셀 선택하기(Selecting) - SelectOptions
 * A21 셀 선택하기(Selecting) - 선택한 셀의 값 가져오기
-* A22 셀 선택하기(Selecting) - 선택한 셀 클립보드에 복사하기
+* A22 셀 선택하기(Selecting) - 동적으로 셀 선택하기
 * A23 데이터 행 편집하기 - 행 상태(RowState)와 트랜젝션
 * A24 데이터 행 편집하기 - 행 추가하기(Create)
 * A25 데이터 행 편집하기 - 행 수정하기(Update)
