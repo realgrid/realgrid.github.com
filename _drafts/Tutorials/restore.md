@@ -1,0 +1,481 @@
+---
+layout: post
+title: 수정한 데이터 복원하기
+date: 2015-08-03 13:49:31 +9:00 GMT
+permalink: /tutorial/restore
+categories:
+  - Tutorial
+author: fanelia@wrw.kr
+course:
+  - C-Class
+tags: 
+  - RealGridJS
+  - RealGrid
+  - RestoreUpdatedRow
+  - RestoreUpdatedState
+  - RestoreMode
+  - Update
+  - 복원
+  - 복구
+  - 복원모드
+  - 복구모드
+  - 리스토어모드
+
+---
+
+<script type="text/javascript" src="/script/dlgrids_eval.js"></script>
+<script type="text/javascript" src="/script/realgridjs.js"></script>
+
+<script>
+var gridView;
+var dataProvider;
+
+$(document).ready( function(){
+    RealGridJS.setTrace(false);
+    RealGridJS.setRootContext("/script");
+    
+    dataProvider = new RealGridJS.LocalDataProvider();
+    gridView = new RealGridJS.GridView("realgrid");
+    gridView.setDataSource(dataProvider);
+
+    //필드 배열 객체를 생성합니다.
+    var fields = [
+        {
+            fieldName: "field1"
+        },
+        {
+            fieldName: "field2"
+        },
+        {
+            fieldName: "field3"
+        },
+        {
+            fieldName: "field4"
+        },
+        {
+            fieldName: "field5"
+        },
+        {
+            fieldName: "field6"
+        },
+        {
+            fieldName: "field7"
+        },
+        {
+            fieldName: "field8"
+        },
+        {
+            fieldName: "field9"
+        },
+        {
+            fieldName: "field10"
+        }
+    ];
+    //DataProvider의 setFields함수로 필드를 입력합니다.
+    dataProvider.setFields(fields);
+
+    //필드와 연결된 컬럼 배열 객체를 생성합니다.
+    var columns = [
+        {
+            name: "col1",
+            fieldName: "field1",
+            header : {
+                text: "직업"
+            },
+            width : 60
+        },
+        {
+            name: "col2",
+            fieldName: "field2",
+            header : {
+                text: "성별"
+            },
+            width: 50
+        },
+        {
+            name: "col3",
+            fieldName: "field3",
+            header : {
+                text: "이름"
+            },
+            width: 80
+        },
+        {
+            name: "col4",
+            fieldName: "field4",
+            header : {
+                text: "국어"
+            },
+            width: 80
+        },
+        {
+            name: "col5",
+            fieldName: "field5",
+            header : {
+                text: "수학"
+            },
+            width: 80
+        },
+        {
+            name: "col6",
+            fieldName: "field6",
+            header : {
+                text: "민법"
+            },
+            width: 80
+        },
+        {
+            name: "col7",
+            fieldName: "field7",
+            header : {
+                text: "한국사"
+            },
+            width: 80
+        },
+        {
+            name: "col8",
+            fieldName: "field8",
+            header : {
+                text: "영어"
+            },
+            width: 80
+        },
+        {
+            name: "col9",
+            fieldName: "field9",
+            header : {
+                text: "과학"
+            },
+            width: 80
+        },
+        {
+            name: "col10",
+            fieldName: "field10",
+            header : {
+                text: "사회"
+            },
+            width: 80
+        }
+    ];
+    //컬럼을 GridView에 입력 합니다.
+    gridView.setColumns(columns);
+
+    var data = [
+        ["배우", "여자", "전도연", "20", "22", "90", "70", "60", "100", "80"],
+        ["가수", "여자", "이선희", "40", "33", "90", "70", "60", "100", "80"],
+        ["배우", "여자", "하지원", "10", "11", "90", "70", "60", "100", "80"],
+        ["가수", "여자", "박정현", "40", "22", "90", "70", "60", "100", "80"],
+        ["배우", "여자", "전지현", "20", "44", "90", "70", "60", "100", "80"]
+    ];
+    dataProvider.setRows(data);
+
+    //복구모드: explicit 지정
+    $("#btnSetRestoreMode").click(function () {
+        dataProvider.setOptions({
+            restoreMode: "explicit"
+        });
+    });
+
+    //body영역의 다이나믹 스타일 제거
+    $("#btnRestoreUpdatedRows").click(function () {
+        var rows = [0,1,2,3,4];
+
+        dataProvider.restoreUpdatedRows(rows);
+    });
+
+    //복구모드: auto 지정
+    $("#btnSetRestoreMode").click(function () {
+        dataProvider.setOptions({
+            restoreMode: "auto"
+        });
+    });
+
+});   
+</script>
+
+### 들어가며
+
+이번 강좌에서는 RealGrid의 수정된 데이터를 원래 값으로 복원하는 방법을 배워보겠습니다.
+
+### 이론
+
+RealGrid의 복원 방법은 크게 2가지 방법이 있습니다.
+
+```1. 지정한 행만 원래 값으로 복원하기```    
+```2. 특정시점으로 그리드 전체를 되돌리기```
+
+이번 강좌에서는 ```1. 지정한 행만 원래 값으로 복원하기``` 를 배워보도록 하겠습니다.   
+```2. 특정시점으로 그리드 전체를 되돌리기```는 http://demo.realgrid.com/Demo/DataRollback 에 예제가 마련되어 있으니 참조하세요
+
+지정한 행만 원래 값으로 복원하는 방법은 매우 간단합니다. 
+
+[1. DataProvider에 복원모드를 지정하기 (setOptions())](/api/DataProvider/setOptions/)  
+[2. 복원하려는 행을 지정하여 데이터 복원하기 (restoreUpdatedRows())](/api/DataProvider/restoreUpdatedRows/)
+
+#### [복원 모드(RestoreMode)](/api/types/RestoreMode/)
+DataProvider의 복원모드는 크게 3가지가 있습니다. 
+
+1. NONE - 복원모드를 사용하지 않는다.
+2. EXPLICIT - 명시적으로 복원명령을 실행했을 경우에만 복원
+3. AUTO - 수정된 값이 원래값과 같을 경우 자동으로 복원
+
+##### DataProvider에 복원모드를 지정하는 방법
+[dataProvider.setOptions()](/api/DataProvider/setOptions/)를 사용하여 복원모드를 지정할 수 있습니다.
+복원모드를 지정하는 속성명은 [restoreMode](/api/types/RestoreMode/) 입니다.
+
+##### 유의사항
+복원모드는 그리드를 처음 설정하는 부분에서 설정해주세요. 값의 수정이 일어난 후(RowState가 변경된 후) 복원모드를 지정한 경우 RowState가 이미 변경된 행은 복원모드가 동작하지 않습니다. 
+
+### 실습
+
+실습에서는 복원모드 설정에 따라 어떻게 복원되는지 확인해 보도록 하겠습니다.
+
+1. 버튼을 클릭하면 setOptions()을 사용하여 dataProvider에 restoreMode: "explicit"를 적용합니다.
+
+    <pre class="prettyprint">
+    //복구모드: explicit 지정
+    $("#btnSetRestoreMode").click(function () {
+        dataProvider.setOptions({
+            restoreMode: "explicit"
+        });
+    });</pre>
+
+2. 값을 수정하여 RowState가 변경되도록 합니다.
+
+3. 버튼을 클릭하면 수정되었던 데이터들이 복원 됩니다.
+
+    <pre class="prettyprint">
+        var rows = [0,1,2,3,4];
+        
+        dataProvider.restoreUpdatedRows(rows);
+    });</pre>
+
+4. 버튼을 클릭하면 setOptions()을 사용하여 dataProvider에 restoreMode: "auto"를 적용합니다.
+
+    <pre class="prettyprint">
+    //복구모드: auto 지정
+    $("#btnSetRestoreMode").click(function () {
+        dataProvider.setOptions({
+            restoreMode: "auto"
+        });
+    });</pre>
+
+5. 값을 수정하여 RowState가 변경되도록 합니다.
+
+6. 수정한 값을 원래대로 수정하면 RowState가 원래대로 변경되는지 확인 합니다.
+
+
+### 실행화면
+
+1. <button type="button" class="btn btn-primary btn-xs" id="btnSetRestoreMode">dataProvider에 복구모드: "explicit" 지정하기</button> 
+
+2. 값을 수정하여 RowState가 변경되도록 합니다.
+
+3. <button type="button" class="btn btn-primary btn-xs" id="btnRestoreUpdatedRows">수정된 RealGrid값을 복원하기</button> 버튼을 클릭하여 그리드 데이터들이 복원됐는지 확인하세요.  
+
+4. <button type="button" class="btn btn-primary btn-xs" id="btnSetRestoreMode1">dataProvider에 복구모드: "auto" 지정하기</button>    
+
+5. 값을 수정하여 RowState가 변경되도록 하세요.
+
+6. 수정한 값을 원래대로 수정하여 RowState가 원래대로 복원되는지 확인하세요.
+
+<div id="realgrid" style="width: 100%; height: 200px;"></div>
+<p></p>
+
+
+### 전체 소스코드
+
+##### SCRIPT    
+<pre class="prettyprint full-source-script">
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/bootstrap.css&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/jquery-1.112.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;!--realgrid--&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/dlgrids_eval.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/realgridjs.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+var gridView;
+var dataProvider;
+
+$(document).ready( function(){
+    RealGridJS.setTrace(false);
+    RealGridJS.setRootContext("/script");
+    
+    dataProvider = new RealGridJS.LocalDataProvider();
+    gridView = new RealGridJS.GridView("realgrid");
+    gridView.setDataSource(dataProvider);
+
+    //다섯개의 필드를 가진 배열 객체를 생성합니다.
+    var fields = [
+        {
+            fieldName: "field1"
+        },
+        {
+            fieldName: "field2"
+        },
+        {
+            fieldName: "field3"
+        },
+        {
+            fieldName: "field4"
+        },
+        {
+            fieldName: "field5"
+        },
+        {
+            fieldName: "field6"
+        },
+        {
+            fieldName: "field7"
+        },
+        {
+            fieldName: "field8"
+        },
+        {
+            fieldName: "field9"
+        },
+        {
+            fieldName: "field10"
+        }
+    ];
+    //DataProvider의 setFields함수로 필드를 입력합니다.
+    dataProvider.setFields(fields);
+
+    //필드와 연결된 컬럼 배열 객체를 생성합니다.
+    var columns = [
+        {
+            name: "col1",
+            fieldName: "field1",
+            header : {
+                text: "직업"
+            },
+            width : 60
+        },
+        {
+            name: "col2",
+            fieldName: "field2",
+            header : {
+                text: "성별"
+            },
+            width: 50
+        },
+        {
+            name: "col3",
+            fieldName: "field3",
+            header : {
+                text: "이름"
+            },
+            width: 80
+        },
+        {
+            name: "col4",
+            fieldName: "field4",
+            header : {
+                text: "국어"
+            },
+            width: 80
+        },
+        {
+            name: "col5",
+            fieldName: "field5",
+            header : {
+                text: "수학"
+            },
+            width: 80
+        },
+        {
+            name: "col6",
+            fieldName: "field6",
+            header : {
+                text: "민법"
+            },
+            width: 80
+        },
+        {
+            name: "col7",
+            fieldName: "field7",
+            header : {
+                text: "한국사"
+            },
+            width: 80
+        },
+        {
+            name: "col8",
+            fieldName: "field8",
+            header : {
+                text: "영어"
+            },
+            width: 80
+        },
+        {
+            name: "col9",
+            fieldName: "field9",
+            header : {
+                text: "과학"
+            },
+            width: 80
+        },
+        {
+            name: "col10",
+            fieldName: "field10",
+            header : {
+                text: "사회"
+            },
+            width: 80
+        }
+    ];
+    //컬럼을 GridView에 입력 합니다.
+    gridView.setColumns(columns);
+
+    var data = [
+        ["가수", "여자", "정수라", "80", "99", "90", "90", "100", "100", "90"],
+        ["배우", "여자", "송윤아", "10", "33", "90", "70", "60", "100", "80"],
+        ["배우", "여자", "전도연", "20", "22", "90", "70", "60", "100", "80"],
+        ["가수", "여자", "이선희", "40", "33", "90", "70", "60", "100", "80"],
+        ["배우", "여자", "하지원", "10", "11", "90", "70", "60", "100", "80"],
+        ["가수", "여자", "소찬휘", "30", "55", "90", "70", "60", "100", "80"],
+        ["가수", "여자", "박정현", "40", "22", "90", "70", "60", "100", "80"],
+        ["배우", "여자", "전지현", "20", "44", "90", "70", "60", "100", "80"]
+    ];
+    dataProvider.setRows(data);
+
+    //복구모드: explicit 지정
+    $("#btnSetRestoreMode").click(function () {
+        dataProvider.setOptions({
+            restoreMode: "explicit"
+        });
+    });
+
+    //body영역의 다이나믹 스타일 제거
+    $("#btnRestoreUpdatedRows").click(function () {
+        var rows = [0,1,2,3,4];
+
+        dataProvider.restoreUpdatedRows(rows);
+    });
+
+    //복구모드: auto 지정
+    $("#btnSetRestoreMode").click(function () {
+        dataProvider.setOptions({
+            restoreMode: "auto"
+        });
+    });
+});   
+&lt;/script&gt;
+</pre>
+
+##### HTML
+<pre class="prettyprint full-source-html">
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;btnSetDynamicStyles&quot;&gt;&#xc9dd;/&#xd640;&#xc218; &#xd589;&#xc5d0; &#xb2e4;&#xc774;&#xb098;&#xbbf9; &#xc2a4;&#xd0c0;&#xc77c; &#xc801;&#xc6a9;&#xd558;&#xae30;&lt;/button&gt;
+
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;btnClearStyles&quot;&gt;body영역의 다이나믹 스타일 제거&lt;/button&gt;
+
+&lt;div id=&quot;realgrid&quot; style=&quot;width: 100%; height: 300px;&quot;&gt;&lt;/div&gt;
+</pre>
+
+
+---
+**참조**
+
+* [RealGrid Help](http://help.realgrid.com){:target="_blank"}
+

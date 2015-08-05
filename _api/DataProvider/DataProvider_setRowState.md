@@ -25,11 +25,13 @@ permalink: /api/DataProvider/setRowState/
 
 > **state**  
 > Type:RealGrids.RowState  
-> 지정하지 않으면 "none"이다.  
+> Defalut: "none"    
+> 행 상태를 지정한다.  
 
 > **force**  
 > Type: Boolean  
-> 지정하지 않으면 false이다.  
+> Default: false  
+> dataProvider.options.checkStates의 값이 false 일 경우 행 상태의 강제 지정 여부  
 
 
 #### Return value
