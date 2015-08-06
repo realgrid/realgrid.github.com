@@ -17,35 +17,35 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 3. 기초적인 데이터 입출력 방법 배우기 
 
 #### 강좌
-* A1 RealGridJS 설치하기
-* A2 컬럼 만들기
-* A3 필드 만들기
-* A4 컬럼 수정하기
-* A5 컬럼 필드 연결하기
-* A6 데이터 넣기 
-* A7 필드하나에 컬럼 두개 연결 하기
-* A8 포커스셀 이해하기
-* A9 여러행 데이터와 RowId 이해하기
-* A10 ItemModel과 ItemId 이해하기
-* A11 Item과 Data의 다른점은?
-* A12 소팅(sorting), 데이터 정렬하기 - I 단일 컬럼 정렬 
-* A13 소팅(sorting), 데이터 정렬하기 - II 다중 컬럼 정렬 
-* A14 소팅(sorting), 데이터 정렬하기 - III orderBy()함수 사용하기
-* A15 로우 그룹핑(row grouping) - I 패널(panel)영역을 이용하여 그룹핑
-* A16 로우 그룹핑(row grouping) - II groupBy()함수로 그룹핑
-* A17 행과 열 고정하기(Fixing)
-* A18 컬럼 필터링(Filtering) - I 필터선택상자 사용하기
-* A19 컬럼 필터링(Filtering) - II setColumnFilters()함수 사용하기
-* A20 셀 선택하기(Selecting) - SelectOptions
-* A21 셀 선택하기(Selecting) - 선택한 셀의 값 가져오기
-* A22 셀 선택하기(Selecting) - 동적으로 셀 선택하기
-* A23 데이터 행 편집하기 - 행 상태(RowState)와 트랜젝션
-* A24 데이터 행 편집하기 - 행 추가하기(Create)
-* A25 데이터 행 편집하기 - 행 수정하기(Update)
-* A26 데이터 행 편집하기 - 행 삭제하기(Delete)
-* A27 데이터형(DataType)
+* [x] A1 RealGridJS 설치하기
+* [x] A2 컬럼 만들기
+* [x] A3 필드 만들기
+* [x] A4 컬럼 수정하기
+* [x] A5 컬럼 필드 연결하기
+* [x] A6 데이터 넣기 
+* [x] A7 필드하나에 컬럼 두개 연결 하기
+* [x] A8 포커스셀 이해하기
+* [x] A9 여러행 데이터와 RowId 이해하기
+* [x] A10 ItemModel과 ItemId 이해하기
+* [x] A11 Item과 Data의 다른점은?
+* [x] A12 소팅(sorting), 데이터 정렬하기 - I 단일 컬럼 정렬 
+* [x] A13 소팅(sorting), 데이터 정렬하기 - II 다중 컬럼 정렬 
+* [x] A14 소팅(sorting), 데이터 정렬하기 - III orderBy()함수 사용하기
+* [x] A15 로우 그룹핑(row grouping) - I 패널(panel)영역을 이용하여 그룹핑
+* [x] A16 로우 그룹핑(row grouping) - II groupBy()함수로 그룹핑
+* [x] A17 행과 열 고정하기(Fixing)
+* [x] A18 컬럼 필터링(Filtering) - I 필터선택상자 사용하기
+* [x] A19 컬럼 필터링(Filtering) - II setColumnFilters()함수 사용하기
+* [x] A20 셀 선택하기(Selecting) - SelectOptions
+* [x] A21 셀 선택하기(Selecting) - 선택한 셀의 값 가져오기
+* [ ] A22 셀 선택하기(Selecting) - 동적으로 셀 선택하기
+* [ ] A23 데이터 행 편집하기 - 행 상태(RowState)와 트랜젝션
+* [ ] A24 데이터 행 편집하기 - 행 추가하기(Create)
+* [ ] A25 데이터 행 편집하기 - 행 수정하기(Update)
+* [ ] A26 데이터 행 편집하기 - 행 삭제하기(Delete)
+* [ ] A27 데이터형(DataType)
 
-#### Class B
+### Class B
 
 #### 목표
 * A Class에 대한 보충 설명
@@ -65,17 +65,17 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * 재미있는 예제
 
 #### 강좌
-* C1 RealGridJS 별도 다이얼로그를 이용한 하나의 행 추가
-* C2 RealGridJS 다이얼로그 그리드에서 메인 그리드로 행 복사
-* C3 짝수, 홀수 행의 스타일을 다르게 표현하기
-* C4 RealGridJS Excel Export remote 서버 구현
-* C5 행의 상태 또는 셀의 값에 따른 셀의 editable 변경(flowmt) --> **실행 부분 좀더 쉽게**
-* C6 데이터를 복원하기 - I 지정한 행만 원래 데이터로 방법(fanelia)
-* C7 데이터를 복원하기 - II 전체 데이터를 복원하는 방법(fanelia)
-* C8 하이차트(http://www.highcharts.com)와 RealGrid연동(yoogi82)
-* C9 RealGrid에 바이너리 엑셀 파일 불러오기(import)(flowmt)
-* C10 RealGridJS에서 엑셀의 사용자 지정 필터 구현 --> 차주로 연기
-* C11 RealGrid+와 RealGridJS을 동시 구현 시 생산성 향상 방법 --> 화요일 까지
+* [x] C1 RealGridJS 별도 다이얼로그를 이용한 하나의 행 추가(jun)
+* [x] C2 RealGridJS 다이얼로그 그리드에서 메인 그리드로 행 복사(jun)
+* [x] C3 짝수, 홀수 행의 스타일을 다르게 표현하기(fanelia)
+* [x] C4 RealGridJS Excel Export remote 서버 구현(jun)
+* [x] C5 행의 상태 또는 셀의 값에 따른 셀의 editable 변경(flowmt) --> **실행 부분 좀더 쉽게**
+* [x] C6 데이터를 복원하기 - I 지정한 행만 원래 데이터로 방법(fanelia)
+* [ ] C7 데이터를 복원하기 - II 전체 데이터를 복원하는 방법(fanelia)
+* [ ] C8 하이차트(http://www.highcharts.com)와 RealGrid연동(yoogi82)
+* [ ] C9 RealGrid에 바이너리 엑셀 파일 불러오기(import)(flowmt)
+* [ ] C10 RealGridJS에서 엑셀의 사용자 지정 필터 구현(jun) --> 차주로 연기
+* [ ] C11 RealGrid+와 RealGridJS을 동시 구현 시 생산성 향상 방법(jun) --> 화요일 까지
 
 ## FAQ
 RealGrid기술지원 내용을 정리하여 자주 받게되는 질문과 그 질문에 대한 최선의 답변을 제공합니다.
