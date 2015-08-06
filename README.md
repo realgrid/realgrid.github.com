@@ -74,6 +74,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * C7 데이터를 복원하기 - II 전체 데이터를 복원하는 방법(fanelia)
 * C8 하이차트(http://www.highcharts.com)와 RealGrid연동(yoogi82)
 * C9 RealGrid에 바이너리 엑셀 파일 불러오기(import)(flowmt)
+* C10 RealGridJS에서 엑셀의 사용자 지정 필터 구현
 
 ## FAQ
 RealGrid기술지원 내용을 정리하여 자주 받게되는 질문과 그 질문에 대한 최선의 답변을 제공합니다.
