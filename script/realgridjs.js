@@ -1757,11 +1757,11 @@ var RealGridJS = (function () {
         onCheckBarFootClicked : $_debug ? function (grid) {
             _log("onCheckBarFootClicked");
         } : null,
-        onIndicatorCellClicked : $_debug ? function (grid, column) {
-            _log("onIndicatorCellClicked : " + "(" + column.name + ")");
+        onIndicatorCellClicked : $_debug ? function (grid, itemIndex) {
+            _log("onIndicatorCellClicked : " + "(" + itemIndex + ")");
         } : null,
-        onStateBarCellClicked : $_debug ? function (grid, index) {
-            _log("onStateBarCellClicked : " + "(" + index + ")");
+        onStateBarCellClicked : $_debug ? function (grid, itemIndex) {
+            _log("onStateBarCellClicked : " + "(" + itemIndex + ")");
         } : null,
         onRowGroupHeadClicked : $_debug ? function (grid) {
             _log("onRowGroupHeadClicked");
@@ -1778,11 +1778,11 @@ var RealGridJS = (function () {
         onCheckBarFootDblClicked : $_debug ? function (grid) {
             _log("onCheckBarFootDblClicked");
         } : null,
-        onIndicatorCellDblClicked : $_debug ? function (grid, index) {
-            _log("onIndicatorCellDblClicked : " + "(" + index + ")");
+        onIndicatorCellDblClicked : $_debug ? function (grid, itemIndex) {
+            _log("onIndicatorCellDblClicked : " + "(" + itemIndex + ")");
         } : null,
-        onStateBarCellDblClicked : $_debug ? function (grid, index) {
-            _log("onStateBarCellDblClicked : " + "(" + index + ")");
+        onStateBarCellDblClicked : $_debug ? function (grid, itemIndex) {
+            _log("onStateBarCellDblClicked : " + "(" + itemIndex + ")");
         } : null,
         onRowGroupHeadDblClicked : $_debug ? function (grid) {
             _log("onRowGroupHeadDblClicked");
