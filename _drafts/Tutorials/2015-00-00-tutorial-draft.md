@@ -17,10 +17,42 @@ tags:
 
 ## 문장의 표현, 느낌
 * 문장은 최대한 간결하게 작성합니다.
-* "입니다.", "습니다.", "합니다." 정도의 존칭을 사용합니다.
-* `강좌` 라는 표현을 사용한다. 강의, 글, 기사 등을 강좌로 통일합니다.
-* 알아본다. 알아보자 대신 `배워본다.`, `배워보자.`를 사용합니다.
+* `입니다.`, `습니다.`, `합니다.` 정도의 존칭을 사용합니다.
+* `강좌` 라는 표현을 사용합니다. 강의, 글, 기사 등을 `강좌`로 통일합니다.
+* `알아봅시다.`, `배워봅시다.`와 같은 표현을 사용합니다.
 * 제품을 표현할때에는 `RealGrid`로, 일반적인 대명사로는 `그리드`를 사용합니다.
+
+## 소스코드는 아래 규칙대로...
+
+* 그리드에 스타일이나 컬러, 옵션등 튜토리얼과 무관한 모양내기를 하지 마세요.
+* 특별한 경우가 아니라면 소스코드의 설치 부분과 변수명을 아래와 같이 통일해주세요.
+  
+  **스크립트 영역**
+
+  <pre class="prettyprint">
+  var gridView;
+  var dataProvider;
+      
+  $(document).ready( function() {
+
+      RealGridJS.setTrace(false);
+      RealGridJS.setRootContext("/script");
+      
+      dataProvider = new RealGridJS.LocalDataProvider();
+      gridView = new RealGridJS.GridView("realgrid");
+      gridView.setDataSource(dataProvider);
+
+      //추가로 필요한 코드 작성
+
+  }</pre>
+
+  **HTML영역**
+
+  <pre class="prettyprint">
+  &lt;div id=&quot;<mark>ralgrid</mark>&quot; style=&quot;width: 100%; height: 200px;&quot;&gt;&lt;/div&gt;
+  &lt;p&gt;&lt;/p&gt;
+
+  </pre>
 
 ## 작성순서
 1. 파일 생성
