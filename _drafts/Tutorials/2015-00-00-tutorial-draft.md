@@ -126,6 +126,14 @@ tags:
 
 
 ---
-**참조**
+**데모 사이트**
 
-* [RealGrid Help](http://help.realgrid.com){:target="_blank"}
+* [Selecting](http://demo.realgrid.com/Demo/Selecting?ptype=js)
+
+---
+**API 참조**
+
+* [SelectionItem](/api/types/SelectionItem/)
+* [getSelection](/api/types/getSelection/)
+* [setSelection](/api/types/setSelection/)
+* [clearSelection](/api/types/clearSelection/)

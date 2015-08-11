@@ -38,21 +38,28 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] A19 컬럼 필터링(Filtering) - II setColumnFilters()함수 사용하기
 * [x] A20 셀 선택하기(Selecting) - SelectOptions
 * [x] A21 셀 선택하기(Selecting) - 선택한 셀의 값 가져오기
-* [ ] A22 셀 선택하기(Selecting) - 동적으로 셀 선택하기
+* [x] A22 셀 선택하기(Selecting) - 동적으로 셀 선택하기
 * [ ] A23 데이터 행 편집하기 - 행 상태(RowState)와 트랜젝션
 * [ ] A24 데이터 행 편집하기 - 행 추가하기(Create)
 * [ ] A25 데이터 행 편집하기 - 행 수정하기(Update)
 * [ ] A26 데이터 행 편집하기 - 행 삭제하기(Delete)
 * [ ] A27 데이터형(DataType)
+* [ ] A28 데이터 편집기 종류(Editors)
 
 ### Class B
 
 #### 목표
-* A Class에 대한 보충 설명
-* API에 대한 상세 설명
-* 각종 옵션에 대한 상세 설명
+* A Class보다 고급기술을 설명합니다.
+* Demo 페이지에 대한 실습을 강의합니다.
 
 #### 강좌
+* Editing
+    - [ ] Inserting
+    - [ ] Updating
+    - [ ] Deleting
+    - [x] Row States(A Class)
+    - [x] Editors(A Class)
+    - [ ] PopupMenu(http://demo.realgrid.com/Demo/PopupMenu)
 * 컬럼 그룹핑(column grouping): 
 * 이벤트
 * 각종 옵션
