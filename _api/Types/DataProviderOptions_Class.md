@@ -73,3 +73,15 @@ permalink: /api/types/DataProviderOptions/
 > Type: boolean  
 > Default: true  
 > subType기능의 활성화 여부를 지정한다.  
+
+> **restoreMode**  
+> Type: string | [RestoreMode](/api/types/RestoreMode/)  
+> Default: "none"    
+> 복원모드를 지정한다.  
+
+> **strictRestore**  
+> Type: boolean  
+> Default: false    
+> undefined, null, 빈문자열을 다른 값으로 인식할지의 여부를 지정한다.  
+> [restoreUpdatedStates()](/api/DataProvider/restoreUpdatedStates/)와 관계가 있다.  
+> true일때 undefined -> "값변경" -> "" 으로 변경시 rowState가 복원되지 않는다.   
