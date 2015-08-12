@@ -22,6 +22,10 @@ permalink: /api/GridBase/onMenuItemClicked/
 > Type: [GridBase](/api/GridBase/)  
 > GridBase 컨트롤  
 
+> **data**  
+> Type: [MenuItem](/api/types/MenuItem/)    
+> 클릭된 [MenuItem](/api/types/MenuItem/) 객체    
+
 #### Return
 
 None.

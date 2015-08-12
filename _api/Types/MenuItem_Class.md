@@ -42,15 +42,8 @@ permalink: /api/types/MenuItem/
 > Default: null  
 > 태그  
 
-> **data**      
-> Type: Object  
-> Default: null  
-
 > **children**  
 > Type: array of MenuItem  
 > 2단계이상일때 하위 메뉴 항목 배열           
 
-> **callback**  
-> Type: function (data)    
-> Click callback function  
 
