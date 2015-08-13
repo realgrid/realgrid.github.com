@@ -240,9 +240,9 @@ $(document).ready( function(){
 팝업메뉴는 일상 업무에서 특정 컬럼에 다양한 기능/동작이 필요할 경우 사용합니다.  
 RealGrid에서는 매우 간단한 3가지 설정으로 팝업메뉴가 사용 가능합니다.  
 
-1. [MenuItem](/api/types/MenuItem/)으로 구성된 메뉴정보를 구성한다.   
-2. 구성한 메뉴정보를 [addPopupMenu()](/api/GridBase/addPopupMenu/)로 그리드에 추가한다.   
-3. [column](/api/types/DataColumn/)의 popupMenu 속성에 2번에서 추가한 이름으로 등록한다.  
+1. [MenuItem](/api/types/MenuItem/)으로 구성된 메뉴정보를 구성합니다..   
+2. 구성한 메뉴정보를 [addPopupMenu()](/api/GridBase/addPopupMenu/)로 그리드에 추가합니다..   
+3. [column](/api/types/DataColumn/)의 popupMenu 속성에 2번에서 추가한 이름으로 등록합니다..  
 
 아래에서는 팝업 메뉴와 관계되는 클래스, api 및 콜백함수 등을 자세히 설명하도록 하겠습니다.
 
@@ -349,11 +349,11 @@ RealGrid에서는 매우 간단한 3가지 설정으로 팝업메뉴가 사용 �
 
 ### 실행화면
 
-1. <button type="button" class="btn btn-primary btn-xs" id="btnConfigureMenu">메뉴를 구성하고 addPopupMenu()로 등록하기</button> 
+1. <button type="button" class="btn btn-primary btn-xs" id="btnConfigureMenu">메뉴를 구성하고 addPopupMenu()로 등록</button> 
 
-2. <button type="button" class="btn btn-primary btn-xs" id="btnSetColumn">직업 컬럼에 popup 메뉴 연결하기</button> 
+2. <button type="button" class="btn btn-primary btn-xs" id="btnSetColumn">직업 컬럼에 popup 메뉴 연결</button> 
 
-3. <button type="button" class="btn btn-primary btn-xs" id="btnSetCallback">메뉴항목이 클릭되었을떄의 동작을 설정합니다.</button> 
+3. <button type="button" class="btn btn-primary btn-xs" id="btnSetCallback">메뉴항목이 클릭되었을 때의 동작을 설정</button> 
 
 4. 직업 컬럼의 버튼을 클릭하여 팝업메뉴 동작을 확인 합니다.    
 
