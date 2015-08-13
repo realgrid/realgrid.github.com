@@ -240,11 +240,11 @@ $(document).ready( function(){
 팝업메뉴는 일상 업무에서 특정 컬럼에 다양한 기능/동작이 필요할 경우 사용합니다.  
 RealGrid에서는 매우 간단한 3가지 설정으로 팝업메뉴가 사용 가능합니다.  
 
-1. [MenuItem](/api/types/MenuItem/)으로 구성된 메뉴정보를 구성합니다..   
-2. 구성한 메뉴정보를 [addPopupMenu()](/api/GridBase/addPopupMenu/)로 그리드에 추가합니다..   
-3. [column](/api/types/DataColumn/)의 popupMenu 속성에 2번에서 추가한 이름으로 등록합니다..  
+1. [MenuItem](/api/types/MenuItem/)으로 구성된 메뉴정보를 구성합니다.     
+2. 구성한 메뉴정보를 [addPopupMenu()](/api/GridBase/addPopupMenu/)로 그리드에 추가합니다.    
+3. [column](/api/types/DataColumn/)의 popupMenu 속성에 2번에서 추가한 이름으로 등록합니다.    
 
-아래에서는 팝업 메뉴와 관계되는 클래스, api 및 콜백함수 등을 자세히 설명하도록 하겠습니다.
+아래에서는 팝업 메뉴와 관계되는 클래스, api 및 콜백함수 등을 자세히 설명하도록 하겠습니다.  
 
 #### [메뉴항목(MenuItem)](/api/types/MenuItem/)    
 각 메뉴항목은 아래와 같이 7개의 속성으로 이루어져 있습니다.    
