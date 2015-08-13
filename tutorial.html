@@ -84,8 +84,20 @@ permalink: /tutorial/
 				</ul>
 		    </div>
 		    <div role="tabpanel" class="tab-pane" id="b-class">
-		    	<p><span class="octicon octicon-info text-info"></span> B 클래스는 강좌를 준비하고 있습니다. <br/>새로운 강좌가 올라올때 Feed를 받을 수 있도록 
-		    	<a class="page-link" href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="octicon octicon-rss"></span> RealGrid Feed</a>를 링크 하세요.</p>
+		    	<p><span class="octicon octicon-info text-info"></span> B 클래스는 <a href="http://demo.realgrid.com" target="_new">데모사이트</a>에 대한 상세한 설명을 제공합니다. 이 클래스의 강좌들을 통해 RealGrid의 다양한 기능들을 어떻게 구현하는지 배울수 있습니다.</p>
+				<ul class="post-api-list">
+				    {% for post in site.posts reversed %}{% if post.categories contains "tutorial" %}{% if post.course contains "B-Class" %}
+				      <li>
+				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				          <span class="hidden">
+				          {% for tag in post.tags %}
+				            {{ tag }}&nbsp;
+				          {% endfor %}
+				          </span>
+				      </li>
+				    {% endif %}{% endif %}{% endfor %}
+				</ul>
 		    </div>
 		    <div role="tabpanel" class="tab-pane" id="c-class">
 		    	<p><span class="octicon octicon-info text-info"></span> C 클래스는 RealGrid를 실무에 적용할수 있는 유용한 기술들을 설명합니다. 이 클래스의 강좌들은 대부분 <a href="http://jquery.com" target="_blank">JQuery</a>와 <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>에 의존적(dependency)입니다. </p>

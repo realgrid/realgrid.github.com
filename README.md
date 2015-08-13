@@ -53,13 +53,31 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * Demo 페이지에 대한 실습을 강의합니다.
 
 #### 강좌
-* Editing
+* B1 Columns
+* B2 Rows
+* B3 Data
+* B4 Paging
+* B5 Renderers
+* B6 Series
+* B7 Editing
     - [ ] Inserting
     - [ ] Updating
     - [ ] Deleting
     - [x] Row States(A Class)
     - [x] Editors(A Class)
-    - [ ] PopupMenu(http://demo.realgrid.com/Demo/PopupMenu)
+    - [ ] Editors Button
+    - [x] B7-1 팝업메뉴 구현하기(fanelia)
+* B8 Components
+* B9 TreeView
+* B10 Expression
+* B11 Styles
+* B12 DataCellStyle
+* B12 Excel
+* B13 Events
+* B14 RealGridJS
+* B15 HighChart Interface new
+* B16 Configuration
+
 * 컬럼 그룹핑(column grouping): 
 * 이벤트
 * 각종 옵션
@@ -78,11 +96,11 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] C4 RealGridJS Excel Export remote 서버 구현(jun)
 * [x] C5 행의 상태 또는 셀의 값에 따른 셀의 editable 변경(flowmt) --> **실행 부분 좀더 쉽게**
 * [x] C6 데이터를 복원하기 - I 지정한 행만 원래 데이터로 방법(fanelia)
-* [ ] C7 데이터를 복원하기 - II 전체 데이터를 복원하는 방법(fanelia)
-* [ ] C8 하이차트(http://www.highcharts.com)와 RealGrid연동(yoogi82)
-* [ ] C9 RealGrid에 바이너리 엑셀 파일 불러오기(import)(flowmt)
+* [x] C7 데이터를 복원하기 - II 전체 데이터를 복원하는 방법(fanelia)
+* [x] C8 하이차트(http://www.highcharts.com)와 RealGrid연동(yoogi82)
+* [ ] C9 RealGrid에 바이너리 엑셀 파일 불러오기(import)(flowmt->yoogi82)
 * [ ] C10 RealGridJS에서 엑셀의 사용자 지정 필터 구현(jun) --> 차주로 연기
-* [ ] C11 RealGrid+와 RealGridJS을 동시 구현 시 생산성 향상 방법(jun) --> 화요일 까지
+* [x] C11 RealGrid+와 RealGridJS을 동시 구현 시 생산성 향상 방법(jun)
 
 ## FAQ
 RealGrid기술지원 내용을 정리하여 자주 받게되는 질문과 그 질문에 대한 최선의 답변을 제공합니다.
