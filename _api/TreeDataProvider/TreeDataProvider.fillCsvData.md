@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: fillJsonData
+title: fillCsvData
 part: Objects
 objectname: TreeDataProvider
 directiontype: Function
-permalink: /api/TreeDataProvider/fillJsonData/
+permalink: /api/TreeDataProvider/fillCsvData/
 jsonly: true
 ---
 
@@ -15,13 +15,13 @@ jsonly: true
 
 #### Syntax
 
-> function fillJsonData(data, options)
+> function fillCsvData(data, options)
 
 #### Parameters
 
 > **data**
 > Type: object  
-> Json 형태의 data.  
+> csv 형태의 data.  
 
 > **options**  
 > Type: object    
@@ -34,28 +34,30 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grdMain.showProgress();
-
+    treeMain.showProgress();
     $.ajax({
-        url: "../DemoData/TreeViewJsonData.json?__time__=" + new Date().getTime(),
+        type: "GET",
+        url: "http://" + location.host + "/DemoData/TreeViewCsvData.txt?__time__=" + new Date().getTime(),
+        dataType: "text",
         success: function (data) {
-            dataProvider.fillJsonData(data, { rows: "rows", icon: "icon" });
+            dataProvider.fillCsvData(data, {tree:"tree",icon:"icon",quoted:true, start:1});
+            var count = dataProvider.getRowCount();
+            $("#loadResult").css("color", "green").text(parseInt(count).toLocaleString() + " rows loaded.").show();
+            treeMain.setFocus();
+ 
         },
         error: function (xhr, status, error) {
-            //$("#loadResult").css("color", "red").text("Load failed: " + error).show();
+            $("#loadResult").css("color", "red").text("Load failed: " + message).show();
         },
         complete: function (data) {
-            setLoading(false);
-            grdMain.closeProgress();
-
-            grdMain.setFocus();
+            treeMain.closeProgress();
         },
         xhr: function () {
             var xhr = new window.XMLHttpRequest();
             //Download progress
             xhr.addEventListener("progress", function (evt) {
                 if (evt.lengthComputable) {
-                    grdMain.setProgress(0, evt.total, evt.loaded);
+                    treeMain.setProgress(0, evt.total, evt.loaded);
                 }
             }, false);
             return xhr;

@@ -1,27 +1,27 @@
 ---
 layout: apipost
-title: fillJsonData
+title: fillCsvData
 part: Objects
-objectname: TreeDataProvider
+objectname: LocalDataProvider
 directiontype: Function
-permalink: /api/TreeDataProvider/fillJsonData/
+permalink: /api/LocalDataProvider/fillCsvData/
 jsonly: true
 ---
 
 
 #### Description
 
-> 지정한 설정에 따라 데이터셋을 로드해서 TreeDataProvider 로컬 저장소에 저장한다. 
+> 지정한 설정에 따라 데이터셋을 로드해서 DataProvider 로컬 저장소에 저장한다. 
 
 #### Syntax
 
-> function fillJsonData(data, options)
+> function fillCsvData(data, options)
 
 #### Parameters
 
 > **data**
 > Type: object  
-> Json 형태의 data.  
+> csv 형태의 data.  
 
 > **options**  
 > Type: object    
@@ -36,10 +36,13 @@ jsonly: true
 <pre class="prettyprint">
     grdMain.showProgress();
 
+    var current = grdMain.getCurrent();
+    var dataRow = current.dataRow >= 0 ? current.dataRow : 0;    
+
     $.ajax({
-        url: "../DemoData/TreeViewJsonData.json?__time__=" + new Date().getTime(),
+        url: "/DemoData/defaultloaddata.csv?__time__=" + new Date().getTime(),
         success: function (data) {
-            dataProvider.fillJsonData(data, { rows: "rows", icon: "icon" });
+            dataProvider.fillCsvData(data, { count: 10, fillMode: "insert", fillPos: dataRow });
         },
         error: function (xhr, status, error) {
             //$("#loadResult").css("color", "red").text("Load failed: " + error).show();

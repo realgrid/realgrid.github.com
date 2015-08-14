@@ -1,0 +1,564 @@
+---
+layout: post
+title: B8-2 컨텍스트 메뉴 구현하기
+date: 2015-08-12 15:00:00 +9:00 GMT
+permalink: /tutorial/b8-2
+categories:
+  - Tutorial
+author: fanelia@wrw.kr
+course:
+  - B-Class
+tags: 
+  - RealGridJS
+  - RealGrid
+  - ContextMenu
+  - Context
+  - Menu
+  - 컨텍스트메뉴
+  - 컨텍스트
+  - 컨택스트메뉴
+  - 컨택스트
+  - 메뉴
+---
+
+<script type="text/javascript" src="/script/dlgrids_eval.js"></script>
+<script type="text/javascript" src="/script/realgridjs.js"></script>
+
+<script>
+var gridView;
+var dataProvider;
+
+$(document).ready( function(){
+    RealGridJS.setTrace(false);
+    RealGridJS.setRootContext("/script");
+    
+    dataProvider = new RealGridJS.LocalDataProvider();
+    gridView = new RealGridJS.GridView("realgrid");
+    gridView.setDataSource(dataProvider);
+
+    //필드 배열 객체를 생성합니다.
+    var fields = [
+        {
+            fieldName: "field1"
+        },
+        {
+            fieldName: "field2"
+        },
+        {
+            fieldName: "field3"
+        },
+        {
+            fieldName: "field4"
+        },
+        {
+            fieldName: "field5"
+        },
+        {
+            fieldName: "field6"
+        },
+        {
+            fieldName: "field7"
+        },
+        {
+            fieldName: "field8"
+        },
+        {
+            fieldName: "field9"
+        },
+        {
+            fieldName: "field10"
+        }
+    ];
+    //DataProvider의 setFields함수로 필드를 입력합니다.
+    dataProvider.setFields(fields);
+
+    //필드와 연결된 컬럼 배열 객체를 생성합니다.
+    var columns = [
+        {
+            name: "col1",
+            fieldName: "field1",
+            header : {
+                text: "직업"
+            },
+            width : 60
+        },
+        {
+            name: "col2",
+            fieldName: "field2",
+            header : {
+                text: "성별"
+            },
+            width: 50
+        },
+        {
+            name: "col3",
+            fieldName: "field3",
+            header : {
+                text: "이름"
+            },
+            width: 80
+        },
+        {
+            name: "col4",
+            fieldName: "field4",
+            header : {
+                text: "국어"
+            },
+            width: 80
+        },
+        {
+            name: "col5",
+            fieldName: "field5",
+            header : {
+                text: "수학"
+            },
+            width: 80
+        },
+        {
+            name: "col6",
+            fieldName: "field6",
+            header : {
+                text: "민법"
+            },
+            width: 80
+        },
+        {
+            name: "col7",
+            fieldName: "field7",
+            header : {
+                text: "한국사"
+            },
+            width: 80
+        },
+        {
+            name: "col8",
+            fieldName: "field8",
+            header : {
+                text: "영어"
+            },
+            width: 80
+        },
+        {
+            name: "col9",
+            fieldName: "field9",
+            header : {
+                text: "과학"
+            },
+            width: 80
+        },
+        {
+            name: "col10",
+            fieldName: "field10",
+            header : {
+                text: "사회"
+            },
+            width: 80
+        }
+    ];
+    //컬럼을 GridView에 입력 합니다.
+    gridView.setColumns(columns);
+
+    var data = [
+        ["배우", "여자", "전도연", "20", "22", "90", "70", "60", "100", "80"],
+        ["가수", "여자", "이선희", "40", "33", "90", "70", "60", "100", "80"],
+        ["배우", "여자", "하지원", "10", "11", "90", "70", "60", "100", "80"],
+        ["가수", "여자", "박정현", "40", "22", "90", "70", "60", "100", "80"],
+        ["배우", "여자", "전지현", "20", "44", "90", "70", "60", "100", "80"]
+    ];
+    dataProvider.setRows(data);
+
+    //메뉴 구성후 메뉴 등록
+    $("#btnConfigureMenu").click(function () {
+        //메뉴 구성    
+        var menu = [{
+            label: "메뉴아이템 1",
+            enabled: true,
+            children: [{
+                label: "하위 메뉴아이템 1"
+            }, {
+                label: "하위 메뉴아이템 1"
+            }]
+        }, {
+            label: "비활성 메뉴아이템",
+            enabled: false
+        }, {
+            label: "-"
+        }, {
+            label: "체크 메뉴아이템",
+            type: "check",
+            checked: true,
+            tag: "check_menu"
+        }, {
+            label: "라디오 그룹 메뉴아이템",
+            children: [{
+                label: "라디오 메뉴 1",
+                type: "radio",
+                group: "group1",
+                checked: true
+            }, {
+                label: "라디오 메뉴 2",
+                type: "radio",
+                group: "group1"
+            }, {
+                label: "라디오 메뉴 3",
+                type: "radio",
+                group: "group1"
+            }]
+        }];
+
+        //메뉴 등록  
+        gridView.setContextMenu(menu);
+    });
+
+    //메뉴항목 클릭시 콜백 처리
+    gridView.onContextMenuItemClicked = function (grid, label, index) {
+        alert("label:" + label.label + ", CellIndex:" + JSON.stringify(index));
+    };
+
+});   
+</script>
+
+### 들어가며
+
+이번 강좌에서는 RealGrid에서 컨텍스트 메뉴를 사용하는 방법을 배워보겠습니다.
+
+### 이론
+
+컨텍스트 메뉴를 구현하는 방법은 [팝업메뉴 구현](/tutorial/b7-1)하는 방법과 매우 유사합니다. 
+팝업메뉴는 특정 컬럼에 기능/동작이 필요한 경우 사용하지만, 컨텍스트 메뉴는 일반적으로 그리드 전체에서 공통적으로 필요한 기능/동작이 필요할 경우 사용합니다.
+
+RealGrid에서는 매우 간단한 2가지 설정으로 컨텍스트 메뉴가 사용 가능합니다.  
+
+1. [MenuItem](/api/types/MenuItem/)클래스를 이용해 메뉴정보를 구성합니다.
+2. 구성한 메뉴정보를 [GridBase.setContextMenu()](/api/GridBase/setContextMenu/)함수로 그리드에 추가합니다.
+
+아래에서는 컨텍스트 메뉴와 관계되는 클래스, API 및 콜백함수 등을 설명하겠습니다.
+
+##### 메뉴항목
+메뉴는 [메뉴항목(MenuItem)](/api/types/MenuItem/)클래스의 집합입니다.    
+메뉴항목은 아래와 같이 7개의 속성으로 이루어져 있으며, 메뉴항목을 배열에 담아 메뉴객체를 만들수 있습니다.
+
+* `label` : 메뉴에 표시될 명칭   
+* `type` :  메뉴항목의 유형을 지정합니다. [MenuItemType](/api/types/MenuItemType/) 중 하나를 선택합니다.  
+* `group` : 그룹의 이름을 지정합니다. type이 radio이고 그룹명을 지정하면 동일한 그룹명을 가진 것들 중에서 하나만 선택(checked) 됩니다.  
+* `checked` : 체크 여부를 지정합니다.
+* `enabled` : 사용 여부를 지정합니다.
+* `tag` : 테그명을 지정합니다.
+* `children` : 하위메뉴를 구성할때 하위메뉴에 해당하는 메뉴항목들로 이루어진 메뉴정보를 등록합니다.  
+
+##### 메뉴항목의 유형
+메뉴항목(MenuItem)은 `normal`, `check`, `radio`, `seperator`로 구성되어 있으며 [MenuItemType](/api/types/MenuItemType/)에 정의되어 있습니다. MenuItemType을 이용해 메뉴를 어떤 유형으로 구성할 것인지 결정할 수 있습니다.
+
+##### 메뉴 등록하기 
+메뉴항목들로 구성된 메뉴 객체를 그리드에 등록하려면 [GridBase.setContextMenu()](/api/GridBase/setContextMenu/)함수를 사용합니다. 
+컬럼에서 사용되는 팝업메뉴와 다르게 컨텍스트 메뉴는 그리드 전체에서 사용하는 메뉴이기 때문에 setContextMenu()를 사용하는 순간부터 바로 동작합니다.     
+setContextMenu() `menuItems`라는 인자가 있으며, `menuItems`에는 메뉴객체를 입력합니다.
+
+##### 컨텍스트 메뉴 사용하기
+그리드 위에서 마우스 오른쪽 버튼을 클릭하면 컨텍스트 메뉴가 나타납니다.
+
+##### 메뉴항목 클릭 이벤트
+팝업된 컨텍스트 메뉴에서 특정 항목을 클릭하거나 선택하면 [GridBase.onContextMenuItemClicked()](/api/GridBase/onContextMenuItemClicked/)함수가 콜백됩니다. 이 이벤트에는 `grid`와 `label`, `index`라는 세 개의 인자가 넘어오며, `grid`에는 그리드(GridBase)객체가, `label`에는 메뉴항목의 label이 아니라 클릭된 메뉴항목(MenuItem)이, `index`에는 컨텍스트 메뉴가 팝업된 위치의 [CellIndex](/api/types/CellIndex/)가 넘어오게 됩니다.
+
+### 실습
+
+실습에서는 메뉴를 등록하는 방법과 메뉴 클릭시 처리하는 방법에 대해 배워보도록 하겠습니다.
+
+1. 버튼을 클릭하면 메뉴를 만들고, 그리드에 "TestMenu"란 이름으로 메뉴를 등록하기위해 setContextMenu()함수를 호출 하는 코드를 작성합니다.
+
+    <pre class="prettyprint">
+    //메뉴 구성후 메뉴 등록
+    $("#btnConfigureMenu").click(function () {
+        //메뉴 구성    
+        var menu = [{
+            label: "메뉴아이템 1",
+            enabled: true,
+            children: [{
+                label: "하위 메뉴아이템 1"
+            }, {
+                label: "하위 메뉴아이템 1"
+            }]
+        }, {
+            label: "비활성 메뉴아이템",
+            enabled: false
+        }, {
+            label: "-"
+        }, {
+            label: "체크 메뉴아이템",
+            type: "check",
+            checked: true,
+            tag: "check_menu"
+        }, {
+            label: "라디오 그룹 메뉴아이템",
+            children: [{
+                label: "라디오 메뉴 1",
+                type: "radio",
+                group: "group1",
+                checked: true
+            }, {
+                label: "라디오 메뉴 2",
+                type: "radio",
+                group: "group1"
+            }, {
+                label: "라디오 메뉴 3",
+                type: "radio",
+                group: "group1"
+            }]
+        }];
+
+        //메뉴 등록  
+        gridView.setContextMenu(menu);
+    });</pre>
+
+2. 메뉴항목이 클릭되었을때의 onMenuItemClicked()콜백에 대한 코드를 작성합니다.
+
+    <pre class="prettyprint">
+    //메뉴항목 클릭시 콜백 처리
+    gridView.onContextMenuItemClicked = function (grid, label, index) {
+        alert("label:" + label.label + ", CellIndex:" + JSON.stringify(index));
+    };</pre>
+
+
+### 실행화면
+
+1. <button type="button" class="btn btn-primary btn-xs" id="btnConfigureMenu">메뉴 구성하기</button> 버튼을 클릭하여 메뉴를 등록합니다. 이때, 그리드에는 어떤 반응도 일어나지 않습니다.
+
+2. 그리드 위에서 마우스 오른쪽 버튼을 클릭하여 팝업메뉴가 표시되는 것을 확인하세요.
+
+3. 팝업메뉴의 메뉴항목을 클릭하면 클릭이벤트의 동작에 따라 메시지 창이 팝업되는 것을 확인하세요.
+
+<div id="realgrid" style="width: 100%; height: 250px;"></div>
+<p></p>
+
+
+### 전체 소스코드
+
+##### SCRIPT    
+<pre class="prettyprint full-source-script">
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/bootstrap.css&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/jquery-1.112.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;!--realgrid--&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/dlgrids_eval.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/realgridjs.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+var gridView;
+var dataProvider;
+
+$(document).ready( function(){
+    RealGridJS.setTrace(false);
+    RealGridJS.setRootContext("/script");
+    
+    dataProvider = new RealGridJS.LocalDataProvider();
+    gridView = new RealGridJS.GridView("realgrid");
+    gridView.setDataSource(dataProvider);
+
+    //필드 배열 객체를 생성합니다.
+    var fields = [
+        {
+            fieldName: "field1"
+        },
+        {
+            fieldName: "field2"
+        },
+        {
+            fieldName: "field3"
+        },
+        {
+            fieldName: "field4"
+        },
+        {
+            fieldName: "field5"
+        },
+        {
+            fieldName: "field6"
+        },
+        {
+            fieldName: "field7"
+        },
+        {
+            fieldName: "field8"
+        },
+        {
+            fieldName: "field9"
+        },
+        {
+            fieldName: "field10"
+        }
+    ];
+    //DataProvider의 setFields함수로 필드를 입력합니다.
+    dataProvider.setFields(fields);
+
+    //필드와 연결된 컬럼 배열 객체를 생성합니다.
+    var columns = [
+        {
+            name: "col1",
+            fieldName: "field1",
+            header : {
+                text: "직업"
+            },
+            width : 60
+        },
+        {
+            name: "col2",
+            fieldName: "field2",
+            header : {
+                text: "성별"
+            },
+            width: 50
+        },
+        {
+            name: "col3",
+            fieldName: "field3",
+            header : {
+                text: "이름"
+            },
+            width: 80
+        },
+        {
+            name: "col4",
+            fieldName: "field4",
+            header : {
+                text: "국어"
+            },
+            width: 80
+        },
+        {
+            name: "col5",
+            fieldName: "field5",
+            header : {
+                text: "수학"
+            },
+            width: 80
+        },
+        {
+            name: "col6",
+            fieldName: "field6",
+            header : {
+                text: "민법"
+            },
+            width: 80
+        },
+        {
+            name: "col7",
+            fieldName: "field7",
+            header : {
+                text: "한국사"
+            },
+            width: 80
+        },
+        {
+            name: "col8",
+            fieldName: "field8",
+            header : {
+                text: "영어"
+            },
+            width: 80
+        },
+        {
+            name: "col9",
+            fieldName: "field9",
+            header : {
+                text: "과학"
+            },
+            width: 80
+        },
+        {
+            name: "col10",
+            fieldName: "field10",
+            header : {
+                text: "사회"
+            },
+            width: 80
+        }
+    ];
+    //컬럼을 GridView에 입력 합니다.
+    gridView.setColumns(columns);
+
+    var data = [
+        ["배우", "여자", "전도연", "20", "22", "90", "70", "60", "100", "80"],
+        ["가수", "여자", "이선희", "40", "33", "90", "70", "60", "100", "80"],
+        ["배우", "여자", "하지원", "10", "11", "90", "70", "60", "100", "80"],
+        ["가수", "여자", "박정현", "40", "22", "90", "70", "60", "100", "80"],
+        ["배우", "여자", "전지현", "20", "44", "90", "70", "60", "100", "80"]
+    ];
+    dataProvider.setRows(data);
+
+    //메뉴 구성후 메뉴 등록
+    $("#btnConfigureMenu").click(function () {
+        //메뉴 구성    
+        var menu = [{
+            label: "메뉴아이템 1",
+            enabled: true,
+            children: [{
+                label: "하위 메뉴아이템 1"
+            }, {
+                label: "하위 메뉴아이템 1"
+            }]
+        }, {
+            label: "비활성 메뉴아이템",
+            enabled: false
+        }, {
+            label: "-"
+        }, {
+            label: "체크 메뉴아이템",
+            type: "check",
+            checked: true,
+            tag: "check_menu"
+        }, {
+            label: "라디오 그룹 메뉴아이템",
+            children: [{
+                label: "라디오 메뉴 1",
+                type: "radio",
+                group: "group1",
+                checked: true
+            }, {
+                label: "라디오 메뉴 2",
+                type: "radio",
+                group: "group1"
+            }, {
+                label: "라디오 메뉴 3",
+                type: "radio",
+                group: "group1"
+            }]
+        }];
+
+        //메뉴 등록  
+        gridView.setContextMenu(menu);
+    });
+
+    //메뉴항목 클릭시 콜백 처리
+    gridView.onContextMenuItemClicked = function (grid, label, index) {
+        alert("label:" + label.label + ", CellIndex:" + JSON.stringify(index));
+    };
+
+});    
+&lt;/script&gt;
+</pre>
+
+##### HTML
+<pre class="prettyprint full-source-html">
+1. <button type="button" class="btn btn-primary btn-xs" id="btnConfigureMenu">메뉴 구성하기</button> 버튼을 클릭하여 메뉴를 등록합니다. 이때, 그리드에는 어떤 반응도 일어나지 않습니다.
+
+2. 그리드 위에서 마우스 오른쪽 버튼을 클릭하여 팝업메뉴가 표시되는 것을 확인하세요.
+
+3. 팝업메뉴의 메뉴항목을 클릭하면 클릭이벤트의 동작에 따라 메시지 창이 팝업되는 것을 확인하세요.
+
+<div id="realgrid" style="width: 100%; height: 250px;"></div>
+</pre>
+
+
+---
+**데모 사이트**
+
+* [컨텍스트메뉴 데모](http://demo.realgrid.com/Demo/ContextMenu)
+
+---
+**API 참조**
+
+* [MenuItem](/api/types/MenuItem/)
+* [MenuItemType](/api/types/MenuItemType/)
+* [GridBase.setContextMenu()](/api/GridBase/setContextMenu/)
+* [GridBase.onContextMenuItemClicked()](/api/GridBase/onContextMenuItemClicked/)
+

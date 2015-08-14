@@ -1,27 +1,27 @@
 ---
 layout: apipost
-title: fillJsonData
+title: fillXmlData
 part: Objects
-objectname: TreeDataProvider
+objectname: LocalDataProvider
 directiontype: Function
-permalink: /api/TreeDataProvider/fillJsonData/
+permalink: /api/LocalDataProvider/fillXmlData/
 jsonly: true
 ---
 
 
 #### Description
 
-> 지정한 설정에 따라 데이터셋을 로드해서 TreeDataProvider 로컬 저장소에 저장한다. 
+> 지정한 설정에 따라 데이터셋을 로드해서 DataProvider 로컬 저장소에 저장한다. 
 
 #### Syntax
 
-> function fillJsonData(data, options)
+> function fillXmlData(data, options)
 
 #### Parameters
 
 > **data**
 > Type: object  
-> Json 형태의 data.  
+> xml 형태의 data.  
 
 > **options**  
 > Type: object    
@@ -37,9 +37,9 @@ jsonly: true
     grdMain.showProgress();
 
     $.ajax({
-        url: "../DemoData/TreeViewJsonData.json?__time__=" + new Date().getTime(),
+        url: "/DemoData/defaultloaddata.xml?__time__=" + new Date().getTime(),
         success: function (data) {
-            dataProvider.fillJsonData(data, { rows: "rows", icon: "icon" });
+            dataProvider.fillXmlData(data, {});
         },
         error: function (xhr, status, error) {
             //$("#loadResult").css("color", "red").text("Load failed: " + error).show();

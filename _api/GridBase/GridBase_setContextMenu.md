@@ -10,7 +10,7 @@ permalink: /api/GridBase/setContextMenu/
 
 #### Description
 
-> Flash player 컨텍스트 메뉴에 추가할 메뉴 항목들을 지정한다.
+> 컨텍스트 메뉴에 추가할 메뉴 항목들을 지정한다.
 
 #### Syntax
 

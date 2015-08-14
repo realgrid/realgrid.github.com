@@ -59,6 +59,7 @@ permalink: /api/types/DataColumn/
 > Type: Boolean   
 > Default: true      
 > true면 이 컬럼의 셀들을 표시한다. false면 셀들을 표시하지 않는다. 컬럼 객체가 제거되는 것은 아니다.  
+
 > **editable**  
 > Type: Boolean   
 > Default: true      
@@ -213,6 +214,7 @@ permalink: /api/types/DataColumn/
 > Type: [CellRenderer](/api/types/CellRenderer)  
 > Default:  null     
 > 컬럼 데이터셀들의 값을 rendering하는 [CellRenderer](/api/types/CellRenderer)의 종류를 지정한다.       
+
 > **filters**  
 > Type: Array of [ColumnFilter](/api/types/ColumnFilter)  
 > Default:  null     
