@@ -258,7 +258,10 @@ setContextMenu() `menuItems`라는 인자가 있으며, `menuItems`에는 메뉴
 그리드 위에서 마우스 오른쪽 버튼을 클릭하면 컨텍스트 메뉴가 나타납니다.
 
 ##### 메뉴항목 클릭 이벤트
-팝업된 컨텍스트 메뉴에서 특정 항목을 클릭하거나 선택하면 [GridBase.onContextMenuItemClicked()](/api/GridBase/onContextMenuItemClicked/)함수가 콜백됩니다. 이 이벤트에는 `grid`와 `label`, `index`라는 세 개의 인자가 넘어오며, `grid`에는 그리드(GridBase)객체가, `label`에는 메뉴항목의 label이 아니라 클릭된 메뉴항목(MenuItem)이, `index`에는 컨텍스트 메뉴가 팝업된 위치의 [CellIndex](/api/types/CellIndex/)가 넘어오게 됩니다.
+팝업된 컨텍스트 메뉴에서 특정 항목을 클릭하거나 선택하면 [GridBase.onContextMenuItemClicked()](/api/GridBase/onContextMenuItemClicked/)함수가 콜백됩니다. 이 이벤트에는 `grid`와 `label`, `index`라는 세 개의 인자가 넘어오며, `grid`에는 그리드(GridBase)객체가, `label`에는 클릭된 메뉴항목(MenuItem)이, `index`에는 컨텍스트 메뉴가 팝업된 위치의 [CellIndex](/api/types/CellIndex/)가 넘어오게 됩니다.
+
+##### <mark>유의사항
+[GridBase.onContextMenuItemClicked()](/api/GridBase/onContextMenuItemClicked/) 의 'label' 인자는 flash ver.일 경우 메뉴항목의 label만 넘어옵니다.
 
 ### 실습
 
