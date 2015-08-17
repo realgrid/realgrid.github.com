@@ -54,6 +54,10 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 
 #### 강좌
 * B1 Columns
+    - [ ] B1-1 Column Filtering - Filter
+    - [ ] B1-2 Column Filtering - Filter Action
+    - [ ] B1-3 Column Filtering - Filter 응용 사용자 지정 필터 구현
+    - [ ] B1-4 Column Filtering - Filter Action 응용 자동 필터 구현
 * B2 Rows
 * B3 Data
 * B4 Paging
@@ -103,7 +107,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] C7 데이터를 복원하기 - II 전체 데이터를 복원하는 방법(fanelia)
 * [x] C8 하이차트(http://www.highcharts.com)와 RealGrid연동(yoogi82)
 * [ ] C9 RealGrid에 바이너리 엑셀 파일 불러오기(import)(flowmt->yoogi82)
-* [ ] C10 RealGridJS에서 엑셀의 사용자 지정 필터 구현(jun) --> 차주로 연기
+* [ ] C10 
 * [x] C11 RealGrid+와 RealGridJS을 동시 구현 시 생산성 향상 방법(jun)
 
 ## FAQ
