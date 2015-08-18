@@ -39,12 +39,11 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] A20 셀 선택하기(Selecting) - SelectOptions
 * [x] A21 셀 선택하기(Selecting) - 선택한 셀의 값 가져오기
 * [x] A22 셀 선택하기(Selecting) - 동적으로 셀 선택하기
-* [ ] A23 데이터 행 편집하기 - 행 상태(RowState)와 트랜젝션
-* [ ] A24 데이터 행 편집하기 - 행 추가하기(Create)
-* [ ] A25 데이터 행 편집하기 - 행 수정하기(Update)
-* [ ] A26 데이터 행 편집하기 - 행 삭제하기(Delete)
-* [ ] A27 데이터형(DataType)
-* [ ] A28 데이터 편집기 종류(Editors)
+* [ ] A23 데이터 편집하기(Editing)
+* [ ] A24 렌더러로 그래픽컬한 표현하기(Rendering)
+* [ ] A25 모양내기(Styling)
+* [ ] A26 이벤트 이해하기(Events)
+* [ ] A27 기본적인 그리드 옵션들(Options)
 
 ### Class B
 
@@ -60,6 +59,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [ ] B1-4 Column Filtering - Filter Action 응용 자동 필터 구현
 * B2 Rows
 * B3 Data
+    - [ ] B3-1 데이터형(DataType)
 * B4 Paging
 * B5 Renderers
 * B6 Series
@@ -67,8 +67,8 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [ ] Inserting
     - [ ] Updating
     - [ ] Deleting
-    - [x] Row States(A Class)
-    - [x] Editors(A Class)
+    - [ ] Row States
+    - [ ] Editors
     - [ ] Editors Button
     - [x] B7-1 팝업메뉴 구현하기(fanelia)
 * B8 Components
@@ -107,7 +107,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] C7 데이터를 복원하기 - II 전체 데이터를 복원하는 방법(fanelia)
 * [x] C8 하이차트(http://www.highcharts.com)와 RealGrid연동(yoogi82)
 * [ ] C9 RealGrid에 바이너리 엑셀 파일 불러오기(import)(flowmt->yoogi82)
-* [ ] C10 
+* [ ] C10 셀단위 커밋에 대한 이야기(commitEditor)
 * [x] C11 RealGrid+와 RealGridJS을 동시 구현 시 생산성 향상 방법(jun)
 
 ## FAQ
