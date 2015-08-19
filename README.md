@@ -55,7 +55,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * B1 Columns
     - [ ] B1-1 Column Filtering - Filter
     - [ ] B1-2 Column Filtering - Filter Action
-    - [ ] B1-3 Column Filtering - Filter 응용 사용자 지정 필터 구현
+    - [x] B1-3 Column Filtering - Filter 응용 사용자 지정 필터 구현
     - [ ] B1-4 Column Filtering - Filter Action 응용 자동 필터 구현
 * B2 Rows
 * B3 Data
