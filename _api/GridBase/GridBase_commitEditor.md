@@ -11,7 +11,7 @@ permalink: /api/GridBase/commitEditor/
 #### Description
 
 > 현재 Editor의 내용을 Cell에 반영한다.  
-> 실행 후 onEditCommit -> onEditRowChanged -> onCellEdited 이벤가 순차적으로 발생한다.
+> 실행 후 onEditCommit -> onEditRowChanged -> onCellEdited 이벤트가 순차적으로 발생한다.
 
 #### Syntax
 
