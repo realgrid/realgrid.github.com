@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tutopost
 title:  기본 키보드 및 마우스 동작
 date:   2014-07-17 09:49:54
 categories: Tutorial

@@ -1,0 +1,78 @@
+---
+layout: rowdiv
+---
+
+<script>
+	$('input[type="text"]').keyup(function(){
+
+    var that = this, $allListElements = $('ul > li');
+
+    var $matchingListElements = $allListElements.filter(function(i, li){
+        var listItemText = $(li).text().toUpperCase(), 
+            searchText = that.value.toUpperCase();
+        return ~listItemText.indexOf(searchText);
+    });
+
+    $allListElements.hide();
+    $matchingListElements.show();
+
+});
+</script>
+
+	<div class="form-group has-success">
+	  <input type="text" class="form-control input-sm" placeholder="Filter">
+	</div>
+	
+  <h3>Tutorial</h4>
+
+  <ul class="post-api-list">
+  <h4>A-Class</h4>
+  
+  {% for post in site.posts reversed %}{% if post.course contains 'A-Class' %}
+      <li>
+      <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+  {% endif %}{% endfor %}
+  </ul>
+
+  {% assign sorted_by_orderno = site.posts | sort: "order" %}
+
+  <ul class="post-api-list">
+  <h4>B-Class</h4>
+  
+  {% for post in site.posts reversed %}{% if post.course contains 'B-Class' %}
+      <li>
+      <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+  {% endif %}{% endfor %}
+  </ul>
+
+  <ul class="post-api-list">
+  <h4>C-Class</h4>
+  
+  {% for post in site.posts reversed %}{% if post.course contains 'C-Class' %}
+      <li>
+      <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+  {% endif %}{% endfor %}
+  </ul>
+  
+  <ul class="post-api-list">
+  <h4>Project</h4>
+  
+  {% for post in site.posts reversed %}{% if post.course contains 'Project' %}
+      <li>
+      <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+  {% endif %}{% endfor %}
+  </ul>
+  
+  <ul class="post-api-list">
+  <h4>Tip</h4>
+  
+  {% for post in site.posts reversed %}{% if post.course contains 'Tip' %}
+      <li>
+      <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+  {% endif %}{% endfor %}
+  </ul>

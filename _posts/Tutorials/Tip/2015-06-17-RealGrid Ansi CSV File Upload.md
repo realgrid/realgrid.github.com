@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tutopost
 title:  RealGrid Ansi CSV 파일 업로드
 date:   2014-10-17 14:14:00
 categories: Tutorial

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tutopost
 title: RealGrid 튜토리얼 작성 방법
 date:   2015-07-24 21:13:31 +9:00 GMT
 permalink: /tutorial/guide

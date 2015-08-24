@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tutopost
 title:  RealGrid+ Basic with ASP.NET & MS SQLServer
 date:   2015-04-23 15:47:54
 categories: Tutorial

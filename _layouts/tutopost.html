@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="post col-md-9">
+
+  <header class="post-header">
+    <h2 class="post-title">{{ page.title }}</h2>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <div class="post-tags">
+    <p><span class="octicon octicon-tag"></span>
+      {% for tag in page.tags %}
+        <span class="label label-default">{{ tag }}&nbsp;</span>
+      {% endfor %}
+    </p>
+  </div>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  {% include disqus.html %}
+
+</div>
+
+<script>
+  $(document).ready( function() {
+    var url = "/subpages/tutosidemenu.html";
+    $("#sidemenu").html("<p>loading...</p>").load(url);
+  });
+</script>
+
+<div class="col-md-3" id="sidemenu">
+</div>
