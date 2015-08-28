@@ -18,9 +18,10 @@ permalink: /api/GridBase/setColumns/
 
 #### Parameters
 
-> [**columns**](/api/types/DataColumn/)  
+> **columns**  
 > Type: Array of Object  
 > 컬럼 설정 정보 배열  
+> [DataColumn](/api/types/DataColumn/)  
 
 #### Return value
 

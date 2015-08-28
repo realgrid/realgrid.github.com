@@ -23,6 +23,7 @@ permalink: /api/GridBase/setColumn/
 > **column**  
 > Type: Object  
 > 컬럼 설정 정보  
+> [DataColumn](/api/types/DataColumn/)  
 
 #### Return value
 
