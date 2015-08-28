@@ -21,7 +21,7 @@ permalink: /api/GridBase/setColumns/
 > **columns**  
 > Type: Array of Object  
 > 컬럼 설정 정보 배열  
-> [DataColumn](/api/types/DataColumn/)  
+> 배열의 각 항목은 [DataColumn](/api/types/DataColumn/)와 같은 내용으로 구성되는 object다.  
 
 #### Return value
 
