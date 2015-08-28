@@ -23,7 +23,7 @@ permalink: /api/GridBase/setColumn/
 > **column**  
 > Type: Object  
 > 컬럼 설정 정보  
-> 배열의 각 항목은 [DataColumn](/api/types/DataColumn/)와 같은 내용으로 구성되는 object다.  
+> [DataColumn](/api/types/DataColumn/)와 같은 내용으로 구성되는 object다.  
 
 #### Return value
 
