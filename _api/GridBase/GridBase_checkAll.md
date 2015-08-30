@@ -14,7 +14,7 @@ permalink: /api/GridBase/checkAll/
 
 #### Syntax
 
-> function checkAll(checked, visibleOnly)  
+> function checkAll(checked, visibleOnly, checkableOnly)  
 
 #### Parameters
 
@@ -22,11 +22,15 @@ permalink: /api/GridBase/checkAll/
 > Type: Boolean  
 > Default: true  
 
-
 > **visibleOnly**  
 > Type: Boolean  
 > Default: false  
-> collapse로 인해 접혀서 보이지 않는 행의 포함여부  
+> collapse로 인해 접혀서 보이지 않는 행의 포함여부    
+
+> **checkableOnly**  
+> Type: Boolean  
+> Default: false  
+> 체크가능한 행만 체크할 것인지의 여부    
 
 #### Return value
 

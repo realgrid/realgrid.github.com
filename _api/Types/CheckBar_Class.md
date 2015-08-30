@@ -40,6 +40,11 @@ permalink: /api/types/CheckBar/
 > Default: true     
 > 체크 가능한 행만 체크할 수 있는지의 여부를 지정한다. (checkableExpression에서 체크 가능 여부를 지정할 수 있다.)  
 
+> **visible**  
+> Type: boolean   
+> Default: true    
+> CheckBar를 그리드에 표시할 것인지의 여부를 지정한다.   
+
 > **exclusive**  
 > Type: boolean   
 > Default: false    

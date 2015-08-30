@@ -14,7 +14,7 @@ permalink: /api/GridView/getCheckedRows/
 
 #### Syntax
 
-> function getCheckedRows(sort)
+> function getCheckedRows(sort, visibleOnly)
 
 #### Parameters
 
@@ -22,6 +22,11 @@ permalink: /api/GridView/getCheckedRows/
 > Type: Boolean  
 > Default: true  
 > false로 입력하면 화면에 보이는 순서대로 결과값이 반환된다. true로 입력하면 결과값을 올림차순으로 정렬해서 반환된다.  
+
+> **visibleOnly**  
+> Type: Boolean  
+> Default: false  
+> true로 입력하면 collapse 되어 보이지 않는 행들은 제외한다.   
 
 #### Return value
 

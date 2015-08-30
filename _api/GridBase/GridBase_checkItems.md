@@ -14,7 +14,7 @@ permalink: /api/GridBase/checkItems/
 
 #### Syntax
 
-> function checkItem(items, checked)  
+> function checkItems(items, checked)  
 
 #### Parameters
 

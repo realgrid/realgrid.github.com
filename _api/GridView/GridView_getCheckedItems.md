@@ -14,11 +14,14 @@ permalink: /api/GridView/getCheckedItems/
 
 #### Syntax
 
-> function getCheckedItems()
+> function getCheckedItems(all)
 
 #### Parameters
 
-> none
+> **all**  
+> Type: Boolean  
+> Default: false  
+> true로 입력하면 그룹헤더나 그룹푸터 등 비데이터영역에 체크된 것들까지 가져온다.  
 
 #### Return value
 
