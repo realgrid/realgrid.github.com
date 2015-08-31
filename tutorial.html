@@ -65,7 +65,8 @@ permalink: /tutorial/
 		    <div role="tabpanel" class="tab-pane active" id="a-class">
 		    	<p><span class="octicon octicon-info text-info"></span> A 클래스는 RealGrid의 기초적인 사용법에 대한 짤막한 강좌들입니다. </p>
 				<ul class="post-api-list">
-				    {% for post in site.posts reversed %}{% if post.categories contains "tutorial" %}{% if post.course contains "A-Class" %}
+					{% assign tutorials_a = (site.posts | sort: 'date' reversed) %}
+				    {% for post in tutorials_a %}{% if post.categories contains "tutorial" %}{% if post.course contains "A-Class" %}
 				      <li>
 				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
