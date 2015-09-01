@@ -72,7 +72,9 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [ ] Editors Button
     - [x] B7-1 팝업메뉴 구현하기(fanelia)
 * B8 Components
-    - [ ] B8-1 체크바(CheckBar)
+    - [x] B8-1-1 체크바(CheckBar) I
+    - [x] B8-1-2 체크바(CheckBar) II
+    - [x] B8-1-3 체크바(CheckBar) III
     - [x] B8-2 컨텍스트메뉴(ContextMenu)
     - [ ] B8-3 인디케이터(Indicator)
     - [ ] B8-4 상태바(StateBar)
