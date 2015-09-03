@@ -1286,10 +1286,12 @@ public class ProductsServiceImpl implements ProductsService {
 데이타를 변경한 후 테스트를 하면
         
 ![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-save_data.gif)
-          
-  
 
 성공적으로 잘 변경됩니다.
         
 ![](/images/articles/RealGridJS_JAVASpring_MyBatis_MSSQLServer-save_data2.gif)
     
+---
+**소스코드 다운로드**
+
+* [RealGridJS.Guide.Java.Spring3.1.SqlServer.zip](/sourcecode/RealGridJS.Guide.Java.Spring3.1.SqlServer.zip)
