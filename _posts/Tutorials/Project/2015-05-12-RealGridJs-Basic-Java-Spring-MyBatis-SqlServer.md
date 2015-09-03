@@ -1,7 +1,7 @@
 ---
 layout: tutopost
 title: RealGridJs Basic with JAVA Spring & MyBatis & MS SQLServer
-date: 2015-05-12 00:00:00 +9:00 GMT
+date: 2015-05-14 00:00:00 +9:00 GMT
 categories: Tutorial
 permalink: /tutorial/project4
 course: Project
@@ -10,8 +10,7 @@ tags:
     - tomcat
     - egovframe
     - spring
---- 
-
+---
 
 ### Architectures
 
@@ -27,8 +26,6 @@ tags:
 본 가이드는 Java Spring MVC와 MS SQLServer 환경에서 RealGrid에 데이터를 뿌려주는 간단한 화면을 만드는 방법에 대해 설명하고 있습니다. 본 자습서를 읽고 내용을 이해 하기 위해서는 Java에 대한 기초적인 지식이 필요합니다.  
 본 예제에서는 전자정부프레임웍 eGovFrame 2.6에 Spring MVC 만  사용하였습니다.  
 본 가이드는 SQLServer의 특정 테이블에 들어 있는 데이터를 RealGrid가 포함된 웹화면에서 조회, 추가, 수정, 삭제기능을 구현하고 있습니다.
-    
-
     
 ### A New WEB Site
 
