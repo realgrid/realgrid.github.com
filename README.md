@@ -54,9 +54,9 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 #### 강좌
 * B1 Columns
     - [x] B1-1 Column Filtering - Filter
-    - [ ] B1-2 Column Filtering - Filter Action
-    - [ ] B1-3 Column Filtering - Filter 응용 사용자 지정 필터 구현
-    - [ ] B1-4 Column Filtering - Filter Action 응용 자동 필터 구현
+    - [x] B1-2 Column Filtering - Filter Action
+    - [x] B1-3 Column Filtering - Filter 응용 사용자 지정 필터 구현
+    - [x] B1-4 Column Filtering - Filter Action 응용 자동 필터 구현
 * B2 Rows
 * B3 Data
     - [ ] B3-1 데이터형(DataType)
@@ -112,6 +112,8 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] C9 RealGrid에 바이너리 엑셀 파일 불러오기(import)(flowmt->yoogi82)
 * [ ] C10 셀단위 커밋에 대한 이야기(commitEditor)
 * [x] C11 RealGrid+와 RealGridJS을 동시 구현 시 생산성 향상 방법(jun)
+* [ ] C12 동적 dropdown 구성 - Lookup Tree (jun)
+* [ ] C13 onCurrentChange에 따른 Dropdown 구성 (jun)
 
 ### 업무예제
 
