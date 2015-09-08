@@ -78,8 +78,11 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [x] B8-4 컨텍스트메뉴(ContextMenu)
     - [x] B8-5 인디케이터(Indicator)
     - [ ] B8-6 상태바(StateBar)
-* B9 TreeView
-    - [x] B9-1 TreeDataProvider의 Data 구조이해 (Array)(fanelia)
+* B9 TreeView (yoogi82)
+    - [x] B9-1 TreeDataProvider의 Data 구조이해 (Array)
+    - [ ] B9-2 TreeDataProvider의 Data 구조이해 (JSON)
+    - [ ] B9-3 TreeView의 ItemModel 이해하기
+    - [ ] B9-4 Expander
 * B10 Expression
 * B11 Styles
 * B12 DataCellStyle
