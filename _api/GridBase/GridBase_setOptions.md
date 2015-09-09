@@ -59,7 +59,7 @@ permalink: /api/GridBase/setOptions/
             checkBar: {
                 visible: true
             },
-            statesBar: {
+            stateBar: {
                 visible: true
             },
             edit: {
