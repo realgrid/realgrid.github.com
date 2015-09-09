@@ -42,16 +42,19 @@ permalink: /api/types/DataProviderOptions/
 > **insertable**  
 > Type: boolean  
 > Default: true  
+> 더 이상 사용하지 않는 속성.   
 > 행을 추가할 수 있으면 true.  
 
 > **updatable**  
 > Type: boolean  
 > Default: true  
+> 더 이상 사용하지 않는 속성.  
 > 행을 수정할 수 있으면 true.  
 
 > **deletable**  
 > Type: boolean  
 > Default: false  
+> 더 이상 사용하지 않는 속성.  
 > 행을 삭제할 수 있으면 true.  
 
 > **softDeleting**  
