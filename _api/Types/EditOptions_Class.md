@@ -48,7 +48,12 @@ permalink: /api/types/EditOptions/
 > **updatable**              
 > Type: boolean   
 > Default: true     
-> true면 데이터셀 하나를 수정해서 행 편집을 시작할 수 있다.    
+> true면 그리드의 데이터들을 수정 할 수 있다. false 이면 기존 데이터는 수정할 수 없고 commit() 되기 전 새로 추가된 행만 수정 가능하다.      
+
+> **editable**              
+> Type: boolean   
+> Default: true     
+> true면 그리드의 데이터들을 수정 할 수 있다. false 이면 수정 할 수 없다.   
 
 > **validateOnEdited**      
 > Type: boolean   
