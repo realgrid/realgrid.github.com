@@ -27,10 +27,15 @@ layout: rowdiv
 
   <ul class="post-api-list">
   <h4>A-Class</h4>
-  
-  {% for post in site.posts reversed %}{% if post.course contains 'A-Class' %}
+	{% assign tutorials_a = (site.posts ) %}
+  {% for post in tutorials_a reversed %}{% if post.categories contains "tutorial" and post.course contains "A-Class" %}
       <li>
       <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="hidden">
+      {% for tag in post.tags %}
+        {{ tag }}&nbsp;
+      {% endfor %}
+      </span>
       </li>
   {% endif %}{% endfor %}
   </ul>
@@ -39,40 +44,60 @@ layout: rowdiv
 
   <ul class="post-api-list">
   <h4>B-Class</h4>
-  
-  {% for post in site.posts reversed %}{% if post.course contains 'B-Class' %}
+	{% assign tutorials_b = (site.posts | sort: 'ordernum') %}
+  {% for post in tutorials_b %}{% if post.categories contains "tutorial" and post.course contains "B-Class" %}
       <li>
       <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="hidden">
+      {% for tag in post.tags %}
+        {{ tag }}&nbsp;
+      {% endfor %}
+      </span>
       </li>
   {% endif %}{% endfor %}
   </ul>
 
   <ul class="post-api-list">
   <h4>C-Class</h4>
-  
-  {% for post in site.posts reversed %}{% if post.course contains 'C-Class' %}
+	{% assign tutorials_c = (site.posts ) %}
+  {% for post in tutorials_c reversed %}{% if post.categories contains "tutorial" and post.course contains "C-Class" %}
       <li>
       <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="hidden">
+      {% for tag in post.tags %}
+        {{ tag }}&nbsp;
+      {% endfor %}
+      </span>
       </li>
   {% endif %}{% endfor %}
   </ul>
   
   <ul class="post-api-list">
   <h4>Project</h4>
-  
-  {% for post in site.posts reversed %}{% if post.course contains 'Project' %}
+	{% assign tutorials_p = (site.posts ) %}
+  {% for post in tutorials_p reversed %}{% if post.categories contains "tutorial" and post.course contains "Project" %}
       <li>
       <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="hidden">
+      {% for tag in post.tags %}
+        {{ tag }}&nbsp;
+      {% endfor %}
+      </span>
       </li>
   {% endif %}{% endfor %}
   </ul>
   
   <ul class="post-api-list">
   <h4>Tip</h4>
-  
-  {% for post in site.posts reversed %}{% if post.course contains 'Tip' %}
+	{% assign tutorials_t = (site.posts ) %}
+  {% for post in tutorials_t reversed %}{% if post.categories contains "tutorial" and post.course contains "Tip" %}
       <li>
       <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="hidden">
+      {% for tag in post.tags %}
+        {{ tag }}&nbsp;
+      {% endfor %}
+      </span>
       </li>
   {% endif %}{% endfor %}
   </ul>
