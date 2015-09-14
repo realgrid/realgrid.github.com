@@ -52,7 +52,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * Demo 페이지에 대한 실습을 강의합니다.
 
 #### 강좌
-* B1 Columns
+* B1 Columns(jun)
     - [x] B1-1 Column Filtering - Filter
     - [x] B1-2 Column Filtering - Filter Action
     - [x] B1-3 Column Filtering - Filter 응용 사용자 지정 필터 구현
@@ -63,25 +63,25 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * B4 Paging
 * B5 Renderers
 * B6 Series
-* B7 Editing
-    - [ ] Inserting
+* B7 Editing(fanelia)
+    - [x] B7-1 팝업메뉴 구현하기
+    - [x] B7-2 Insert and Add Rows
     - [ ] Updating
     - [ ] Deleting
     - [ ] Row States
     - [ ] Editors
     - [ ] Editors Button
-    - [x] B7-1 팝업메뉴 구현하기(fanelia)
-* B8 Components
-    - [x] B8-1 체크바(CheckBar) I
-    - [x] B8-2 체크바(CheckBar) II
-    - [x] B8-3 체크바(CheckBar) III
-    - [x] B8-4 컨텍스트메뉴(ContextMenu)
-    - [x] B8-5 인디케이터(Indicator)
-    - [ ] B8-6 상태바(StateBar)
+* B8 Components(fanelia)
+    - [x] B8-1 체크바(CheckBar) 사용하기 I
+    - [x] B8-2 체크바(CheckBar) 사용하기 II
+    - [x] B8-3 체크바(CheckBar) 사용하기 III
+    - [x] B8-4 컨텍스트메뉴(ContextMenu) 구현하기
+    - [x] B8-5 인디케이터(Indicator) 사용하기
+    - [x] B8-6 상태바(StateBar) 사용하기
 * B9 TreeView (yoogi82)
     - [x] B9-1 TreeDataProvider의 Data 구조이해 (Array)
-    - [ ] B9-2 TreeDataProvider의 Data 구조이해 (JSON)
-    - [ ] B9-3 TreeView의 ItemModel 이해하기
+    - [x] B9-2 TreeDataProvider의 Data 구조이해 (JSON)
+    - [x] B9-3 TreeView - TreeView의 ItemModel 이해하기.
     - [ ] B9-4 Expander
 * B10 Expression
 * B11 Styles
