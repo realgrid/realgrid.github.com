@@ -64,7 +64,7 @@ help.realgrid.com의 깃허브 리파지터리는 아래와 같습니다.
 ##### 재료(for Mac)
 * 깃허브 API 설치
 * [깃허브 맥 데스크탑 설치](https://mac.github.com/)
-* [지킬(Jekyll) 설치](http://jekyllrb-ko.github.io/docs/installation/)
+* [지킬(Jekyll) 설치](http://jekyllis.com/install-jekyll/)
 * [Sublime Text 설치](http://www.sublimetext.com/)
 * [Visual Studio Code 설치](https://code.visualstudio.com/)
 * [Atom 설치](https://atom.io/)
@@ -74,6 +74,7 @@ help.realgrid.com의 깃허브 리파지터리는 아래와 같습니다.
 * [깃허브 윈도우 데스크탑 설치](https://windows.github.com/)
 * [Visual Studio 확장 설치](https://visualstudio.github.com/)
 * [지킬(Jekyll) 설치](http://jekyllrb-ko.github.io/docs/installation/)
+    * [또는 지킬(Jekyll) 설치](http://jekyllis.com/install-jekyll/)
 * [Sublime Text 설치](http://www.sublimetext.com/)
 * [Visual Studio Code 설치](https://code.visualstudio.com/)
 
