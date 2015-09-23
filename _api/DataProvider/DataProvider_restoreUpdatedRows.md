@@ -11,7 +11,7 @@ jsonly: true
 
 #### Description
 
-> 수정된 행 데이터들을 원래대로 복한다.  
+> 수정된 행들만 데이터들을 원래대로 복원한다.  
 > dataProvider.options.[restoreMode](/api/types/RestoreMode/)  가 "explicit" 나 "auto" 로 지정되어 있어야한다.  
 
 #### Syntax
