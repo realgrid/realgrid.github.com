@@ -103,12 +103,22 @@ permalink: /api/types/DataColumn/
 > **alwaysShowButton**  
 > Type: Boolean  
 > Default: false   
->  이 값이 true면 데이터셀 위에 마우스가 진입하거나 셀이 포커스된 상태가 아니더라도 button으로 지정한 버튼을 항상 표시한다.   
+>  이 값이 true면 데이터셀 위에 마우스가 진입하거나 셀이 포커스된 상태가 아니더라도 button으로 지정한 버튼을 항상 표시한다.  
 
 > **alwaysShowEditButton**  
 > Type: Boolean  
 > Default: false   
 >  이 값이 true면 데이터셀 위에 마우스가 진입하거나 셀이 포커스된 상태가 아니더라도 [Cell Editor](/api/features/Cell Editor/)가 버튼을 표시하는 것일 때 그 버튼을 항상 표시한다.   
+
+> **buttonVisibility**  
+> Type: [ButtonVisibility]((/api/types/ButtonVisibility)  
+> Default: [ButtonVisibility]((/api/types/ButtonVisibility).DEFAULT   
+> 버튼이 표시되는 방법을 지정한다.  
+
+> **editButtonVisibility**  
+> Type: [ButtonVisibility]((/api/types/ButtonVisibility)  
+> Default: [ButtonVisibility]((/api/types/ButtonVisibility).DEFAULT   
+> 편집기 버튼이 표시되는 방법을 지정한다.  
 
 > **mergeRule**  
 > Type: Object   
