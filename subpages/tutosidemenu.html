@@ -40,11 +40,9 @@ layout: rowdiv
   {% endif %}{% endfor %}
   </ul>
 
-  {% assign sorted_by_orderno = site.posts | sort: "order" %}
-
   <ul class="post-api-list">
   <h4>B-Class</h4>
-	{% assign tutorials_b = (site.posts | sort: 'ordernum') %}
+	{% assign tutorials_b = (site.posts | sort: 'order') %}
   {% for post in tutorials_b %}{% if post.categories contains "tutorial" and post.course contains "B-Class" %}
       <li>
       <a class="page-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a>

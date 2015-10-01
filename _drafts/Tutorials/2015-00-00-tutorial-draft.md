@@ -4,6 +4,7 @@ title: RealGrid 튜토리얼 작성 방법
 date:   2015-07-24 21:13:31 +9:00 GMT
 permalink: /tutorial/guide
 categories: Tutorial
+order: F001001
 course:
   - guide
 summary: 튜토리얼에 대한 요약 설명을 작성 합니다.

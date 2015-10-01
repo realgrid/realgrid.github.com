@@ -85,7 +85,7 @@ permalink: /tutorial/
 		    <div role="tabpanel" class="tab-pane" id="b-class">
 		    	<p><span class="octicon octicon-info text-info"></span> B 클래스는 <a href="http://demo.realgrid.com" target="_new">데모사이트</a>에 대한 상세한 설명을 제공합니다. 이 클래스의 강좌들을 통해 RealGrid의 다양한 기능들을 어떻게 구현하는지 배울수 있습니다.</p>
 				<ul class="post-api-list">
-					{% assign tutorials_b = (site.posts | sort: 'ordernum') %}
+					{% assign tutorials_b = (site.posts | sort: 'order') %}
 				    {% for post in tutorials_b %}{% if post.categories contains "tutorial" %}{% if post.course contains "B-Class" %}
 				      <li>
 				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
