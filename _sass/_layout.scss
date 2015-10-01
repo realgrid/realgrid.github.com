@@ -1,5 +1,30 @@
 
 /**
+ * banner
+ */
+
+ .banner {
+    color: #138185;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+ }
+
+ .updates-banner {
+    background-color: #fc0;
+    color: #1e1e1e;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    height: 35px;
+ }
+
+ .banner-button {
+    text-align: center;
+ }
+
+
+/**
  * Site header
  */
 .site-header {
