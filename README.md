@@ -40,10 +40,12 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] A21 셀 선택하기(Selecting) - 선택한 셀의 값 가져오기
 * [x] A22 셀 선택하기(Selecting) - 동적으로 셀 선택하기
 * [x] A23 데이터 편집하기(Editing)
-* [x] A24 렌더러로 그래픽컬한 표현하기(Rendering)
-* [x] A25 모양내기(Styling)
+* [x] A24 데이터 불러오기(Data Loading)
+* [x] A25 에디터(Editor)와 셀의 값
 * [x] A26 이벤트 이해하기(Events)
-* [x] A27 기본적인 그리드 옵션들(Options)
+* [x] A27 옵션(Options)의 종류와 설정 방법
+* [ ] A28 Randerer 개요
+* [ ] A29 Style 기초
 
 ### Class B
 
@@ -66,9 +68,9 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * B7 Editing(fanelia)
     - [x] B7-1 팝업메뉴 구현하기
     - [x] B7-2 Insert and Add Rows
-    - [ ] Updating
-    - [ ] Deleting
-    - [ ] Row States
+    - [x] Updating
+    - [x] Deleting
+    - [x] Row States
     - [ ] Editors
     - [ ] Editors Button
 * B8 Components(fanelia)
@@ -85,6 +87,9 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [ ] B9-4 Expander
 * B10 Expression
 * B11 Styles
+    - [ ] B11-1 스타일 개요(Style Overview)
+    - [ ] B11-2 스타일 영역(Style Regions)
+    - [ ] B11-3 스타일 속성(Style Properties)
 * B12 DataCellStyle
 * B12 Excel
 * B13 Events
@@ -124,7 +129,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * Front-End에서 Back-End까지 연계한 전체 업무예시
 
 #### 강좌
-* Project1: 
+* RealGrid+ and RealGridJS로 크로스 브라우징 구현
 
 ## FAQ
 RealGrid기술지원 내용을 정리하여 자주 받게되는 질문과 그 질문에 대한 최선의 답변을 제공합니다.
