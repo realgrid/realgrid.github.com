@@ -83,20 +83,20 @@ var RealGridsUtil = {
 
             if(gridObj.type == "grid"){
             	/* swfObject.js required */
-            	var swfUrl = "RealGridPlus/objects/RealGridWeb.swf"; // RealGrid+ swf path
+            	var swfUrl = "/objects/RealGridWeb.swf"; // RealGrid+ swf path
                 if (location.href.indexOf("http://localhost") == 0) {
                     swfUrl = swfUrl + "?" + new Date().getTime();
                 };
                 /* used SWFObject v2.2 <http://code.google.com/p/swfobject/> */
-                swfobject.embedSWF(swfUrl, id, width, height, "11.1.0", "RealGridPlus/objects/expressInstall.swf", flashvars, pars, attrs);
+                swfobject.embedSWF(swfUrl, id, width, height, "11.1.0", "/objects/expressInstall.swf", flashvars, pars, attrs);
             }else{
             	/* swfObject.js required */
-            	var swfUrl = "RealGridPlus/objects/TreeGridWeb.swf"; // RealGrid+ swf path
+            	var swfUrl = "/objects/TreeGridWeb.swf"; // RealGrid+ swf path
             	if (location.href.indexOf("http://localhost") == 0) {
                     swfUrl = swfUrl + "?" + new Date().getTime();
                 };
                 /* used SWFObject v2.2 <http://code.google.com/p/swfobject/> */
-                swfobject.embedSWF(swfUrl, id, width, height, "11.1.0", "RealGridPlus/objects/expressInstall.swf", flashvars, pars, attrs);
+                swfobject.embedSWF(swfUrl, id, width, height, "11.1.0", "/objects/expressInstall.swf", flashvars, pars, attrs);
             }
         }
                     
