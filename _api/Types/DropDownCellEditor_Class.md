@@ -33,14 +33,17 @@ permalink: /api/types/DropDownCellEditor/
 > **displayLabels**  
 > Type: boolean  
 > Default: true  
+> 드롭다운 목록에서 label값으로 보여질 것인지 value값으로 보여질 것인지의 여부를 지정한다.   
 
 > **values**  
 > Type: Array  
 > Default: []  
+> 목록의 실제 값들을 지정한다.  
 
 > **labels**  
 > Type: Array  
 > Default: []  
+> 목록의 표시 값들을 지정한다.  
 
 > **dropDownCount**  
 > Type: Number  
@@ -50,11 +53,20 @@ permalink: /api/types/DropDownCellEditor/
 > **itemSortStyle**  
 > Type: [ItemSortStyle](/api/types/ItemSortStyle)  
 > Default: ItemSortStyle.NONE  
+> 드롭다운 목록의 정렬 여부를 지정한다.
 
 > **caseSensitive**  
 > Type: boolean  
 > Default: false  
+> 키 입력시 대소문자의 구분 여부를 지정한다.  
 
 > **commitOnSelect**  
 > Type: boolean  
 > Default: true  
+> 목록을 선택하였을때 commit 여부를 지정한다. 
+
+> **domainOnly**  
+> Type: boolean  
+> Default: false
+> 목록에 있는 값들만 지정할 수 있는지의 여부, true시 목록 이외의 값은 지정할 수 없다.  
+
