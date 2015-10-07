@@ -20,7 +20,7 @@ permalink: /api/GridBase/commit/
 
 > **force**  
 > Type: boolean  
-> true면 하나의 셀도 commit되지 않아도 행을 commit 한다. 지정하지 않으면 false로 해석한다.  
+> true인 경우 입력/편집 중 편집을 취소한 행(RowState 변경은 없고, Indicator에 편집으로 표시된)을 commit 한다. 지정하지 않으면 false로 해석한다.  
 
 #### Return value
 
