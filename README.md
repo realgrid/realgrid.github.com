@@ -44,8 +44,9 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] A25 에디터(Editor)와 셀의 값
 * [x] A26 이벤트 이해하기(Events)
 * [x] A27 옵션(Options)의 종류와 설정 방법
-* [ ] A28 Randerer 개요
-* [ ] A29 Style 기초
+* [ ] Treeview
+* [ ] Style 기초
+* [ ] Randerer 개요
 
 ### Class B
 
@@ -64,15 +65,23 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [ ] B3-1 데이터형(DataType)
 * B4 Paging
 * B5 Renderers
+    - [ ] CheckCellRenderer의 활용 - Merged Row Grouping에서 그룹 체크
 * B6 Series
 * B7 Editing(fanelia)
     - [x] B7-1 팝업메뉴 구현하기
     - [x] B7-2 Insert and Add Rows
-    - [x] Updating
-    - [x] Deleting
-    - [x] Row States
-    - [ ] Editors
-    - [ ] Editors Button
+    - [x] B7-3 Update Rows
+    - [x] B7-4 Delete Rows
+    - [x] B7-5 Row States
+    - [x] B7-6 Cell Button
+    - [x] B7-7 Popup Menu
+    - [ ] Text Editor
+    - [ ] Multi line Editor
+    - [ ] Dropdown Editor
+    - [ ] Datetime Editor
+    - [ ] Number Editor
+    - [ ] Search Editor
+    - [ ] Validation..
 * B8 Components(fanelia)
     - [x] B8-1 체크바(CheckBar) 사용하기 I
     - [x] B8-2 체크바(CheckBar) 사용하기 II
