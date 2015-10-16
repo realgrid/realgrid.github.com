@@ -70,3 +70,13 @@ permalink: /api/types/DropDownCellEditor/
 > Default: false
 > 목록에 있는 값들만 지정할 수 있는지의 여부, true시 목록 이외의 값은 지정할 수 없다.  
 
+> **dropDownWidth**  
+> Type: number  
+> Default: -1  
+> 목리스트의 너비를 지정합니다. -1이면 컬럼 너비, 0이면 리스트의 내용에 맞춰집니다.   
+
+> **dropDownPosition**   
+> Type: string  
+> Default: 'button'  
+> 리스트가 펼쳐질 기준을 지정합니다. 'button'이면 드롭다운 버튼의 오른쪽에, 'editor'이면 왼쪽에 맞춥니다.  
+
