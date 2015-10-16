@@ -73,7 +73,7 @@ permalink: /api/types/DropDownCellEditor/
 > **dropDownWidth**  
 > Type: number  
 > Default: -1  
-> 목리스트의 너비를 지정합니다. -1이면 컬럼 너비, 0이면 리스트의 내용에 맞춰집니다.   
+> 리스트의 너비를 지정합니다. -1이면 컬럼 너비, 0이면 리스트의 내용에 맞춰집니다.   
 
 > **dropDownPosition**   
 > Type: string  
