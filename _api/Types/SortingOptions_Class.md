@@ -26,6 +26,11 @@ permalink: /api/types/SortingOptions/
 > Default: SortStyle.EXCLUSIVE     
 > 그리드의 여러 컬럼에 대해 정렬 상태를 지정하는 방식을 지정한다.
 
+> **keepFocusedRow**  
+> Type: boolean  
+> Default: false  
+> 소트시 현재 포커스된 행을 유지할 것인지의 여부를 지정한다.  
+
 > **toast**  
 > Type: [ToastOptions](/api/types/ToastOptions)  
 > Default: none  
