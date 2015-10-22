@@ -24,7 +24,7 @@ permalink: /api/GridBase/getModelAs/
 > 아이템의 index  
 
 > **itemType**  
-> Type: Number  
+> Type: String  
 > 아이템의 type. "row", "group", "footer", "tree"를 지정할 수 있다.  
 
 > **extended**  
