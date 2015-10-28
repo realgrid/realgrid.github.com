@@ -35,7 +35,7 @@ permalink: /api/GridBase/setEditorOptions/
         yearDisplayFormat: "{Y}년",                                                // "{Y} Year"
         monthDisplayFormat: "{M}월",                                               // "{M} Month"  
         months: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
-        weekDays: ["일", "월", "화", "수", "목", "금", "토"]                          ['SUN', 'MON', 'TUE', 'WED'....]  
+        weekDays: ["일", "월", "화", "수", "목", "금", "토"]                          // ['SUN', 'MON', 'TUE', 'WED'....]  
     });
 </pre>
 
