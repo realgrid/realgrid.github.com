@@ -107,3 +107,8 @@ permalink: /api/types/DisplayOptions/
 > Type: String  
 > Default: NaN  
 > 포커스가 활성화 되었을때 색상을 지정한다.  
+
+> **editItemMerging**   
+> Type: Boolean   
+> Default: false   
+> Merged Row Grouping 또는 Cell Merging상태에서 셀 편집시 편집중인 행의 분리 여부를 지정한다.  
