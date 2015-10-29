@@ -14,7 +14,7 @@ permalink: /api/TreeView/expand/
 
 #### Syntax
 
-> function expand(itemIndex, recursive)
+> function expand(itemIndex, recursive, force)
 
 #### Parameters
 
@@ -26,6 +26,11 @@ permalink: /api/TreeView/expand/
 > Type: Boolean  
 > Default: false  
 > true를 입력하면 입력된 아이템의 자식아이템까지 모두 확장한다.  
+
+> **force**  
+> Type: Boolean  
+> Default: false  
+> true를 입력하면 확장되어 있는 아이템의 닫혀있는 자식아이템을 모두 확장한다.
 
 #### Return value
 
