@@ -44,7 +44,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] A25 에디터(Editor)와 셀의 값
 * [x] A26 이벤트 이해하기(Events)
 * [x] A27 옵션(Options)의 종류와 설정 방법
-* [ ] Treeview
+* [ ] A28 트리뷰(Treeview) 기본개념
 * [ ] Style 기초
 * [ ] Randerer 개요
 
@@ -60,7 +60,10 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [x] B1-2 Column Filtering - Filter Action
     - [x] B1-3 Column Filtering - Filter 응용 사용자 지정 필터 구현
     - [x] B1-4 Column Filtering - Filter Action 응용 자동 필터 구현
-* B2 Rows
+* B2 Rows(tostesca)
+    - [ ] B2-1 행 고정(Fixed Row)
+    - [ ] B2-2 행 그룹핑(Row Grouping)
+    - [ ] B2-3 병합된 행 그룹핑(Merged Row Grouping)
 * B3 Data
     - [ ] B3-1 데이터형(DataType)
 * B4 Paging
