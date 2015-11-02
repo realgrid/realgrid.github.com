@@ -78,13 +78,11 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [x] B7-5 Row States
     - [x] B7-6 Cell Button
     - [x] B7-7 Popup Menu
-    - [ ] Text Editor
-    - [ ] Multi line Editor
-    - [ ] Dropdown Editor
-    - [ ] Datetime Editor
-    - [ ] Number Editor
-    - [ ] Search Editor
-    - [ ] Validation..
+    - [ ] B7-8 편집기(Editors) I
+    - [ ] B7-9 편집기(Editors) II - DropDown Editor
+    - [ ] B7-10 편집기(Editors) III - Search Editor
+    - [ ] Validation
+    - [ ] Formating
 * B8 Components(fanelia)
     - [x] B8-1 체크바(CheckBar) 사용하기 I
     - [x] B8-2 체크바(CheckBar) 사용하기 II
@@ -112,8 +110,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * 컬럼 그룹핑(column grouping): 
 * 이벤트
 * 각종 옵션
-* 스타일
-
+* 
 ### Class C
 
 #### 목표
