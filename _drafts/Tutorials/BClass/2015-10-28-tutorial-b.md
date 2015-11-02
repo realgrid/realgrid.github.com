@@ -1,0 +1,698 @@
+---
+layout: tutopost
+title: B - Merged Row Grouping
+date:   2015-10-28 11:00:00 +9:00 GMT
+permalink: /tutorial/b
+categories: Tutorial
+order: B001001
+course:
+  - B-Class
+summary: 그리드 행이 그룹 상태일 때 rowGroup의 설정 모델에 대한 요약 설명을 작성합니다.
+tags: 
+  - RealGridJS
+  - RealGrid
+  - Tutorial  
+  - Merged
+  - Row
+  - Grouping    
+---
+
+<script type="text/javascript" src="/script/realgridjs-lic.js"></script>
+<script type="text/javascript" src="/script/realgridjs_eval.1.0.11.min.js"></script>
+<script type="text/javascript" src="/script/realgridjs-api.1.0.11.js"></script>
+
+<script language="javascript">
+var gridView;
+var dataProvider;
+
+$(document).ready( function(){
+    RealGridJS.setTrace(false);
+    RealGridJS.setRootContext("/script");
+    
+    dataProvider = new RealGridJS.LocalDataProvider();
+    gridView = new RealGridJS.GridView("realgrid");
+    gridView.setDataSource(dataProvider);
+    
+    //필드 배열 객체를  생성합니다.
+    var fields = [
+        {
+            fieldName: "field1"
+        },
+        {
+            fieldName: "field2"
+        },
+        {
+            fieldName: "field3"
+        },
+        {
+            fieldName: "field4",
+            dataType: "number"
+        },
+        {
+            fieldName: "field5",
+            dataType: "number"
+        },
+        {
+            fieldName: "field6",
+            dataType: "number"
+        },
+        {
+            fieldName: "field7",
+            dataType: "number"
+        },
+        {
+            fieldName: "field8",
+            dataType: "number"
+        },
+        {
+            fieldName: "field9",
+            dataType: "number"
+        },
+        {
+            fieldName: "field10",
+            dataType: "number"
+        }
+    ];
+    //DataProvider의 setFields함수로 필드를 입력합니다.
+    dataProvider.setFields(fields);
+    
+    //필드와 연결된 컬럼 배열 객체를 생성합니다.
+    var columns = [
+        {
+            name: "col1",
+            fieldName: "field1",
+            header : {
+                text: "직업"
+            },
+            width : 60
+        },
+        {
+            name: "col2",
+            fieldName: "field2",
+            header : {
+                text: "성별"
+            },
+            width: 50
+        },
+        {
+            name: "col3",
+            fieldName: "field3",
+            header : {
+                text: "이름"
+            },
+            footer: {
+                text: "평균=>",
+                groupText: "평균=>"
+            },
+            width: 80
+        },
+        {
+            name: "col4",
+            fieldName: "field4",
+            header : {
+                text: "국어"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col5",
+            fieldName: "field5",
+            header : {
+                text: "수학"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col6",
+            fieldName: "field6",
+            header : {
+                text: "민법"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col7",
+            fieldName: "field7",
+            header : {
+                text: "한국사"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col8",
+            fieldName: "field8",
+            header : {
+                text: "영어"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col9",
+            fieldName: "field9",
+            header : {
+                text: "과학"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col10",
+            fieldName: "field10",
+            header : {
+                text: "사회"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        }
+    ];
+    //컬럼을 GridView에 입력 합니다.
+    gridView.setColumns(columns);
+
+   var data = [
+       ["배우", "여자", "전도연", "0", "70", "90", "70", "60", "100", "80"],
+       ["가수", "여자", "이선희", "1", "33", "90", "70", "60", "100", "80"],
+       ["배우", "여자", "하지원", "2", "100", "90", "70", "60", "100", "80"],
+       ["가수", "여자", "박정현", "3", "90", "90", "70", "60", "100", "80"],
+       ["배우", "여자", "전지현", "4", "100", "90", "70", "60", "100", "80"],
+       ["가수", "남자", "성시경", "7", "100", "100", "100", "100", "100", "100"],
+       ["가수", "남자", "윤상", "9", "100", "100", "100", "100", "100", "100"],
+       ["가수", "여자", "이소라", "11", "100", "100", "100", "100", "100", "100"],
+       ["배우", "여자", "강소라", "12", "100", "100", "100", "100", "100", "100"],
+       ["가수", "남자", "타블로", "13", "100", "100", "100", "100", "100", "100"],
+       ["가수", "남자", "이승환", "14", "100", "100", "100", "100", "100", "100"]
+     ];
+    dataProvider.setRows(data);
+    
+    //rowGroup초기 설정
+    gridView.setOptions({
+        rowGroup: {
+            mergeMode: true,
+            expandedAdornments: "footer",
+            collapsedAdornments: "footer"
+        }
+    });
+    
+    //직업컬럼 단일그룹
+    $("#btnField1Group").on("click", function(){
+        gridView.groupBy(["field1"]);
+    });
+    
+    //rowGroup이 펼쳐진 상태일 때
+    $("#btnExpandedHeader").on("click", function(){
+        gridView.setRowGroup({
+            expandedAdornments: "header"
+        });
+    });
+    
+    $("#btnExpandedFooter").on("click", function(){
+        gridView.setRowGroup({
+            expandedAdornments: "footer"
+        });
+    });
+    
+    $("#btnExpandedNone").on("click", function(){
+        gridView.setRowGroup({
+            expandedAdornments: "none"
+        });
+    });
+    
+    //rowGroup이 펼쳐지지 않은 상태일 때
+    $("#btnCollapsedBoth").on("click", function(){
+        gridView.setRowGroup({
+            collapsedAdornments: "both"
+        });
+    });
+    
+    //Expander 숨기기
+    $("#btnExpander").on("click", function(){
+        gridView.setRowGroup({
+            mergeExpander: ""
+        });
+    });
+    
+});   
+
+
+</script>
+
+### 들어가며
+
+[[A15 강좌](/tutorial/a15/)],[[A16 강좌](/tutorial/a16/)]에서 rowGrouping에 대한 기본적인 이론과 사용방법을 배웠습니다. 이 강좌에서는 데이터 셀이 병합된 상태에서 rowGroup의 설정 모델에 대하여 배워보도록 하겠습니다.
+
+**이 강좌를 연습하기 전에 RealGrid의 [Style Regions](http://demo.realgrid.com/Demo/StylesRegions)를 반드시 이해해야 합니다. [링크](http://demo.realgrid.com/Demo/StylesRegions)로 이동하여 rowGroup.header영역과 rowGroup.footer영역의 명칭을 확인하세요.**
+
+### 이론
+
+RealGrid는 Grouping을 할 수 있습니다. 그리고  RowGrouping과 관련된 영역들의 표시 방법 등에 대하여 설정 할 수 있습니다.
+
+[gridView.setRowGroup()](http://help.realgrid.com/api/GridBase/setRowGroup/)함수는 rowGroup의 설정 값을 오브젝트 형식의 인자로 넘겨줍니다. 인자로 넘겨지는 설정은 gridView에 적용되어 설정한대로 그리드에 보여지게 됩니다.
+rowGroup의 설정 항목은 [RowGroupOptions](http://help.realgrid.com/api/types/RowGroupOptions/)에서 확인하실 수 있으며, 설정 값은 [RowGroupAdornments](http://help.realgrid.com/api/types/RowGroupAdornments/)에서 확인하실 수 있습니다.
+
+아래 실습을 통하여 rowGroup의 설정에 따른 영역의 위치와 변하는 모습을 확인하세요.
+
+### 실습
+
+실습에서는  expanded와 collapsed의 속성을 사용해보면서 차이점을 살펴보도록 하겠습니다.
+
+1. 실습을 위한 그룹에 관련된 설명은 [[A15 강좌](/tutorial/a15/)], [[A16 강좌](/tutorial/a16/)]와 동일합니다.
+
+2. 그룹시 초기에 보여지는 설정을 위해 아래 코드를 추가합니다.
+	<pre class="prettyprint">
+	 gridView.setOptions({
+        rowGroup: {
+            mergeMode: true,
+            expandedAdornments: "footer",
+            collapsedAdornments: "footer"
+        }
+    });</pre>
+
+3. 버튼을 클릭하면 rowGroup이 펼쳐진 상태일 때 rowGroup.header영역이 보여지기 위해 아래 코드를 추가합니다.
+    <pre class="prettyprint">
+    $("#btnCollapsedHeader").on("click", function(){
+        gridView.setRowGroup({
+            expandedAdornments: "header"
+        });
+    });</pre>
+ 
+4. rowGroup이 펼쳐진 상태일 때 `footer`, `both`, `none`영역은 코드는 동일하며 expandedAdornments의 설정을 해당 영역의 명으로 바꾸어 주면됩니다.
+
+5. 버튼을 클릭하면 rowGroup이 펼쳐지지 않은 상태일 때 rowGroup.header영역이 보여지기 위해 아래 코드를 추가합니다.
+    <pre class="prettyprint">
+    $("#btnCollapsedHeader").on("click", function(){
+        gridView.setRowGroup({
+            collapsedAdornments: "header"
+        });
+    });</pre>
+
+6. rowGroup이 펼쳐지지 않은 상태일 때 `footer`, `both`영역은 코드는 동일하며 collapsedAdornments의 설정을 해당 영역의 명으로 바꾸어 주면됩니다.
+
+7. 버튼을 클릭하면 병합된 데이터 셀에 Expander표시가 보여지지 않도록 설정 합니다.
+    <pre class="prettyprint">
+    $("#btnExpander").on("click", function(){
+        gridView.setRowGroup({
+            mergeExpander: ""
+        });
+    });</pre>
+ 
+8. Expander표시가 보여지기 위해서는 mergeExpander의 설정을 true로 설정 합니다.
+
+### 실행화면
+
+1. <button type="button" class="btn btn-primary btn-xs" id="btnField1Group">작업컬럼으로 그룹잡기</button> 버튼을 클릭하여 그룹을 설정합니다. `직업`컬럼의 데이터 셀이 병합이 되었는지 확인합니다.
+
+2. <button type="button" class="btn btn-primary btn-xs" id="btnExpandedHeader">expandedAdornments: "header"</button> 버튼을 클릭하여 expandedAdornments의 값을 `header`로 변경합니다. rowGroup이 펼쳐진 상태일 때 rowGroup.header가 보이는지 확인합니다.
+
+3. <button type="button" class="btn btn-primary btn-xs" id="btnExpandedFooter">expandedAdornments: "footer"</button>버튼 클릭시  expandedAdornments의 값을 `footer`로 변경합니다. rowGroup.header가 보이는지 확인합니다.
+
+4. <button type="button" class="btn btn-primary btn-xs" id="btnExpandedNone">expandedAdornments: "none"</button>버튼 클릭시 expandedAdornments의 값을 `none`로 변경합니다. rowGroup.header와 rowGroup.foorter가 사라졌는지 확인합니다.
+
+5. <button type="button" class="btn btn-primary btn-xs" id="btnCollapsedBoth">collapsedAdornments: "both"</button>버튼 클릭시 collapsedAdornments의 값을  `both`로 변경합니다. rowGroup이 펼쳐지지 않은 상태일 때 rowGroup.header와 rowGroup.foorter가 둘다 보이는지 확인합니다.
+
+6. <button type="button" class="btn btn-primary btn-xs" id="btnExpander">Expander숨기기</button>버튼 클릭시 병합된 자리의 버튼을 숨길 수 있습니다.
+병합된 데이터 셀의 버튼이 사라졌는지 확인합니다.
+
+<div id="realgrid" style="width: 100%; height: 300px;"></div>
+<p></p>
+
+### 전체 소스코드
+
+#### SCRIPT
+
+<pre class="prettyprint full-source-script">
+&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/bootstrap.css&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/jquery-1.112.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;!--realgrid--&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/dlgrids_eval.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/realgridjs.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+var gridView;
+var dataProvider;
+
+$(document).ready( function(){
+    RealGridJS.setTrace(false);
+    RealGridJS.setRootContext("/script");
+    
+    dataProvider = new RealGridJS.LocalDataProvider();
+    gridView = new RealGridJS.GridView("realgrid");
+    gridView.setDataSource(dataProvider);
+    
+    //필드 배열 객체를  생성합니다.
+    var fields = [
+        {
+            fieldName: "field1"
+        },
+        {
+            fieldName: "field2"
+        },
+        {
+            fieldName: "field3"
+        },
+        {
+            fieldName: "field4",
+            dataType: "number"
+        },
+        {
+            fieldName: "field5",
+            dataType: "number"
+        },
+        {
+            fieldName: "field6",
+            dataType: "number"
+        },
+        {
+            fieldName: "field7",
+            dataType: "number"
+        },
+        {
+            fieldName: "field8",
+            dataType: "number"
+        },
+        {
+            fieldName: "field9",
+            dataType: "number"
+        },
+        {
+            fieldName: "field10",
+            dataType: "number"
+        }
+    ];
+    //DataProvider의 setFields함수로 필드를 입력합니다.
+    dataProvider.setFields(fields);
+    
+    //필드와 연결된 컬럼 배열 객체를 생성합니다.
+    var columns = [
+        {
+            name: "col1",
+            fieldName: "field1",
+            header : {
+                text: "직업"
+            },
+            width : 60
+        },
+        {
+            name: "col2",
+            fieldName: "field2",
+            header : {
+                text: "성별"
+            },
+            width: 50
+        },
+        {
+            name: "col3",
+            fieldName: "field3",
+            header : {
+                text: "이름"
+            },
+            footer: {
+                text: "평균=>",
+                groupText: "평균=>"
+            },
+            width: 80
+        },
+        {
+            name: "col4",
+            fieldName: "field4",
+            header : {
+                text: "국어"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col5",
+            fieldName: "field5",
+            header : {
+                text: "수학"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col6",
+            fieldName: "field6",
+            header : {
+                text: "민법"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col7",
+            fieldName: "field7",
+            header : {
+                text: "한국사"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col8",
+            fieldName: "field8",
+            header : {
+                text: "영어"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col9",
+            fieldName: "field9",
+            header : {
+                text: "과학"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        },
+        {
+            name: "col10",
+            fieldName: "field10",
+            header : {
+                text: "사회"
+            },
+            footer: {
+            	styles: {
+            	    textAlignment: "near",
+            	    numberFormat: "0"
+            	},
+            	text: "평균",
+            	expression: "avg",
+            	groupExpression: "avg"
+            },
+            width: 80
+        }
+    ];
+    //컬럼을 GridView에 입력 합니다.
+    gridView.setColumns(columns);
+
+   var data = [
+       ["배우", "여자", "전도연", "0", "70", "90", "70", "60", "100", "80"],
+       ["가수", "여자", "이선희", "1", "33", "90", "70", "60", "100", "80"],
+       ["배우", "여자", "하지원", "2", "100", "90", "70", "60", "100", "80"],
+       ["가수", "여자", "박정현", "3", "90", "90", "70", "60", "100", "80"],
+       ["배우", "여자", "전지현", "4", "100", "90", "70", "60", "100", "80"],
+       ["가수", "남자", "성시경", "7", "100", "100", "100", "100", "100", "100"],
+       ["가수", "남자", "신해철", "8", "100", "100", "100", "100", "100", "100"],
+       ["가수", "남자", "윤상", "9", "100", "100", "100", "100", "100", "100"],
+       ["가수", "남자", "윤종신", "10", "100", "100", "100", "100", "100", "100"],
+       ["가수", "여자", "이소라", "11", "100", "100", "100", "100", "100", "100"],
+       ["배우", "여자", "강소라", "12", "100", "100", "100", "100", "100", "100"],
+       ["가수", "남자", "타블로", "13", "100", "100", "100", "100", "100", "100"],
+       ["가수", "남자", "이승환", "14", "100", "100", "100", "100", "100", "100"],
+       ["가수", "남자", "토이", "15", "100", "100", "100", "100", "100", "100"]
+     ];
+    dataProvider.setRows(data);
+    
+    //rowGroup초기 설정
+    gridView.setOptions({
+        rowGroup: {
+            mergeMode: true,
+            expandedAdornments: "footer",
+            collapsedAdornments: "footer"
+        }
+    });
+    
+    //직업컬럼 단일그룹
+    $("#btnField1Group").on("click", function(){
+        gridView.groupBy(["field1"]);
+    });
+    
+    //rowGroup이 펼쳐진 상태일 때
+    $("#btnExpandedHeader").on("click", function(){
+        gridView.setRowGroup({
+            expandedAdornments: "header"
+        });
+    });
+    
+    $("#btnExpandedFooter").on("click", function(){
+        gridView.setRowGroup({
+            expandedAdornments: "footer"
+        });
+    });
+    
+    $("#btnExpandedNone").on("click", function(){
+        gridView.setRowGroup({
+            expandedAdornments: "none"
+        });
+    });
+    
+    //rowGroup이 펼쳐지지 않은 상태일 때
+    $("#btnCollapsedBoth").on("click", function(){
+        gridView.setRowGroup({
+            collapsedAdornments: "both"
+        });
+    });
+    
+    //Expander 숨기기
+    $("#btnExpander").on("click", function(){
+        gridView.setRowGroup({
+            mergeExpander: ""
+        });
+    });
+    
+});   
+
+&lt;/script&gt;
+
+</pre>
+
+#### HTML
+<pre class="prettyprint full-source-html">
+1. &lt;button type=&quot;button&quot; id=&quot;btnField1Group&quot;&gt;작업컬럼으로 그룹잡기&lt;/button&gt; 버튼을 클릭하여 그룹을 설정합니다. 직업컬럼의 데이터 셀이 병합이 되었는지 확인합니다.
+
+2. &lt;button type=&quot;button&quot; id=&quot;btnExpandedHeader&quot;&gt;expandedAdornments: &quot;header&quot;&lt;/button&gt; 버튼을 클릭하여 expandedAdornments의 값을 &quot;header&quot;로 변경합니다. Rowgroup이 펼쳐진 상태일 때 rowGroup.header가 보이는지 확인합니다.
+
+3. &lt;button type=&quot;button&quot; id=&quot;btnExpandedFooter&quot;&gt;expandedAdornments: &quot;footer&quot;&lt;/button&gt;버튼 클릭시  expandedAdornments의 값을 &quot;footer&quot;로 변경합니다. rowGroup.header가 보이는지 확인합니다.
+
+4. &lt;button type=&quot;button&quot; id=&quot;btnExpandedNone&quot;&gt;expandedAdornments: &quot;none&quot;&lt;/button&gt;버튼 클릭시 expandedAdornments의 값을 &quot;none&quot;로 변경합니다. rowGroup.header와 rowGroup.foorter가 사라졌는지 확인합니다.
+
+5. &lt;button type=&quot;button&quot; id=&quot;btnCollapsedBoth&quot;&gt;collapsedAdornments: &quot;both&quot;&lt;/button&gt;클릭시 collapsedAdornments의 값을  &quot;both&quot;로 변경합니다. Rowgroup이 펼쳐지지 않은 상태일 때  rowGroup.header와 rowGroup.foorter가 둘다 보이는지 확인합니다.
+
+6. &lt;button type=&quot;button&quot; id=&quot;btnExpander&quot;&gt;Expander숨기기&lt;/button&gt;버튼 클릭시 병합된 셀에 expander표시를 없앨 수 있습니다. 병합된 데이터 셀의 expander표시가 사라졌는지 확인합니다.
+
+&lt;div id=&quot;realgrid&quot; style=&quot;width:100%; height:300px;&quot;&gt;&lt;/div&gt;
+
+</pre>
+
+---
+**데모 사이트**
+
+* [Merged Row Grouping 데모](http://demo.realgrid.com/Demo/RowGroupMerging)
+
+---
+**API 참조**
+
+* [Row Grouping](http://help.realgrid.com/api/features/Row%20Grouping/)
+* [setRowGroup](http://help.realgrid.com/api/GridBase/setRowGroup/)
+* [RowGroupOptions](http://help.realgrid.com/api/types/RowGroupOptions/)
+* [RowGroupAdornments](http://help.realgrid.com/api/types/RowGroupAdornments/)
