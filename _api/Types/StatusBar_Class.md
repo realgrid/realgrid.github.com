@@ -6,6 +6,7 @@ typename: Config Classes
 order: StatusBar
 objectname: 
 directiontype: 
+deprecated: true
 permalink: /api/types/StatusBar/
 ---
 
@@ -24,5 +25,5 @@ permalink: /api/types/StatusBar/
 > **visible**  
 > Type: boolean   
 > Default: true     
-> true면 StatueBar를 표시한다.
+> true면 StatusBar를 표시한다.
 
