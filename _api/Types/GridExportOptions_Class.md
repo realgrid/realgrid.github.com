@@ -30,6 +30,20 @@ permalink: /api/types/GridExportOptions/
 > Default: null   
 > 그리드가 내보내는 문서 스트림을 전송 받은 후 다시 사용자 컴퓨터에 내려 주는 서버의 url.  
 
+> **fileName**   
+> Type: string         
+> Default: null   
+> export 시 저장될 파일 이름.  
+
+> **linear**   
+> Type: boolean         
+> Default: false   
+> 컬럼 그룹을 해제하고 export 할 것인지의 여부.  
+
+> **allItems**  
+> Type: Boolean  
+> 감춰진 모든 행을 출력할것인지의 여부 
+
 > **indicator**   
 > Type: string   
 > Default: "default"   
@@ -45,6 +59,11 @@ permalink: /api/types/GridExportOptions/
 > Default: "default"   
 > 그리드 [Footer](/api/types/Footer/) 영역을 문서에 포함할 것인 지를 지정한다. "default"이면 현재 그리드에 표시된 상태를 따르고, "visible"이면 무조건 포함하고, "hidden"이면 무조건 포함시키지 않는다.
 
+> **indenting**   
+> Type: boolean   
+> Default: true   
+> 행 그룹핑된 자료를 export 시 들여쓰기 여부를 지정한다.
+
 > **showConfirm**  
 > Type:Boolean  
 > Default: true  
@@ -52,16 +71,44 @@ permalink: /api/types/GridExportOptions/
 
 > **confirmMessage**  
 > Type: string  
+> Default: "Excel 문서로 저장하시겠습니까?"
 > 메세지 상자에 표시될 문자열을 입력한다.  
 
 > **confirmTitle**  
 > Type: string  
+> Default: "Excel 저장"
 > 메세지 상자에 표시될 Title을 입력한다.  
 
 > **lookupDisplay**  
-> Type: Boolean  
+> Type: boolean  
 > column의 lookupDisplay 값을 표시된 값으로의 저장 여부  
 
-> **allItems**  
-> Type: Boolean  
-> 감춰진 모든 행을 출력할것인지의 여부 
+> **datetimeFormat**  
+> Type: string  
+> Default: undefined  
+> 이 값이 지정되면 datetime 필드의 값을 출력할 때 변환 형식으로 사용된다. 지정되지 않은 경우 데이터필드에 설정된 값을 사용한다.  
+
+> **booleanFormat**  
+> Type: string  
+> Default: undefined  
+> 이 값이 지정되면 datetime 필드의 값을 출력할 때 변환 형식으로 사용된다. 지정되지 않은 경우 데이터필드에 설정된 값을 사용한다.  
+
+> **datetimeCallback**   
+> Type: function (index, column, value)   
+> Default: undefined   
+> datetime 필드 출력시 수행될 콜백함수를 지정한다. 원하는 형태로 지정 가능하다.   
+
+> **booleanCallback**   
+> Type: function (index, column, value)   
+> Default: undefined   
+> boolean 필드 출력시 수행될 콜백함수를 지정한다. 원하는 형태로 지정 가능하다.   
+
+> **nullDateText**  
+> Type: string  
+> Default: ""  
+> DateTime 필드의 값이 null 일때 표현되는 값을 지정한다. 
+
+> **numberFormat**  
+> Type: string  
+> Default: undefined  
+> 이 값이 지정되면 number 필드의 값을 출력할 때 변환 형식으로 사용된다. 지정되지 않은 경우 column.styles에 설정된 값을 사용한다.  
