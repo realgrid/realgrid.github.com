@@ -95,8 +95,9 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * B9 TreeView (yoogi82)
     - [x] B9-1 TreeDataProvider의 Data 구조이해 (Array)
     - [x] B9-2 TreeDataProvider의 Data 구조이해 (JSON)
-    - [x] B9-3 TreeView - TreeView의 ItemModel 이해하기.
+    - [x] B9-3 TreeView - TreeView의 ItemModel 이해하기
     - [ ] B9-4 Expander
+    - [ ] B9-5 부모 또는 자식행에 접근법
 * B10 Expression
 * B11 Styles
     - [ ] B11-1 스타일 개요(Style Overview)
