@@ -34,3 +34,13 @@ permalink: /api/types/ColumnFooter/
 > Type: [Expression](/api/features/Expression)  
 > Default: null     
 > 행 그룹 푸터에 표시될 [Expression](/api/features/Expression)을 지정한다. [Row Grouping](/api/features/Row Grouping/)을 참조한다.  
+
+> **styles**  
+> Type: Object   
+> Default:  null     
+> 푸터 데이터셀들에게 적용할 스타일들을 지정한다.   
+
+> **groupStyles**  
+> Type: Object   
+> Default:  null     
+> 그룹 푸터 데이터셀들에게 적용할 스타일들을 지정한다.   

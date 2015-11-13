@@ -35,10 +35,15 @@ permalink: /api/types/DataColumn/
 > Default: undefined     
 > 컬럼이 속한 컬럼그룹내에서 컬럼의 표시 너비를 지정한다.      
 
+> **displayIndex**  
+> Type: Number   
+> Default:  undefined      
+> 컬럼이 속한 컬럼그룹내에서  컬럼의 표시 순서를 나타낸다. 읽기만 가능한 값이다.  
+
 > **height**  
 > Type: Number   
 > Default: 0   
-> 컬럼그룹 내에서 이 컬럼의 높이를 지정한다.   
+> 컬럼그룹 내에서 이 컬럼의 높이를 지정한다.        
 
 > **fillHeight**  
 > Type: Number   
@@ -80,15 +85,15 @@ permalink: /api/types/DataColumn/
 > Default: true    
 > true로 지정하면 사용자 컬럼 헤더를 마우스로 드래깅해서 컬럼의 위치를 변경할 수 있다. 현재 같은 컬럼 그룹내에서만 이동이 가능하다. 최상위 컬럼이나 그룹은 최상위 레벨에서만 이동 가능하다.   
 
-> **displayIndex**  
-> Type: Number   
-> Default:  undefined      
-> 컬럼이 속한 컬럼그룹내에서  컬럼의 표시 순서를 나타낸다. 읽기만 가능한 값이다.  
-
 > **sortable**  
 > Type: Boolean   
-> Default:  null     
+> Default:  true     
 > 헤더에 sort handle을 표시하고, 사용자가 그 handle을 클릭해서 컬럼 셀들을 정렬할 수 있도록 할 것인 지를 지정한다.  
+
+> **groupable**  
+> Type: Boolean   
+> Default:  true     
+> true로 지정하면 사용자가 컬럼 헤더를 마우스로 드래깅해서 그룹핑을 할 수 있다.  
 
 > **button**  
 > Type: [CellButton](/api/types/CellButton)  
@@ -111,13 +116,13 @@ permalink: /api/types/DataColumn/
 >  이 값이 true면 데이터셀 위에 마우스가 진입하거나 셀이 포커스된 상태가 아니더라도 [Cell Editor](/api/features/Cell Editor/)가 버튼을 표시하는 것일 때 그 버튼을 항상 표시한다.   
 
 > **buttonVisibility**  
-> Type: [ButtonVisibility]((/api/types/ButtonVisibility)  
-> Default: [ButtonVisibility]((/api/types/ButtonVisibility).DEFAULT   
+> Type: [ButtonVisibility](/api/types/ButtonVisibility)  
+> Default: [ButtonVisibility](/api/types/ButtonVisibility).DEFAULT   
 > 버튼이 표시되는 방법을 지정한다.  
 
 > **editButtonVisibility**  
-> Type: [ButtonVisibility]((/api/types/ButtonVisibility)  
-> Default: [ButtonVisibility]((/api/types/ButtonVisibility).DEFAULT   
+> Type: [ButtonVisibility](/api/types/ButtonVisibility)  
+> Default: [ButtonVisibility](/api/types/ButtonVisibility).DEFAULT   
 > 편집기 버튼이 표시되는 방법을 지정한다.  
 
 > **mergeRule**  

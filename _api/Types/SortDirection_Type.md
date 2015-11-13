@@ -14,7 +14,7 @@ permalink: /api/types/SortDirection/
 
 > 정렬할 순서를 정의합니다.
 
-#### Memebers
+#### Members
 
 > **ASCENDING**  
 > Value: "ascending"  
