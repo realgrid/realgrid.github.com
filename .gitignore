@@ -6,4 +6,6 @@ _site
 
 .Ulysses-Group.plist
 
+.jekyll-metadata
+
 *.plist
