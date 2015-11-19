@@ -38,6 +38,7 @@ permalink: /api/types/FilterSelectorOptions/
 > **styles**  
 > Type: Style  
 > 선택상자에 적용할 스타일을 지정한다.  
+> FLASH Ver. 전용  
 
 > **closeWhenClick**  
 > Type: Boolean  
@@ -48,6 +49,7 @@ permalink: /api/types/FilterSelectorOptions/
 > Type: Boolean  
 > Default: true  
 > 모든 필텨를 보여줄것인지를 지정한다.  
+> FLASH Ver. 전용  
 
 #### See Also
 
