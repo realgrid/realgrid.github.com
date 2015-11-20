@@ -80,10 +80,11 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [x] B7-5 Row States
     - [x] B7-6 Cell Button
     - [x] B7-7 Popup Menu
-    - [ ] B7-8 편집기(Editors) I
-    - [ ] B7-9 편집기(Editors) II - DropDown Editor
-    - [ ] B7-10 편집기(Editors) III - Search Editor
-    - [ ] Validation
+    - [x] B7-8 편집기(Editors) I
+    - [x] B7-9 편집기(Editors) II - DropDown Editor
+    - [x] B7-10 편집기(Editors) III - Search Editor
+    - [x] B7-11 Column Validation
+    - [x] B7-12 Custom Column Validation
     - [ ] Formating
 * B8 Components(fanelia)
     - [x] B8-1 체크바(CheckBar) 사용하기 I
@@ -96,8 +97,8 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
     - [x] B9-1 TreeDataProvider의 Data 구조이해 (Array)
     - [x] B9-2 TreeDataProvider의 Data 구조이해 (JSON)
     - [x] B9-3 TreeView - TreeView의 ItemModel 이해하기
-    - [ ] B9-4 Expander
-    - [ ] B9-5 자식/자손/조상의 RowId 값 가져오기
+    - [x] B9-4 Expander
+    - [x] B9-5 자식/자손/조상의 RowId 값 가져오기
     - [ ] B9-6 Lazy Loading
     - [ ] B9-7 Load CSV DataSet
     - [ ] B9-8 Load Json Array DataSet
