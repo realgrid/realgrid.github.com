@@ -12,7 +12,7 @@ permalink: /api/types/PasteOptions/
 
 #### Description
 
->
+> 붙여넣기시 사용하는 옵션 정보이다.  
 
 #### Properies
 
@@ -86,6 +86,11 @@ permalink: /api/types/PasteOptions/
 > Type: boolean  
 > Default: true  
 > true면 onEditRowChanged가 발생하지 않는다. onEditRowPasted는 지정여부와 상관없이 항상 발생한다.  
+
+> **checkReadOnly**  
+> Type: boolean  
+> Default: false  
+> true이면 readOnly이거나 editable이 false인 Column은 paste대상에서 제외된다.     
 
 #### See Also
 

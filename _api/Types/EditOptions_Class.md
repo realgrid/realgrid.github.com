@@ -35,6 +35,11 @@ permalink: /api/types/EditOptions/
 > Default: false   
 > 그리드 수준에서 데이터 셀의 값을 수정할 수 있는 지를 지정한다. 각 컬럼에서 지정한 readOnly 와 이 값이 모두 false일 때 수정 가능해진다.   
 
+> **editable**              
+> Type: boolean   
+> Default: true     
+> true면 그리드의 데이터들을 수정 할 수 있다. false 이면 수정 할 수 없다.   
+
 > **appendable**             
 > Type: boolean   
 > Default: false     
@@ -49,11 +54,6 @@ permalink: /api/types/EditOptions/
 > Type: boolean   
 > Default: true     
 > true면 그리드의 데이터들을 수정 할 수 있다. false 이면 기존 데이터는 수정할 수 없고 commit() 되기 전 새로 추가된 행만 수정 가능하다.      
-
-> **editable**              
-> Type: boolean   
-> Default: true     
-> true면 그리드의 데이터들을 수정 할 수 있다. false 이면 수정 할 수 없다.   
 
 > **validateOnEdited**      
 > Type: boolean   
@@ -73,12 +73,12 @@ permalink: /api/types/EditOptions/
 > **commitLevel**  
 > Type: [ValidationLevel](/api/types/ValidationLevel/)   
 > Default: ValidationLevel.IGNORE    
-> 행 편집을 완료할 수 있는 최상위 [ValidationLevel](/api/types/ValidationLevel/)을 지정한다. 예를들어 ValidationLevel.NONE으로 지정하면 어떤 레벨의 에러가 하나의 셀에만 존재해도 편집을 완료할 수 없게 된다. 
+> 행 편집을 완료할 수 있는 최상위 [ValidationLevel](/api/types/ValidationLevel/)을 지정한다. 예를들어 ValidationLevel.NONE으로 지정하면 어떤 레벨의 에러가 하나의 셀에만 존재해도 편집을 완료할 수 없게 된다.  
 
 > **useTabKey**             
 > Type: boolean   
 > Default: true      
-> true면 Tab 키로 셀 이동할 수 있다.    
+> true면 Tab 키로 셀 이동할 수 있다.  
 
 > **enterToTab**    
 > Type: Boolean    
@@ -98,10 +98,7 @@ permalink: /api/types/EditOptions/
 > **forceAppend**    
 > Type: Boolean    
 > Default: false    
-
-> **checkCellDiff**    
-> Type: Boolean    
-> Default: false    
+> 변경된 내용이 없어도 appending 상태에서 항상 commit할것인지의 여부.  
 
 > **checkable**                 
 > Type: boolean   
@@ -117,6 +114,11 @@ permalink: /api/types/EditOptions/
 > Type: boolean   
 > Default: false   
 > true면 셀 편집 완료 요청 시 실제 변경 값이 있어야 완료된다. 그렇지 않으면 무시된다. false면 실제 값이 변경되었는 지와 상관없이 사용자 편집 행위가 있었다면 그 행은 변경된 상태가 된다.   
+
+> **strictDiff**               
+> Type: boolean   
+> Default: false   
+>     
 
 > **deletableWhenEdit**  
 > Type: Boolean  

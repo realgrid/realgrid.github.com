@@ -87,6 +87,7 @@ permalink: /api/types/DisplayOptions/
 > **fitWhenResized**   
 > Type: Boolean  
 > Default: true  
+> Grid 크기가 변경될 때 가로 Scroll 위치를 계산하여 변경  
 
 > **liveScroll**   
 > Type: Boolean  
@@ -107,6 +108,11 @@ permalink: /api/types/DisplayOptions/
 > Type: String  
 > Default: NaN  
 > 포커스가 활성화 되었을때 색상을 지정한다.  
+
+> **rightClickable**   
+> Type: Boolean  
+> Default: true 
+> 마우스 오른쪽 버튼 사용 가능 여부를 지정한다.  
 
 > **editItemMerging**   
 > Type: Boolean   

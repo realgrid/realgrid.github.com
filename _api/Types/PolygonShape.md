@@ -28,7 +28,7 @@ permalink: /api/types/PolygonShape/
 > 삼각형       
 
 > **INVERTED_TRIANLGE**   
-> Value: "invertedtriangle"  
+> Value: "itriangle"  
 > 역삼각형     
 
 > **DIAMOND**             

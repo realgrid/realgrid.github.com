@@ -2,9 +2,9 @@
 layout: apipost
 title: hasData
 part: Objects
-objectname: LocalDataProvider
+objectname: DataProvider
 directiontype: Function
-permalink: /api/LocalDataProvider/hasData/
+permalink: /api/DataProvider/hasData/
 ---
 
 
