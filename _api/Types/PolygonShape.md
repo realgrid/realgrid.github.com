@@ -28,8 +28,9 @@ permalink: /api/types/PolygonShape/
 > 삼각형       
 
 > **INVERTED_TRIANLGE**   
-> Value: "itriangle"  
-> 역삼각형     
+> Value: "invertedtriangle"  
+> 역삼각형    
+> JS 버전일 경우 "itriangle"도 사용 가능하다.  
 
 > **DIAMOND**             
 > Value: "diamond"           
