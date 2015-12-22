@@ -36,6 +36,40 @@ permalink: /api/types/SortingOptions/
 > Default: none  
 > ToastOptions 참조
 
+> **handleColor**
+> Type: string  
+> Default: undefined  
+> 소트되었을때의 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
+
+> **handleNoneColor**
+> Type: string  
+> Default: undefined  
+> 미소트되었을때의 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
+
+> **handleBorderColor**
+> Type: string  
+> Default: undefined  
+> 소트핸들의 경계선 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
+
+> **hoveredHandleColor**
+> Type: string  
+> Default: undefined  
+> 마우스가 호버되고, 소트되었을때의 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
+
+> **hoveredHandleNoneColor**
+> Type: string  
+> Default: undefined  
+> 마우스가 호버되고, 미소트되었을때의 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
+
+> **imageHandle**
+> Type: boolean  
+> Default: false  
+> 핸들 기호를 이미지로 표시할 것인지의 여부를 지정한다.  
+
+> **handleImage**
+> Type: object
+> ascending, descending, hoveredAscending, hoveredDescending, none, hoveredNone 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
+
 #### Example
 
 <pre class="prettyprint">
