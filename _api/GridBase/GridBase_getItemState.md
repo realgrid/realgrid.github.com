@@ -31,6 +31,6 @@ permalink: /api/GridBase/getItemState/
 #### Example
 
 <pre class="prettyprint">
-    idx = grdMain.getCurrent().itemindex;
+    idx = grdMain.getCurrent().itemIndex;
     consloe.log(grdMain.getItemState(idx));
 </pre>
