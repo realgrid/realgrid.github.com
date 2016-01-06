@@ -2,9 +2,6 @@
 
   <div class="wrapper text-center">
 
-      <div class="col-md-1">
-      </div>
-
       <div class="col-md-2">
         <a href="{{ site.homeurl }}">
           <span class="octicon octicon-footer octicon-home"></span>
@@ -40,7 +37,11 @@
         </a>
       </div>
 
-      <div class="col-md-1">
+      <div class="col-md-2">
+        <a href="{{ '/feed.xml' | prepend: site.baseurl }}">
+          <span class="octicon octicon-footer octicon-rss"></span>
+          <span class="octicon-footer">RSS</span>
+        </a>
       </div>
 
   </div>
