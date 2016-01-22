@@ -34,7 +34,7 @@ permalink: /api/GridBase/onRowInserting/
 #### Example
 
 <pre class="prettyprint">
-    grid.onRowsInserting = function (grid, itemIndex) {
+    grid.onRowInserting = function (grid, itemIndex) {
         return "행을 추가할 수 없습니다.";
     };
 </pre>
