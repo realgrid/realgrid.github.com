@@ -118,3 +118,8 @@ permalink: /api/types/DisplayOptions/
 > Type: Boolean   
 > Default: false   
 > Merged Row Grouping 또는 Cell Merging상태에서 셀 편집시 편집중인 행의 분리 여부를 지정한다.  
+
+> **showInnerFocus**   
+> Type: Boolean  
+> Default: true 
+> Merged Cell에서 개별 cell 영역 표시 여부를 지정한다.    

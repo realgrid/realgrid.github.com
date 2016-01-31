@@ -112,3 +112,8 @@ permalink: /api/types/GridExportOptions/
 > Type: string  
 > Default: undefined  
 > 이 값이 지정되면 number 필드의 값을 출력할 때 변환 형식으로 사용된다. 지정되지 않은 경우 column.styles에 설정된 값을 사용한다.  
+
+> **compatibility**  
+> Type: boolean  
+> Default: false  
+> excel 2007 호환 여부를 지정한다.    

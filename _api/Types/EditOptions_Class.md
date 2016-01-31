@@ -128,6 +128,17 @@ permalink: /api/types/EditOptions/
 > **skipReadOnly**  
 > Type: Boolean  
 > Default: false  
+> true이면 컬럼간 이동시 readOnly 셀은 건너뛰고 다음 컬럼 셀로 이동한다.   
+
+> **skipReadOnlyCell**  
+> Type: Boolean  
+> Default: false  
+> true이면 한 컬럼에서 행간(Vertical 컬럼 그룹 행을 포함) 이동시 readOnly 셀은 건너뛰고 다음 행의 컬럼 셀로 이동한다.   
+
+> **verticalMovingStep**  
+> Type: [VerticalMovingStep](/api/types/VerticalMovingStep/)  
+> Default: "default"  
+> Vertical 컬럼 그룹의 컬럼 셀을 위나 아래로 이동시 동작 방법을 지정한다.     
 
 > **showCommitError**  
 > Type: Boolean  
