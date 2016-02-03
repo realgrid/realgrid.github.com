@@ -66,7 +66,7 @@ permalink: /tutorial/
 		    	<p><span class="octicon octicon-info text-info"></span> A 클래스는 RealGrid의 기초적인 사용법에 대한 짤막한 강좌들입니다. </p>
 				<ul class="post-api-list">
 					{% assign tutorials_a = (site.posts | sort: 'date' reversed) %}
-				    {% for post in tutorials_a %}{% if post.categories contains "tutorial" %}{% if post.course contains "A-Class" %}
+				    {% for post in tutorials_a %}{% if post.categories contains "Tutorial" %}{% if post.course contains "A-Class" %}
 				      <li>
 				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -84,7 +84,7 @@ permalink: /tutorial/
 		    	<p><span class="octicon octicon-info text-info"></span> B 클래스는 <a href="http://demo.realgrid.com" target="_new">데모사이트</a>에 대한 상세한 설명을 제공합니다. 이 클래스의 강좌들을 통해 RealGrid의 다양한 기능들을 어떻게 구현하는지 배울수 있습니다.</p>
 				<ul class="post-api-list">
 					{% assign tutorials_b = (site.posts | sort: 'order') %}
-				    {% for post in tutorials_b %}{% if post.categories contains "tutorial" %}{% if post.course contains "B-Class" %}
+				    {% for post in tutorials_b %}{% if post.categories contains "Tutorial" %}{% if post.course contains "B-Class" %}
 				      <li>
 				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -100,7 +100,7 @@ permalink: /tutorial/
 		    <div role="tabpanel" class="tab-pane" id="c-class">
 		    	<p><span class="octicon octicon-info text-info"></span> C 클래스는 RealGrid를 실무에 적용할수 있는 유용한 기술들을 설명합니다. 이 클래스의 강좌들은 대부분 <a href="http://jquery.com" target="_blank">JQuery</a>와 <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>에 의존적(dependency)입니다. </p>
 				<ul class="post-api-list">
-				    {% for post in site.posts reversed %}{% if post.categories contains "tutorial" %}{% if post.course contains "C-Class" %}
+				    {% for post in site.posts reversed %}{% if post.categories contains "Tutorial" %}{% if post.course contains "C-Class" %}
 				      <li>
 				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
