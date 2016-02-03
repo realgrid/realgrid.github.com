@@ -3,7 +3,7 @@ layout: tutopost
 title:  RealGrid+ Basic with ASP.NET & MS SQLServer
 date:   2015-04-23 15:47:54
 categories: Tutorial
-permalink: /tutorial/project1
+permalink: /tutorial/project1/
 course: Project
 tags:
     - asp.net
