@@ -116,7 +116,7 @@ permalink: /tutorial/
 		    <div role="tabpanel" class="tab-pane" id="project">
 		    	<p><span class="octicon octicon-info text-info"></span> 업무예제는 JAVA, .NET, 정부표준 프레임웍등 다양한 개발환경에서 RealGrid를 활용하는 방법을 설명하고 있습니다.</p>
 				<ul class="post-api-list">
-				    {% for post in site.posts %}{% if post.categories contains "tutorial" %}{% if post.course contains "Project" %}
+				    {% for post in site.posts %}{% if post.categories contains "Tutorial" %}{% if post.course contains "Project" %}
 				      <li>
 				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -131,7 +131,7 @@ permalink: /tutorial/
 		    </div>
 		    <div role="tabpanel" class="tab-pane" id="tip">
 				<ul class="post-api-list">
-				    {% for post in site.posts %}{% if post.categories contains "tutorial" %}{% if post.course contains "Tip" %}
+				    {% for post in site.posts %}{% if post.categories contains "Tutorial" %}{% if post.course contains "Tip" %}
 				      <li>
 				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
