@@ -3,7 +3,7 @@ layout: post
 title: 공동개발 참여 방법
 date: 2015-04-30 15:47:54 +9:00 GMT
 category: help
-permalink: /help/help-posting
+permalink: /help/help-posting/
 tags: doc.realgrid.com markdown github jekyll help.realgrid.com realgrid
 ---
 
