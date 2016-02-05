@@ -2,9 +2,9 @@
 layout: apipost
 title: getJsonRow
 part: Objects
-objectname: DataProvider
+objectname: LocalDataProvider
 directiontype: Function
-permalink: /api/DataProvider/getJsonRow/
+permalink: /api/LocalDataProvider/getJsonRow/
 ---
 
 
