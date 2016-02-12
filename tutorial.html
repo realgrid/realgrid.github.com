@@ -34,7 +34,7 @@ permalink: /tutorial/
 		</div>
 		<div>
 			<ul class="post-api-list">
-			    {% for post in site.posts reversed %}{% if post.categories contains "tutorial" %}{% if post.course contains "guide" %}
+			    {% for post in site.posts reversed %}{% if post.categories contains "Tutorial" %}{% if post.course contains "guide" %}
 			      <li>			          
 			          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
 			          <span class="octicon octicon-question api-deprecated"></span> {{ post.title }}</a>
