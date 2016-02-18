@@ -139,6 +139,7 @@ RealGrid를 사용하여 웹사이트, 또는 웹애플리케이션을 개발하
 * [x] C9 RealGrid에 바이너리 엑셀 파일 불러오기(import)(flowmt->yoogi82)
 * [ ] C10 셀단위 커밋에 대한 이야기(commitEditor)
 * [x] C11 RealGrid+와 RealGridJS을 동시 구현 시 생산성 향상 방법(jun)
+* [ ] C12 컬럼헤더 클릭으로 사용자 소팅 구현 (yoogi82) : 깃허브 이슈 [#59](https://github.com/realgrid/realgridjs/issues/59)
 
 ### 업무예제
 
