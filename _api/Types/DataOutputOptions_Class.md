@@ -12,7 +12,7 @@ jsonly: true
 
 #### Description
 
->
+> datetime, boolean 필드에 대해 변환 형식을 지정한다.
 
 #### Properties
 

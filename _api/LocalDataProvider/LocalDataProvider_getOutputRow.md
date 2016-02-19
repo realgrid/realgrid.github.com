@@ -20,7 +20,7 @@ permalink: /api/LocalDataProvider/getOutputRow/
 
 > **options**  
 > Type: [DataOutputOptions](/api/types/DataOuptputOptions/)  
-> datetime, boolean 필드에 대해 변환 형식을 지정한다.
+> datetime, boolean 필드에 대해 변환 형식을 지정한다.  
 
 > **row**  
 > Type: number  
