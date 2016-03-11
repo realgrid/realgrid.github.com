@@ -92,6 +92,11 @@ permalink: /api/types/PasteOptions/
 > Default: false  
 > true이면 readOnly이거나 editable이 false인 Column은 paste대상에서 제외된다.     
 
+> **eventEachRow**  
+> Type: boolean  
+> Default: false  
+> 여러 행 붙여넣기시 그 행만큼 onEditRowPasted 이벤트의 발생 여부를 지정한다.  
+
 #### See Also
 
 > [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste) 참조

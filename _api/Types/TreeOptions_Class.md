@@ -43,4 +43,13 @@ permalink: /api/types/TreeOptions/
 > Type: Boolean    
 > default: false   
 
+> **showCheckBox**   
+> Type: Boolean    
+> default: false   
+
+> **lineStyle**   
+> Type: Stroke      
+> default: undefined  
+> 노드의 선 스타일을 지정한다. 기본적으로 body.line 속성을 상속받는다.     
+
 

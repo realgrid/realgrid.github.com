@@ -69,6 +69,11 @@ permalink: /api/types/DisplayOptions/
 > Default: true     
 > true면 필요한 경우 수직 스크롤바를 표시한다.  
 
+> **horizLiveScroll**   
+> Type: Boolean  
+> Default: true  
+> false이면 횡 스크롤이 끝날때 표시되고 true이면 횡 스크롤 되는 중에도 표시된다.  
+
 > **horzScrollStep**  
 > Type: Number   
 > Default: 8     
@@ -92,7 +97,7 @@ permalink: /api/types/DisplayOptions/
 > **liveScroll**   
 > Type: Boolean  
 > Default: true  
-> false이면 스크롤이 끝날때 표시되고 true이면 스크롤되는중에도 표시된다.  
+> false이면 종 스크롤이 끝날때 표시되고 true이면 종 스크롤 되는 중에도 표시된다.  
 
 > **focusVisible**   
 > Type: Boolean  

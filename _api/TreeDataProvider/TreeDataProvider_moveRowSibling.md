@@ -1,0 +1,43 @@
+---
+layout: apipost
+title: moveRowSibling
+part: Objects
+objectname: TreeDataProvider
+directiontype: Function
+permalink: /api/TreeDataProvider/moveRowSibling/
+jsonly: true
+---
+
+
+#### Description
+
+> 특정 데이터행의 위치를 지정한 단계만큼 이동한다.(같은 부모의 형제간 위치 이동)  
+
+#### 지원 Version  
+
+> JS 1.0.5 이후  
+
+#### Syntax
+
+> function moveRowSibling(rowId, delta)  
+
+#### Parameters
+
+> **rowId**    
+> Type: Number    
+> 트리 데이터행.    
+
+> **delta**    
+> Type: Number    
+> 이동하려는 상하 위치 단계값      
+
+#### Return value
+
+> none.
+
+#### Example
+
+<pre class="prettyprint">
+    treeDataProvider.moveRowSibling(10, -1);  //rowId가 10인 행을 같은 레벨의 형제간에 한단계 위로 이동
+</pre>
+
