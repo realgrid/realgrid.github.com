@@ -36,6 +36,11 @@ permalink: /api/
 	    <li>
 	    <a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
 	    </li>
+		<span class="hidden">
+			{% for tag in api.tags %}
+				{{ tag }}&nbsp;
+			{% endfor %}
+		</span>
 	{% endif %}{% endfor %}
   </ul>
 
@@ -54,6 +59,11 @@ permalink: /api/
 			{% if api.jsonly == true %}
 				<span> <img src="/images/common/ico_includejs.png" alt="JS"/></span>
 			{% endif %}
+				<span class="hidden">
+					{% for tag in api.tags %}
+						{{ tag }}&nbsp;
+					{% endfor %}
+				</span>
 			</li>
 		{% endif %}{% endfor %}
 	  </ul>	
@@ -77,6 +87,11 @@ permalink: /api/
 				{% if api.jsonly == true %}
 					<span> <img src="/images/common/ico_includejs.png" alt="JS"/></span>
 				{% endif %}
+					<span class="hidden">
+						{% for tag in api.tags %}
+							{{ tag }}&nbsp;
+						{% endfor %}
+					</span>
 				</li>
 			{% endif %}{% endfor %}
 		  </ul>	
@@ -94,6 +109,11 @@ permalink: /api/
 				{% if api.jsonly == true %}
 					<span> <img src="/images/common/ico_includejs.png" alt="JS"/></span>
 				{% endif %}
+					<span class="hidden">
+						{% for tag in api.tags %}
+							{{ tag }}&nbsp;
+						{% endfor %}
+					</span>
 				</li>
 			{% endif %}{% endfor %}
 		  </ul>

@@ -25,9 +25,14 @@ layout: rowdiv
 
   <ul class="post-api-list">
   <h4>Features</h4>
-  {% for post in site.api %}{% if post.part == 'Features' %}
+  {% for api in site.api %}{% if api.part == 'Features' %}
       <li>
-      <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ api.title }}</a>
+      <span class="hidden">
+      {% for tag in api.tags %}
+        {{ tag }}&nbsp;
+      {% endfor %}
+      </span>
       </li>
   {% endif %}{% endfor %}
   </ul>
@@ -44,6 +49,11 @@ layout: rowdiv
       {% if api.deprecated == true %}
         <span class="octicon octicon-circle-slash api-deprecated"></span>
       {% endif %}
+      <span class="hidden">
+      {% for tag in api.tags %}
+        {{ tag }}&nbsp;
+      {% endfor %}
+      </span>
       </li>
     {% endif %}{% endfor %}
     </ul> 
@@ -60,6 +70,11 @@ layout: rowdiv
       {% if api.deprecated == true %}
         <span class="octicon octicon-circle-slash api-deprecated"></span>
       {% endif %}
+      <span class="hidden">
+      {% for tag in api.tags %}
+        {{ tag }}&nbsp;
+      {% endfor %}
+      </span>
       </li>
     {% endif %}{% endfor %}
     </ul> 
@@ -72,6 +87,11 @@ layout: rowdiv
       {% if api.deprecated == true %}
         <span class="octicon octicon-circle-slash api-deprecated"></span>
       {% endif %}
+      <span class="hidden">
+      {% for tag in api.tags %}
+        {{ tag }}&nbsp;
+      {% endfor %}
+      </span>
       </li>
     {% endif %}{% endfor %}
     </ul>
