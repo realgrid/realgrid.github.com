@@ -27,7 +27,7 @@ layout: rowdiv
   <h4>Features</h4>
   {% for api in site.api %}{% if api.part == 'Features' %}
       <li>
-      <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ api.title }}</a>
+      <a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
       <span class="hidden">
       {% for tag in api.tags %}
         {{ tag }}&nbsp;
