@@ -7,7 +7,7 @@ directiontype: Function
 permalink: /api/TreeDataProvider/changeRowParent/
 jsonly: true
 versions:
-  - JS 1.0.15
+  - JS 1.0.15+
 ---
 
 

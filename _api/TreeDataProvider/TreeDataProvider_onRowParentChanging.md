@@ -7,7 +7,7 @@ directiontype: Callback
 permalink: /api/TreeDataProvider/onRowParentChanging/
 jsonly: true
 versions:
-  - JS 1.0.15
+  - JS 1.0.15+
 ---
 
 
