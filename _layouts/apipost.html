@@ -10,7 +10,27 @@ layout: default
       {% if page.typename %} &gt; {{ page.typename }} {% endif %}
     	{% if page.objectname %} &gt; {{ page.objectname }} {% endif %}
     	{% if page.directiontype %} &gt; {{ page.directiontype }} {% endif %}
-	</p>
+	  </p>
+
+    <div class="post-tags">
+      {% if page.versions.size > 0 %}
+      <p title="support versions"><span class="octicon octicon-versions"></span>
+        {% for version in page.versions %}
+          <span class="label label-warning">{{ version }}&nbsp;</span>
+        {% endfor %}
+      </p>
+    {% endif %}
+    <!--
+      {% if page.tags.size > 0 %}
+      <p><span class="octicon octicon-tag"></span>
+        {% for tag in page.tags %}
+          <span class="label label-default">{{ tag }}&nbsp;</span>
+        {% endfor %}
+      </p>
+      {% endif %}
+    -->
+    </div>
+
     <!--
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     -->

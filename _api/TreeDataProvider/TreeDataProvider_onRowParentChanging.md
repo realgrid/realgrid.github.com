@@ -6,6 +6,11 @@ objectname: TreeDataProvider
 directiontype: Callback
 permalink: /api/TreeDataProvider/onRowParentChanging/
 jsonly: true
+tags:
+  - 부모노드 변경
+  - 트리노드 이동
+  - 트리변경
+  - change parent
 versions:
   - JS 1.0.15+
 ---
