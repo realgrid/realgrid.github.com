@@ -6,16 +6,14 @@ objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/changeRowParent/
 jsonly: true
+versions:
+  - JS 1.0.15
 ---
 
 
 #### Description
 
 > 특정 데이터행의 위치를 지정한 단계만큼 이동한다.(같은 부모의 형제간 위치 이동)  
-
-#### 지원 Version  
-
-> JS 1.0.5 이후  
 
 #### Syntax
 

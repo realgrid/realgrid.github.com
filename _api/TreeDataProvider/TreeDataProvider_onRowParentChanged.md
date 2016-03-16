@@ -6,16 +6,14 @@ objectname: TreeDataProvider
 directiontype: Callback
 permalink: /api/TreeDataProvider/onRowParentChanged/
 jsonly: true
+versions:
+  - JS 1.0.15
 ---
 
 
 #### Description
 
 > 부모가 바뀐 뒤 발생한다. 
-
-#### 지원 Version  
-
-> JS 1.0.5 이후  
 
 #### Syntax
 

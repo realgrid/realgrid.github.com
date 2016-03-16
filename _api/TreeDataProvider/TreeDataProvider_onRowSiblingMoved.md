@@ -6,16 +6,14 @@ objectname: TreeDataProvider
 directiontype: Callback
 permalink: /api/TreeDataProvider/onRowSiblingMoved/
 jsonly: true
+versions:
+  - JS 1.0.15
 ---
 
 
 #### Description
 
 > 형제간 위치 이동이 완료된 후 발생한다. (같은 부모의 형제간 위치 이동)  
-
-#### 지원 Version  
-
-> JS 1.0.5 이후  
 
 #### Syntax
 

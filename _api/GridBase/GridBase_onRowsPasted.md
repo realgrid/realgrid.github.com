@@ -6,6 +6,8 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onRowsPasted/
 jsonly: true
+versions:
+  - JS 1.0.15
 ---
 
 

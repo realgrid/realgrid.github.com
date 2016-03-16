@@ -15,7 +15,7 @@ jsonly: true
 
 #### 지원 Version  
 
-> JS 1.0.5 이후  
+> JS 1.0.15 이후  
 
 #### Syntax
 
