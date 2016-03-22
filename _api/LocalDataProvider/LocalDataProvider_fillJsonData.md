@@ -21,7 +21,7 @@ jsonly: true
 
 > **data**
 > Type: object  
-> Json 형태의 data.  
+> JSON형태의 array객체를 넘겨주어야 한다.  
 
 > **options**  
 > Type: object    
