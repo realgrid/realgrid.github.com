@@ -25,7 +25,14 @@ permalink: /api/types/SearchOptions/
 > **values**    
 > Type: Array     
 > Default: null     
-> fields에 지정한 각 필드에 해당하는 검색 조건값들을 순서에 맞게 배열로 지정한다. 
+> fields에 지정한 각 필드에 해당하는 검색 조건값들을 순서에 맞게 배열로 지정한다.  
+> searchItem()에서만 사용한다.  
+ 
+> **value**    
+> Type: String     
+> Default: null     
+> fields에 지정한 각 필드에 해당하는 검색 조건값들을 순서에 맞게 배열로 지정한다.  
+> searchCell()에서만 사용한다.
 
 > **startIndex**     
 > Type: Number           
