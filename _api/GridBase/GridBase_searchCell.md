@@ -31,12 +31,22 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    var options = {
-        fields = ['field1', 'field2'],
-        values = ['value1', 'value2'],
-        startItemIndex = 0,
-        startFieldIndex = 0
+    function searchHandler() {
+        var value = $("#searchTxt").val();
+        var fields = [ "RequestType", "ServiceCode" ];
+        var startFieldIndex = fields.indexOf(grdMain.getCurrent().fieldName) + 1;
+        var options = {
+            fields : fields,
+            value : value,
+            startItemIndex : grdMain.getCurrent().itemIndex,
+            startFieldIndex : startFieldIndex,
+            wrap : true,
+            caseSensitive : false,
+            partialMatch : true
+        };
+
+        var index = grdMain.searchCell(options);
+        grdMain.setCurrent(index);
     }
-    var itemindex = grid.searchCell(options);
 </pre>
 
