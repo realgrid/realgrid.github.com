@@ -5,6 +5,9 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/expandGroup/
+tags: 
+  - 그룹 펼치기
+  - 행 표시
 ---
 
 

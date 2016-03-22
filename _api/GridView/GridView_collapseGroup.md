@@ -5,6 +5,9 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/collapseGroup/
+tags: 
+  - 그룹 접기
+  - 자손 그룹
 ---
 
 

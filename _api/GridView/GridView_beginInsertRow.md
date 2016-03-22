@@ -5,6 +5,8 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/beginInsertRow/
+tags: 
+  - 새로운 행 추가
 ---
 
 
