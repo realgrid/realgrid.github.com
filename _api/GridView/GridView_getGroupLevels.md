@@ -5,6 +5,9 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/getGroupLevels/
+tags: 
+  - 그룹 레벨
+  - grouping level
 ---
 
 
@@ -14,7 +17,7 @@ permalink: /api/GridView/getGroupLevels/
 
 #### Syntax
 
-> function getGroupLevesl()
+> function getGroupLevels()
 
 #### Parameters
 

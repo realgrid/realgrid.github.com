@@ -8,6 +8,7 @@ permalink: /api/GridView/expandGroup/
 tags: 
   - 그룹 펼치기
   - 행 표시
+  - 자손 펼침 여부
 ---
 
 

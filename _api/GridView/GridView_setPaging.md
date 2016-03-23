@@ -5,6 +5,13 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/setPaging/
+tags: 
+  - 페이지 설정
+  - 페이징 모드
+  - 페이지 수
+  - 페이지 행 개수
+  - pageCount
+  - pageSize
 ---
 
 

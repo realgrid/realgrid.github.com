@@ -5,6 +5,9 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/getPageCount/
+tags: 
+  - 전체 페이지 개수
+  - paging
 ---
 
 
@@ -28,6 +31,6 @@ permalink: /api/GridView/getPageCount/
 #### Example
 
 <pre class="prettyprint">
-    var count = getPageCount();
+    var count = grdMain.getPageCount();
 </pre>
 

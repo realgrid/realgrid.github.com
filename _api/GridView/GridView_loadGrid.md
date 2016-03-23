@@ -5,6 +5,12 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/loadGrid/
+tags: 
+  - 필드 정보
+  - 컬럼 정보
+  - 데이터
+  - 한번에
+  - 설정 방법
 ---
 
 

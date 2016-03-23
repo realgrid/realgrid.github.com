@@ -5,6 +5,10 @@ part: Objects
 objectname: GridView
 directiontype: Callback
 permalink: /api/GridView/onPageCountChanged/
+tags: 
+  - 페이지 이동한 후 이벤트
+  - 변경된 페이지 수
+  - 페이지 변경후 이벤트
 ---
 
 

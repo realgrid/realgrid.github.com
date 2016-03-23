@@ -5,6 +5,8 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/beginUpdateRow/
+tags:
+  - 편집상태
 ---
 
 

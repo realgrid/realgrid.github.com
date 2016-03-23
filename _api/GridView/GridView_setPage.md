@@ -5,6 +5,9 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/setPage/
+tags: 
+  - 페이지 번호 지정
+  - paging
 ---
 
 

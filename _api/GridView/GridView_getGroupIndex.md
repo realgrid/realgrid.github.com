@@ -5,6 +5,10 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/getGroupIndex/
+tags: 
+  - itemIndex
+  - 그룹
+  - 자신이 속한 그룹
 ---
 
 

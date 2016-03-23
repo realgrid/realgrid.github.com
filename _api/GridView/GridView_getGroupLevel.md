@@ -5,6 +5,8 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/getGroupLevel/
+tags: 
+  - 그룹 레벨
 ---
 
 

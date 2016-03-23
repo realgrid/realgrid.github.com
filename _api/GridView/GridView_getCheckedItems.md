@@ -5,6 +5,10 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/getCheckedItems/
+tags: 
+  - 체크
+  - 아이템
+  - 체크된 아이템
 ---
 
 

@@ -5,6 +5,10 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/getValues/
+tags: 
+  - JSON
+  - 가져오기
+  - 행의 값
 ---
 
 

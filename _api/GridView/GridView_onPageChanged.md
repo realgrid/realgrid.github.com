@@ -5,6 +5,8 @@ part: Objects
 objectname: GridView
 directiontype: Callback
 permalink: /api/GridView/onPageChanged/
+tags: 
+  - 페이지 이동 이벤트
 ---
 
 

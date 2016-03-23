@@ -5,6 +5,10 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/groupBy/
+tags: 
+  - 순서대로
+  - 그룹핑
+  - grouping
 ---
 
 

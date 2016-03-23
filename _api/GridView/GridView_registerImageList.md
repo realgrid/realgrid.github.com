@@ -6,6 +6,11 @@ objectname: GridView
 directiontype: Function
 jsonly: true
 permalink: /api/GridView/registerImageList/
+tags: 
+  - 이미지 목록
+  - 이미지 추가
+  - 이미지 url
+  - 이미지 리스트
 ---
 
 

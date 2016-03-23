@@ -5,6 +5,8 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/getCheckedRows/
+tags: 
+  - 체크된 데이터 행 인덱스 배열
 ---
 
 

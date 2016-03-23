@@ -5,6 +5,9 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/setPageCount/
+tags: 
+  - 페이지 개수 변경
+  - paging
 ---
 
 

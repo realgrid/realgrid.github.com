@@ -5,6 +5,9 @@ part: Objects
 objectname: GridView
 directiontype: Function
 permalink: /api/GridView/getPage/
+tags: 
+  - 페이지 번호
+  - paging
 ---
 
 
@@ -28,6 +31,6 @@ permalink: /api/GridView/getPage/
 #### Example
 
 <pre class="prettyprint">
-    var page = getPage();
+    var page = grdMain.getPage();
 </pre>
 

@@ -6,6 +6,10 @@ objectname: GridView
 directiontype: Callback
 jsonly: true
 permalink: /api/GridView/onGrouping/
+tags: 
+  - 그룹핑 취소
+  - 그룹핑 중지
+  - 그룹핑 실행 여부
 ---
 
 
