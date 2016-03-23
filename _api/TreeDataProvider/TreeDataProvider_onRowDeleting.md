@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Callback
 permalink: /api/TreeDataProvider/onRowDeleting/
+tags:
+ - 행 삭제 이벤트
 ---
 
 
@@ -36,7 +38,7 @@ permalink: /api/TreeDataProvider/onRowDeleting/
 #### Example
 
 <pre class="prettyprint">
-    provider.onRowDeleting = function (provider, rowId) {
+   	treeProvider.onRowDeleting = function (provider, rowId) {
         if (provider.getValue(rowId,"field") == "1") {
             RealGrids.alert("삭제할수 없습니다");
             return false;  

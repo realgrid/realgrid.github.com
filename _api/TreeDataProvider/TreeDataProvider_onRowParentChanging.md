@@ -11,6 +11,7 @@ tags:
   - 트리노드 이동
   - 트리변경
   - change parent
+  - changeRowParent
 versions:
   - JS 1.0.15+
 ---
@@ -18,7 +19,7 @@ versions:
 
 #### Description
 
-> 부모를 바꾸려고 할때 발생한다. 
+> [TreeDataProvider.changeRowParent](/api/TreeDataProvider/changeRowParent/)함수를 사용하여 부모를 바꾸려고 할때 발생한다. 
 
 #### Syntax
 
@@ -50,7 +51,7 @@ versions:
 #### Example
 
 <pre class="prettyprint">
-    treeDataProvider.onRowParentChanging = function (provider, rowId, parentId, childIndex)  {
+    treeProvider.onRowParentChanging = function (provider, rowId, parentId, childIndex)  {
         if (parentId === '-1') {
             return false;      //Root 로는 이동 불가
         } else {

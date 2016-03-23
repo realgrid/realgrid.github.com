@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/getAncestors/
+tags:
+ - 조상
 ---
 
 
@@ -20,7 +22,7 @@ permalink: /api/TreeDataProvider/getAncestors/
 
 > **rowId**  
 > Type: Number  
-> Row Id  
+> 데이터행의 트리 아이디.  
 
 #### Return value
 
@@ -30,14 +32,5 @@ permalink: /api/TreeDataProvider/getAncestors/
 #### Example
 
 <pre class="prettyprint">
-    var curr = treeMain.getCurrent();
-    if (!curr) {
-        alert('조상들을 가져올 행을 선택하십시오.');
-        return;
-    }
- 
-    var rowId = curr.dataRow;
-    var rows = dataProvider.getAncestors(rowId);
- 
-    console.log("Ancestors: " + rows);
+    var rows = treeProvider.getAncestors(22);
 </pre>

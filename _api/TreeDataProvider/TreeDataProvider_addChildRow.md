@@ -5,6 +5,10 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/addChildRow/
+tags:
+ - values
+ - iconIndex
+ - hasChildren
 ---
 
 
@@ -42,6 +46,6 @@ permalink: /api/TreeDataProvider/addChildRow/
 #### Example
 
 <pre class="prettyprint">
-    var childId = dataProvider.addChildRow(rowId, values, iconIndex, true);
+    var childId = treeProvider.addChildRow(3, [], 0, true);
 </pre>
 

@@ -21,7 +21,7 @@ jsonly: true
 
 > **rowId**
 > Type: number  
-> 데이터행 index  
+> 데이터행의 트리 아이디.   
 
 #### Return value
 
@@ -31,6 +31,6 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    var row = treeDataProvider.getJsonRow(10);
+    var row = treeProvider.getJsonRow(2);
 </pre>
 

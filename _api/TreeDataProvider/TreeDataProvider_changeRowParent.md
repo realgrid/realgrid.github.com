@@ -8,12 +8,17 @@ permalink: /api/TreeDataProvider/changeRowParent/
 jsonly: true
 versions:
   - JS 1.0.15+
+tags:
+ - parentId
+ - childIndex 
+ - 부모이동
+
 ---
 
 
 #### Description
 
-> 특정 데이터행의 위치를 지정한 단계만큼 이동한다.(같은 부모의 형제간 위치 이동)  
+> 특정 데이터행의 위치를 지정한 행의 하위로 이동한다.  
 
 #### Syntax
 
@@ -41,6 +46,6 @@ versions:
 
 <pre class="prettyprint">
 	//rowId가 10인 행을 rowId가 40인 행의 자식으로 이동하면서 자식들 중 첫번째에 위치하게 한다.
-	treeDataProvider.changeRowParent(10, 40, 0);  
+	treeProvider.changeRowParent(10, 40, 0);  
 </pre>
 

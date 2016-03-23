@@ -9,7 +9,7 @@ permalink: /api/TreeDataProvider/onRowAdded/
 
 #### Description
 
-> 
+> TreeDataProvider에 데이터가 추가되면 발생하는 이벤트 함수.  
 
 #### Syntax
 
@@ -23,6 +23,7 @@ permalink: /api/TreeDataProvider/onRowAdded/
 
 > **rowId**
 > number  
+> 데이터 행의 트리 아이디.  
 
 #### Return  
 

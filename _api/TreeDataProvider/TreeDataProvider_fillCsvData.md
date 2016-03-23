@@ -40,8 +40,8 @@ jsonly: true
         url: "http://" + location.host + "/DemoData/TreeViewCsvData.txt?__time__=" + new Date().getTime(),
         dataType: "text",
         success: function (data) {
-            dataProvider.fillCsvData(data, {tree:"tree",icon:"icon",quoted:true, start:1});
-            var count = dataProvider.getRowCount();
+            treeProvider.fillCsvData(data, {tree:"tree",icon:"icon",quoted:true, start:1});
+            var count = treeProvider.getRowCount();
             $("#loadResult").css("color", "green").text(parseInt(count).toLocaleString() + " rows loaded.").show();
             treeMain.setFocus();
  

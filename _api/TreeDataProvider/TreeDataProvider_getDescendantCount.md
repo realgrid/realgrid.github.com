@@ -20,7 +20,7 @@ permalink: /api/TreeDataProvider/getDescendantCount/
 
 > **rowId**  
 > Type: Number  
-> 데이터행의 RowId.  
+> 데이터행의 트리 아이디.  
 
 #### Return value
 
@@ -30,6 +30,6 @@ permalink: /api/TreeDataProvider/getDescendantCount/
 #### Example
 
 <pre class="prettyprint">
-    var count = dataProvider.getDescendantCount(10);
+    var count = treeProvider.getDescendantCount(10);
 </pre>
 

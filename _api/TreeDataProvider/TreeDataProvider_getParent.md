@@ -20,7 +20,7 @@ permalink: /api/TreeDataProvider/getParent/
 
 > **rowId**  
 > Type: Number  
-> Row Id  
+> 데이터 행의 트리 아이디.  
 
 #### Return value
 
@@ -30,14 +30,5 @@ permalink: /api/TreeDataProvider/getParent/
 #### Example
 
 <pre class="prettyprint">
-	var curr = treeMain.getCurrent();
-	if (!curr) {
-		alert('부모를 가져올 자식 행을 선택하십시오.');
-		return;
-	}
-	var rowwId = curr.dataRow;
- 
-    var row = dataProvider.getParent(rowId);
- 
-    console.log("Parent: " + row);
+    var row = treeProvider.getParent(10);
 </pre>

@@ -20,7 +20,7 @@ permalink: /api/TreeDataProvider/getIconIndex/
 
 > **rowId**  
 > Type: Number  
-> 데이터 행의 트리 아이디.  
+> 데이터행의 트리 아이디.  
 
 #### Return value
 
@@ -30,6 +30,6 @@ permalink: /api/TreeDataProvider/getIconIndex/
 #### Example
 
 <pre class="prettyprint">
-    var icon = tree.getIconIndex(10);
+    var icon = treeProvider.getIconIndex(2);
 </pre>
 

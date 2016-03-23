@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Callback
 permalink: /api/TreeDataProvider/onRowsAdded/
+tags:
+ - 행 추가 이벤트
 ---
 
 
@@ -28,6 +30,7 @@ permalink: /api/TreeDataProvider/onRowsAdded/
 
 > **rowIds**  
 > Type: Array of number  
+> 추가된 데이터행들의 트리 아이디.  
 
 #### Return
 

@@ -5,6 +5,11 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/insertChildRow/
+tags:
+- index
+- values
+- iconIndex
+- hasChildren
 ---
 
 
@@ -20,7 +25,7 @@ permalink: /api/TreeDataProvider/insertChildRow/
 
 > **rowId**  
 > Type: Number  
-> Row Id  
+> 데이터 행의 트리 아이디.  
 
 > **index**  
 > Type: Number  
@@ -48,5 +53,5 @@ permalink: /api/TreeDataProvider/insertChildRow/
 #### Example
 
 <pre class="prettyprint">
-    dataProvider.insertChildRow(9, 0, [], 2, false)
+    treeProvider.insertChildRow(9, 0, [], 2, false)
 </pre>

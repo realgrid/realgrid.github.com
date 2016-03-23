@@ -34,28 +34,28 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grdMain.showProgress();
+    treeMain.showProgress();
 
     $.ajax({
         url: "../DemoData/TreeViewJsonData.json?__time__=" + new Date().getTime(),
         success: function (data) {
-            dataProvider.fillJsonData(data, { rows: "rows", icon: "icon" });
+            treeProvider.fillJsonData(data, { rows: "rows", icon: "icon" });
         },
         error: function (xhr, status, error) {
             //$("#loadResult").css("color", "red").text("Load failed: " + error).show();
         },
         complete: function (data) {
             setLoading(false);
-            grdMain.closeProgress();
+            treeMain.closeProgress();
 
-            grdMain.setFocus();
+            treeMain.setFocus();
         },
         xhr: function () {
             var xhr = new window.XMLHttpRequest();
             //Download progress
             xhr.addEventListener("progress", function (evt) {
                 if (evt.lengthComputable) {
-                    grdMain.setProgress(0, evt.total, evt.loaded);
+                    treeMain.setProgress(0, evt.total, evt.loaded);
                 }
             }, false);
             return xhr;

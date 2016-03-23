@@ -8,12 +8,18 @@ permalink: /api/TreeDataProvider/onRowParentChanged/
 jsonly: true
 versions:
   - JS 1.0.15+
+tags:
+  - 부모노드 변경
+  - 트리노드 이동
+  - 트리변경
+  - change parent
+  - changeRowParent
 ---
 
 
 #### Description
 
-> 부모가 바뀐 뒤 발생한다. 
+> [TreeDataProvider.changeRowParent](/api/TreeDataProvider/changeRowParent/)함수를 사용하여 부모가 바뀐 뒤 발생한다. 
 
 #### Syntax
 
@@ -44,7 +50,7 @@ versions:
 #### Example
 
 <pre class="prettyprint">
-    treeDataProvider.onRowParentChanged = function (provider, rowId, parentId, childIndex)  {
+    treeProvider.onRowParentChanged = function (provider, rowId, parentId, childIndex)  {
         console.log("onRowParentChanged: " + rowId + ", " + parentId + ", " + childIndex);
     }
 </pre>

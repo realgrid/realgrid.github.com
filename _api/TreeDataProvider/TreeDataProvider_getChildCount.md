@@ -30,6 +30,6 @@ permalink: /api/TreeDataProvider/getChildCount/
 #### Example
 
 <pre class="prettyprint">
-    var count = tree.getChilCount(10);
+    var count = treeProvider.getChilCount(3);
 </pre>
 

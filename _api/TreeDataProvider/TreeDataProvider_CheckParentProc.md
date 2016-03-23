@@ -5,12 +5,13 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/CheckParentProc/
+
 ---
 
 
 #### Description
 
-> 
+> 미구현
 
 #### Syntax
 

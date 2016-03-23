@@ -8,12 +8,16 @@ permalink: /api/TreeDataProvider/onRowSiblingMoving/
 jsonly: true
 versions:
   - JS 1.0.15+
+tags:
+ - 행 이동
+ - moveRowSibling
+ - move row event
 ---
 
 
 #### Description
 
-> 형제간 위치를 바꾸려고 할때 발생한다. (같은 부모의 형제간 위치 이동)  
+> [TreeDataProvider.moveRowSibling()](/api/TreeDataProvider/moveRowSibling/) 함수를 사용하여 형제간 위치를 바꾸려고 할때 발생한다. (같은 부모의 형제간 위치 이동)  
 
 #### Syntax
 

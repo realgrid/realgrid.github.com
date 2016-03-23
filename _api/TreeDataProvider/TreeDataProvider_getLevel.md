@@ -20,7 +20,7 @@ permalink: /api/TreeDataProvider/getLevel/
 
 > **rowId**  
 > Type: Number  
-> 데이터 행의 트리 아이디.
+> 데이터 행의 트리 아이디.  
 
 #### Return value
 
@@ -30,6 +30,6 @@ permalink: /api/TreeDataProvider/getLevel/
 #### Example
 
 <pre class="prettyprint">
-    var level = tree.getLevel(10);
+    var level = treeProvider.getLevel(10);
 </pre>
 

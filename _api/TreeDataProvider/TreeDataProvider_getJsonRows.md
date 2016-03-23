@@ -6,6 +6,10 @@ objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/getJsonRows/
 jsonly: true
+tags:
+ - recursive
+ - childRowsProp
+ - iconProp
 ---
 
 
@@ -21,7 +25,8 @@ jsonly: true
 
 > **rowId**
 > Type: number  
-> 데이터행 index  
+> 데이터행의 트리 아이디.  
+> 파라메타에 값을 지정하지 않거나 rowId를 -1로 지정하면 모든 루트노드의 데이터를 가져옵니다.  
 
 > **recursive**
 > Type: boolean  
@@ -40,12 +45,12 @@ jsonly: true
 
 #### Return value
 
-> Type: Array of Object
+> Type: Array of Object  
 > JSON 객체들   
 
 #### Example
 
 <pre class="prettyprint">
-    var rows = treeDataProvider.getJsonRows(-1, true, "child", "icon");
+    var rows = treeProvider.getJsonRows(-1, true, "child", "icon");
 </pre>
 

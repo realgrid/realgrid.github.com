@@ -8,6 +8,8 @@ permalink: /api/TreeDataProvider/moveRowSibling/
 jsonly: true
 versions:
   - JS 1.0.15+
+tags:
+ - delta
 ---
 
 
@@ -23,7 +25,7 @@ versions:
 
 > **rowId**    
 > Type: Number    
-> 트리 데이터행.    
+> 데이터 행의 트리 아이디.  
 
 > **delta**    
 > Type: Number    
@@ -36,6 +38,6 @@ versions:
 #### Example
 
 <pre class="prettyprint">
-    treeDataProvider.moveRowSibling(10, -1);  //rowId가 10인 행을 같은 레벨의 형제간에 한단계 위로 이동
+    treeProvider.moveRowSibling(10, -1);  //rowId가 10인 행을 같은 레벨의 형제간에 한단계 위로 이동
 </pre>
 

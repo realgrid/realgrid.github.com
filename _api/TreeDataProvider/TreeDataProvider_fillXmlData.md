@@ -40,8 +40,8 @@ jsonly: true
         url: "http://" + location.host + "/DemoData/TreeViewXmlData.xml?__time__=" + new Date().getTime(),
         dataType: "text",
         success: function (data) {
-            dataProvider.fillXmlData(data, { rows: "row", icon: "icon" });
-            var count = dataProvider.getRowCount();
+            treeProvider.fillXmlData(data, { rows: "row", icon: "icon" });
+            var count = treeProvider.getRowCount();
             $("#loadResult").css("color", "green").text(parseInt(count).toLocaleString() + " rows loaded.").show();
             treeMain.setFocus();
         },

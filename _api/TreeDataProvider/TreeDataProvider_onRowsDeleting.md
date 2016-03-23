@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Callback
 permalink: /api/TreeDataProvider/onRowsDeleting/
+tags:
+ - 행 삭제 이벤트
 ---
 
 
@@ -25,7 +27,7 @@ permalink: /api/TreeDataProvider/onRowsDeleting/
 
 > **rowIds**  
 > Type: Array of Number  
-> 삭제되는 데이터행들의 id  
+> 삭제되는 데이터행들의 트리 아이디.  
 
 #### Return value
 
@@ -36,7 +38,7 @@ permalink: /api/TreeDataProvider/onRowsDeleting/
 #### Example
 
 <pre class="prettyprint">
-    provider.onRowsDeleting = function (provider, rowIds) {
+    treeProvider.onRowsDeleting = function (provider, rowIds) {
         if (rowIds.length >= 10) {
             RealGrids.alert("10행 이상 삭제할 수 없습니다. 삭제를 취소 합니다.");
             return false;  

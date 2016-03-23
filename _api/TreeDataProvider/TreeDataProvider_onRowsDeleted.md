@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Callback
 permalink: /api/TreeDataProvider/onRowsDeleted/
+tags:
+ - 행 삭제 이벤트
 ---
 
 
@@ -24,7 +26,7 @@ permalink: /api/TreeDataProvider/onRowsDeleted/
 
 > **rowIds**  
 > Array of number  
-> 삭제된 행들의 인덱스.  
+> 삭제된 데이터행들의 트리 아이디.   
 > 이미 삭제가 되었기 때문에 더이상 참조할수 없다.  
 
 #### Return
