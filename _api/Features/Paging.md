@@ -5,6 +5,11 @@ part: Features
 objectname: 
 directiontype: 
 permalink: /api/features/Paging/
+tags:
+  - pageing
+  - page
+  - 페이지
+  - 페이징
 ---
 
 #### Description
@@ -13,4 +18,14 @@ permalink: /api/features/Paging/
 
 #### See Also
 
-> [Paging Demo](http://demo.realgrid.net/Demo/PagingOverview) 참조
+> [Paging Demo](http://demo.realgrid.net/Demo/PagingOverview) 참조  
+
+> [getPage](/api/GridView/getPage)  
+> [getPageCount](/api/GridView/getPageCount)  
+> [setPage](/api/GridView/setPage)  
+> [setPageCount](/api/GridView/setPageCount)  
+> [setPaging](/api/GridView/setPaging)  
+> [onPageChanged](/api/GridView/onPageChanged)  
+> [onPageChanging](/api/GridView/onPageChanging)  
+> [onPageCountChanged](/api/GridView/onPageCountChanged)  
+

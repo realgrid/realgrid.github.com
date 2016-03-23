@@ -5,6 +5,11 @@ part: Features
 objectname: 
 directiontype: 
 permalink: /api/features/Sorting/
+tags: 
+  - Sorting
+  - Sort
+  - 소팅
+  - 소트
 ---
 
 #### Description
@@ -13,4 +18,9 @@ permalink: /api/features/Sorting/
 
 #### See Also
 
-> [Column Sorting Demo](http://demo.realgrid.net/Demo/ColumnSorting) 참조
+> [Column Sorting Demo](http://demo.realgrid.net/Demo/ColumnSorting) 참조  
+
+> [SortingOptions](/api/types/SortingOptions/)  
+> [getSortingOptions](/api/GridBase/getSortingOptions)  
+> [setSortingOptions](/api/GridBase/setSortingOptions)  
+> [onSorting](/api/GridBase/onSorting)  

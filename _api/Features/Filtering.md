@@ -5,6 +5,10 @@ part: Features
 objectname: 
 directiontype: 
 permalink: /api/features/Filtering/
+tags:
+  - Filtering
+  - 필터
+  - 필터링
 ---
 
 #### Description
@@ -13,4 +17,4 @@ permalink: /api/features/Filtering/
 
 #### See Also
 
-> [Column Filtering Demo](http://demo.realgrid.net/Demo/ColumnFiltering) 참조
+> [Column Filtering Demo](http://demo.realgrid.net/Demo/ColumnFiltering) 참조  

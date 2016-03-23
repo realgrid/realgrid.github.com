@@ -5,6 +5,12 @@ part: Features
 objectname: 
 directiontype: 
 permalink: /api/features/Row Grouping/
+tags:
+  - Row Grouping
+  - Grouping
+  - 로우 그룹핑
+  - 그룹핑
+  - 행 그룹핑
 ---
 
 #### Description
@@ -14,5 +20,5 @@ permalink: /api/features/Row Grouping/
 
 #### See Also
 
-> [Row Grouping Demo](http://demo.realgrid.net/Demo/RowGrouping) 참조  
-> [Row Group Merging Demo](http://demo.realgrid.net/Demo/RowGroupMerging) 참조
+> [Row Grouping Demo](http://demo.realgrid.net/Demo/RowGrouping) 참조    
+> [Row Group Merging Demo](http://demo.realgrid.net/Demo/RowGroupMerging) 참조  

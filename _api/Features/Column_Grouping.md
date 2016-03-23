@@ -5,6 +5,15 @@ part: Features
 objectname: 
 directiontype: 
 permalink: /api/features/Column Grouping/
+tags:
+  - column grouping
+  - grouping
+  - group
+  - 컬럼 그룹
+  - 컬럼 그룹핑
+  - 그룹핑
+  - 그룹
+
 ---
 
 #### Description
@@ -16,4 +25,4 @@ Column grouping 은 그리드나 트리의 컬럼을 다양한 방식으로 배�
 
 #### See Also
 
-> [Column Grouping Demo](http://demo.realgrid.net/Demo/ColumnGrouping) 참조
+> [Column Grouping Demo](http://demo.realgrid.net/Demo/ColumnGrouping) 참조  

@@ -1,4 +1,4 @@
----
+--ㅑ
 layout: apipost
 title: ValidationLevel
 part: Types

@@ -5,17 +5,17 @@ part: Features
 objectname: 
 directiontype: 
 permalink: /api/features/Edit Validation/
+tags:
+  - Validation
+  - Check
+  - 검증
+  - 값 체크
+  - 체크
 ---
 
 #### Description
 
 실행 시간에 사용자가 값을 변경하고 행 이동 등을 통해서 변경 값을 data provider에 전달(commit)하기 전에 그리드 수준에서 입력 값들의 타당성을 검증할 필요가 있다. 또는, 데이터셀 입력이 완료되는 시점에 입력된 값을 검증할 수도 있다. 하나의 검증은 판정식과 에러 레벨등으로 정의된다. 리얼그리드는 컬럼별 혹은 행 수준의 입력 검증 방식을 제공한다.
-
-* Validation 모델
-* 판정식(criteria)
-* 에러 레벨(error level)
-* 실행 모드(mode)
-* 에러 메시지(message)
 
 * Column Validation: 데이터셀 입력이 완료되는 시점에 입력 값의 타당성을 검증하고 실패하면 데이터셀의 우측에 실패 아이콘을 표시한다.
 
@@ -23,4 +23,5 @@ permalink: /api/features/Edit Validation/
 
 #### See Also
 
-> [Edit Column Validation Demo](http://demo.realgrid.net/Demo/EditColumnValidation) 참조
+> [Edit Column Validation Demo](http://demo.realgrid.net/Demo/EditColumnValidation) 참조  
+> [Row Vaildations](http://demo.realgrid.com/Demo/EditRowValidation) 참조  

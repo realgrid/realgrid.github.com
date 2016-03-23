@@ -5,6 +5,9 @@ part: Features
 objectname: 
 directiontype: 
 permalink: /api/features/Grid Item/
+tags:
+  - Grid Item
+  - 그리드 아이템
 ---
 
 #### Description
