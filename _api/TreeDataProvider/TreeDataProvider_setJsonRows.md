@@ -5,12 +5,21 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/setJsonRows/
+tags:
+ - 트리 데이터 로드
+ - 트리데이터
+ - 트리데이타
+ - json
+ - rowsProp
+ - childrenProp
+ - iconProp
 ---
 
 
 #### Description
 
 > 트리의 기존 데이터행들을 모두 삭제하고 매개변수로 전달되는 JSON 객체를 데이터 행들로 추가한다.  
+> 트리의 JSON 데이터 구조에 관한 설명은 튜토리얼 [B9-2](/tutorial/b9-2/)페이지를 참조.  
 
 #### Syntax
 
@@ -41,6 +50,6 @@ permalink: /api/TreeDataProvider/setJsonRows/
 #### Example
 
 <pre class="prettyprint">
-    provider.setJsonRows(data, "rows", "", "icon");
+    treeProvider.setJsonRows(data, "rows", "", "icon");
 </pre>
 

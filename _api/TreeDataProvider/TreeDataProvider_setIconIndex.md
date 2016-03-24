@@ -5,6 +5,9 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/setIconIndex/
+tags:
+ - 아이콘 변경
+ - icon change
 ---
 
 
@@ -33,6 +36,6 @@ permalink: /api/TreeDataProvider/setIconIndex/
 #### Example
 
 <pre class="prettyprint">
-    tree.setIconIndex(1, 2);
+    treeProvider.setIconIndex(1, 2);
 </pre>
 

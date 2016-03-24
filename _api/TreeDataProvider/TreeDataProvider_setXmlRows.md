@@ -5,6 +5,11 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/setXmlRows/
+tags:
+ - xml load
+ - rowElement
+ - childrenField
+ - iconField
 ---
 
 
@@ -41,6 +46,6 @@ permalink: /api/TreeDataProvider/setXmlRows/
 #### Example
 
 <pre class="prettyprint">
-    provider.setXmlRows(rows, "row", "", "icon");
+    treeProvider.setXmlRows(rows, "row", "", "icon");
 </pre>
 

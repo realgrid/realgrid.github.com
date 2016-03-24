@@ -6,7 +6,7 @@ objectname: TreeDataProvider
 directiontype: Callback
 permalink: /api/TreeDataProvider/onRowStateChanged/
 tags:
- - 
+ - 상태 변경 이벤트
 ---
 
 
@@ -16,7 +16,7 @@ tags:
 
 #### Syntax
 
-> function onRowStateChanged (provider, count)  
+> function onRowStateChanged (provider, rowId)  
 
 #### Arguments
 
@@ -26,7 +26,7 @@ tags:
 
 > **rowId**  
 > Type: number  
-
+> 변경된 데이터행의 트리 아이디. 
 
 #### Return
 
@@ -39,4 +39,3 @@ tags:
         console.log("onRowStateChanged:" + rowId);
     };
 </pre>
-

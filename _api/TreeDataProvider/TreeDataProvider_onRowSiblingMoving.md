@@ -31,7 +31,7 @@ tags:
 
 > **rowId**    
 > Type: Number    
-> 이동하려는 트리 데이터행.    
+> 이동하려는 트리 데이터행.  
 
 > **delta**    
 > Type: Number    

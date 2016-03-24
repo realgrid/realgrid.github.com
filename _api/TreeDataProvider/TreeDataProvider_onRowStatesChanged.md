@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Callback
 permalink: /api/TreeDataProvider/onRowStatesChanged/
+tags:
+ - 다중 상태 변경 이벤트
 ---
 
 
@@ -25,7 +27,7 @@ permalink: /api/TreeDataProvider/onRowStatesChanged/
 
 > **rowIds**   
 > Array of Number   
-> 변경된 행 Index의 배열   
+> 변경된 데이터행들의 트리 아이디. 
 
 #### Return
 
@@ -34,7 +36,7 @@ permalink: /api/TreeDataProvider/onRowStatesChanged/
 #### Example
 
 <pre class="prettyprint">
-    dataProvider.onRowStatesChanged = function (provider, rowIds) {
+    treeProvider.onRowStatesChanged = function (provider, rowIds) {
         if (rowIds.length > 0) {
             for (idx in rowIds) {
                 console.log("row ==>", rowIds[idx], "rowState ==>", provider.getRowState(rowIds[idx]));

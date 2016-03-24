@@ -5,12 +5,21 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/setRows/
+tags:
+ - 트리 데이터 로드
+ - 트리데이터
+ - 트리데이타
+ - treeField
+ - needSorting
+ - childrenField
+ - iconField
 ---
 
 
 #### Description
 
 > 트리의 기존 데이터행들을 모두 삭제하고 매개변수로 전달되는 배열의 배열을 데이터 행들로 추가한다.   
+> 트리의 Array 데이터 구조에 관한 설명은 튜토리얼 [B9-1](/tutorial/b9-1/)페이지를 참조.  
 
 #### Syntax
 
@@ -20,7 +29,7 @@ permalink: /api/TreeDataProvider/setRows/
 
 > **rows**   
 > Type: Array of Array   
-> 추가할 행들.   
+> 설정할 데이터.   
 
 > **treeField**   
 > Type: String   
@@ -45,6 +54,6 @@ permalink: /api/TreeDataProvider/setRows/
 #### Example
 
 <pre class="prettyprint">
-    provider.setRows(rows, "tree", true, "", "icon");
+    treeProvider.setRows(rows, "tree", true, "", "icon");
 </pre>
 
