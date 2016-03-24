@@ -44,10 +44,10 @@ tags:
 <pre class="prettyprint">
     var recursive = $("#chkExpandRecursive").is(":checked");
     var force = $("#chkExpandForce").is(":checked");
-    var itemIndex = grdMain.getCurrent().itemIndex;
+    var itemIndex = gridView.getCurrent().itemIndex;
  
-    if (grdMain.isGroupItem(itemIndex)) {
-        grdMain.expandGroup(itemIndex, recursive, force);
+    if (gridView.isGroupItem(itemIndex)) {
+        gridView.expandGroup(itemIndex, recursive, force);
     }
 </pre>
 

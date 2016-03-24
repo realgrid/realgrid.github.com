@@ -38,10 +38,10 @@ tags:
 
 <pre class="prettyprint">
     var recursive = $("#chkCollapseRecursive").is(":checked");
-    var itemIndex = grdMain.getCurrent().itemIndex;
+    var itemIndex = gridView.getCurrent().itemIndex;
  
-    if (grdMain.isGroupItem(itemIndex)) {
-        grdMain.collapseGroup(itemIndex, recursive);
+    if (gridView.isGroupItem(itemIndex)) {
+        gridView.collapseGroup(itemIndex, recursive);
     }
 </pre>
 

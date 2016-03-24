@@ -35,5 +35,5 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var values = grdMain.getValues(0);
+    var values = gridView.getValues(0);
 </pre>

@@ -44,9 +44,9 @@ tags:
 <pre class="prettyprint">
     var recursive = $("#chkExpandRecursive").is(":checked");
     var force = $("#chkExpandForce").is(":checked");
-	var itemIndex = grdMain.getCurrent().itemIndex;
-	var group = grdMain.getModelAs(itemIndex, RealGrids.ItemType.GROUP);
+	var itemIndex = gridView.getCurrent().itemIndex;
+	var group = gridView.getModelAs(itemIndex, RealGrids.ItemType.GROUP);
 	if (group) {
-	    grdMain.expandModel(group, recursive, force);
+	    gridView.expandModel(group, recursive, force);
 </pre>
 

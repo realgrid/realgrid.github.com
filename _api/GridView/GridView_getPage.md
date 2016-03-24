@@ -31,6 +31,6 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var page = grdMain.getPage();
+    var page = gridView.getPage();
 </pre>
 

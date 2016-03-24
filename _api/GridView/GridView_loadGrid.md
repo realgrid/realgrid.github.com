@@ -157,6 +157,6 @@ var data =
 		}
 	}
 	
-grdMain.loadGrid(data);	
+gridView.loadGrid(data);	
 </pre>
 

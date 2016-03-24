@@ -31,6 +31,6 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var count = grdMain.getPageCount();
+    var count = gridView.getPageCount();
 </pre>
 

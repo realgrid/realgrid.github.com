@@ -34,9 +34,9 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var idx = grdMain.getCurrent();
+    var idx = gridView.getCurrent();
     if (idx.fieldIndex >= 0) {
-        var level = grdMain.getGroupLevel(idx.fieldIndex);
+        var level = gridView.getGroupLevel(idx.fieldIndex);
         alert("Group level of " + idx.fieldName + ": " + level);
     }
 </pre>
