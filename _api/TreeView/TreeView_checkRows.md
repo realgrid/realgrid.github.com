@@ -1,10 +1,13 @@
----
+ ---
 layout: apipost
 title: checkRows
 part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/checkRows/
+tags:
+ - 데이터행 아이디 체크
+ - rowId check
 ---
 
 
@@ -20,7 +23,7 @@ permalink: /api/TreeView/checkRows/
 
 > **rowIds**  
 > Type: Array of Number  
-> 체크하거나 해제할 데이터행의 rowId배열이다.  
+> 체크하거나 해제할 데이터행의 트리 아이디 배열이다.  
 
 > **checked**  
 > Type: Boolean  
@@ -34,6 +37,6 @@ permalink: /api/TreeView/checkRows/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.checkRows([2,3,4],true);
+    treeView.checkRows([2,3,4],true);
 </pre>
 

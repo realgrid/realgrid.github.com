@@ -5,12 +5,15 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/getDescendants/
+tags:
+ - 자손행 itemIndex
+ - 자손행 아이템인덱스
 ---
 
 
 #### Description
 
-> 
+> 자손행의 [아이템](/api/features/Grid%20Item/)의 index배열을 가져온다.
 
 #### Syntax
 
@@ -29,6 +32,6 @@ permalink: /api/TreeView/getDescendants/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.getDescendants(0);    
+    treeView.getDescendants(0);    
 </pre>
 

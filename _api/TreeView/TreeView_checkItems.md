@@ -5,6 +5,9 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/checkItems/
+tags:
+ - 아이템 체크
+ - 다행 체크
 ---
 
 
@@ -20,7 +23,7 @@ permalink: /api/TreeView/checkItems/
 
 > **items**  
 > Type: Array of Number  
-> 체크하거나 해제할 아이템 배열이다.  
+> 체크하거나 해제할 [아이템](/api/features/Grid%20Item/)행의 index 배열이다.  
 
 > **checked**  
 > Type: Boolean  
@@ -35,6 +38,6 @@ permalink: /api/TreeView/checkItems/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.checkItems([0,1],true);
+    treeView.checkItems( [ 0, 1 ], true );
 </pre>
 

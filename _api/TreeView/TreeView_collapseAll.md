@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/collapseAll/
+tags:
+ - 전체 축소
 ---
 
 
@@ -27,6 +29,6 @@ permalink: /api/TreeView/collapseAll/
 #### Example
 
 <pre class="prettyprint">
-    tree.collapseAll();
+    treeView.collapseAll();
 </pre>
 

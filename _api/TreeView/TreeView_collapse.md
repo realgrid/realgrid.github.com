@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/collapse/
+tags:
+ - 축소
 ---
 
 
@@ -20,7 +22,7 @@ permalink: /api/TreeView/collapse/
 
 > **itemIndex**  
 > Type: Number  
-> 축소할 아이템행의 Index이다.  
+> 축소할 [아이템](/api/features/Grid%20Item/)행의 index이다.  
 
 > **recursive**  
 > Type: Boolean  
@@ -34,6 +36,6 @@ permalink: /api/TreeView/collapse/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.collapse(0,true);
+    treeView.collapse(0,true);
 </pre>
 

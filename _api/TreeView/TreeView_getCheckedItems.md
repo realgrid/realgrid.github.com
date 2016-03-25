@@ -5,12 +5,14 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/getCheckedItems/
+tags:
+ - 체크 목록 itemIndex로 가져오기
 ---
 
 
 #### Description
 
-> Check된 아이템들의 목록을 배열로 반환한다.
+> Check된 [아이템](/api/features/Grid%20Item/)의 index들의 목록을 배열로 반환한다.
 
 #### Syntax
 
@@ -23,11 +25,11 @@ permalink: /api/TreeView/getCheckedItems/
 #### Return value
 
 > Type: Array of Number
-> 아이템 인덱스들의 배열.
+> 아이템 index들의 배열.
 
 #### Example
 
 <pre class="prettyprint">
-    var items = treeMain.getCheckedItems();
+    var items = treeView.getCheckedItems();
 </pre>
 

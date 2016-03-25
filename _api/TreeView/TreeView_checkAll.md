@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/checkAll/
+tags:
+ - 전체 체크
 ---
 
 
@@ -30,6 +32,6 @@ permalink: /api/TreeView/checkAll/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.checkAll(true);
+    treeView.checkAll(true);
 </pre>
 

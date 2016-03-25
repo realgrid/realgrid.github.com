@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/expand/
+tags:
+ - 확장
 ---
 
 
@@ -20,7 +22,7 @@ permalink: /api/TreeView/expand/
 
 > **itemIndex**  
 > Type: Number  
-> 확장하려는 아이템의 index를 입력한다.  
+> 확장하려는 [아이템](/api/features/Grid%20Item/)행의 index를 입력한다.  
 
 > **recursive**  
 > Type: Boolean  
@@ -39,6 +41,6 @@ permalink: /api/TreeView/expand/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.expand(0,true);
+    treeView.expand(0,true);
 </pre>
 

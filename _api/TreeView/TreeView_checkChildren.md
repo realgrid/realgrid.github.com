@@ -5,6 +5,11 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/checkChildren/
+tags:
+ - 자식행 체크
+ - checked
+ - recursive
+ - visibleOnly
 ---
 
 
@@ -20,7 +25,7 @@ permalink: /api/TreeView/checkChildren/
 
 > **itemIndex**  
 > Type: Number  
-> 부모행의 Index이다.  
+> 부모행의 [ItemModel](/api/features/Grid%20Item/) index.  
 
 > **checked**  
 > Type: Boolean  
@@ -44,6 +49,6 @@ permalink: /api/TreeView/checkChildren/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.checkChildren(0,true,true,false); // 0번째 부모행의 모든 자식행을 체크한다.
+    treeView.checkChildren(0,true,true,false); // 0번째 부모행의 모든 자식행을 체크한다.
 </pre>
 

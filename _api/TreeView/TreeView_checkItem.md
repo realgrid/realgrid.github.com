@@ -5,6 +5,9 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/checkItem/
+tags:
+ - exclusive
+ - 아이템 체크
 ---
 
 
@@ -20,7 +23,7 @@ permalink: /api/TreeView/checkItem/
 
 > **itemIndex**  
 > Type: Number  
-> 아이템의 index를 입력한다.  
+> [아이템](/api/features/Grid%20Item/)행의 index.  
 
 > **checked**  
 > Type: Boolean  
@@ -39,6 +42,6 @@ permalink: /api/TreeView/checkItem/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.checkItem(0,true,false);    
+    treeView.checkItem(0, true, false);    
 </pre>
 

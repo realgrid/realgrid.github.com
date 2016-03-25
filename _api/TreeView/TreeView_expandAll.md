@@ -27,6 +27,6 @@ permalink: /api/TreeView/expandAll/
 #### Example
 
 <pre class="prettyprint">
-    tree.expandAll();
+    treeView.expandAll();
 </pre>
 

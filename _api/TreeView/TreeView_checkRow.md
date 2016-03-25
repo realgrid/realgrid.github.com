@@ -5,6 +5,9 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/checkRow/
+tags:
+ - 데이터행 아이디 체크
+ - rowId check
 ---
 
 
@@ -20,7 +23,7 @@ permalink: /api/TreeView/checkRow/
 
 > **rowId**  
 > Type: Number  
-> [TreeDataProvider](/api/TreeView/) 데이터행의 Index이다.  
+> 데이터행의 트리 아이디.  
 
 > **checked**  
 > Type: Boolean  
@@ -39,6 +42,6 @@ permalink: /api/TreeView/checkRow/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.checkItem(treeMain.getCurrent().dataRow,true,false);
+    treeView.checkItem( 2, true, false );
 </pre>
 

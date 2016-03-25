@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/getCheckedRows/
+tags:
+ - 체크 목록 rowId로 가져오기
 ---
 
 
@@ -23,12 +25,12 @@ permalink: /api/TreeView/getCheckedRows/
 #### Return value
 
 > Type: Array of Number
-> Check된 행 인덱스들의 배열.
+> Check된 데이터행들의 트리 아이디의 배열.
 
 #### Example
 
 <pre class="prettyprint">
-    var rows = treeMain.getCheckRows();
+    var rows = treeView.getCheckRows();
 </pre>
 
 
