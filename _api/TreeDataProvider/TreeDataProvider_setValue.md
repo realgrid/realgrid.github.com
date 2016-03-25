@@ -5,7 +5,8 @@ part: Objects
 objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/setValue/
-- 값 설정
+tags:
+ - 값 설정
 ---
 
 
