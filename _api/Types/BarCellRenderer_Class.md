@@ -7,6 +7,11 @@ order: BarCellRenderer
 objectname: 
 directiontype: 
 permalink: /api/types/BarCellRenderer/
+tags:
+  - BarCellRenderer
+  - Renderer
+  - 바셀렌더러
+  - 렌더러
 ---
 
 #### Description
@@ -15,12 +20,12 @@ permalink: /api/types/BarCellRenderer/
 
 #### Properties
 
-> **minValue**  
+> **minimum**  
 > Type: Number  
 > Default: 0  
 > 최소값을 지정한다.  
 
-> **maxValue**  
+> **maximum**  
 > Type: Number  
 > Default: 100  
 > 최대값을 지정한다.  
@@ -39,3 +44,37 @@ permalink: /api/types/BarCellRenderer/
 > Type: String  
 > Default: [BarCellRendererOrigin](/api/types/BarCellRendererOrigin)\.DEFAULT		  
 > 막대 상자의 시작 위치를 지정한다. 
+
+### Example  
+
+<pre class="prettyprint">
+	var columns = [{
+        "name": "Quantity",
+        "fieldName": "Quantity",
+        "type": "data",
+        "width": 100,
+        "renderer": {
+            "type": "bar",
+            "minimum": 0,
+            "maximum": 100,
+            "minWidth": 150,
+            "showLabel": true,
+            "origin":"left"
+        },
+        "styles": {
+            "figureBackground": "linear,#ff000044,#ffeeeeee,90",
+            "textAlignment": "center",
+            "lineAlignment": "far",
+            "paddingRight": 5,
+            "figureSize": "70%"
+        },
+        "header": {
+            "text": "Quantity"
+        }
+	}]
+	gridView.setColumns(columns);
+</pre>
+
+#### See Also
+
+> [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 

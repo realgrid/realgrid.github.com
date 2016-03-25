@@ -33,7 +33,47 @@ permalink: /api/types/CellButton/
 > POPUP의 경우 컬럼에 popupMenu 속성 값이 정의 되어야 하고 ([DataColumn](/api/types/DataColumn) 이 popupMenu 값과 [addPopupMenu](/api/GridBase/addPopupMenu) 호출시 name 값과 일치 해야 한다.  
 > 팝업 메뉴의 메뉴 항목 클릭시 [onMenuItemClicked](/api/GridBase/onMenuItemClicked) Callback 함수가 호출된다.
 
+### Example  
+
+<pre class="prettyprint">
+	var columns = [{
+        "name": "OrderID",
+        "fieldName": "OrderID",
+        "type": "data",
+        "width": "90",
+        "button": "action",
+        "buttonVisibility": "always",
+        "styles": {
+            "textAlignment": "near"
+        },
+        "header": {
+            "text": "Order"
+        }
+    }, {
+        "name": "CustomerID",
+        "fieldName": "CustomerID",
+        "type": "data",
+        "width": "130",
+        "button": "popup",
+        "popupMenu": "menu1",
+        "buttonVisibility": "visible",
+        "styles": {
+            "textAlignment": "center"
+        },
+        "header": {
+            "text": "Customer ID"
+        }
+	}]
+	gridView.setColumns(columns);
+</pre>
+
 #### See Also
 
-> [Edit Button Demo](http://demo.realgrid.net/Demo/EditButtons) 참조
+> [Edit Button Demo](http://demo.realgrid.net/Demo/EditButtons) 참조  
+> [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons) 참조  
+> [B7-6 Cell Button](http://help.realgrid.com/tutorial/b7-6/) 참조  
+> [B7-7 Popup Menu](http://help.realgrid.com/tutorial/b7-7/) 참조  
+
+
+
 

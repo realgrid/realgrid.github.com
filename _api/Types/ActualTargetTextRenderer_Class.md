@@ -41,3 +41,38 @@ permalink: /api/types/ActualTargetTextRenderer/
 > Default: null  
 > 목표값의 글꼴을 지정한다.  
 
+
+#### Example  
+
+<pre class="prettyprint">
+	var fields = [{
+	    fieldName: "target",
+	    dataType: "number"
+	}, {
+	    fieldName: "actual",
+	    dataType: "number"
+	}];
+	dataProvider.setFields(fields);
+	
+	var columns = [{
+	    name: "colText",
+        type: "series",
+        fieldNames: "target,actual",
+        fillHeight: 100,
+        renderer: {
+            type: "actualTargetText",
+            actualFont: "Arial,30,bold",
+            actualForeground: "#ff888888",
+            dynamicStyles: [{
+                criteria: "value[1] / value[0] >= 1.0",
+                styles: "actualForeground=#ffff0000"
+            }]
+        },
+        header: { text: "Text" }
+	}]
+	gridView.setColumns(columns);
+</pre>
+
+#### See Also
+
+> [Actual / Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer) 참조  

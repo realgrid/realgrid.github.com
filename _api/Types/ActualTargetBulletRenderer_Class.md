@@ -30,3 +30,34 @@ permalink: /api/types/ActualTargetBulletRenderer/
 > Type: String  
 > Default: null  
 > 배경색을 지정한다.  
+
+#### Example  
+
+<pre class="prettyprint">
+	var fields = [{
+	    fieldName: "target",
+	    dataType: "number"
+	}, {
+	    fieldName: "actual",
+	    dataType: "number"
+	}];
+	dataProvider.setFields(fields);
+	
+	var columns = [{
+	    name: "colBullet",
+	    type: "series",
+	    fieldNames: "target,actual",
+	    height: 30,
+	    renderer: {
+	        type: "actualTargetBullet",
+	        maxValue: 100,
+	        maximumBackground: "#18000000"
+	    },
+	    header: { text: "Bullet" },
+	}]
+	gridView.setColumns(columns);
+</pre>
+
+#### See Also
+
+> [Actual / Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer) 참조  

@@ -8,6 +8,9 @@ objectname:
 directiontype: 
 permalink: /api/types/ButtonVisibility/
 jsonly: true
+tags:
+  - buttonVisibility
+  - 버튼표시
 ---
 
 #### Description
@@ -31,3 +34,54 @@ jsonly: true
 > **HIDDEN**   
 > Value: "hidden"  
 > 버튼을 표시하지 않는다.     
+
+### Example  
+
+<pre class="prettyprint">
+	var columns = [{
+        "name": "OrderID",
+        "fieldName": "OrderID",
+        "type": "data",
+        "width": "90",
+        "button": "action",
+        "buttonVisibility": "always",
+        "styles": {
+            "textAlignment": "near"
+        },
+        "header": {
+            "text": "Order"
+        }
+    }, {
+        "name": "CustomerID",
+        "fieldName": "CustomerID",
+        "type": "data",
+        "width": "130",
+        "button": "action",
+        "buttonVisibility": "visible",
+        "styles": {
+            "textAlignment": "center"
+        },
+        "header": {
+            "text": "Customer ID"
+        }
+    }, {
+        "name": "EmployeeID",
+        "fieldName": "EmployeeID",
+        "type": "data",
+        "width": "100",
+        "button": "action",
+        "buttonVisibility": "hidden",
+        "styles": {
+            "textAlignment": "far"
+        },
+        "header": {
+            "text": "Employee ID"
+        }
+	}]
+	gridView.setColumns(columns);
+</pre>
+
+#### See Also
+
+> [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons) 참조  
+> [B7-6 Cell Button](http://help.realgrid.com/tutorial/b7-6/) 참조  

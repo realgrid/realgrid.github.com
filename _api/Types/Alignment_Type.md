@@ -27,3 +27,46 @@ permalink: /api/types/Alignment/
 > Value: "far"  
 > 우측이나 아래쪽에 정렬한다.  
 
+### Example  
+
+<pre class="prettyprint">
+	var columns = [{
+        "name": "OrderID",
+        "fieldName": "OrderID",
+        "type": "data",
+        "width": "90",
+        "styles": {
+            "textAlignment": "near"
+        },
+        "header": {
+            "text": "Order"
+        }
+    }, {
+        "name": "CustomerID",
+        "fieldName": "CustomerID",
+        "type": "data",
+        "width": "130",
+        "styles": {
+            "textAlignment": "center"
+        },
+        "header": {
+            "text": "Customer ID"
+        }
+    }, {
+        "name": "EmployeeID",
+        "fieldName": "EmployeeID",
+        "type": "data",
+        "width": "100",
+        "styles": {
+            "textAlignment": "far"
+        },
+        "header": {
+            "text": "Employee ID"
+        }
+	}]
+	gridView.setColumns(columns);
+</pre>
+
+#### See Also
+
+> [Style Properties](http://demo.realgrid.com/Demo/StylesProperties) 참조  

@@ -27,9 +27,24 @@ permalink: /api/types/CellIndex/
 > Default: -1   
 > provider에서의 고유 번호  
 
+> **fieldIndex**    
+> Type: Number  
+> Default: -1   
+> provider에서의 필드 순서  
+
 > **fieldName**  
 > Type: String   
 > Default: null  
 > 필드 이름   
 
+### Example  
 
+<pre class="prettyprint">
+    var index = gridView.getCurrent();
+
+    console.log(index);
+</pre>
+
+#### See Also
+
+> [getCurrent](/api/GridBase/getCurrent)

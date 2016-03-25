@@ -7,8 +7,15 @@ order: BarCellRendererOrigin
 objectname: 
 directiontype: 
 permalink: /api/types/BarCellRendererOrigin/
+tags:
+  - BarCellRenderer
+  - Renderer
+  - 바셀렌더러
+  - 렌더러
+  - origin
+  - 시작위치
+  - 오리진
 ---
-
 
 #### Description
 
@@ -35,3 +42,37 @@ permalink: /api/types/BarCellRendererOrigin/
 > **BOTTOM**  
 > Type: "bottom"  
 > 막대 상자가 셀의 아래쪽부터 사작한다.                
+
+### Example  
+
+<pre class="prettyprint">
+	var columns = [{
+        "name": "Quantity",
+        "fieldName": "Quantity",
+        "type": "data",
+        "width": 100,
+        "renderer": {
+            "type": "bar",
+            "minimum": 0,
+            "maximum": 100,
+            "minWidth": 150,
+            "showLabel": true,
+            "origin":"left"
+        },
+        "styles": {
+            "figureBackground": "linear,#ff000044,#ffeeeeee,90",
+            "textAlignment": "center",
+            "lineAlignment": "far",
+            "paddingRight": 5,
+            "figureSize": "70%"
+        },
+        "header": {
+            "text": "Quantity"
+        }
+	}]
+	gridView.setColumns(columns);
+</pre>
+
+#### See Also
+
+> [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 
