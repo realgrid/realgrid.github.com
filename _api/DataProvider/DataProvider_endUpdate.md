@@ -7,6 +7,9 @@ directiontype: Function
 permalink: /api/DataProvider/endUpdate/
 tags:
   - beginUpdate
+  - 일괄 반영
+  - 다시 그리기
+  - update lock
 ---
 
 
