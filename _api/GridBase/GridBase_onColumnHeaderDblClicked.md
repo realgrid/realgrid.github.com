@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onColumnHeaderDblClicked/
+tags:
+  - event
+  - click
+  - doubleClick
+  - columnHeader
 ---
 
 

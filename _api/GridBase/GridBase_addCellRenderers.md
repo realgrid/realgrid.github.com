@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/addCellRenderers/
+tags:
+  - cellRenderer
 ---
 
 
@@ -30,7 +32,7 @@ permalink: /api/GridBase/addCellRenderers/
 #### Example
 
 <pre class="prettyprint">
-	grdMain.addCellRenderers([{
+	gridView.addCellRenderers([{
 		"id": "bar01",
 		"type": "bar"
 	}, {
@@ -62,5 +64,26 @@ permalink: /api/GridBase/addCellRenderers/
 		"minimum": 0,
 		"maximum": 100000
 	}]);
+
+    /* 컬럼의 dynamicStyles를 이용해서 cell의 값이 40 이상인 경우 renderer를 
+    	textRenderer(default)에서 signalRenderer(id:"signal01")로 변경한다.*/
+	gridView.setColumns([
+	....
+		{
+			fieldName:"fieldName",
+			name:"columnName",
+			"dynamicStyles": [{
+				"criteria": "value >= 40",
+				"styles": {
+					"renderer": "signal01",
+					"figureBackground": "#ff880000",
+					"figureState": "value"
+					}
+			}],			
+		}
+	])
 </pre>
 
+#### See Also
+
+> [RendererWithStyles](http://demo.realgrid.com/Demo/RendererWithStyles) 참조

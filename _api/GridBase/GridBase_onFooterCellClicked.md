@@ -6,6 +6,9 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onFooterCellClicked/
 jsonly: true
+tags:
+  - click
+  - event
 ---
 
 
@@ -34,7 +37,7 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onFooterCellClicked =  function (grid, column) {
+    gridView.onFooterCellClicked =  function (grid, column) {
         console.log("onFooterCellClicked : " + "(" + column.name + ")")
     };
 </pre>

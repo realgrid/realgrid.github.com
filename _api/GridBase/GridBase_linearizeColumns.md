@@ -5,6 +5,7 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/linearizeColumns/
+  - layout
 ---
 
 
@@ -19,7 +20,7 @@ permalink: /api/GridBase/linearizeColumns/
 #### Parameters
 
 > **sortProps**  
-> Type: bit (1,2,4,8,16) \| Array   
+> Type: Array of String  
 > 컬럼 순서 정렬을 지정하기 위한 정보.
 
 #### Return value
@@ -29,5 +30,9 @@ permalink: /api/GridBase/linearizeColumns/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.linearizeColumns()
+    gridView.linearizeColumns()
 </pre>
+
+#### See Also 
+
+> [restoreColumns](/api/GridBase/restoreColumns) 

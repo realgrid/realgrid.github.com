@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/commit/
+tags:
+  - editing
+  - commit
 ---
 
 
@@ -24,11 +27,12 @@ permalink: /api/GridBase/commit/
 
 #### Return value
 
-> None.
+> Type:boolean
+> 데이터 변경이 발생한 경우 true가 반환된다. 
 
 #### Example
 
 <pre class="prettyprint">
-    grid.commit(false)
+    gridView.commit(false)
 </pre>
 

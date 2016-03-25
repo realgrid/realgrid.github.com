@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/clearStyles/
+tags:
+  - style
+  - clearStyle
 ---
 
 
@@ -30,6 +33,6 @@ permalink: /api/GridBase/clearStyles/
 #### Example
 
 <pre class="prettyprint">
-    grid.clearStyles("header");
+    gridView.clearStyles("header");
 </pre>
 

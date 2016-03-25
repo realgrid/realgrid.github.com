@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/refresh/
+tags:
+  - refresh
+  - 다시그리기
+  - 리플레쉬
 ---
 
 
@@ -29,3 +33,6 @@ permalink: /api/GridBase/refresh/
 <pre class="prettyprint">
     grdMain.refresh();
 </pre>
+
+#### See Also
+> [beginUpdate](/api/GridBase/beginUpdate), [endUpdate](/api/GridBase/endUpdate)

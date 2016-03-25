@@ -5,12 +5,15 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/ping/
+tags:
+  - alert
 ---
 
 
 #### Description
 
-> 입력된 메세지를 그리드 대화상자에 표시한다.
+> RealGrid+ Web의 경우 입력된 메세지를 그리드 대화상자에 표시한다.  
+> RealGridJS의 경우 alert창으로 입력된 메세지를 표시한다.  
 
 #### Syntax
 
@@ -29,5 +32,5 @@ permalink: /api/GridBase/ping/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.ping("테스트");
+    gridView.ping("테스트");
 </pre>

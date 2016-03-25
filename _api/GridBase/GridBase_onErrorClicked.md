@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onErrorClicked/
+tags:
+  - error
 ---
 
 
@@ -33,7 +35,7 @@ permalink: /api/GridBase/onErrorClicked/
 #### Example
 
 <pre class="prettyprint">
-        grid.onErrorClicked = function (grid, error) {
+        gridView.onErrorClicked = function (grid, error) {
             console.log("onErrorClicked: " + error);
         };
 </pre>

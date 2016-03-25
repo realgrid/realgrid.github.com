@@ -5,15 +5,22 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onContextMenuItemClicked/
+tags:
+  - event
+  - contextMenu
+  - popupMenu
 ---
 
 
 #### Description
 
-> [GridBase setContextMenu](/api/GridBase/setContextMenu/)를 통해 추가한 Flash 컨텍스트 메뉴 항목을 오른쪽 마우스로 클릭했을 때 호출된다.  
+> [GridBase setContextMenu](/api/GridBase/setContextMenu/)를 통해 추가한 컨텍스트 메뉴 항목을 클릭했을 때 호출된다.  
+> RealGridJS의 경우 MenuItem.callback이 지정된 경우 호출되지 않는다.
 
 #### Syntax
-
+> RealGridJS  
+> function onContextMenuItemClicked (grid, data, index)  
+> RealGrid+ Web  
 > function onContextMenuItemClicked (grid, label, index)  
 
 #### Arguments
@@ -25,6 +32,12 @@ permalink: /api/GridBase/onContextMenuItemClicked/
 > **label**  
 > Type: string  
 > 메뉴 항목의 label.  
+> RealGrid+ Web 전용 
+
+> **data**  
+> Type: [MenuItem](/api/types/MenuItem/)  
+> 클릭된 메뉴 항목의 menuItem정보  
+> RealGridJS 전용  
 
 > **index**  
 > Type: object  
@@ -37,10 +50,16 @@ None
 #### Example
 
 <pre class="prettyprint">
-    grid.onContextMenuItemClicked = function (grid, label, index) {
-        alert("Context menu가 클릭됐습니다: " + label + "n" + JSON.stringify(index));
+    gridView.setContextMenu([
+        {label:"Menu1"},
+        {label:"Menu2"},
+        ....
+    ]);
+    ....
+    gridView.onContextMenuItemClicked = function (grid, data, index) {
+        alert("Context menu가 클릭됐습니다: " + data.label+"\n"+JSON.stringify(index));
 
-        var selRow = dataProvider.getRow(index.dataRow);
+        var selRow = dataProvider.getJsonRow(index.dataRow);
         console && console.log(selRow);
     };
 </pre>

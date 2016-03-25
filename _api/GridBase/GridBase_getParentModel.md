@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getParentModel/
+tags:
+  - model
+  - itemModel
 ---
 
 
@@ -35,16 +38,17 @@ permalink: /api/GridBase/getParentModel/
 
 <pre class="prettyprint">
     var extended = $("#chkExtendedModel").is(":checked");
-    var idx = grdMain.getCurrent();
-    var item = grdMain.getModel(idx.itemIndex);
-    var parent = grdMain.getParentModel(item,extended);
+    var idx = gridView.getCurrent();
+    var item = gridView.getModel(idx.itemIndex);
+    var parent = gridView.getParentModel(item,extended);
     console.log(JSON.stringify(parent));
     if (parent) {
         idx.itemIndex = parent.itemIndex;
-        grdMain.setCurrent(idx);
+        gridView.setCurrent(idx);
     }
 </pre>
 
-
+#### See Also
+> [getModel](/api/GridBase/getModel), [getChildModel](/api/GridBase/getChildModel)
 
 

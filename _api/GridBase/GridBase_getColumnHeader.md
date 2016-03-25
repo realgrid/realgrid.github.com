@@ -13,7 +13,7 @@ deprecated: true
 
 > 컬럼 정보 객체나 컬럼 이름으로 해당 컬럼의 헤더 정보를 가져온다.  
 > deprecated 대상.  
-> [getColumnProperty](/api/GridBase/getColumnProperty)(column,"header")
+> RealGridJS에서는 [getColumnProperty](/api/GridBase/getColumnProperty)(column,"header")를 사용한다.
 
 #### Syntax
 
@@ -36,7 +36,4 @@ deprecated: true
 var colName = "column1";
 var header = getColumnHeader(colName);
 </pre>
-
-
-
 

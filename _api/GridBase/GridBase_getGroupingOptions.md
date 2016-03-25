@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getGroupingOptions/
+tags:
+  - option
+  - rowGroup
+  - groupingOptions
 ---
 
 
@@ -28,6 +32,11 @@ permalink: /api/GridBase/getGroupingOptions/
 #### Example
 
 <pre class="prettyprint">
-    var options = grid.getGroupingOptions();
+    var options = gridView.getGroupingOptions();
+    if (options) {
+        alert(JSON.stringify(options))
+    }
 </pre>
 
+#### See Also
+>  [setGroupingOptions](/api/GridBase/setGroupingOptions)

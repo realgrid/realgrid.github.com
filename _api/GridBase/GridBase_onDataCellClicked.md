@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onDataCellClicked/
+tags:
+  - click
+  - dataCell
+  - cellClick
+  - event
 ---
 
 
@@ -33,7 +38,7 @@ permalink: /api/GridBase/onDataCellClicked/
 #### Example
 
 <pre class="prettyprint">
-    grid.onDataCellClicked =  function (grid, index) {
+    gridView.onDataCellClicked =  function (grid, index) {
       console.log(index);
     };
 </pre>

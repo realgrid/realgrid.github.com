@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/isVisible/
+tags:
+  - visible
 ---
 
 
@@ -28,6 +30,8 @@ permalink: /api/GridBase/isVisible/
 #### Example
 
 <pre class="prettyprint">
-var visible = grid.isVisible();
+var visible = gridView.isVisible();
 </pre>
 
+#### See Also
+> [setVisible](/api/GridBase/setVisible)

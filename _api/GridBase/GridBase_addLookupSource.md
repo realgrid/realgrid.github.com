@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/addLookupSource/
+tags:
+  - lookupData
+  - dropDown
 ---
 
 
@@ -12,7 +15,7 @@ permalink: /api/GridBase/addLookupSource/
 
 > lookup tree에서 사용할 lookup source를 추가 등록한다.  
 > 추가등록되는 lookup source가 기존것과 중복되는경우 overwrite된다.  
-> ※ 기존id에 추가를 원하는 경우는 fillLookupData()를 사용한다.  
+> ※ 기존id에 추가를 원하는 경우는 [fillLookupData](/api/GridBase/fillLookupData/)를 사용한다.  
 
 #### Syntax
 
@@ -52,6 +55,25 @@ permalink: /api/GridBase/addLookupSource/
         ]
 	};
 	
-	grdMain.addLookupSource(source);
+	gridView.addLookupSource(source);
+	....
+
+	/* field1(column1)의 값에 따라 column2의 dropDownList에 보여지는 값이 변경되도록 
+	   column2의 lookupSourceId와 lookupKeyFields를 지정한다.. */
+
+	gridView.setColumns([
+	    { fieldName:"field1",
+          name:"column1",
+          values:["VINET","CHOPS","VICTE","HANAR","WELLI"],
+          editor:{type:"dropDown"}
+	    },{ fieldName:"field2",
+	      name:"column2",
+	      lookupSourceId:"empLookup",
+	      lookupDislay:true,
+	      lookupKeyFields:["field1","field2"],
+	      editor:{ type:"dropDown"}
+	    }
+	    ....
+	])
 </pre>
 

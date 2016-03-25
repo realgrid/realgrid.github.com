@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getSelectionData/
+tags:
+  - select
 ---
 
 
@@ -33,4 +35,7 @@ permalink: /api/GridBase/getSelectionData/
     var data = grid.getSelectionData(10);
     $("#txtTitle").text("selected values :").show();
 </pre>
+
+#### See Also
+> [getSelection](/api/GridBase/getSelection)
 

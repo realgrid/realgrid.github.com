@@ -5,6 +5,12 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onItemAllChecked/
+tags:
+  - event
+  - check
+  - 전체선택
+  - 전체해제
+  - checkBar
 ---
 
 
@@ -33,8 +39,10 @@ permalink: /api/GridBase/onItemAllChecked/
 #### Example
 
 <pre class="prettyprint">
-    grid.onItemAllChecked =  function (grid, checked) {
+    gridView.onItemAllChecked =  function (grid, checked) {
         console.log(grid.id," onItemAllChecked:",checked);
     };
 </pre>
 
+#### See Also
+> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

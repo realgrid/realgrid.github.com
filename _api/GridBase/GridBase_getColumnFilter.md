@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getColumnFilter/
+tags:
+  - filter
 ---
 
 
@@ -36,10 +38,27 @@ permalink: /api/GridBase/getColumnFilter/
 #### Example
 
 <pre class="prettyprint">
-	var fieldName = grdMain.getCurrent().fieldName;
-	var column = grdMain.columnByField(fieldName);
-	var filter = grdMain.getColumnFilter(column, 'Male');
+    gridView.setColumns([
+    	{fieldName:"fldName1", 
+    	 name:"colName1",
+    	 filters:[
+    	 	{name:"Male",
+    	 	 criteria:"value ='male'"
+    	 	},
+    	 	{name:"Female",
+    	 	 criteria:"value = 'female'"
+    	 	}
+    	 ]},
+    	....
+    ]);
+    ....
+
+    var fieldName = gridView.getCurrent().fieldName;
+    var column = gridView.columnByField(fieldName);
+    var filter = gridView.getColumnFilter(column, 'Male');
 	
-	alert(JSON.stringify(filter));				
+    alert(JSON.stringify(filter));				
 </pre>
 
+#### See Also
+> [Column Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering) 참조

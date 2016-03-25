@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getModelsOfRows/
+tags:
+  - model
+  - itemModel
 ---
 
 
@@ -14,11 +17,11 @@ permalink: /api/GridBase/getModelsOfRows/
 
 #### Syntax
 
-> function getModelsOfRow(dataRows, extended)  
+> function getModelsOfRows(dataRows, extended)  
 
 #### Parameters
 
-> **dataRow**  
+> **dataRows**  
 > Type: Array of Number  
 > data의 행번호들  
 
@@ -36,10 +39,9 @@ permalink: /api/GridBase/getModelsOfRows/
 <pre class="prettyprint">
     var extended = $("#chkExtendedModel").is(":checked");
     var dataRows = [0, 1, 2, 3, 4];
-    var items = grdMain.getModelsOfRow(dataRows, extended);
+    var items = gridView.getModelsOfRows(dataRows, extended);
     console.log(JSON.stringify(items));
 </pre>
 
-
-
-
+#### See Also
+> [Grid Item](/api/features/Grid%20Item/)

@@ -6,6 +6,14 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onPanelDblClicked/
 jsonly: true
+tags:
+  - event
+  - panel
+  - groupPanel
+  - doubleClick
+  - 더블클릭
+  - 그룹판넬
+
 ---
 
 
@@ -30,8 +38,10 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onPanelDblClicked =  function (grid) {
+    gridView.onPanelDblClicked =  function (grid) {
         console.log("onPanelDblClicked")
     };
 </pre>
 
+#### See Also
+> [onPanelClicked](/api/GridBase/onPanelClicked)

@@ -6,6 +6,10 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onCheckBarFootClicked/
 jsonly: true
+tags:
+  - click
+  - event
+  - checkBar
 ---
 
 
@@ -30,7 +34,7 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onCheckBarFootClicked =  function (grid) {
+    gridView.onCheckBarFootClicked =  function (grid) {
         console.log("onCheckBarFootClicked");
     };
 </pre>

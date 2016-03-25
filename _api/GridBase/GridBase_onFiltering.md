@@ -6,6 +6,8 @@ objectname: GridBase
 directiontype: Callback
 jsonly: true
 permalink: /api/GridBase/onFiltering/
+tags:
+  - filter
 ---
 
 
@@ -32,7 +34,7 @@ permalink: /api/GridBase/onFiltering/
 #### Example
 
 <pre class="prettyprint">
-    grid.onFiltering = function (grid){
+    gridView.onFiltering = function (grid){
 	    return false;
 	}
 </pre>

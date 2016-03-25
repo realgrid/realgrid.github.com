@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/columnsByTag/
+tags:
+  - column
+  - getColumn
 ---
 
 
@@ -33,8 +36,14 @@ permalink: /api/GridBase/columnsByTag/
 #### Example
 
 <pre class="prettyprint">
-var tag= "column1";
-var columns = grid.columnByTag(tag);
+gridView.setColumns([
+	{fieldName:"fldName1", name:"colName1", tag:"numField"},
+	{fieldName:"fldName2", name:"colName2", tag:"numField"},
+	{fieldName:"fldName3", name:"colName3", tag:"textField"},
+	...
+])
+var tag= "numField";
+var columns = gridView.columnByTag(tag);
 </pre>
 
 

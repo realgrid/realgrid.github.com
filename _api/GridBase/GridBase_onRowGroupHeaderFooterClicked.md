@@ -6,6 +6,11 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onRowGroupHeaderFooterClicked/
 jsonly: true
+tags:
+  - event
+  - rowGroupHeader
+  - rowGroupFooter
+  - rowGroupClick
 ---
 
 
@@ -34,7 +39,7 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onRowGroupHeaderFooterClicked =  function (grid, index) {
+    gridView.onRowGroupHeaderFooterClicked =  function (grid, index) {
         console.log("onRowGroupHeaderFooterClicked : " + "(" + index + ")")
     };
 </pre>

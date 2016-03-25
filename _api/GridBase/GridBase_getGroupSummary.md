@@ -39,17 +39,18 @@ permalink: /api/GridBase/getGroupSummary/
 #### Example
 
 <pre class="prettyprint">
-    var idx = grdMain.getCurrent();
-    var item = grdMain.getModelAs(idx.itemIndex, RealGrids.ItemType.ROW);
-         
-    if (item) {
-        var group = grdMain.getParentModel(item);
-             
-        if (group && idx.fieldIndex >= 0) {
-            var summary = grdMain.getGroupSummary(group, idx.fieldIndex);
-            if (summary) {
-                console.log(JSON.stringify(summary));
-            }
+    var idx = gridView.getCurrent();
+    var aModel = gridView.getModel(idx.itemIndex);
+    if (aModel) {
+        if (aModel.type != "group") {
+            aModel = gridView.getParentModel(aModel);
+        }
+    }
+
+    if (aModel && aModel.type=="group") {
+        var summary = gridView.getGroupSummary(aModel, "numField");
+        if (summary) {
+            console.log(JSON.stringify(summary));
         }
     }
 </pre>

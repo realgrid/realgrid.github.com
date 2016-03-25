@@ -6,6 +6,11 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onKeyUp/
 jsonly: true
+tags:
+  - event
+  - keyUp
+  - 키입력
+  - 키보드
 ---
 
 
@@ -46,10 +51,10 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grdMain.onKeyUp = function (grid, key, ctrl, shift, alt) {
+    gridView.onKeyUp = function (grid, key, ctrl, shift, alt) {
         console.log("onKeyUp: key = " + key);
     };
 </pre>
 
-
-
+#### See Also
+> [onKeyDown](/api/GridBase/onKeyDown), [onKeyPress](/api/GridBase/onKeyPress)

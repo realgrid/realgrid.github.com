@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onCellEdited/
+tags:
+  - edit
+  - event
+  - cellCommit
 ---
 
 
@@ -41,7 +45,7 @@ permalink: /api/GridBase/onCellEdited/
 #### Example
 
 <pre class="prettyprint">
-    grid.onCellEdited =  function (grid, itemIndex, dataRow, field) {
+    gridView.onCellEdited =  function (grid, itemIndex, dataRow, field) {
         if (field == 2) { // 2 == "Age"
             var v = grid.getValue(itemIndex, field);
             alert(v);

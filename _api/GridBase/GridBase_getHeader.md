@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getHeader/
+tags:
+  - header
+  - options
 ---
 
 
@@ -28,6 +31,11 @@ permalink: /api/GridBase/getHeader/
 #### Example
 
 <pre class="prettyprint">
-var header = grid.getHeader();
+var header = gridView.getHeader();
+if (header) {
+	alert(JSON.stringify(header));
+}
 </pre>
 
+#### See Also
+> [setHeader](/api/GridBase/setHeader)

@@ -31,3 +31,5 @@ permalink: /api/GridBase/getDisplayOptions/
 var options = grid.getDisplayOptions();
 </pre>
 
+#### See Also
+> [setDisplayOptions](/api/GridBase/setDisplayOptions)

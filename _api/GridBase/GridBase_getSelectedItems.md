@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getSelectedItems/
+tags:
+  - select
+  - itemIndex
 ---
 
 
@@ -29,7 +32,9 @@ permalink: /api/GridBase/getSelectedItems/
 #### Example
 
 <pre class="prettyprint">
-        var sel = grid.getSelectedItems();
+        var sel = gridView.getSelectedItems();
         window.console && console.log("SelectedItems: ", JSON.stringify(sel));
 </pre>
 
+#### See Also
+> [getSelectedRows](/api/GridBase/getSelectedRows)

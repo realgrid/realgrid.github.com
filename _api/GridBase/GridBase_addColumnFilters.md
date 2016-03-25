@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/addColumnFilters/
+tags:
+  - filter
 ---
 
 
@@ -38,10 +40,10 @@ permalink: /api/GridBase/addColumnFilters/
           {name:"filter1",criteria:"value='data1'",active:false},
           {name:"filter2",criteria:"value='data2'",active:true}
         ];
-    aColumn = grdMain.columnByField("content");
-    grdMain.addColumnFilters(aColumn, filters);
+    aColumn = gridView.columnByField("content");
+    gridView.addColumnFilters(aColumn, filters);
     ....
-    grdMain.addColumnFilters("content", {
+    gridView.addColumnFilters("content", {
         name: "filter1",
         criteria: "value='data1'",
         active: false

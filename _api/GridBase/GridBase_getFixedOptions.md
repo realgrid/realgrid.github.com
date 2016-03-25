@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getFixedOptions/
+tags:
+  - fixed
+  - options
 ---
 
 
@@ -28,7 +31,11 @@ permalink: /api/GridBase/getFixedOptions/
 #### Example
 
 <pre class="prettyprint">
-var options = grid.getFixedOptions();
+var options = gridView.getFixedOptions();
+if (options) {
+	alert(JSON.stringify(options));
+}
 </pre>
 
-
+#### See Also
+> [setFixedOptions](/api/GridBase/setFixedOptions)

@@ -5,12 +5,16 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/collapseModel/
+tags:
+  - model
+  - collapseModel
+  - parentModel
 ---
 
 
 #### Description
 
-> 지정한 그룹아이템 모델을 축소한다. recursive를 true로 하면 그룹에 포함된 자손그룹들도 축소된다.   
+> rowGrouping 상태일때 지정한 그룹아이템 모델을 축소한다. recursive를 true로 하면 그룹에 포함된 자손그룹들도 축소된다.
 
 #### Syntax
 
@@ -34,7 +38,12 @@ permalink: /api/GridBase/collapseModel/
 #### Example
 
 <pre class="prettyprint">
-    var aModel = grdMain.getModel(0); 
-    grdMain.collapseModel(aModel, true);
+    var aModel = gridView.getModel(0); 
+    if (aModel.type === "group") {
+    	gridView.collapseModel(aModel, true); 
+    }
+    else {
+    	gridView.collapseModel(gridView.getParentModel(aModel), true);
+    }
 </pre>
 

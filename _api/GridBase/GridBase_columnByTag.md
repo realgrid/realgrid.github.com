@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/columnByTag/
+tags:
+  - column
+  - getColumn
 ---
 
 
@@ -33,7 +36,17 @@ permalink: /api/GridBase/columnByTag/
 #### Example
 
 <pre class="prettyprint">
+gridVeiw.setColumns([
+	{ fieldName:"fldName", name:"colName", tag:"column1"},
+	....
+]);
+
 var tag= "column1";
-var columns = grid.columnByTag(tag);
+var columns = gridVeiw.columnByTag(tag);
+if (column) {
+    alert(JSON.stringify(column));
+} else {
+    alert("Column is not exists: " + colName);
+}
 </pre>
 

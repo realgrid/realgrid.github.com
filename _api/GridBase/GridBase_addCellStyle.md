@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/addCellStyle/
+tags:
+  - cellStyle
+  - setCellStyles
 ---
 
 
@@ -39,10 +42,13 @@ permalink: /api/GridBase/addCellStyle/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.addCellStyle("style01", {
+    gridView.addCellStyle("style01", {
         "background": "#4400ff00",
         "fontSize": 14,
         "paddingTop": 5
     });
+
+    ....
+    gridView.setCellStyles([dataRows], [fieldNames], "styleId");
 </pre>
 

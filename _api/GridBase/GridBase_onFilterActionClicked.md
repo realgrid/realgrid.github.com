@@ -5,12 +5,18 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onFilterActionClicked/
+tags:
+  - filter
+  - userFilter
+  - 사용자필터
+  - filterAction
 ---
 
 
 #### Description
 
 > 사용자가 임의의 동작을 할 수 있게 추가한 filter action을 클릭했을때 발생한다.   
+> Column에 설정된 필터가 filter action하나 만 있는 경우 필터아이콘을 클릭했을때 발생한다.
 
 #### Syntax
 
@@ -47,9 +53,13 @@ permalink: /api/GridBase/onFilterActionClicked/
 #### Example
 
 <pre class="prettyprint">
-grdMain.onFilterActionClicked = function (grid, column, action, x, y) {
+gridView.onFilterActionClicked = function (grid, column, action, x, y) {
   var offset = $("#realgrid").offset();
   x += offset.left;
   y += offset.top;
   window.open("http://demo.realgrid.com", "_blank", "top=" + y + ", left=" + x + ", width=500, height=400");
 };</pre>
+
+#### See Also
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+> [Filter Action 응용 자동 필터 구현](/tutorial/b1-4/)

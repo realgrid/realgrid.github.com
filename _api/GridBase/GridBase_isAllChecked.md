@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/isAllChecked/
+tags:
+  - check
+  - allCheck
 ---
 
 
@@ -32,3 +35,6 @@ permalink: /api/GridBase/isAllChecked/
         alert("체크 표시 상태");
     }
 </pre>
+
+#### See Also
+> [getCheckedItems](/api/GridView/getCheckedItems), [getCheckedRows](/api/GridView/getCheckedRows)

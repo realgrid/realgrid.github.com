@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getEditingItem/
+tags:
+  - edit
+  - 편집중인
 ---
 
 
@@ -28,7 +31,10 @@ permalink: /api/GridBase/getEditingItem/
 #### Example
 
 <pre class="prettyprint">
-    var edtItem = grdMain.getEditingItem();
-    console.log("DataRow ==> ",edtItem.dataRow, "  ItemIndex ==> ",edtItem.itemIndex);
-    console.log(edtItem.values);
+    var editItem = gridView.getEditingItem();
+    if (editItem) {
+        console.log("DataRow ==> ",editItem.dataRow, "  ItemIndex ==> ",editItem.itemIndex);
+        console.log(editItem.values);
+        /* values의 경우 현재 편집중인 row의 값들을 Object형태로 가져온다. 편집중인 셀의 값은 가져올수 없다. */
+    }
 </pre>

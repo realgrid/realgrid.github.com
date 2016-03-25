@@ -5,6 +5,13 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onLinkableCellClicked/
+tags:
+  - linkCell
+  - renderer
+  - link
+  - linkClick
+  - event
+  - 링크
 ---
 
 
@@ -37,9 +44,11 @@ permalink: /api/GridBase/onLinkableCellClicked/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.onLinkableCellClicked = function (grid, index, url) {
+    gridView.onLinkableCellClicked = function (grid, index, url) {
         console.log("onLinkableCellClicked: " + JSON.stringify(index) + " => " + url);  
         window.open(url, '_newtab');
     };
 </pre>
 
+#### See Also
+> [LinkCellRenderer](/api/types/LinkCellRenderer/), [LinkCellRendere Demo](http://demo.realgrid.com/Demo/LinkCellRenderer)

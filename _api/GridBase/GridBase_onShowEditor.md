@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onShowEditor/
+tags:
+  - editor
+  - event
 ---
 
 
@@ -36,7 +39,7 @@ permalink: /api/GridBase/onShowEditor/
 #### Example
 
 <pre class="prettyprint">
-	grdMain.onShowEditor = function (id, index) { 
+	gridView.onShowEditor = function (id, index) { 
     	console.log("onShowEditor:" + index.itemIndex + "," + index.column);  
 
     	if (index.column == "OrderID") then
@@ -47,3 +50,5 @@ permalink: /api/GridBase/onShowEditor/
     }
 </pre>
 
+#### See Also
+> [onHideEditor](/api/GridBase/onHideEditor)

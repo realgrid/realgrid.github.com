@@ -5,12 +5,15 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getVersion/
+tags:
+  - version
 ---
 
 
 #### Description
 
-> RealGrid+ WEB의 버전을 가져온다.
+> RealGrid+ WEB의 버전을 가져온다.  
+> RealGridJS의 경우 RealGridJS.getVersion()을 이용한다.
 
 #### Syntax
 
@@ -28,5 +31,8 @@ permalink: /api/GridBase/getVersion/
 #### Example
 
 <pre class="prettyprint">
-    alert(grdMain.getVersion());
+  /* RealGrid+ Web 버전 */
+    alert(gridView.getVersion());
+  /* RealGridJS 버전 */
+    alert(RealGridJS.getVersion());
 </pre>

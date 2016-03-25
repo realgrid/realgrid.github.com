@@ -5,12 +5,15 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/isLocalExporting/
+tags:
+  - export
+  - excel
 ---
 
 
 #### Description
 
-> 엑셀저장이 진행중인지 확인한다.
+> 엑셀저장이 진행중인지 확인한다. RealGrid+ Web에서만 사용가능하다.
 
 #### Syntax
 

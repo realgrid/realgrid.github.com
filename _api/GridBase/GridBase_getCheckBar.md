@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getCheckBar/
+tags:
+  - check
 ---
 
 
@@ -28,8 +30,8 @@ permalink: /api/GridBase/getCheckBar/
 #### Example
 
 <pre class="prettyprint">
-    var checkbar = grid.getCheckBar();
+    var checkbar = gridView.getCheckBar();
     checkbar.width = 30;
-    grid.setCheckBar(checkBar);
+    gridView.setCheckBar(checkBar);
 </pre>
 

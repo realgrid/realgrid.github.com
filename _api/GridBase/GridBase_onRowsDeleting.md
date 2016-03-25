@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onRowsDeleting/
+tags:
+  - deleting
+  - rowDelete
+  - 삭제
 ---
 
 
@@ -34,12 +38,12 @@ permalink: /api/GridBase/onRowsDeleting/
 #### Example
 
 <pre class="prettyprint">
-    grid.onRowsDeleting = function (grid, rows) {
+    gridView.onRowsDeleting = function (grid, rows) {
         var msg = null;
         $(rows).each(function (idx, v) {
-            console.log(grid.getRowData(v));
-            if (grid.getRowData(v)) {
-                if (grid.getRowData(v).CustomerID === "HANAR") {
+            console.log(grid.getValues(v));
+            if (grid.getValues(v)) {
+                if (grid.getValues(v).CustomerID === "HANAR") {
                     msg = 'Can not delete this row.";
                 };
             };
@@ -48,3 +52,6 @@ permalink: /api/GridBase/onRowsDeleting/
     };
 </pre>
 
+#### See Also
+> [Deleting Demo](http://demo.realgrid.com/Demo/Deleting)
+> [getValues](/api/GridBase/getValues)

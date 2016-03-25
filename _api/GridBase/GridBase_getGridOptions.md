@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getGridOptions/
+tags:
+  - gridOptions
 ---
 
 
@@ -28,10 +30,13 @@ permalink: /api/GridBase/getGridOptions/
 #### Example
 
 <pre class="prettyprint">
-var options = grid.getGridOptions();
-alert(JSON.stringify(options));
+var options = gridView.getGridOptions();
+if (options) {
+    alert(JSON.stringify(options));
+}
 </pre>
 
-
+#### See Also
+> [setGridOptions](/api/GridBase/setGridOptions)
 
 

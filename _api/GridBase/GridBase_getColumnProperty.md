@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getColumnProperty/
+tags:
+  - property
+  - columnProperty
 ---
 
 
@@ -34,7 +37,10 @@ permalink: /api/GridBase/getColumnProperty/
 #### Example
 
 <pre class="prettyprint">
-    aHeader = grdMain.getColumnProperty("column","header");
+    aHeader = gridView.getColumnProperty("column","header");
     aHeader.text = "new Text";
-    grdMain.setColumnProperty("column","header",aHeader);
+    gridView.setColumnProperty("column","header",aHeader);
 </pre>
+
+#### See Also
+> [setColumnProperty](/api/GridBase/setColumnProperty)

@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onItemsChecked/
+tags:
+  - check
+  - 체크
+  - checkBar
+  - checkItem
 ---
 
 
@@ -37,8 +42,10 @@ permalink: /api/GridBase/onItemsChecked/
 #### Example
 
 <pre class="prettyprint">
-    grid.onItemsChecked =  (grid, items, checked) {
-        console.log("onItemsChecked", items);
+    gridView.onItemsChecked =  (grid, items, checked) {
+        console.log("onItemsChecked", items, checked);
     };
 </pre>
 
+#### See Also
+> [checkItems](/api/GridBase/checkItems)

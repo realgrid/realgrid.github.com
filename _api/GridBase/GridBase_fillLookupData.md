@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/fillLookupData/
+tags:
+  - lookup
+  - lookupData
 ---
 
 
@@ -35,10 +38,12 @@ permalink: /api/GridBase/fillLookupData/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.fillLookupData("empLookup", {
+    gridView.fillLookupData("empLookup", {
         rows: [
             ["TOMSP", 5, "TOMSP_5X"], 
             ["TOMSP", 6, "TOMSP_6X"]
     ]});
 </pre>
 
+#### See Also
+[addLookupSource](/api/GridBase/addLookupSource/), [clearLookupData](/api/GridBase/clearLookupData/), [existsLookupData](/api/GridBase/existsLookupData/), [removeLookupSource](/api/GridBase/removeLookupSource/), [setLookups](/api/GridBase/setLookups/)

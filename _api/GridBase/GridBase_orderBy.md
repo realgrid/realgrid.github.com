@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/orderBy/
+tags:
+  - 정렬
+  - sort
 ---
 
 
@@ -36,11 +39,11 @@ permalink: /api/GridBase/orderBy/
 <pre class="prettyprint">
     var fields = ["field1", "field2"];
     var dirs = [RealGrids.SortDirection.ASCENDING, RealGrids.SortDirection.DESCENDING];
-    grid.orderBy(fields, dirs);
+    gridView.orderBy(fields, dirs);
 
     // 정렬을 해제하는 경우
-    grid.orderBy([],[]);
+    gridView.orderBy([],[]);
 </pre>
 
-
-
+#### See Also
+> [SortingOptions](/api/types/SortingOptions)

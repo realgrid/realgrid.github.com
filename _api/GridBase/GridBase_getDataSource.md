@@ -6,6 +6,9 @@ objectname: GridBase
 directiontype: Function
 jsonly: true
 permalink: /api/GridBase/getDataSource/
+tags:
+  - dataSource
+  - dataProvider
 ---
 
 

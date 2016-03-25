@@ -5,13 +5,16 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onEditRowPasted/
+tags:
+  - clipboard
+  - paste
 ---
 
 
 #### Description
 
 > 그리드 셀에 붙여넣기 할때 발생한다.  
-> 여러 행을 붙여넣기 할때는 발생하지 않는다.  
+> 여러 행을 붙여넣기 할때는 [onRowsPasted](/api/GridBase/onRowsPasted)참조
 
 #### Syntax
 
@@ -50,10 +53,11 @@ permalink: /api/GridBase/onEditRowPasted/
 #### Example
 
 <pre class="prettyprint">
-    grid.onEditRowPasted = function(grid, itemIndex, dataRow, fields, oldValues, newValues){
-        $("#eventMsg").show();
-        var text = "onEditRowPasted : itemIndex = "+itemIndex+", oldValues = "+ oldValues.toString() +", newValues = "+newValues.toString()+"<br/>";
-        $("#eventMsg").append(text);
+    gridView.onEditRowPasted = function(grid, itemIndex, dataRow, fields, oldValues, newValues){
+        var text = "onEditRowPasted : itemIndex = "+itemIndex+", oldValues = "+ oldValues.toString() +", newValues = "+newValues.toString();
+        console.log(text);
     };
 </pre>
 
+#### See Also
+> [onRowsPasted](/api/GridBase/onRowsPasted)

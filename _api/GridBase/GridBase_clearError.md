@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/clearError/
+tags:
+  - error
 ---
 
 
@@ -27,6 +29,6 @@ permalink: /api/GridBase/clearError/
 #### Example
 
 <pre class="prettyprint">
-    gridMain.clearError();    
+    gridView.clearError();    
 </pre>
 

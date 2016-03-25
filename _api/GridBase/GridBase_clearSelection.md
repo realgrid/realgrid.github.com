@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/clearSelection/
+tags:
+  - selection
+  - clearSelection
 ---
 
 
@@ -27,6 +30,6 @@ permalink: /api/GridBase/clearSelection/
 #### Example
 
 <pre class="prettyprint">
-    grid.clearSelection();
+    gridView.clearSelection();
 </pre>
 

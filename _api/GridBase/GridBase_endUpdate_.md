@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/endUpdate/
+tags:
+  - update
+  - lock
 ---
 
 
@@ -21,7 +24,7 @@ permalink: /api/GridBase/endUpdate/
 > **force**  
 >   Type: Boolean  
 >   Default: true  
->   이 전에 [beginUpdate](/api/GridBase/)가 호출되었는 지와 상관 없이 그리드를 다시 그리게 한다.  
+>   이 전에 [beginUpdate](/api/GridBase/beginUpdate)가 호출되었는 지와 상관 없이 그리드를 다시 그리게 한다.  
 
 #### Return value
 
@@ -30,13 +33,13 @@ permalink: /api/GridBase/endUpdate/
 #### Example
 
 <pre class="prettyprint">
-grid.beginUpdate();
+gridView.beginUpdate();
 
-grid.displayOptions( { ... });
-grid.selectOptions( { ... });
+gridView.displayOptions( { ... });
+gridView.selectOptions( { ... });
 ...
 
-grid.endUpdate();
+gridView.endUpdate();
 
 </pre>
 

@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/fitColumnWidth/
+tags:
+  - columnWidth
+  - width
 ---
 
 
@@ -46,6 +49,6 @@ permalink: /api/GridBase/fitColumnWidth/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.fitColumnWidth('CustomerID', 200, 10, true);
+    gridView.fitColumnWidth('CustomerID', 200, 10, true);
 </pre>
 

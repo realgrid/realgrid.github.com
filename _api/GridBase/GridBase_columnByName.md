@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/columnByName/
+tags:
+  - column
+  - getColumn
 ---
 
 
@@ -26,13 +29,13 @@ permalink: /api/GridBase/columnByName/
 #### Return value
 
 > Type: Object  
-> [DataColumn](/api/types/DataColumn/)나 컬럼이 존재하지 않는 경우 null.  
+> [DataColumn](/api/types/DataColumn/)또는 [ColumnGroup](/api/types/ColumnGroup/) 컬럼이 존재하지 않는 경우 null.  
 
 #### Example
 
 <pre class="prettyprint">
 var colName = "column1";
-var column = grid.columnByName(colName);
+var column = gridView.columnByName(colName);
 if (column) {
     alert(JSON.stringify(column));
 } else {

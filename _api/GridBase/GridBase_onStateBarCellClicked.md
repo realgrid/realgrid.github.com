@@ -6,6 +6,10 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onStateBarCellClicked/
 jsonly: true
+tags:
+  - event
+  - click
+  - stateBar
 ---
 
 
@@ -34,8 +38,10 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onStateBarCellClicked =  function (grid, index) {
+    gridView.onStateBarCellClicked =  function (grid, index) {
         console.log("onStateBarCellClicked : " + "(" + index + ")")
     };
 </pre>
 
+#### See Also
+> [Region Events](http://demo.realgrid.com/Demo/RegionEvents)

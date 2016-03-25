@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getSelection/
+tags:
+  - select
+  - 선택
 ---
 
 
@@ -29,7 +32,9 @@ permalink: /api/GridBase/getSelection/
 #### Example
 
 <pre class="prettyprint">
-        var sel = grid.getSelection();
+        var sel = gridView.getSelection();
         window.console && console.log("Selection: ", JSON.stringify(sel));
 </pre>
 
+#See Also
+[getSelectionData](/api/GridBase/getSelectionData)

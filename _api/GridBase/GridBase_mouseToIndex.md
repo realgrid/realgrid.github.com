@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/mouseToIndex/
+tags:
+  - mouse
+  - position
 ---
 
 
@@ -34,7 +37,27 @@ permalink: /api/GridBase/mouseToIndex/
 #### Example
 
 <pre class="prettyprint">
-    var index = grid.mouseToIndex(100, 100);
-    var data = grid.getValue(index.itemIndex, index,fieldName);
+var gridLoaded = false;
+
+function gridSetup() {
+	.....
+	gridLoaded = true;
+}
+....
+
+$(document).mousemove(function (ev) {
+    if (gridLoaded) {
+        var offset = $("#gridView").offset();
+        if (ev.pageX >= offset.left && ev.pageX < offset.left + $("#gridView").width() &&
+            ev.pageY >= offset.top && ev.pageY < offset.top + $("#gridView").height()) {
+            var x = ev.pageX - offset.left;
+            var y = ev.pageY - offset.top;
+            var idx = gridView.mouseToIndex(x, y);
+            console.log("mouseToIndex(" + x + "," + y + ")=" + JSON.stringify(idx));
+        } else {
+           //
+        }
+    }
+});
 </pre>
 

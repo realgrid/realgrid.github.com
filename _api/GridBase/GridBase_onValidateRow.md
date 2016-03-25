@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onValidateRow/
+tags:
+  - event
+  - validate
+  - 검증
+  - 검사
 ---
 
 
@@ -46,7 +51,7 @@ permalink: /api/GridBase/onValidateRow/
 #### Example
 
 <pre class="prettyprint">
-    grid.onValidateRow = function (grid, itemIndex, dataRow, inserting, values) {
+    gridView.onValidateRow = function (grid, itemIndex, dataRow, inserting, values) {
         console.log("onValidateRow:" + itemIndex + "," + dataRow + "," + inserting + "," + values.Quantity + "," + values.UnitPrice);
 
         var error = {};
@@ -59,3 +64,5 @@ permalink: /api/GridBase/onValidateRow/
     }
 </pre>
 
+#### See Also
+> [onValidateColumn](/api/GridBase/onValidateColumn), [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation)

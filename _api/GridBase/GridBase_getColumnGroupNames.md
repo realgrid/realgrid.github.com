@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getColumnGroupNames/
+tags:
+  - columnGroup
+  - groupColumn
 ---
 
 
@@ -28,9 +31,24 @@ permalink: /api/GridBase/getColumnGroupNames/
 #### Example
 
 <pre class="prettyprint">
-var groups = grid.getColumnGroupNames();
+    gridView.setColumns([
+    	{ type:"group",
+    	  name:"groupColumn1",
+    	  columns:[
+    	      {fieldName:"fldName1", name:"column11"},
+    	      {fieldName:"fldName2", name:"column12"}
+    	  ]
+    	},
+    	{ type:"group",
+    	  name:"groupColumn2",
+    	  columns:[
+    	      {fieldName:"fldName3", name:"column21"},
+    	      {fieldNaem:"fldName4", name:"column22"}
+    	  ]
+    	}
+        ....
+    ]);
+
+    var groups = grid.getColumnGroupNames();
 </pre>
-
-
-
 

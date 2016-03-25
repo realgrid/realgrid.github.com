@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getIndicator/
+tags:
+  - options
+  - indicator
 ---
 
 
@@ -28,6 +31,11 @@ permalink: /api/GridBase/getIndicator/
 #### Example
 
 <pre class="prettyprint">
-var options = grid.getIndicator();
+var options = gridView.getIndicator();
+if (options) {
+	JSON.stringify(options);
+}
 </pre>
 
+#### See Also
+> [setIndicator](/api/GridBase/setIndicator)

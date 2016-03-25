@@ -32,10 +32,26 @@ permalink: /api/GridBase/getColumnFilters/
 #### Example
 
 <pre class="prettyprint">
-	var fieldName = grdMain.getCurrent().fieldName;
-	var column = grdMain.columnByField(fieldName);
-	var filters = grdMain.getColumnFilters(column);
+    gridView.setColumns([
+    	{fieldName:"fldName1", 
+    	 name:"colName1",
+    	 filters:[
+    	 	{name:"Male",
+    	 	 criteria:"value ='male'"
+    	 	},
+    	 	{name:"Female",
+    	 	 criteria:"value = 'female'"
+    	 	}
+    	 ]},
+    	....
+    ]);
+    ....
+    var fieldName = gridView.getCurrent().fieldName;
+    var column = gridView.columnByField(fieldName);
+    var filters = gridView.getColumnFilters(column);
 	
-	alert(JSON.stringify(filters));				
+    alert(JSON.stringify(filters));				
 </pre>
 
+#### See Also
+> [Column Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering) 참조

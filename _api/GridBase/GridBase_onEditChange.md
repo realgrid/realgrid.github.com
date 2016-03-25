@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onEditChange/
+tags:
+  - event
+  - edit
+  - key
+  - 입력
 ---
 
 
@@ -37,9 +42,8 @@ None.
 #### Example
 
 <pre class="prettyprint">
-    grid.onEditChange =  function (grid, index, value) {
+    gridView.onEditChange =  function (grid, index, value) {
         console.log("grid ==>",grid.id," field ==>",index.fieldName," value==>",value);
-        }
     };
 </pre>
 

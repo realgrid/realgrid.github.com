@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getStateBar/
+tags:
+  - option
+  - stateBar
+  - 상태표시
 ---
 
 
@@ -28,6 +32,11 @@ permalink: /api/GridBase/getStateBar/
 #### Example
 
 <pre class="prettyprint">
-var bar = grid.getStateBar();
+var options = gridView.getStateBar();
+if (options) {
+	alert(JSON.stringify(options));
+}
 </pre>
 
+#### See Also
+> [setStateBar](/api/GridBase/setStateBar)

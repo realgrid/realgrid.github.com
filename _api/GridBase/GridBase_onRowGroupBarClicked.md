@@ -6,6 +6,10 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onRowGroupBarClicked/
 jsonly: true
+tags:
+  - event
+  - click
+  - rowGroupBar
 ---
 
 
@@ -25,7 +29,7 @@ jsonly: true
 
 > **index**  
 > Type: number  
-> 클릭된 영역의 인덱스 값, RowGroup의 Level 값이다.
+> RowGroup의 Level 값, expander를 클릭하는 경우 -1
 
 #### Return
 

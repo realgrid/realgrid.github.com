@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getDataRow/
+tags:
+  - itemIndex
+  - dataRow
+  - rowId
 ---
 
 
@@ -30,11 +34,8 @@ permalink: /api/GridBase/getDataRow/
 #### Example
 
 <pre class="prettyprint">
-    var itemIndex = grdMain.getCurrent().itemIndex;
+    var itemIndex = gridView.getCurrent().itemIndex;
 
-    var rowId = grdMain.getDataRow(itemIndex);
+    var rowId = gridView.getDataRow(itemIndex);
 </pre>
-
-
-
 

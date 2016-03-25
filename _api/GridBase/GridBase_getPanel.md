@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getPanel/
+tags:
+  - panel
+  - rowGroup
 ---
 
 
@@ -31,3 +34,5 @@ permalink: /api/GridBase/getPanel/
 var panelOptions = grid.getPanel();
 </pre>
 
+#### See Also
+> [setPanel](/api/GridBase/setPanel)

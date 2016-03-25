@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getCellStyle/
+tags:
+  - cellStyle
+  - dataCellStyle
 ---
 
 
@@ -34,15 +37,17 @@ permalink: /api/GridBase/getCellStyle/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.addCellStyle("style02", {
+    gridView.addCellStyle("style02", {
         "paddingLeft": 15,
         "background": "#000000",
         "foreground": "#ffffff"
     }, true);
-    grdMain.setCellStyle(4, 1, "style02");
-    grdMain.setCellStyle(4, 3, "style02");
-    grdMain.setCellStyle(3, 2, "style02");
+    gridView.setCellStyle(4, 1, "style02");
+    gridView.setCellStyle(4, 3, "style02");
+    gridView.setCellStyle(3, 2, "style02");
 
-    grdMain.getCellStyle(4, 1);
+    gridView.getCellStyle(4, 1);
 </pre>
 
+#### See Also
+[DataCellStyle Demo](http://demo.realgrid.com/Demo/DataCellStyleConcept)

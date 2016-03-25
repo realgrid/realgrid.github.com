@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/closeList/
+tags:
+  - dropDown
+  - closeList
+  - filter
 ---
 
 
@@ -27,6 +31,6 @@ permalink: /api/GridBase/closeList/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.closeList();
+    gridView.closeList();
 </pre>
 

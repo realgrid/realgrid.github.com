@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/checkItems/
+tags:
+  - check
+  - checkItems
 ---
 
 
@@ -35,6 +38,6 @@ permalink: /api/GridBase/checkItems/
 #### Example
 
 <pre class="prettyprint">
-    gridMain.checkItems([0,1,2,3],true);    
+    gridView.checkItems([0,1,2,3],true);    
 </pre>
 

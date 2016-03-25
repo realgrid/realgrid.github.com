@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onColumnHeaderClicked/
+tags:
+  - click
+  - event
+  - columnHeader
 ---
 
 
@@ -33,7 +37,7 @@ permalink: /api/GridBase/onColumnHeaderClicked/
 #### Example
 
 <pre class="prettyprint">
-    grid.onColumnHeaderClicked =  function (grid, column) {
+    gridView.onColumnHeaderClicked =  function (grid, column) {
         console.log(column);  
         if (column.type == "data") {
             alert("DataColumn클릭");

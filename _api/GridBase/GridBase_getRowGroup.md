@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getRowGroup/
+tags:
+  - option
+  - rowGroup
 ---
 
 
@@ -28,6 +31,11 @@ permalink: /api/GridBase/getRowGroup/
 #### Example
 
 <pre class="prettyprint">
-var options = grid.getRowGroup();
+var options = gridView.getRowGroup();
+if (options) {
+	alert(JSON.stringify(options));
+}
 </pre>
 
+#See Also
+> [setRowGroup](/api/GridBase/setRowGroup)

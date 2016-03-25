@@ -5,12 +5,17 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/expandModel/
+tags:
+  - model
+  - expand
+  - collapse
 ---
 
 
 #### Description
 
-> 지정한 그룹아이템 모델을 확장한다. recursive를 true로 하면 그룹에 포함된 자손그룹들도 확장된다. recursive와 force를 모두 true로 입력하면 이미 확장된 그룹아이템모델의 자손그룹을 확장한다.  
+> 지정한 그룹아이템 모델을 확장한다. recursive를 true로 하면 그룹에 포함된 자손그룹들도 확장된다.  
+> recursive와 force를 모두 true로 입력하면 이미 확장된 그룹아이템모델의 자손그룹을 확장한다.  
 
 #### Syntax
 
@@ -39,7 +44,7 @@ permalink: /api/GridBase/expandModel/
 #### Example
 
 <pre class="prettyprint">
-    var aModel = grdMain.getModel(0); 
-    grdMain.expandModel(aModel, true, true);
+    var aModel = gridView.getModel(0); 
+    gridView.expandModel(aModel, true, true);
 </pre>
 

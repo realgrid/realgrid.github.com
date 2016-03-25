@@ -5,12 +5,16 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getSummary/
+tags:
+  - summary
+  - footer
 ---
 
 
 #### Description
 
 > Field의 합계값을 가져온다. [summaryMode](/api/types/SummaryMode/)에 따라서 가져올수 있는 값이 다르다.  
+> dataType이 "number"인 field만 합계값을 가져올수 있다.
 
 #### Syntax
 

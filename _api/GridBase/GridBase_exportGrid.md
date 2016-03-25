@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/exportGrid/
+tags:
+  - excel
+  - export
 ---
 
 
@@ -29,7 +32,7 @@ permalink: /api/GridBase/exportGrid/
 #### Example
 
 <pre class="prettyprint">
-    grid.exportGrid({
+    gridView.exportGrid({
         type: "excel",
         target: "remote",
         url: "/demo/excelbin",

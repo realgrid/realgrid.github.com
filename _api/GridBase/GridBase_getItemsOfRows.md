@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getItemsOfRows/
+tags:
+  - itemIndex
+  - dataRow
+  - rowId
 ---
 
 
@@ -30,5 +34,8 @@ permalink: /api/GridBase/getItemsOfRows/
 #### Example
 
 <pre class="prettyprint">
-    var itemIndexs = grdMain.getItemsOfRows([1,2,3,4]);
+    var itemIndexs = gridView.getItemsOfRows([1,2,3,4]);
 </pre>
+
+#### See Also
+> [getRowsOfItems](/api/GridBase/getRowsOfItems)

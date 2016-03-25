@@ -8,6 +8,10 @@ permalink: /api/GridBase/onRowsPasted/
 jsonly: true
 versions:
   - JS 1.0.15+
+tags:
+  - clipboard
+  - paste
+  - 붙여넣기
 ---
 
 
@@ -36,8 +40,10 @@ versions:
 #### Example
 
 <pre class="prettyprint">
-    grid.onRowsPasted =  function (grid, items) {
+    gridView.onRowsPasted =  function (grid, items) {
         alert("붙여넣기된 행들 : " + items);
     };
 </pre>
 
+#### See Also
+> [PasteOPtions](/api/types/PasteOptions)

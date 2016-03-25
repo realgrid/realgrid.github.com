@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/fillEditSearchItems/
+tags:
+  - searchEditor
+  - onEditResult
+  - onEditSearch
 ---
 
 
@@ -43,13 +47,41 @@ permalink: /api/GridBase/fillEditSearchItems/
 
 <pre class="prettyprint">
     var CustomerNames = ["ALFKI", "ANATR", "ANTON", "AROUT", "BERGS", "BLAUS"];
-    grdMain.onEditSearch = function (grid, index, text) {
+
+    dataProvider.setFields([
+    	{fieldName:"code"},
+    	{fieldName:"codeName"} /* 코드명을 가지고 있는 field */
+    ]);
+
+    gridView.setColumns([
+    	{fieldName:"code", 
+    	 name:"code", 
+    	 editor:{type:"search",searchLength:1, searchDelay:500, useCtrlEnterKey:true, useEnterKey:true },
+    	 lookupDisplay:true,
+    	 labelField:"codeName"  
+    	}
+    ]);
+
+    /* 마지막 키가 입력되고 searchDelay가 지나면 발생되는 이벤트 */
+    gridView.onEditSearch = function (grid, index, text) {
         console.log("onEditSearch:" + index.itemIndex + "," + index.column + ", " + text);
-        var items = CustomerNames.filter(function (str) {
+        var values = CustomerNames.filter(function (str) {
             return str.indexOf(text) == 0;
         });
-        console.log(items);
-        grdMain.fillEditSearchItems(index.column, text, items);
+        var labels = CustomerNames.filter(function (str) {
+        	return str.indexOf(text) == 0;
+        })
+        console.log(values);
+        gridView.fillEditSearchItems(index.column, text, values, labels);
+    };
+
+    /* searchEditor에서 선택이 되며 발생되는 이벤트 */
+    gridView.onGetEditValue = function (grid, index, editResult) {
+        if (index.column === "code") {
+            grid.setValue(index.itemIndex, "codeName",editResult.text);
+        };
     };
 </pre>
 
+#### See Also
+> [SearchCellEditor](/api/types/SearchCellEditor/) 참조

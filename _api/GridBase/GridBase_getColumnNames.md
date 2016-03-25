@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getColumnNames/
+tags:
+  - column
+  - columnInfo
 ---
 
 
@@ -31,7 +34,7 @@ permalink: /api/GridBase/getColumnNames/
 #### Example
 
 <pre class="prettyprint">
-var columnNames = grid.getColumnNames(false);
+var columnNames = gridView.getColumnNames(false);
 </pre>
 
 

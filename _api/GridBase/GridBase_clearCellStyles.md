@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/clearCellStyles/
+tags:
+  - style
+  - clearStyle
 ---
 
 
@@ -27,6 +30,6 @@ permalink: /api/GridBase/clearCellStyles/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.clearCellStyles();
+    gridView.clearCellStyles();
 </pre>
 

@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onDataCellDblClicked/
+tags:
+  - event
+  - doubleClick
 ---
 
 
@@ -33,8 +36,10 @@ permalink: /api/GridBase/onDataCellDblClicked/
 #### Example
 
 <pre class="prettyprint">
-    grid.onDataCellDblClicked =  function (grid, index) {
+    gridView.onDataCellDblClicked =  function (grid, index) {
       console.log(index);
     };
 </pre>
 
+#### See Also
+> [onDataCellClicked](/api/GridBase/onDataCellClicked)

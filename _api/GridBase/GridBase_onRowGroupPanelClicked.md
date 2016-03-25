@@ -6,6 +6,11 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onRowGroupPanelClicked/
 jsonly: true
+tags:
+  - rowGroup
+  - event
+  - click
+  - rowGroupPanel
 ---
 
 
@@ -34,8 +39,10 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onRowGroupPanelClicked =  function (grid, column) {
+    gridView.onRowGroupPanelClicked =  function (grid, column) {
         console.log("onRowGroupPanelClicked : " + "(" + column.name + ")")
     };
 </pre>
 
+#### See Also
+>  [Region Events](http://demo.realgrid.com/Demo/RegionEvents)

@@ -5,12 +5,17 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onCurrentChanged/
+tags:
+  - focus
+  - change
+  - event
 ---
 
 
 #### Description
 
-> 그리드의 포커스 셀의 위치가 변경된 후 호출되는 callback 이다. 변경되기 직전에는 [onCurrentChanging](/api/GridBase/onCurrentChanging/) 이 호출된다.  
+> 그리드의 포커스 셀의 위치가 변경된 후 호출되는 callback 이다.  
+> 변경되기 직전에는 [onCurrentChanging](/api/GridBase/onCurrentChanging/) 이 호출된다.  
 
 #### Syntax
 
@@ -33,7 +38,7 @@ permalink: /api/GridBase/onCurrentChanged/
 #### Example
 
 <pre class="prettyprint">
-    grid.onCurrentChanged =  function (grid, newIndex) {
+    gridView.onCurrentChanged =  function (grid, newIndex) {
       console.log(newIndex);
     };
 </pre>

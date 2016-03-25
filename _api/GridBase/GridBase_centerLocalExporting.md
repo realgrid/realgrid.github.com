@@ -5,12 +5,15 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/centerLocalExporting/
+tags:
+  - excelExport
 ---
 
 
 #### Description
 
 > 엑셀저장 다이알로그창을 화면의 가운데로 위치시킨다.
+> RealGrid+에서만 작동한다.
 
 #### Syntax
 
@@ -27,12 +30,12 @@ permalink: /api/GridBase/centerLocalExporting/
 #### Example
 
 <pre class="prettyprint">
-	if (grdMain.isLocalExporting()) {
-		grdMain.centerLocalExporting();
+	if (gridView.isLocalExporting()) {
+		gridView.centerLocalExporting();
 	}
 	else
 	{
-		grdMain.exportGrid({
+		gridView.exportGrid({
 			type: "excel",
 			target: "local",
 			url: (realgridType == "js") ? "gridExportSample.xlsx" : "gridExportSample.xls",

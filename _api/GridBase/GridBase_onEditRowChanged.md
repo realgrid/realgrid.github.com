@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onEditRowChanged/
+tags:
+  - event
+  - edit
+  - 편집
 ---
 
 
@@ -46,7 +50,7 @@ permalink: /api/GridBase/onEditRowChanged/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.onEditRowChanged = function (grid, itemIndex, dataRow, field, oldValue, newValue) {
+    gridView.onEditRowChanged = function (grid, itemIndex, dataRow, field, oldValue, newValue) {
         var v = grid.getValue(itemIndex, field);
         console.log("onEditRowChanged, " + field + ": " + oldValue + " => " + newValue);  
     };

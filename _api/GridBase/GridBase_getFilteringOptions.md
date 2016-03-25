@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getFilteringOptions/
+tags:
+  - filterOption
+  - filter
 ---
 
 
@@ -28,6 +31,11 @@ permalink: /api/GridBase/getFilteringOptions/
 #### Example
 
 <pre class="prettyprint">
-var options = grid.getFilteringOptions();
+var options = gridView.getFilteringOptions();
+if (options) {
+	alert(JSON.stringify(options));
+}
 </pre>
 
+#### See Also
+> [setFilteringOptions](/api/GridBase/setFilteringOptions)

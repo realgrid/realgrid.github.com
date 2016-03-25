@@ -6,6 +6,9 @@ objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getColumnHeaderOptions/
 jsonly: true
+tags: 
+  - columnHeader
+  - option
 ---
 
 
@@ -19,7 +22,7 @@ jsonly: true
 
 #### Parameters
 
-> none
+> none 
 
 #### Return value
 
@@ -29,5 +32,8 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    colOpt = grdMain.getColumnHeaderOptions();
+    var options = gridView.getColumnHeaderOptions();
+    if (options) {
+    	alert(JSON.stringify(options));
+    }
 </pre>

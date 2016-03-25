@@ -6,6 +6,10 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onIndicatorCellClicked/
 jsonly: true
+tags:
+  - event
+  - click
+  - indicator
 ---
 
 
@@ -25,7 +29,7 @@ jsonly: true
 
 > **index**  
 > Type: number  
-> 클릭된 영역의 인덱스 값, head = -1, foot = -2
+> 클릭된 영역의 인덱스 값, head = -1, foot = -2  
 
 #### Return
 

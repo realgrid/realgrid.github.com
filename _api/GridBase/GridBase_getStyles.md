@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getStyles/
+tags:
+  - style
 ---
 
 
@@ -34,6 +36,11 @@ permalink: /api/GridBase/getStyles/
 #### Example
 
 <pre class="prettyprint">
-    var styles = grid.getStyles("header", true);
+var styles = grid.getStyles("header", true);
+if (styles) {
+    alert(JSON.stringify(styles));
+}
 </pre>
 
+#### See Also
+> [setStyles](/api/GridBase/setStyles), [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)

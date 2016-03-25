@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getSortingOptions/
+tags:
+  - sort
+  - option
 ---
 
 
@@ -28,6 +31,11 @@ permalink: /api/GridBase/getSortingOptions/
 #### Example
 
 <pre class="prettyprint">
-var options = grid.getSortingOptions();
+var options = gridView.getSortingOptions();
+if (options) {
+	alert(JSON.stringify(options))
+};
 </pre>
 
+#### See Also
+> [setSortingOptions](/api/GridBase/setSortingOptions)

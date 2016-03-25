@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/existsLookupData/
+tags:
+  - lookup
 ---
 
 
@@ -34,10 +36,10 @@ permalink: /api/GridBase/existsLookupData/
 #### Example
 
 <pre class="prettyprint">
-	var dataRow = grdMain.getCurrent().dataRow;
+	var dataRow = gridView.getCurrent().dataRow;
 	var comp = dataProvider.getValue(dataRow, "company");
 	
-	var isExist = grdMain.existsLookupData("compGender", comp);
+	var isExist = gridView.existsLookupData("compGender", comp);
 	
 	if (isExist) {
 		alert("있음");

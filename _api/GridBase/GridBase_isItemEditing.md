@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/isItemEditing/
+tags:
+  - editing
+  - cancel
+  - commit
 ---
 
 
@@ -32,3 +36,6 @@ permalink: /api/GridBase/isItemEditing/
         alert("편집중입니다");
     }
 </pre>
+
+#### See Also
+> [commit](/api/GridBase/commit), [cancel](/api/GridBase/cancel), [commitEditor](/api/GridBase/commitEditor), [cancelEditor](/api/GridBase/cancelEditor)

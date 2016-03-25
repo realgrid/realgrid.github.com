@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getChildModels/
+tags:
+  - model
+  - itemModel
 ---
 
 
@@ -32,9 +35,12 @@ permalink: /api/GridBase/getChildModels/
 #### Example
 
 <pre class="prettyprint">
-	var itemIndex = grdMain.getCurrent().itemIndex;
-	var model = grdMain.getModelAs(itemIndex, "group");
-	
-	var childModels = grdMain.getChildModels(model);
+	var itemIndex = gridView.getCurrent().itemIndex;
+	var model = gridView.getModel(itemIndex);
+	if (model && model.type==="group") {
+	    var childModels = gridView.getChildModels(model);
+	}
 </pre>
 
+#### See Also
+> [ItemModel Demo](http://demo.realgrid.com/Demo/ItemModelApi)

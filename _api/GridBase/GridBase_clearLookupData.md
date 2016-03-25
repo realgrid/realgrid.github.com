@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/clearLookupData/
+tags:
+  - lookup
 ---
 
 
@@ -29,6 +31,6 @@ permalink: /api/GridBase/clearLookupData/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.clearLookupData(sourceId)
+    gridView.clearLookupData(sourceId)
 </pre>
 

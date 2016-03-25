@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/closeProgress/
+tags:
+  - progress
 ---
 
 
@@ -27,7 +29,7 @@ permalink: /api/GridBase/closeProgress/
 #### Example
 
 <pre class="prettyprint">
-	grdMain.showProgress();
+	gridView.showProgress();
 
 	var startTime = new Date().getTime();
 	$.ajax({
@@ -38,21 +40,21 @@ permalink: /api/GridBase/closeProgress/
 	        var count = dataProvider.getRowCount();
 	        var ellapse = (new Date().getTime() - startTime) / 1000;
 	        $("#loadResult").css("color", "green").text(parseInt(count).toLocaleString() + " rows loaded. " + ellapse + " elapsed").show();
-	        grdMain.setFocus();
+	        gridView.setFocus();
 	    },
 	    error: function (xhr, status, error) {
 	        $("#loadResult").css("color", "red").text("Load failed: " + error).show();
 	        $("#btnLoad").removeAttr("disabled");
 	    },
 	    complete: function (data) {
-	        grdMain.closeProgress();
+	        gridView.closeProgress();
 	    },
 	    xhr: function () {
 	        var xhr = new window.XMLHttpRequest();
 	        //Download progress
 	        xhr.addEventListener("progress", function (evt) {
 	            if (evt.lengthComputable) {
-	                grdMain.setProgress(0, evt.total, evt.loaded);
+	                gridView.setProgress(0, evt.total, evt.loaded);
 	            }
 	        }, false);
 	        return xhr;

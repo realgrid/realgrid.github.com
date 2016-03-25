@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getModels/
+tags:
+  - model
+  - itemModel
 ---
 
 
@@ -34,12 +37,11 @@ permalink: /api/GridBase/getModels/
 #### Example
 
 <pre class="prettyprint">
-    var extended = $("#chkExtendedModel").is(":checked");
+    var extended = true;
     var itemIndices = [0, 1, 2, 3, 4] 
-    var items = grdMain.getModel(itemIndices, extended);
+    var items = gridView.getModels(itemIndices, extended);
     console.log(JSON.stringify(items));
 </pre>
 
-
-
-
+#### See Also
+> [Grid Item](/api/features/Grid%20Item/)

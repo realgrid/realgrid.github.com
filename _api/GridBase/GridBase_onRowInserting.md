@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onRowInserting/
+tags:
+  - editing
+  - rowInserting
+  - 편집
+  - 추가
 ---
 
 
@@ -24,7 +29,7 @@ permalink: /api/GridBase/onRowInserting/
 
 > **itemIndex**  
 > Type: number  
-> -1이면 마지막 행 다음에 추가하려는 것이고, 0 이상이면 행 삽입 위치다.  
+> 행 삽입 위치의 itemIndex이다. 
 
 #### Return
 
@@ -34,8 +39,10 @@ permalink: /api/GridBase/onRowInserting/
 #### Example
 
 <pre class="prettyprint">
-    grid.onRowInserting = function (grid, itemIndex) {
+    gridView.onRowInserting = function (grid, itemIndex) {
         return "행을 추가할 수 없습니다.";
     };
 </pre>
 
+#### See Also
+> [Inserting Demo](http://demo.realgrid.com/Demo/Inserting)

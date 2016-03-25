@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/hasCellStyle/
+tags:
+  - style
+  - cellStyle
 ---
 
 
@@ -30,6 +33,8 @@ permalink: /api/GridBase/hasCellStyle/
 #### Example
 
 <pre class="prettyprint">
-    var value = grdMain.hasCellStyle("style01");
+    var value = gridView.hasCellStyle("style01");
 </pre>
 
+#### See Also
+> [addCellStyle](/api/GridBase/addCellStyle), [getCellStyle](/api/GridBase/getCellStyle), [setCellStyle](/api/GridBase/setCellStyle)

@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getRootModel/
+tags:
+  - model
+  - itemModel
+  - rootModel
 ---
 
 
@@ -35,13 +39,15 @@ permalink: /api/GridBase/getRootModel/
 
 <pre class="prettyprint">
     var extended = $("#chkExtendedModel").is(":checked");
-    var idx = grdMain.getCurrent();
-    var item = grdMain.getModel(idx.itemIndex);
-    var root = grdMain.getRootModel(item, extended);
+    var idx = gridView.getCurrent();
+    var item = gridView.getModel(idx.itemIndex);
+    var root = gridView.getRootModel(item, extended);
     console.log(JSON.stringify(root));
-    if (root) {
+    if (root && root.itemIndex >= 0) {
         idx.itemIndex = root.itemIndex;
-        grdMain.setCurrent(idx);
+        gridView.setCurrent(idx);
     }
 </pre>
 
+#### See Also
+> [getParentModel](/api/GridBase/getParentModel)

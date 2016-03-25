@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/cancelEditor/
+tags:
+  - 편집취소
+  - cancel
 ---
 
 
@@ -27,6 +30,6 @@ permalink: /api/GridBase/cancelEditor/
 #### Example
 
 <pre class="prettyprint">
-    gridMain.cancelEditor();    
+    gridView.cancelEditor();    
 </pre>
 

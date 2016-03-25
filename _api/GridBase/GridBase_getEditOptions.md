@@ -5,12 +5,15 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getEditOptions/
+tags:
+  - editOptions
+  - edit
 ---
 
 
 #### Description
 
-> 그리드 편집 방식과 관련된 정보들을 가져온다. [EditOptions](/api/types/EditOptions/)이 설정 모델이다.
+> 그리드 편집 방식과 관련된 정보들을 가져온다. [EditOptions](/api/types/EditOptions/)가 설정 모델이다.
 
 #### Syntax
 
@@ -28,5 +31,8 @@ permalink: /api/GridBase/getEditOptions/
 #### Example
 
 <pre class="prettyprint">
-var options = grid.getEditOptions();
+var options = gridView.getEditOptions();
 </pre>
+
+#### See Also
+> [setEditOptions](/api/GridBase/setEditOptions)

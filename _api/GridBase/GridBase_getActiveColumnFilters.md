@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getActiveColumnFilters/
+tags:
+  - filter
+  - columnFilter
 ---
 
 
@@ -35,7 +38,7 @@ permalink: /api/GridBase/getActiveColumnFilters/
 #### Example
 
 <pre class="prettyprint">
-    var aColumn = grdMain.columnByField("customerId");
-    var arr = grdMain.getActiveColumnFilters(aColumn, true);
+    var aColumn = gridView.columnByField("customerId");
+    var arr = gridView.getActiveColumnFilters(aColumn, true);
 </pre>
 

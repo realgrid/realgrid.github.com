@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/columnByField/
+tags:
+  - column
+  - getColumn
 ---
 
 
@@ -31,7 +34,7 @@ permalink: /api/GridBase/columnByField/
 
 <pre class="prettyprint">
 var field = "fldName";
-var column = grid.columnByField(field );
+var column = gridView.columnByField(field );
 if (column) {
     alert(JSON.stringify(column));
 } else {

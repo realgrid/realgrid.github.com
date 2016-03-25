@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onColumnCheckedChanged/
+tags:
+  - check
+  - event
+  - columnCheck
 ---
 
 #### Description
@@ -37,12 +41,7 @@ permalink: /api/GridBase/onColumnCheckedChanged/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.onColumnCheckedChanged = function (grid, column, checked) {
-        console.log("onColumnCheckedChanged: " + "(" + column.name + ", " + checked + ")");
-    };
-    .
-    .
-    .
+
     var columns = [{
         "name": "OrderDate",
         "fieldName": "OrderDate",
@@ -55,6 +54,13 @@ permalink: /api/GridBase/onColumnCheckedChanged/
             "checked": true,
             "checkLocation": "left"
         }
-    }
+    }];
+
+    gridView.setColumns(columns);
+    ....
+
+    gridView.onColumnCheckedChanged = function (grid, column, checked) {
+        console.log("onColumnCheckedChanged: " + "(" + column.name + ", " + checked + ")");
+    };
 </pre>
 

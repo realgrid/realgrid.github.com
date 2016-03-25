@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/isCheckedRow/
+tags:
+  - checked
 ---
 
 
@@ -30,7 +32,10 @@ permalink: /api/GridBase/isCheckedRow/
 #### Example
 
 <pre class="prettyprint">
-    if (grdMain.isCheckedRow(0)) {
+    if (gridView.isCheckedRow(0)) {
         alert("체크");
     }
 </pre>
+
+#### See Also
+> [isCheckedItem](/api/GridBase/isCheckedItem)

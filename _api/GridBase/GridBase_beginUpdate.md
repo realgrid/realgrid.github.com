@@ -2,9 +2,11 @@
 layout: apipost
 title: beginUpdate
 part: Objects
-objectname: GridBase
+objectname: GridViewBase
 directiontype: Function
-permalink: /api/GridBase/beginUpdate/
+permalink: /api/GridViewBase/beginUpdate/
+tags:
+  - event
 ---
 
 
@@ -28,13 +30,13 @@ permalink: /api/GridBase/beginUpdate/
 #### Example
 
 <pre class="prettyprint">
-grid.beginUpdate();
+gridview.beginUpdate();
 try {
-    grid.displayOptions( { ... });
-    grid.selectOptions( { ... });
+    gridview.displayOptions( { ... });
+    gridview.selectOptions( { ... });
     ...
 } finally {
-    grid.endUpdate();
+    gridview.endUpdate();
 }
 
 </pre>

@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onScrollToBottom/
+tags:
+  - scroll
+  - 마지막행
+  - 스크롤링
+  - event
 ---
 
 
@@ -29,15 +34,19 @@ permalink: /api/GridBase/onScrollToBottom/
 #### Example
 
 <pre class="prettyprint">
-    grid.onScrollToBottom =  function (grid) {
-        dataProvider.loadData({
-            type: "json",
-            url: "http://" + location.host + "/DemoData/LargeDataSet.json?__time__=" + new Date().getTime(),
-            progress: true,
-            append: true,
-            count: 1000
-        }, function (provider) {
-        }, function (provider, message) {
+    gridView.onScrollToBottom =  function (grid) {
+        var data = {"SearchKey":"searchData"},
+        $.ajax({
+            url:"/loadData.do",
+            data:data,
+            type:"post",
+            async:false, /* 필요에 따라서 비동기 또는 동기 호출*/
+            success: function (data, textStatus) {
+                grid.fillJsonData(data.dataList, {fillMode:"append"});
+            }
+        })
     });
 </pre>
 
+#### See Also
+> [Lazy Load Demo](http://demo.realgrid.com/Demo/LazyLoadData), [DataFillOptions](/api/types/DataFillOptions/), [fillJsonData](/api/GridBase/fillJsonData)

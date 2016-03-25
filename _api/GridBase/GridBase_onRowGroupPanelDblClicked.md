@@ -6,6 +6,11 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onRowGroupPanelDblClicked/
 jsonly: true
+tags:
+  - event
+  - doubleClick
+  - rowGroupPanel
+  - 로우그룹
 ---
 
 
@@ -34,8 +39,10 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onRowGroupPanelDblClicked =  function (grid, column) {
+    gridView.onRowGroupPanelDblClicked =  function (grid, column) {
         console.log("onRowGroupPanelDblClicked : " + "(" + column.name + ")")
     };
 </pre>
 
+#### See Also
+>  [Region Events](http://demo.realgrid.com/Demo/RegionEvents)

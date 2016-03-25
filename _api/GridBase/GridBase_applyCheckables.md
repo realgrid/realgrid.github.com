@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/applyCheckables/
+tags:
+  - checkBar
+  - checkable
 ---
 
 
@@ -27,7 +30,7 @@ permalink: /api/GridBase/applyCheckables/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.setCheckBar({ checkableExpression: "row < 10" });
-    grdMain.applyCheckables();
+    gridView.setCheckBar({ checkableExpression: "row < 10" });
+    gridView.applyCheckables();
 </pre>
 

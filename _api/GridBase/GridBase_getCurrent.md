@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getCurrent/
+tags:
+  - current
+  - cell
+  - focusCell
 ---
 
 
@@ -28,6 +32,8 @@ None
 #### Example
 
 <pre class="prettyprint">
-    var index = grid.getCurrent();
+    var index = gridView.getCurrent();
 </pre>
 
+#### See Also
+> [setCurrent](/api/GridBase/setCurrent)

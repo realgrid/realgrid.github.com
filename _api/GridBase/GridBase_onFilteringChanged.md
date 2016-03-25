@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onFilteringChanged/
+tags:
+  - filter
+  - event
+  - 필터
 ---
 
 
@@ -29,8 +33,11 @@ None.
 #### Example
 
 <pre class="prettyprint">
-    grid.onFilteringChanged = function (grid){
+    gridView.onFilteringChanged = function (grid){
 	    alert("필터가 변경됨");
 	}
 </pre>
+
+#### See Also
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
 

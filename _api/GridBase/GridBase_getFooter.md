@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getFooter/
+tags:
+  - fooger
 ---
 
 
@@ -29,5 +31,10 @@ permalink: /api/GridBase/getFooter/
 
 <pre class="prettyprint">
 var footer = grid.getFooter();
+if (footer) {
+	alert(JSON.stringify(footer));
+}
 </pre>
 
+#### See Also
+> [setFooter](/api/GridBase/setFooter)

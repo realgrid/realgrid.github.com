@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onItemChecked/
+tags:
+  - event
+  - check
+  - checkBar
+  - checkItem
 ---
 
 
@@ -37,8 +42,10 @@ permalink: /api/GridBase/onItemChecked/
 #### Example
 
 <pre class="prettyprint">
-    grid.onItemChecked = function (grid, itemIndex, checked) {
+    gridView.onItemChecked = function (grid, itemIndex, checked) {
         console.log("onItemChecked:",grid.id, itemIndex, checked);
     };
 </pre>
 
+#### See Also
+> [CheckBar](/api/types/CheckBar), [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

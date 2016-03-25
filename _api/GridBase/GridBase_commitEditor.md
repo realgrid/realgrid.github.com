@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/commitEditor/
+tags:
+  - editing
+  - commitEditor
 ---
 
 
@@ -31,7 +34,7 @@ permalink: /api/GridBase/commitEditor/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.commitEditor(true);
+    gridView.commitEditor(true);
 </pre>
 
 

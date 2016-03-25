@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getModelAs/
+tags:
+  - model
+  - itemModel
 ---
 
 
@@ -39,15 +42,15 @@ permalink: /api/GridBase/getModelAs/
 #### Example
 
 <pre class="prettyprint">
-    var extended = $("#chkExtendedModel").is(":checked");
-    var itemIndex = grdMain.getCurrent().itemIndex;
-    var group = grdMain.getModelAs(itemIndex, RealGrids.ItemType.GROUP);
+    var extended = true;
+    var itemIndex = gridView.getCurrent().itemIndex;
+    var group = gridView.getModelAs(itemIndex, RealGrids.ItemType.GROUP);
     if (group && group.count > 0) {
-        var item = grdMain.getChildModel(group, 0, extended);
+        var item = gridView.getChildModel(group, 0, extended);
         console.log(JSON.stringify(item));
     }
 </pre>
 
 
-
-
+#### See Also
+> [Grid Item](/api/features/Grid%20Item/)

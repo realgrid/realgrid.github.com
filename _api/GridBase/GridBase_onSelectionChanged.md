@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onSelectionChanged/
+tags:
+  - event
+  - selection
 ---
 
 
@@ -30,9 +33,10 @@ permalink: /api/GridBase/onSelectionChanged/
 #### Example
 
 <pre class="prettyprint">
-    grid.onSelectionChanged =  function (grid) {
-        var cells = grid.getSelectionData();
-        console.log(cells);  
+    gridView.onSelectionChanged =  function (grid) {
+        <!-- var cells = grid.getSelectionData(); -->
+        var selectArea = grid.getSelection();
+        console.log(selectArea);  
     };
 </pre>
 

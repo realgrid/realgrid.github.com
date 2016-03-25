@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/getCopyOptions/
+tags:
+  - clipboard
+  - copy
 ---
 
 
@@ -28,5 +31,9 @@ permalink: /api/GridBase/getCopyOptions/
 #### Example
 
 <pre class="prettyprint">
-    cpOpt = grdMain.getCopyOptions();
+    var cpOpt = gridView.getCopyOptions();
+    alert(JSON.stringify(cpOpt));
 </pre>
+
+#### See Also
+> [setCopyOptions](/api/GridBase/setCopyOptions), [getPasteOptions](/api/GridBase/getPasteOptions), [setPasteOptions](/api/GridBase/setPasteOptions)

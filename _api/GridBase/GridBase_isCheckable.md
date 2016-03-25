@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/isCheckable/
+tags:
+  - check
+  - checkable
 ---
 
 
@@ -30,7 +33,10 @@ permalink: /api/GridBase/isCheckable/
 #### Example
 
 <pre class="prettyprint">
-    if (grdMain.isCheckable(0)) {
+    if (gridView.isCheckable(0)) {
         alert("체크 가능");
     }
 </pre>
+
+#### See Also
+> [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)

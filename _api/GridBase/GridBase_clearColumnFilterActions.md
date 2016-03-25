@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/clearColumnFilterActions/
+tags:
+  - filter
+  - clearFilter
 ---
 
 
@@ -29,6 +32,6 @@ permalink: /api/GridBase/clearColumnFilterActions/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.clearColumnFilterActions("OrderID")
+    gridView.clearColumnFilterActions("OrderID")
 </pre>
 
