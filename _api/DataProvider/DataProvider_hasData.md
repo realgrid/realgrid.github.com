@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/hasData/
+tags:
+  - 실제 값
+  - 행의 값
 ---
 
 

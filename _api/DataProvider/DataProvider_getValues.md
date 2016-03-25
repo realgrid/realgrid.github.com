@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getValues/
+tags:
+  - 행의 값
+  - 값 가져오기
 ---
 
 

@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/loadData/
+tags:
+  - 데이터 로드
+  - 로드 데이터
 ---
 
 

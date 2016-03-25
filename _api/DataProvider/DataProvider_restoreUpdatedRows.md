@@ -6,6 +6,10 @@ objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/restoreUpdatedRows/
 jsonly: true
+tags:
+  - 데이터 복원
+  - 원래대로
+  - 수정된 행 복원
 ---
 
 

@@ -5,6 +5,8 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getOptions/
+tags:
+  - dataProvider 설정 정보
 ---
 
 

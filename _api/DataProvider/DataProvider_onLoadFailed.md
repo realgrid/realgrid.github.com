@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Callback
 permalink: /api/DataProvider/onLoadFailed/
+tags:
+  - 데이터 로드 실패
+  - 호출 실패
 ---
 
 

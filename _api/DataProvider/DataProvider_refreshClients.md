@@ -5,6 +5,8 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/refreshClients/
+tags:
+  - 그리드 다시 그리기
 ---
 
 

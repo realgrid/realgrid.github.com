@@ -5,6 +5,10 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/clearRowStates/
+tags:
+  - 상태표시 아이콘 제거
+  - createAndDeleted 삭제
+  - deleted 삭제
 ---
 
 

@@ -5,6 +5,10 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getAllStateRows/
+tags:
+  - 해당 상태의 행 번호
+  - stateBar icon
+  - 상태 아이콘
 ---
 
 

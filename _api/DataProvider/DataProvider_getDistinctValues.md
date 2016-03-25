@@ -5,6 +5,8 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getDistinctValues/
+tags:
+  - 중복 제거
 ---
 
 

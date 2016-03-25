@@ -6,6 +6,9 @@ objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/fieldByName/
 jsonly: true
+tags:
+  - 필드정보 가져오기
+  - 필드정보 반환
 ---
 
 

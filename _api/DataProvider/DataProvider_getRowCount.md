@@ -5,6 +5,8 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getRowCount/
+tags:
+  - 데이터행 개수
 ---
 
 

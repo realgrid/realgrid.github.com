@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getRowStateCount/
+tags:
+  - 해당 상태 개수
+  - rowState 가져오기
 ---
 
 

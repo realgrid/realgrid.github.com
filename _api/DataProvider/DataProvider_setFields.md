@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/setFields/
+tags:
+  - 새로운 필드
+  - 필드 생성
 ---
 
 

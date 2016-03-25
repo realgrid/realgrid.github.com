@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getFieldName/
+tags:
+  - 필드이름
+  - 필드이름 가져오기
 ---
 
 

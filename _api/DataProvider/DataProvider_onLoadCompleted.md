@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Callback
 permalink: /api/DataProvider/onLoadCompleted/
+tags:
+  - 데이터 로드 성공
+  - 호출 성공
 ---
 
 

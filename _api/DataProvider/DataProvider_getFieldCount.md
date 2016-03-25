@@ -5,6 +5,8 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getFieldCount/
+tags:
+  - 필드 개수
 ---
 
 

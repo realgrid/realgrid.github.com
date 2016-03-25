@@ -5,6 +5,8 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getFieldIndex/
+tags:
+  - 필드 인덱스
 ---
 
 

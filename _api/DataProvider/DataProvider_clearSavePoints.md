@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/clearSavePoints/
+tags:
+  - 복제 데이터셋 삭제
+  - 모든 복원지점 삭제
 ---
 
 #### Description

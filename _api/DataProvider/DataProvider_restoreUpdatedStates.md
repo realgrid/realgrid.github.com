@@ -6,6 +6,10 @@ objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/restoreUpdatedStates/
 jsonly: true
+tags:
+  - rowState 복원
+  - 상태 복원
+  - 상태 아이콘 복원
 ---
 
 

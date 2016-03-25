@@ -5,6 +5,11 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/savePoint/
+tags:
+  - 데이터 복제
+  - 저장
+  - saveStates
+  - 현재 상태 복제
 ---
 
 

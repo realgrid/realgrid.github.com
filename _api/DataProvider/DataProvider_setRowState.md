@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/setRowState/
+tags:
+  - rowState변경
+  - 행 상태
 ---
 
 

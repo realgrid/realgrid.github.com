@@ -5,6 +5,10 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/updateRow/
+tags:
+  - 필드값 수정
+  - 데이터 수정
+  - 행 수정
 ---
 
 

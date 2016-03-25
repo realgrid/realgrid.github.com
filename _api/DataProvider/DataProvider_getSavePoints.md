@@ -5,6 +5,8 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getSavePoints/
+tags:
+  - 복제 지점 가져오기
 ---
 
 

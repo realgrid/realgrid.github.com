@@ -5,6 +5,10 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/updateStrictRow/
+tags:
+  - 데이터 수정
+  - 기존 데이터 수정
+  - 데이터 변경
 ---
 
 

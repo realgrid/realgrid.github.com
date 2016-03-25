@@ -5,6 +5,10 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/rollback/
+tags:
+  - savePoint
+  - 복원
+  - 복제 데이터
 ---
 
 

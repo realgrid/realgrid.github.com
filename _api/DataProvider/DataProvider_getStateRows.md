@@ -5,6 +5,10 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getStateRows/
+tags:
+  - rowState
+  - 상태아이콘
+  - 상태 번호 가져오기
 ---
 
 

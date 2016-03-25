@@ -5,6 +5,9 @@ part: Objects
 objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/checkRowStates/
+tags:
+  - 상태표시 여부
+  - stateBar 아이콘 표시 여부
 ---
 
 #### Description

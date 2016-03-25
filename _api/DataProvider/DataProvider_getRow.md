@@ -6,6 +6,9 @@ objectname: DataProvider
 directiontype: Function
 permalink: /api/DataProvider/getRow/
 deprecated: true
+tags:
+  - JSON객체 가져오기
+  - 데이터행의 값들
 ---
 
 
