@@ -9,6 +9,7 @@ directiontype:
 permalink: /api/types/TextCellRenderer/
 tags: 
   - tooltip
+  - 툴팁
 ---
 
 <script>
@@ -203,18 +204,16 @@ $(document).ready( function() {
 > Default: false  
 > 셀 데이터 값을 툴팁으로 표시해준다.   
 
-#### Code Snippets
+#### Examples
 <pre class="prettyprint">
     $("#btnShowTooltip").click(function(){
         var renderer = {
             showTooltip: true
         }
-
         gridView.setColumnProperty("col3", "renderer", renderer);
     })
 </pre>
 
-#### Examples
 
 <button id="btnShowTooltip" class="btn btn-success btn-xs">툴팁 보이기</button> 버튼을 누르면 `이름`컬럼의 셀 위에서 마우스가 호버링될때 해당셀의 데이터의 값이 툴팁으로 표시된다.
 
