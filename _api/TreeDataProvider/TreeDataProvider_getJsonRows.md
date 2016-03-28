@@ -23,23 +23,23 @@ tags:
 
 #### Parameters
 
-> **rowId**
+> **rowId**  
 > Type: number  
 > 데이터행의 트리 아이디.  
 > 파라메타에 값을 지정하지 않거나 rowId를 -1로 지정하면 모든 루트노드의 데이터를 가져옵니다.  
 
-> **recursive**
+> **recursive**  
 > Type: boolean  
 > Defautl: false
 > 자식의 자식행들 즉 자손을 포함할 것인지의 여부  
 
-> **childRowsProp**
-> Type: string
+> **childRowsProp**  
+> Type: string  
 > default: "rows"  
-> 자식 속성의 속성명을 지정한다.
+> 자식 속성의 속성명을 지정한다.  
 
-> **iconProp**
-> Type: string
+> **iconProp**  
+> Type: string  
 > Default: "icon"  
 > 아이콘 필드의 속성명을 지정한다.
 

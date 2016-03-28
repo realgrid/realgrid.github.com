@@ -15,7 +15,6 @@ tags:
 ### Architectures
 
 * 개발도구: eGovFrame 2.6, Spring 3.1.2.RELEASE
-* 웹서버: Windows Server 2008 64bit, IIS 7
 * WAS: tomcat 7.0
 * 데이터베이스: MS SQLServer 2008 R2
 * Table   

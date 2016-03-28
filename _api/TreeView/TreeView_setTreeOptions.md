@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/setTreeOptions/
+tags:
+ - 트리 옵션
 ---
 
 
@@ -29,7 +31,7 @@ permalink: /api/TreeView/setTreeOptions/
 #### Example
 
 <pre class="prettyprint">
-    tree.setTreeOptions({
+    treeView.setTreeOptions({
         iconImages: "icons",
         iconWidth: 20,
         ...

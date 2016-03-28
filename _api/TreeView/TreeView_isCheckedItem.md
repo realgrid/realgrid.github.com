@@ -5,12 +5,14 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/isCheckedItem/
+tags:
+ - 체크 확인
 ---
 
 
 #### Description
 
-> 입력된 itemIndex가 체크되어있는지 확인한다.
+> 입력된 [아이템](/api/features/Grid%20Item/)행의 index가 체크되어있는지 확인한다.
 
 #### Syntax
 
@@ -20,7 +22,7 @@ permalink: /api/TreeView/isCheckedItem/
 
 > **itemIndex**  
 > Type: Number  
-> 체크되었는지 확인하려는 데이터행의 itemIndex를 입력한다.  
+> 체크되었는지 확인하려는 [아이템](/api/features/Grid%20Item/)행의 index를 입력한다.  
 
 #### Return value
 
@@ -30,6 +32,6 @@ permalink: /api/TreeView/isCheckedItem/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.isCheckedItem(0);    
+    treeView.isCheckedItem(0);    
 </pre>
 

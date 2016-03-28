@@ -24,7 +24,7 @@ permalink: /api/TreeView/onTreeItemExpanding/
 
 > **itemIndex**  
 > Type: number  
-> 펼쳐지려는 행의 아이템 인덱스  
+> 펼쳐지려는 [아이템](/api/features/Grid%20Item/)행의 index.
 
 > **rowId**  
 > Type: number  
@@ -38,7 +38,7 @@ permalink: /api/TreeView/onTreeItemExpanding/
 #### Example
 
 <pre class="prettyprint">
-    grid.onTreeItemExpanding = function (tree, itemIndex, rowId) {
+    treeView.onTreeItemExpanding = function (tree, itemIndex, rowId) {
         return false;
     };
 </pre>

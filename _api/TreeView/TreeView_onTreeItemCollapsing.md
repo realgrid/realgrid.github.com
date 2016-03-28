@@ -25,7 +25,7 @@ jsonly: true
 
 > **itemIndex**  
 > Type: number  
-> 접혀지려는 행의 아이템 인덱스  
+> 접혀지려는 [아이템](/api/features/Grid%20Item/)행의 index.
 
 > **rowId**  
 > Type: number  
@@ -39,7 +39,7 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onTreeItemCollapsing = function (tree, itemIndex, rowId) {
+    treeView.onTreeItemCollapsing = function (tree, itemIndex, rowId) {
         return false;
     };
 </pre>

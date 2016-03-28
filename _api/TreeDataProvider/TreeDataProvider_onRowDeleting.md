@@ -38,13 +38,13 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-   	treeProvider.onRowDeleting = function (provider, rowId) {
-        if (provider.getValue(rowId,"field") == "1") {
-            RealGrids.alert("삭제할수 없습니다");
-            return false;  
-        } else {
-            return true;
-        };
-    };
+treeProvider.onRowDeleting = function (provider, rowId) {
+	if (provider.getValue(rowId,"field") == "1") {
+		RealGrids.alert("삭제할수 없습니다");
+		return false;  
+	} else {
+		return true;
+	};
+};
 </pre>
 

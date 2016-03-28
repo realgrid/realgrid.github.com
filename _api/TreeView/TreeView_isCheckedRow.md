@@ -5,12 +5,14 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/isCheckedRow/
+tags:
+ - 체크 확인
 ---
 
 
 #### Description
 
-> 
+> 입력된 데이터행의 트리 아이디가 체크되어있는지 확인한다.
 
 #### Syntax
 
@@ -20,7 +22,7 @@ permalink: /api/TreeView/isCheckedRow/
 
 > **rowId**  
 > Type: Number  
-> 체크되었는지 확인하려는 데이터행의 rowId를 입력한다.  
+> 체크되었는지 확인하려는 데이터행의 트리 아이디를 입력한다.  
 
 #### Return value
 
@@ -30,6 +32,6 @@ permalink: /api/TreeView/isCheckedRow/
 #### Example
 
 <pre class="prettyprint">
-    treeMain.isCheckedRow(0);
+    treeView.isCheckedRow(0);
 </pre>
 

@@ -45,7 +45,7 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    treeDataProvider.onRowSiblingMoving = function (provider, rowId, delta) {
+    treeProvider.onRowSiblingMoving = function (provider, rowId, delta) {
         if (rowId === '10') {
             return false;      //rowId가 10인 행은 이동 불가
         } else {

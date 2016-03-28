@@ -18,7 +18,6 @@ tags:
 ### Architectures
 
 * 개발도구: eGovFrame 3.1, Spring 3.2.9.RELEASE
-* 웹서버: Windows Server 2008 64bit, IIS 7
 * WAS: tomcat 7.0
 * 데이터베이스: MS SQLServer 2008 R2
 * Table  
@@ -381,7 +380,7 @@ Ms SQLServer와 연결하기위한 sqljdbc4.jar파일을 lib 폴더에 넣어줍
 
 먼저 DB정보를 받고 넘겨줄 CustomerOrders빈을 egovframework.example.sample.service 패키지에 생성합니다.  
 
-**CostomerOrders.java**  
+**CustomerOrders.java**  
 
 <pre class="prettyprint">
 package egovframework.example.sample.service;

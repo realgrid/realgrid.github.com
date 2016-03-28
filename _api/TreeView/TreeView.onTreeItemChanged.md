@@ -38,7 +38,7 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onTreeItemChanged = function (tree, itemIndex, rowId) {
+    treeView.onTreeItemChanged = function (tree, itemIndex, rowId) {
         console.log("TreeItem item changed:: " + itemIndex);	
     };
 </pre>

@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/getTreeOptions/
+tags:
+ - 트리 옵션 가져오기
 ---
 
 
@@ -28,6 +30,6 @@ permalink: /api/TreeView/getTreeOptions/
 #### Example
 
 <pre class="prettyprint">
-    var options = treeGrid.getTreeOptions();
+    var options = treeView.getTreeOptions();
 </pre>
 

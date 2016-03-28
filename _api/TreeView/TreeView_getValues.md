@@ -5,6 +5,8 @@ part: Objects
 objectname: TreeView
 directiontype: Function
 permalink: /api/TreeView/getValues/
+tags:
+ - get json
 ---
 
 
@@ -21,7 +23,7 @@ permalink: /api/TreeView/getValues/
 
 > **itemIndex**  
 > Type: integer  
-> itemIndex를 입력한다.  
+> [아이템](/api/features/Grid%20Item/)행의 index.
 
 #### Return value
 

@@ -19,13 +19,13 @@ jsonly: true
 
 #### Parameters
 
-> **rowId**
+> **rowId**  
 > Type: number  
 > 데이터행의 트리 아이디.   
 
 #### Return value
 
-> Type: Object
+> Type: Object  
 > JSON 객체   
 
 #### Example

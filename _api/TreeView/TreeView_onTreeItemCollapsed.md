@@ -25,7 +25,7 @@ jsonly: true
 
 > **itemIndex**  
 > Type: number  
-> 접혀진 행의 아이템 인덱스  
+> 접혀진 [아이템](/api/features/Grid%20Item/)행의 index. 
 
 > **rowId**  
 > Type: number  
@@ -38,7 +38,7 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.onTreeItemCollapsed = function (tree, itemIndex, rowId) {
+    treeView.onTreeItemCollapsed = function (tree, itemIndex, rowId) {
         console.log("TreeItem Collapsed: " + itemIndex);	
     };
 </pre>
