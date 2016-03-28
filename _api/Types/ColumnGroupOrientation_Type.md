@@ -7,6 +7,14 @@ order: ColumnGroupOrientation
 objectname: 
 directiontype: 
 permalink: /api/types/ColumnGroupOrientation/
+tags:
+  - ColumnGroupOrientation
+  - ColumnOrientation
+  - GroupOrientation
+  - 컬럼그룹방향
+  - 컬럼방향
+  - 그룹방향
+  - 컬럼그룹핑방향
 ---
 
 #### Description
@@ -23,6 +31,74 @@ permalink: /api/types/ColumnGroupOrientation/
 > Value: "vertical"     
 > 하위 컬럼들을 세로 방향으로 배치합니다.   
 
+### Example  
+
+<pre class="prettyprint">
+	var columns = [{
+        "type": "group",
+        "name": "GroupOrder",
+
+        "orientation": "vertical",
+
+        "resizable": true,
+        "movable": false,
+        "hideChildHeaders": false,
+        "width": 250,
+        "columns": [{
+            "type": "group",
+            "name": "GroupIds",
+            "columns": [{
+                "name": "OrderID",
+                "fieldName": "OrderID",
+                "type": "data",
+                "width": "90",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Order"
+                }
+            }, {
+                "name": "CustomerID",
+                "fieldName": "CustomerID",
+                "width": "130",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Customer ID"
+                }
+            }, {
+                "name": "EmployeeID",
+                "fieldName": "EmployeeID",
+                "width": "100",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Employee ID"
+                }
+            }]
+        }, {
+            "name": "OrderDate",
+            "fieldName": "OrderDate",
+            "width": "130",
+            "styles": {
+                "textAlignment": "center"
+            },
+            "header": {
+                "text": "Order Date"
+            }
+        }]
+	}];
+	
+	gridView.setColumns(columns);
+</pre>
+
 #### See Also
 
-> [Column Grouping Demo](http://demo.realgrid.net/Demo/ColumnGrouping) 참조
+> [Column Grouping Demo](http://demo.realgrid.net/Demo/ColumnGrouping) 참조  
+
+> [ColumnGroup](/api/types/ColumnGroup)  
+
+

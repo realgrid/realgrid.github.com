@@ -7,6 +7,21 @@ order: ColumnGroupHeader
 objectname: 
 directiontype: 
 permalink: /api/types/ColumnGroupHeader/
+tags:
+  - ColumnGroup
+  - Column
+  - Group
+  - ColumnGrouping
+  - 컬럼그룹
+  - 컬럼
+  - 그룹
+  - 컬럼그룹핑
+  - ColumnGroupHeader
+  - GroupHeader
+  - Header
+  - 컬럼그룹헤더
+  - 그룹헤더
+  - 헤더
 ---
 
 #### Description
@@ -25,5 +40,77 @@ permalink: /api/types/ColumnGroupHeader/
 > Type: Boolean   
 > Default: true     
 > 컬럼그룹 헤더를 표시할 것인 지를 지정한다. 
+
+### Example  
+
+<pre class="prettyprint">
+	var columns = [{
+        "type": "group",
+        "name": "GroupOrder",
+        "orientation": "vertical",
+        "resizable": true,
+        "movable": false,
+        "hideChildHeaders": false,
+        "width": 250,
+        "header": {
+        	"text": "GroupOrder Hader",
+            "visible": true
+        },
+        "columns": [{
+            "type": "group",
+            "name": "GroupIds",
+            "columns": [{
+                "name": "OrderID",
+                "fieldName": "OrderID",
+                "type": "data",
+                "width": "90",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Order"
+                }
+            }, {
+                "name": "CustomerID",
+                "fieldName": "CustomerID",
+                "width": "130",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Customer ID"
+                }
+            }, {
+                "name": "EmployeeID",
+                "fieldName": "EmployeeID",
+                "width": "100",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Employee ID"
+                }
+            }]
+        }, {
+            "name": "OrderDate",
+            "fieldName": "OrderDate",
+            "width": "130",
+            "styles": {
+                "textAlignment": "center"
+            },
+            "header": {
+                "text": "Order Date"
+            }
+        }]
+	}];
+	
+	gridView.setColumns(columns);
+</pre>
+
+#### See Also 
+
+> [Column Grouping](http://demo.realgrid.net/Demo/ColumnGrouping) 참조  
+
+> [ColumnGroup](/api/types/ColumnGroup)  
 
 
