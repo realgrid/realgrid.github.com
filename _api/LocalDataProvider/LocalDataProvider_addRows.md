@@ -5,6 +5,11 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/addRows/
+tags:
+  - 여러 행 추가
+  - 마지막에 행 추가
+  - 행 추가 이벤트
+  - 마지막 데이터행
 ---
 
 

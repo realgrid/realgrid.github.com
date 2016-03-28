@@ -6,6 +6,11 @@ objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/fillJsonData/
 jsonly: true
+tags:
+  - 데이터 채우기
+  - json형태
+  - 데이터셋 로드
+  - dataProvider
 ---
 
 

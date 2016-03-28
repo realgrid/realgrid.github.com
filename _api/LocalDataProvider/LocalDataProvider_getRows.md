@@ -5,6 +5,12 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/getRows/
+tags:
+  - 지정한 범위
+  - 데이터행 가져오기
+  - 배열로 가져오기
+  - startRow
+  - endRow
 ---
 
 

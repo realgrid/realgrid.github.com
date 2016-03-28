@@ -5,6 +5,11 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/setJsonRows/
+tags:
+  - Json데이터
+  - Json배열 데이터행 추가
+  - onRowCountChanged
+  - rowsProp
 ---
 
 

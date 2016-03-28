@@ -5,6 +5,10 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/getOutputRow/
+tags: 
+  - 지정형식 데이터 가져오기
+  - json객체 데이터행
+  - json객체로 가져오기
 ---
 
 

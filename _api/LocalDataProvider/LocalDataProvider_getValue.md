@@ -5,6 +5,8 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/getValue/
+tags:
+  - 데이터셀 값 반환
 ---
 
 

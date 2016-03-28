@@ -5,6 +5,10 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/setRows/
+tags:
+  - onRowCountChanged
+  - 기존 데이터행 모두 삭제
+  - 매개변수로 넘어온 행 추가
 ---
 
 

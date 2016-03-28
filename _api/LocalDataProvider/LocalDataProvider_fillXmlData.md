@@ -6,6 +6,11 @@ objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/fillXmlData/
 jsonly: true
+tags:
+  - 데이터 채우기
+  - xml형태
+  - 데이터셋 로드
+  - dataProvider
 ---
 
 

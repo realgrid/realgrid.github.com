@@ -5,12 +5,17 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/getOutputRows/
+tags: 
+  - 지정한 범위
+  - json객체의 배열
+  - 데이터행들의 목록
+  - 지정형식 데이터 가져오기
 ---
 
 
 #### Description
 
-> 지정한 범위 내의 데이터행들을 형식을 지정하 JSON 객체의 배열로 가져온다.
+> 지정한 범위 내의 데이터행들을 형식을 지정하여 JSON 객체의 배열로 가져온다.
 
 #### Syntax
 

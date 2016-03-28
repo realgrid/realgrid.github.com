@@ -5,6 +5,10 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/setFilters/
+tags:
+  - 필터
+  - 필터 조건
+  - filterMode
 ---
 
 

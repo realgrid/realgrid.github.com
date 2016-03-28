@@ -5,6 +5,14 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/getFieldValues/
+tags:
+  - 데이터 범위
+  - 시작 행
+  - 끝 행
+  - 데이터 목록
+  - 필드 데이터
+  - startRow
+  - endRow
 ---
 
 

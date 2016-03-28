@@ -5,6 +5,10 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/setXmlRows/
+tags:
+  - xml데이터행 추가
+  - xml형식 데이터행 추가
+  - rowsElement
 ---
 
 

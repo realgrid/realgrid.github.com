@@ -5,6 +5,13 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/updateStrictRows/
+tags:
+  - 지정한 위치부터 데이터 값 수정
+  - onRowStateChanged
+  - 데이터 값 수정
+  - Array값
+  - object값
+  - rowEvents
 ---
 
 

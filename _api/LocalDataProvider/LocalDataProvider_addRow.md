@@ -5,6 +5,14 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/addRow/
+tags:
+  - 마지막 행 추가
+  - 행 추가 이벤트
+  - 마지막 데이터행
+  - json객체
+  - onRowInserting
+  - onRowInserted
+  - onRowCountChanged
 ---
 
 

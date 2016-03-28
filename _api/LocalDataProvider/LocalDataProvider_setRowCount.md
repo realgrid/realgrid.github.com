@@ -5,6 +5,11 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/setRowCount/
+tags:
+  - 데이터행의 개수
+  - onRowCountChanged
+  - 필요행 만큼의 행 추가
+  - 지정한 값으로 채우기
 ---
 
 

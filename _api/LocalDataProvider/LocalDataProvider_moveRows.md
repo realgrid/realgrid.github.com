@@ -5,6 +5,13 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/moveRows/
+tags:
+  - 이동
+  - 여러개의 데이터 이동
+  - 여러개의 데이터행 이동
+  - 위치로 이동
+  - 여러행 이동
+  - newRow
 ---
 
 

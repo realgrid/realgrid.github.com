@@ -5,6 +5,15 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/insertRow/
+tags:
+  - 특정 행 추가
+  - 새로운 행 추가
+  - 새로운 행 삽입
+  - 특정 위치 행 삽입
+  - 입력할 값
+  - onRowInserting
+  - onRowInserted
+  - onRowCountChanged
 ---
 
 

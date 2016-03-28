@@ -5,6 +5,10 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/setValue/
+tags:
+  - 데이터셀의 값을 변경
+  - 데이터셀 값 변경
+  - 지정 데이터셀 값 변경
 ---
 
 

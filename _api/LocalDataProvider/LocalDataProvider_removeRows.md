@@ -5,6 +5,12 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Function
 permalink: /api/LocalDataProvider/removeRows/
+tags: 
+  - 여러 데이터행 삭제
+  - softDeleting
+  - 실제로 삭제
+  - rowState만 변경
+  - rowEvents
 ---
 
 
