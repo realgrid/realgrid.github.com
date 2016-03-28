@@ -24,7 +24,8 @@ tags:
 
 본 가이드는 Java Spring MVC와 MS SQLServer 환경에서 RealGrid에 데이터를 뿌려주는 간단한 화면을 만드는 방법에 대해 설명하고 있습니다. 본 자습서를 읽고 내용을 이해 하기 위해서는 Java에 대한 기초적인 지식이 필요합니다.  
 본 예제에서는 전자정부프레임웍 eGovFrame 2.6에 Spring MVC 만  사용하였습니다.  
-본 가이드는 SQLServer의 특정 테이블에 들어 있는 데이터를 RealGrid가 포함된 웹화면에서 조회, 추가, 수정, 삭제기능을 구현하고 있습니다.
+본 가이드는 SQLServer의 특정 테이블에 들어 있는 데이터를 RealGrid가 포함된 웹화면에서 조회, 추가, 수정, 삭제기능을 구현하고 있습니다.  
+본 가이드에 소스파일은 [여기](https://drive.google.com/open?id=0B1dc48kRrYcUX09oUEhYZ3BDSmM)서 다운받을 수 있습니다.
     
 ### A New WEB Site
 
@@ -65,6 +66,10 @@ GridView와 DataProvider를 매핑하기 위한 변수를 선언하고 RealGridJ
 setDataSource()를 호출 하여 GridView에 DataProvider를 연결합니다.  
 RealGrid의 core 라이브러리 파일인 realgridjs.js파일을 웹 페이지에 포함 해야 합니다.  
 그리드의 라이선스 키는 “dlgrids_eval.js” 파일에 암호화되어 저장되어 있습니다.  
+
+> <mark>주의사항</mark>  
+> dlgrids_eval.js파일은 RealGridJS 1.0.9 버전까지 사용된 파일명으로 1.0.11버전부터 파일명이 변경되었습니다.  
+> 1.0.9버전을 1.0.11버전 이상으로 업그레이드 하는 방법은 튜토리얼 [A1-1](/tutorial/a1-1/)페이지를 참조해 주시기 바랍니다.  
         
 
 **default.jsp**  

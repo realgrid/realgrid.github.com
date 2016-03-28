@@ -26,8 +26,8 @@ tags:
 ### Introduction
 
 
-본 가이드는 SQLServer의 특정 테이블에 들어 있는 데이터를 RealGrid가 포함된 웹화면에서 조회, 추가, 수정, 삭제기능을 구현하고 있습니다.
-
+본 가이드는 SQLServer의 특정 테이블에 들어 있는 데이터를 RealGrid가 포함된 웹화면에서 조회, 추가, 수정, 삭제기능을 구현하고 있습니다.  
+본 가이드에 소스코드는 [여기](https://drive.google.com/open?id=0B1dc48kRrYcUTEVjOEZTeWpSZ1k)서 다운 받을 수 있습니다.
 
 
 ### A New WEB Site
@@ -725,7 +725,7 @@ State를 이용하여 삭제 하였을 때 DB에서는 삭제가 됐지만 그�
 <pre class="prettyprint">
 ＠RequestMapping(value="/cgSaveData.do")
 public String allCgSave(＠RequestParam("txtJson") String coStringList, Model model) throws Exception{
-    coStringList = coStringList.replaceAll("&quot;", "\"");
+    coStringList = coStringList.replaceAll("&qu ot;", "\"");// 소스에 적용할때는 &qu 와 ot; 사이의 공백을 제거해야 합니다. 
     List&lt;CustomerOrders&gt; coList = new ArryList&lt;CustomerOrders&gt;();
     JSONArray cusJson = JSONArry.fromObject(JSONSerializer.toJSON(coStringList));
 
