@@ -5,6 +5,10 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
 permalink: /api/LocalDataProvider/onRowsMoved/
+tags:
+  - 데이터행들이 이동된 후
+  - 데이터 이동 이벤트
+  - newRow
 ---
 
 

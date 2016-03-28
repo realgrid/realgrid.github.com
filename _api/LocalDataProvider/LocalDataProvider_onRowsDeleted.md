@@ -5,6 +5,9 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
 permalink: /api/LocalDataProvider/onRowsDeleted/
+tags:
+  - 행 삭제 이벤트
+  - 행 삭제 후
 ---
 
 

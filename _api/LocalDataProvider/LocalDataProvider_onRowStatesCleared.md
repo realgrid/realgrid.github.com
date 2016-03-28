@@ -5,6 +5,12 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
 permalink: /api/LocalDataProvider/onRowStatesCleared/
+tags:
+  - rowState
+  - deleted
+  - createAndDeleted
+  - 데이터 삭제
+  - rowState 초기화
 ---
 
 

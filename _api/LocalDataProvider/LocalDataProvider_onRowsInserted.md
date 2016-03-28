@@ -5,6 +5,10 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
 permalink: /api/LocalDataProvider/onRowsInserted/
+tags:
+  - 여러행 추가
+  - 행 추가 이벤트
+  - 여러행이 추가된 경우
 ---
 
 

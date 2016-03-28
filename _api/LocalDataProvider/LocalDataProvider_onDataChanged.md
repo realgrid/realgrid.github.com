@@ -5,6 +5,11 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
 permalink: /api/LocalDataProvider/onDataChanged/
+tags:
+  - 데이터 변경 이벤트
+  - key
+  - setValue
+  - 데이터 변경시 호출
 ---
 
 #### Description

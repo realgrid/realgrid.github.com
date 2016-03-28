@@ -5,6 +5,10 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
 permalink: /api/LocalDataProvider/onRowStatesChanged/
+tags:
+  - 상태변경 이벤트
+  - 여러 데이터행
+  - rowState변경 이벤트
 ---
 
 

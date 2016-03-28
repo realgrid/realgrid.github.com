@@ -5,6 +5,9 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
 permalink: /api/LocalDataProvider/onRowInserting/
+tags:
+  - 데이터행 추가 직전
+  - 데이터행 추가 이벤트
 ---
 
 

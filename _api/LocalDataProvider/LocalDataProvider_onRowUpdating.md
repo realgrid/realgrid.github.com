@@ -5,6 +5,9 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
 permalink: /api/LocalDataProvider/onRowUpdating/
+tags:
+  - 데이터 수정 직전
+  - 데이터 수정 이벤트
 ---
 
 

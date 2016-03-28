@@ -5,7 +5,12 @@ part: Objects
 objectname: LocalDataProvider
 directiontype: Callback
 permalink: /api/LocalDataProvider/onRowCountChanged/
+tags:
+  - 행 추가 이벤트
+  - 행 삭제 이벤트
+  - 행의 개수 변경
 ---
+
 
 
 #### Description
