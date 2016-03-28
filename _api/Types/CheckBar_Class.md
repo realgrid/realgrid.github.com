@@ -7,6 +7,13 @@ order: CheckBar
 objectname: 
 directiontype: 
 permalink: /api/types/CheckBar/
+tags:
+  - CheckCell 
+  - Checkbox
+  - Check
+  - 체크셀
+  - 체크박스
+  - 체크표시
 ---
 
 #### Description
@@ -38,7 +45,7 @@ permalink: /api/types/CheckBar/
 > **checkableOnly**  
 > Type: boolean   
 > Default: true     
-> 체크 가능한 행만 체크할 수 있는지의 여부를 지정한다. (checkableExpression에서 체크 가능 여부를 지정할 수 있다.)  
+> 체크 가능한 행만 체크할 수 있는지의 여부를 지정한다. (checkableExpression에서 체크 가능 여부를 지정할 수 있다.) 
 
 > **visible**  
 > Type: boolean   
@@ -55,6 +62,50 @@ permalink: /api/types/CheckBar/
 > Default:  
 > 체크 가능 여부의 수식을 지정한다.  
 
+### Example  
+
+<pre class="prettyprint">
+	var options = {
+        checkableExpression: "state = 'c'"
+        checkableOnly: true,
+        exclusive: false,
+        showAll: true,
+        showGroup: true,
+        visible: true,
+        visibleOnly: false,
+        width: 20
+	}
+	gridView.setCheckBar(options);
+</pre>
+
 #### See Also 
 
-> [CheckBar](http://demo.realgrid.net/Demo/CheckBar)
+> [CheckBar](http://demo.realgrid.net/Demo/CheckBar)  
+
+> [setCheckBar](/api/GridBase/setCheckBar)  
+> [getCheckBar](/api/GridBase/getCheckBar)  
+> [applyCheckables](/api/GridBase/applyCheckables)  
+> [checkAll](/api/GridBase/checkAll)  
+> [checkItem](/api/GridBase/checkItem)  
+> [checkItems](/api/GridBase/checkItems)  
+> [checkRow](/api/GridBase/checkRow)  
+> [checkRows](/api/GridBase/checkRows)  
+> [isAllChecked](/api/GridBase/isAllChecked)  
+> [isCheckable](/api/GridBase/isCheckable)  
+> [isCheckedItem](/api/GridBase/isCheckedItem)  
+> [isCheckedRow](/api/GridBase/isCheckedRow)  
+> [resetCheckables](/api/GridBase/resetCheckables)  
+> [setAllCheck](/api/GridBase/setAllCheck)  
+> [setCheckable](/api/GridBase/setCheckable)  
+> [setCheckableExpression](/api/GridBase/setCheckableExpression)  
+
+
+
+
+
+
+
+
+
+
+

@@ -7,6 +7,15 @@ order: ColumnGroup
 objectname: 
 directiontype: 
 permalink: /api/types/ColumnGroup/
+tags:
+  - ColumnGroup
+  - Column
+  - Group
+  - ColumnGrouping
+  - 컬럼그룹
+  - 컬럼
+  - 그룹
+  - 컬럼그룹핑
 ---
 
 #### Description
@@ -69,3 +78,72 @@ permalink: /api/types/ColumnGroup/
 > Type: Object   
 > Default:  null     
 > 컬럼그룹에 적용할 스타일들을 지정한다.     
+
+### Example  
+
+<pre class="prettyprint">
+	var columns = [{
+        "type": "group",
+        "name": "GroupOrder",
+        "orientation": "vertical",
+        "resizable": true,
+        "movable": false,
+        "hideChildHeaders": false,
+        "width": 250,
+        "columns": [{
+            "type": "group",
+            "name": "GroupIds",
+            "columns": [{
+                "name": "OrderID",
+                "fieldName": "OrderID",
+                "type": "data",
+                "width": "90",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Order"
+                }
+            }, {
+                "name": "CustomerID",
+                "fieldName": "CustomerID",
+                "width": "130",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Customer ID"
+                }
+            }, {
+                "name": "EmployeeID",
+                "fieldName": "EmployeeID",
+                "width": "100",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Employee ID"
+                }
+            }]
+        }, {
+            "name": "OrderDate",
+            "fieldName": "OrderDate",
+            "width": "130",
+            "styles": {
+                "textAlignment": "center"
+            },
+            "header": {
+                "text": "Order Date"
+            }
+        }]
+	}];
+	
+	gridView.setColumns(columns);
+</pre>
+
+#### See Also 
+
+> [Column Grouping](http://demo.realgrid.net/Demo/ColumnGrouping) 참조  
+
+> [ColumnGroupHeader](/api/types/ColumnGroupHeader)  
+

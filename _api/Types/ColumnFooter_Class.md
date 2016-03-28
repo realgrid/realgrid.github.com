@@ -44,3 +44,56 @@ permalink: /api/types/ColumnFooter/
 > Type: Object   
 > Default:  null     
 > 그룹 푸터 데이터셀들에게 적용할 스타일들을 지정한다.   
+
+### Example  
+
+<pre class="prettyprint">
+	var columns = [{
+        "name": "QuantityPerUnit",
+        "fieldName": "QuantityPerUnit",
+        "type": "data",
+        "width": "140",
+        "styles": {
+            "textAlignment": "near"
+        },
+        "header": {
+            "text": "Quantity / Unit"
+        },
+        "footer": {
+            "styles": {
+                "textAlignment": "far",
+                "font": "굴림,12"
+            },
+            "text": "합계 =>",
+            "groupText": "합계 =>"
+        }
+    }, {
+        "name": "Quantity",
+        "fieldName": "Quantity",
+        "type": "data",
+        "width": "100",
+        "styles": {
+            "textAlignment": "far"
+        },
+        "header": {
+            "text": "Quantity"
+        },
+        "footer": {
+            "styles": { 
+                "textAlignment": "far",
+                "numberFormat": "0,000",
+                "suffix": " $",
+                "font": "Arial,12"
+                },
+            "expression": "sum",
+            "groupExpression": "sum"
+        }
+	}];
+	
+	gridView.setColumns(columns);
+</pre>
+
+#### See Also 
+
+> [Column Footer](http://demo.realgrid.net/Demo/ColumnFooter) 참조  
+> [Expression Overview](http://demo.realgrid.com/Demo/ExpressionConcept) 참조  
