@@ -5,12 +5,15 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setHeader/
+tags:
+  - header
+  - 헤더
 ---
 
 
 #### Description
 
-> 그리드 Indicator와 관련된 정보들을 설정한다. [Header](/api/types/Header/)이 설정 모델이다.
+> 그리드 Header와 관련된 정보들을 설정한다. [Header](/api/types/Header/)이 설정 모델이다.
 
 #### Syntax
 
@@ -29,10 +32,12 @@ permalink: /api/GridBase/setHeader/
 #### Example
 
 <pre class="prettyprint">
-    grid.setHeader({
+    gridView.setHeader({
         resizable: true,
         visible: true,
         ...
     });
 </pre>
 
+#### See Also
+> [getHeader](/api/GridBase/getHeader)

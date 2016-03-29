@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setColumns/
+tags:
+  - column
+  - columnProperties
+  - 컬럼구성
 ---
 
 
@@ -21,7 +25,7 @@ permalink: /api/GridBase/setColumns/
 > **columns**  
 > Type: Array of Object  
 > 컬럼 설정 정보 배열  
-> 배열의 각 항목은 [DataColumn](/api/types/DataColumn/)와 같은 내용으로 구성되는 object다.  
+> 배열의 각 항목은 [DataColumn](/api/types/DataColumn/) 또는 [ColumnGroup](/api/types/ColumnGroup)과 같은 내용으로 구성되는 object다.  
 
 #### Return value
 
@@ -35,9 +39,8 @@ permalink: /api/GridBase/setColumns/
         }, {
         name: "column2",
         }];
-    grid.setColumns(columns);
+    gridView.setColumns(columns);
 </pre>
 
-
-
-
+#### See Also
+> [ColumnGrouping](http://demo.realgrid.com/Demo/ColumnGrouping), [getColumns](/api/GridBase/getColumns)

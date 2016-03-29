@@ -11,6 +11,7 @@ permalink: /api/GridBase/resetLocalExporting/
 #### Description
 
 > 엑셀 저장이 불완전하게 종료되어 저장중이 아님에도 불구하고 엑셀 저장중으로 인식될 경우 초기화시켜준다.
+> RealGrid+ Web 전용이다.
 
 #### Syntax
 
@@ -27,12 +28,12 @@ permalink: /api/GridBase/resetLocalExporting/
 #### Example
 
 <pre class="prettyprint">
-	if (grdMain.isLocalExporting()) {
-		grdMain.resetLocalExporting();
+	if (gridView.isLocalExporting()) {
+		gridView.resetLocalExporting();
 	}
 	else
 	{
-		grdMain.exportGrid({
+		gridView.exportGrid({
 			type: "excel",
 			target: "local",
 			url: (realgridType == "js") ? "gridExportSample.xlsx" : "gridExportSample.xls",

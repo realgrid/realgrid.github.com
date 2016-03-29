@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setAllCheck/
+tags:
+  - check
+  - checkBar
+  - 체크
 ---
 
 
@@ -21,7 +25,7 @@ permalink: /api/GridBase/setAllCheck/
 
 > **checked**  
 > Type: Boolean  
-> v 표시 활성화 여부  
+> 체크 표시 활성화 여부  
 
 #### Return value
 
@@ -30,9 +34,8 @@ permalink: /api/GridBase/setAllCheck/
 #### Example
 
 <pre class="prettyprint">
-	grdMain.setAllCheck(true);
+	gridView.setAllCheck(true);
 </pre>
 
-
-
-
+#### See Also
+> [ChcekBar](/api/types/CheckBar)

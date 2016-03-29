@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/registerColumnLayouts/
+tags:
+  - columnLayout
+  - layout
+  - columns
 ---
 
 
@@ -41,5 +45,8 @@ permalink: /api/GridBase/registerColumnLayouts/
         ]
     }];
  
-    grid.registerColumnLayouts(layouts);
+    gridView.registerColumnLayouts(layouts);
 </pre>
+
+#### See Also
+> [setColumnLayout](/api/GridBase/setColumnLayout), [restoreColumns](/api/GridBase/restoreColumns)

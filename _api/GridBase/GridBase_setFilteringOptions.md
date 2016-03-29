@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setFilteringOptions/
+tags:
+  - filter
+  - 필터링옵션
+  - option
 ---
 
 
@@ -29,9 +33,12 @@ permalink: /api/GridBase/setFilteringOptions/
 #### Example
 
 <pre class="prettyprint">
-    grid.setFilteringOptions({
+    gridView.setFilteringOptions({
         enabled: true,
         ...
     });
 </pre>
 
+#### See Also
+> [getFilteringOptions](/api/GridBase/getFilteringOptions)  
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

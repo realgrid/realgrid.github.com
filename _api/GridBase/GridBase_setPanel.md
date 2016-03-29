@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setPanel/
+tags:
+  - rowGroup
+  - groupPanel
+  - 로우그룹
 ---
 
 
@@ -29,10 +33,12 @@ permalink: /api/GridBase/setPanel/
 #### Example
 
 <pre class="prettyprint">
-    grid.setPanel({
+    gridView.setPanel({
         minHeight: 30,
         visible: true,
         ...
     });
 </pre>
 
+#### See Also
+> [getPanel](/api/GridBase/getPanel)

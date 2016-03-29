@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/searchItem/
+tags:
+  - search
+  - 찾기
 ---
 
 
@@ -34,6 +37,8 @@ permalink: /api/GridBase/searchItem/
         fields = ['field1', 'field2'],
         values = ['value1', 'value2']
     }
-    var itemindex = grid.searchItem(options);
+    var itemindex = gridView.searchItem(options);
 </pre>
 
+#### See Also
+> [searchCell](/api/GridBase/searchCell)

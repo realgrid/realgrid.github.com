@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setCellStyleRows/
+tags:
+  - DataCellStyle
+  - style
+  - cellStyle
 ---
 
 
@@ -35,10 +39,18 @@ permalink: /api/GridBase/setCellStyleRows/
 #### Example
 
 <pre class="prettyprint">
-grid.addCellStyle("style01", {
-    "foreground": "#ffffffff",
-    ...
-});
+gridView.addCellStyles([
+    {id:"style01",
+     foreground:"#ffffffff"
+    },
+    {id:"style02",
+     foreground:"#ffffff00"
+    },
+    {id:"style03",
+     foreground:"#FF000088"
+    }
+]);
+
  
 // with json objects
 var rows = [
@@ -49,6 +61,9 @@ var rows = [
     {"id":5,"userid":"tbanks","company":"Yodoo","first_name":"David","last_name":"Miller","col1style":"style03"},
     ...
 ];
-grid.setCellStyleRows(rows, {"col1style": 1});
+gridView.setCellStyleRows(rows, {"col1style": 1});
+/* 1번째에 해당하는 userid컬럼에 col1style로 지정된 style을 적용한다. */
 </pre>
 
+#### See Also
+> [setCellStyle](/api/GridBase/setCellStyle), [setCellStyles](/api/GridBase/setCellStyles), [DataCellStyleRows Demo](http://demo.realgrid.com/Demo/DataCellStyleRows)

@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/saveColumnLayout/
+tags:
+  - columnLayout
+  - layout
 ---
 
 
@@ -28,7 +31,7 @@ permalink: /api/GridBase/saveColumnLayout/
 #### Example
 
 <pre class="prettyprint">
-    var dispCols = grdMain.saveColumnLayout();
+    var dispCols = gridView.saveColumnLayout();
     var params = { Id: SessionId, layout: JSON.stringify(dispCols) };
     $.ajax({
         type: "post",
@@ -36,3 +39,6 @@ permalink: /api/GridBase/saveColumnLayout/
         data: params
     });
 </pre>
+
+#### See Also
+> [ColumnLayout](http://demo.realgrid.com/Demo/ColumnLayout)

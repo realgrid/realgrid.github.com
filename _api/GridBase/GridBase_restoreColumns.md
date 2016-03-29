@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/restoreColumns/
+tags:
+  - columnLayout
+  - layout
 ---
 
 
@@ -14,11 +17,13 @@ permalink: /api/GridBase/restoreColumns/
 
 #### Syntax
 
-> function restoreColumns()
+> function restoreColumns(restoreSize)
 
 #### Parameters
 
-> none
+> **restoreSize**
+> Type: boolean
+> false인 경우 현재 칼럼의 넓이를 유지한다.
 
 #### Return value
 
@@ -27,5 +32,8 @@ permalink: /api/GridBase/restoreColumns/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.restoreColumns();
+    gridView.restoreColumns();
 </pre>
+
+#### See Also
+[linearizeColumns](/api/GridBase/linearizeColumns)

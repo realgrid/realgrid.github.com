@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setCurrent/
+tags:
+  - focus
+  - 포커스
+  - currentCell
+  - 선택된
 ---
 
 
@@ -37,6 +42,8 @@ permalink: /api/GridBase/setCurrent/
         dataRow: $("#txtDataRow").val(),
         fieldName: $("#txtFieldName").val(),
     };
-    grid.setCurrent(index);
+    gridView.setCurrent(index);
 </pre>
 
+#### See Also
+> [getCurrent](/api/GridBase/getCurrent), [resetCurrent](/api/GridBase/resetCurrent)

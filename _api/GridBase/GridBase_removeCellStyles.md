@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/removeCellStyles/
+tags:
+  - cellStyle
+  - style
+  - 스타일
 ---
 
 
@@ -30,5 +34,8 @@ permalink: /api/GridBase/removeCellStyles/
 
 <pre class="prettyprint">
     var ids = ["style01", "style02", "style03"]
-    grdMain.removeCellStyles(ids);
+    gridView.removeCellStyles(ids);
 </pre>
+
+#### See Also
+> [addCellStyle](/api/GridBase/addCellStyle)

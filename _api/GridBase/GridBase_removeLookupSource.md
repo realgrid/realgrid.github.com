@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/removeLookupSource/
+tags:
+  - lookup
+  - lookupSource
 ---
 
 
@@ -30,5 +33,8 @@ permalink: /api/GridBase/removeLookupSource/
 
 <pre class="prettyprint">
     var sourceId= "empLookup";
-    grdMain.removeLookupSource(sourceId);
+    gridView.removeLookupSource(sourceId);
 </pre>
+
+#### See Also
+> [addLookupSource](/api/GridBase/addLookupSource), [ColumnLookup Demo](http://demo.realgrid.com/Demo/ColumnLookup)

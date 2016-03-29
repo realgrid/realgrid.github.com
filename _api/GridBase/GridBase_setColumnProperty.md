@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setColumnProperty/
+tags:
+  - columnProperty
+  - 컬럼설정
+  - 컬럼정보
+  - 컬럼속성
 ---
 
 
@@ -38,9 +43,8 @@ permalink: /api/GridBase/setColumnProperty/
 
 <pre class="prettyprint">
     var column = grid.columnByName("col1");
-    grid.setColumnProperty(column, "editable", false);
+    gridView.setColumnProperty(column, "editable", false);
 </pre>
 
-
-
-
+#### See Also
+> [columnByName](/api/GridBase/columnByName),[ColumnProperties](http://demo.realgrid.com/Demo/ColumnProperties)

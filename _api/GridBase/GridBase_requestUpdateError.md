@@ -5,12 +5,14 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/requestUpdateError/
+tags:
+  - error
 ---
 
 
 #### Description
 
-> UpdateError를 발생시킨다.(TEST 용)
+> UpdateError를 발생시킨다.(RealGrid+ Web TEST 용)
 
 #### Syntax
 
@@ -33,5 +35,5 @@ permalink: /api/GridBase/requestUpdateError/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.requestUpdateError(null, "This is test update exception");
+    gridView.requestUpdateError(null, "This is test update exception");
 </pre>

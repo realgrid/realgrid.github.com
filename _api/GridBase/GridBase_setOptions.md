@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setOptions/
+tags:
+  - Grid옵션
+  - option
+  - 그리드설정
 ---
 
 
@@ -50,34 +54,33 @@ permalink: /api/GridBase/setOptions/
 <pre class="prettyprint">
     var options =  {
 	    hideDeletedRows : true,
-            panel: {
-                visible: true
-            },
-            footer: {
-                visible: true
-            },
-            checkBar: {
-                visible: true
-            },
-            stateBar: {
-                visible: true
-            },
-            edit: {
-        	enterToTab:true,
-                insertable: true,
-	        appendable: true,
-	        updatable: true,
-	        deletable: true,
-	        deleteRowsConfirm: true,
-	        deleteRowsMessage: "삭제하시겠습니까 ?"		    
-	    },
-	    displayOptions:{
-	      	columnWidth : 200
-	    }
-	};
-    grid.setOptions(options);
+        panel: {
+            visible: true
+        },
+        footer: {
+            visible: true
+        },
+        checkBar: {
+            visible: true
+        },
+        stateBar: {
+            visible: true
+        },
+        edit: {
+            enterToTab:true,
+            insertable: true,
+            appendable: true,
+            updatable: true,
+            deletable: true,
+            deleteRowsConfirm: true,
+            deleteRowsMessage: "삭제하시겠습니까 ?"		    
+        },
+        displayOptions:{
+            columnWidth : 200
+        }
+    };
+    gridView.setOptions(options);
 </pre>
 
-
-
-
+#### See Also
+> [getOptions](/api/GridBase/getOptions)

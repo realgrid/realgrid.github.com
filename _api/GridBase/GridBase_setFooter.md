@@ -29,10 +29,12 @@ permalink: /api/GridBase/setFooter/
 #### Example
 
 <pre class="prettyprint">
-    grid.setFooter({
+    gridView.setFooter({
         resizable: false,
         visible: true,
         ...
     });
 </pre>
 
+#### See Also
+> [getFooter](/api/GridBase/getFooter)

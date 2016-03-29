@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setLookups/
+tags:
+  - lookup
+  - 계층
+  - lookupData
 ---
 
 
@@ -12,7 +16,7 @@ permalink: /api/GridBase/setLookups/
 
 > lookup tree에서 사용할 lookup source들을 등록한다.  
 > 추가등록되는 lookup source가 기존것과 중복되는경우 overwrite된다.  
-> ※ 기존id에 추가를 원하는 경우는 fillLookupData()를 사용한다.  
+> ※ 기존id에 추가를 원하는 경우는 [fillLookupData](/api/GridBase/fillLookupData)()를 사용한다.  
 
 #### Syntax
 
@@ -32,25 +36,59 @@ permalink: /api/GridBase/setLookups/
 #### Example
 
 <pre class="prettyprint">
-	var sources = [{
-        "id": "empLookup",
-        "levels": 2,
-        "keys": [
-            ["VINET", 5], ["VINET", 4], ["VINET", 3],
-            ["CHOPS", 5], ["CHOPS", 4], ["CHOPS", 3],
-            ["VICTE", 3], ["VICTE", 2],
-            ["HANAR", 3], ["HANAR", 2],
-            ["WELLI", 3], ["WELLI", 2]
-        ],
-        "values": [
-            "VINET_5", "VINET_4", "VINET_3",
-            "CHOPS_5", "CHOPS_4", "CHOPS_3",
-            "VICTE_3", "VICTE_2",
-            "HANAR_3", "HANAR_2",
-            "WELLI_3", "WELLI_2"
-        ]
-	}];
-	
-	grdMain.setLookups(sources);
+    dataProvider.setFields([
+        { fieldName:"field1"},
+        { fieldName:"field2"},
+        { fieldName:"text1"},
+        { fieldName:"text2"},
+        ....
+    ]);
+
+    gridView.setColumns([
+        { fieldName:"field1", name:"field1", lookupDisplay:true, lookupSourceId:"field1Data", lookupKeyFields:["field1"], editor:{type:"dropDown"}},
+        { fieldName:"field2", name:"field2", lookupDisplay:true, lookupSourceId:"field2Data", lookupKeyFields:["field1","field2"], editor:{type:"dropDown"}},
+        { fieldName:"text1", name:"text1"},
+        { fieldName:"text2", name:"text2"}
+        ....
+    ]);
+    /* field1의 셀을 수정하였을때 field2의 dropDown Editor의 목록이 변경되도록 컬럼 구성 */
+    ....
+
+    gridView.setLookups([
+        { id:"field1Data",
+          levels:1,
+          keys:["data1","data2","data3"],
+          values:["데이타1","데이타2","데이타3",],
+        },
+        { id:"field2Data",
+          levels:2,
+          keys: [
+            ["data1","data1_code1"],
+            ["data1","data1_code2"],
+            ["data1","data1_code3"],
+            ["data1","data1_code4"],
+            ["data2","data2_code1"],
+            ["data2","data2_code2"],
+            ["data3","data3_code3"],
+            ["data3","data3_code4"]
+          ],
+          values:[
+            ["데이타1_코드1"],
+            ["데이타1_코드2"],
+            ["데이타1_코드3"],
+            ["데이타1_코드4"],
+            ["데이타2_코드1"],
+            ["데이타2_코드2"],
+            ["데이타3_코드1"],
+            ["데이타3_코드2"]
+          ],
+         }
+    ]);
+    /* field1에서 data1을 선택하면 field2의 dropDown Editor에는 data1의 하위코드들만 보여진다. */
+
+
 </pre>
 
+#### See Also
+> [Lookup Tree](http://demo.realgrid.com/Demo/LookupTree)  
+> [addLookupSource](/api/GridBase/addLookupSource/), [clearLookupData](/api/GridBase/clearLookupData/), [existsLookupData](/api/GridBase/existsLookupData/), [removeLookupSource](/api/GridBase/removeLookupSource/), [fillLookupData](/api/GridBase/fillLookupData/)

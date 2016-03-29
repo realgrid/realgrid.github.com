@@ -6,6 +6,11 @@ objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setColumnHeaderOptions/
 jsonly: true
+tags:
+  - columnHeader
+  - 컬럼헤더
+  - 헤더
+  - Header
 ---
 
 
@@ -30,10 +35,12 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grid.setColumnHeaderOptions({
+    gridView.setColumnHeaderOptions({
         checkColor: "ffff0000",
         checkNoneColor: "ff00ff00",
         ...
     });
 </pre>
 
+#### See Also
+> [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions), [HeaderCheckBox](http://demo.realgrid.com/Demo/HeaderCheckbox)

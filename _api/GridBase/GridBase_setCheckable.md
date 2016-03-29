@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setCheckable/
+tags:
+  - check
+  - checkBar
+  - checkable
+  - 체크
 ---
 
 
@@ -33,6 +38,8 @@ permalink: /api/GridBase/setCheckable/
 #### Example
 
 <pre class="prettyprint">
-    grid.setCheckable(1, true);
+    gridView.setCheckable(1, true);
 </pre>
 
+#### See Also
+> [CheckBar](/api/types/CheckBar), [setCheckableExpression](/api/GridBase/setCheckableExpression)

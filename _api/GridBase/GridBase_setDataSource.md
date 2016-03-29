@@ -6,6 +6,10 @@ objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setDataSource/
 jsonly: true
+tags:
+  - dataProvider
+  - DataSource
+  - Data
 ---
 
 
@@ -31,10 +35,9 @@ jsonly: true
 
 <pre class="prettyprint">
     dataProvider = new RealGridJS.LocalDataProvider();
-    grdMain = new RealGridJS.GridView("realgrid");
-    grdMain.setDataSource(dataProvider);	
+    gridView = new RealGridJS.GridView("realgrid");
+    gridView.setDataSource(dataProvider);	
 </pre>
 
-
-
-
+#### See Also
+> [Data Loading](/tutorial/a24/)

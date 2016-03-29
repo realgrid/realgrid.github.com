@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setCheckableExpression/
+tags:
+  - check
+  - checkable
+  - 체크
+  - 체크조건
 ---
 
 
@@ -34,6 +39,9 @@ permalink: /api/GridBase/setCheckableExpression/
 #### Example
 
 <pre class="prettyprint">
-    grid.setCheckableExpression("row < 10", true);
+    gridView.setCheckableExpression("row < 10", true);
+    /* dataRow가 10이하 인경우만 체크 가능하도록 한다.*/
 </pre>
 
+#### See Also
+> [CheckBar](/api/types/CheckBar), [setCheckable](/api/GridBase/setCheckable), [resetCheckables](/api/GridBase/resetCheckables), [applyCheckables](/api/GridBase/applyCheckables)

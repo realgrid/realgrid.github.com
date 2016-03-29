@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setEditOptions/
+tags:
+  - editing
+  - edit Option
+  - 편집옵션
 ---
 
 
@@ -29,10 +33,13 @@ permalink: /api/GridBase/setEditOptions/
 #### Example
 
 <pre class="prettyprint">
-    grid.setEditOptions({
+    gridView.setEditOptions({
         deletable: true,
         readOnly: false,
         ...
     });
 </pre>
 
+#### See Also
+> [getEditOptions](/api/GridBase/getEditOptions)  
+> [데이터 편집하기](/tutorial/a23/)

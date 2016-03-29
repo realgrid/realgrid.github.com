@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/removeColumnFilters/
+tags:
+  - filter
+  - columnFilter
+  - 필터
 ---
 
 
@@ -35,7 +39,10 @@ permalink: /api/GridBase/removeColumnFilters/
 <pre class="prettyprint">
     var aColumn = grdMain.columnByField("title");
     var filters = [{name:"filter1",criteria:"value='1'"},{name:"filter2",criteria:"value='2'"}];
-    grdMain.setColumnFilters(aColumn,filters);
+    gridView.setColumnFilters(aColumn,filters);
     ...
-    grdMain.removeColumnFilters(aColumn,["filter1"]);
+    gridView.removeColumnFilters(aColumn,["filter1"]);
 </pre>
+
+#See Also
+> [setColumnFilters](/api/GridBase/setColumnFilters), [FilteringDemo](/http://demo.realgrid.com/Demo/ColumnFiltering)

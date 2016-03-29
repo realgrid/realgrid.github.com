@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/resetCurrent/
+tags:
+  - current
+  - focusCell
+  - focus
 ---
 
 
@@ -27,5 +31,8 @@ permalink: /api/GridBase/resetCurrent/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.resetCurrent();
+    gridView.resetCurrent();
 </pre>
+
+#### See Also
+> [setCurrent](/api/GridBase/setCurrent), [getCurrent](/api/GridBase/getCurrent)

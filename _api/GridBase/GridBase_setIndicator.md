@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setIndicator/
+tags:
+  - indicator
+  - 행번호표시
 ---
 
 
@@ -29,10 +32,13 @@ permalink: /api/GridBase/setIndicator/
 #### Example
 
 <pre class="prettyprint">
-    grid.setIndicator({
+    gridView.setIndicator({
         minWidth: 30,
         visible: true,
+        displayValue:"row" 
         ...
     });
 </pre>
 
+#### See Also
+> [getIndicator](/api/GridBase/getIndicator)

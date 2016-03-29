@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/resetCheckables/
+tags:
+  - check
+  - checkable
+  - 체크
 ---
 
 
@@ -14,11 +18,13 @@ permalink: /api/GridBase/resetCheckables/
 
 #### Syntax
 
-> function resetCheckables()
+> function resetCheckables(clearExpression)
 
 #### Parameters
 
-> None.
+> **clearExpression**  
+> Type: boolean  
+> true이면 CheckBarOptions의 checkableExpression을 clear시킨다.
 
 #### Return value
 
@@ -27,10 +33,12 @@ permalink: /api/GridBase/resetCheckables/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.setCheckBar({ checkableExpression: "row < 10" });
-    grdMain.applyCheckables();
+    gridView.setCheckBar({ checkableExpression: "row < 10" });
+    gridView.applyCheckables();
     ....
     
-    grdMain.resetCheckables();
+    gridView.resetCheckables();
 </pre>
 
+#### See Also
+> [CheckBar](/api/types/CheckBar), [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)

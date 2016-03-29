@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setCheckBar/
+tags:
+  - check
+  - 체크
+  - checkBar
+  - 체크바
 ---
 
 
@@ -29,10 +34,12 @@ permalink: /api/GridBase/setCheckBar/
 #### Example
 
 <pre class="prettyprint">
-    grid.setCheckBar({
+    gridView.setCheckBar({
         width: 30,
         visible: true,
         ...
     });
 </pre>
 
+#### See Also
+> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

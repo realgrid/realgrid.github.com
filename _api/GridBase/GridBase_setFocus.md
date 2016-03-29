@@ -5,13 +5,15 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setFocus/
+tags:
+  - 포커스
 ---
 
 
 #### Description
 
-> 그리드가 입력 포커스를 갖도록 합니다.   
-> ie에서만 작동한다.  
+> 그리드가 포커스를 갖도록 합니다.   
+
 
 #### Syntax
 
@@ -28,7 +30,7 @@ permalink: /api/GridBase/setFocus/
 #### Example
 
 <pre class="prettyprint">
-    grid.setFocus();
+    gridView.setFocus();
 </pre>
 
 

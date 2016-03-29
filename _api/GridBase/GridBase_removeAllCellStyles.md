@@ -5,8 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/removeAllCellStyles/
+tags:
+  - cellStyle
+  - style
+  - 스타일
 ---
-
 
 #### Description
 
@@ -27,5 +30,8 @@ permalink: /api/GridBase/removeAllCellStyles/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.removeAllCellStyles();
+    gridView.removeAllCellStyles();
 </pre>
+
+#### See Also
+> [addCellStyle](/api/GridBase/addCellStyle), [setCellStyle](/api/GridBase/setCellStyle)

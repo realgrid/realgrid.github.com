@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setGroupingOptions/
+tags:
+  - rowGrouping
+  - 그룹핑
 ---
 
 
@@ -31,7 +34,8 @@ permalink: /api/GridBase/setGroupingOptions/
 
 <pre class="prettyprint">
     var opts = {linear:true};
-    grdMain.setGroupingOptions(opts);
+    gridView.setGroupingOptions(opts);
 </pre>
 
-
+#### See Also
+> [getGroupingOptions](/api/GridBase/getGroupingOptions), [Panel](/api/types/Panel)

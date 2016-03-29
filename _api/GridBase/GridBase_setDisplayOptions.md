@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setDisplayOptions/
+tags:
+  - option
+  - displayOptions
 ---
 
 
@@ -29,10 +32,13 @@ permalink: /api/GridBase/setDisplayOptions/
 #### Example
 
 <pre class="prettyprint">
-    grid.setDisplayOptions({
+    gridView.setDisplayOptions({
         columnResizalbe: true,
+        columnMovable:false,
         rowResizalbe: false,
         ...
     });
 </pre>
 
+#### See Also
+> [getDisplayOptions](/api/GridBase/getDisplayOptions)

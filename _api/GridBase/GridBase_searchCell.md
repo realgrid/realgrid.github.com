@@ -6,6 +6,9 @@ objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/searchCell/
 jsonly: true
+tags:
+  - search
+  - 찾기
 ---
 
 
@@ -34,19 +37,21 @@ jsonly: true
     function searchHandler() {
         var value = $("#searchTxt").val();
         var fields = [ "RequestType", "ServiceCode" ];
-        var startFieldIndex = fields.indexOf(grdMain.getCurrent().fieldName) + 1;
+        var startFieldIndex = fields.indexOf(gridView.getCurrent().fieldName) + 1;
         var options = {
             fields : fields,
             value : value,
-            startItemIndex : grdMain.getCurrent().itemIndex,
+            startItemIndex : gridView.getCurrent().itemIndex,
             startFieldIndex : startFieldIndex,
             wrap : true,
             caseSensitive : false,
             partialMatch : true
         };
 
-        var index = grdMain.searchCell(options);
-        grdMain.setCurrent(index);
+        var index = gridView.searchCell(options);
+        gridVeiw.setCurrent(index);
     }
 </pre>
 
+#See Also
+> [searchitem](/api/GridBase/searchItem)

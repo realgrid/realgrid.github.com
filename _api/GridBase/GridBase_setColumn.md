@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setColumn/
+tags:
+  - 컬럼속성
+  - column
+  - 컬럼설정
 ---
 
 
@@ -32,11 +36,10 @@ permalink: /api/GridBase/setColumn/
 #### Example
 
 <pre class="prettyprint">
-    var column = grid.columnByName("col1");
+    var column = gridView.columnByName("col1");
     column.editable = false
-    grid.setColumn(column);
+    gridView.setColumn(column);
 </pre>
 
-
-
-
+#### See Also
+> [Column Properties](http://demo.realgrid.com/Demo/ColumnProperties), [setColumns](/api/GridBase/setColumns)

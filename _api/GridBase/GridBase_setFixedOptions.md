@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setFixedOptions/
+tags:
+  - option
+  - fixed
+  - 고정
 ---
 
 
@@ -29,10 +33,12 @@ permalink: /api/GridBase/setFixedOptions/
 #### Example
 
 <pre class="prettyprint">
-    grid.setFixedOptions({
+    gridView.setFixedOptions({
         colCount: 2,
         rowCount: 0,
         ...
     });
 </pre>
 
+#### See Also
+> [getFixedOptions](/api/GridBase/getFixedOptions)

@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setCellStyles/
+tags:
+  - cellStyle
+  - style
+  - dataCellStyle
 ---
 
 
@@ -20,7 +24,7 @@ permalink: /api/GridBase/setCellStyles/
 #### Parameters
 
 > **dataRow**  
-> Type: number  
+> Type: array of number  
 > 셀 스타일을 적용할 데이터 행의 번호  
 
 > **field**  
@@ -38,11 +42,13 @@ permalink: /api/GridBase/setCellStyles/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.addCellStyle("style03", {
+    gridView.addCellStyle("style03", {
         "background": "#cc880000",
         "foreground": "#ffffff",
         "fontSize": 14
     }, true);
-    grdMain.setCellStyles([6,7,8,9], [2,3,4,5,6], "style03");
+    gridView.setCellStyles([6,7,8,9], [2,3,4,5,6], "style03");
 </pre>
 
+#See Also
+> [setCellStyle](/api/GridBase/setCellStyle), [addCellStyle](/api/GridBase/addCellStyle), [DataCellStyle Overview](http://demo.realgrid.com/Demo/DataCellStyleConcept)
