@@ -7,6 +7,7 @@ directiontype: Callback
 permalink: /api/LocalDataProvider/onRowDeleted/
 tags:
   - 데이터행 삭제 후 호출
+  - 삭제 후
   - 삭제 이벤트
 ---
 

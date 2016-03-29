@@ -7,7 +7,7 @@ directiontype: Callback
 permalink: /api/LocalDataProvider/onRowMoved/
 tags:
   - 데이터행 이동 후
-  - 데이터 이동 이벤트
+  - 데이터행 이동 이벤트
   - newRow
 ---
 

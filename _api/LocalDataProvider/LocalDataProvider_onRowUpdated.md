@@ -8,7 +8,6 @@ permalink: /api/LocalDataProvider/onRowUpdated/
 tags:
   - 데이터행 수정 이벤트
   - 데이터행 수정 후
-  -
 ---
 
 
