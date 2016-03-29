@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/showEditor/
+tags:
+  - editor
+  - edit
+  - 편집기
 ---
 
 
@@ -28,8 +32,6 @@ permalink: /api/GridBase/showEditor/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.showEditor();
+    gridView.showEditor();
 </pre>
-
-
 

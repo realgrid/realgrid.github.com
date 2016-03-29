@@ -52,3 +52,5 @@ tags:
     gridView.fitColumnWidth('CustomerID', 200, 10, true);
 </pre>
 
+#### See Also
+> [GridFitting](http://demo.realgrid.com/Demo/GridFitting)

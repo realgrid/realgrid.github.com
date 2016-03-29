@@ -37,4 +37,5 @@ if (footer) {
 </pre>
 
 #### See Also
-> [setFooter](/api/GridBase/setFooter)
+> [setFooter](/api/GridBase/setFooter)  
+> [Column Footer](http://demo.realgrid.com/Demo/ColumnFooter)

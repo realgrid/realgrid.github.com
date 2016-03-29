@@ -34,6 +34,6 @@ deprecated: true
 
 <pre class="prettyprint">
 var colName = "column1";
-var header = getColumnHeader(colName);
+var header = gridView.getColumnHeader(colName);
 </pre>
 

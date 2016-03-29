@@ -50,3 +50,6 @@ if (column) {
 }
 </pre>
 
+#### See Also
+> [columnByName](/api/GridBase/columnByName), [columnByField](/api/GridBase/columnByField), [columnsByField](/api/GridBase/columnsByField), [columnsByTag](/api/GridBase/columnsByTag)
+

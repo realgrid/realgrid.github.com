@@ -33,3 +33,5 @@ tags:
     gridView.clearSelection();
 </pre>
 
+#### See Also
+> [setSelection](/api/GridBase/setSelection)

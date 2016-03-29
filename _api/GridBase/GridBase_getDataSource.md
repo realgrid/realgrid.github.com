@@ -35,6 +35,5 @@ tags:
 var provider = grid.getDataSource();
 </pre>
 
-
-
-
+#### See Also
+> [setDataSource](/api/GridBase/setDataSource)

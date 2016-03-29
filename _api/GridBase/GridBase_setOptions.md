@@ -53,7 +53,7 @@ tags:
 
 <pre class="prettyprint">
     var options =  {
-	    hideDeletedRows : true,
+        hideDeletedRows : true,
         panel: {
             visible: true
         },

@@ -5,6 +5,8 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setThrowUpdateError/
+tags:
+  - error
 ---
 
 

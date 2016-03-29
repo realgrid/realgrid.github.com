@@ -7,6 +7,7 @@ directiontype: Function
 permalink: /api/GridBase/clearLookupData/
 tags:
   - lookup
+  - lookupTree
 ---
 
 
@@ -34,3 +35,6 @@ tags:
     gridView.clearLookupData(sourceId)
 </pre>
 
+#### See Also
+> [addLookupSource](/api/GridBase/addLookupSource), [setLookups](/api/GridBase/setLookups), [existsLookupData](/api/GridBase/existsLookupData), [removeLookupSource](/api/GridBase/removeLookupSource), [fillLookupData](/api/GridBase/fillLookupData)  
+> [LookupTree](http://demo.realgrid.com/Demo/LookupTree)

@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setPasteOptions/
+tags:
+  - clipboard
+  - paste
+  - 붙여넣기
 ---
 
 
@@ -29,10 +33,13 @@ permalink: /api/GridBase/setPasteOptions/
 #### Example
 
 <pre class="prettyprint">
-    grid.setPasteOptions({
+    gridView.setPasteOptions({
         singleMode: false,
         enableAppend: false,
         ...
     });
 </pre>
 
+#### See Also
+> [getPasteOptions](/api/GridBase/getPasteOptions), [getCopyCoptions](/api/GridBase/getCopyOptions), [setCopyOptions](/api/GridBase/setCopyOptions)  
+> [Copy &amp; Paste Demo](http://demo.realgrid.com/Demo/CopyAndPaste)

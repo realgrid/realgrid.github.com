@@ -7,6 +7,7 @@ directiontype: Function
 permalink: /api/GridBase/addCellRenderers/
 tags:
   - cellRenderer
+  - 렌더러
 ---
 
 
@@ -85,5 +86,5 @@ tags:
 </pre>
 
 #### See Also
-
+> [Cell Renderer](/api/features/Cell%20Renderer)  
 > [RendererWithStyles](http://demo.realgrid.com/Demo/RendererWithStyles) 참조

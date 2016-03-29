@@ -48,3 +48,6 @@ tags:
     gridView.expandModel(aModel, true, true);
 </pre>
 
+#### See Also
+> [getModel](/api/GridBase/GetModel), [getParentModel](/api/GridBase/getParentModel), [collapseModel](/api/GridBase/expandModel)  
+> [ItemMoelApi](http://demo.realgrid.com/Demo/ItemModelApi)

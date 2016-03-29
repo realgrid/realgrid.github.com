@@ -38,3 +38,6 @@ tags:
     idx = gridView.getCurrent().itemIndex;
     consloe.log(grdMain.getItemState(idx));
 </pre>
+
+#### See Also
+> [getRowState](/api/dataProvider/getRowState)

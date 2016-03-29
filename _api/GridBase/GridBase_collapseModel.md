@@ -47,3 +47,6 @@ tags:
     }
 </pre>
 
+#### See Also
+> [getModel](/api/GridBase/GetModel), [expandModel](/api/GridBase/expandModel)  
+> [ItemMoelApi](http://demo.realgrid.com/Demo/ItemModelApi)

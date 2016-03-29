@@ -46,5 +46,6 @@ var tag= "numField";
 var columns = gridView.columnByTag(tag);
 </pre>
 
-
+#### See Also
+> [columnByName](/api/GridBase/columnByName), [columnByField](/api/GridBase/columnByField), [columnByTag](/api/GridBase/columnByTag), [columnsByField](/api/GridBase/columnsByField)
 

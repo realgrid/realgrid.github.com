@@ -39,3 +39,5 @@ tags:
     var rowId = gridView.getDataRow(itemIndex);
 </pre>
 
+#### See Also
+> [getItemIndex](/api/GridBase/getItemIndex)

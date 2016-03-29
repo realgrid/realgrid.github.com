@@ -37,6 +37,5 @@ tags:
     gridView.commitEditor(true);
 </pre>
 
-
-
-
+#### See Also
+> [commit](/api/GridBase/commit), [cancelEditor](/api/GridBase/cancelEditor)  

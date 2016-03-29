@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setStyles/
+tags:
+  - style
+  - 스타일
+  - 색상변경
+  - 모양변경
 ---
 
 
@@ -29,7 +34,16 @@ permalink: /api/GridBase/setStyles/
 #### Example
 
 <pre class="prettyprint">
-    grd.setStyles({
+    gridView.setStyles({
+        body:{
+            dynamicStyles:[
+                {   criteria:"row mod 2 = 0",
+                    styles:{
+                        background:"#FFFEFFBB"
+                    }
+                }
+            ]
+        },
         header: { "fontSize": "12", "fontFamily": "맑은 고딕", "fontBold": "true"},
         selection: {
             background: "#11000000",
@@ -45,3 +59,6 @@ permalink: /api/GridBase/setStyles/
     });
 </pre>
 
+#### See Also
+> [getStyles](/api/GridBase/getStyles)  
+> [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)

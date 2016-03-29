@@ -5,6 +5,10 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setSortingOptions/
+tags:
+  - sort
+  - sortOption
+  - 정렬
 ---
 
 
@@ -29,10 +33,13 @@ permalink: /api/GridBase/setSortingOptions/
 #### Example
 
 <pre class="prettyprint">
-    grid.setSortingOptions({
+    gridView.setSortingOptions({
         enabled: true,
         style: "exclusive",
         ...
     });
 </pre>
 
+#### See Also
+> [getSortingOptions](/api/GridBase/getSortingOptions)  
+> [Sort Demo](http://demo.realgrid.com/Demo/ColumnSorting)

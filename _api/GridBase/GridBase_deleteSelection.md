@@ -35,6 +35,8 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.deleteSelection(true);
+    gridView.deleteSelection(true);
 </pre>
 
+#### See Also
+> [setSelection](/api/GridBase/setSelection), [clearSelection](/api/GridBase/clearSelection)

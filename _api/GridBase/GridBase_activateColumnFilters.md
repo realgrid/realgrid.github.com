@@ -39,9 +39,12 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var aColumn = grdMain.columnByField("content");
-    grdMain.activateColumnFilters(aColumn, ["filter1", "filter2", "filter3"], true);
+    var aColumn = gridView.columnByField("content");
+    gridView.activateColumnFilters(aColumn, ["filter1", "filter2", "filter3"], true);
     ....
-    grdMain.activateColumnFilters("col1", "filter1", false);
+    gridView.activateColumnFilters("col1", "filter1", false);
 </pre>
 
+#### See Also
+> [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters), [setColumnFilters](/api/GridBase/setColumnFilters), [clearColumnFilters](/api/GridBase/setColumnFilters)  
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

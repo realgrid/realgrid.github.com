@@ -5,12 +5,14 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setVisible/
+tags:
+  - visible
 ---
 
 
 #### Description
 
-> 그리드를 표시하거나 감춘다.
+> 그리드를 표시하거나 감춘다.  
 
 #### Syntax
 
@@ -29,6 +31,6 @@ permalink: /api/GridBase/setVisible/
 #### Example
 
 <pre class="prettyprint">
-    grid.setVisible(false);
+    gridView.setVisible(false);
 </pre>
 

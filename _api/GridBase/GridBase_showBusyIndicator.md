@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/showBusyIndicator/
+tags:
+  - RealGrid+
+  - BusyIndicator
 ---
 
 

@@ -45,3 +45,6 @@ tags:
     gridView.checkRow(0,true,false);    
 </pre>
 
+#### See Also
+> [checkRows](/api/GridBase/checkRows)  
+> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

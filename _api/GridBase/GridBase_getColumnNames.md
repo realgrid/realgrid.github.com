@@ -37,7 +37,5 @@ tags:
 var columnNames = gridView.getColumnNames(false);
 </pre>
 
-
-
-
-
+#### See Also
+> [getColumns](/api/GridBase/getColumns), [getColumnGroupNames](/api/GridBase/getColumnGroupNames)

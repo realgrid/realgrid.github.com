@@ -44,4 +44,6 @@ tags:
 </pre>
 
 #### See Also
-> [Grid Item](/api/features/Grid%20Item/)
+> [getModel](/api/GridBase/getModel), [getModelAs](/api/GridBase/getModelAs), [getParentModel](/api/GridBase/getParentModel)  
+> [Grid Item](/api/features/Grid%20Item/)  
+> [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)

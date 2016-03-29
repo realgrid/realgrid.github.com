@@ -7,6 +7,8 @@ directiontype: Function
 permalink: /api/GridBase/activateAllColumnFilters/
 tags:
   - filter
+  - 필터
+  - activeFilter
 ---
 
 
@@ -43,3 +45,6 @@ tags:
     grdMain.activateAllColumnFilters("content",false);
 </pre>
 
+#### See Also
+> [activateColumnFilters](/api/GridBase/activateColumnFilters), [setColumnFilters](/api/GridBase/setColumnFilters), [clearColumnFilters](/api/GridBase/setColumnFilters)  
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

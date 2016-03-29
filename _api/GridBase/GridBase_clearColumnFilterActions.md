@@ -35,3 +35,7 @@ tags:
     gridView.clearColumnFilterActions("OrderID")
 </pre>
 
+#### See Also
+> [setColumnFilterActions](/api/GridBase/setColumnFilterActions)  
+> [ColumnFilterAction](/api/types/ColumnFilterAction/)  
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

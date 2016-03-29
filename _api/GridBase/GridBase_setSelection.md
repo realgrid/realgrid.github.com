@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setSelection/
+tags:
+  - select
+  - 범위선택
 ---
 
 
@@ -31,6 +34,8 @@ permalink: /api/GridBase/setSelection/
 
 <pre class="prettyprint">
         var sel = {startItem: 0, endItem: 10, style: "rows"};
-        grdMain.setSelection(sel);
+        gridView.setSelection(sel);
 </pre>
 
+#### See Also
+> [getSelection](/api/GridBase/getSelection), [getSelectionData](/api/GridBase/getSelectionData)

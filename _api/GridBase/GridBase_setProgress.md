@@ -6,6 +6,9 @@ objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setProgress/
 jsonly: true
+tags:
+  - 진행
+  - progress
 ---
 
 
@@ -42,21 +45,21 @@ jsonly: true
 #### Example
 
 <pre class="prettyprint">
-    grdMain.showProgress();
+    gridView.showProgress();
 
     $.ajax({
         type: "GET",
         url: "http://" + location.host + "/Demo/GetCustomOrders?__date__=" + new Date().getTime(),
         dataType: "json",
         success: function (data) {
-            grdMain.closeProgress();
+            gridView.closeProgress();
             provider.fillJsonData(data, {
                 start: 1,
                 count : 10
             });
             var count = provider.getRowCount();
             $("#loadResult").css("color", "green").text(parseInt(count).toLocaleString() + " rows loaded.").show();
-            grdMain.setFocus();
+            gridView.setFocus();
         },
         error: function (xhr, status, error) {
             var err = xhr + ', ' + status + ', ' + error;
@@ -64,7 +67,7 @@ jsonly: true
             $("#loadResult").css("color", "red").text("Load failed: " + err).show();
         },
         complete: function (data) {
-            grdMain.closeProgress();
+            gridView.closeProgress();
         },
         xhr: function () {
             var xhr = new window.XMLHttpRequest();
@@ -72,13 +75,16 @@ jsonly: true
             xhr.addEventListener("progress", function (evt) {
                 if (evt.lengthComputable) {
                     if (evt.loaded > evt.total / 2) {
-                        grdMain.setProgress(0, evt.total, evt.loaded, "Loading...");
+                        gridView.setProgress(0, evt.total, evt.loaded, "Loading...");
                     } else {
-                        grdMain.setProgress(0, evt.total, evt.loaded);
+                        gridView.setProgress(0, evt.total, evt.loaded);
                     }
                 }
             }, false);
             return xhr;
         }
-    });</pre>
+    });
+</pre>
 
+#### See Also
+> [showProgress](/api/GridBase/showProgress), [closeProgress](/api/GridBase/closeProgress)

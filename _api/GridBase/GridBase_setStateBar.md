@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setStateBar/
+tags:
+  - stateBar
+  - 상태바
 ---
 
 
@@ -29,10 +32,13 @@ permalink: /api/GridBase/setStateBar/
 #### Example
 
 <pre class="prettyprint">
-    grid.setStateBar({
+    gridView.setStateBar({
         width: 20,
         visible: true,
         ...
     });
 </pre>
 
+#### See Also
+> [getStateBar](/api/GridBase/getStateBar), [getRowState](/api/DataProvider/getRowState), [setRowState](/api/DataProvider/setRowState)  
+> [StateBar Demo](http://demo.realgrid.com/Demo/StateBar)

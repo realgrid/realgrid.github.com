@@ -38,3 +38,6 @@ tags:
         /* values의 경우 현재 편집중인 row의 값들을 Object형태로 가져온다. 편집중인 셀의 값은 가져올수 없다. */
     }
 </pre>
+
+#### See Also
+> [setValue](/api/GridBase/setValue), [getValue](/api/GridBase/getValue), [getValues](/api/GridBase/getValues)

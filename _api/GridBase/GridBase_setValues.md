@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setValues/
+tags:
+  - 편집
+  - edit
+  - values
+  - 값설정
 ---
 
 
@@ -39,10 +44,10 @@ permalink: /api/GridBase/setValues/
 #### Example
 
 <pre class="prettyprint">
-     var txt = {company : undefined, first_name : "first", last_name : "abc"};
-     grdMain.setValues(0, values, true);
+     var values = {company : undefined, first_name : "first", last_name : "abc"};
+     gridView.setValues(0, values, true);
 </pre>
 
-
-
+#### See Also
+> [setValue](/api/GridBase/setValue), [getValues](/api/GridView/getValues)
 

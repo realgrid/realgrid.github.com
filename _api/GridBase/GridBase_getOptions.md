@@ -34,3 +34,6 @@ tags:
 var options = gridView.getOptions();
 alert(JSON.stringify(options));
 </pre>
+
+#### See Also
+> [setOptions](/api/GridBase/setOptions)

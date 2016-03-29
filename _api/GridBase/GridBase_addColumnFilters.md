@@ -50,3 +50,6 @@ tags:
     });
 </pre>
 
+#### See Also
+> [toggleAllColumnFilters](/api/GridBase/toggleColumnFilters), [setColumnFilters](/api/GridBase/setColumnFilters), [clearColumnFilters](/api/GridBase/clearColumnFilters), [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters), [activateColumnFilters](/api/GridBase/activateColumnFilters)  
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/showToast/
+tags:
+  - toast
+  - 메세지창
 ---
 
 
@@ -19,7 +22,7 @@ permalink: /api/GridBase/showToast/
 #### Parameters
 
 > **options**  
-> Type: [ToastOptions](/api/types/ToastOptions/)  
+> Type: [ToastOptions](/api/types/ToastOptions/)\|String  
 > 메시지와 메시지 표시여부를 지정, 기본적으로 메시지만 지정해도 된다.  
 
 > **force**  
@@ -37,3 +40,5 @@ permalink: /api/GridBase/showToast/
     gridView.showToast("toast 창을 표시합니다.");
 </pre>
 
+#### See Also
+> [hideToast](/api/GridBase/hideToast)

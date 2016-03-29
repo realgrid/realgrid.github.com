@@ -8,6 +8,7 @@ permalink: /api/GridBase/getModelAs/
 tags:
   - model
   - itemModel
+  - 아이템모델
 ---
 
 
@@ -53,4 +54,6 @@ tags:
 
 
 #### See Also
-> [Grid Item](/api/features/Grid%20Item/)
+> [getModel](/api/GridBase/getModel), [getParentModel](/api/GridBase/getParentModel)  
+> [Grid Item](/api/features/Grid%20Item/)  
+> [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)

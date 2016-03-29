@@ -44,5 +44,5 @@ tags:
 </pre>
 
 #### See Also
-> [Grid Item](/api/features/Grid%20Item/)
-
+> [Grid Item](/api/features/Grid%20Item/)  
+> [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)

@@ -5,6 +5,11 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/toggleColumnFilters/
+tags:
+  - filter
+  - 필터
+  - 컬럼필터
+  - columnFilter
 ---
 
 
@@ -33,8 +38,25 @@ permalink: /api/GridBase/toggleColumnFilters/
 #### Example
 
 <pre class="prettyprint">
-    grdMain.toggleColumnFilters('CustomerID', ["VINET", "VICTE"]);
+    gridView.setColumns([
+        { fieldName:"field1", 
+          name:"column1", 
+          filters:[
+            {  name:"filter1",
+               criteria:"value='11'",
+               active:true  },
+            {  name:"filter2",
+               criteria:"value='12'",
+               active:false  },
+            {  name:"filter3",
+               criteria:"value='13'"  }
+          ]
+        }
+    ]);
+    ...
+    gridView.toggleColumnFilters("column1",["filter1","filter2"]);
 </pre>
 
-
-
+#### See Also
+> [toggleAllColumnFilters](/api/GridBase/toggleColumnFilters), [setColumnFilters](/api/GridBase/setColumnFilters), [clearColumnFilters](/api/GridBase/clearColumnFilters), [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters), [activateColumnFilters](/api/GridBase/activateColumnFilters)  
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

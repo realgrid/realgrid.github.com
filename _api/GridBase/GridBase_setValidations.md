@@ -5,6 +5,12 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setValidations/
+tags:
+  - validation
+  - 검증
+  - 검사
+  - commit
+  - 편집
 ---
 
 
@@ -29,12 +35,26 @@ permalink: /api/GridBase/setValidations/
 #### Example
 
 <pre class="prettyprint">
-    grid.setValidations([{
-        criteria: "value > 100",
-        message: "Quantity는 100보다 커야 합니다!",
+    validations = [{
+        criteria: "value['CustomerID'] is not empty",
+        message: "CustomerID는 반드시 필요합니다.",
         mode: "always",
         level: "error"
     }, {
-    ]);
+        criteria: "(values['Quantity'] >= 100) and (values['UnitPrice'] >= 50)",
+        message: "Quantity는 100보다 크고 UnitPrice는 50보다 커야합니다!",
+        mode: "always",
+        level: "error"
+    }, {
+        criteria: "values['Quantity'] <= 200",
+        message: "Quantity는 200보다 작아야 합니다",
+        mode: "always",
+        level: "warning"
+    }];
+ 
+    gridView.setValidations(validations);
 </pre>
 
+#### See Also
+> [EditRowValidation Demo](http://demo.realgrid.com/Demo/EditRowValidation)  
+> [Expression](http://demo.realgrid.com/Demo/ExpressionConcept)

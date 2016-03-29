@@ -42,7 +42,6 @@ if (column) {
 }
 </pre>
 
-
-
-
+#### See Also
+> [columnByName](/api/GridBase/columnByName), [columnByTag](/api/GridBase/columnByTag), [columnsByField](/api/GridBase/columnsByField), [columnsByTag](/api/GridBase/columnsByTag)
 

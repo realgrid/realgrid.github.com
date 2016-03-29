@@ -31,3 +31,5 @@ permalink: /api/GridBase/getEditorOptions/
 var options = grid.getEditorOptions();
 </pre>
 
+#### See Also
+> [setEditorOptions](/api/GridBase/setEditorOptions)

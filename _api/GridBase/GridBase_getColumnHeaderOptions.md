@@ -37,3 +37,6 @@ tags:
     	alert(JSON.stringify(options));
     }
 </pre>
+
+#### See Also
+> [setColumnHeaderOptions](/api/GridBase/setColumnHeaderOptions)

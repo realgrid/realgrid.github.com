@@ -38,4 +38,5 @@ if (options) {
 </pre>
 
 #### See Also
-> [setFilteringOptions](/api/GridBase/setFilteringOptions)
+> [setFilteringOptions](/api/GridBase/setFilteringOptions)  
+> [Column Filtering](http://demo.realgrid.com/Demo/ColumnFiltering)

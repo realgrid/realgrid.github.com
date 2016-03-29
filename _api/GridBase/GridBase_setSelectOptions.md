@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setSelectOptions/
+tags:
+  - select
+  - 범위선택
 ---
 
 
@@ -29,9 +32,12 @@ permalink: /api/GridBase/setSelectOptions/
 #### Example
 
 <pre class="prettyprint">
-    grid.setSelectOptions({
+    gridView.setSelectOptions({
         style: "rows"
         ...
     });
 </pre>
 
+#### See Also
+> [getSelectOptions](/api/GridBase/getSelectOptions)  
+> [Selecting Demo](http://demo.realgrid.com/Demo/Selecting)

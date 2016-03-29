@@ -36,3 +36,6 @@ tags:
     gridView.clearStyles("header");
 </pre>
 
+#### See Also
+> [setStyles](/api/GridBase/setStyles)  
+> [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)

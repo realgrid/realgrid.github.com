@@ -62,3 +62,5 @@ tags:
 	});
 </pre>
 
+#### Seel Also
+> [showProgress](/api/GridBase/showProgress), [setProgress](/api/GridBase/setProgress)

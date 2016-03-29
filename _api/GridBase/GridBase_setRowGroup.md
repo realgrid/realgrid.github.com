@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setRowGroup/
+tags:
+  - rowGroup
+  - 로우그룹
 ---
 
 
@@ -29,10 +32,13 @@ permalink: /api/GridBase/setRowGroup/
 #### Example
 
 <pre class="prettyprint">
-    grid.setRowGroup({
+    gridView.setRowGroup({
         mergeExpander: true,
         mergeMode: true,
         ...
     });
 </pre>
 
+#### See Also
+> [getRowGroup](/api/GridBase/getRowGroup)  
+> [RowGrouping Demo](http://demo.realgrid.com/Demo/RowGrouping)

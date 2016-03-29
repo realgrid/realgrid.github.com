@@ -35,3 +35,6 @@ tags:
     gridView.clearColumnFilters("content");
 </pre>
 
+#### See Also
+> [setColumnFilters](/api/GridBase/setColumnFilters)    
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

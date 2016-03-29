@@ -84,4 +84,5 @@ tags:
 </pre>
 
 #### See Also
-> [SearchCellEditor](/api/types/SearchCellEditor/) 참조
+> [SearchCellEditor](/api/types/SearchCellEditor/) 참조  
+> [onEditSearch](/api/GridBase/onEditSearch)
