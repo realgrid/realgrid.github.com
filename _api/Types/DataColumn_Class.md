@@ -7,6 +7,10 @@ order: DataColumn
 objectname: 
 directiontype: 
 permalink: /api/types/DataColumn/
+tags:
+    - 컬럼
+    - 열
+    - column
 ---
 
 #### Description
@@ -223,7 +227,7 @@ permalink: /api/types/DataColumn/
 > **editor**  
 > Type: [CellEditor](/api/types/CellEditor)  
 > Default:  null     
-> 컬럼 데이터셀들의 값을 입력하는 [CellEditor](/api/types/CellEditor)의 종류를 지정한다.      
+> 컬럼 데이터셀들의 값을 입력하는 [CellEditor](/api/types/CellEditor)의 종류를 지정한다      
 
 > **renderer**  
 > Type: [CellRenderer](/api/types/CellRenderer)  
@@ -239,3 +243,38 @@ permalink: /api/types/DataColumn/
 > Type: Array of [EditValidation](/api/types/EditValidation)  
 > Default:  null     
 > 이 컬럼에 적용할 [EditValidation](/api/types/EditValidation) 목록을 지정한다.     
+
+#### Examples
+
+**컬럼을 생성하는 기본적인 방법**
+
+<pre class="prettyprint">
+var columns = [{
+    name: "column1",
+    fieldName: "field1",
+    header: "컬럼 타이틀"
+}];
+
+gridView.setColumns(columns);
+</pre>
+
+**행 추가시 유동적인 컬럼의 기본값 입력 하는 방법** : 고정적인 기본값을 입력할 경우, 컬럼을 생성할때 defaultValue에 기본값을 지정하면 된다. 하지만, 행이 추가되는 시점에 기본값이 결정된다면 GridBase.onRowInserting() 이벤트에서 defaultValue를 변경하는 방법으로 기본값을 지정할 수 있다.
+
+<pre class="prettyprint">
+//그리드에 행이 추가되는 시점에 발생하는 이벤트
+gridView.onRowInserting = function(grid, itemIndex) {
+    //새로운 행이 추가될때 동적으로 생성된 코드를 입력하는 방법
+    var newCode = "CD002"; // "CD002"가 동적으로 생성된 코드라고 가정
+    grid.setColumnProperty("column1", "defaultValue", newCode);
+}
+</pre>
+
+#### See Also
+
+> [A2 컬럼 만들기](/tutorial/a2/)   
+> [A3 컬럼이름 바꾸기](/tutorial/a3/)   
+>
+> [GridBase.setColumn()](/api/GridBase/setColumn)
+> [GridBase.getColumnProperty()](/api/GridBase/getColumnProperty)   
+> [GridBase.setColumnProperty()](/api/GridBase/setColumnProperty)
+
