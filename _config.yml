@@ -19,7 +19,7 @@ collections:
 
 type_names:
   - Constants
-  - Config Classes
+  - Classes
   - Cell Renderers
   - Cell Editors
 
