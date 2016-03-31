@@ -2,7 +2,7 @@
 layout: apipost
 title: Indicator
 part: Types
-typename: Config Classes
+typename: Classes
 order: Indicator
 objectname: 
 directiontype: 

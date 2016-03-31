@@ -2,7 +2,7 @@
 layout: apipost
 title: ToastOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: ToastOptions
 objectname: 
 directiontype: 

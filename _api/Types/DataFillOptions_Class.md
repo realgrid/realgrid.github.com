@@ -2,7 +2,7 @@
 layout: apipost
 title: DataFillOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: DataFillOptions
 objectname: 
 directiontype: 

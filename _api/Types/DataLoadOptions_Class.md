@@ -2,7 +2,7 @@
 layout: apipost
 title: DataLoadOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: DataLoadOptions
 objectname: 
 directiontype: 

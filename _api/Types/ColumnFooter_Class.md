@@ -2,7 +2,7 @@
 layout: apipost
 title: ColumnFooter
 part: Types
-typename: Config Classes
+typename: Classes
 order: ColumnFooter
 objectname: 
 directiontype: 

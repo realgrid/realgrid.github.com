@@ -2,7 +2,7 @@
 layout: apipost
 title: SearchOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: SearchOptions
 objectname: 
 directiontype: 

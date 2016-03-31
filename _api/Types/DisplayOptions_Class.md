@@ -2,7 +2,7 @@
 layout: apipost
 title: DisplayOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: DisplayOptions
 objectname: 
 directiontype: 

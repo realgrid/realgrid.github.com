@@ -2,7 +2,7 @@
 layout: apipost
 title: PasteOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: PasteOptions
 objectname: 
 directiontype: 

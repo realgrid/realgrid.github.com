@@ -2,7 +2,7 @@
 layout: apipost
 title: DataColumn
 part: Types
-typename: Config Classes
+typename: Classes
 order: DataColumn
 objectname: 
 directiontype: 
@@ -258,7 +258,8 @@ var columns = [{
 gridView.setColumns(columns);
 </pre>
 
-**행 추가시 유동적인 컬럼의 기본값 입력 하는 방법** : 고정적인 기본값을 입력할 경우, 컬럼을 생성할때 defaultValue에 기본값을 지정하면 된다. 하지만, 행이 추가되는 시점에 기본값이 결정된다면 GridBase.onRowInserting() 이벤트에서 defaultValue를 변경하는 방법으로 기본값을 지정할 수 있다.
+**행 추가시 유동적인 컬럼의 기본값 입력 하는 방법**   
+고정적인 기본값을 입력할 경우, 컬럼을 생성할때 defaultValue에 기본값을 지정하면 된다. 하지만, 행이 추가되는 시점에 기본값이 결정된다면 GridBase.onRowInserting() 이벤트에서 defaultValue를 변경하는 방법으로 기본값을 지정할 수 있다.
 
 <pre class="prettyprint">
 //그리드에 행이 추가되는 시점에 발생하는 이벤트

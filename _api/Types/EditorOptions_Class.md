@@ -2,7 +2,7 @@
 layout: apipost
 title: EditorOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: EditorOptions
 objectname: 
 directiontype: 

@@ -2,7 +2,7 @@
 layout: apipost
 title: DataOuptputOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: DataOuptputOptions
 objectname: 
 directiontype: 

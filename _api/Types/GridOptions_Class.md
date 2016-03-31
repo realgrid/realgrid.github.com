@@ -2,7 +2,7 @@
 layout: apipost
 title: GridOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: GridOptions
 objectname: 
 directiontype: 

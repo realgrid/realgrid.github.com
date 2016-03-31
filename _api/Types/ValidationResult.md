@@ -2,7 +2,7 @@
 layout: apipost
 title: ValidationResult
 part: Types
-typename: Config Classes
+typename: Classes
 order: ValidationResult
 objectname: 
 directiontype: 

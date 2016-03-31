@@ -2,7 +2,7 @@
 layout: apipost
 title: EditValidation
 part: Types
-typename: Config Classes
+typename: Classes
 order: EditValidation
 objectname: 
 directiontype: 

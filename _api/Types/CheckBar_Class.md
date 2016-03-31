@@ -2,7 +2,7 @@
 layout: apipost
 title: CheckBar
 part: Types
-typename: Config Classes
+typename: Classes
 order: CheckBar
 objectname: 
 directiontype: 

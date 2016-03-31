@@ -2,7 +2,7 @@
 layout: apipost
 title: Footer
 part: Types
-typename: Config Classes
+typename: Classes
 order: Footer
 objectname: 
 directiontype: 

@@ -2,7 +2,7 @@
 layout: apipost
 title: DynamicStyle
 part: Types
-typename: Config Classes
+typename: Classes
 order: DynamicStyle
 objectname: 
 directiontype: 

@@ -2,7 +2,7 @@
 layout: apipost
 title: DataField
 part: Types
-typename: Config Classes
+typename: Classes
 order: DataField
 objectname: 
 directiontype: 

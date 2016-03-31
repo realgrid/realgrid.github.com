@@ -2,7 +2,7 @@
 layout: apipost
 title: Config Classes OverView
 part: Types
-typename: Config Classes
+typename: Classes
 order: A1
 objectname: 
 directiontype: 

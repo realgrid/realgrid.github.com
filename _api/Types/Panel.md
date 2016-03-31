@@ -2,7 +2,7 @@
 layout: apipost
 title: Panel
 part: Types
-typename: Config Classes
+typename: Classes
 order: Panel
 objectname: 
 directiontype: 

@@ -2,7 +2,7 @@
 layout: apipost
 title: MenuItem
 part: Types
-typename: Config Classes
+typename: Classes
 order: MenuItem
 objectname: 
 directiontype: 

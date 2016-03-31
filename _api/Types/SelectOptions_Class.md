@@ -2,7 +2,7 @@
 layout: apipost
 title: SelectOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: SelectOptions
 objectname: 
 directiontype: 

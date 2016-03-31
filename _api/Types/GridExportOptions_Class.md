@@ -2,7 +2,7 @@
 layout: apipost
 title: GridExportOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: GridExportOptions
 objectname: 
 directiontype: 

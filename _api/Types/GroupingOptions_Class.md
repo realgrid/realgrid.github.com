@@ -2,7 +2,7 @@
 layout: apipost
 title: GroupingOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: GroupingOptions
 objectname: 
 directiontype: 

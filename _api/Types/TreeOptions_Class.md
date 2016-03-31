@@ -2,7 +2,7 @@
 layout: apipost
 title: TreeOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: TreeOptions
 objectname: 
 directiontype: 

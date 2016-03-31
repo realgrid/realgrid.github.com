@@ -2,7 +2,7 @@
 layout: apipost
 title: FilteringOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: FilteringOptions
 objectname: 
 directiontype: 

@@ -2,7 +2,7 @@
 layout: apipost
 title: CellIndex
 part: Types
-typename: Config Classes
+typename: Classes
 order: CellIndex
 objectname: 
 directiontype: 

@@ -2,7 +2,7 @@
 layout: apipost
 title: StateBar
 part: Types
-typename: Config Classes
+typename: Classes
 order: StateBar
 objectname: 
 directiontype: 

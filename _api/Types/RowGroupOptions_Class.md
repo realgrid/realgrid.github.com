@@ -2,7 +2,7 @@
 layout: apipost
 title: RowGroupOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: RowGroupOptions
 objectname: 
 directiontype: 

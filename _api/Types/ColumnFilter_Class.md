@@ -2,7 +2,7 @@
 layout: apipost
 title: ColumnFilter
 part: Types
-typename: Config Classes
+typename: Classes
 order: ColumnFilter
 objectname: 
 directiontype: 

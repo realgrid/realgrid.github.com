@@ -2,7 +2,7 @@
 layout: apipost
 title: CopyOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: CopyOptions
 objectname: 
 directiontype: 

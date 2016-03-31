@@ -2,7 +2,7 @@
 layout: apipost
 title: SortingOptions
 part: Types
-typename: Config Classes
+typename: Classes
 order: SortingOptions
 objectname: 
 directiontype: 

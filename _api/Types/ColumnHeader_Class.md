@@ -2,7 +2,7 @@
 layout: apipost
 title: ColumnHeader
 part: Types
-typename: Config Classes
+typename: Classes
 order: ColumnHeader
 objectname: 
 directiontype: 

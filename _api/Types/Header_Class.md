@@ -2,7 +2,7 @@
 layout: apipost
 title: Header
 part: Types
-typename: Config Classes
+typename: Classes
 order: Header
 objectname: 
 directiontype: 

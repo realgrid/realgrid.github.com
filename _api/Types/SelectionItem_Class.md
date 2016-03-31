@@ -2,7 +2,7 @@
 layout: apipost
 title: SelectionItem
 part: Types
-typename: Config Classes
+typename: Classes
 order: SelectionItem
 objectname: 
 directiontype: 
