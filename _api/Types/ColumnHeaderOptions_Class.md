@@ -54,6 +54,20 @@ permalink: /api/types/ColumnHeaderOptions/
 > Type: object
 > none, fill, hoveredNone, hoveredFill 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
 
+### Example  
+
+<pre class="prettyprint">
+    gridView.setColumnHeaderOptions({
+        checkColor: "ffff0000",
+        checkNoneColor: "ff00ff00",
+        ...
+    });
+</pre>
+
 #### See Also
 
-> [ColumnHeader Checkbox](http://demo.realgrid.com/Demo/HeaderCheckbox)
+> [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 참조  
+> [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage) 참조  
+
+> [setColumnHeaderOptions](/api/GridBase/setColumnHeaderOptions/)   
+> [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions/)   

@@ -39,3 +39,20 @@ permalink: /api/types/ContentFit/
 > Value: "auto"  
 > 이미지가 왜곡되지 않는 상태로 최대한 셀 크기에 맞춰 중앙에 정렬한다.  
 
+### Example  
+
+<pre class="prettyprint">
+    gridView.setColumnHeaderOptions({
+        checkColor: "ffff0000",
+        checkNoneColor: "ff00ff00",
+        ...
+    });
+</pre>
+
+#### See Also
+
+> [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 참조  
+> [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage) 참조  
+
+> [setColumnHeaderOptions](/api/GridBase/setColumnHeaderOptions/)   
+> [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions/)   

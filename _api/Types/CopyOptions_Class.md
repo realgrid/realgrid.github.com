@@ -33,3 +33,6 @@ permalink: /api/types/CopyOptions/
 #### See Also
 
 > [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste) 참조
+
+> [setCopyOptions](/api/GridBase/setCopyOptions/)   
+> [getCopyOptions](/api/GridBase/getCopyOptions/)   

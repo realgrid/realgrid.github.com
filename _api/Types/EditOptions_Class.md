@@ -153,3 +153,68 @@ permalink: /api/types/EditOptions/
 > Type: Number  
 > Default: NaN   
 > 편집시 표시될 폰트의 크기를 지정한다.  
+
+> **appendWhenExitLast**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **appendWhenInsertKey**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **commitWhenExitLast**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **commitWhenNoEdit**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **confirmWhenDelete**                 
+> Type: Boolean  
+> Default: true   
+>      
+
+> **crossWhenExitLast**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **editWhenClickFocused**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **editWhenFocused**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **firstCellWhenInsert**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **forceInsert**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **revertable**                 
+> Type: Boolean  
+> Default: false   
+>      
+
+> **showOnlyValidationMessage**                 
+> Type: Boolean  
+> Default: true   
+>      
+
+> **useArrowKeys**                 
+> Type: Boolean  
+> Default: true   
+>      
