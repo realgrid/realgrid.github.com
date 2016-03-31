@@ -6,7 +6,7 @@ typename: Classes
 order: A1
 objectname: 
 directiontype: 
-permalink: /api/types/Config es OverView/
+permalink: /api/types/Config Classes OverView/
 ---
 
 #### Description
