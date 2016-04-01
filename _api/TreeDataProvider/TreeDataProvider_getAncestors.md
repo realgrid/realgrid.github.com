@@ -34,3 +34,8 @@ tags:
 <pre class="prettyprint">
     var rows = treeProvider.getAncestors(22);
 </pre>
+
+---
+#### See Also
+
+> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조   
