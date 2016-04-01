@@ -270,12 +270,14 @@ gridView.onRowInserting = function(grid, itemIndex) {
 }
 </pre>
 
-#### See Also
+#### Tutorial Links
 
-> [A2 컬럼 만들기](/tutorial/a2/)   
-> [A3 컬럼이름 바꾸기](/tutorial/a3/)   
->
-> [GridBase.setColumn()](/api/GridBase/setColumn)
-> [GridBase.getColumnProperty()](/api/GridBase/getColumnProperty)   
-> [GridBase.setColumnProperty()](/api/GridBase/setColumnProperty)
+* [A2 컬럼 만들기](/tutorial/a2/)    
+* [A3 컬럼이름 바꾸기](/tutorial/a3/)   
+
+#### API Links
+
+* [GridBase.setColumn()](/api/GridBase/setColumn)   
+* [GridBase.getColumnProperty()](/api/GridBase/getColumnProperty)    
+* [GridBase.setColumnProperty()](/api/GridBase/setColumnProperty)
 
