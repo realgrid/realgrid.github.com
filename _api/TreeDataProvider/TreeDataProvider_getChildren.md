@@ -32,3 +32,8 @@ permalink: /api/TreeDataProvider/getChildren/
 <pre class="prettyprint">
     var rows = treeProvider.getChildren(3);
 </pre>
+
+---
+#### See Also
+
+> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조   

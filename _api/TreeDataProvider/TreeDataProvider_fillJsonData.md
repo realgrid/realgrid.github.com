@@ -19,7 +19,7 @@ jsonly: true
 
 #### Parameters
 
-> **data**
+> **data**  
 > Type: object  
 > Json 형태의 data.  
 

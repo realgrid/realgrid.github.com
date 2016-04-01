@@ -33,3 +33,7 @@ permalink: /api/TreeDataProvider/getDescendantCount/
     var count = treeProvider.getDescendantCount(10);
 </pre>
 
+---
+#### See Also
+
+> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조   

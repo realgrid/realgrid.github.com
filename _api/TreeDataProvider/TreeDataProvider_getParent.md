@@ -32,3 +32,8 @@ permalink: /api/TreeDataProvider/getParent/
 <pre class="prettyprint">
     var row = treeProvider.getParent(10);
 </pre>
+
+---
+#### See Also
+
+> [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"} 참조   

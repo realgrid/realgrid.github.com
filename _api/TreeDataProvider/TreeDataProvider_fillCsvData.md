@@ -68,4 +68,4 @@ jsonly: true
 ---
 #### See Also
 
-> [TreeView Load Json](http://demo.realgrid.net/Demo/TreeLoadJsonData){:target="_blank"} 참조    
+> [TreeView Load CSV](http://demo.realgrid.net/Demo/TreeLoadCsvData){:target="_blank"} 참조    
