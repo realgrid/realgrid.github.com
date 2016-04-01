@@ -7,19 +7,26 @@ order: PasteOptions
 objectname: 
 directiontype: 
 permalink: /api/types/PasteOptions/
+tags:
+    - copy
+    - paste
+    - 복사
+    - 붙여넣기
 ---
 
 
 #### Description
 
-> 붙여넣기시 사용하는 옵션 정보이다.  
+> 클립보드의 데이터를 그리드에 붙여넣을 때 사용하는 옵션이다.    
+> PasteOptions 정보를 가져오려면 [GridBase.getPasteOptions()](/api/GridBase/getPasteOptions/)함수를 사용한다.   
+> PasteOptions에 값을 지정하려면 [GridBase.setPasteOptions()](/api/GridBase/setPasteOptions/)함수를 사용한다.
 
 #### Properies
 
 > **singleMode**  
 > Type: boolean  
 > Default: false  
-> true면 클립보드의 내용과 상관없이 포커스를 갖는 셀 하나에만 값을 붙여 넣는다.  
+> true면 클립보드의 내용과 상관없이 포커스된 셀 하나에만 값을 붙여 넣는다.  
 
 > **startEdit**  
 > Type: boolean  
@@ -97,8 +104,21 @@ permalink: /api/types/PasteOptions/
 > Default: false  
 > 여러 행 붙여넣기시 그 행만큼 onEditRowPasted 이벤트의 발생 여부를 지정한다.  
 
-#### See Also
+#### Examples
 
-> [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste) 참조
+**그리드에 붙여넣기 할 때 편집 불가능한 셀에는 붙여넣기 되지 않도록 설정하기**
+
+<pre class="prettyprint">
+gridView.setPasteOptions({ checkReadOnly: true })
+</pre>
+
+#### API Links
+* [GridBase.getPasteOptions()](/api/GridBase/getPasteOptions/)
+* [GridBase.setPasteOptions()](/api/GridBase/setPasteOptions/)
+
+#### Demo Links
+* [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste)
+
+
 
   
