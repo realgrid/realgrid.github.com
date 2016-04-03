@@ -70,14 +70,27 @@ permalink: /api/types/SortingOptions/
 > Type: object
 > ascending, descending, hoveredAscending, hoveredDescending, none, hoveredNone 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
 
-#### Example
+#### Examples
+
+**다중컬럼 정렬이 가능하도록 설정하기**
 
 <pre class="prettyprint">
     var options = {};
-    options.style = "exclusive";
-    grdMain.setSortingOptions(options);
+    options.style = "inclusive";
+    gridView.setSortingOptions(options);
 </pre>
 
-#### See Also
+    
+#### API Links
+
+* [Sorting](/api/features/Sorting/)
+* [SortingOptions](/api/types/SortingOptions/)
+
+#### Tutorial Links
+
+* [A12 소팅(sorting), 데이터 정렬하기 - I 단일 컬럼 정렬](http://help.realgrid.com/tutorial/a12/)
+* [A13 소팅(sorting), 데이터 정렬하기 - II 다중 컬럼 정렬](http://help.realgrid.com/tutorial/a13/)
+
+#### Demo Links
 
 > [Column Sorting](http://demo.realgrid.net/Demo/ColumnSorting)

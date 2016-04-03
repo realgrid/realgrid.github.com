@@ -40,7 +40,17 @@ permalink: /api/types/SortStyle/
     grdMain.sortingOptions(options);
 </pre>
 
-#### See Also
+#### API Links
 
-> [Column Sorting Demo](http://demo.realgrid.net/Demo/ColumnSorting) 참조
+* [Sorting](/api/features/Sorting/)
+* [SortingOptions](/api/types/SortingOptions/)
+
+#### Tutorial Links
+
+* [A12 소팅(sorting), 데이터 정렬하기 - I 단일 컬럼 정렬](http://help.realgrid.com/tutorial/a12/)
+* [A13 소팅(sorting), 데이터 정렬하기 - II 다중 컬럼 정렬](http://help.realgrid.com/tutorial/a13/)
+
+#### Demo Links
+
+* [Column Sorting Demo](http://demo.realgrid.net/Demo/ColumnSorting)
 
