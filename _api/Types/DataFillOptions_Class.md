@@ -7,6 +7,9 @@ order: DataFillOptions
 objectname: 
 directiontype: 
 permalink: /api/types/DataFillOptions/
+tags: 
+  - FillOptions
+  - 채우기옵션
 ---
 
 #### Description
@@ -74,4 +77,36 @@ permalink: /api/types/DataFillOptions/
 > **sorting**  
 > Type: Boolean  
 > TreeProvider만 사용가능, 소트가 필요할 경우 true를 지정한다.  
+
+<pre class="prettyprint">
+    dataProvider.fillJsonData(data, {
+        quoted: true,
+        start: 0,
+        count: 10,
+        fillMode: "update",
+        fillPos: start
+    });
+</pre>
+
+<pre class="prettyprint">
+    dataProvider.fillJsonData(data, { rows: "rows", icon: "icon" });
+</pre>
+
+<pre class="prettyprint">
+    dataProvider.fillCsvData(data, { tree:"tree", icon:"icon", quoted:true,  start:1 });
+</pre>
+
+#### See Also
+> [Tree Load Json Array DataSet](http://demo.realgrid.com/Demo/TreeLoadJsonData) 참조  
+> [Tree Load CSV DataSet](http://demo.realgrid.com/Demo/TreeLoadCsvData) 참조  
+> [LazyLoadData](http://demo.realgrid.com/Demo/LazyLoadData) 참조  
+> [PagingLazyLoading2](http://demo.realgrid.com/Demo/PagingLazyLoading2) 참조  
+
+> [fillJsonData](/api/LocalDataProvider/fillJsonData/)   
+> [fillCsvData](/api/LocalDataProvider/fillCsvData/)   
+> [fillXmlData](/api/LocalDataProvider/fillXmlData/)   
+
+> [Tree fillJsonData](/api/TreeDataProvider/fillJsonData/)   
+> [Tree fillCsvData](/api/TreeDataProvider/fillCsvData/)   
+> [Tree fillXmlData](/api/TreeDataProvider/fillXmlData/)   
 

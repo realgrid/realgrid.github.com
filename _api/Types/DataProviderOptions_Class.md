@@ -7,6 +7,11 @@ order: DataLoadOptions
 objectname: 
 directiontype: 
 permalink: /api/types/DataProviderOptions/
+tags: 
+  - dataProvider
+  - setOptions
+  - Options
+  - 데이터프로바이더옵
 ---
 
 
@@ -88,3 +93,18 @@ permalink: /api/types/DataProviderOptions/
 > undefined, null, 빈문자열을 다른 값으로 인식할지의 여부를 지정한다.  
 > [restoreUpdatedStates()](/api/DataProvider/restoreUpdatedStates/)와 관계가 있다.  
 > true일때 undefined -> "값변경" -> "" 으로 변경시 rowState가 복원되지 않는다.   
+
+### Example  
+
+<pre class="prettyprint">
+	dataProvider.setOptions({
+		datetimeFormat: "yyyy-MM-dd",
+		booleanFormat: "0;1",
+		softDeleting: true
+	});	
+</pre>
+
+#### See Also
+
+> [setOptions](/api/DataProvider/setOptions/)     
+> [getOptions](/api/DataProvider/getOptions/)     

@@ -8,6 +8,13 @@ objectname:
 directiontype: 
 permalink: /api/types/DataOuptputOptions/
 jsonly: true
+tags:
+  - datetimeFormat
+  - booleanFormat
+  - 데이트타임
+  - 불린
+  - 아웃풋옵션
+  - DataOuptputOptions
 ---
 
 #### Description
@@ -41,7 +48,20 @@ jsonly: true
 > Default: ""  
 > DateTime 필드의 값이 null 일때 표현되는 값을 지정한다. 
 
+### Example  
+
+<pre class="prettyprint">
+	var options = {
+		datetimeFormat: "yyyy-MM-dd",
+		booleanFormat: "거짓;참"
+	};
+	
+	dataProvider.getOutputRows(options, 0, 10);	
+</pre>
+
 
 #### See Also
 
-> 
+> [getOutputRow](/api/LocalDataProvider/getOutputRow/)     
+> [getOutputRows](/api/LocalDataProvider/getOutputRows/)     
+

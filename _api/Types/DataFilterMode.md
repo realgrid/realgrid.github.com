@@ -7,6 +7,9 @@ order: DataFilterMode
 objectname: 
 directiontype: 
 permalink: /api/types/DataFilterMode/
+tags:
+  - filterMode
+  - 필터모드
 ---
 
 #### Description
@@ -22,4 +25,27 @@ permalink: /api/types/DataFilterMode/
 > **OR**  
 > Value: "or"  
 > 여러개의 필터중 하나의 필터라도 부합하면 나온다.  
+
+### Example  
+
+<pre class="prettyprint">
+	var filters = [
+		"value['company'] = 'Mynte'",
+		"value['gender'] = 'Female'"
+	];
+	
+	var filterMode = "and";
+	
+	dataProvider.setFilters(filters, filterMode);	
+	
+	jsonData = "../../DemoData/defaultdemodata.json";
+	$.getJSON(jsonData, {}, function(data) {
+		dataProvider.setRows(data)
+	});
+</pre>
+
+
+#### See Also
+
+> [setFilters](/api/LocalDataProvider/setFilters/)   
 
