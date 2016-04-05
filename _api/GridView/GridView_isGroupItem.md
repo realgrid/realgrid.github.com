@@ -37,3 +37,8 @@ tags:
     var bGroupItem = gridView.isGroupItem(1);
 </pre>
 
+---
+
+#### See Also
+
+> [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"} 참조

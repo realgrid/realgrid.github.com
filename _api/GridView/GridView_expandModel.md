@@ -50,3 +50,8 @@ tags:
 	    gridView.expandModel(group, recursive, force);
 </pre>
 
+---
+
+#### See Also
+
+> [ItemModelApi](http://demo.realgrid.com/Demo/ItemModelApi){:target="_blank"} 참조
