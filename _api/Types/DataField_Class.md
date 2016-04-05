@@ -7,7 +7,7 @@ order: DataField
 objectname: 
 directiontype: 
 permalink: /api/types/DataField/
-tag: 
+tags: 
     - 필드
     - datafield
     - field

@@ -7,6 +7,9 @@ order: EditOptions
 objectname: 
 directiontype: 
 permalink: /api/types/EditOptions/
+tags:
+  - EditOptions
+  - 편집옵션
 ---
 
 #### Description
@@ -24,6 +27,11 @@ permalink: /api/types/EditOptions/
 > Type: boolean   
 > Default: true   
 > true면 사용자 삭제나 GridView.deleteSelection() 실행 시 삭제 여부를 묻는 대화 상자를 먼저 호출한다. GridView.deleteSelection(true)로 호출하면 대화 상자 표시 없이 바로 삭제한다. 
+
+> **confirmWhenDelete**                 
+> Type: Boolean  
+> Default: true   
+> deleteRowsConfirm 와 같다.      
 
 > **deleteRowsMessage**   
 > Type: string   
@@ -157,32 +165,27 @@ permalink: /api/types/EditOptions/
 > **appendWhenExitLast**                 
 > Type: Boolean  
 > Default: false   
->      
+> commitWhenExitLast 가 true 일 경우 enter/tab 키로 마지막셀을 벗어날 경우 행이 추가된다.       
 
 > **appendWhenInsertKey**                 
 > Type: Boolean  
 > Default: false   
->      
+> Insert 키 입력시 해당 위치에 행이 삽입되는 것이 아니라 가장 마지막행에 추가된다.       
 
 > **commitWhenExitLast**                 
 > Type: Boolean  
 > Default: false   
->      
+> tab/enter 키로 마지막 셀을 벗어날 때 행 commit 한다.       
 
 > **commitWhenNoEdit**                 
 > Type: Boolean  
 > Default: false   
 >      
 
-> **confirmWhenDelete**                 
-> Type: Boolean  
-> Default: true   
->      
-
 > **crossWhenExitLast**                 
 > Type: Boolean  
 > Default: false   
->      
+> tab/enter 키로 마지막 셀을 벗어날 때 다음 행으로 이동한다.        
 
 > **editWhenClickFocused**                 
 > Type: Boolean  

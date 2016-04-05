@@ -7,6 +7,12 @@ order: EditorOptions
 objectname: 
 directiontype: 
 permalink: /api/types/EditorOptions/
+jsonly: true
+tags: 
+  - EditorOptions
+  - 에디터옵션
+  - 달력수정
+  - 요일수정
 ---
 
 #### Description
@@ -39,3 +45,20 @@ permalink: /api/types/EditorOptions/
 > Default: Null   
 > 달력 팝업에 표시되는 요일의 표시형태를 지정한다.   
 > ex) ['SUN', 'MON', 'TUE', 'WED'....]   
+
+### Example  
+
+<pre class="prettyprint">
+    gridView.setEditorOptions({
+        yearDisplayFormat:"{Y}년",   // "{Y} Year"
+        //monthDisplayFormat:"{M}월",  // "{M} Month"  
+        months: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
+        weekDays: ["일", "월", "화", "수", "목", "금", "토"] // ['SUN', 'MON', 'TUE', 'WED'....]  
+    });
+</pre>
+
+#### See Also
+
+> [getEditorOptions](/api/GridBase/getEditorOptions/)   
+> [setEditorOptions](/api/GridBase/setEditorOptions/)   
+ 
