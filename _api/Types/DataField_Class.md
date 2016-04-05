@@ -89,3 +89,29 @@ tags:
 > **baseYear**   
 > Type: string   
 > 년도 값이 100보다 작을 경우 기준 년도. 기본값은 2000   
+
+### Example  
+
+<pre class="prettyprint">
+    fields = [{
+        "fieldName": "OrderID",
+        "dataType": "text"
+    }, {
+        "fieldName": "OrderDate",
+        "dataType": "datetime"
+    }, {
+        "fieldName": "UnitPrice",
+        "dataType": "number"
+    }];
+ 
+    dataProvider.setFields(fields);
+</pre>
+
+#### See Also
+
+> [Data Type](http://demo.realgrid.com/Demo/DataType) 참조  
+> [Boolean Field](http://demo.realgrid.com/Demo/BooleanField) 참조  
+> [Datetime Field](http://demo.realgrid.com/Demo/DatetimeField) 참조  
+> [Subtypes](http://demo.realgrid.com/Demo/Subtypes) 참조  
+ 
+> [setFields](/api/DataProvider/setFields/)   
