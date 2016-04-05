@@ -34,3 +34,8 @@ tags:
     var page = gridView.getPage();
 </pre>
 
+---
+
+#### See Also
+
+> [Paging](http://demo.realgrid.com/Demo/PagingRealtime#){:target="_blank"} 참조

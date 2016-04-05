@@ -51,6 +51,11 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.setPaging(true, 10, -1);
+    gridView.setPaging(true, 10, -1);
 </pre>
 
+---
+
+#### See Also
+
+> [PagingOverview](http://demo.realgrid.com/Demo/PagingOverview#){:target="_blank"} 참조

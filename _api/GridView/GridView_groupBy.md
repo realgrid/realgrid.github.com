@@ -35,9 +35,12 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.groupBy(["field1", "field2"]);  // 그룹을 설정하는 경우
-    grid.groupBy([]);  // 그룹을 해제하려는 경우
+    gridView.groupBy(["field1", "field2"]);  // 그룹을 설정하는 경우
+    gridView.groupBy([]);  // 그룹을 해제하려는 경우
 </pre>
 
+---
 
+#### See Also
 
+> [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"} 참조

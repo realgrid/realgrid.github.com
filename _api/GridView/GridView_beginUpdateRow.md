@@ -31,6 +31,11 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.beginUpdateRow(0);
+    gridView.beginUpdateRow(0);
 </pre>
 
+---
+
+#### See Also
+
+> [Updating](http://demo.realgrid.com/Demo/Updating){:target="_blank"} 참조

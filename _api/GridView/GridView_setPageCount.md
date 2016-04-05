@@ -35,3 +35,8 @@ tags:
     gridView.setPageCount(10);
 </pre>
 
+---
+
+#### See Also
+
+> [Paging](http://demo.realgrid.com/Demo/PagingLazyLoading#){:target="_blank"} 참조

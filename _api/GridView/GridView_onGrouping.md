@@ -36,7 +36,7 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.onGrouping = function (grid){
+    gridView.onGrouping = function (grid){
 	    return false;
 	}
 </pre>

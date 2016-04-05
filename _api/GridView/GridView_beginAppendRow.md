@@ -29,6 +29,12 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.beginAppendRow();
+    gridView.beginAppendRow();
 </pre>
+
+---
+
+#### See Also
+
+> [Inserting](http://demo.realgrid.com/Demo/Inserting){:target="_blank"} 참조   
 

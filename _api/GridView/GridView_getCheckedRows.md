@@ -38,8 +38,11 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var rows = grid.getCheckedRows(true);
+    var rows = gridView.getCheckedRows(true);
 </pre>
 
+---
 
+#### See Also
 
+> [CheckBar](http://demo.realgrid.com/Demo/CheckBar){:target="_blank"} 참조

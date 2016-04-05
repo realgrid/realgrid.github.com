@@ -36,7 +36,12 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var count = grid.getPageCount();
-    grid.setPage(count - 1);
+    var count = gridView.getPageCount();
+    gridView.setPage(count - 1);
 </pre>
 
+---
+
+#### See Also
+
+> [Paging](http://demo.realgrid.com/Demo/PagingLazyLoading#){:target="_blank"} 참조

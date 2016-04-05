@@ -34,6 +34,11 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.beginInsertRow(0);
+    gridView.beginInsertRow(0);
 </pre>
 
+---
+
+#### See Also
+
+> [Inserting](http://demo.realgrid.com/Demo/Inserting){:target="_blank"} 참조

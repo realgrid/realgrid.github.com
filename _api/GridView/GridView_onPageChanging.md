@@ -37,7 +37,7 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.onPageChanging =  function (grid, newPage) {
+    gridView.onPageChanging =  function (grid, newPage) {
         return false;
     }
 </pre>

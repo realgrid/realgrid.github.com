@@ -160,3 +160,10 @@ var data =
 gridView.loadGrid(data);	
 </pre>
 
+---
+
+#### See Also
+
+> [LoadCsvData](http://demo.realgrid.com/Demo/LoadCsvData)<br>
+[LoadJsonData](http://demo.realgrid.com/Demo/LoadJsonData)<br>
+[LoadXmlData](http://demo.realgrid.com/Demo/LoadXmlData){:target="_blank"} 참조

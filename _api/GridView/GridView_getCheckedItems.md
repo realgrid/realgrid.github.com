@@ -35,6 +35,11 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var items = gridMain.getCheckedItems();
+    var items = gridView.getCheckedItems();
 </pre>
 
+---
+
+#### See Also
+
+> [CheckBar](http://demo.realgrid.com/Demo/CheckBar){:target="_blank"} 참조

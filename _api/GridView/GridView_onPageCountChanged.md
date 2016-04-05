@@ -37,7 +37,7 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.onPageCountChanged =  function (grid, pageCount) {
+    gridView.onPageCountChanged =  function (grid, pageCount) {
         alert("onPageCountChanged:" + pageCount);
     }
 </pre>

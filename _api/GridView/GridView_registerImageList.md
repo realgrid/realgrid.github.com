@@ -47,7 +47,11 @@ tags:
         "ve.png"
     ]);
 
-    grid.registerImageList(imgs);
+    gridView.registerImageList(imgs);
 </pre>
 
+---
 
+#### See Also
+
+> [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer#.example){:target="_blank"} 참조

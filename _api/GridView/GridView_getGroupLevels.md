@@ -31,7 +31,7 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var groupLevels = grid.getGroupLevels();
+    var groupLevels = gridView.getGroupLevels();
 </pre>
 
 

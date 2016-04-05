@@ -35,7 +35,7 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var groupIndex = grid.getGroupIndex(itemIndex);
+    var groupIndex = gridView.getGroupIndex(itemIndex);
 </pre>
 
 

@@ -34,6 +34,6 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var bGroupItem = grid.isGroupItem(1);
+    var bGroupItem = gridView.isGroupItem(1);
 </pre>
 

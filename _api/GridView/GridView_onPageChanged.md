@@ -35,7 +35,7 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    grid.onPageChanged =  function (grid, page) {
+    gridView.onPageChanged =  function (grid, page) {
         alert("Page moved to " + page);
     }
 </pre>
