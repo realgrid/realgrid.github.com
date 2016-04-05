@@ -6,6 +6,11 @@ objectname: TreeDataProvider
 directiontype: Function
 permalink: /api/TreeDataProvider/fillXmlData/
 jsonly: true
+tag:
+ - set xml
+ - load data
+ - xml 로드하기
+ - xml 불러오기
 ---
 
 
@@ -65,6 +70,7 @@ jsonly: true
 </pre>
 
 ---
+
 #### See Also
 
 > [TreeView Load Xml](http://demo.realgrid.net/Demo/TreeLoadXmlData){:target="_blank"} 참조    
