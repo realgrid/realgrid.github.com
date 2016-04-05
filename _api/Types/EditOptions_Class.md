@@ -2,7 +2,7 @@
 layout: apipost
 title: EditOptions
 part: Types
-typename: Classes
+typename: Config Classes
 order: EditOptions
 objectname: 
 directiontype: 
@@ -106,7 +106,7 @@ tags:
 > **forceAppend**    
 > Type: Boolean    
 > Default: false    
-> 변경된 내용이 없어도 appending 상태에서 항상 commit할것인지의 여부.  
+> 변경된 내용이 없어도 appending 상태에서 항상 commit 할 것인지의 여부.  
 
 > **checkable**                 
 > Type: boolean   
@@ -190,34 +190,47 @@ tags:
 > **editWhenClickFocused**                 
 > Type: Boolean  
 > Default: false   
->      
+> 한번 선택된 셀을 다시한번 선택하면 에디터가 표시된다.(더블 클릭이 아님)       
 
 > **editWhenFocused**                 
 > Type: Boolean  
 > Default: false   
->      
-
-> **firstCellWhenInsert**                 
-> Type: Boolean  
-> Default: false   
->      
+> 셀이 선택될때마다 에디터가 표시된다.      
 
 > **forceInsert**                 
 > Type: Boolean  
 > Default: false   
->      
+> 변경된 내용이 없어도 Inserting 상태에서 항상 commit 할 것인지의 여부.       
 
 > **revertable**                 
 > Type: Boolean  
 > Default: false   
->      
+> dataProvider.softDeleting = true 인 경우 삭제 상태인 행들을 ctrl+shift+del 키 입력시 원래 상태로 되돌리겠는지의 여부를 설정한다.     
 
 > **showOnlyValidationMessage**                 
 > Type: Boolean  
 > Default: true   
 >      
 
-> **useArrowKeys**                 
-> Type: Boolean  
-> Default: true   
->      
+### Example  
+
+<pre class="prettyprint">
+    gridView.setEditOptions({
+        deletable: true,
+        deleteRowsConfirm: true,
+        deleteRowsMessage: "Are you sure?",
+        insertable: true,
+        appendable: true
+    });
+</pre>
+
+#### See Also
+
+> [Inserting](http://demo.realgrid.com/Demo/Inserting) 참조  
+> [Updating Rows](http://demo.realgrid.com/Demo/Updating) 참조  
+> [Delete Rows](http://demo.realgrid.com/Demo/Deleting) 참조  
+> [Editors](http://demo.realgrid.com/Demo/Editors) 참조  
+ 
+> [setEditOptions](/api/GridBase/setColumnHeaderOptions/)   
+> [getEditOptions](/api/GridBase/getColumnHeaderOptions/)   
+
