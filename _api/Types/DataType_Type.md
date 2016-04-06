@@ -31,3 +31,24 @@ permalink: /api/types/DataType/
 > Value: "datetime"  
 > 날짜형  
 
+### Example  
+
+<pre class="prettyprint">
+    fields = [{
+        "fieldName": "OrderID",
+        "dataType": "text"
+    }, {
+        "fieldName": "OrderDate",
+        "dataType": "datetime"
+    }, {
+        "fieldName": "UnitPrice",
+        "dataType": "number"
+    }];
+ 
+    dataProvider.setFields(fields);
+</pre>
+
+#### See Also
+
+> [DataField](/api/DataProvider/DataField)    
+> [setFields](/api/DataProvider/setFields/)   
