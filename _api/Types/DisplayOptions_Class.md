@@ -7,6 +7,13 @@ order: DisplayOptions
 objectname: 
 directiontype: 
 permalink: /api/types/DisplayOptions/
+tags: 
+  - DisplayOptions
+  - 디스플레이옵션
+  - 화면옵션
+  - 행높이 조절
+  - 행높이 변경
+  - 컬럼리사이징
 ---
 
 #### Description
@@ -128,3 +135,19 @@ permalink: /api/types/DisplayOptions/
 > Type: Boolean  
 > Default: true 
 > Merged Cell에서 개별 cell 영역 표시 여부를 지정한다.    
+
+
+### Example  
+
+<pre class="prettyprint">
+    gridView.setDisplayOptions({
+        columnResizable: true,
+        columnMovable: true,
+        rowHeight: 40
+    });
+</pre>
+
+#### See Also
+
+> [setDisplayOptions](/api/GridBase/setDisplayOptions/)   
+> [getDisplayOptions](/api/GridBase/getDisplayOptions/)   

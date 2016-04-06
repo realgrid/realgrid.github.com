@@ -7,6 +7,12 @@ orderno: 0
 objectname: 
 directiontype: 
 permalink: /api/types/DateCellEditor/
+tags:
+  - DateCellEditor
+  - DateEditor
+  - 날짜에디터
+  - 달력수정
+  - 요일수정  
 ---
 
 #### Description
@@ -33,7 +39,7 @@ permalink: /api/types/DateCellEditor/
 > false이면 날짜를 선택시 grid에 날짜가 입력되고 dataProvider에는 Edit종료후 반영된다.    
 
 > **editFormat**    
-> Type: String    
+> Type: String    입
 > Default: null    
 
 > **yearDisplayFormat**    
@@ -59,3 +65,38 @@ permalink: /api/types/DateCellEditor/
 > Default: undefined   
 > 각 요일에 대한 표시 방법을 지정한다.    
 > ex> ["sun", "mon", "tue", "wed", "thr", "fri", "sat"]  
+
+### Example  
+
+<pre class="prettyprint">
+    gridView.setColumns([{
+		"name": "OrderDate",
+		"fieldName": "OrderDate",
+		"width": "180",
+		"sortable": false,
+		"editor": {
+		    "type": "date",
+		    "datetimeFormat": "yyyy.MM.dd",
+		    "yearDisplayFormat": "{Y} Year ",   
+		    "monthDisplayFormat": "{M} Month",  
+		    "months": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
+		    "weekDays": ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'] 
+		},
+		"styles": {
+		    "textAlignment": "center",
+            "datetimeFormat": "yyyy.MM.dd"
+		},
+		"header": {
+		    "text": "Date Edit",
+		    "styles": {
+		        "background": "linear,#22ffd500,#ffffd500,90"
+		    }
+		}
+    }]);
+</pre>
+
+#### See Also
+
+> [EditorOptions](/api/types/EditorOptions/)
+> [getEditorOptions](/api/GridBase/getEditorOptions/)   
+> [setEditorOptions](/api/GridBase/setEditorOptions/)   

@@ -59,6 +59,7 @@ tags:
 
 #### See Also
 
+> [DateCellEditor](/api/types/DateCellEditor/)
 > [getEditorOptions](/api/GridBase/getEditorOptions/)   
 > [setEditorOptions](/api/GridBase/setEditorOptions/)   
  

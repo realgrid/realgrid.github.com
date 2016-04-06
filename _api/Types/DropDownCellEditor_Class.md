@@ -7,6 +7,11 @@ order: DropDownCellEditor
 objectname: 
 directiontype: 
 permalink: /api/types/DropDownCellEditor/
+tags:
+  - DropDownEditor
+  - 드롭다운
+  - combo
+  - 콤보
 ---
 
 #### Description
@@ -80,3 +85,34 @@ permalink: /api/types/DropDownCellEditor/
 > Default: 'button'  
 > 리스트가 펼쳐질 기준을 지정합니다. 'button'이면 드롭다운 버튼의 오른쪽에, 'editor'이면 왼쪽에 맞춥니다.  
 
+### Example  
+
+<pre class="prettyprint">
+    gridView.setColumns([{
+        "name": "CustomerID",
+        "fieldName": "CustomerID",
+        "width": "150",
+        "sortable": false,
+        "lookupDisplay": true,
+        "values": ["VINET", "HANAR", "SUPRD", "VICTE", "THREE", "SEVEN"],
+        "labels": ["<VINET>", "<HANAR>", "<SUPRD>", "<VICTE>", "<THREE>", "<SEVEN>"],
+        "editor": {
+            "type": "dropDown",
+            "dropDownCount": 4,
+            "dropDownPosition": "button"
+        },
+        "styles": {
+            "textAlignment": "center"
+        },
+        "header": {
+            "text": "DropDown Edit",
+            "styles": {
+                "background": "linear,#22ffd500,#ffffd500,90"
+            }
+        }
+    }]);
+</pre>
+
+#### See Also
+
+> [Editors](http://demo.realgrid.com/Demo/Editors) 참조  

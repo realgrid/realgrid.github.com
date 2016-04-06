@@ -7,6 +7,10 @@ order: DataType
 objectname: 
 directiontype: 
 permalink: /api/types/DataType/
+tags:
+  - DataType
+  - 데이터타입
+  - 필드타
 ---
 
 #### Description

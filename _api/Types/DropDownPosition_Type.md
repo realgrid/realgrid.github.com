@@ -7,6 +7,10 @@ order: DropDownPosition
 objectname: 
 directiontype: 
 permalink: /api/types/DropDownPosition/
+tags:
+  - DropDownEditor
+  - DropDownPosition
+  - 드롭다운위치
 ---
 
 #### Description
@@ -23,5 +27,35 @@ permalink: /api/types/DropDownPosition/
 > Value: "editor"   
 > 리스트 왼쪽을 에디터의 왼쪽에 맞춥니다.   
 
+### Example  
 
+<pre class="prettyprint">
+    gridView.setColumns([{
+        "name": "CustomerID",
+        "fieldName": "CustomerID",
+        "width": "150",
+        "sortable": false,
+        "lookupDisplay": true,
+        "values": ["VINET", "HANAR", "SUPRD", "VICTE", "THREE", "SEVEN"],
+        "labels": ["<VINET>", "<HANAR>", "<SUPRD>", "<VICTE>", "<THREE>", "<SEVEN>"],
+        "editor": {
+            "type": "dropDown",
+            "dropDownCount": 4,
+            "dropDownPosition": "button"
+        },
+        "styles": {
+            "textAlignment": "center"
+        },
+        "header": {
+            "text": "DropDown Edit",
+            "styles": {
+                "background": "linear,#22ffd500,#ffffd500,90"
+            }
+        }
+    }]);
+</pre>
+
+#### See Also
+
+> [Editors](http://demo.realgrid.com/Demo/Editors) 참조  
  
