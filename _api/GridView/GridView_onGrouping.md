@@ -40,13 +40,18 @@ $(document).ready( function() {
     ];
     dataProvider.setRows(data);
 
-    $("#btnOnGrouping").click(function(){
-    	var checked = $("#chkPositiveOnly").is(":checked");
-
+    $("#button1").click(function(){
 		gridView.onGrouping = function (grid){
-			alert("그룹핑이 시작될때 호출됩니다.");
-	    	return checked;
+			alert("onGrouping 이벤트가 발생했습니다. true를 반환합니다.");
+	    	return true;
 		}
+    })
+
+    $("#button2").click(function(){
+        gridView.onGrouping = function (grid){
+            alert("onGrouping 이벤트가 발생했습니다. false를 반환합니다.");
+            return false;
+        }
     })
 
 });
@@ -207,13 +212,24 @@ function setColumns(grid) {
 #### Example
 
 <pre class="prettyprint">
+$("#button1").click(function(){
     gridView.onGrouping = function (grid){
-	    return false;
-	}
-</pre>
-<button id="btnOnGrouping" class="btn btn-success btn-xs">그룹핑 이벤트</button> 버튼을 누르면 그룹핑이 시작될때 onGrouping이벤트가 호출됩니다.
-(return:
-<input type="checkbox" id="chkPositiveOnly" value="false">true)
+        alert("onGrouping 이벤트가 발생했습니다. true를 반환합니다.");
+        return true;
+    }
+})
 
+$("#button2").click(function(){
+    gridView.onGrouping = function (grid){
+        alert("onGrouping 이벤트가 발생했습니다. false를 반환합니다.");
+        return false;
+    }
+})
+</pre>
+<button id="button1" class="btn btn-success btn-xs">버튼1</button>
+버튼을 누르면 onGrouping이벤트가 발생할때 return값으로 true를 반환하도록 설정한다.
+<br/>
+<button id="button2" class="btn btn-success btn-xs">버튼2</button> 
+버튼을 누르면 onGrouping이벤트가 발생할때 return값으로 false를 반환하도록 설정한다. return값이 false로 반환되면 그룹핑이 취소된다.
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
 <p></p>
