@@ -41,12 +41,11 @@ $(document).ready( function() {
     gridView.groupBy(["field1", "field2"]);
     gridView.resetCurrent();
 
-    $("#btnCollapseGroup").click(function(){
-    	var recursive = $("#chkCollapseRecursive").is(":checked");
+    $("#button1").click(function(){
     	var itemIndex = gridView.getCurrent().itemIndex;
 
     	if (gridView.isGroupItem(itemIndex)) {
-        	gridView.collapseGroup(itemIndex, recursive);
+        	gridView.collapseGroup(itemIndex, true);
     	}
     })
 
@@ -211,15 +210,14 @@ function setColumns(grid) {
 #### Example
 
 <pre class="prettyprint">
-    var recursive = $("#chkCollapseRecursive").is(":checked");
+$("#button1").click(function(){
     var itemIndex = gridView.getCurrent().itemIndex;
- 
     if (gridView.isGroupItem(itemIndex)) {
-        gridView.collapseGroup(itemIndex, recursive);
+        gridView.collapseGroup(itemIndex, true);
     }
+})
 </pre>
-<input type="checkbox" id="chkCollapseRecursive" checked="checked">recursive
-<button id="btnCollapseGroup" class="btn btn-success btn-xs">그룹 접기</button> 버튼을 누르면 지정한(current) 그룹을 접는다.
+<button id="button1" class="btn btn-success btn-xs">버튼1</button> 버튼을 누르면 recursive가 true인경우 지정한 그룹에 포함된 자손 그룹도 같이 접는다.
 
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
 <p></p>

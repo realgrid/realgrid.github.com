@@ -41,7 +41,7 @@ $(document).ready( function() {
 
     gridView.setCurrent({itemIndex:2, column:"col1", dataRow:0, fieldName:"field1"})
 
-    $("#btnGetGroupLevel").click(function(){
+    $("#button1").click(function(){
 		var idx = gridView.getCurrent();
     	if (idx.fieldIndex >= 0) {
         	var level = gridView.getGroupLevel(idx.fieldIndex);
@@ -208,14 +208,16 @@ function setColumns(grid) {
 #### Example
 
 <pre class="prettyprint">
+$("#button1").click(function(){
     var idx = gridView.getCurrent();
     if (idx.fieldIndex >= 0) {
         var level = gridView.getGroupLevel(idx.fieldIndex);
         alert("Group level of " + idx.fieldName + ": " + level);
     }
+})
 </pre>
 
-<button id="btnGetGroupLevel" class="btn btn-success btn-xs">레벨 반환</button> 버튼을 누르면 지정한 필드의 그룹 레벨을 반환한다.
+<button id="button1" class="btn btn-success btn-xs">버튼1</button> 버튼을 누르면 지정한 필드의 그룹 레벨을 반환한다.
 
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
 <p></p>

@@ -43,7 +43,7 @@ $(document).ready( function() {
 
     gridView.resetCurrent();
 
-    $("#btnGetGroupIndex").click(function(){
+    $("#button1").click(function(){
     	var itemIndex = gridView.getCurrent().itemIndex;
     	alert(gridView.getGroupIndex(itemIndex));
     })
@@ -206,11 +206,14 @@ function setColumns(grid) {
 #### Example
 
 <pre class="prettyprint">
-    var groupIndex = gridView.getGroupIndex(itemIndex);
+$("#button1").click(function(){
+    var itemIndex = gridView.getCurrent().itemIndex;
+    alert(gridView.getGroupIndex(itemIndex));
+})
 </pre>
 
 
-<button id="btnGetGroupIndex" class="btn btn-success btn-xs">ItemIndex반환</button> 버튼을 누르면 자신이 속한 그룹의 ItemIndex를 반환한다.
+<button id="button1" class="btn btn-success btn-xs">버튼1</button> 버튼을 누르면 자신이 속한 그룹의 ItemIndex를 반환한다.
 
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
 <p></p>

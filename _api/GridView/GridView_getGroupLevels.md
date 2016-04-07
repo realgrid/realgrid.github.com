@@ -40,9 +40,7 @@ $(document).ready( function() {
 
     gridView.groupBy(["field1", "field2"]);
 
-    gridView.setCurrent({itemIndex:2, column:"col1", dataRow:0, fieldName:"field1"})
-
-    $("#btnGetGroupLevels").click(function(){
+    $("#button1").click(function(){
 		alert("현재 그룹의 레벨은 " + gridView.getGroupLevels() + "입니다.");
     })
 
@@ -201,10 +199,12 @@ function setColumns(grid) {
 #### Example
 
 <pre class="prettyprint">
-    var groupLevels = gridView.getGroupLevels();
+$("#button1").click(function(){
+    alert("현재 그룹의 레벨은 " + gridView.getGroupLevels() + "입니다.");
+})
 </pre>
 
-<button id="btnGetGroupLevels" class="btn btn-success btn-xs">Grouping레벨</button> 버튼을 누르면 현재 몇 레벨로 Grouping되었는지 리턴한다.
+<button id="button1" class="btn btn-success btn-xs">버튼1</button> 버튼을 누르면 현재 몇 레벨로 Grouping되었는지를 number로 반환한다.
 
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
 <p></p>

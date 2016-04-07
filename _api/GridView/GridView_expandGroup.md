@@ -40,19 +40,26 @@ $(document).ready( function() {
     dataProvider.setRows(data);
 
     gridView.groupBy(["field1", "field2"]);
+    gridView.collapseGroup(0, true);
     gridView.collapseGroup(1, true);
 
     gridView.resetCurrent();
 
-    $("#btnExpandGroup").click(function(){
-    	var recursive = $("#chkExpandRecursive").is(":checked");
-    	var force = $("#chkExpandForce").is(":checked");
+    $("#button1").click(function(){
     	var itemIndex = gridView.getCurrent().itemIndex;
  
     	if (gridView.isGroupItem(itemIndex)) {
-       		gridView.expandGroup(itemIndex, recursive, force);
+       		gridView.expandGroup(itemIndex, true, true);
     	}
     })
+
+    $("#button2").click(function(){
+    var itemIndex = gridView.getCurrent().itemIndex;
+
+    if (gridView.isGroupItem(itemIndex)) {
+        gridView.expandGroup(itemIndex, false, false);
+    }
+})
 
 });
 
@@ -219,19 +226,25 @@ function setColumns(grid) {
 #### Example
 
 <pre class="prettyprint">
-    var recursive = $("#chkExpandRecursive").is(":checked");
-    var force = $("#chkExpandForce").is(":checked");
+$("#button1").click(function(){
     var itemIndex = gridView.getCurrent().itemIndex;
- 
+
     if (gridView.isGroupItem(itemIndex)) {
-        gridView.expandGroup(itemIndex, recursive, force);
+        gridView.expandGroup(itemIndex, true, true);
     }
+})
+
+$("#button2").click(function(){
+    var itemIndex = gridView.getCurrent().itemIndex;
+    if (gridView.isGroupItem(itemIndex)) {
+        gridView.expandGroup(itemIndex, false, false);
+    }
+})
 </pre>
 
-<input type="checkbox" id="chkExpandRecursive" checked="checked">recursive
-<input type="checkbox" id="chkExpandForce" checked="checked">force
-<button id="btnExpandGroup" class="btn btn-success btn-xs">그룹 펼치기</button> 버튼을 누르면 지정한(current) 그룹을 펼친다.
-
+<button id="button1" class="btn btn-success btn-xs">버튼1</button> 버튼을 누르면 recursive, force가 true인 경우 지정한 그룹의 자손들도 펼친다.
+<br/>
+<button id="button2" class="btn btn-success btn-xs">버튼2</button> 버튼을 누르면 recursive, force가 false인 경우 지정한 그룹만 펼친다.
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
 <p></p>
 
