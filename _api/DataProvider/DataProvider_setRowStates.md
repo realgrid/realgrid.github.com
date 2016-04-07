@@ -44,7 +44,7 @@ tags:
 #### Example
 
 <pre class="prettyprint">
-    var rows = grid.getCheckedRows();
+    var rows = gridView.getCheckedRows();
     provider.setRowStates(rows, "none", false, false);
 </pre>
 

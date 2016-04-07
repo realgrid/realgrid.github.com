@@ -38,11 +38,11 @@ $(document).ready( function() {
     dataProvider.setRows(data);
 
     $("#button1").click(function(){
-		alert("현재 필드의 FieldIndex는 " + dataProvider.getFieldIndex("field1") + "입니다.");
+    	alert("field1의 FieldIndex는 " + dataProvider.getFieldIndex("field1") + "입니다.");
 	})
 
 	$("#button2").click(function(){
-		alert("현재 필드의 FieldIndex는 " + dataProvider.getFieldIndex("field2") + "입니다.");
+    	alert("field2의 FieldIndex는 " + dataProvider.getFieldIndex("field2") + "입니다.");
 	})
 
 });
