@@ -35,3 +35,9 @@ tags:
 <pre class="prettyprint">
     var values = dataProvider.getValues(0);
 </pre>
+
+---
+
+#### See Also
+
+>[GetValues](http://demo.realgrid.com/Demo/GetValues){:target="_blank"} 참조
