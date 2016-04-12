@@ -45,7 +45,22 @@ $(document).ready( function() {
     };    
       
     $("#button1").click(function(){
-       addLog(dataProvider.getFieldNames());
+      dataProvider.beginUpdate();
+      try {
+        for (var i = 0; i < 10; i++) {
+           var values = gridView.getValues(i);
+           dataProvider.addRow(values);
+        }
+      } finally {
+        dataProvider.endUpdate();
+      }
+    })
+
+    $("#button2").click(function(){
+        for (var i = 0; i < 10; i++) {
+           var values = gridView.getValues(i);
+           dataProvider.addRow(values);
+        }
     })  
 
 });
@@ -231,7 +246,7 @@ $("#button2").click(function(){
 }) 
 </pre>
 
-<button id="button1c" class="btn btn-success btn-xs">버튼1</button>
+<button id="button1" class="btn btn-success btn-xs">버튼1</button>
 버튼을 누르면 개별 행 처리에 대한 이벤트가 발생하지 않고 데이터 행이 추가된다. 
 <br/>
 <button id="button2" class="btn btn-success btn-xs">버튼2</button>
