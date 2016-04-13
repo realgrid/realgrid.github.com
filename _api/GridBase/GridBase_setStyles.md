@@ -60,8 +60,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getStyles](/api/GridBase/getStyles)  
 > [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)

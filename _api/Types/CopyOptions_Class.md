@@ -45,9 +45,6 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste) 참조
 

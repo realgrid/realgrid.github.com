@@ -53,8 +53,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [Deleting Demo](http://demo.realgrid.com/Demo/Deleting)
 > [getValues](/api/GridBase/getValues)

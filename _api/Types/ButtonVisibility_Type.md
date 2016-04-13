@@ -82,9 +82,6 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons) 참조  
 > [B7-6 Cell Button](http://help.realgrid.com/tutorial/b7-6/) 참조  

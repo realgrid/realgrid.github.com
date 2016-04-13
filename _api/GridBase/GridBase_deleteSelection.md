@@ -39,7 +39,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setSelection](/api/GridBase/setSelection), [clearSelection](/api/GridBase/clearSelection)

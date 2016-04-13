@@ -42,7 +42,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 >  [Region Events](http://demo.realgrid.com/Demo/RegionEvents)

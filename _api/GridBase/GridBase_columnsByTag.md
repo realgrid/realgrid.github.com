@@ -47,8 +47,5 @@ var columns = gridView.columnByTag(tag);
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [columnByName](/api/GridBase/columnByName), [columnByField](/api/GridBase/columnByField), [columnByTag](/api/GridBase/columnByTag), [columnsByField](/api/GridBase/columnsByField)
 

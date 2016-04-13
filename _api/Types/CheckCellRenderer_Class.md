@@ -130,10 +130,7 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
-#### Demo Links
-#### See Also
-
-#### See Also 
+#### Demo Links 
 
 > [Check Cell Renderer](http://demo.realgrid.net/Demo/CheckCellRenderer) 참조  
 

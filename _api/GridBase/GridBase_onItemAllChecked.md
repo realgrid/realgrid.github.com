@@ -45,7 +45,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

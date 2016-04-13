@@ -45,7 +45,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [Inserting Demo](http://demo.realgrid.com/Demo/Inserting)

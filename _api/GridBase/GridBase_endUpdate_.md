@@ -44,7 +44,4 @@ gridView.endUpdate();
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [beginUpdate](/api/GridBase/beginUpdate)

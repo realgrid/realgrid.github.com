@@ -65,7 +65,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [onValidateColumn](/api/GridBase/onValidateColumn), [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation)

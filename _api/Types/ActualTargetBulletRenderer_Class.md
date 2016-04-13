@@ -59,8 +59,5 @@ permalink: /api/types/ActualTargetBulletRenderer/
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Actual / Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer) 참조  

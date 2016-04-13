@@ -51,8 +51,5 @@ if (column) {
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [columnByName](/api/GridBase/columnByName), [columnByField](/api/GridBase/columnByField), [columnsByField](/api/GridBase/columnsByField), [columnsByTag](/api/GridBase/columnsByTag)
 

@@ -37,8 +37,5 @@ tags:
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Updating](http://demo.realgrid.com/Demo/Updating){:target="_blank"} 참조

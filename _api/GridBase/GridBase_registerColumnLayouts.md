@@ -49,7 +49,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setColumnLayout](/api/GridBase/setColumnLayout), [restoreColumns](/api/GridBase/restoreColumns)

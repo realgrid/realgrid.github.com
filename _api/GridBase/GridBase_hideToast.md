@@ -36,7 +36,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [showToast](/api/GridBase/showToast)

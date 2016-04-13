@@ -43,7 +43,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions), [HeaderCheckBox](http://demo.realgrid.com/Demo/HeaderCheckbox)

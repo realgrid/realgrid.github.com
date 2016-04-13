@@ -46,8 +46,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [checkRows](/api/GridBase/checkRows)  
 > [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

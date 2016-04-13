@@ -41,8 +41,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getSortingOptions](/api/GridBase/getSortingOptions)  
 > [Sort Demo](http://demo.realgrid.com/Demo/ColumnSorting)

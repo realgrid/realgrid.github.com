@@ -36,8 +36,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setColumnFilters](/api/GridBase/setColumnFilters)    
 > [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

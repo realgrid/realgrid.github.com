@@ -38,7 +38,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [addCellStyle](/api/GridBase/addCellStyle)

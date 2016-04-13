@@ -40,7 +40,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getRowState](/api/dataProvider/getRowState)

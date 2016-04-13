@@ -39,8 +39,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getSelectOptions](/api/GridBase/getSelectOptions)  
 > [Selecting Demo](http://demo.realgrid.com/Demo/Selecting)

@@ -38,7 +38,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [commit](/api/GridBase/commit), [cancel](/api/GridBase/cancel), [commitEditor](/api/GridBase/commitEditor), [cancelEditor](/api/GridBase/cancelEditor)

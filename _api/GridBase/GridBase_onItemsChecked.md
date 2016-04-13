@@ -48,7 +48,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [checkItems](/api/GridBase/checkItems)

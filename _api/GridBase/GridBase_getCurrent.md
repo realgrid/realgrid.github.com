@@ -36,7 +36,4 @@ None
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setCurrent](/api/GridBase/setCurrent)

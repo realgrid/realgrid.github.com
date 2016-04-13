@@ -39,7 +39,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 >  [setGroupingOptions](/api/GridBase/setGroupingOptions)

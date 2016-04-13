@@ -41,10 +41,7 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
-#### Demo Links
-#### See Also
-
-#### See Also 
+#### Demo Links 
 
 > [Barcode Cell Renderer](http://demo.realgrid.net/Demo/BarcodeCellRenderer) 참조  
 

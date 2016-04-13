@@ -35,7 +35,4 @@ var options = gridView.getEditOptions();
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setEditOptions](/api/GridBase/setEditOptions)

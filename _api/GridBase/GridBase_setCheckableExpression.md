@@ -44,7 +44,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [CheckBar](/api/types/CheckBar), [setCheckable](/api/GridBase/setCheckable), [resetCheckables](/api/GridBase/resetCheckables), [applyCheckables](/api/GridBase/applyCheckables)

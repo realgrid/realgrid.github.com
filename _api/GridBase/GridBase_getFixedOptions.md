@@ -38,8 +38,5 @@ if (options) {
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setFixedOptions](/api/GridBase/setFixedOptions)  
 > [ColumnFixed Demo](http://demo.realgrid.com/Demo/ColumnFixing), [RowFixed Demo](http://demo.realgrid.com/Demo/FixedRows)

@@ -44,9 +44,6 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getModel](/api/GridBase/getModel), [getModelAs](/api/GridBase/getModelAs), [getParentModel](/api/GridBase/getParentModel)  
 > [Grid Item](/api/features/Grid%20Item/)  
 > [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)

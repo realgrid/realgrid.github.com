@@ -45,7 +45,4 @@ None.
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [onEditCommit](/api/GridBase/onEditCommit)

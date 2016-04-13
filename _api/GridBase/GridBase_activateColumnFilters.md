@@ -46,8 +46,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters), [setColumnFilters](/api/GridBase/setColumnFilters), [clearColumnFilters](/api/GridBase/setColumnFilters)  
 > [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

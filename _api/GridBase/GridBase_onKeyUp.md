@@ -57,7 +57,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [onKeyDown](/api/GridBase/onKeyDown), [onKeyPress](/api/GridBase/onKeyPress)

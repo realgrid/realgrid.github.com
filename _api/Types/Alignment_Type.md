@@ -68,8 +68,5 @@ permalink: /api/types/Alignment/
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Style Properties](http://demo.realgrid.com/Demo/StylesProperties) 참조  

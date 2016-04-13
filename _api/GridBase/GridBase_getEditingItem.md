@@ -40,7 +40,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setValue](/api/GridBase/setValue), [getValue](/api/GridBase/getValue), [getValues](/api/GridBase/getValues)

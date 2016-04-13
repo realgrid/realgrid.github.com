@@ -43,7 +43,4 @@ if (styles) {
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setStyles](/api/GridBase/setStyles), [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)

@@ -46,7 +46,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [PasteOPtions](/api/types/PasteOptions)

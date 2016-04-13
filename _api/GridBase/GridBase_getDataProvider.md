@@ -35,7 +35,4 @@ var provider = gridView.getDataProvider();
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getDataSource](/api/GridBase/getDataSource)

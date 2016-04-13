@@ -41,8 +41,5 @@ tags:
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [CheckBar](http://demo.realgrid.com/Demo/CheckBar){:target="_blank"} 참조

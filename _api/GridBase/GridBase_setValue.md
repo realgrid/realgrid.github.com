@@ -50,7 +50,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getValue](/api/GridBase/getValue), [getValues](/api/GridView/getValues), [setValues](/api/GridBase/setValues)

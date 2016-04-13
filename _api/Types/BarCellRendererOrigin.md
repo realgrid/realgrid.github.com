@@ -74,8 +74,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 

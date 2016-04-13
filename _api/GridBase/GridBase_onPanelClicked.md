@@ -43,7 +43,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [onPanelDblClicked](/api/GridBase/onPanelDblClicked)

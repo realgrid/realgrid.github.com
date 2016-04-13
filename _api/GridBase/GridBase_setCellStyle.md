@@ -60,7 +60,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [addCellStyle](/api/GridBase/addCellStyle), [DataCellStyle Overview](http://demo.realgrid.com/Demo/DataCellStyleConcept)

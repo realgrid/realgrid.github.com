@@ -41,8 +41,5 @@ tags:
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [GetValues](http://demo.realgrid.com/Demo/GetValues){:target="_blank"} 참조

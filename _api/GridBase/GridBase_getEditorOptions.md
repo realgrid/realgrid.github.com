@@ -32,7 +32,4 @@ var options = grid.getEditorOptions();
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setEditorOptions](/api/GridBase/setEditorOptions)

@@ -61,7 +61,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [Column Lookup](http://demo.realgrid.com/Demo/ColumnLookup), [Editors](http://demo.realgrid.com/Demo/Editors)

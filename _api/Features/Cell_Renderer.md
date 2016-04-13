@@ -47,9 +47,6 @@ tags:
 * [TextCellRenderer](/api/types/TextCellRenderer) - 셀에 표시할 값을 텍스트로 표시합니다.   
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Renderer Demo](http://demo.realgrid.net/Demo/RendererConcept) 참조    
 > [Actual/Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer) 참조    

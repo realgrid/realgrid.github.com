@@ -42,9 +42,6 @@ tags:
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [DataRollback](http://demo.realgrid.com/Demo/DataRollback#.example)<br/>
 [rollback](http://help.realgrid.com/api/DataProvider/rollback/)<br/>

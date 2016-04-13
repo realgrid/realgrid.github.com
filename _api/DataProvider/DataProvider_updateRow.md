@@ -237,8 +237,5 @@ $("#button1").click(function(){
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [AddMultiRows](http://demo.realgrid.com/Demo/AddMultiRows#.example)참조

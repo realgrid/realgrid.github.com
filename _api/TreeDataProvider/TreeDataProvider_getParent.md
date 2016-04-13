@@ -36,8 +36,5 @@ permalink: /api/TreeDataProvider/getParent/
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"} 참조   

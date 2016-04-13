@@ -40,8 +40,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getRowGroup](/api/GridBase/getRowGroup)  
 > [RowGrouping Demo](http://demo.realgrid.com/Demo/RowGrouping)

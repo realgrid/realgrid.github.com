@@ -56,8 +56,5 @@ permalink: /api/types/RowGroupOptions/
 > 행 그룹핑시 그룹핑된 컬럼의 merge 표현 여부를 지정한다.  
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Row Grouping](http://demo.realgrid.net/Demo/RowGrouping)

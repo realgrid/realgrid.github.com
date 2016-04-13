@@ -41,7 +41,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getIndicator](/api/GridBase/getIndicator)

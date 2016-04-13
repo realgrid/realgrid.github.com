@@ -72,8 +72,5 @@ tag:
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [TreeView Load Xml](http://demo.realgrid.net/Demo/TreeLoadXmlData){:target="_blank"} 참조    

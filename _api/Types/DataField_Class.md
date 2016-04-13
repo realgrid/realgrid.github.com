@@ -108,9 +108,6 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Data Type](http://demo.realgrid.com/Demo/DataType) 참조  
 > [Boolean Field](http://demo.realgrid.com/Demo/BooleanField) 참조  

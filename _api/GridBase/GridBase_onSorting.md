@@ -43,7 +43,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [Sorting](/api/features/Sorting)

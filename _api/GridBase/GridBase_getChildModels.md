@@ -43,7 +43,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [ItemModel Demo](http://demo.realgrid.com/Demo/ItemModelApi)

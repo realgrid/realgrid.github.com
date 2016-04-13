@@ -34,8 +34,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [addCellStyle](/api/GridBase/addCellStyle), [addCellStyles](/api/GridBase/addCellStyles), [removeCellStyles](/api/GridBase/removeCellStyles), [setCellStyle](/setCellStyle), [setCellStyles](/api/GridBase/setCellStyles)    
 > [DataCellStyle Demo](http://demo.realgrid.com/Demo/DataCellStyleConcept)

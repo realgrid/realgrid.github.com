@@ -163,9 +163,6 @@ gridView.loadGrid(data);
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [LoadCsvData](http://demo.realgrid.com/Demo/LoadCsvData)<br>
 [LoadJsonData](http://demo.realgrid.com/Demo/LoadJsonData)<br>

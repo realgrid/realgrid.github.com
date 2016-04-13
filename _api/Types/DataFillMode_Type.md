@@ -57,9 +57,6 @@ tags:
 
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [LoadJsonData](http://demo.realgrid.com/Demo/LoadJsonData) 참조  
 > [LazyLoadData](http://demo.realgrid.com/Demo/LazyLoadData) 참조  
 > [PagingLazyLoading2](http://demo.realgrid.com/Demo/PagingLazyLoading2) 참조  

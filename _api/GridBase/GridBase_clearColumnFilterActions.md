@@ -36,9 +36,6 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setColumnFilterActions](/api/GridBase/setColumnFilterActions)  
 > [ColumnFilterAction](/api/types/ColumnFilterAction/)  
 > [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

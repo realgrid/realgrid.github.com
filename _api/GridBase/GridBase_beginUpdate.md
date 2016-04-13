@@ -42,9 +42,6 @@ try {
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [endUpdate](/api/GridBase/endUpdate)
 
 

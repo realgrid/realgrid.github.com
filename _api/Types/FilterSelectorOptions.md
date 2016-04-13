@@ -52,9 +52,6 @@ permalink: /api/types/FilterSelectorOptions/
 > FLASH Ver. 전용  
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [ColumnFiltering](http://demo.realgrid.net/Demo/ColumnFiltering)
 

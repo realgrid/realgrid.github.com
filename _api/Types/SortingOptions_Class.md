@@ -93,4 +93,4 @@ permalink: /api/types/SortingOptions/
 
 #### Demo Links
 
-> [Column Sorting](http://demo.realgrid.net/Demo/ColumnSorting)
+* [Column Sorting](http://demo.realgrid.net/Demo/ColumnSorting)

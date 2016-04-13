@@ -19,9 +19,6 @@ tags:
 그룹 헤더를 표시하거나 푸터를 표시할 수 있다. 또한, summary mode를 통해 각 행 그룹의 푸터에 표시할 수 있는 값의 종류를 지정할 수도 있다.
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Row Grouping Demo](http://demo.realgrid.net/Demo/RowGrouping) 참조    
 > [Row Group Merging Demo](http://demo.realgrid.net/Demo/RowGroupMerging) 참조  

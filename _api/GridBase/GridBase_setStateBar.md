@@ -40,8 +40,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getStateBar](/api/GridBase/getStateBar), [getRowState](/api/DataProvider/getRowState), [setRowState](/api/DataProvider/setRowState)  
 > [StateBar Demo](http://demo.realgrid.com/Demo/StateBar)

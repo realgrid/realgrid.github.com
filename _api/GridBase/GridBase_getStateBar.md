@@ -39,7 +39,4 @@ if (options) {
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setStateBar](/api/GridBase/setStateBar)

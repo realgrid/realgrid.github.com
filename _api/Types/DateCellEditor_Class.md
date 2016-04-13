@@ -96,9 +96,6 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [EditorOptions](/api/types/EditorOptions/)
 > [getEditorOptions](/api/GridBase/getEditorOptions/)   

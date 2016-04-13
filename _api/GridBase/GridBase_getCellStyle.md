@@ -50,7 +50,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 [DataCellStyle Demo](http://demo.realgrid.com/Demo/DataCellStyleConcept)

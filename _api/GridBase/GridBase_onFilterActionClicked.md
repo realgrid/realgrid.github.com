@@ -61,8 +61,5 @@ gridView.onFilterActionClicked = function (grid, column, action, x, y) {
 };</pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
 > [Filter Action 응용 자동 필터 구현](/tutorial/b1-4/)

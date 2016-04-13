@@ -53,7 +53,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [GridFitting](http://demo.realgrid.com/Demo/GridFitting)

@@ -66,7 +66,4 @@ gridView.setCellStyleRows(rows, {"col1style": 1});
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setCellStyle](/api/GridBase/setCellStyle), [setCellStyles](/api/GridBase/setCellStyles), [DataCellStyleRows Demo](http://demo.realgrid.com/Demo/DataCellStyleRows)

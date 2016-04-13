@@ -50,9 +50,6 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Dynamic Styles on Columns](http://demo.realgrid.com/Demo/DynamicStylesColumn) 참조    
 > [Dynamic Styles on Rows](http://demo.realgrid.com/Demo/DynamicStylesRow) 참조   

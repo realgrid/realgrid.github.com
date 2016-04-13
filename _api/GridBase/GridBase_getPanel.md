@@ -35,7 +35,4 @@ var panelOptions = grid.getPanel();
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setPanel](/api/GridBase/setPanel)

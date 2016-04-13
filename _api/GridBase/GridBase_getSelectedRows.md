@@ -37,7 +37,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 [getSelectedItems](/api/GridBase/getSelectedItems/)

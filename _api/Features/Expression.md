@@ -126,9 +126,6 @@ var/varp/stdev/stdevp는 그리드 summaryMode가 SummaryMode.STATISTICS 일 때
 * state - 표시 중인 행이 참조하는 데이터행의 상태. 'c':생성, 'u':수정, 'd':삭제, 'x':생성 후 삭제.
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Edit Column Validation Demo](http://demo.realgrid.net/Demo/EditColumnValidation) 참조  
 > [Row Vaildations](http://demo.realgrid.com/Demo/EditRowValidation) 참조  

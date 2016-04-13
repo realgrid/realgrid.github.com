@@ -41,7 +41,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [hideToast](/api/GridBase/hideToast)

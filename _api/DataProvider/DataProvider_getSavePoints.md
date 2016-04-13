@@ -222,9 +222,6 @@ $("#button2").click(function(){
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [DataRollback](http://demo.realgrid.com/Demo/DataRollback#.example)<br/>
 [SavePoint](http://help.realgrid.com/api/DataProvider/savePoint/)<br/>

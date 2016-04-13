@@ -37,8 +37,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getSelection](/api/GridBase/getSelection)
 

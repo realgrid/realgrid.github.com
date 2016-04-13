@@ -51,7 +51,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [onCurrentChanged](/api/GridBase/onCurrentChanged)

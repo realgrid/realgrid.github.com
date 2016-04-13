@@ -39,8 +39,5 @@ None.
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
 

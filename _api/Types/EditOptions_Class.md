@@ -225,9 +225,6 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Inserting](http://demo.realgrid.com/Demo/Inserting) 참조  
 > [Updating Rows](http://demo.realgrid.com/Demo/Updating) 참조  

@@ -36,8 +36,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [setCheckBar](/api/GridBase/setCheckBar)  
 > [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

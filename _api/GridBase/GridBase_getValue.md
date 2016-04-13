@@ -42,7 +42,4 @@ var value = grid.getValue(itemIndex, 1);
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getValues](/api/GridView/getValues), [setValue](/api/GridBase/setValue), [dataProvider.getValue](/api/LocalDataProvider/getValue/)

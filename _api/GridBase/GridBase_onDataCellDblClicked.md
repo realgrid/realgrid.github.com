@@ -42,7 +42,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [onDataCellClicked](/api/GridBase/onDataCellClicked)

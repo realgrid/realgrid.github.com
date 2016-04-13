@@ -68,9 +68,6 @@ permalink: /api/types/CellButton/
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Edit Button Demo](http://demo.realgrid.net/Demo/EditButtons) 참조  
 > [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons) 참조  

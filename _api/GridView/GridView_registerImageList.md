@@ -53,8 +53,5 @@ tags:
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer#.example){:target="_blank"} 참조

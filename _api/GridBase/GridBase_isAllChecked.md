@@ -37,7 +37,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [getCheckedItems](/api/GridView/getCheckedItems), [getCheckedRows](/api/GridView/getCheckedRows)

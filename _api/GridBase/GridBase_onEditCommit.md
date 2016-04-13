@@ -52,7 +52,4 @@ None.
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [onEditCanceled](/api/GridBase/onEditCanceled), [commitEditor](/api/GridBase/commitEditor)

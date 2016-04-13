@@ -41,7 +41,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [ColumnLayout](http://demo.realgrid.com/Demo/ColumnLayout)

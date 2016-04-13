@@ -36,8 +36,5 @@ permalink: /api/TreeDataProvider/getChildren/
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조   

@@ -42,7 +42,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [CheckBar](/api/types/CheckBar), [setCheckableExpression](/api/GridBase/setCheckableExpression)

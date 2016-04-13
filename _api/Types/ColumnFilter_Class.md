@@ -78,10 +78,7 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
-#### Demo Links
-#### See Also
-
-#### See Also 
+#### Demo Links 
 
 > [Column Filtering](http://demo.realgrid.net/Demo/ColumnFiltering) 참조  
 

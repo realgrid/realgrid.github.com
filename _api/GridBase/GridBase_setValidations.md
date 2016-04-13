@@ -56,8 +56,5 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [EditRowValidation Demo](http://demo.realgrid.com/Demo/EditRowValidation)  
 > [Expression](http://demo.realgrid.com/Demo/ExpressionConcept)

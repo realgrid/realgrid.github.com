@@ -43,7 +43,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [ColumnGrouping](http://demo.realgrid.com/Demo/ColumnGrouping), [getColumns](/api/GridBase/getColumns)

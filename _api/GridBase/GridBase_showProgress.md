@@ -75,7 +75,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [closeProgress](/api/GridBase/closeProgress), [setProgress](/api/GridBase/setProgress)

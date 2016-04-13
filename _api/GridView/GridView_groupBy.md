@@ -42,8 +42,5 @@ tags:
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"} 참조

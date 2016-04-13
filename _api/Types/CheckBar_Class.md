@@ -78,10 +78,7 @@ tags:
 	gridView.setCheckBar(options);
 </pre>
 
-#### Demo Links
-#### See Also
-
-#### See Also 
+#### Demo Links 
 
 > [CheckBar](http://demo.realgrid.net/Demo/CheckBar)  
 

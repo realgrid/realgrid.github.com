@@ -87,9 +87,6 @@ permalink: /api/types/FixedOptions/
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [Fixed Columns Demo](http://demo.realgrid.net/Demo/ColumnFixing)   
 > [Fixed Rows Demo](http://demo.realgrid.net/Demo/FixedRows)

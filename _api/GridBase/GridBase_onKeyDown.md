@@ -62,7 +62,4 @@ tags:
 </pre>
 
 #### Demo Links
-#### See Also
-
-#### See Also
 > [onKeyUp](/api/GridBase/onKeyUp), [onKeyPress](/api/GridBase/onKeyPress)

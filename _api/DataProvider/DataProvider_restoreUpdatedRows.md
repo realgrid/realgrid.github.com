@@ -42,8 +42,5 @@ tags:
 ---
 
 #### Demo Links
-#### See Also
-
-#### See Also
 
 > [복원 모드(RestoreMode)](http://help.realgrid.com/tutorial/c6/){:target="_blank"} 참조 

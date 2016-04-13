@@ -83,10 +83,7 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
-#### Demo Links
-#### See Also
-
-#### See Also 
+#### Demo Links 
 
 > [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 참조  
 > [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage) 참조  
