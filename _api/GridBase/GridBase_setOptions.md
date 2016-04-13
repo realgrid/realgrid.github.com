@@ -49,7 +49,7 @@ tags:
 
 > None
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var options =  {

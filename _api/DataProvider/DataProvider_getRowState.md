@@ -202,7 +202,7 @@ function setColumns(grid) {
 > Type: string  
 > 행 상태 이름.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 dataProvider.setRowState(1, "updated", true);

@@ -30,7 +30,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.removeRows([10, 30, 40]);

@@ -32,7 +32,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.onRowStateChanged = function (provider, rowId) {

@@ -29,7 +29,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.hideToast(function(){gridView.setValue(0,0,"toast 종료")});

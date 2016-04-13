@@ -31,7 +31,7 @@ permalink: /api/TreeDataProvider/getValue/
 > Type: *  
 > 데이터 필드의 값.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.getValue(3, "title");

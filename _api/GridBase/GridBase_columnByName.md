@@ -31,7 +31,7 @@ tags:
 > Type: Object  
 > [DataColumn](/api/types/DataColumn/)또는 [ColumnGroup](/api/types/ColumnGroup/) 컬럼이 존재하지 않는 경우 null.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 var colName = "column1";

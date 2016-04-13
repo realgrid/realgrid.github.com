@@ -32,7 +32,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.onRowStatesCleared = function (provider) {

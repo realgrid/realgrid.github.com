@@ -28,7 +28,7 @@ tags:
 > Type: object  
 > [Indicator](/api/types/Indicator/) 설정 모델과 동일한 내용의 객체가 반환된다.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 var options = gridView.getIndicator();

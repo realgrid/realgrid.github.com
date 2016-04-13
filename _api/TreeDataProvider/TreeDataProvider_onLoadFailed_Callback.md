@@ -35,7 +35,7 @@ RealGrid Plus 전용 함수.
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.onLoadFailed= function (provider, error) {

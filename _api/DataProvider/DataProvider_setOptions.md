@@ -29,7 +29,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     provider.setOptions({

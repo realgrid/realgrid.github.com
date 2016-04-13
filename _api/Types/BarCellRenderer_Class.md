@@ -45,7 +45,7 @@ tags:
 > Default: [BarCellRendererOrigin](/api/types/BarCellRendererOrigin)\.DEFAULT		  
 > 막대 상자의 시작 위치를 지정한다. 
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

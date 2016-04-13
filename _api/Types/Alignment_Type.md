@@ -27,7 +27,7 @@ permalink: /api/types/Alignment/
 > Value: "far"  
 > 우측이나 아래쪽에 정렬한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

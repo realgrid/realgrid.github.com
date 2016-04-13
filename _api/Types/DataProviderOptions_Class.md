@@ -94,7 +94,7 @@ tags:
 > [restoreUpdatedStates()](/api/DataProvider/restoreUpdatedStates/)와 관계가 있다.  
 > true일때 undefined -> "값변경" -> "" 으로 변경시 rowState가 복원되지 않는다.   
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	dataProvider.setOptions({

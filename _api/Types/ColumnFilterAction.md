@@ -44,7 +44,7 @@ tags:
 > Default:  null      
 > 필터의 설명을 기재한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     var actions = [{

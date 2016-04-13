@@ -27,7 +27,7 @@ tags:
 > Type: object  
 > [DataProviderOptions](/api/types/DataProviderOptions)과 같은 내용의 설정 object.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var options = provider.getOptions();

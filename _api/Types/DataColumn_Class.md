@@ -244,7 +244,7 @@ tags:
 > Default:  null     
 > 이 컬럼에 적용할 [EditValidation](/api/types/EditValidation) 목록을 지정한다.     
 
-#### Examples
+##### Examples s
 
 **컬럼을 생성하는 기본적인 방법**
 

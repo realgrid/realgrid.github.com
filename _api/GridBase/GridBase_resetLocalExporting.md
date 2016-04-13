@@ -25,7 +25,7 @@ permalink: /api/GridBase/resetLocalExporting/
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 	if (gridView.isLocalExporting()) {

@@ -31,7 +31,7 @@ tags:
 > Type: array of Object  
 > 컬럼 정보 배열이거나 존재하지 않는 경우 null.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 gridView.setColumns([

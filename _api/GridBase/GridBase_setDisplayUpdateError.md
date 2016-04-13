@@ -27,7 +27,7 @@ permalink: /api/GridBase/setDisplayUpdateError/
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     grdMain.setDisplayUpdateError(true);

@@ -26,7 +26,7 @@ permalink: /api/GridBase/setFooter/
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.setFooter({

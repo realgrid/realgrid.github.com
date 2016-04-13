@@ -38,7 +38,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.onLoadFailed= function (provider, error) {

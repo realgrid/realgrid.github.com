@@ -28,7 +28,7 @@ tags:
 > Type: number  
 > 페이지 번호.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var page = gridView.getPage();

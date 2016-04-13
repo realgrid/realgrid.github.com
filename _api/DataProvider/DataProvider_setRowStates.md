@@ -211,7 +211,7 @@ function setColumns(grid) {
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

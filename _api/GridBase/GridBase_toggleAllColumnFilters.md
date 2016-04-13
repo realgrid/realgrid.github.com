@@ -32,7 +32,7 @@ tags:
 
 > NONE
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.setColumns([

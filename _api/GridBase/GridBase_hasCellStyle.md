@@ -30,7 +30,7 @@ tags:
 > Type: Boolean  
 > 셀 스타일이 이미 등록되어 있다면 true, 아니면 false  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var value = gridView.hasCellStyle("style01");

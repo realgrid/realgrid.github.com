@@ -46,7 +46,7 @@ tags:
 > 달력 팝업에 표시되는 요일의 표시형태를 지정한다.   
 > ex) ['SUN', 'MON', 'TUE', 'WED'....]   
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     gridView.setEditorOptions({

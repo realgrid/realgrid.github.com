@@ -27,7 +27,7 @@ permalink: /api/TreeDataProvider/getChildren/
 > Type: Array of Number.  
 > 배열로 만들어진 Row Id들의 목록.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var rows = treeProvider.getChildren(3);

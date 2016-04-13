@@ -38,7 +38,7 @@ tags:
 
 > None
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var dataRow = grid.getCurrent().dataRow;

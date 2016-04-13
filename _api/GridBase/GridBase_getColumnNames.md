@@ -31,7 +31,7 @@ tags:
 > Type: array of string  
 > 컬럼 이름 배열.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 var columnNames = gridView.getColumnNames(false);

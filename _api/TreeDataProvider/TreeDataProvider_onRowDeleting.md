@@ -35,7 +35,7 @@ tags:
 > Default: true  
 > 삭제하려면 true, 삭제를 취소하려면 false 를 리턴한다.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 treeProvider.onRowDeleting = function (provider, rowId) {

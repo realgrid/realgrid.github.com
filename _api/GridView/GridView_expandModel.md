@@ -39,7 +39,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var recursive = $("#chkExpandRecursive").is(":checked");

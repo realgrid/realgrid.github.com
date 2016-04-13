@@ -36,7 +36,7 @@ tags:
 > Type: string  
 > 행 추가를 금지 시킬 때 사용자에게 표시할 메시지를 리턴한다.   
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onRowInserting = function (grid, itemIndex) {

@@ -32,7 +32,7 @@ tags:
 
 > None
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.requestUpdateError(null, "This is test update exception");

@@ -50,7 +50,7 @@ tags:
 > Type: "center"   
 > 이미지나 체크박스가 가운데에 위치한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

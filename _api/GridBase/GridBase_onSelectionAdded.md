@@ -33,7 +33,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onSelectionAdded =  function (grid, selection) {

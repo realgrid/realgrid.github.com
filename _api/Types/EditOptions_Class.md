@@ -212,7 +212,7 @@ tags:
 > Default: true   
 >      
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     gridView.setEditOptions({

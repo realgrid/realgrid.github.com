@@ -35,7 +35,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre>
     provider.clearRowStates(true, false);

@@ -36,7 +36,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.onRowStatesChanged = function (provider, rows) {

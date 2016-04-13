@@ -29,7 +29,7 @@ tags:
 > Type: Number  
 > 그리드에 표시된 [Grid Item](/api/features/Grid Item) 개수
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 var count = gridView.getItemCount();

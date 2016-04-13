@@ -36,7 +36,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onRowGroupHeaderFooterClicked =  function (grid, index) {

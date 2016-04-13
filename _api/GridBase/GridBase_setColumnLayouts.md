@@ -29,7 +29,7 @@ deprecated: true
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var layouts = [{

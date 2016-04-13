@@ -32,7 +32,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.onLoadCompleted = function (provider) {

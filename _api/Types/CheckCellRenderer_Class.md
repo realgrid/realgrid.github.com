@@ -63,7 +63,7 @@ tags:
 > Default: "default"   
 > 표시되는 기호 모양을 체크표시로 할 것인지 체크박스로 할 것인지를 지정한다. "default", "box"  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

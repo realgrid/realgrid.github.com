@@ -34,7 +34,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onFooterCellClicked =  function (grid, column) {

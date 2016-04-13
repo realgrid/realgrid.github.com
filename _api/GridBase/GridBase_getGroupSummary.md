@@ -36,7 +36,7 @@ permalink: /api/GridBase/getGroupSummary/
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var idx = gridView.getCurrent();

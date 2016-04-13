@@ -36,7 +36,7 @@ tags:
 
 > None
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 	treeProvider.setValue(2, 1, "text");

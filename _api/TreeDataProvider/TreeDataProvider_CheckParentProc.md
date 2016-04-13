@@ -32,7 +32,7 @@ permalink: /api/TreeDataProvider/CheckParentProc/
 > Type: boolean  
 >
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 

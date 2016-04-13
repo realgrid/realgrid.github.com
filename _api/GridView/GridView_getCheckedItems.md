@@ -32,7 +32,7 @@ tags:
 > Type: Array of Number  
 > 아이템 인덱스들의 배열.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var items = gridView.getCheckedItems();

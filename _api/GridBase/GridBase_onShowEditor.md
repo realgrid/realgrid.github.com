@@ -36,7 +36,7 @@ tags:
 > Default: true
 > false 를 리턴하면 Editor가 표시되지 않는다.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 	gridView.onShowEditor = function (id, index) { 

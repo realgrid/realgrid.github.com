@@ -32,7 +32,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var imgs = new RealGridJS.ImageList("images1","http://" + location.host + "/img/demo/smallflag/");

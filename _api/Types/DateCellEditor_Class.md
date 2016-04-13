@@ -66,7 +66,7 @@ tags:
 > 각 요일에 대한 표시 방법을 지정한다.    
 > ex> ["sun", "mon", "tue", "wed", "thr", "fri", "sat"]  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     gridView.setColumns([{

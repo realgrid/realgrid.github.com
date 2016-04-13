@@ -29,7 +29,7 @@ tags:
 > Type: [DataProvider](/api/DataProvider/)  
 > DataProvider 객체.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 var provider = grid.getDataSource();

@@ -32,7 +32,7 @@ tags:
 > Item Model 객체들.  
 
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 	var itemIndex = gridView.getCurrent().itemIndex;

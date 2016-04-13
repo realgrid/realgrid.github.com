@@ -37,7 +37,7 @@ permalink: /api/types/CellIndex/
 > Default: null  
 > 필드 이름   
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     var index = gridView.getCurrent();

@@ -30,7 +30,7 @@ tags:
 > Type: Object  
 > Array객체로 만들어진 행의 값  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var values = dataProvider.getValues(0);

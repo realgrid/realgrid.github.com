@@ -26,7 +26,7 @@ tags:
 > Value: "or"  
 > 여러개의 필터중 하나의 필터라도 부합하면 나온다.  
 
-### Example  
+##### Examples s  
 
 <pre class="prettyprint">
 	var filters = [
@@ -45,7 +45,7 @@ tags:
 </pre>
 
 
-#### See Also
+#### Demo Links
 
-> [setFilters](/api/LocalDataProvider/setFilters/)   
+* [setFilters](/api/LocalDataProvider/setFilters/)   
 

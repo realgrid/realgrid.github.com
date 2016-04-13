@@ -27,7 +27,7 @@ tags:
 > Value: "editor"   
 > 리스트 왼쪽을 에디터의 왼쪽에 맞춥니다.   
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     gridView.setColumns([{

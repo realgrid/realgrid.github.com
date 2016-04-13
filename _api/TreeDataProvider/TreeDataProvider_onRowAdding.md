@@ -37,7 +37,7 @@ tags:
 
 > callback 함수에서 명시적으로 false를 리턴하면 행이 삽입되지 않는다.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.onRowAdding = function (provider, rowId, index) {

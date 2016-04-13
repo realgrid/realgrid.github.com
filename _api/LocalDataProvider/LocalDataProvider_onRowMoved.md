@@ -38,7 +38,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.onRowMoved = function (provider, row, newRow) {

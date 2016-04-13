@@ -27,7 +27,7 @@ permalink: /api/TreeDataProvider/getIconIndex/
 > Type: Number  
 > 아이콘 인덱스.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var icon = treeProvider.getIconIndex(2);

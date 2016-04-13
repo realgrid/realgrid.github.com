@@ -35,7 +35,7 @@ tags:
 > Value: "update"  
 > 기존 데이터를 대체. 추가할 데이터는 남아있는데 이미 마지막행일 경우는 append와 같이 뒤로 추가한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     dataProvider.fillJsonData(data, { count: 1000, fillMode: "set" });

@@ -51,7 +51,7 @@ tags:
 
 > None.   
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.setRows(rows, "tree", true, "", "icon");

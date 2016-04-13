@@ -204,7 +204,7 @@ $(document).ready( function() {
 > Default: false  
 > 셀 데이터 값을 툴팁으로 표시해준다.   
 
-#### Examples
+##### Examples s
 <pre class="prettyprint">
     $("#btnShowTooltip").click(function(){
         var renderer = {

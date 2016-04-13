@@ -29,7 +29,7 @@ tags:
 
 > none
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.restoreColumns();

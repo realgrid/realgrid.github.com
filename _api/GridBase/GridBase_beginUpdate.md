@@ -27,7 +27,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 gridview.beginUpdate();

@@ -41,7 +41,7 @@ tags:
 > Default: true     
 > 컬럼그룹 헤더를 표시할 것인 지를 지정한다. 
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

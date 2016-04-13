@@ -80,7 +80,7 @@ tags:
 > Default: Null       
 > 보조 문자에 적용할 스타일을 지정한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

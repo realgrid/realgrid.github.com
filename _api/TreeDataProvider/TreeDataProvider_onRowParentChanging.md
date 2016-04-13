@@ -48,7 +48,7 @@ versions:
 > type: Boolean  
 > false 를 return하면 이동이 취소된다.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.onRowParentChanging = function (provider, rowId, parentId, childIndex)  {

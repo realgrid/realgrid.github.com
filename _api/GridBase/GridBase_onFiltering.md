@@ -31,7 +31,7 @@ tags:
 > Default: True  
 > 필터링 실행 여부를 지정한다.  False를 반환하면 필터링은 취소된다.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onFiltering = function (grid){

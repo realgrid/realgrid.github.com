@@ -28,7 +28,7 @@ tags:
 > Type: Array of String  
 > 그리드에 표시된 column명들   
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var dispCols = gridView.saveColumnLayout();

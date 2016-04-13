@@ -48,7 +48,7 @@ tags:
 > Type: object  
 > errorLevel과 errorMesage 값을 포함하는 object를 그리드에 전달하면 검증에 실패한 것으로 판단한다.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onValidateRow = function (grid, itemIndex, dataRow, inserting, values) {

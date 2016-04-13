@@ -29,7 +29,7 @@ tags:
 > Type: Arrary of Number  
 > 현재 선택된 행들.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
         var sel = gridView.getSelectedItems();

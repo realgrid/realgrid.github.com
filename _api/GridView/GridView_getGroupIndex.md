@@ -203,7 +203,7 @@ function setColumns(grid) {
 > Type: number
 > 자신이 속한 그룹의 ItemIndex
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

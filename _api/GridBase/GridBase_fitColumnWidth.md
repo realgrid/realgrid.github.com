@@ -46,7 +46,7 @@ tags:
 > None.  
 
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.fitColumnWidth('CustomerID', 200, 10, true);

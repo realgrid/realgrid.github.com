@@ -50,7 +50,7 @@ tags:
 
 > none  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 gridView.onFilterActionClicked = function (grid, column, action, x, y) {

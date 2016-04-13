@@ -40,7 +40,7 @@ RealGrid Plus 전용 함수.
 > Type: string  
 > Data load token.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.loadData({

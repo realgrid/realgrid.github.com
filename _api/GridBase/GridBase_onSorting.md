@@ -34,7 +34,7 @@ tags:
 > Default: True  
 > 소팅 실행 여부를 지정한다. False를 반환하면 소팅은 취소된다.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onSorting = function (grid){

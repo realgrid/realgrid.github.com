@@ -79,7 +79,7 @@ tags:
 > Default:  null     
 > 컬럼그룹에 적용할 스타일들을 지정한다.     
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

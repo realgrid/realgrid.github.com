@@ -34,7 +34,7 @@ tags:
 > Type: object.  
 > JSON 객체로 만들어진 데이터행의 값.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var row = provider.getRow(19);

@@ -36,7 +36,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.onRowsAdded = function (provider, parentId, rowIds) {

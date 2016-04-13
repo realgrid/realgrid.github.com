@@ -192,7 +192,7 @@ function setColumns(grid) {
 > Type: number  
 > 데이터행 개수.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

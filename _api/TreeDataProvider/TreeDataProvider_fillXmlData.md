@@ -36,7 +36,7 @@ tag:
 
 > None.   
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeMain.showProgress();

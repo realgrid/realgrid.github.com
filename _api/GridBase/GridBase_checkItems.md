@@ -35,7 +35,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.checkItems([0,1,2,3],true);    

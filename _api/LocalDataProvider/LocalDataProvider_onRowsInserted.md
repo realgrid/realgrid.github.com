@@ -38,7 +38,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.onRowsInserted = function (provider, row, count) { 

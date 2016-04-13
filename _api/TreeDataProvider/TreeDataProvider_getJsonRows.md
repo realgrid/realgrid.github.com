@@ -48,7 +48,7 @@ tags:
 > Type: Array of Object  
 > JSON 객체들   
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var rows = treeProvider.getJsonRows(-1, true, "child", "icon");

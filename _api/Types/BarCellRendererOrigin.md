@@ -43,7 +43,7 @@ tags:
 > Type: "bottom"  
 > 막대 상자가 셀의 아래쪽부터 사작한다.                
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

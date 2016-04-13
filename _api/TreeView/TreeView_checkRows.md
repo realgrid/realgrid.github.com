@@ -34,7 +34,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeView.checkRows([2,3,4],true);

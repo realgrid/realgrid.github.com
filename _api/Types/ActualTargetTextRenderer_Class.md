@@ -42,7 +42,7 @@ permalink: /api/types/ActualTargetTextRenderer/
 > 목표값의 글꼴을 지정한다.  
 
 
-#### Example  
+##### Examples   
 
 <pre class="prettyprint">
 	var fields = [{

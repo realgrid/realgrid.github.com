@@ -35,7 +35,7 @@ tags:
 > Type: Object  
 > Item Model 객체  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var extended = $("#chkExtendedModel").is(":checked");

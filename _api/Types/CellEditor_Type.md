@@ -35,7 +35,7 @@ permalink: /api/types/CellEditor/
 > Value: "date"      
 > 날짜 에디터    
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

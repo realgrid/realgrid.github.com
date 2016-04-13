@@ -137,7 +137,7 @@ tags:
 > Merged Cell에서 개별 cell 영역 표시 여부를 지정한다.    
 
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     gridView.setDisplayOptions({

@@ -38,7 +38,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeView.expand(0,true);

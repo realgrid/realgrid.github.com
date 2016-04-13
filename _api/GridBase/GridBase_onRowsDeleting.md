@@ -35,7 +35,7 @@ tags:
 > Type: string  
 > null이 아닌 값을 리턴하면 이 텍스트를 표시하고 삭제를 취소한다.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onRowsDeleting = function (grid, rows) {

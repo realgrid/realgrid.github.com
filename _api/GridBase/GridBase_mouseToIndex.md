@@ -34,7 +34,7 @@ tags:
 
 > [CellIndex](/api/types/CellIndex/) 값.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 var gridLoaded = false;

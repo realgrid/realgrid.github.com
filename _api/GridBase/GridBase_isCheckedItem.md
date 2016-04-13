@@ -29,7 +29,7 @@ tags:
 > Type: Boolean  
 > CheckBar에 체크가 되어있으면 true가 반환된다.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     if (gridView.isCheckedItem(0)) {

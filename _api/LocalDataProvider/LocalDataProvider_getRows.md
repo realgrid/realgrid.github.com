@@ -37,7 +37,7 @@ tags:
 > Type: Array of object.  
 > 배열로 만들어진 데이터행들의 목록.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var rows = provider.getRows(10, 19);

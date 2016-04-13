@@ -35,7 +35,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     grid.onColumnHeaderDblClicked =  function (grid, column) {

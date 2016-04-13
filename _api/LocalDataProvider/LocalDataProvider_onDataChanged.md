@@ -31,7 +31,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.onDataChanged = function (provider) {

@@ -35,7 +35,7 @@ jsonly: true
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeView.onTreeItemChanged = function (tree, itemIndex, rowId) {

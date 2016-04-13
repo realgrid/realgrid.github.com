@@ -31,7 +31,7 @@ tags:
 
 > none
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.onRowCountChanged = function (provider, count) {

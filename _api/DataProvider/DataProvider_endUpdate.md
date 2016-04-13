@@ -223,7 +223,7 @@ function addLog(log) {
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

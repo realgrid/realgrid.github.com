@@ -62,7 +62,7 @@ tags:
 > Default:  
 > 체크 가능 여부의 수식을 지정한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var options = {

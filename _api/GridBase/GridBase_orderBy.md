@@ -34,7 +34,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var fields = ["field1", "field2"];

@@ -27,7 +27,7 @@ deprecated: true
 > Type: array of string  
 > 컬럼그룹 이름 배열.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 var groups = grid.getGroupNames();

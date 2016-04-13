@@ -54,7 +54,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.updateRows(row, rows, 0, -1, false);

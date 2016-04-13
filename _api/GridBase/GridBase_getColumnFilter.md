@@ -35,7 +35,7 @@ tags:
 > 필터  
 
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.setColumns([

@@ -41,7 +41,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onLinkableCellClicked = function (grid, index, url) {

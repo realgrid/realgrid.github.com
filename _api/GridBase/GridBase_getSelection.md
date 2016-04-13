@@ -29,7 +29,7 @@ tags:
 > Type: object  
 > 선택 영역 정보
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
         var sel = gridView.getSelection();

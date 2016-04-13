@@ -30,7 +30,7 @@ tags:
 > Type: Object  
 > JSON객체로 만들어진 item행의 값  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var values = treeMain.getValues(0);

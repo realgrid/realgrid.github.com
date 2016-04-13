@@ -34,7 +34,7 @@ tags:
 > Default: null  
 > 이 값이 지정되면 datetime 필드의 값을 복사할 때 변환 형식으로 사용된다. 지정되지 않은 경우 데이터필드에 설정된 값을 사용한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     gridView.setCopyOptions({

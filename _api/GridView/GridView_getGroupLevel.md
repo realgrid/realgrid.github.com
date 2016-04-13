@@ -205,7 +205,7 @@ function setColumns(grid) {
 > Type: number  
 > 그룹의 레벨  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

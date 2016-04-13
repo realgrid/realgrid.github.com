@@ -33,7 +33,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var column = gridView.columnByName("col1");

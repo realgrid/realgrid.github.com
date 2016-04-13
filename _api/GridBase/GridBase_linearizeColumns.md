@@ -27,7 +27,7 @@ permalink: /api/GridBase/linearizeColumns/
 
 > none
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.linearizeColumns()

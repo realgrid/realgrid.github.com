@@ -48,7 +48,7 @@ tags:
 > Default: ""  
 > DateTime 필드의 값이 null 일때 표현되는 값을 지정한다. 
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var options = {

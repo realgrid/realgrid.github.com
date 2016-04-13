@@ -28,7 +28,7 @@ jsonly: true
 > Type: Object  
 > JSON 객체   
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var row = treeProvider.getJsonRow(2);

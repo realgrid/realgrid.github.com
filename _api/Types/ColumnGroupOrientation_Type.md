@@ -31,7 +31,7 @@ tags:
 > Value: "vertical"     
 > 하위 컬럼들을 세로 방향으로 배치합니다.   
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

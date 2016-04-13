@@ -31,7 +31,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var imgList = new RealGrids.ImageList("images1");

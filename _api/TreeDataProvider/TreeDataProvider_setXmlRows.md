@@ -43,7 +43,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.setXmlRows(rows, "row", "", "icon");

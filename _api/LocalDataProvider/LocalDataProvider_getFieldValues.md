@@ -39,7 +39,7 @@ tags:
 > Type: Array of object.  
 > 객체로 만들어진 지정한 필드의 데이터 목록.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     dataProvider.getFieldValues("userid", 0, 1)

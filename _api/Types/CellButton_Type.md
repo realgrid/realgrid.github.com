@@ -33,7 +33,7 @@ permalink: /api/types/CellButton/
 > POPUP의 경우 컬럼에 popupMenu 속성 값이 정의 되어야 하고 ([DataColumn](/api/types/DataColumn) 이 popupMenu 값과 [addPopupMenu](/api/GridBase/addPopupMenu) 호출시 name 값과 일치 해야 한다.  
 > 팝업 메뉴의 메뉴 항목 클릭시 [onMenuItemClicked](/api/GridBase/onMenuItemClicked) Callback 함수가 호출된다.
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

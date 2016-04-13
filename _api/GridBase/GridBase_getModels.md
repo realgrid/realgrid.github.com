@@ -34,7 +34,7 @@ tags:
 > Type: Array of Object  
 > Item Model 객체들  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var extended = true;

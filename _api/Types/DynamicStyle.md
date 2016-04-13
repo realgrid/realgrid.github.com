@@ -28,7 +28,7 @@ tags:
 > Type: Object  
 > 스타일을 설정한다.      
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
      gridView.setStyles({

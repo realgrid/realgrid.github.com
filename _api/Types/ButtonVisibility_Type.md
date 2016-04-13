@@ -35,7 +35,7 @@ tags:
 > Value: "hidden"  
 > 버튼을 표시하지 않는다.     
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

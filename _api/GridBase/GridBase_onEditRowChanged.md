@@ -47,7 +47,7 @@ tags:
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onEditRowChanged = function (grid, itemIndex, dataRow, field, oldValue, newValue) {

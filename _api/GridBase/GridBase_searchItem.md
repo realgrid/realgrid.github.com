@@ -30,7 +30,7 @@ tags:
 > Type: Number  
 > 검색된 행 번호. 검색되지 않으면 -1.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var options = {

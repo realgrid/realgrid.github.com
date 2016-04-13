@@ -33,7 +33,7 @@ tags:
 
 > None.   
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeProvider.setIconIndex(1, 2);

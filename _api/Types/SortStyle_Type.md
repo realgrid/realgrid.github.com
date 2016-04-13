@@ -32,7 +32,7 @@ permalink: /api/types/SortStyle/
 > Value: "reverse"  
 > 마지막으로 클릭한 컬럼을 우선으로 순서대로 정렬합니다. 
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var options = {};

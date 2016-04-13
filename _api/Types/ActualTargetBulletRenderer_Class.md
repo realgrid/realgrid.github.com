@@ -31,7 +31,7 @@ permalink: /api/types/ActualTargetBulletRenderer/
 > Default: null  
 > 배경색을 지정한다.  
 
-#### Example  
+##### Examples   
 
 <pre class="prettyprint">
 	var fields = [{

@@ -49,7 +49,7 @@ tags:
 > Default: true     
 > 필터를 수행할 것인 지를 지정한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
 	var columns = [{

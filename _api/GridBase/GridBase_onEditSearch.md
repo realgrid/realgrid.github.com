@@ -38,7 +38,7 @@ tags:
 
 None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     var CustomerNames = ["ALFKI", "ANATR", "ANTON", "AROUT", "BERGS", "BLAUS", "BLONP", "BOLID", "BONAP"];

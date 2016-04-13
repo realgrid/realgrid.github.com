@@ -31,7 +31,7 @@ tags:
 > Type: CellIndex  
 > 검색된 [CellIndex](/api/types/CellIndex/) 
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     function searchHandler() {

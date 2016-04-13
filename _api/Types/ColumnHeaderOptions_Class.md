@@ -54,7 +54,7 @@ permalink: /api/types/ColumnHeaderOptions/
 > Type: object
 > none, fill, hoveredNone, hoveredFill 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     gridView.setColumnHeaderOptions({

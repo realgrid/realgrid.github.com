@@ -85,7 +85,7 @@ tags:
 > Default: 'button'  
 > 리스트가 펼쳐질 기준을 지정합니다. 'button'이면 드롭다운 버튼의 오른쪽에, 'editor'이면 왼쪽에 맞춥니다.  
 
-#### Examples  
+##### Examples s  
 
 <pre class="prettyprint">
 gridView.setColumns([{

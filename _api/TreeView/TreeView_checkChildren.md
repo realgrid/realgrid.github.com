@@ -46,7 +46,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeView.checkChildren(0,true,true,false); // 0번째 부모행의 모든 자식행을 체크한다.

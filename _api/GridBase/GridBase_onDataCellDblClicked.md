@@ -33,7 +33,7 @@ tags:
 
 > None.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onDataCellDblClicked =  function (grid, index) {

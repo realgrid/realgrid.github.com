@@ -35,7 +35,7 @@ jsonly: true
 
 > None.
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeView.onTreeItemCollapsed = function (tree, itemIndex, rowId) {

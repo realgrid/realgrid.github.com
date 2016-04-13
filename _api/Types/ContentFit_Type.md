@@ -39,7 +39,7 @@ permalink: /api/types/ContentFit/
 > Value: "auto"  
 > 이미지가 왜곡되지 않는 상태로 최대한 셀 크기에 맞춰 중앙에 정렬한다.  
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
     gridView.setColumnHeaderOptions({

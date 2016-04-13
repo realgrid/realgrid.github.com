@@ -30,7 +30,7 @@ tags:
 > Type: Array of Number  
 > 자식행의 itemIndex배열.  
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     treeView.getChildren(0);

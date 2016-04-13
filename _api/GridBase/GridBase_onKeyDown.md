@@ -50,7 +50,7 @@ tags:
 > Type: boolean  
 > 키 입력을 금지할때 false 를 리턴한다..
 
-#### Example
+##### Examples 
 
 <pre class="prettyprint">
     gridView.onKeyDown = function (grid, key, ctrl, shift, alt) {
