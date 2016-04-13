@@ -32,7 +32,7 @@ deprecated: true
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var itemIndex = grid.getCurrent().itemIndex;

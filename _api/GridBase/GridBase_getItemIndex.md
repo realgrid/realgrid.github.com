@@ -31,7 +31,7 @@ tags:
 > Type: Number  
 > 입력된 dataRow와 연결된 itemIndex이다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var idx = gridView.getItemIndex(1);

@@ -34,7 +34,7 @@ tags:
 > Type: Object  
 > prop에 입력된 속성명의 값이다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     aHeader = gridView.getColumnProperty("column","header");

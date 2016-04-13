@@ -29,7 +29,7 @@ tags:
 > Type: Boolean  
 > 그리드가 편집중이면 true를 반환한다.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     if (grdMain.isItemEditing()) {

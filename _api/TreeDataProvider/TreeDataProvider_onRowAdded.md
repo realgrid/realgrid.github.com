@@ -29,7 +29,7 @@ permalink: /api/TreeDataProvider/onRowAdded/
 
 > None.  
   
-##### Examples   
+#### Examples   
 
 <pre class="prettyprint">
     treeProvider.onRowAdded = function (provider, rowId) {

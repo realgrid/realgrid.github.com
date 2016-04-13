@@ -34,7 +34,7 @@ tags:
 > Type: **  
 > 데이터 필드의 값.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 var itemIndex = grid.getCurrent().itemIndex;

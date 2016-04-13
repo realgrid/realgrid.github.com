@@ -34,7 +34,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     dataProvider.onRowsDeleted = function (provider, rows) {

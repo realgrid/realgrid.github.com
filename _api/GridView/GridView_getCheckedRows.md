@@ -35,7 +35,7 @@ tags:
 > Type: Array of Number  
 > Check된 행 인덱스들의 배열.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var rows = gridView.getCheckedRows(true);

@@ -33,7 +33,7 @@ tags:
 > 컬럼 설정 정보 배열.  
 > 컬럼이 존재하지 않는 경우 null.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 gridView.setColumns([

@@ -34,7 +34,7 @@ tags:
 > Type: Object  
 > Item Model 객체  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var extended = true;

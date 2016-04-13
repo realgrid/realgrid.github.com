@@ -34,7 +34,7 @@ tags:
 > Type: boolean  
 > false를 리턴하면 페이지 이동이 취소된다.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onPageChanging =  function (grid, newPage) {

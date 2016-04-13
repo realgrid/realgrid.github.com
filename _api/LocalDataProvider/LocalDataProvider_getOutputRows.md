@@ -40,7 +40,7 @@ tags:
 > Type: Array of object.  
 > JSON 객체로 만들어진 데이터행들의 목록.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var rows = provider.getOutputRows({datetimeFormat: "yyyyMMdd"}, 10, 19);

@@ -30,7 +30,7 @@ tags:
 > Type:boolean
 > 데이터 변경이 발생한 경우 true가 반환된다. 
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.commit(false)

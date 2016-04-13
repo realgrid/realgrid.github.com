@@ -32,7 +32,7 @@ tags:
 
 > None
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.groupBy(["field1", "field2"]);  // 그룹을 설정하는 경우

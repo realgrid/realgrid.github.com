@@ -27,7 +27,7 @@ tags:
 > Type: Array of Number
 > 아이템 index들의 배열.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var items = treeView.getCheckedItems();

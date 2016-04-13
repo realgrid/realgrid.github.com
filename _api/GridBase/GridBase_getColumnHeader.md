@@ -30,7 +30,7 @@ deprecated: true
 > Type: Object  
 > 컬럼 정보이거나 존재하지 않으면 null.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 var colName = "column1";

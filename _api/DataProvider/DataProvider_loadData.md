@@ -38,7 +38,7 @@ tags:
 > Type: string  
 > Data load token.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     provider.loadData({

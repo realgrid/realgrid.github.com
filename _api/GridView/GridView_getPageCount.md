@@ -28,7 +28,7 @@ tags:
 > Type: Number  
 > 페이지 개수.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var count = gridView.getPageCount();

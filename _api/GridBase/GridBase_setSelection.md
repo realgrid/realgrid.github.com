@@ -30,7 +30,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
         var sel = {startItem: 0, endItem: 10, style: "rows"};

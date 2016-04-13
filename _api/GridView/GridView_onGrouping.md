@@ -209,7 +209,7 @@ function setColumns(grid) {
 > Default: True  
 > 그룹핑 실행 여부를 지정한다.  False를 반환하면 그룹핑은 취소된다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

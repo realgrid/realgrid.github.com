@@ -41,7 +41,7 @@ tags:
 
 > None.   
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeProvider.onRowSiblingMoved = function (provider, rowId, delta) {

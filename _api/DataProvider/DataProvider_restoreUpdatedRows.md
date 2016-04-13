@@ -32,7 +32,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var rows = grid.getCheckedRows();

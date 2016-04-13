@@ -42,7 +42,7 @@ tags:
 
 > None  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onCurrentRowChanged =  function (grid, oldRow, newRow) {

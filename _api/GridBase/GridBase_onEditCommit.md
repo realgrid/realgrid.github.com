@@ -44,7 +44,7 @@ tags:
 
 None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onEditCommit = function (id, index, oldValue, newValue) {

@@ -35,7 +35,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeView.checkItems( [ 0, 1 ], true );

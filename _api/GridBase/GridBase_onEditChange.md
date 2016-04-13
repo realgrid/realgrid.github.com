@@ -39,7 +39,7 @@ tags:
 
 None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onEditChange =  function (grid, index, value) {

@@ -26,7 +26,7 @@ tags:
 > Value: "or"  
 > 여러개의 필터중 하나의 필터라도 부합하면 나온다.  
 
-##### Examples s  
+#### Examples s  
 
 <pre class="prettyprint">
 	var filters = [

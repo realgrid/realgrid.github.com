@@ -39,7 +39,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeView.checkItem( 2, true, false );

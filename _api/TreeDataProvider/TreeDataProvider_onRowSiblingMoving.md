@@ -42,7 +42,7 @@ tags:
 > type: Boolean  
 > false 를 return하면 이동이 취소된다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeProvider.onRowSiblingMoving = function (provider, rowId, delta) {

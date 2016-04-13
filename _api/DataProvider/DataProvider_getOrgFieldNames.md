@@ -195,7 +195,7 @@ function setColumns(grid) {
 > Type: Array of string  
 > 필드 이름 배열.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

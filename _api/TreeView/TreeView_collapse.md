@@ -33,7 +33,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeView.collapse(0,true);

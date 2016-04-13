@@ -29,7 +29,7 @@ None
 > Type: object  
 > [CellIndex](/api/types/CellIndex/) 모델 값을 갖는 현재 포커스 셀 위치 정보.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var index = gridView.getCurrent();

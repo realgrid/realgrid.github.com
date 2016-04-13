@@ -35,7 +35,7 @@ tags:
 > Type: array of Object  
 > 입력된 active상태에 해당하는 [ColumnFilter](/api/types/ColumnFilter)의 배열이 반환된다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var aColumn = gridView.columnByField("customerId");

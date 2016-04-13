@@ -40,7 +40,7 @@ tags:
 
 > None
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var itemIndex = gridView.getCurrent().itemIndex;

@@ -204,7 +204,7 @@ function setColumns(grid) {
 > Type: Array of number  
 > 행 번호 배열  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

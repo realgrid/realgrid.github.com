@@ -27,7 +27,7 @@ permalink: /api/TreeDataProvider/getDescendantCount/
 > Type: Number  
 > 자손 행 개수  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var count = treeProvider.getDescendantCount(10);

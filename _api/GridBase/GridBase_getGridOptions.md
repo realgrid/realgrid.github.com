@@ -27,7 +27,7 @@ tags:
 > Type: Object  
 > 그리드 옵션 정보. [GridOptions](/api/types/GridOptions/)에서 선언된 속성들을 반환한다.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 var options = gridView.getGridOptions();

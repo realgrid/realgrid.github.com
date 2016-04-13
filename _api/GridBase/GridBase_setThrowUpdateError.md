@@ -29,7 +29,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     grdMain.setThrowUpdateError(true);

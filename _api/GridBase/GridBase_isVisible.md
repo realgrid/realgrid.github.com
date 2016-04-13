@@ -27,7 +27,7 @@ tags:
 > Type: boolean  
 > 그리드가 표시된 상태면 true.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 var visible = gridView.isVisible();

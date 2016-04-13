@@ -34,7 +34,7 @@ tags:
 > Type: Boolean  
 > false를 리턴하면 추가가 취소된다.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     dataProvider.onRowInserting = function (provider, row) {

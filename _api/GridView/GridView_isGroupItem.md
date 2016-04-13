@@ -31,7 +31,7 @@ tags:
 > Type: boolean  
 > 그룹 아이템 여부
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var bGroupItem = gridView.isGroupItem(1);

@@ -40,7 +40,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     provider.removeRows([0,1,2], false);

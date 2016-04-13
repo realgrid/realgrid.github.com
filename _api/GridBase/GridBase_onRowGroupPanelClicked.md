@@ -36,7 +36,7 @@ tags:
 
 > None.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onRowGroupPanelClicked =  function (grid, column) {

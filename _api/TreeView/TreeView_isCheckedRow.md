@@ -29,7 +29,7 @@ tags:
 > Type: Boolean  
 > 입력된 rowId의 데이터행이 체크되었으면 true, 해제되었으면 false를 return한다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeView.isCheckedRow(0);

@@ -31,7 +31,7 @@ permalink: /api/DataProvider/setComparer/
 > Type: number  
 > 추가된 비교 함수 id.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 </pre>

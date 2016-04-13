@@ -42,7 +42,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onCellEdited =  function (grid, itemIndex, dataRow, field) {

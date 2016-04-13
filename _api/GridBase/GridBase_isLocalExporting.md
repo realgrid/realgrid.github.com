@@ -28,7 +28,7 @@ tags:
 > Type: Boolean  
 > 엑셀 저장중일 경우 true 가 리턴된다.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 	if (grdMain.isLocalExporting()) {

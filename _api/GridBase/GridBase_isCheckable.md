@@ -30,7 +30,7 @@ tags:
 > Type: Boolean  
 > CheckBar에 체크가 가능한 상태이면 true를 반환한다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     if (gridView.isCheckable(0)) {

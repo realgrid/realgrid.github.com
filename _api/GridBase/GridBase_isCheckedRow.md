@@ -29,7 +29,7 @@ tags:
 > Type: Boolean  
 > dataRow와 연결된 item이 체크되어있으면 true를 반환한다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     if (gridView.isCheckedRow(0)) {

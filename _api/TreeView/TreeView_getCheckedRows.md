@@ -27,7 +27,7 @@ tags:
 > Type: Array of Number
 > Check된 데이터행들의 트리 아이디의 배열.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var rows = treeView.getCheckRows();

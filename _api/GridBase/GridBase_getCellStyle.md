@@ -34,7 +34,7 @@ tags:
 > Type: string  
 > 셀 스타일 id가 반환된다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.addCellStyle("style02", {

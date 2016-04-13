@@ -35,7 +35,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var filters = [{name:"filter1",criteria:"value='가나다라'"},{name:"filter2",criteria:"value='가나다라'", active:true}];

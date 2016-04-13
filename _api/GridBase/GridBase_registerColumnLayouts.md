@@ -30,7 +30,7 @@ tags:
 
 > none
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var layouts = [{

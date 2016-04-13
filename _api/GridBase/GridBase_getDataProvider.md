@@ -28,7 +28,7 @@ tags:
 > Type: [DataProvider](/api/DataProvider/)  
 > DataProvider 객체.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 var provider = gridView.getDataProvider();

@@ -29,7 +29,7 @@ tags:
 > Type: Boolean  
 > 체크가 되었으면 true, 해제되었으면 false를 리턴한다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeView.isCheckedItem(0);    

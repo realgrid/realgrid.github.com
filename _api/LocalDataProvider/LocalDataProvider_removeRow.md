@@ -32,7 +32,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     provider.removeRow(10);

@@ -48,7 +48,7 @@ tags:
 
 > None.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onKeyUp = function (grid, key, ctrl, shift, alt) {

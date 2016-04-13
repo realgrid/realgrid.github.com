@@ -41,7 +41,7 @@ tags:
 
 > None.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var aModel = gridView.getModel(0); 

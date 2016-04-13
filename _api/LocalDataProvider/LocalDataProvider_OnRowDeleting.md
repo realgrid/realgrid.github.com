@@ -36,7 +36,7 @@ tags:
 > Type: Boolean  
 > false를 리턴하면 삭제가 취소된다.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     provider.onRowDeleting = function (provider, row) {

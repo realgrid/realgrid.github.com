@@ -205,7 +205,7 @@ function setColumns(grid) {
 > Number  
 > 지정된 rowStates에 해당하는 Row의 건수들 이다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 dataProvider.setRowState(1, "updated", true);

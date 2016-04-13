@@ -41,7 +41,7 @@ tags:
 
 > callback 함수에서 명시적으로 false를 리턴하면 current가 변경되지 않는다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onCurrentChanging =  function (grid, oldIndex, newIndex) {

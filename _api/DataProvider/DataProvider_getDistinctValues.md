@@ -199,7 +199,7 @@ function setColumns(grid) {
 > Type: Array  
 > 중복제거한 필드데이터
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

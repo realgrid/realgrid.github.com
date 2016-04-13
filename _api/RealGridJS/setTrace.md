@@ -26,7 +26,7 @@ permalink: /api/RealGridJS/setTrace/
 
 > None.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     RealGridJS.setTrace(true);

@@ -33,7 +33,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var count = gridView.getPageCount();

@@ -28,7 +28,7 @@ tags:
 > Type: String  
 > 버전을 가져온다.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
   /* RealGrid+ Web 버전 */

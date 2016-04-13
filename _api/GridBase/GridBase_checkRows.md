@@ -33,7 +33,7 @@ tags:
 
 > None.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.checkRows([1,2,3,4],true);

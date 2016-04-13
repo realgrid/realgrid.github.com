@@ -33,7 +33,7 @@ tags:
 
 > Boolean
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 	var dataRow = gridView.getCurrent().dataRow;

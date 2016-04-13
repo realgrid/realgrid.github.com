@@ -31,7 +31,7 @@ tags:
 > Type: array of Number  
 > 입력된 itemIndex와 연결된 dataRow이다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var dataRows = gridView.getRowsOfItems([1,2,3,4]);

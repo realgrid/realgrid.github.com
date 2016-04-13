@@ -29,7 +29,7 @@ tags:
 
 > Type: Array of Number
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeView.getDescendants(0);    

@@ -199,7 +199,7 @@ function setColumns(grid) {
 > Type: number  
 > 필드 인덱스.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

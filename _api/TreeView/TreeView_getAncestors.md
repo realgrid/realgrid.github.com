@@ -35,7 +35,7 @@ tags:
 > Type: Array of Number.
 > 배열로 만들어진 ItemIndex들의 목록.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
    var items = treeView.getAncestors(5, false);  

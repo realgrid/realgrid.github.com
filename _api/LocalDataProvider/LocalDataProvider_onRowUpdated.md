@@ -33,7 +33,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     dataProvider.onRowUpdated = function (provider, row) {

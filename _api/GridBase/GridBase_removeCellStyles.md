@@ -30,7 +30,7 @@ tags:
 
 > None
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var ids = ["style01", "style02", "style03"]

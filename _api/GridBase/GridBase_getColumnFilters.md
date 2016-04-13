@@ -29,7 +29,7 @@ permalink: /api/GridBase/getColumnFilters/
 > 필터 Objects  
 
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.setColumns([

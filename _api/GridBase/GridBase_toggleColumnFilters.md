@@ -35,7 +35,7 @@ tags:
 
 > NONE
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.setColumns([

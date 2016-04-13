@@ -35,7 +35,7 @@ tags:
 
 > none.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeProvider.moveRowSibling(10, -1);  //rowId가 10인 행을 같은 레벨의 형제간에 한단계 위로 이동

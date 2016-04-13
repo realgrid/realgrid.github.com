@@ -27,7 +27,7 @@ permalink: /api/TreeDataProvider/getChildCount/
 > Type: Number  
 > 자식 행 개수  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var count = treeProvider.getChilCount(3);

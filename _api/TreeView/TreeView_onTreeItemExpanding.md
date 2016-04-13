@@ -35,7 +35,7 @@ permalink: /api/TreeView/onTreeItemExpanding/
 > Type: boolean  
 > false를 리턴하면 아이템이 펼쳐지지 않는다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeView.onTreeItemExpanding = function (tree, itemIndex, rowId) {

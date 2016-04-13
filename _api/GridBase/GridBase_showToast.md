@@ -34,7 +34,7 @@ tags:
 
 > None.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.showToast("toast 창을 표시합니다.");

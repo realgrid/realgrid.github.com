@@ -30,7 +30,7 @@ tags:
 > Type: Number  
 > 부모행의 itemIndex이다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeView.getParent(2);

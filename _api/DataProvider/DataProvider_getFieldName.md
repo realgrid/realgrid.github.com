@@ -200,7 +200,7 @@ function setColumns(grid) {
 > Type: string  
 > 필드 이름.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

@@ -32,7 +32,7 @@ tags:
 > Type: Object  
 > JSON객체로 만들어진 item행의 값  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var values = gridView.getValues(0);

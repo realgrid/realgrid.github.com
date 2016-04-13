@@ -70,7 +70,7 @@ permalink: /api/types/SortingOptions/
 > Type: object
 > ascending, descending, hoveredAscending, hoveredDescending, none, hoveredNone 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
 
-##### Examples s
+#### Examples s
 
 **다중컬럼 정렬이 가능하도록 설정하기**
 

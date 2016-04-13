@@ -75,7 +75,7 @@ permalink: /api/types/FixedOptions/
 > Default: false  
 > true면 고정 컬럼 셀들에 대한 모든 동적 스타일들을 무시한다.   
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     grid.setOptions({

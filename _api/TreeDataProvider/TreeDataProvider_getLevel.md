@@ -27,7 +27,7 @@ permalink: /api/TreeDataProvider/getLevel/
 > Type: Number  
 > 트리의 레벨  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var level = treeProvider.getLevel(10);

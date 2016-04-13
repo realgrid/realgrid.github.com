@@ -37,7 +37,7 @@ tags:
 
 > None.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onRowsPasted =  function (grid, items) {

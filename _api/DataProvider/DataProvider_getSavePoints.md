@@ -198,7 +198,7 @@ function setColumns(grid) {
 > Type: Array of Number  
 > 저장되어있는 savePoint의 id를 배열로 반환한다.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

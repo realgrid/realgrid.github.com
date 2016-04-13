@@ -196,7 +196,7 @@ function setColumns(grid) {
 > Type: number  
 > 그룹 레벨의 깊이
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

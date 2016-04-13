@@ -38,7 +38,7 @@ tags:
 
 > None.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.checkItem(0,true,false);    

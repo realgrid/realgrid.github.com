@@ -50,7 +50,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.onEditRowPasted = function(grid, itemIndex, dataRow, fields, oldValues, newValues){

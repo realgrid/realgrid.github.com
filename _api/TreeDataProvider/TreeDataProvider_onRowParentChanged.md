@@ -47,7 +47,7 @@ tags:
 
 > None. 
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeProvider.onRowParentChanged = function (provider, rowId, parentId, childIndex)  {

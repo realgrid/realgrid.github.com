@@ -39,7 +39,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     values = [1,"가","A"];

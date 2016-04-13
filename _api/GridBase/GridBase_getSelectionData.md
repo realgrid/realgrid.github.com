@@ -29,7 +29,7 @@ tags:
 > Type: object  
 > 셀 데이터들.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var data = grid.getSelectionData(10);

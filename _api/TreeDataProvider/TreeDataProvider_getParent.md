@@ -27,7 +27,7 @@ permalink: /api/TreeDataProvider/getParent/
 > Type: Number.  
 > 부모 행의 Row Id.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var row = treeProvider.getParent(10);

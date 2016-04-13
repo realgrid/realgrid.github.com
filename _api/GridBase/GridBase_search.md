@@ -30,7 +30,7 @@ permalink: /api/GridBase/search/
 > Type: Number
 > 검색된 행 번호. 검색되지 않으면 -1.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var options = {

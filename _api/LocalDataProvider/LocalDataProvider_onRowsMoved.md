@@ -42,7 +42,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     dataProvider.onRowsMoved = function (provider, row, count, newRow) {

@@ -193,7 +193,7 @@ function setColumns(grid) {
 > Type: number  
 > 필드 개수.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){

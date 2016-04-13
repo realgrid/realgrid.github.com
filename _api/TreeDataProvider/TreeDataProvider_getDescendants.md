@@ -27,7 +27,7 @@ permalink: /api/TreeDataProvider/getDescendants/
 > Type: Array of Number.  
 > 배열로 만들어진 Row Id들의 목록.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var rows = treeProvider.getDescendants(3);

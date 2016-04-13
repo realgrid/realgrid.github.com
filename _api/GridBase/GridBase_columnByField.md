@@ -30,7 +30,7 @@ tags:
 > Type: Object  
 > 컬럼 설정 정보나 컬럼이 존재하지 않는 경우 null.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 var field = "fldName";

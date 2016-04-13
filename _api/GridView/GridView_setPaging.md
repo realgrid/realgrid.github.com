@@ -48,7 +48,7 @@ tags:
 
 > None.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     gridView.setPaging(true, 10, -1);

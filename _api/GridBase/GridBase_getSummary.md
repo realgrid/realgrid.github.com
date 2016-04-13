@@ -39,7 +39,7 @@ tags:
 > Type: Number  
 > 컬럼 이름 배열.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var sum = grdMain.getSummary("field","sum");

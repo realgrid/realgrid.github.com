@@ -35,7 +35,7 @@ tags:
 
 > None.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     grid.onRowGroupBarClicked =  function (grid, index) {

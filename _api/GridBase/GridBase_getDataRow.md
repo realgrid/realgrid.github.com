@@ -31,7 +31,7 @@ tags:
 > Type: Number  
 > Row ID값
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     var itemIndex = gridView.getCurrent().itemIndex;

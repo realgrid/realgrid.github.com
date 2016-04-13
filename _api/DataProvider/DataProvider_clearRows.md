@@ -193,7 +193,7 @@ function setColumns(grid) {
 
 > None.
 
-##### Examples 
+#### Examples 
 
 
 <pre class="prettyprint">

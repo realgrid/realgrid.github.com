@@ -50,7 +50,7 @@ tags:
 > Type: Number.  
 > 추가된 자식 행의 Row Id.  
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
     treeProvider.insertChildRow(9, 0, [], 2, false)

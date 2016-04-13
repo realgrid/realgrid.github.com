@@ -206,7 +206,7 @@ function setColumns(grid) {
 > Type: boolean.  
 > 값이 있는 행이면 true. 가상 행이면 false.
 
-##### Examples 
+#### Examples 
 
 <pre class="prettyprint">
 $("#button1").click(function(){
