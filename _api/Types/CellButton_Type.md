@@ -67,6 +67,9 @@ permalink: /api/types/CellButton/
 	gridView.setColumns(columns);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 
 > [Edit Button Demo](http://demo.realgrid.net/Demo/EditButtons) 참조  

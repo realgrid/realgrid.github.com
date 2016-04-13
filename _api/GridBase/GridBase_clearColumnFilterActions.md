@@ -35,6 +35,9 @@ tags:
     gridView.clearColumnFilterActions("OrderID")
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setColumnFilterActions](/api/GridBase/setColumnFilterActions)  
 > [ColumnFilterAction](/api/types/ColumnFilterAction/)  

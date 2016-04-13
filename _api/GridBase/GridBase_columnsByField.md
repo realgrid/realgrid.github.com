@@ -45,5 +45,8 @@ var field = "fldName1";
 var columns = gridView.columnsByField(field);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [columnByField](/api/GridBase/columnByField), [columnByTag](/api/GridBase/columnByTag), [columnByName](/api/GridBase/columnByName), [columnsByTag](/api/GridBase/columnsByTag)

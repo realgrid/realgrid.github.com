@@ -33,5 +33,8 @@ tags:
 var visible = gridView.isVisible();
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setVisible](/api/GridBase/setVisible)

@@ -40,6 +40,9 @@ tags:
     });
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getEditOptions](/api/GridBase/getEditOptions)  
 > [데이터 편집하기](/tutorial/a23/)

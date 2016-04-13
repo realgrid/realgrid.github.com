@@ -34,5 +34,8 @@ tags:
     gridView.resetCurrent();
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setCurrent](/api/GridBase/setCurrent), [getCurrent](/api/GridBase/getCurrent)

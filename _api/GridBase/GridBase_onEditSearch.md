@@ -75,6 +75,9 @@ None.
     }
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [fillEditSearchItems](/api/GridBase/fillEditSearchItems), [onGetEditValue](/api/GridBase/onGetEditValue)  
 > [Search Editor](/tutorial/b7-10/), [Editor Demo](http://demo.realgrid.com/Demo/Editors)

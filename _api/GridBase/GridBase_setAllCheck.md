@@ -37,5 +37,8 @@ tags:
 	gridView.setAllCheck(true);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [ChcekBar](/api/types/CheckBar)

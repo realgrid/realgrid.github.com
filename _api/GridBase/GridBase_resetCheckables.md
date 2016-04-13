@@ -40,5 +40,8 @@ tags:
     gridView.resetCheckables();
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [CheckBar](/api/types/CheckBar), [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)

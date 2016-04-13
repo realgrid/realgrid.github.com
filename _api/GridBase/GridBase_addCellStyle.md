@@ -52,5 +52,8 @@ tags:
     gridView.setCellStyles([dataRows], [fieldNames], "styleId");
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setCellStyles](/api/GridBase/setCellStyles), [addCellStyles](/api/GridBase/addCellStyles), [clearCellStyles](/api/GridBase/clearCellStyles), [removeAllCellStyles](/api/GridBase/removeAllCellStyles), [removeCellStyles](/api/GridBase/removeCellStyles)  

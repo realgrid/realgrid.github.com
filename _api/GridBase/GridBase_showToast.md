@@ -40,5 +40,8 @@ tags:
     gridView.showToast("toast 창을 표시합니다.");
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [hideToast](/api/GridBase/hideToast)

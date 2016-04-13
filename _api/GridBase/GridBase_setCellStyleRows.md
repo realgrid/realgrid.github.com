@@ -65,5 +65,8 @@ gridView.setCellStyleRows(rows, {"col1style": 1});
 /* 1번째에 해당하는 userid컬럼에 col1style로 지정된 style을 적용한다. */
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setCellStyle](/api/GridBase/setCellStyle), [setCellStyles](/api/GridBase/setCellStyles), [DataCellStyleRows Demo](http://demo.realgrid.com/Demo/DataCellStyleRows)

@@ -42,5 +42,8 @@ tags:
     gridView.setColumnProperty("column","header",aHeader);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setColumnProperty](/api/GridBase/setColumnProperty)

@@ -54,6 +54,9 @@ tags:
     gridView.toggleAllColumnFilters("column1");
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [toggleColumnFilters](/api/GridBase/toggleColumnFilters), [setColumnFilters](/api/GridBase/setColumnFilters), [clearColumnFilters](/api/GridBase/clearColumnFilters), [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters), [activateColumnFilters](/api/GridBase/activateColumnFilters)  
 > [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

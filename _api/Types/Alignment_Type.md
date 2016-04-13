@@ -67,6 +67,9 @@ permalink: /api/types/Alignment/
 	gridView.setColumns(columns);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 
 > [Style Properties](http://demo.realgrid.com/Demo/StylesProperties) 참조  

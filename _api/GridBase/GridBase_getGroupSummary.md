@@ -55,5 +55,8 @@ permalink: /api/GridBase/getGroupSummary/
     }
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [Column Footer](http://demo.realgrid.com/Demo/ColumnFooter)

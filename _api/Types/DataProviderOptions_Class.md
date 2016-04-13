@@ -104,6 +104,9 @@ tags:
 	});	
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 
 > [setOptions](/api/DataProvider/setOptions/)     

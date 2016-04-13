@@ -37,5 +37,8 @@ if (options) {
 };
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setSortingOptions](/api/GridBase/setSortingOptions)

@@ -34,5 +34,8 @@ tags:
     gridView.closeList();
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [hideEditor](/api/GridBase/hideEditor)

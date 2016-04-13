@@ -44,6 +44,9 @@ tags:
     gridView.checkAll(true,false);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [checkItem](/api/GridBase/checkItem), [checkItems](/api/GridBase/checkItems), [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)    
 > [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

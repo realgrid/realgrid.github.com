@@ -37,5 +37,8 @@ tags:
         gridView.setSelection(sel);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getSelection](/api/GridBase/getSelection), [getSelectionData](/api/GridBase/getSelectionData)

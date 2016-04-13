@@ -41,5 +41,8 @@ tags:
     gridView.setColumn(column);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [Column Properties](http://demo.realgrid.com/Demo/ColumnProperties), [setColumns](/api/GridBase/setColumns)

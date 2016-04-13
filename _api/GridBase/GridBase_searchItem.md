@@ -40,5 +40,8 @@ tags:
     var itemindex = gridView.searchItem(options);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [searchCell](/api/GridBase/searchCell)

@@ -38,5 +38,8 @@ tags:
     }
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setColumnHeaderOptions](/api/GridBase/setColumnHeaderOptions)

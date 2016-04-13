@@ -45,5 +45,8 @@ tags:
     gridView.orderBy([],[]);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [SortingOptions](/api/types/SortingOptions)

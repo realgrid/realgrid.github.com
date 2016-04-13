@@ -67,6 +67,9 @@ permalink: /api/types/FilteringOptions/
 > Type: object
 > none, fill, hoveredNone, hoveredFill 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
 
+#### Demo Links
+#### See Also
+
 #### See Also
 
 > [ColumnFiltering](http://demo.realgrid.net/Demo/ColumnFiltering)

@@ -46,5 +46,8 @@ tags:
     gridView.setColumnProperty(column, "editable", false);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [columnByName](/api/GridBase/columnByName),[ColumnProperties](http://demo.realgrid.com/Demo/ColumnProperties)

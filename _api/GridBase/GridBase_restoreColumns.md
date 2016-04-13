@@ -35,5 +35,8 @@ tags:
     gridView.restoreColumns();
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 [linearizeColumns](/api/GridBase/linearizeColumns)

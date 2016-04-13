@@ -39,6 +39,9 @@ tags:
     });
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getFilteringOptions](/api/GridBase/getFilteringOptions)  
 > [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

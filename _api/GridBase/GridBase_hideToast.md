@@ -35,5 +35,8 @@ tags:
     gridView.hideToast(function(){gridView.setValue(0,0,"toast 종료")});
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [showToast](/api/GridBase/showToast)

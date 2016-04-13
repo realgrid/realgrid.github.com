@@ -137,6 +137,9 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also 
 
 > [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 참조  

@@ -35,5 +35,8 @@ var options = gridView.getOptions();
 alert(JSON.stringify(options));
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setOptions](/api/GridBase/setOptions)

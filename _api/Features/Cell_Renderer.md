@@ -46,6 +46,9 @@ tags:
 * [SparkWinLossRenderer](/api/types/SparkWinLossRenderer) - 일정 범위 내의 데이터 흐름을 윈로스 형태로 표시합니다.     
 * [TextCellRenderer](/api/types/TextCellRenderer) - 셀에 표시할 값을 텍스트로 표시합니다.   
 
+#### Demo Links
+#### See Also
+
 #### See Also
 
 > [Renderer Demo](http://demo.realgrid.net/Demo/RendererConcept) 참조    

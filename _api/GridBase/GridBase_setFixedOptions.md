@@ -40,5 +40,8 @@ tags:
     });
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getFixedOptions](/api/GridBase/getFixedOptions)

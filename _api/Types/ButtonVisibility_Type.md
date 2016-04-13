@@ -81,6 +81,9 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 
 > [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons) 참조  

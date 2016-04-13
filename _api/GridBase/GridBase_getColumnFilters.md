@@ -53,5 +53,8 @@ permalink: /api/GridBase/getColumnFilters/
     alert(JSON.stringify(filters));				
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [Column Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering) 참조

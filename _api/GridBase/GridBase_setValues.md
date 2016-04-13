@@ -48,6 +48,9 @@ tags:
      gridView.setValues(0, values, true);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setValue](/api/GridBase/setValue), [getValues](/api/GridView/getValues)
 

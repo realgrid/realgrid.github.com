@@ -36,5 +36,8 @@ tags:
     gridView.removeLookupSource(sourceId);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [addLookupSource](/api/GridBase/addLookupSource), [ColumnLookup Demo](http://demo.realgrid.com/Demo/ColumnLookup)

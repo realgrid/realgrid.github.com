@@ -43,5 +43,8 @@ tags:
     /* dataRow가 10이하 인경우만 체크 가능하도록 한다.*/
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [CheckBar](/api/types/CheckBar), [setCheckable](/api/GridBase/setCheckable), [resetCheckables](/api/GridBase/resetCheckables), [applyCheckables](/api/GridBase/applyCheckables)

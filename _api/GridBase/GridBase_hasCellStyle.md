@@ -36,5 +36,8 @@ tags:
     var value = gridView.hasCellStyle("style01");
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [addCellStyle](/api/GridBase/addCellStyle), [getCellStyle](/api/GridBase/getCellStyle), [setCellStyle](/api/GridBase/setCellStyle)

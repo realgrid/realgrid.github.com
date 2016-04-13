@@ -33,6 +33,9 @@ permalink: /api/GridBase/linearizeColumns/
     gridView.linearizeColumns()
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also 
 
 > [restoreColumns](/api/GridBase/restoreColumns) 

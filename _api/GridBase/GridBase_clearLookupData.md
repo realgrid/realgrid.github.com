@@ -35,6 +35,9 @@ tags:
     gridView.clearLookupData(sourceId)
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [addLookupSource](/api/GridBase/addLookupSource), [setLookups](/api/GridBase/setLookups), [existsLookupData](/api/GridBase/existsLookupData), [removeLookupSource](/api/GridBase/removeLookupSource), [fillLookupData](/api/GridBase/fillLookupData)  
 > [LookupTree](http://demo.realgrid.com/Demo/LookupTree)

@@ -39,5 +39,8 @@ tags:
     });
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getHeader](/api/GridBase/getHeader)

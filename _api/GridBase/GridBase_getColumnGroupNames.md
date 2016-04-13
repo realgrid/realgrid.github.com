@@ -52,5 +52,8 @@ tags:
     var groups = grid.getColumnGroupNames();
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getColumnNames](/api/GridBase/getColumnNames), [getColumns](/api/GridBase/getColumns)

@@ -82,5 +82,8 @@ tags:
     gridView.setOptions(options);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getOptions](/api/GridBase/getOptions)

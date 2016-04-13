@@ -95,6 +95,9 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 
 > [Column Grouping Demo](http://demo.realgrid.net/Demo/ColumnGrouping) 참조  

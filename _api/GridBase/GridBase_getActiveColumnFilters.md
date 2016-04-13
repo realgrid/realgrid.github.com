@@ -42,5 +42,8 @@ tags:
     var arr = gridView.getActiveColumnFilters(aColumn, true);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters), [activateColumnFilters](/api/GridBase/activateColumnFilters), [getColumnFilter](/api/GridBase/getColumnFilter), [getColumnFilters](/api/GridBase/getColumnFilters)

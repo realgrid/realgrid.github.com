@@ -21,5 +21,8 @@ permalink: /api/types/SelectOptions/
 > Default: SelectionStyle.BLOCK   
 > 선택 영역이 설정되는 방식이다.   
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [Selecting](http://demo.realgrid.net/Demo/Selecting)

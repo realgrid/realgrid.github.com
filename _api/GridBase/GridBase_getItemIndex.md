@@ -37,5 +37,8 @@ tags:
     var idx = gridView.getItemIndex(1);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getDataRow](/api/GridBase/getDataRow)

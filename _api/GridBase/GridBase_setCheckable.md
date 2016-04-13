@@ -41,5 +41,8 @@ tags:
     gridView.setCheckable(1, true);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [CheckBar](/api/types/CheckBar), [setCheckableExpression](/api/GridBase/setCheckableExpression)

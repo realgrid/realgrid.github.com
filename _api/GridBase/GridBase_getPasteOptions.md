@@ -38,5 +38,8 @@ tags:
     }
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setPasteOptions](/api/GridBase/setPasteOptions), [getCopyOptions](/api/GridBase/getCopyOptions), [setCopyOptions](/api/GridBase/setCopyOptions)

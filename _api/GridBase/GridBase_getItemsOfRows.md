@@ -37,5 +37,8 @@ tags:
     var itemIndexs = gridView.getItemsOfRows([1,2,3,4]);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getRowsOfItems](/api/GridBase/getRowsOfItems)

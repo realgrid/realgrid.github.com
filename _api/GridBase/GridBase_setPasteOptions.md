@@ -40,6 +40,9 @@ tags:
     });
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getPasteOptions](/api/GridBase/getPasteOptions), [getCopyCoptions](/api/GridBase/getCopyOptions), [setCopyOptions](/api/GridBase/setCopyOptions)  
 > [Copy &amp; Paste Demo](http://demo.realgrid.com/Demo/CopyAndPaste)

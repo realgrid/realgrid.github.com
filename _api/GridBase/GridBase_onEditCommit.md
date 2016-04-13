@@ -51,5 +51,8 @@ None.
         console.log("onEditCommit: " + index.itemIndex + ", " + index.column + ", " + oldValue + " => " + newValue);   
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [onEditCanceled](/api/GridBase/onEditCanceled), [commitEditor](/api/GridBase/commitEditor)

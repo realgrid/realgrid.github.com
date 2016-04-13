@@ -45,6 +45,9 @@ permalink: /api/types/CellIndex/
     console.log(index);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 
 > [getCurrent](/api/GridBase/getCurrent)

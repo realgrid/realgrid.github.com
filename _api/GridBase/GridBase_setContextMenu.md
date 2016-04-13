@@ -53,5 +53,8 @@ gridView.onContextMenuItemClicked = function (grid, label, index) {
 };
 </pre>
     
+#### Demo Links
+#### See Also
+
 #### See Also
 > [onContextMenuItemClicked](/api/GridBase/onContextMenuItemClicked)  

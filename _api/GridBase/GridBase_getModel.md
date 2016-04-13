@@ -43,6 +43,9 @@ tags:
     console.log(JSON.stringify(item));
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getModelAs](/api/GridBase/getModelAs),[getModelOfRow](/api/GridBase/getModelOfRow), [getModels](/api/GridBase/getModels), [getParentModel](/api/GridBase/getParentModel)   
 > [Grid Item](/api/features/Grid%20Item/)  

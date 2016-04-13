@@ -35,5 +35,8 @@ tags:
     alert(JSON.stringify(cpOpt));
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setCopyOptions](/api/GridBase/setCopyOptions), [getPasteOptions](/api/GridBase/getPasteOptions), [setPasteOptions](/api/GridBase/setPasteOptions)

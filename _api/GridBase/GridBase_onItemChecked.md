@@ -47,5 +47,8 @@ tags:
     };
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [CheckBar](/api/types/CheckBar), [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

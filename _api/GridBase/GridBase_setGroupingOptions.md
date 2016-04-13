@@ -37,5 +37,8 @@ tags:
     gridView.setGroupingOptions(opts);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getGroupingOptions](/api/GridBase/getGroupingOptions), [Panel](/api/types/Panel)

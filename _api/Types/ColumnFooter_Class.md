@@ -93,6 +93,9 @@ permalink: /api/types/ColumnFooter/
 	gridView.setColumns(columns);
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also 
 
 > [Column Footer](http://demo.realgrid.net/Demo/ColumnFooter) 참조  

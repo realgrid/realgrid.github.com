@@ -33,5 +33,8 @@ tags:
     gridView.removeAllCellStyles();
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [addCellStyle](/api/GridBase/addCellStyle), [setCellStyle](/api/GridBase/setCellStyle)

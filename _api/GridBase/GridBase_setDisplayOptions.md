@@ -40,5 +40,8 @@ tags:
     });
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getDisplayOptions](/api/GridBase/getDisplayOptions)

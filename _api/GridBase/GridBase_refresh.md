@@ -34,5 +34,8 @@ tags:
     grdMain.refresh();
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [beginUpdate](/api/GridBase/beginUpdate), [endUpdate](/api/GridBase/endUpdate)

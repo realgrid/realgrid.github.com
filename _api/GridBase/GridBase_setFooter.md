@@ -36,5 +36,8 @@ permalink: /api/GridBase/setFooter/
     });
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getFooter](/api/GridBase/getFooter)

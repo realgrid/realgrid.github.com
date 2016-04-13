@@ -37,5 +37,8 @@ if (header) {
 }
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [setHeader](/api/GridBase/setHeader)

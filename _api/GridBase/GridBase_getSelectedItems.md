@@ -36,5 +36,8 @@ tags:
         window.console && console.log("SelectedItems: ", JSON.stringify(sel));
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getSelectedRows](/api/GridBase/getSelectedRows)

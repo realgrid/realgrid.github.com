@@ -36,6 +36,9 @@ tags:
     $("#txtTitle").text("selected values :").show();
 </pre>
 
+#### Demo Links
+#### See Also
+
 #### See Also
 > [getSelection](/api/GridBase/getSelection)
 
