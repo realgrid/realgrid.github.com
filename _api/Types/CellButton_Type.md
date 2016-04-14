@@ -38,35 +38,35 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
-        "name": "OrderID",
-        "fieldName": "OrderID",
-        "type": "data",
-        "width": "90",
-        "button": "action",
-        "buttonVisibility": "always",
-        "styles": {
-            "textAlignment": "near"
-        },
-        "header": {
-            "text": "Order"
-        }
-    }, {
-        "name": "CustomerID",
-        "fieldName": "CustomerID",
-        "type": "data",
-        "width": "130",
-        "button": "popup",
-        "popupMenu": "menu1",
-        "buttonVisibility": "visible",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Customer ID"
-        }
-	}]
-	gridView.setColumns(columns);
+var columns = [{
+    "name": "OrderID",
+    "fieldName": "OrderID",
+    "type": "data",
+    "width": "90",
+    "button": "action",
+    "buttonVisibility": "always",
+    "styles": {
+        "textAlignment": "near"
+    },
+    "header": {
+        "text": "Order"
+    }
+}, {
+    "name": "CustomerID",
+    "fieldName": "CustomerID",
+    "type": "data",
+    "width": "130",
+    "button": "popup",
+    "popupMenu": "menu1",
+    "buttonVisibility": "visible",
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "Customer ID"
+    }
+}]
+gridView.setColumns(columns);
 </pre>
 
 
