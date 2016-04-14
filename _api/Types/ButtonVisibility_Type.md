@@ -11,11 +11,13 @@ jsonly: true
 tags:
   - buttonVisibility
   - 버튼표시
+  - button
+  - 버튼
 ---
 
 #### Description
 
-> 데이터 셀에 버튼을 표시하는 방법을 지정한다.
+DataColumn객체의 buttonVisibility속성으로, 데이터 셀에 버튼을 표시하는 방법을 지정한다.
 
 #### Members
 
@@ -81,7 +83,13 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
+---
+
+#### Tutorial Links
+
+* [B7-6 Cell Button](/tutorial/b7-6/)
+
 #### Demo Links
 
-> [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons) 참조  
-> [B7-6 Cell Button](http://help.realgrid.com/tutorial/b7-6/) 참조  
+* [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons)
+
