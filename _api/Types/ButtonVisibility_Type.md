@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
-[DataColumn](/api/types/DataColumn)의 `buttonVisibility`속성으로, 데이터 셀에 버튼을 표시하는 방법을 지정한다.
+[DataColumn](/api/types/DataColumn)의 `buttonVisibility`속성과 `editButtonVisibility`속성에 사용되며, 데이터 셀에 버튼을 표시하는 방법을 지정한다.
 
 #### Members
 
@@ -71,10 +71,11 @@ tags:
         "fieldName": "EmployeeID",
         "type": "data",
         "width": "100",
-        "button": "action",
-        "buttonVisibility": "hidden",
-        "styles": {
-            "textAlignment": "far"
+        "editButtonVisibility": "visible",
+        "lables": ["ID1", "ID2"],
+        "values": ["V1", "V2"],
+        "editor": {
+            type: "dropdown"
         },
         "header": {
             "text": "Employee ID"

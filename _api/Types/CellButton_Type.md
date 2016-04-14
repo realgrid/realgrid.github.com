@@ -77,6 +77,10 @@ gridView.setColumns(columns);
 * [B7-6 Cell Button](/tutorial/b7-6/)
 * [B7-7 Popup Menu](/tutorial/b7-7/)
 
+#### API Links
+
+* [ButtonVisibility](/api/types/ButtonVisibility/)
+
 #### Demo Links
 
 * [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons)

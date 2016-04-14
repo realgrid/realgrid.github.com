@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> DataProvider 필드들 중 하나의 값을 표시하는 컬럼이다.
+DataProvider 필드들 중 하나의 값을 표시하는 컬럼이다.
 
 #### Properties
 
@@ -117,7 +117,7 @@ tags:
 > **alwaysShowEditButton**  
 > Type: Boolean  
 > Default: false   
->  이 값이 true면 데이터셀 위에 마우스가 진입하거나 셀이 포커스된 상태가 아니더라도 [Cell Editor](/api/features/Cell Editor/)가 버튼을 표시하는 것일 때 그 버튼을 항상 표시한다.   
+>  이 값이 true면 데이터셀 위에 마우스가 진입하거나 셀이 포커스된 상태가 아니더라도 셀 편집기([Cell Editor](/api/features/Cell Editor/))가 버튼을 표시하는 유형일 때 그 버튼을 항상 표시하도록 지정한다. 현재 버튼이 표시되는 셀 편집기는 [DropDownCellEditor](/api/types/DropDownCellEditor), [DateCellEditor](/api/types/DateCellEditor), [SearchCellEditor](/api/types/SearchCellEditor)가 있다.    
 
 > **buttonVisibility**  
 > Type: [ButtonVisibility](/api/types/ButtonVisibility)  
@@ -127,7 +127,7 @@ tags:
 > **editButtonVisibility**  
 > Type: [ButtonVisibility](/api/types/ButtonVisibility)  
 > Default: [ButtonVisibility](/api/types/ButtonVisibility).DEFAULT   
-> 편집기 버튼이 표시되는 방법을 지정한다.  
+> 셀 편집기([Cell Editor](/api/features/Cell Editor/)) 버튼이 표시되는 방법을 지정한다. 현재 버튼이 표시되는 셀 편집기는 [DropDownCellEditor](/api/types/DropDownCellEditor), [DateCellEditor](/api/types/DateCellEditor), [SearchCellEditor](/api/types/SearchCellEditor)가 있다.       
 
 > **mergeRule**  
 > Type: Object   
@@ -244,7 +244,7 @@ tags:
 > Default:  null     
 > 이 컬럼에 적용할 [EditValidation](/api/types/EditValidation) 목록을 지정한다.     
 
-#### Examples s
+#### Examples
 
 **컬럼을 생성하는 기본적인 방법**
 
