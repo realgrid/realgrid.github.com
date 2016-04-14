@@ -89,6 +89,10 @@ DataColumn객체의 buttonVisibility속성으로, 데이터 셀에 버튼을 표
 
 * [B7-6 Cell Button](/tutorial/b7-6/)
 
+#### API Links
+
+* [CellButton](/api/types/CellButton/)
+
 #### Demo Links
 
 * [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons)
