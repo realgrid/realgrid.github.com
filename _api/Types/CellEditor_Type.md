@@ -126,6 +126,8 @@ permalink: /api/types/CellEditor/
 	gridView.setColumns(columns);
 </pre>                  
 
+---
+
 #### Demo Links
 
 * [Editors Demo](http://demo.realgrid.net/Demo/Editors)
