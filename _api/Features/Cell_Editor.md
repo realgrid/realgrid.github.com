@@ -36,8 +36,18 @@ tags:
 셀편집기 별로 지정할 수 있는 속성들이 있다. 데이터컬럼에 편집기를 지정하지 않으면 LineCellEditor가 기본으로 사용된다.
  
 
+---
+
+#### API Links
+
+* [LineCellEditor](/api/types/LineCellEditor)
+* [MultiLineCellEditor](/api/types/MultiLineCellEditor)
+* [SearchCellEditor](/api/types/SearchCellEditor)
+* [DropDownCellEditor](/api/types/DropDownCellEditor)
+* [NumberCellEditor](/api/types/NumberCellEditor)
+* [DateCellEditor](/api/types/DateCellEditor)
+
 #### Demo Links
 
-> [Editors Demo](http://demo.realgrid.net/Demo/Editors) 참조  
-> [CellEditor](/api/types/CellEditor/) 참조  
+* [Editors Demo](http://demo.realgrid.net/Demo/Editors)      
  

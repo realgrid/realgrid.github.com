@@ -11,34 +11,38 @@ permalink: /api/types/CellEditor/
 
 #### Description
 
-> 셀의 Editor 유형을 정의합니다.
+> 데이터 셀 편집기(Cell Editor)의 유형을 정의한다.
 
 #### Members
 
 > **LINE**      
 > Value: "line"     
-> 일반 Text 에디터                 
+> [LineCellEditor](/api/types/LineCellEditor)유형으로 단일 라인의 일반 텍스트 편집에 사용된다.                 
 
 > **MULTILINE** 
-> Value: "multiLine" 
-> 다중라인 Text 에디터             
+> Value: "multiLine"     
+> [MultiLineCellEditor](/api/types/MultiLineCellEditor)유형으로 다중라인 텍스트 편집에 사용된다.      
+
+> **SEARCH**  
+> Value: "search"   
+> [SearchCellEditor](/api/types/SearchCellEditor)유형, 원하는 셀 데이터를 찾을 수 있다.
 
 > **DROPDOWN**  
-> Value: "dropDown" 
-> 여러 개 중 선택하는 Combo 에디터 
+> Value: "dropDown"     
+> [DropDownCellEditor](/api/types/DropDownCellEditor)유형, KEY <-> VALUE 조합의 데이터 목록중 하나의 항목을 선택하는 선택형 편집에 사용된다.     
 
 > **NUMBER**    
 > Value: "number"   
-> 숫자 에디터                      
+> [NumberCellEditor](/api/types/NumberCellEditor)유형, 숫자 전용 편집에 사용된다                
 
 > **DATE**      
 > Value: "date"      
-> 날짜 에디터    
+> [DateCellEditor](/api/types/DateCellEditor)유형으로 날짜를 입력하거나 달력을 펼쳐 날짜를 선택 할 수 있다.       
 
 #### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
+    var columns = [{
         "name": "OrderID",
         "fieldName": "OrderID",
         "width": "90",
@@ -54,7 +58,7 @@ permalink: /api/types/CellEditor/
         "width": "150",
         "lookupDisplay": true,
         "values": ["VINET", "HANAR", "SUPRD", "VICTE", "THREE", "SEVEN"],
-        "labels": ["<VINET>", "<HANAR>", "<SUPRD>", "<VICTE>", "<THREE>", "<SEVEN>"],
+        "labels": [&quot;&lt;VINET&gt;&quot;, &quot;&lt;HANAR&gt;&quot;, &quot;&lt;SUPRD&gt;&quot;, &quot;&lt;VICTE&gt;&quot;, &quot;&lt;THREE&gt;&quot;, &quot;&lt;SEVEN&gt;&quot;],
         "editor": {
             "type": "dropDown",
             "dropDownCount": 4
@@ -124,4 +128,4 @@ permalink: /api/types/CellEditor/
 
 #### Demo Links
 
-> [Editors Demo](http://demo.realgrid.net/Demo/Editors) 참조
+* [Editors Demo](http://demo.realgrid.net/Demo/Editors)
