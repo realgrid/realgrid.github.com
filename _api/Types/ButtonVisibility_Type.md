@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
-DataColumn객체의 buttonVisibility속성으로, 데이터 셀에 버튼을 표시하는 방법을 지정한다.
+[DataColumn](/api/types/DataColumn)의 `buttonVisibility`속성으로, 데이터 셀에 버튼을 표시하는 방법을 지정한다.
 
 #### Members
 
@@ -40,7 +40,7 @@ DataColumn객체의 buttonVisibility속성으로, 데이터 셀에 버튼을 표
 #### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
+    var columns = [{
         "name": "OrderID",
         "fieldName": "OrderID",
         "type": "data",
@@ -79,8 +79,8 @@ DataColumn객체의 buttonVisibility속성으로, 데이터 셀에 버튼을 표
         "header": {
             "text": "Employee ID"
         }
-	}]
-	gridView.setColumns(columns);
+    }]
+    gridView.setColumns(columns);
 </pre>
 
 ---
