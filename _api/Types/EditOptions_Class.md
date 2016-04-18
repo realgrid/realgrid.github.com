@@ -9,7 +9,7 @@ directiontype:
 permalink: /api/types/EditOptions/
 tags:
   - EditOptions
-  - 편집옵션
+  - 편집옵션 
 ---
 
 #### Description

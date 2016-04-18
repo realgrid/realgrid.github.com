@@ -7,6 +7,10 @@ order: GridFitStyle
 objectname: 
 directiontype: 
 permalink: /api/types/GridFitStyle/
+tags: 
+  - FitStyle
+  - 핏스타일
+  - 그리드크기 
 ---
 
 
@@ -32,4 +36,21 @@ permalink: /api/types/GridFitStyle/
 > **FILL**   
 > Value: "fill"  
 > 컬럼의 width와 fillWidth를 이용해 채운다. fillWidth가 전혀 선택되지 않았다면 "even"과 동일하다.            
+
+### Example  
+
+<pre class="prettyprint">
+	gridView.setDisplayOptions({
+        fitStyle: "evenFill"
+    });
+</pre>
+
+#### See Also
+
+> [GridFitting](http://demo.realgrid.com/Demo/GridFitting) 참조  
+
+> [DisplayOptions](/api/types/DisplayOptions/)
+> [setDisplayOptions](/api/GridBase/setDisplayOptions/)  
+> [getDisplayOptions](/api/GridBase/getDisplayOptions/)  
+
 

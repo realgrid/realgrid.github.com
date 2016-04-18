@@ -7,6 +7,10 @@ order: FilterSelectorOptions
 objectname: 
 directiontype: 
 permalink: /api/types/FilterSelectorOptions/
+tags:
+  - FilterSelectorOptions
+  - 필터셀렉터옵션 
+  - 필터설정
 ---
 
 #### Description
@@ -48,12 +52,29 @@ permalink: /api/types/FilterSelectorOptions/
 > **showAll**  
 > Type: Boolean  
 > Default: true  
-> 모든 필텨를 보여줄것인지를 지정한다.  
+> 모든 필터를 보여줄것인지를 지정한다.  
 > FLASH Ver. 전용  
 
+<<<<<<< Updated upstream
 #### Demo Links
+=======
+### Example  
 
-> [ColumnFiltering](http://demo.realgrid.net/Demo/ColumnFiltering)
+<pre class="prettyprint">
+    gridView.setFilteringOptions({
+    	HandleVisibility: "visible",
+    	selector: {
+    		maxWidth: 100,
+    		maxHeight: 200,
+    		closeWhenClick: true
+    	},
+    })
+</pre>
+
+#### See Also
+>>>>>>> Stashed changes
+
+> [FilteringOptions](/api/types/FilteringOptions/)
 
 
 

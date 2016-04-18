@@ -7,6 +7,10 @@ order: Footer
 objectname: 
 directiontype: 
 permalink: /api/types/Footer/
+tags:
+  - Footer
+  - 풋터
+  - 푸터 
 ---
 
 #### Description
@@ -34,3 +38,18 @@ permalink: /api/types/Footer/
 > Type: boolean   
 > Default: true     
 > true면 Footer를 표시한다.  
+
+### Example  
+
+<pre class="prettyprint">
+    gridView.setFooter({
+        resizable: false,
+        visible: true,
+        ...
+    });
+</pre>
+
+#### See Also
+
+> [setFilteringOptions](/api/GridBase/setFooter/)  
+> [getFilteringOptions](/api/GridBase/getFooter/)  

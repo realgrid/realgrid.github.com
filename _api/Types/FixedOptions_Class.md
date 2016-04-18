@@ -7,6 +7,10 @@ order: FixedOptions
 objectname: 
 directiontype: 
 permalink: /api/types/FixedOptions/
+tags: 
+  - 행고정
+  - 열고정 
+  - FixedOptions
 ---
 
 #### Description
@@ -78,11 +82,9 @@ permalink: /api/types/FixedOptions/
 #### Examples 
 
 <pre class="prettyprint">
-    grid.setOptions({
-        fixed: {
-            rowCount: 2,
-            colCount: 2
-        }
+    grid.setFixedOptions({
+        rowCount: 2,
+        colCount: 2
     });
 </pre>
 
@@ -90,3 +92,6 @@ permalink: /api/types/FixedOptions/
 
 > [Fixed Columns Demo](http://demo.realgrid.net/Demo/ColumnFixing)   
 > [Fixed Rows Demo](http://demo.realgrid.net/Demo/FixedRows)
+
+> [setFixedOptions](/api/GridBase/setFixedOptions/)
+> [getFixedOptions](/api/GridBase/getFixedOptions/)
