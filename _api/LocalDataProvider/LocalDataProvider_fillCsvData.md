@@ -39,9 +39,9 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    grdMain.showProgress();
+    gridView.showProgress();
 
-    var current = grdMain.getCurrent();
+    var current = gridView.getCurrent();
     var dataRow = current.dataRow >= 0 ? current.dataRow : 0;    
 
     $.ajax({
@@ -54,16 +54,16 @@ tags:
         },
         complete: function (data) {
             setLoading(false);
-            grdMain.closeProgress();
+            gridView.closeProgress();
 
-            grdMain.setFocus();
+            gridView.setFocus();
         },
         xhr: function () {
             var xhr = new window.XMLHttpRequest();
             //Download progress
             xhr.addEventListener("progress", function (evt) {
                 if (evt.lengthComputable) {
-                    grdMain.setProgress(0, evt.total, evt.loaded);
+                    gridView.setProgress(0, evt.total, evt.loaded);
                 }
             }, false);
             return xhr;

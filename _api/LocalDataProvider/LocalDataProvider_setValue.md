@@ -41,7 +41,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var dataRow = grid.getCurrent().dataRow;
+    var dataRow = gridView.getCurrent().dataRow;
     var value = $("#name").val();
     dataProvider.setValue(dataRow, 1, value);
 
