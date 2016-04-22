@@ -36,8 +36,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var dataRow = grid.getCurrent().dataRow;
-    var value = grid.getValue(dataRow, "title");
+    var dataRow = gridView.getCurrent().dataRow;
+    var value = gridView.getValue(dataRow, "title");
 </pre>
 
 
