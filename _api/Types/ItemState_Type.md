@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-View 상에서의 행의 상태를 정의한다.
+> View 상에서의 행의 상태를 정의한다.
 
 #### Members
 

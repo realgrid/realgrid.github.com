@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-아이콘을 표시할 위치. "left", "right", "top", "bottom", "center" 중 하나. 기본값은 "left" 이며. 아이콘 위치에 따라 텍스트의 위치도 변경된다.  
+> 아이콘을 표시할 위치. "left", "right", "top", "bottom", "center" 중 하나. 기본값은 "left" 이며. 아이콘 위치에 따라 텍스트의 위치도 변경된다.  
 iconAlignment, iconPadding, iconOffset 등과 함께 사용한다.
   
 #### Members

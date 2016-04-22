@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-DataProvider 각 행의 변경 상태를 나타내는 상수 값이다.
+> DataProvider 각 행의 변경 상태를 나타내는 상수 값이다.
 
 #### Members
 

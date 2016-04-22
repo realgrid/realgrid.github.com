@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-Shape의 유형을 정의합니다.
+> Shape의 유형을 정의합니다.
 
 #### Memebers
 

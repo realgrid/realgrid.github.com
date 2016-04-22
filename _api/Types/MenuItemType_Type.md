@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-셀의 PopupMenu나 Grid ContextMenu등에서 표시되는 메뉴 항목의 유형을 정의한다.
+> 셀의 PopupMenu나 Grid ContextMenu등에서 표시되는 메뉴 항목의 유형을 정의한다.
 
 #### Members
 

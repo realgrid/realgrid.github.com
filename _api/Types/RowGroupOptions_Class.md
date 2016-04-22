@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-Row Grouping과 관련된 영역들의 표시 방법 등에 대한 설정 모델이다.
+> Row Grouping과 관련된 영역들의 표시 방법 등에 대한 설정 모델이다.
 
 #### Properties
 

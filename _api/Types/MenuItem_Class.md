@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-메뉴항목을 지정하는 모델이다.
+> 메뉴항목을 지정하는 모델이다.
 
 
 #### Properties
