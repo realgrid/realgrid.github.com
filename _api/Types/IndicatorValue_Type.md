@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드의 Indicator영역에 표시하는 방법을 정의합니다.
+그리드의 Indicator영역에 표시하는 방법을 정의합니다.
 
 #### Members
 

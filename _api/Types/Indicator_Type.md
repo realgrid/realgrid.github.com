@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 그리드 Indicator에 대한 설정 모델이다. Indicator는 행 번호를 표시하거나, 포커스 된 행의 위치 등을 표시한다.
+그리드 Indicator에 대한 설정 모델이다. Indicator는 행 번호를 표시하거나, 포커스 된 행의 위치 등을 표시한다.
 
 #### Properties
 

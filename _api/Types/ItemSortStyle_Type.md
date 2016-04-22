@@ -7,12 +7,14 @@ order: ItemSortStyle
 objectname: 
 directiontype: 
 permalink: /api/types/ItemSortStyle/
+tags:
+  - 소트스타일 아이템정렬
+  - 드롭다운DropDown
 ---
-
 
 #### Description
 
-> DropDown내 Item의 정렬 순서를 정의한다.
+DropDown내 Item의 정렬 순서를 정의한다.
 
 #### Members
 

@@ -7,12 +7,14 @@ order: ItemState
 objectname: 
 directiontype: 
 permalink: /api/types/ItemState/
+tags:
+  - 아이템상태
 ---
 
 
 #### Description
 
-> View 상에서의 Row의 상태를 정의한다.
+View 상에서의 행의 상태를 정의한다.
 
 #### Members
 

@@ -11,6 +11,10 @@ tags:
   - 이미지리스트
 ---
 
+#### Description
+
+RealGrid내에서 사용할 이미지목록으로 실제 이미지파일이 위치한 경로를 보관한다.
+
 #### Properties
 
 > **name**   
