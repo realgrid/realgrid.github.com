@@ -23,3 +23,32 @@ tags:
 > Type: boolean  
 > Default: false  
 > true이면 실제 이미지보다 크게 그릴 때 보정하여 그린다. 느리지만 보다 품질 좋은 렌더링을 하게된다.
+
+#### Examples 
+
+<pre class="prettyprint">
+var columns = [{
+    name: "col1",
+    fieldName: "field1",
+    width: 200,
+    header: {
+        text: "imageCellRenderer"
+    },
+    renderer: {
+        type: "image",
+        smoothing: "true"
+    },
+    styles: {
+        contentFit: "none"
+    }
+}];
+
+gridView.setColumns(columns);
+
+</pre>
+
+---
+
+#### Demo Links
+
+> [ImageCellRenderer](http://demo.realgrid.com/Demo/ImageCellRenderer){:target="_blank"} 참조

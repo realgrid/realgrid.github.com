@@ -30,3 +30,27 @@ tags:
 > Value: "descending"  
 > 역방향 정렬
 
+#### Examples
+
+<pre class="prettyprint">
+var columns = [{
+    name: "col1",
+    fieldName: "field1",
+    width: "150",
+    sortable: false,
+    editor: {
+        type: "dropDown",
+        dropDownCount: 4,
+        domainOnly: true,
+        itemSortStyle:"none", // 드롭다운 리스트 정렬 방법
+        values: ["a", "b", "c", "d"],
+        labels: ["A", "B", "C", "D"]
+    },
+    header: {
+        text: "DropDown"
+    }
+}];
+
+gridView.setColumns(columns);
+
+</pre>

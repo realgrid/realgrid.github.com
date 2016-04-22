@@ -32,3 +32,22 @@ tags:
 > Default: null  
 > rootUrl에 대한 상대 경로를 하나 이상의 이미지 경로를 Array로 지정한다.
 
+#### Examples
+
+<pre class="prettyprint">
+var imgs = new RealGridJS.ImageList("images1","http://" + location.host + "/img/demo/smallflag/");
+imgs.addUrls([
+    "ar.png",
+    "at.png",
+    "be.png"
+]);
+ 
+gridView.registerImageList(imgs);
+
+</pre>
+
+---
+
+#### Demo Links
+
+> [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer#.example){:target="_blank"} 참조

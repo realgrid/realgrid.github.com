@@ -39,3 +39,35 @@ iconAlignment, iconPadding, iconOffset 등과 함께 사용한다.
 > Value: "center"  
 > Icon을 Cell의 중앙에 표시한다. 이때는 Text가 표시되지 않는다.  
 
+#### Examples 
+
+<pre class="prettyprint">
+var columns = [{
+    name: "Country",
+    fieldName: "Country",
+    width: "120",
+    imageList: "images1",
+    renderer: {
+        type: "icon",
+        textVisible: false
+    },
+    styles: {
+        iconIndex: 0,
+        iconLocation: "left", // 아이콘 위치
+        iconAlignment: "center",
+        iconOffset: 2
+    },
+    header: {
+        text: "textVisible = false"
+    }
+}];
+
+gridView.setColumns(columns);
+
+</pre>
+
+---
+
+#### Demo Links
+
+> [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer#.example){:target="_blank"} 참조

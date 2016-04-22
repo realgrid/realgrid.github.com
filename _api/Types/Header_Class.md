@@ -82,3 +82,33 @@ tags:
 > Type: object|string     
 > Default: null       
 > SubText의 스타일을 지정한다.  
+
+#### Examples 
+
+<pre class="prettyprint">
+var columns = [{
+    name: "col1",
+    fieldName: "field1",
+    header: {
+        text: "header",
+        subText: "해더",
+        height: 30,
+        minHeight: 23,
+        resizable: false,
+        visible: true,
+        filterable: true,
+        sortable: true,
+        subTextGap: 4,
+        subTextLocation: "lower",
+        imageList: null,
+        itemOffset: 1,
+        itemGap: true,
+        styles: null,
+        subStyles: {foreground: "#ffff0000", fontSize: 10}
+    },
+    width: 100
+}];
+
+gridView.setColumns(columns);
+
+</pre>

@@ -37,6 +37,14 @@ tags:
 > Value: "hidden"    
 > 핸들을 감춘다.                          
 
+#### Examples 
+
+<pre class="prettyprint">
+gridView.setSortingOptions({
+    handleVisibility: "hidden" //표시방법
+});
+</pre>
+
 ---
 
 #### API Links
