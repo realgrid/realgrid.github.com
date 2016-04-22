@@ -8,7 +8,8 @@ objectname:
 directiontype: 
 permalink: /api/types/ImageCellRenderer/
 tags:
-  - 이미지셀렌더러랜더러
+  - 이미지셀랜더러
+  - 렌더러
 ---
 
 

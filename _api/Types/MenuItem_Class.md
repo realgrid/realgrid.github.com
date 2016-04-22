@@ -7,7 +7,14 @@ order: MenuItem
 objectname: 
 directiontype: 
 permalink: /api/types/MenuItem/
+tags:
+  - 메뉴항목
+  - 메뉴아이템
 ---
+
+#### Description
+
+메뉴항목을 지정하는 모델이다.
 
 
 #### Properties

@@ -7,12 +7,14 @@ order: LineCellEditor
 objectname: 
 directiontype: 
 permalink: /api/types/LineCellEditor/
+tags:
+  - 라인텍스트편집기
 ---
 
 
 #### Description
 
-> 한 줄 입력을 받을 수 있는 텍스트 편집기다. 컬럼에 특별히 지정하지 않으면 이 편집기가 사용된다.
+한 줄 입력을 받을 수 있는 텍스트 편집기다. RealGrid의 기본편집기 이므로 컬럼에 `editor`속성을 지정하지 않으면 LineCellEditor가 사용된다.
 
 
 #### Properties

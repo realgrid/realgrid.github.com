@@ -8,7 +8,8 @@ objectname:
 directiontype: 
 permalink: /api/types/Indicator/
 tags:
-  - 지시자인디케이터
+  - 지시자
+  - 인디케이터
 ---
 
 

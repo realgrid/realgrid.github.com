@@ -7,13 +7,17 @@ order: MultiLineCellEditor
 objectname: 
 directiontype: 
 permalink: /api/types/MultiLineCellEditor/
+tags:
+  - 멀티라인셀편집기
+  - 에디터
+  - 여러줄
 ---
 
 
 #### Description
 
-> 여러 줄을 입력을 받을 수 있는 텍스트 편집기다.   
-> Ctrl+Enter로 줄 나누기를 할 수 있다.  
+여러 줄을 입력을 받을 수 있는 텍스트 편집기이다.   
+Ctrl+Enter로 줄 나누기를 할 수 있다.  
 
 #### Properties
 

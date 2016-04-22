@@ -7,12 +7,15 @@ order: RowGroupOptions
 objectname: 
 directiontype: 
 permalink: /api/types/RowGroupOptions/
+tags:
+  - 로우그룹
+  - 설정
 ---
 
 
 #### Description
 
-> Row Grouping과 관련된 영역들의 표시 방법 등에 대한 설정 모델이다.
+Row Grouping과 관련된 영역들의 표시 방법 등에 대한 설정 모델이다.
 
 #### Properties
 

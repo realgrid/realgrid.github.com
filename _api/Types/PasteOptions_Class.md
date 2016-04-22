@@ -9,9 +9,8 @@ directiontype:
 permalink: /api/types/PasteOptions/
 tags:
     - copy
-    - paste
     - 복사
-    - 붙여넣기
+    - 붙여넣기설정
 ---
 
 

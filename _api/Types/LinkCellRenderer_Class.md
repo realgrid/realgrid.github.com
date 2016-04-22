@@ -7,14 +7,17 @@ order: LinkCellRenderer
 objectname: 
 directiontype: 
 permalink: /api/types/LinkCellRenderer/
+tags:
+  - 링크셀랜더러
+  - 렌더러
 ---
 
 
 #### Description
 
-> Link 셀 렌더러는 컬럼에 Hyperlink형태로 표현하고 클릭할 때 다른 페이지를 띄우거나 팝업처리 등을 구현할 수 있다. Link Renderer에서 Url을 지정하는 방법은 Url형태의 값을 가진 필드를 지정하거나 수식으로 Url Format를 지정하는 방법 두 가지가 있다.   
-> 전자는 UrlField로 지정하는 경우로 지정된 필드의 값을 모두 Url로 인지한다.   
-> 후자의 경우 Url 속성으로 Format을 지정할 수 있습니다. 예를들어 url: `http://demo.realgrid.net/${Page}` 로 하면 Page라는 필드명에 앞에 초기 경로를 지정할 수 있습니다.  
+Link 셀 렌더러는 컬럼에 Hyperlink형태로 표현하고 클릭할 때 다른 페이지를 띄우거나 팝업처리 등을 구현할 수 있다. Link Renderer에서 Url을 지정하는 방법은 Url형태의 값을 가진 필드를 지정하거나 수식으로 Url Format를 지정하는 방법 두 가지가 있다.   
+전자는 UrlField로 지정하는 경우로 지정된 필드의 값을 모두 Url로 인지한다.   
+후자의 경우 Url 속성으로 Format을 지정할 수 있다. 예를들어 url: `http://demo.realgrid.net/${Page}` 로 하면 `Page`라는 이름의 필드값을 이용해 경로를 지정할 수 있다.  
 
 #### Properties
 

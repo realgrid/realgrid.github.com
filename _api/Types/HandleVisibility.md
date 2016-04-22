@@ -9,7 +9,9 @@ directiontype:
 permalink: /api/types/HandleVisibility/
 tags:
   - 핸들설정
-  - 소팅소트필터아이콘
+  - 소팅
+  - 소트
+  - 필터아이콘
 ---
 
 

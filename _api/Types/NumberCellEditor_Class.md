@@ -7,12 +7,15 @@ order: NumberCellEditor
 objectname: 
 directiontype: 
 permalink: /api/types/NumberCellEditor/
+tags:
+  - 숫자편집기
+  - 넘버에디터
 ---
 
 
 #### Description
 
-> 숫자와 구두점 및 부호만을 입력할 수 있고 우측으로 정렬된 편집기이다.
+숫자와 구두점 및 부호만을 입력할 수 있고 우측으로 정렬된 편집기이다.
 
 
 #### Properties

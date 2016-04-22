@@ -7,12 +7,14 @@ order: SearchCellEditor
 objectname: 
 directiontype: 
 permalink: /api/types/SearchCellEditor/
+tags:
+  - 검색셀편집기
 ---
 
 
 #### Description
 
-> 드롭다운 에디터에서 검색이 필요할때 사용하는 편집기이다. 
+드롭다운 에디터에서 검색이 필요할때 사용하는 편집기이다. 
 
 #### Properties
 

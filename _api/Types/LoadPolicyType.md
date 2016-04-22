@@ -7,12 +7,16 @@ order: LoadPolicyType
 objectname: 
 directiontype: 
 permalink: /api/types/LoadPolicyType/
+tags:
+  - 정책
+  - 데이터로드
+  - 팔러시
 ---
 
 
 #### Description
 
-> loadData()에서 사용하는 clientPolicy의 타입. 데이터 로드 정책을 결정한다.
+loadData()에서 사용하는 clientPolicy의 타입. 데이터 로드 정책을 결정한다.
 
 #### Properties
 

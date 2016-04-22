@@ -7,12 +7,14 @@ order: RowState
 objectname: 
 directiontype: 
 permalink: /api/types/RowState/
+tags:
+  - 행상태
 ---
 
 
 #### Description
 
-> DataProvider 각 행의 변경 상태를 나타내는 상수 값이다.
+DataProvider 각 행의 변경 상태를 나타내는 상수 값이다.
 
 #### Members
 

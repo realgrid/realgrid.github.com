@@ -7,12 +7,14 @@ order: PolygonShape
 objectname: 
 directiontype: 
 permalink: /api/types/PolygonShape/
+tags:
+  - 다각형셰이프
 ---
 
 
 #### Description
 
-> Shape의 유형을 정의합니다.
+Shape의 유형을 정의합니다.
 
 #### Memebers
 
