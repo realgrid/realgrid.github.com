@@ -134,9 +134,6 @@ function setColumns(grid) {
         editor : {
             type: "number"
         },
-        styles: {
-            textAlignment: "far"
-        },
         width: 80
     }, {
         name: "col6",
@@ -216,3 +213,9 @@ $("#button1").click(function(){
 <button id="button1" class="btn btn-success btn-xs">버튼1</button> 
 버튼을 누르면 field3의 데이터를 지정한 범위(1행~3행)에 맞게 객체의 배일로 가져온다.
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
+
+---
+
+#### Demo Links
+
+> [GetValues](http://demo.realgrid.com/Demo/GetValues#.example){:target="_blank"} 참조
