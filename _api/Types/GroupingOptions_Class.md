@@ -7,6 +7,9 @@ order: GroupingOptions
 objectname: 
 directiontype: 
 permalink: /api/types/GroupingOptions/
+tags:
+  - 그루핑
+  - 그룹설정
 ---
 
 

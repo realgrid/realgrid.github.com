@@ -49,7 +49,7 @@ tags:
     });
 </pre>
 
-#### See Also
+#### Demo Links
 
 > [setFilteringOptions](/api/GridBase/setFooter/)  
 > [getFilteringOptions](/api/GridBase/getFooter/)  
