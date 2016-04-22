@@ -7,8 +7,9 @@ order: IndicatorValue
 objectname: 
 directiontype: 
 permalink: /api/types/IndicatorValue/
+tags:
+  - 인디케이터값
 ---
-
 
 #### Description
 

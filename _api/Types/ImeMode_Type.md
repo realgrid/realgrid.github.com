@@ -7,8 +7,9 @@ order: ImeMode
 objectname: 
 directiontype: 
 permalink: /api/types/ImeMode/
+tags:
+  - 한글
 ---
-
 
 #### Description
 

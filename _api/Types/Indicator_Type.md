@@ -7,6 +7,8 @@ order: Indicator
 objectname: 
 directiontype: 
 permalink: /api/types/Indicator/
+tags:
+  - 지시자인디케이터
 ---
 
 

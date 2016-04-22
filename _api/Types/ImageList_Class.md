@@ -7,8 +7,9 @@ order: ImageList
 objectname: 
 directiontype: 
 permalink: /api/types/ImageList/
+tags:
+  - 이미지리스트
 ---
-
 
 #### Properties
 
