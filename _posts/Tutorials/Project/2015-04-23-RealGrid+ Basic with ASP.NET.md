@@ -14,6 +14,9 @@ tags:
     - vs
 ---
 
+**소스코드 다운로드 : [RealGrid.Guide.Asp.net.SqlServer.140709.zip](/files/RealGrid.Guide.Asp.net.SqlServer.140709.zip)**
+
+
 ### Architeatures
 
 * 개발도구: Visual Studio Express 2012
@@ -25,6 +28,9 @@ tags:
 
 ### Introduction
 사실 ASP.NET과 SQLServer의 조합은 MS기반 웹 개발 플랫폼 구성의 기본적인 조합이라고 할 수 있습니다. .NET Framework에서 SQLServer에 접근하기 위해서는 ADO.NET기술을 이용하게 됩니다. 본 가이드는 SQLServer의 특정 테이블에 들어 있는 데이터를 RealGrid가 포함된 웹화면에서 조회, 추가, 수정, 삭제기능을 구현하고 있습니다.
+
+**소스코드 다운로드 : [RealGrid.Guide.eGov.02.zip](/files/RealGrid.Guide.eGov.02.zip)**
+
 
 ### A New WEB Site
 VisualStudio 2012를 실행 합니다.  File(파일)메뉴에서 새 웹사이트 메뉴를 실행 합니다. 새 웹 사이트 대화상자에서 ASP.NET 빈 웹 사이트를 선택하고 확인 버튼을 눌러 새로운 웹 사이트를 생성 합니다.![a new web site](/images/articles/RealGrid_ASP.NET_MSSQLServer-a_new_web_site.gif)
