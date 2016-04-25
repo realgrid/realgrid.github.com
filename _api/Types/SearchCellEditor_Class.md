@@ -2,7 +2,7 @@
 layout: apipost
 title: SearchCellEditor
 part: Types
-typename: Cell Editors
+typename: Classes
 order: SearchCellEditor
 objectname: 
 directiontype: 
