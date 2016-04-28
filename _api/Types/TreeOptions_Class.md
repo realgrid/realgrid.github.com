@@ -7,12 +7,14 @@ order: TreeOptions
 objectname: 
 directiontype: 
 permalink: /api/types/TreeOptions/
+tags: 
+    - 트리옵션
 ---
 
 
 #### Description
 
-> TreeView 표시에 대한 설정들이다.
+TreeView 표시에 대한 설정들이다.
 
 #### Properties
 

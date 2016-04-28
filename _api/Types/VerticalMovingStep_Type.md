@@ -8,11 +8,13 @@ objectname:
 directiontype: 
 permalink: /api/types/VerticalMovingStep/
 jsonly: true
+tags: 
+    - 버티컬
 ---
 
 #### Description
 
-> Vertical 컬럼 그룹의 컬럼 셀을 위나 아래로 이동시 동작 방법을 지정한다.   
+Vertical 컬럼 그룹의 컬럼 셀을 위나 아래로 이동시 동작 방법을 지정한다.   
 
 #### Members  
 

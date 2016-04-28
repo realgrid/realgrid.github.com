@@ -7,12 +7,15 @@ order: ValidationResult
 objectname: 
 directiontype: 
 permalink: /api/types/ValidationResult/
+tags: 
+    - 데이터검증결과
+    - 벨리데이션
 ---
 
 
 #### Description
 
-> 검증 결과 표시에 대한 설정들이다.
+검증 결과 표시에 대한 설정들이다.
 
 #### Properties
 

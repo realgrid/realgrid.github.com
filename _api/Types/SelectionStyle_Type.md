@@ -7,12 +7,15 @@ order: SelectionStyle
 objectname: 
 directiontype: 
 permalink: /api/types/SelectionStyle/
+tags:
+    - 선택영역
+    - 선택방법
 ---
 
 
 #### Description
 
-> 그리드의 셀을 선택하는 방식을 정의합니다.
+그리드의 셀을 선택하는 방식을 정의한다.
 
 #### Members
 

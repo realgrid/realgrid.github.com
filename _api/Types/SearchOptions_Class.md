@@ -7,13 +7,16 @@ order: SearchOptions
 objectname: 
 directiontype: 
 permalink: /api/types/SearchOptions/
+tags:
+    - 검색옵션
+    - 찾기
 ---
 
 
 #### Description
 
-> 그리드에 현재 표시된 행들 중에서 특정한 행을 찾는 조건을 지정한다.    
-> 필터링 되었거나, 행 그룹핑된 경우 감춰진 행들은 찾지 않는다.
+그리드에 현재 표시된 행들 중에서 특정한 행을 찾는 조건을 지정한다.    
+필터링 되었거나, 행 그룹핑된 경우 감춰진 행들은 찾지 않는다.
 
 #### Properties
 

@@ -7,12 +7,14 @@ order: StateBar
 objectname: 
 directiontype: 
 permalink: /api/types/StateBar/
+tags:
+    - 상태바
 ---
 
 
 #### Description
 
-> StateBar와 관련된 설정 모델이다. StateBar는 행들의 상태를 표시하는 수직 Bar다. 
+StateBar와 관련된 설정 모델이다. StateBar는 행들의 상태를 표시하는 수직 Bar다. 
 
 #### Properties
 

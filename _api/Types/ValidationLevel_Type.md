@@ -7,6 +7,9 @@ order: ValidationLevel
 objectname: 
 directiontype: 
 permalink: /api/types/ValidationLevel/
+tags: 
+    - 데이터검증수준
+    - 벨리데이션
 ---
 
 

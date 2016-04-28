@@ -8,8 +8,7 @@ objectname:
 directiontype: 
 permalink: /api/types/TextCellRenderer/
 tags: 
-  - tooltip
-  - 툴팁
+  - 텍스트편집랜더러렌더러
 ---
 
 <script>
@@ -195,7 +194,7 @@ $(document).ready( function() {
 
 #### Description
 
-> Text 셀 렌더러는 리얼그리드의 기본 Data 셀 렌더러이다.
+Text 셀 렌더러는 리얼그리드의 기본 Data 셀 렌더러이다.
 
 #### Properties
 
@@ -205,6 +204,7 @@ $(document).ready( function() {
 > 셀 데이터 값을 툴팁으로 표시해준다.   
 
 #### Examples
+
 <pre class="prettyprint">
     $("#btnShowTooltip").click(function(){
         var renderer = {

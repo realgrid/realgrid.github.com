@@ -7,12 +7,16 @@ order: SparkLineRenderer
 objectname: 
 directiontype: 
 permalink: /api/types/SparkLineRenderer/
+tags:
+    - 스파크라인랜더러
+    - series
+    - 시리즈
 ---
 
 
 #### Description
 
-> 기간 등 일정 범위 내의 데이터 흐름을 간략하고 직관적으로 표시하는 데 사용될 수 있다.
+기간 등 일정 범위 내의 데이터 흐름을 간략하고 직관적으로 표시하는 데 사용될 수 있다.
 
 #### Properties
 

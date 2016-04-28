@@ -7,12 +7,14 @@ order: SelectionItem
 objectname: 
 directiontype: 
 permalink: /api/types/SelectionItem/
+tags:
+    - 선택영역
 ---
 
 
 #### Description
 
-> 그리드 선택 영역 정보 모델.
+그리드 선택 영역 정보 모델.
 
 #### Properties
 

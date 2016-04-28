@@ -7,12 +7,16 @@ order: SortStyle
 objectname: 
 directiontype: 
 permalink: /api/types/SortStyle/
+tags:
+    - 컬럼정렬방법
+    - 단일컬럼정렬
+    - 다중컬럼정렬
 ---
 
 
 #### Description
 
-> 그리드 컬럼 Header 클릭 시 정렬하는 방법을 정의 합니다.
+그리드 컬럼 Header 클릭 시 정렬하는 방법을 정의 합니다.
 
 #### Memebers
 

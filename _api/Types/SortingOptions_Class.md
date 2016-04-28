@@ -7,12 +7,14 @@ order: SortingOptions
 objectname: 
 directiontype: 
 permalink: /api/types/SortingOptions/
+tags:
+    - 정렬설정
 ---
 
 
 #### Description
 
-> 컬럼 정렬과 관련된 설정 모델이다.
+컬럼 정렬과 관련된 설정 모델이다.
 
 #### Properties
 

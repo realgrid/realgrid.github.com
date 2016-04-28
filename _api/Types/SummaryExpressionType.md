@@ -7,13 +7,18 @@ order: SummaryExpressionType
 objectname: 
 directiontype: 
 permalink: /api/types/SummaryExpressionType/
+tags:
+    - 익스프레션타입
+    - 합계최대최소평균분산표준편차
+    - 계산방법
+    - 푸터풋터
 ---
 
 
 #### Description
 
-> Grid 각 컬럼의 group footer나 footer를 계산하는 방법을 지정하는 상수다.  
-> 이 상수 값에 따라 그리드는 각 컬럼이나 행 그룹핑된 그룹의 계산을 자동으로 계산한다.
+Grid 각 컬럼의 group footer나 footer를 계산하는 방법을 지정하는 상수다.  
+이 상수 값에 따라 그리드는 각 컬럼이나 행 그룹핑된 그룹의 계산을 자동으로 계산한다.
 
 #### Members
 

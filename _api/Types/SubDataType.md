@@ -7,12 +7,14 @@ order: SubDataType
 objectname: 
 directiontype: 
 permalink: /api/types/SubDataType/
+tags:
+    - 서브데이터타입
 ---
 
 
 #### Description
 
-> DataProvider [DataField](/api/types/DataField)의 네 가지 자료형을 제한된 범위로 사용할때 사용한다.
+DataProvider [DataField](/api/types/DataField)의 네 가지 자료형을 제한된 범위로 사용할때 사용한다.
 
 #### Members
 
