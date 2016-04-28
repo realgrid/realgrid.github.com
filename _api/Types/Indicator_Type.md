@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-그리드 Indicator에 대한 설정 모델이다. Indicator는 행 번호를 표시하거나, 포커스 된 행의 위치 등을 표시한다.
+> 그리드 Indicator에 대한 설정 모델이다. Indicator는 행 번호를 표시하거나, 포커스 된 행의 위치 등을 표시한다.
 
 #### Properties
 
@@ -64,3 +64,23 @@ tags:
 > Default: 0  
 > 인디케이터에 표시될 숫자와 데이터 행 번호와의 간격을 지정한다. (인디케이터 숫자 = 데이터 행 번호 + rowOffset)
 
+#### Examples
+
+<pre class="prettyprint">
+gridView.setIndicator({
+	displayValue: "index",
+	width: 50,
+	selectable: true,
+	visible: true,
+	zeroBase: true,
+	rowOffset: 0, 
+	indexOffset: 0
+})
+
+</pre>
+
+---
+
+#### Demo Links
+
+> [Indicator](http://demo.realgrid.com/Demo/Indicator){:target="_blank"} 참조

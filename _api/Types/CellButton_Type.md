@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-데이터 셀의 우측에 어떤 종류의 버튼을 표시할 지를 지정하는 유형으로 [DataColumn](/api/types/DataColumn)의 `button`속성에서 값을 지정한다.
+> 데이터 셀의 우측에 어떤 종류의 버튼을 표시할 지를 지정하는 유형으로 [DataColumn](/api/types/DataColumn)의 `button`속성에서 값을 지정한다.
 
 #### Members
 

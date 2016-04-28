@@ -141,9 +141,6 @@ function setColumns(grid) {
         editor : {
             type: "number"
         },
-        styles: {
-            textAlignment: "far"
-        },
         width: 80
     }, {
         name: "col6",

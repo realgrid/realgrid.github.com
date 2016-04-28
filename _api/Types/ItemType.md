@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-아이템의 형태를 정의한다.
+> 아이템의 형태를 정의한다.
 
 #### Members
 

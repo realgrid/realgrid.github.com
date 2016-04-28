@@ -43,3 +43,17 @@ tags:
 > Type: [ToastOptions](/api/types/ToastOptions)  
 > 대량 데이터셋의 정렬/필터링/그룹핑시 화면이 멈춰있는 상태일때 진행중임을 알려주는 Toast View 표시여부와 메세지를 지정한다.
 
+#### Examples 
+
+<pre class="prettyprint">
+gridView.setGroupingOptions({
+    enabled: true, 
+    prompt: "컬럼 헤더를 이 곳으로 끌어다 놓으면 그 컬럼으로 그룹핑합니다.", 
+    linear: false, 
+    expandWhenGrouping: true, 
+    toast:{
+        visible: true
+    }
+});
+</pre>
+

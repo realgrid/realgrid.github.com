@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-loadData()에서 사용하는 clientPolicy의 타입. 데이터 로드 정책을 결정한다.
+> loadData()에서 사용하는 clientPolicy의 타입. 데이터 로드 정책을 결정한다.
 
 #### Properties
 
