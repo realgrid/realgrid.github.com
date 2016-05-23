@@ -14,7 +14,8 @@ tags:
 
 #### Description
 
-컬럼 정렬과 관련된 설정 모델이다.
+컬럼 정렬과 관련된 설정 모델이다. 
+style이 "exclusive"일 때 Shift키와 함께 컬럼 헤더를 클릭하면 "inclusive"처럼 동작한다.  
 
 #### Properties
 

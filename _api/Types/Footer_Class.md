@@ -39,12 +39,20 @@ tags:
 > Default: true     
 > true면 Footer를 표시한다.  
 
+> **mergeCells**  
+> Type: array of string   
+> Default: null     
+> 머지시켜 보여줄 풋터 셀들을 나열한다. 첫번째 지정된 컬럼이 기준 컬럼이다. 
+> ex> 아래 example에서 "Col2" 컬럼이 다른 자리로 이동되면 "Col1", "Col2"이 머지된다.
+
 ### Example  
 
 <pre class="prettyprint">
     gridView.setFooter({
         resizable: false,
         visible: true,
+        mergeCells: ["Col1", "Col2", "Col3"]
+        //mergeCells: [["Col1", "Col2", "Col3"], ["Col6", "Col7"]] //이런 형태도 가능하다.
         ...
     });
 </pre>

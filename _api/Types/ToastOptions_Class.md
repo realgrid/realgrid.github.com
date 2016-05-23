@@ -24,8 +24,15 @@ tags:
 > **visible**  
 > Type: boolean    
 > Default: false  
->
+> 토스트 표시 여부를 지정한다.
 
 > **message**  
 > Type: string  
 > Default: 지정되지 않으면 sorting/filtering/grouping 별로 기본값이 표시  
+> 토스트에 표시할 메시지를 지정한다.
+
+> **styles**  
+> Type: Object   
+> Default: null  
+> 토스트의 스타일을 지정한다.  
+

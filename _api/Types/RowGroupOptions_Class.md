@@ -58,6 +58,31 @@ tags:
 > Default: false  
 > 행 그룹핑시 그룹핑된 컬럼의 merge 표현 여부를 지정한다.  
 
+> **footerStatement**  
+> Type: String  
+> Default: null  
+> 행 그룹핑시 그룹핑된 컬럼 풋터의 텍스트를 지정한다.   
+
+> **footerCellMerge**  
+> Type: Boolean  
+> Default: false  
+> 행 그룹핑시 그룹핑된 컬럼 풋터의 머지 여부를 지정한다.  
+
+### Example  
+
+<pre class="prettyprint">
+    gridView.setRowGroup({
+        summaryMode: "aggregate",
+
+        footerStatement: "행 그룹핑된 컬럼의 풋터입니다.",
+        footerCellMerge: true,
+        ...
+    });
+</pre>
+
 #### Demo Links
+
+> [setRowGroup](/api/GridBase/setRowGroup/)  
+> [getRowGroup](/api/GridBase/getRowGroup/)  
 
 > [Row Grouping](http://demo.realgrid.net/Demo/RowGrouping)

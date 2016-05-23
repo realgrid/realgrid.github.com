@@ -80,6 +80,16 @@ tags:
 > Default: Null       
 > 보조 문자에 적용할 스타일을 지정한다.  
 
+> **showTooltip**  
+> Type: Boolean     
+> Default: true       
+> 툴팁 표시 여부를 지정한다.    
+
+> **tooltip**  
+> Type: String     
+> Default: null    
+> 표시할 툴팁 메시지를 지정한다.  
+
 #### Examples   
 
 <pre class="prettyprint">
