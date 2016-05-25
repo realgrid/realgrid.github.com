@@ -24,6 +24,11 @@ tags:
 > Default: SelectionStyle.BLOCK   
 > 선택 영역이 설정되는 방식이다.   
 
+> **mobileStyle**  
+> Type: Object   
+> Default:   
+> 모바일 브라우져에서 표시되는 선택영역의 스타일을 지정한다.     
+
 ---
 
 #### Demo Links

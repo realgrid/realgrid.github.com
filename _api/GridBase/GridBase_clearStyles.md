@@ -23,7 +23,8 @@ tags:
 
 > **region**  
 > Type: string  
-> 영역 이름  
+> 영역 이름을 지정한다.  
+> "all"을 지정시 모든 영역의 스타일이 제거 된다.      
 
 
 #### Return value

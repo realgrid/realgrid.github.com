@@ -32,11 +32,21 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setStateBar({
-        width: 20,
-        visible: true,
-        ...
-    });
+	gridView.setStateBar({
+	    width: 20,
+	    visible: true,
+	    mark: "text",
+	    stateTexts: {
+	        created: "C",
+	        updated: "U",
+	        deleted: "D",
+	        createAndDeleted: "X"
+	    },
+		headText: "head",
+		footText: "foot",
+		headImageUrl: "/img/common/dot_arrow2_top.gif",
+		footImageUrl: "/img/common/dot_arrow2_bottom.gif"
+	});
 </pre>
 
 #### Demo Links

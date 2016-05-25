@@ -62,6 +62,26 @@ tags:
 > Default:  
 > 체크 가능 여부의 수식을 지정한다.  
 
+> **headText**       
+> Type: String  
+> Default: null  
+> head 영역에 표시할 text를 지정한다.  
+   
+> **footText**       
+> Type: String  
+> Default: null  
+> foot 영역에 표시할 text를 지정한다.  
+
+> **headImageUrl**       
+> Type: String  
+> Default: null  
+> head 영역에 표시할 이미지의 Url을 지정한다.  
+   
+> **footImageUrl**       
+> Type: String  
+> Default: null  
+> foot 영역에 표시할 이미지의 Url을 지정한다.  
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -73,7 +93,11 @@ tags:
         showGroup: true,
         visible: true,
         visibleOnly: false,
-        width: 20
+        width: 20,
+        headText: "head",
+        footText: "foot",
+        headImageUrl: "/img/common/dot_arrow2_top.gif",
+        footImageUrl: "/img/common/dot_arrow2_bottom.gif"
 	}
 	gridView.setCheckBar(options);
 </pre>

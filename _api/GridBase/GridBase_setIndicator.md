@@ -32,12 +32,19 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setIndicator({
-        minWidth: 30,
-        visible: true,
-        displayValue:"row" 
-        ...
-    });
+	gridView.setIndicator({
+		displayValue: "index",
+		width: 50,
+		selectable: true,
+		visible: true,
+		zeroBase: true,
+		rowOffset: 0, 
+		indexOffset: 0,
+		headText: "head",
+		footText: "foot",
+		headImageUrl: "/img/common/dot_arrow2_top.gif",
+		footImageUrl: "/img/common/dot_arrow2_bottom.gif"
+	});
 </pre>
 
 #### Demo Links

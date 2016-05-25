@@ -34,7 +34,12 @@ tags:
 <pre class="prettyprint">
     gridView.setSelectOptions({
         style: "rows"
-        ...
+        mobileStyles: {
+            background: "#10000000",
+			border: "#ff333333,2px",
+			figureBackground: "#ff333333",
+			figureBorder: "#ffdddddd,1px"
+        }
     });
 </pre>
 

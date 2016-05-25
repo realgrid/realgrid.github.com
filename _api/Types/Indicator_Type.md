@@ -62,7 +62,28 @@ tags:
 > **rowOffset**       
 > Type: Number  
 > Default: 0  
-> 인디케이터에 표시될 숫자와 데이터 행 번호와의 간격을 지정한다. (인디케이터 숫자 = 데이터 행 번호 + rowOffset)
+> 인디케이터에 표시될 숫자와 데이터 행 번호와의 간격을 지정한다. (인디케이터 숫자 = 데이터 행 번호 + rowOffset)   
+
+> **headText**       
+> Type: String  
+> Default: null  
+> head 영역에 표시할 text를 지정한다.  
+   
+> **footText**       
+> Type: String  
+> Default: null  
+> foot 영역에 표시할 text를 지정한다.  
+
+> **headImageUrl**       
+> Type: String  
+> Default: null  
+> head 영역에 표시할 이미지의 Url을 지정한다.  
+   
+> **footImageUrl**       
+> Type: String  
+> Default: null  
+> foot 영역에 표시할 이미지의 Url을 지정한다.  
+
 
 #### Examples
 
@@ -74,7 +95,11 @@ gridView.setIndicator({
 	visible: true,
 	zeroBase: true,
 	rowOffset: 0, 
-	indexOffset: 0
+	indexOffset: 0,
+	headText: "head",
+	footText: "foot",
+	headImageUrl: "/img/common/dot_arrow2_top.gif",
+	footImageUrl: "/img/common/dot_arrow2_bottom.gif"
 })
 
 </pre>
@@ -84,3 +109,7 @@ gridView.setIndicator({
 #### Demo Links
 
 > [Indicator](http://demo.realgrid.com/Demo/Indicator){:target="_blank"} 참조
+
+
+> [setIndicator](/api/GridBase/setIndicator/)   
+> [getIndicator](/api/GridBase/getIndicator/)     

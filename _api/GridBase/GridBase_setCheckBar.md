@@ -34,11 +34,21 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setCheckBar({
-        width: 30,
+	var options = {
+        checkableExpression: "state = 'c'"
+        checkableOnly: true,
+        exclusive: false,
+        showAll: true,
+        showGroup: true,
         visible: true,
-        ...
-    });
+        visibleOnly: false,
+        width: 20,
+        headText: "head",
+        footText: "foot",
+        headImageUrl: "/img/common/dot_arrow2_top.gif",
+        footImageUrl: "/img/common/dot_arrow2_bottom.gif"
+	}
+	gridView.setCheckBar(options);
 </pre>
 
 #### Demo Links
