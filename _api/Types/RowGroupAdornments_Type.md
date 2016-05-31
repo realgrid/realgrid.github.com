@@ -38,3 +38,6 @@ tags:
 > Value: "none"   
 > 아무것도 표시하지 않는다. expandedAdornments 상태에서만 적용된다.             
 
+#### Demo Links
+
+> [MergedRowGrouping](http://demo.realgrid.com/Demo/RowGroupMerging){:target="_blank"} 참조

@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-엑셀등으로 Export시에 영역의 표시 여부를 정의합니다.
+> 엑셀등으로 Export시에 영역의 표시 여부를 정의합니다.
 
 #### Members
 
@@ -31,3 +31,7 @@ tags:
 > **HIDDEN**    
 > Value: "hidden"    
 > 표시하지 않습니다.                            
+
+#### Demo Links
+
+> [ExportToExcel](http://demo.realgrid.com/Demo/ExportToExcel#.example){:target="_blank"} 참조

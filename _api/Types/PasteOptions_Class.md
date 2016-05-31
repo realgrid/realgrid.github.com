@@ -103,7 +103,7 @@ tags:
 > Default: false  
 > 여러 행 붙여넣기시 그 행만큼 onEditRowPasted 이벤트의 발생 여부를 지정한다.  
 
-#### Examples s
+#### Examples
 
 **그리드에 붙여넣기 할 때 편집 불가능한 셀에는 붙여넣기 되지 않도록 설정하기**
 
@@ -112,11 +112,13 @@ gridView.setPasteOptions({ checkReadOnly: true })
 </pre>
 
 #### API Links
-* [GridBase.getPasteOptions()](/api/GridBase/getPasteOptions/)
-* [GridBase.setPasteOptions()](/api/GridBase/setPasteOptions/)
+
+> [GridBase.getPasteOptions()](/api/GridBase/getPasteOptions/)<br/>
+> [GridBase.setPasteOptions()](/api/GridBase/setPasteOptions/)
 
 #### Demo Links
-* [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste)
+
+> [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste){:target="_blank"} 참조
 
 
 
