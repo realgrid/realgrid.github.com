@@ -40,3 +40,7 @@ tags:
 > Type: Number  
 > Default: 0.4  
 > 전체 높이 중 Loss일 경우의 비율
+
+#### Demo Links
+
+> [Spark Line Renderer](http://demo.realgrid.com/Demo/SparkLineRenderer){:target="_blank"} 참조

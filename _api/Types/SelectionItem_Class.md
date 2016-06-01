@@ -8,13 +8,14 @@ objectname:
 directiontype: 
 permalink: /api/types/SelectionItem/
 tags:
-    - 선택영역
+    - 선택 영역
+    - 선택 범위
 ---
 
 
 #### Description
 
-그리드 선택 영역 정보 모델.
+> 그리드 선택 영역 정보 모델.
 
 #### Properties
 
@@ -46,3 +47,6 @@ tags:
 > Type: string     
 > 끝 컬럼의 이름.       
 
+#### Demo Links
+
+> [Selecting](http://demo.realgrid.com/Demo/Selecting){:target="_blank"} 참조

@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-그리드 컬럼 Header 클릭 시 정렬하는 방법을 정의 합니다.
+> 그리드 컬럼 Header 클릭 시 정렬하는 방법을 정의 합니다.
 
 #### Memebers
 
@@ -57,4 +57,3 @@ tags:
 #### Demo Links
 
 * [Column Sorting Demo](http://demo.realgrid.net/Demo/ColumnSorting)
-

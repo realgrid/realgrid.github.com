@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-그리드에 현재 표시된 행들 중에서 특정한 행을 찾는 조건을 지정한다.    
+> 그리드에 현재 표시된 행들 중에서 특정한 행을 찾는 조건을 지정한다.    
 필터링 되었거나, 행 그룹핑된 경우 감춰진 행들은 찾지 않는다.
 
 #### Properties
@@ -66,3 +66,7 @@ tags:
 > Type: Boolean    
 > Default: true    
 > false이면 지정된 fields중 일치하는 field가 있으면 검색으로 종료한다.
+
+#### Demo Links
+
+> [SearchItem](http://demo.realgrid.com/Demo/SearchItem){:target="_blank"} 참조

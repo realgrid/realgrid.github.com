@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-StateBar의 state 표시 방법을 정의합니다.
+> StateBar의 state 표시 방법을 정의합니다.
 
 #### Members
 
