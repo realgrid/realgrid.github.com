@@ -70,4 +70,4 @@ gridView.setColumns(columns);
 
 #### Demo Links
 
-> [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer#.example){:target="_blank"} 참조
+> [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer){:target="_blank"} 참조

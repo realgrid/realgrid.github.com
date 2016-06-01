@@ -231,4 +231,4 @@ function setColumns(grid) {
 
 #### Demo Links
 
-> [Editors](http://demo.realgrid.com/Demo/Editors#.example){:target="_blank"} 참조
+> [Editors](http://demo.realgrid.com/Demo/Editors){:target="_blank"} 참조

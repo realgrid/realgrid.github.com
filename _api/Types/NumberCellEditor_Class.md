@@ -51,6 +51,7 @@ $(document).ready( function() {
 		var column = gridView.columnByName("col5");
 	    column.editor = { integerOnly: true };
 	    gridView.setColumn(column);
+            console.log("OK");
 	})
 
 });
@@ -241,4 +242,4 @@ $("#button2").click(function(){
 
 #### Demo Links
 
-> [Editors](http://demo.realgrid.com/Demo/Editors#.example){:target="_blank"} 참조
+> [Editors](http://demo.realgrid.com/Demo/Editors){:target="_blank"} 참조
