@@ -218,4 +218,4 @@ $("#button1").click(function(){
 
 #### Demo Links
 
-> [GetValues](http://demo.realgrid.com/Demo/GetValues#.example){:target="_blank"} 참조
+> [GetValues](http://demo.realgrid.com/Demo/GetValues){:target="_blank"} 참조

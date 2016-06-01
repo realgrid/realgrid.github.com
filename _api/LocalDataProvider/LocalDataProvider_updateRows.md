@@ -253,4 +253,4 @@ $("#button1").click(function(){
 
 #### Demo Links
 
-> [AddMultiRows](http://demo.realgrid.com/Demo/AddMultiRows#.example){:target="_blank"} 참조
+> [AddMultiRows](http://demo.realgrid.com/Demo/AddMultiRows){:target="_blank"} 참조

@@ -225,4 +225,4 @@ $("#button1").click(function(){
 
 #### Demo Links
 
-> [LoadFilter](http://demo.realgrid.com/Demo/LoadFilter#.example){:target="_blank"} 참조
+> [LoadFilter](http://demo.realgrid.com/Demo/LoadFilter){:target="_blank"} 참조
