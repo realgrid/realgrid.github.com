@@ -44,4 +44,4 @@ tags:
 
 #### See Also
 
-> [PagingLazyLoading](http://demo.realgrid.com/Demo/PagingLazyLoading2#.example){:target="_blank"} 참조
+> [PagingLazyLoading](http://demo.realgrid.com/Demo/PagingLazyLoading){:target="_blank"} 참조
