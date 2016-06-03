@@ -194,8 +194,8 @@ function setColumns(grid) {
 
 #### Return value
 
-> Type: Boolean
-> 그룹핑 여부    
+> Type: Boolean  
+> 머지모드 여부    
 
 #### Examples 
 

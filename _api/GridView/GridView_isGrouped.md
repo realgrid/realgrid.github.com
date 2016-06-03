@@ -193,8 +193,8 @@ function setColumns(grid) {
 
 #### Return value
 
-> Type: Array of Number  
-> 필드의 인덱스들  
+> Type: Boolean  
+> 그룹핑 여부    
 
 #### Examples 
 
