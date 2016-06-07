@@ -36,8 +36,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onRowGroupHeadClicked =  function (grid, index) {
-        console.log("onRowGroupHeadClicked : " + "(" + index + ")")
+    gridView.onRowGroupHeadClicked =  function (grid) {
+        console.log("onRowGroupHeadClicked")
     };
 </pre>
 

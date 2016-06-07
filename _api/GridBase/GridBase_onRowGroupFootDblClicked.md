@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: onRowGroupFootClicked
+title: onRowGroupFootDblClicked
 part: Objects
 objectname: GridBase
 directiontype: Callback
-permalink: /api/GridBase/onRowGroupFootClicked/
+permalink: /api/GridBase/onRowGroupFootDblClicked/
 jsonly: true
 tags:
   - click
@@ -17,11 +17,11 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 RowGroup의 Foot셀을 클릭했을 때 호출된다.  
+> 사용자가 마우스로 RowGroup의 Foot셀을 더블 클릭했을 때 호출된다.  
 
 #### Syntax
 
-> function onRowGroupFootClicked (grid)  
+> function onRowGroupFootDblClicked (grid)  
 
 #### Arguments
 
@@ -36,8 +36,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onRowGroupFootClicked =  function (grid) {
-        console.log("onRowGroupFootClicked")
+    gridView.onRowGroupFootDblClicked =  function (grid) {
+        console.log("onRowGroupFootDblClicked")
     };
 </pre>
 
