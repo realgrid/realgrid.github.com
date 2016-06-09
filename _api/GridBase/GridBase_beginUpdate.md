@@ -2,7 +2,7 @@
 layout: apipost
 title: beginUpdate
 part: Objects
-objectname: GridViewBase
+objectname: GridBase
 directiontype: Function
 permalink: /api/GridViewBase/beginUpdate/
 tags:
