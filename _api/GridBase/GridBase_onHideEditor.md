@@ -3,7 +3,7 @@ layout: apipost
 title: onHideEditor
 part: Objects
 objectname: GridBase
-directiontype: Function
+directiontype: Callback
 permalink: /api/GridBase/onHideEditor/
 tags:
   - edit

@@ -5,6 +5,7 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onColumnHeaderDblClicked/
+jsonly: true
 tags:
   - event
   - click
