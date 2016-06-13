@@ -194,7 +194,7 @@ $(document).ready( function() {
 
 #### Description
 
-Text 셀 렌더러는 리얼그리드의 기본 Data 셀 렌더러이다.
+> Text 셀 렌더러는 리얼그리드의 기본 Data 셀 렌더러이다.
 
 #### Properties
 
@@ -219,3 +219,7 @@ Text 셀 렌더러는 리얼그리드의 기본 Data 셀 렌더러이다.
 
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
 <p></p>
+
+#### Demo Links
+
+> [ColumnTooltip](http://demo.realgrid.com/Demo/ColumnTooltip) 

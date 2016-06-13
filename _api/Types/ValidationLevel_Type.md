@@ -1,4 +1,4 @@
---ㅑ
+---
 layout: apipost
 title: ValidationLevel
 part: Types
@@ -35,3 +35,6 @@ tags:
 > Type: "ignore"    
 > 검증 수준이 없음   
 
+#### Demo Links
+
+> [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation#.example)

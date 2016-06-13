@@ -42,92 +42,93 @@ permalink: /api/types/CellEditor/
 #### Examples   
 
 <pre class="prettyprint">
-    var columns = [{
-        "name": "OrderID",
-        "fieldName": "OrderID",
-        "width": "90",
-        "styles": {
-            "numberFormat": "#,##0"
-        }
-        "header": {
-            "text": "Text editor"
-        }
-    }, {
-        "name": "CustomerID",
-        "fieldName": "CustomerID",
-        "width": "150",
-        "lookupDisplay": true,
-        "values": ["VINET", "HANAR", "SUPRD", "VICTE", "THREE", "SEVEN"],
-        "labels": [&quot;&lt;VINET&gt;&quot;, &quot;&lt;HANAR&gt;&quot;, &quot;&lt;SUPRD&gt;&quot;, &quot;&lt;VICTE&gt;&quot;, &quot;&lt;THREE&gt;&quot;, &quot;&lt;SEVEN&gt;&quot;],
-        "editor": {
-            "type": "dropDown",
-            "dropDownCount": 4
-        },
-        "header": {
-            "text": "DropDown Edit"
-        }
-    }, {
-        "name": "CustomerID3",
-        "fieldName": "CustomerID",
-        "width": "150",
-        "editor": {
-            "type": "search",
-            "searchLength": 1,  
-            "searchDelay": 1000,
-            "useCtrlEnterKey": true,
-            "useEnterKey": true
-        },
-        "header": {
-            "text": "Search Editor "
-        }
-    }, {
-        "name": "OrderDate",
-        "fieldName": "OrderDate",
-        "width": "180",
-        "editor": {
-            "type": "date",
-            "datetimeFormat": "yyyy.MM.dd"
-        },
-        "styles": {
-            "textAlignment": "center",
-            "datetimeFormat": "yyyy.MM.dd"
-        },
-        "header": {
-            "text": "Date Edit"
-        }
-    }, {
-        "name": "Quantity",
-        "fieldName": "Quantity",
-        "width": "100",
-        "editor": {
-            "type": "number"
-        },
-        "styles": {
-            "textAlignment": "far",
-            "numberFormat": "#,000"
-        },
-        "header": {
-            "text": "Number Edit"
-        }
-    }, {
-        "name": "CompanyName",
-        "fieldName": "CompanyName",
-        "width": "200",
-        "editor": {
-            "type": "multiline"
-        },
-        "styles": {
-            textWrap: "explicit" // js버전에만 적용.
-        },
-        "header": {
-            "text": "Multiline Edit"
-        }
-	}]
-	gridView.setColumns(columns);
+var columns = [{
+    "name": "OrderID",
+    "fieldName": "OrderID",
+    "width": "90",
+    "styles": {
+        "numberFormat": "#,##0"
+    },
+    "header": {
+        "text": "Text editor"
+    }
+}, {
+    "name": "CustomerID",
+    "fieldName": "CustomerID",
+    "width": "150",
+    "lookupDisplay": true,
+    "values": ["VINET", "HANAR", "SUPRD", "VICTE", "THREE", "SEVEN"],
+    "labels": [&quot;&lt;VINET&gt;&quot;, &quot;&lt;HANAR&gt;&quot;, &quot;&lt;SUPRD&gt;&quot;, &quot;&lt;VICTE&gt;&quot;, &quot;&lt;THREE&gt;&quot;, &quot;&lt;SEVEN&gt;&quot;],
+    "editor": {
+        "type": "dropDown",
+        "dropDownCount": 4
+    },
+    "header": {
+        "text": "DropDown Edit"
+    }
+}, {
+    "name": "CustomerID3",
+    "fieldName": "CustomerID",
+    "width": "150",
+    "editor": {
+        "type": "search",
+        "searchLength": 1,  
+        "searchDelay": 1000,
+        "useCtrlEnterKey": true,
+        "useEnterKey": true
+    },
+    "header": {
+        "text": "Search Editor "
+    }
+}, {
+    "name": "OrderDate",
+    "fieldName": "OrderDate",
+    "width": "180",
+    "editor": {
+        "type": "date",
+        "datetimeFormat": "yyyy.MM.dd"
+    },
+    "styles": {
+        "textAlignment": "center",
+        "datetimeFormat": "yyyy.MM.dd"
+    },
+    "header": {
+        "text": "Date Edit"
+    }
+}, {
+    "name": "Quantity",
+    "fieldName": "Quantity",
+    "width": "100",
+    "editor": {
+        "type": "number"
+    },
+    "styles": {
+        "textAlignment": "far",
+        "numberFormat": "#,000"
+    },
+    "header": {
+        "text": "Number Edit"
+    }
+}, {
+    "name": "CompanyName",
+    "fieldName": "CompanyName",
+    "width": "200",
+    "editor": {
+        "type": "multiline"
+    },
+    "styles": {
+        "textWrap": "explicit" // js버전에만 적용.
+    },
+    "header": {
+        "text": "Multiline Edit"
+    }
+}]
+
+gridView.setColumns(columns);
 </pre>                  
 
 ---
 
 #### Demo Links
 
-* [Editors Demo](http://demo.realgrid.net/Demo/Editors)
+> [Editors Demo](http://demo.realgrid.net/Demo/Editors)

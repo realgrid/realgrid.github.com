@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-입력된 값을 검증하는 경우을 정의합니다.
+> 입력된 값을 검증하는 경우을 정의합니다.
 
 #### Memebers
 
@@ -30,3 +30,7 @@ tags:
 > **UPDATE**  
 > Value: "update"  
 > 수정된 행이 Commit될 경우에 검증          
+
+#### Demo Links
+
+> [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation#.example)

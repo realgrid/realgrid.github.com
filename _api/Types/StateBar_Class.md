@@ -82,7 +82,6 @@ tags:
 
 #### Demo Links
 
-> [StateBar](http://demo.realgrid.com/Demo/StateBar) 참조  
-
+> [StateBar](http://demo.realgrid.com/Demo/StateBar) 
 > [setStateBar](/api/GridBase/setStateBar/)   
 > [getStateBar](/api/GridBase/getStateBar/)     
