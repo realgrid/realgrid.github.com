@@ -11,7 +11,7 @@ jsonly: true
 
 #### Description
 
-> TreeView의 아이템 노드가 접힌 후에 호출된다.
+ TreeView의 아이템 노드가 접힌 후에 호출된다.
 
 #### Syntax
 
@@ -38,8 +38,8 @@ jsonly: true
 #### Examples 
 
 <pre class="prettyprint">
-    treeView.onTreeItemCollapsed = function (tree, itemIndex, rowId) {
-        console.log("TreeItem Collapsed: " + itemIndex);	
-    };
+treeView.onTreeItemCollapsed = function (tree, itemIndex, rowId) {
+    console.log("TreeItem Collapsed: " + itemIndex);	
+};
 </pre>
 

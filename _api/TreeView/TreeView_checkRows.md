@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 입력된 rowIds에 해당하는 데이터행을 체크하거나 해제한다.
+ 입력된 rowIds에 해당하는 데이터행을 체크하거나 해제한다.
 
 #### Syntax
 
@@ -37,11 +37,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    treeView.checkRows([2,3,4],true);
+treeView.checkRows([2,3,4],true);
 </pre>
 
 ---
 
 #### Demo Links
 
-> [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"} 참조    
+* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"}    

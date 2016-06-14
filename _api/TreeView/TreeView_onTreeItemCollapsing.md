@@ -11,7 +11,7 @@ jsonly: true
 
 #### Description
 
-> TreeView의 값이 변경 호출된다.
+ TreeView의 값이 변경 호출된다.
 
 #### Syntax
 
@@ -39,8 +39,8 @@ jsonly: true
 #### Examples 
 
 <pre class="prettyprint">
-    treeView.onTreeItemCollapsing = function (tree, itemIndex, rowId) {
-        return false;
-    };
+treeView.onTreeItemCollapsing = function (tree, itemIndex, rowId) {
+    return false;
+};
 </pre>
 

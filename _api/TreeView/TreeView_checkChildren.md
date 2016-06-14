@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 입력된 행의 자식 행들을 체크하거나 해제한다.
+ 입력된 행의 자식 행들을 체크하거나 해제한다.
 
 #### Syntax
 
@@ -49,11 +49,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    treeView.checkChildren(0,true,true,false); // 0번째 부모행의 모든 자식행을 체크한다.
+treeView.checkChildren(0,true,true,false); // 0번째 부모행의 모든 자식행을 체크한다.
 </pre>
 
 ---
 
 #### Demo Links
 
-> [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"} 참조    
+* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"}    

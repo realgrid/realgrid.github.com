@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 트리뷰의 모든 아이템들을 펼친다.  
+ 트리뷰의 모든 아이템들을 펼친다.  
 
 #### Syntax
 
@@ -29,11 +29,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    treeView.expandAll();
+treeView.expandAll();
 </pre>
 
 ---
 
 #### Demo Links
 
-> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조    
+* [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"}    
