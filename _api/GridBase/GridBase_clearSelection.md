@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 선택 영역을 제거한다.
+ 선택 영역을 제거한다.
 
 #### Syntax
 
@@ -30,8 +30,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.clearSelection();
+gridView.clearSelection();
 </pre>
 
-#### Demo Links
-> [setSelection](/api/GridBase/setSelection)
+---
+
+#### API Links
+
+* [setSelection](/api/GridBase/setSelection)

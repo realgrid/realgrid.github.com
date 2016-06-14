@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드의 칼럼위치를 최초상태로 되돌린다.
+ 그리드의 칼럼위치를 최초상태로 되돌린다.
 
 #### Syntax
 
@@ -32,8 +32,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.restoreColumns();
+gridView.restoreColumns();
 </pre>
 
-#### Demo Links
-[linearizeColumns](/api/GridBase/linearizeColumns)
+---
+
+#### API Links
+
+* [linearizeColumns](/api/GridBase/linearizeColumns)

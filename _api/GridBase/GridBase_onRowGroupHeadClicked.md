@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 RowGroup의 Head셀을 클릭했을 때 호출된다.  
+ 사용자가 마우스로 RowGroup의 Head셀을 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -36,10 +36,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onRowGroupHeadClicked =  function (grid) {
-        console.log("onRowGroupHeadClicked")
-    };
+gridView.onRowGroupHeadClicked =  function (grid) {
+    console.log("onRowGroupHeadClicked")
+};
 </pre>
 
+---
+
 #### Demo Links
->  [Region Events](http://demo.realgrid.com/Demo/RegionEvents)
+
+* [Region Events](http://demo.realgrid.com/Demo/RegionEvents)

@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 입력된 dataRow와 연결된 그리드 itemIndex를 가져온다.  
+ 입력된 dataRow와 연결된 그리드 itemIndex를 가져온다.  
 
 #### Syntax
 
@@ -34,8 +34,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var itemIndexs = gridView.getItemsOfRows([1,2,3,4]);
+var itemIndexs = gridView.getItemsOfRows([1,2,3,4]);
 </pre>
 
-#### Demo Links
-> [getRowsOfItems](/api/GridBase/getRowsOfItems)
+---
+
+#### API Links
+
+* [getRowsOfItems](/api/GridBase/getRowsOfItems)

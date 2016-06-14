@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 지정된 SourceId에 해당하는 lookup source를 clear한다.  
+ 지정된 SourceId에 해당하는 lookup source를 clear한다.  
 
 #### Syntax
 
@@ -35,6 +35,15 @@ tags:
     gridView.clearLookupData(sourceId)
 </pre>
 
+---
+
+#### API Links
+* [addLookupSource](/api/GridBase/addLookupSource)
+* [setLookups](/api/GridBase/setLookups)
+* [existsLookupData](/api/GridBase/existsLookupData)
+* [removeLookupSource](/api/GridBase/removeLookupSource)
+* [fillLookupData](/api/GridBase/fillLookupData)  
+
 #### Demo Links
-> [addLookupSource](/api/GridBase/addLookupSource), [setLookups](/api/GridBase/setLookups), [existsLookupData](/api/GridBase/existsLookupData), [removeLookupSource](/api/GridBase/removeLookupSource), [fillLookupData](/api/GridBase/fillLookupData)  
-> [LookupTree](http://demo.realgrid.com/Demo/LookupTree)
+
+* [LookupTree](http://demo.realgrid.com/Demo/LookupTree)

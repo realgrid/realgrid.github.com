@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
-> [Grid Item](/api/features/Grid Item) 인덱스와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 변경한다.  
-> 그리드가 편집중인경우 편집중인 itemIndex의 값만 변경할수 있으며 편집이 완료된후 dataProvider에 값이 반영되고 편집중이 아닌경우 dataProvider에 즉시 반영된다.
+ [Grid Item](/api/features/Grid Item) 인덱스와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 변경한다.  
+ 그리드가 편집중인경우 편집중인 itemIndex의 값만 변경할수 있으며 편집이 완료된후 dataProvider에 값이 반영되고 편집중이 아닌경우 dataProvider에 즉시 반영된다.
 
 
 #### Syntax
@@ -43,11 +43,15 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var itemIndex = gridView.getCurrent().itemIndex;
-    var value = $("#name").val();
-    gridView.setValue(itemIndex, "fieldName", value);
-
+var itemIndex = gridView.getCurrent().itemIndex;
+var value = $("#name").val();
+gridView.setValue(itemIndex, "fieldName", value);
 </pre>
 
-#### Demo Links
-> [getValue](/api/GridBase/getValue), [getValues](/api/GridView/getValues), [setValues](/api/GridBase/setValues)
+---
+
+#### API Links
+
+* [getValue](/api/GridBase/getValue)
+* [getValues](/api/GridView/getValues)
+* [setValues](/api/GridBase/setValues)

@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드에 [Data Provider](/api/LocalDataProvider/)를 연결한다.
+ 그리드에 [Data Provider](/api/LocalDataProvider/)를 연결한다.
 
 #### Syntax
 
@@ -32,9 +32,9 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var grdMain = new RealGrids.GridView(id);
-    var dataProvider = new RealGrids.LocalDataProvider();
-    var grdMain.setDataProvider(dataProvider);
+var gridView = new RealGrids.GridView(id);
+var dataProvider = new RealGrids.LocalDataProvider();
+var gridView.setDataProvider(dataProvider);
 </pre>
 
 

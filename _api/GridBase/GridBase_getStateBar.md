@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 그리드 StateBar 설정 정보를 가져온다. [StateBar](/api/types/StateBar/) 가 설정 모델이다.  
+ 그리드 StateBar 설정 정보를 가져온다. [StateBar](/api/types/StateBar/) 가 설정 모델이다.  
 
 #### Syntax
 
@@ -38,5 +38,8 @@ if (options) {
 }
 </pre>
 
-#### Demo Links
-> [setStateBar](/api/GridBase/setStateBar)
+---
+
+#### API Links
+
+* [setStateBar](/api/GridBase/setStateBar)

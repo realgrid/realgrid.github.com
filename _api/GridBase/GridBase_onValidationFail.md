@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> validation 실패시 발생한다. 콜백함수에서 별도의 에러 처리가 가능하고, err 객체를 return 하면 자체 Validation 메세지가 표시되고 그 외의 경우 표시되지 않는다.    
+ validation 실패시 발생한다. 콜백함수에서 별도의 에러 처리가 가능하고, err 객체를 return 하면 자체 Validation 메세지가 표시되고 그 외의 경우 표시되지 않는다.    
 
 #### Syntax
 
@@ -49,12 +49,12 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onValidationFail = function (grid, itemIndex, column, err) {
-        console.log("onValidationFail:" + itemIndex + "," + JSON.stringify(column) + "," + JSON.stringify(err));
+gridView.onValidationFail = function (grid, itemIndex, column, err) {
+    console.log("onValidationFail:" + itemIndex + "," + JSON.stringify(column) + "," + JSON.stringify(err));
 
-        if (column.name != "Quantity") {
-            return err;
-        }
+    if (column.name != "Quantity") {
+        return err;
     }
+}
 </pre>
 

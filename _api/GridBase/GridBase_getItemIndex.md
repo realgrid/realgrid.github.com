@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> dataRow와 연결된 itemIndex를 가져온다.  
+ dataRow와 연결된 itemIndex를 가져온다.  
 
 #### Syntax
 
@@ -34,8 +34,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var idx = gridView.getItemIndex(1);
+var idx = gridView.getItemIndex(1);
 </pre>
 
-#### Demo Links
-> [getDataRow](/api/GridBase/getDataRow)
+---
+
+#### API Links
+
+* [getDataRow](/api/GridBase/getDataRow)

@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 입력된 [DataColumn](/api/types/DataColumn/)에 등록된 [ColumnFilter](/api/types/ColumnFilter/)들을 모두 제거한다.  
+ 입력된 [DataColumn](/api/types/DataColumn/)에 등록된 [ColumnFilter](/api/types/ColumnFilter/)들을 모두 제거한다.  
 
 #### Syntax
 
@@ -32,9 +32,15 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.clearColumnFilters("content");
+gridView.clearColumnFilters("content");
 </pre>
 
+---
+
+#### API Links
+
+* [setColumnFilters](/api/GridBase/setColumnFilters) 
+
 #### Demo Links
-> [setColumnFilters](/api/GridBase/setColumnFilters)    
-> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+
+* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

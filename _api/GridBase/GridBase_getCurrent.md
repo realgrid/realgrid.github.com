@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 현재 포커스를 갖는 셀의 [CellIndex](/api/types/CellIndex/) 값을 가져온다.
+ 현재 포커스를 갖는 셀의 [CellIndex](/api/types/CellIndex/) 값을 가져온다.
 
 #### Syntax
 
@@ -32,8 +32,11 @@ None
 #### Examples 
 
 <pre class="prettyprint">
-    var index = gridView.getCurrent();
+var index = gridView.getCurrent();
 </pre>
 
-#### Demo Links
-> [setCurrent](/api/GridBase/setCurrent)
+---
+
+#### API Links
+
+* [setCurrent](/api/GridBase/setCurrent)

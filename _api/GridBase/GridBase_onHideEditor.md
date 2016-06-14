@@ -12,7 +12,7 @@ tags:
 
 #### Description	
 
-> 편집이 완료되고 편집기가 사라질때 발생한다.
+* 편집이 완료되고 편집기가 사라질때 발생한다.
 
 #### Syntax
 
@@ -35,8 +35,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onHideEditor = function (grid , index) {
-        console.log("onHideEditor ", index);
-    };    
+gridView.onHideEditor = function (grid , index) {
+    console.log("onHideEditor ", index);
+};    
 </pre>
 

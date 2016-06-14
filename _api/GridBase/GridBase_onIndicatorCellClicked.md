@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 Indicator셀을 더블 클릭했을 때 호출된다.  
+* 사용자가 마우스로 Indicator셀을 더블 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -38,8 +38,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    grid.onIndicatorCellDblClicked =  function (grid, itemIndex) {
-        console.log("onIndicatorCellDblClicked : " + "(" + itemIndex + ")")
-    };
+grid.onIndicatorCellDblClicked =  function (grid, itemIndex) {
+    console.log("onIndicatorCellDblClicked : " + "(" + itemIndex + ")")
+};
 </pre>
 

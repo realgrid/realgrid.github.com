@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 RowGrouping에 관한 설정을 한다. [GroupingOptions](/api/types/GroupingOptions/)가 설정 모델이다.
+ 그리드 RowGrouping에 관한 설정을 한다. [GroupingOptions](/api/types/GroupingOptions/)가 설정 모델이다.
 
 #### Syntax
 
@@ -33,9 +33,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var opts = {linear:true};
-    gridView.setGroupingOptions(opts);
+var opts = {linear:true};
+gridView.setGroupingOptions(opts);
 </pre>
 
-#### Demo Links
-> [getGroupingOptions](/api/GridBase/getGroupingOptions), [Panel](/api/types/Panel)
+---
+
+#### API Links
+
+* [getGroupingOptions](/api/GridBase/getGroupingOptions)
+* [Panel](/api/types/Panel)

@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 Indicator와 관련된 설정 정보들을 가져온다. [Indicator](/api/types/Indicator/)가 설정 모델이다.
+ 그리드 Indicator와 관련된 설정 정보들을 가져온다. [Indicator](/api/types/Indicator/)가 설정 모델이다.
 
 #### Syntax
 
@@ -37,5 +37,8 @@ if (options) {
 }
 </pre>
 
-#### Demo Links
-> [setIndicator](/api/GridBase/setIndicator)
+---
+
+#### API Links
+
+* [setIndicator](/api/GridBase/setIndicator)

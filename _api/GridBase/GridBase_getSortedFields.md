@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 현재 소트되어 있는 필드들의 소트 정보를 가져온다.
+ 현재 소트되어 있는 필드들의 소트 정보를 가져온다.
 
 #### Syntax
 
@@ -33,8 +33,15 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.getSortedFields();
+gridView.getSortedFields();
 </pre>
 
+---
+
+#### API Links
+
+* [orderBy](/api/GridBase/orderBy)
+
 #### Demo Links
-> [ColumnSorting](http://demo.realgrid.com/Demo/ColumnSorting), [orderBy](/api/GridBase/orderBy)
+
+* [ColumnSorting](http://demo.realgrid.com/Demo/ColumnSorting)

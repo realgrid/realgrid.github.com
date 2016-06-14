@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 현재 보여지고 있는 컬럼들의 컬럼명을 가져온다.  
+ 현재 보여지고 있는 컬럼들의 컬럼명을 가져온다.  
 
 #### Syntax
 
@@ -32,8 +32,9 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.getDisplayColumns();
+gridView.getDisplayColumns();
 </pre>
 
 #### Demo Links
-> [ColumnLayout](http://demo.realgrid.com/Demo/ColumnLayout)
+
+* [ColumnLayout](http://demo.realgrid.com/Demo/ColumnLayout)

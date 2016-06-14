@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 현재 그리드에서 열려진 editor 를 닫아 준다.
+ 현재 그리드에서 열려진 editor 를 닫아 준다.
 
 #### Syntax
 
@@ -31,6 +31,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.hideEditor();
+gridView.hideEditor();
 </pre>
 

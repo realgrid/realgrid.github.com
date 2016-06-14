@@ -15,8 +15,8 @@ tags:
 
 #### Description
 
-> 소팅이 시작될때 호출된다.  
-> False를 반환하면 소팅은 취소된다.  
+ 소팅이 시작될때 호출된다.  
+ False를 반환하면 소팅은 취소된다.  
 
 #### Syntax
 
@@ -37,10 +37,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onSorting = function (grid){
-
-	}
+gridView.onSorting = function (grid){
+    console.log("onSorting: " + JSON.stringify(fields) + ", " + JSON.stringify(directions));
+}
 </pre>
 
-#### Demo Links
-> [Sorting](/api/features/Sorting)
+---
+
+#### API Links
+
+* [Sorting](/api/features/Sorting)

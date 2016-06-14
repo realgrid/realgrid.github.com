@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 필터링과 관련된 설정 정보들을 가져온다. [FilteringOptions](/api/types/FilteringOptions/)이 설정 모델이다.
+ 그리드 필터링과 관련된 설정 정보들을 가져온다. [FilteringOptions](/api/types/FilteringOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -37,6 +37,12 @@ if (options) {
 }
 </pre>
 
+---
+
+#### API Links
+
+* [setFilteringOptions](/api/GridBase/setFilteringOptions)  
+
 #### Demo Links
-> [setFilteringOptions](/api/GridBase/setFilteringOptions)  
-> [Column Filtering](http://demo.realgrid.com/Demo/ColumnFiltering)
+
+* [Column Filtering](http://demo.realgrid.com/Demo/ColumnFiltering)

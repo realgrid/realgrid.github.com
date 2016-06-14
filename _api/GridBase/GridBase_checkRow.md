@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 지정된 rowId의 데이터행을 체크하거나 해제한다.  
+ 지정된 rowId의 데이터행을 체크하거나 해제한다.  
 
 #### Syntax
 
@@ -42,9 +42,14 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.checkRow(0,true,false);    
+gridView.checkRow(0,true,false);    
 </pre>
 
+
+#### API Links
+
+* [checkRows](/api/GridBase/checkRows)
+
 #### Demo Links
-> [checkRows](/api/GridBase/checkRows)  
-> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+
+* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

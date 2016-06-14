@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 소팅가 완료된 후 호출된다.  
+ 소팅가 완료된 후 호출된다.  
 
 #### Syntax
 
@@ -34,10 +34,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onSortingChanged = function (grid) {
-        console.log("onSortingChanged");
-	}
+gridView.onSortingChanged = function (grid) {
+    console.log("onSortingChanged");
+}
 </pre>
 
-#### Demo Links
-> [Sorting](/api/features/Sorting)
+---
+
+#### API Links
+
+* [Sorting](/api/features/Sorting)

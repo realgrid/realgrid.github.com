@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 기존에 설정되어 있는 컬럼들을 가져온.
+ 기존에 설정되어 있는 컬럼들을 가져온.
 
 #### Syntax
 
@@ -34,17 +34,24 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var columns = [{
-        name: "column1",
-        }, {
-        name: "column2",
-        }];
-    gridView.setColumns(columns);
-    ////
-    ....
-    ////
-    gridVIew.getColumns();
+var columns = [{
+    name: "column1",
+    }, {
+    name: "column2",
+    }];
+gridView.setColumns(columns);
+////
+....
+////
+gridVIew.getColumns();
 </pre>
 
+---
+
+#### API Links
+
+* [setColumns](/api/GridBase/getColumns)
+
 #### Demo Links
-> [ColumnGrouping](http://demo.realgrid.com/Demo/ColumnGrouping), [setColumns](/api/GridBase/getColumns)
+
+* [ColumnGrouping](http://demo.realgrid.com/Demo/ColumnGrouping)

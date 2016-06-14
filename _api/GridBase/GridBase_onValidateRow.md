@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> Javascript를 통한 행 단위 사용자 validation을 실행한다. 해당 행의 값들에 문제가 있다면 검증 에러와 에러 메시지를 그리드에 리턴값으로 전달한다.  
+ Javascript를 통한 행 단위 사용자 validation을 실행한다. 해당 행의 값들에 문제가 있다면 검증 에러와 에러 메시지를 그리드에 리턴값으로 전달한다.  
 
 #### Syntax
 
@@ -51,18 +51,25 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onValidateRow = function (grid, itemIndex, dataRow, inserting, values) {
-        console.log("onValidateRow:" + itemIndex + "," + dataRow + "," + inserting + "," + values.Quantity + "," + values.UnitPrice);
+gridView.onValidateRow = function (grid, itemIndex, dataRow, inserting, values) {
+    console.log("onValidateRow:" + itemIndex + "," + dataRow + "," + inserting + "," + values.Quantity + "," + values.UnitPrice);
 
-        var error = {};
-        //validate Quantity
-        if (values.Quantity < 100) {
-            error.level = RealGrids.ValidationLevel.ERROR;
-            error.message = "onValidateRow Event: if Quantity < 100, validation level 'ERROR!!'";
-        }
-        return error;
+    var error = {};
+    //validate Quantity
+    if (values.Quantity < 100) {
+        error.level = RealGrids.ValidationLevel.ERROR;
+        error.message = "onValidateRow Event: if Quantity < 100, validation level 'ERROR!!'";
     }
+    return error;
+}
 </pre>
 
+---
+
+#### API Links
+
+* [onValidateColumn](/api/GridBase/onValidateColumn)
+
 #### Demo Links
-> [onValidateColumn](/api/GridBase/onValidateColumn), [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation)
+
+* [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation)

@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 RowGroupPanel을 클릭했을 때 호출된다.  
+ 사용자가 마우스로 RowGroupPanel을 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -39,10 +39,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onRowGroupPanelClicked =  function (grid, column) {
-        console.log("onRowGroupPanelClicked : " + "(" + column.name + ")")
-    };
+gridView.onRowGroupPanelClicked =  function (grid, column) {
+    console.log("onRowGroupPanelClicked : " + "(" + column.name + ")")
+};
 </pre>
 
+---
+
 #### Demo Links
->  [Region Events](http://demo.realgrid.com/Demo/RegionEvents)
+
+* [Region Events](http://demo.realgrid.com/Demo/RegionEvents)

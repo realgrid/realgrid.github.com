@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> [DataColumn](/api/types/DataColumn/) 또는 [ColumnGroup](/api/types/ColumnGroup/)의 속성을 가져온다.  
+ [DataColumn](/api/types/DataColumn/) 또는 [ColumnGroup](/api/types/ColumnGroup/)의 속성을 가져온다.  
 
 #### Syntax
 
@@ -37,10 +37,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    aHeader = gridView.getColumnProperty("column","header");
-    aHeader.text = "new Text";
-    gridView.setColumnProperty("column","header",aHeader);
+aHeader = gridView.getColumnProperty("column","header");
+aHeader.text = "new Text";
+gridView.setColumnProperty("column","header",aHeader);
 </pre>
 
-#### Demo Links
-> [setColumnProperty](/api/GridBase/setColumnProperty)
+---
+
+#### API Links
+
+* [setColumnProperty](/api/GridBase/setColumnProperty)

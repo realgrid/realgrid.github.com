@@ -10,7 +10,7 @@ permalink: /api/GridBase/setColumnLayout/
 
 #### Description
 
-> 그리드의 컬럼 레이아웃을 설정한다.
+ 그리드의 컬럼 레이아웃을 설정한다.
 
 #### Syntax
 
@@ -29,10 +29,10 @@ permalink: /api/GridBase/setColumnLayout/
 #### Examples 
 
 <pre class="prettyprint">
-    var layout = [
-        "OrderID", "EmployeeID", "OrderDate", "CompanyName", "CustomerID"
-    ];
- 
-    //grdMain.restoreColumns();
-    grdMain.setColumnLayout(layout);
+var layout = [
+    "OrderID", "EmployeeID", "OrderDate", "CompanyName", "CustomerID"
+];
+
+//grdMain.restoreColumns();
+gridView.setColumnLayout(layout);
 </pre>

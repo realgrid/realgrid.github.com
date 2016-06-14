@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 Indicator셀을 클릭했을 때 호출된다.  
+ 사용자가 마우스로 Indicator셀을 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -38,8 +38,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    grid.onIndicatorCellClicked =  function (grid, index) {
-        console.log("onIndicatorCellClicked : " + "(" + index + ")")
-    };
+grid.onIndicatorCellClicked =  function (grid, index) {
+    console.log("onIndicatorCellClicked : " + "(" + index + ")")
+};
 </pre>
 

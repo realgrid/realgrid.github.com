@@ -15,8 +15,8 @@ tags:
 
 #### Description
 
-> 지정한 itemIndex의 여러 필드의 값을 수정한다.
-> strict가 true 일때 필드의 값을 undefined로 지정한 경우 기존의 값을 유지한다.
+ 지정한 itemIndex의 여러 필드의 값을 수정한다.
+ strict가 true 일때 필드의 값을 undefined로 지정한 경우 기존의 값을 유지한다.
 
 #### Syntax
 
@@ -44,10 +44,14 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-     var values = {company : undefined, first_name : "first", last_name : "abc"};
-     gridView.setValues(0, values, true);
+var values = {company : undefined, first_name : "first", last_name : "abc"};
+gridView.setValues(0, values, true);
 </pre>
 
-#### Demo Links
-> [setValue](/api/GridBase/setValue), [getValues](/api/GridView/getValues)
+---
+
+#### API Links
+
+* [setValue](/api/GridBase/setValue)
+* [getValues](/api/GridView/getValues)
 

@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> CheckBar에 적용된 모든 행의 Checkable 상태를 초기화 한다.
+ CheckBar에 적용된 모든 행의 Checkable 상태를 초기화 한다.
 
 #### Syntax
 
@@ -33,12 +33,17 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setCheckBar({ checkableExpression: "row < 10" });
-    gridView.applyCheckables();
-    ....
-    
-    gridView.resetCheckables();
+gridView.setCheckBar({ checkableExpression: "row < 10" });
+gridView.applyCheckables();
+....
+
+gridView.resetCheckables();
 </pre>
 
-#### Demo Links
-> [CheckBar](/api/types/CheckBar), [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)
+----
+
+#### API Links
+
+* [CheckBar](/api/types/CheckBar)
+* [setCheckable](/api/GridBase/setCheckable)
+* [setCheckableExpression](/api/GridBase/setCheckableExpression)

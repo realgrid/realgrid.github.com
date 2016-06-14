@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 컬럼 레이아웃들을 미리 설정한다.
+ 컬럼 레이아웃들을 미리 설정한다.
 
 #### Syntax
 
@@ -33,20 +33,24 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var layouts = [{
-        name: "layout_1",
-        columns: [
-            "OrderID"
-        ]
-    }, {
-        name: "layout_2",
-        columns: [
-            "CustomerID"
-        ]
-    }];
- 
-    gridView.registerColumnLayouts(layouts);
+var layouts = [{
+    name: "layout_1",
+    columns: [
+        "OrderID"
+    ]
+}, {
+    name: "layout_2",
+    columns: [
+        "CustomerID"
+    ]
+}];
+
+gridView.registerColumnLayouts(layouts);
 </pre>
 
-#### Demo Links
-> [setColumnLayout](/api/GridBase/setColumnLayout), [restoreColumns](/api/GridBase/restoreColumns)
+---
+
+#### API Links
+
+* [setColumnLayout](/api/GridBase/setColumnLayout)
+* [restoreColumns](/api/GridBase/restoreColumns)

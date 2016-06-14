@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> Toast 팝업 창을 표시한다.  
+ Toast 팝업 창을 표시한다.  
 
 #### Syntax
 
@@ -37,8 +37,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.showToast("toast 창을 표시합니다.");
+gridView.showToast("toast 창을 표시합니다.");
 </pre>
 
-#### Demo Links
-> [hideToast](/api/GridBase/hideToast)
+---
+
+#### API Links
+
+* [hideToast](/api/GridBase/hideToast)

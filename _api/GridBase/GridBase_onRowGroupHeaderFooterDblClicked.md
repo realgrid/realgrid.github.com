@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 RowGroup의 Header, Footer 더블 클릭했을 때 호출된다.  
+ 사용자가 마우스로 RowGroup의 Header, Footer 더블 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -39,8 +39,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onRowGroupHeaderFooterDblClicked =  function (grid, index) {
-        console.log("onRowGroupHeaderFooterDblClicked : " + "(" + index + ")")
-    };
+gridView.onRowGroupHeaderFooterDblClicked =  function (grid, index) {
+    console.log("onRowGroupHeaderFooterDblClicked : " + "(" + index + ")")
+};
 </pre>
 

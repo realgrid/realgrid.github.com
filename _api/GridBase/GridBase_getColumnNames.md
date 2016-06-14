@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드에 설정되어 있는 컬럼 이름들을 가져온다.  
+ 그리드에 설정되어 있는 컬럼 이름들을 가져온다.  
 
 #### Syntax
 
@@ -37,5 +37,9 @@ tags:
 var columnNames = gridView.getColumnNames(false);
 </pre>
 
-#### Demo Links
-> [getColumns](/api/GridBase/getColumns), [getColumnGroupNames](/api/GridBase/getColumnGroupNames)
+---
+
+#### API Links
+
+* [getColumns](/api/GridBase/getColumns)
+* [getColumnGroupNames](/api/GridBase/getColumnGroupNames)

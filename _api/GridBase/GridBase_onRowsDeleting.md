@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 사용자가 Ctrl+Del 키를 누르거나 [deleteSelection](/api/GridBase/deleteSelection/)을 삭제할 때, 실제 삭제 직전에 호출된다. 이 콜백에서 삭제를 거부하는 문자열을 리턴하면 행 삭제가 취소된다.   
+ 사용자가 Ctrl+Del 키를 누르거나 [deleteSelection](/api/GridBase/deleteSelection/)을 삭제할 때, 실제 삭제 직전에 호출된다. 이 콜백에서 삭제를 거부하는 문자열을 리턴하면 행 삭제가 취소된다.   
 
 #### Syntax
 
@@ -38,20 +38,26 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onRowsDeleting = function (grid, rows) {
-        var msg = null;
-        $(rows).each(function (idx, v) {
-            console.log(grid.getValues(v));
-            if (grid.getValues(v)) {
-                if (grid.getValues(v).CustomerID === "HANAR") {
-                    msg = 'Can not delete this row.";
-                };
+gridView.onRowsDeleting = function (grid, rows) {
+    var msg = null;
+    $(rows).each(function (idx, v) {
+        console.log(grid.getValues(v));
+        if (grid.getValues(v)) {
+            if (grid.getValues(v).CustomerID === "HANAR") {
+                msg = 'Can not delete this row.";
             };
-        });
-        return msg;
-    };
+        };
+    });
+    return msg;
+};
 </pre>
 
+---
+
+#### API Links
+
+* [getValues](/api/GridBase/getValues)
+
 #### Demo Links
-> [Deleting Demo](http://demo.realgrid.com/Demo/Deleting)
-> [getValues](/api/GridBase/getValues)
+
+* [Deleting Demo](http://demo.realgrid.com/Demo/Deleting)

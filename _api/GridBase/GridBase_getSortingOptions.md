@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 정렬과 관련된 설정 정보들을 가져온다. [SortingOptions](/api/types/SortingOptions/)이 설정 모델이다.
+ 그리드 정렬과 관련된 설정 정보들을 가져온다. [SortingOptions](/api/types/SortingOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -37,5 +37,8 @@ if (options) {
 };
 </pre>
 
-#### Demo Links
-> [setSortingOptions](/api/GridBase/setSortingOptions)
+---
+
+#### API Links
+
+* [setSortingOptions](/api/GridBase/setSortingOptions)

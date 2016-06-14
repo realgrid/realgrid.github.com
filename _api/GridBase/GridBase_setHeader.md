@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 Header와 관련된 정보들을 설정한다. [Header](/api/types/Header/)이 설정 모델이다.
+ 그리드 Header와 관련된 정보들을 설정한다. [Header](/api/types/Header/)이 설정 모델이다.
 
 #### Syntax
 
@@ -32,12 +32,15 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setHeader({
-        resizable: true,
-        visible: true,
-        ...
-    });
+gridView.setHeader({
+    resizable: true,
+    visible: true,
+    ...
+});
 </pre>
 
-#### Demo Links
-> [getHeader](/api/GridBase/getHeader)
+---
+
+#### API Links
+
+* [getHeader](/api/GridBase/getHeader)

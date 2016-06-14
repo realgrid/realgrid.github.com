@@ -14,9 +14,9 @@ tags:
 
 #### Description
 
-> 사용자 입력이 셀에 반영될때 발생한다.  
-> 편집중인 셀에서 다른 셀로 이동하거나 또는 [commitEditor](/api/GridBase/commitEditor)를 호출하면 발생한다.  
-> setValue 등 사용자 코드로 변경될때는 발생하지 않는다.  
+ 사용자 입력이 셀에 반영될때 발생한다.  
+ 편집중인 셀에서 다른 셀로 이동하거나 또는 [commitEditor](/api/GridBase/commitEditor)를 호출하면 발생한다.  
+ setValue 등 사용자 코드로 변경될때는 발생하지 않는다.  
 
 #### Syntax
 
@@ -47,9 +47,13 @@ None.
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onEditCommit = function (id, index, oldValue, newValue) {
-        console.log("onEditCommit: " + index.itemIndex + ", " + index.column + ", " + oldValue + " => " + newValue);   
+gridView.onEditCommit = function (id, index, oldValue, newValue) {
+    console.log("onEditCommit: " + index.itemIndex + ", " + index.column + ", " + oldValue + " => " + newValue);   
 </pre>
 
-#### Demo Links
-> [onEditCanceled](/api/GridBase/onEditCanceled), [commitEditor](/api/GridBase/commitEditor)
+---
+
+#### API Links
+
+* [onEditCanceled](/api/GridBase/onEditCanceled)
+* [commitEditor](/api/GridBase/commitEditor)

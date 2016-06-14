@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 입력된 dataRow와 연결된 Item을 체크하거나 해제한다.  
+ 입력된 dataRow와 연결된 Item을 체크하거나 해제한다.  
 
 #### Syntax
 
@@ -36,9 +36,17 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.checkRows([1,2,3,4],true);
+gridView.checkRows([1,2,3,4],true);
 </pre>
 
-#### Demo Links
-> [checkRow](/api/GridBase/checkRow), [checkItem](/api/GridBase/checkItem), [checkItems](/api/GridBase/checkItems)  
-> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+---
+
+#### API Links
+
+* [checkRow](/api/GridBase/checkRow)
+* [checkItem](/api/GridBase/checkItem)
+* [checkItems](/api/GridBase/checkItems)
+
+### Demo Links
+
+* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

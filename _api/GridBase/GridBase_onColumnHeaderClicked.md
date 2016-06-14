@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 컬럼 헤더셀을 클릭했을 때 호출된다.  
+ 사용자가 마우스로 컬럼 헤더셀을 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -38,13 +38,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onColumnHeaderClicked =  function (grid, column) {
-        console.log(column);  
-        if (column.type == "data") {
-            alert("DataColumn클릭");
-        } else if (column.type == "group") {
-            alert("columnGroup클릭");
-        };
+gridView.onColumnHeaderClicked =  function (grid, column) {
+    console.log(column);  
+    if (column.type == "data") {
+        alert("DataColumn클릭");
+    } else if (column.type == "group") {
+        alert("columnGroup클릭");
     };
+};
 </pre>
 

@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 그리드에 붙여넣기를 할때 적용되는 설정을 가져온다.  
+ 그리드에 붙여넣기를 할때 적용되는 설정을 가져온다.  
 
 #### Syntax
 
@@ -32,11 +32,16 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var pasteOpt = gridView.getPasteOptions();
-    if (pasteOpt) {
-        JSON.stringify(pasteOpt);
-    }
+var pasteOpt = gridView.getPasteOptions();
+if (pasteOpt) {
+    JSON.stringify(pasteOpt);
+}
 </pre>
 
-#### Demo Links
-> [setPasteOptions](/api/GridBase/setPasteOptions), [getCopyOptions](/api/GridBase/getCopyOptions), [setCopyOptions](/api/GridBase/setCopyOptions)
+---
+
+#### API Links
+
+* [setPasteOptions](/api/GridBase/setPasteOptions)
+* [getCopyOptions](/api/GridBase/getCopyOptions)
+* [setCopyOptions](/api/GridBase/setCopyOptions)

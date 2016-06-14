@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 CheckBarFoot셀을 클릭했을 때 호출된다.  
+ 사용자가 마우스로 CheckBarFoot셀을 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -34,8 +34,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onCheckBarFootClicked =  function (grid) {
-        console.log("onCheckBarFootClicked");
-    };
+gridView.onCheckBarFootClicked =  function (grid) {
+    console.log("onCheckBarFootClicked");
+};
 </pre>
 

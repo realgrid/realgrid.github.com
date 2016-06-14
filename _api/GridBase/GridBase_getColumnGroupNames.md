@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 컬럼그룹들의 이름을 가져온다.
+ 컬럼그룹들의 이름을 가져온다.
 
 #### Syntax
 
@@ -31,26 +31,30 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setColumns([
-    	{ type:"group",
-    	  name:"groupColumn1",
-    	  columns:[
-    	      {fieldName:"fldName1", name:"column11"},
-    	      {fieldName:"fldName2", name:"column12"}
-    	  ]
-    	},
-    	{ type:"group",
-    	  name:"groupColumn2",
-    	  columns:[
-    	      {fieldName:"fldName3", name:"column21"},
-    	      {fieldNaem:"fldName4", name:"column22"}
-    	  ]
-    	}
-        ....
-    ]);
+gridView.setColumns([
+	{ type:"group",
+	  name:"groupColumn1",
+	  columns:[
+	      {fieldName:"fldName1", name:"column11"},
+	      {fieldName:"fldName2", name:"column12"}
+	  ]
+	},
+	{ type:"group",
+	  name:"groupColumn2",
+	  columns:[
+	      {fieldName:"fldName3", name:"column21"},
+	      {fieldNaem:"fldName4", name:"column22"}
+	  ]
+	}
+    ....
+]);
 
-    var groups = grid.getColumnGroupNames();
+var groups = grid.getColumnGroupNames();
 </pre>
 
-#### Demo Links
-> [getColumnNames](/api/GridBase/getColumnNames), [getColumns](/api/GridBase/getColumns)
+---
+
+#### API Links
+
+* [getColumnNames](/api/GridBase/getColumnNames)
+* [getColumns](/api/GridBase/getColumns)

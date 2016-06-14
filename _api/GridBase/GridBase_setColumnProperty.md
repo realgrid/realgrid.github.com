@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 그리드에 설정되어 있는 컬럼의 특정 속성 정보를 변경한다.
+ 그리드에 설정되어 있는 컬럼의 특정 속성 정보를 변경한다.
 
 #### Syntax
 
@@ -42,9 +42,16 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var column = grid.columnByName("col1");
-    gridView.setColumnProperty(column, "editable", false);
+var column = grid.columnByName("col1");
+gridView.setColumnProperty(column, "editable", false);
 </pre>
 
+---
+
+#### API Links
+
+* [columnByName](/api/GridBase/columnByName)
+
 #### Demo Links
-> [columnByName](/api/GridBase/columnByName),[ColumnProperties](http://demo.realgrid.com/Demo/ColumnProperties)
+
+* [ColumnProperties](http://demo.realgrid.com/Demo/ColumnProperties)

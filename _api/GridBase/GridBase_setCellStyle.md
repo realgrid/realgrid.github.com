@@ -15,8 +15,8 @@ tags:
 
 #### Description
 
-> dataRow 행의 field 셀에 styleId에 해당하는 DataCellStyle을 지정한다.   
-> field가 0보다 작은 값이면 그 행의 모든 셀에 스타일을 지정하며, styleId를 null로 지정하면 기존에 지정된 스타일을 제거한다.  
+ dataRow 행의 field 셀에 styleId에 해당하는 DataCellStyle을 지정한다.   
+ field가 0보다 작은 값이면 그 행의 모든 셀에 스타일을 지정하며, styleId를 null로 지정하면 기존에 지정된 스타일을 제거한다.  
 
 #### Syntax
 
@@ -49,15 +49,22 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.addCellStyle("style02", {
-        "paddingLeft": 15,
-        "background": "#000000",
-        "foreground": "#ffffff"
-    }, true);
-    gridView.setCellStyle(4, 1, "style02");
-    gridView.setCellStyle(4, 3, "style02");
-    gridView.setCellStyle(3, 2, "style02", true);
+gridView.addCellStyle("style02", {
+    "paddingLeft": 15,
+    "background": "#000000",
+    "foreground": "#ffffff"
+}, true);
+gridView.setCellStyle(4, 1, "style02");
+gridView.setCellStyle(4, 3, "style02");
+gridView.setCellStyle(3, 2, "style02", true);
 </pre>
 
+---
+
+#### API Links
+
+* [addCellStyle](/api/GridBase/addCellStyle)
+
 #### Demo Links
-> [addCellStyle](/api/GridBase/addCellStyle), [DataCellStyle Overview](http://demo.realgrid.com/Demo/DataCellStyleConcept)
+
+* [DataCellStyle Overview](http://demo.realgrid.com/Demo/DataCellStyleConcept)

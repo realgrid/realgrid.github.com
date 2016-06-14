@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
-> [GridBase setContextMenu](/api/GridBase/setContextMenu/)를 통해 추가한 컨텍스트 메뉴 항목을 클릭했을 때 호출된다.  
-> RealGridJS의 경우 MenuItem.callback이 지정된 경우 호출되지 않는다.
+ [GridBase setContextMenu](/api/GridBase/setContextMenu/)를 통해 추가한 컨텍스트 메뉴 항목을 클릭했을 때 호출된다.  
+ RealGridJS의 경우 MenuItem.callback이 지정된 경우 호출되지 않는다.
 
 #### Syntax
 > RealGridJS  
@@ -50,17 +50,17 @@ None
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setContextMenu([
-        {label:"Menu1"},
-        {label:"Menu2"},
-        ....
-    ]);
+gridView.setContextMenu([
+    {label:"Menu1"},
+    {label:"Menu2"},
     ....
-    gridView.onContextMenuItemClicked = function (grid, data, index) {
-        alert("Context menu가 클릭됐습니다: " + data.label+"\n"+JSON.stringify(index));
+]);
+....
+gridView.onContextMenuItemClicked = function (grid, data, index) {
+    alert("Context menu가 클릭됐습니다: " + data.label+"\n"+JSON.stringify(index));
 
-        var selRow = dataProvider.getJsonRow(index.dataRow);
-        console && console.log(selRow);
-    };
+    var selRow = dataProvider.getJsonRow(index.dataRow);
+    console && console.log(selRow);
+};
 </pre>
 

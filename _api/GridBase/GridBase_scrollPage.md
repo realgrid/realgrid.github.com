@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 아이템 모델의 부모 아이템 모델을 리턴합니다.    
+ 아이템 모델의 부모 아이템 모델을 리턴합니다.    
 
 #### Syntax
 
@@ -32,7 +32,5 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.scrollPage(2);
+gridView.scrollPage(2);
 </pre>
-
-#### Demo Links

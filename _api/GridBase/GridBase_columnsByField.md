@@ -13,8 +13,8 @@ tags:
 
 #### Description
 
-> 그리드에는 동일한 데이터필드를 참조하는 여러 컬럼이 존재할 수 있다.  
-> 이 메쏘드는 필드명에 해당하는 컬럼 정보의 목록을 배열로 반환한다.  
+ 그리드에는 동일한 데이터필드를 참조하는 여러 컬럼이 존재할 수 있다.  
+ 이 메쏘드는 필드명에 해당하는 컬럼 정보의 목록을 배열로 반환한다.  
 
 #### Syntax
 
@@ -45,5 +45,11 @@ var field = "fldName1";
 var columns = gridView.columnsByField(field);
 </pre>
 
-#### Demo Links
-> [columnByField](/api/GridBase/columnByField), [columnByTag](/api/GridBase/columnByTag), [columnByName](/api/GridBase/columnByName), [columnsByTag](/api/GridBase/columnsByTag)
+---
+
+#### API Links
+
+* [columnByField](/api/GridBase/columnByField)
+* [columnByTag](/api/GridBase/columnByTag)
+* [columnByName](/api/GridBase/columnByName)
+* [columnsByTag](/api/GridBase/columnsByTag)

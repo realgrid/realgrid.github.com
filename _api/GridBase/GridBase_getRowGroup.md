@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 RowGroup과 관련된 설정 정보들을 가져온다. [RowGroupOptions](/api/types/RowGroupOptions/)이 설정 모델이다.
+ 그리드 RowGroup과 관련된 설정 정보들을 가져온다. [RowGroupOptions](/api/types/RowGroupOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -37,5 +37,8 @@ if (options) {
 }
 </pre>
 
-#See Also
-> [setRowGroup](/api/GridBase/setRowGroup)
+---
+
+#### API Links
+
+* [setRowGroup](/api/GridBase/setRowGroup)

@@ -13,8 +13,8 @@ tags:
 
 #### Description
 
-> 그리드 셀에 붙여넣기 할때 발생한다.  
-> 여러 행을 붙여넣기 할때는 [onRowsPasted](/api/GridBase/onRowsPasted)참조
+ 그리드 셀에 붙여넣기 할때 발생한다.  
+ 여러 행을 붙여넣기 할때는 [onRowsPasted](/api/GridBase/onRowsPasted)참조
 
 #### Syntax
 
@@ -53,11 +53,14 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onEditRowPasted = function(grid, itemIndex, dataRow, fields, oldValues, newValues){
-        var text = "onEditRowPasted : itemIndex = "+itemIndex+", oldValues = "+ oldValues.toString() +", newValues = "+newValues.toString();
-        console.log(text);
-    };
+gridView.onEditRowPasted = function(grid, itemIndex, dataRow, fields, oldValues, newValues){
+    var text = "onEditRowPasted : itemIndex = "+itemIndex+", oldValues = "+ oldValues.toString() +", newValues = "+newValues.toString();
+    console.log(text);
+};
 </pre>
 
-#### Demo Links
-> [onRowsPasted](/api/GridBase/onRowsPasted)
+---
+
+#### API Links
+
+* [onRowsPasted](/api/GridBase/onRowsPasted)

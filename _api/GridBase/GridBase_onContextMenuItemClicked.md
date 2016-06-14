@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> ContextMenu가 호출될때 표시되는 좌표가 반환된다.
+ ContextMenu가 호출될때 표시되는 좌표가 반환된다.
 
 #### Arguments
 
@@ -37,8 +37,8 @@ None
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onContextMenuPopup = function (grid, x, y) {
-        console.log("onContextMenuPopup: x = " + x + ", y = " + y);
-    }
+gridView.onContextMenuPopup = function (grid, x, y) {
+    console.log("onContextMenuPopup: x = " + x + ", y = " + y);
+}
 </pre>
 

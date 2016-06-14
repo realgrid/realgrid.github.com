@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 필터링이 시작될때 호출된다.  
+ 필터링이 시작될때 호출된다.  
 
 #### Syntax
 
@@ -34,8 +34,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onFiltering = function (grid){
-	    return false;
-	}
+gridView.onFiltering = function (grid){
+    return false;
+}
 </pre>
 

@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 사용자가 checkBar의 Header를 클릭하여 전체선택,해제를 하거나 또는 [GridBase checkAll](/api/GridBase/checkAll/) true 을 입력하여 전체선택,해제를 하면 호출된다.  
+ 사용자가 checkBar의 Header를 클릭하여 전체선택,해제를 하거나 또는 [GridBase checkAll](/api/GridBase/checkAll/) true 을 입력하여 전체선택,해제를 하면 호출된다.  
 
 #### Syntax
 
@@ -39,10 +39,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onItemAllChecked =  function (grid, checked) {
-        console.log(grid.id," onItemAllChecked:",checked);
-    };
+gridView.onItemAllChecked =  function (grid, checked) {
+    console.log(grid.id," onItemAllChecked:",checked);
+};
 </pre>
 
+---
+
 #### Demo Links
-> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+
+* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
