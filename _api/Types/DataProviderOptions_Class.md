@@ -14,8 +14,9 @@ tags:
   - 데이터프로바이더옵
 ---
 
+#### Description
 
-> LocalDataProvider 동작에 관한 설정 모델이다.
+ LocalDataProvider 동작에 관한 설정 모델이다.
 
 #### Properties
 
@@ -97,14 +98,16 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-	dataProvider.setOptions({
-		datetimeFormat: "yyyy-MM-dd",
-		booleanFormat: "0;1",
-		softDeleting: true
-	});	
+dataProvider.setOptions({
+	datetimeFormat: "yyyy-MM-dd",
+	booleanFormat: "0;1",
+	softDeleting: true
+});	
 </pre>
 
-#### Demo Links
+---
 
-> [setOptions](/api/DataProvider/setOptions/)     
-> [getOptions](/api/DataProvider/getOptions/)     
+#### API Links
+
+* [setOptions](/api/DataProvider/setOptions/)     
+* [getOptions](/api/DataProvider/getOptions/)     

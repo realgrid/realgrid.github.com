@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 컬럼들의 표시 너비를 그리드 너비에 맞게 조정해서 수평 스크롤이 필요없게 하거나, 그리드에 채운 상태로 표시하는 방식을 지정하는 상수다.  
+ 컬럼들의 표시 너비를 그리드 너비에 맞게 조정해서 수평 스크롤이 필요없게 하거나, 그리드에 채운 상태로 표시하는 방식을 지정하는 상수다.  
   
 #### Members
 
@@ -40,17 +40,19 @@ tags:
 ### Example  
 
 <pre class="prettyprint">
-	gridView.setDisplayOptions({
-        fitStyle: "evenFill"
-    });
+gridView.setDisplayOptions({
+    fitStyle: "evenFill"
+});
 </pre>
+
+---
+
+#### API Links
+
+* [DisplayOptions](/api/types/DisplayOptions/)  
+* [setDisplayOptions](/api/GridBase/setDisplayOptions/)  
+* [getDisplayOptions](/api/GridBase/getDisplayOptions/)  
 
 #### Demo Links
 
-> [GridFitting](http://demo.realgrid.com/Demo/GridFitting) 참조  
-
-> [DisplayOptions](/api/types/DisplayOptions/)
-> [setDisplayOptions](/api/GridBase/setDisplayOptions/)  
-> [getDisplayOptions](/api/GridBase/getDisplayOptions/)  
-
-
+* [GridFitting](http://demo.realgrid.com/Demo/GridFitting)

@@ -193,7 +193,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 숫자와 구두점 및 부호만을 입력할 수 있고 우측으로 정렬된 편집기이다.
+ 숫자와 구두점 및 부호만을 입력할 수 있고 우측으로 정렬된 편집기이다.
 
 
 #### Properties
@@ -242,4 +242,4 @@ $("#button2").click(function(){
 
 #### Demo Links
 
-> [Editors](http://demo.realgrid.com/Demo/Editors){:target="_blank"} 참조
+* [Editors](http://demo.realgrid.com/Demo/Editors){:target="_blank"}

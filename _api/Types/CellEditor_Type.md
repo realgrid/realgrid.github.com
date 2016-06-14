@@ -11,7 +11,7 @@ permalink: /api/types/CellEditor/
 
 #### Description
 
-> 데이터 셀 편집기(Cell Editor)의 유형을 정의한다.
+ 데이터 셀 편집기(Cell Editor)의 유형을 정의한다.
 
 #### Members
 
@@ -131,4 +131,4 @@ gridView.setColumns(columns);
 
 #### Demo Links
 
-> [Editors Demo](http://demo.realgrid.net/Demo/Editors)
+* [Editors Demo](http://demo.realgrid.net/Demo/Editors)

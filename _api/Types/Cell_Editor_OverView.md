@@ -26,7 +26,7 @@ tags:
 
 #### Description
 
-> RealGrid는 데이터셀(DataCell)의 값을 수정할 수 있는 셀 편집기(Cell Editor)를 제공한다. 셀 편집기는 각 데이터컬럼(Data Column)별로 편집기의 종류를 지정할 수 있으며, 아래와 같은 6가지 종류의 기본 셀 편집기를 제공한다.
+ RealGrid는 데이터셀(DataCell)의 값을 수정할 수 있는 셀 편집기(Cell Editor)를 제공한다. 셀 편집기는 각 데이터컬럼(Data Column)별로 편집기의 종류를 지정할 수 있으며, 아래와 같은 6가지 종류의 기본 셀 편집기를 제공한다.
 
 * [LineCellEditor](/api/types/LineCellEditor) - 한 줄 텍스트 입력.  
 * [MultiLineCellEditor](/api/types/MultiLineCellEditor) - 여러 줄 텍스트 입력.  

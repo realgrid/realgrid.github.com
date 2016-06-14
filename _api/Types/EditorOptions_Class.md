@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
-> 그리드 수준에서 관리되는 에디터 정보들에 대한 설정 모델이다.  
+ 그리드 수준에서 관리되는 에디터 정보들에 대한 설정 모델이다.  
 
 #### Properties
 
@@ -49,17 +49,19 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-    gridView.setEditorOptions({
-        yearDisplayFormat:"{Y}년",   // "{Y} Year"
-        //monthDisplayFormat:"{M}월",  // "{M} Month"  
-        months: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
-        weekDays: ["일", "월", "화", "수", "목", "금", "토"] // ['SUN', 'MON', 'TUE', 'WED'....]  
-    });
+gridView.setEditorOptions({
+    yearDisplayFormat:"{Y}년",   // "{Y} Year"
+    //monthDisplayFormat:"{M}월",  // "{M} Month"  
+    months: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
+    weekDays: ["일", "월", "화", "수", "목", "금", "토"] // ['SUN', 'MON', 'TUE', 'WED'....]  
+});
 </pre>
 
-#### Demo Links
+---
 
-> [DateCellEditor](/api/types/DateCellEditor/)
-> [getEditorOptions](/api/GridBase/getEditorOptions/)   
-> [setEditorOptions](/api/GridBase/setEditorOptions/)   
+#### API Links
+
+* [DateCellEditor](/api/types/DateCellEditor/)
+* [getEditorOptions](/api/GridBase/getEditorOptions/)   
+* [setEditorOptions](/api/GridBase/setEditorOptions/)   
  

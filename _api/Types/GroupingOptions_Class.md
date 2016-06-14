@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> Row grouping은 데이터 행들을 하나 이상의 지정한 컬럼의 값을 기준으로 구분시켜 계층적인 구조로 표시한다.
+ Row grouping은 데이터 행들을 하나 이상의 지정한 컬럼의 값을 기준으로 구분시켜 계층적인 구조로 표시한다.
 
 #### Properties
 

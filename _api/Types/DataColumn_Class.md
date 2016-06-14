@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> DataProvider 필드들 중 하나의 값을 표시하는 컬럼이다.
+ DataProvider 필드들 중 하나의 값을 표시하는 컬럼이다.
 
 #### Properties
 
@@ -312,6 +312,8 @@ var columns = [{
 
 gridView.setColumns(columns);
 </pre>
+
+---
 
 #### Tutorial Links
 

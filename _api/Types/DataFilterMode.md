@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 필터의 동작 모드를 지정한다.
+ 필터의 동작 모드를 지정한다.
   
 #### Members
 
@@ -26,26 +26,27 @@ tags:
 > Value: "or"  
 > 여러개의 필터중 하나의 필터라도 부합하면 나온다.  
 
-#### Examples s  
+#### Examples
 
 <pre class="prettyprint">
-	var filters = [
-		"value['company'] = 'Mynte'",
-		"value['gender'] = 'Female'"
-	];
-	
-	var filterMode = "and";
-	
-	dataProvider.setFilters(filters, filterMode);	
-	
-	jsonData = "../../DemoData/defaultdemodata.json";
-	$.getJSON(jsonData, {}, function(data) {
-		dataProvider.setRows(data)
-	});
+var filters = [
+	"value['company'] = 'Mynte'",
+	"value['gender'] = 'Female'"
+];
+
+var filterMode = "and";
+
+dataProvider.setFilters(filters, filterMode);	
+
+jsonData = "../../DemoData/defaultdemodata.json";
+$.getJSON(jsonData, {}, function(data) {
+	dataProvider.setRows(data)
+});
 </pre>
 
+---
 
-#### Demo Links
+#### API Links
 
 * [setFilters](/api/LocalDataProvider/setFilters/)   
 

@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 컬럼 스타일 figureState 값과 렌더러의 barCount 속성을 이용해 데이터 셀 값을 신호 세기로 표시한다. 정확한 값보다는 일정 단계의 상태를 표시하는데 사용돼야 한다. 
+ 컬럼 스타일 figureState 값과 렌더러의 barCount 속성을 이용해 데이터 셀 값을 신호 세기로 표시한다. 정확한 값보다는 일정 단계의 상태를 표시하는데 사용돼야 한다. 
 
 #### Properties
 
@@ -25,7 +25,8 @@ tags:
 > Default: 4  
 > 바의 개수를 지정한다.
 
+---
 
 #### Demo Links
 
-> [SignalCellRenderer](http://demo.realgrid.com/Demo/SignalCellRenderer){:target="_blank"} 참조
+* [SignalCellRenderer](http://demo.realgrid.com/Demo/SignalCellRenderer){:target="_blank"}

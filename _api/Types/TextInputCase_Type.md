@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 에디터에 입력되는 값을 모두 대문자로, 소문자로, 입력하는대로 변환 설정
+ 에디터에 입력되는 값을 모두 대문자로, 소문자로, 입력하는대로 변환 설정
   
 #### Properties
 
@@ -45,6 +45,8 @@ column.editor = {
 gridView.setColumn(column)
 </pre>
 
+---
+
 #### Demo Links
 
-> [Editors](http://demo.realgrid.com/Demo/Editors)  
+* [Editors](http://demo.realgrid.com/Demo/Editors)  

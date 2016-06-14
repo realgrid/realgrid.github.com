@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> View 상에서의 행의 상태를 정의한다.
+ View 상에서의 행의 상태를 정의한다.
 
 #### Members
 
@@ -37,4 +37,3 @@ tags:
 > **APPENDING**  
 > Value: "appending"  
 > Row 추가를 시작해서 commit되기 전까지의 상태  
-

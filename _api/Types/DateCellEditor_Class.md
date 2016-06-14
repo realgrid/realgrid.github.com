@@ -17,8 +17,8 @@ tags:
 
 #### Description
 
-> Date picker를 표시해서 날짜를 선택한다.  
-> RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년, 월이나 요일의 표시 문구를 GridBase.setEditorOptions()을 통해 개발자가 원하는 대로 바꿀 수 있다. (ex 월, 화, 수... -> Mon, Tue, Wed...) 
+ Date picker를 표시해서 날짜를 선택한다.  
+ RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년, 월이나 요일의 표시 문구를 GridBase.setEditorOptions()을 통해 개발자가 원하는 대로 바꿀 수 있다. (ex 월, 화, 수... -> Mon, Tue, Wed...) 
 
 #### Properties
 
@@ -69,34 +69,36 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-    gridView.setColumns([{
-		"name": "OrderDate",
-		"fieldName": "OrderDate",
-		"width": "180",
-		"sortable": false,
-		"editor": {
-		    "type": "date",
-		    "datetimeFormat": "yyyy.MM.dd",
-		    "yearDisplayFormat": "{Y} Year ",   
-		    "monthDisplayFormat": "{M} Month",  
-		    "months": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
-		    "weekDays": ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'] 
-		},
-		"styles": {
-		    "textAlignment": "center",
-            "datetimeFormat": "yyyy.MM.dd"
-		},
-		"header": {
-		    "text": "Date Edit",
-		    "styles": {
-		        "background": "linear,#22ffd500,#ffffd500,90"
-		    }
-		}
-    }]);
+gridView.setColumns([{
+	"name": "OrderDate",
+	"fieldName": "OrderDate",
+	"width": "180",
+	"sortable": false,
+	"editor": {
+	    "type": "date",
+	    "datetimeFormat": "yyyy.MM.dd",
+	    "yearDisplayFormat": "{Y} Year ",   
+	    "monthDisplayFormat": "{M} Month",  
+	    "months": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
+	    "weekDays": ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'] 
+	},
+	"styles": {
+	    "textAlignment": "center",
+        "datetimeFormat": "yyyy.MM.dd"
+	},
+	"header": {
+	    "text": "Date Edit",
+	    "styles": {
+	        "background": "linear,#22ffd500,#ffffd500,90"
+	    }
+	}
+}]);
 </pre>
 
-#### Demo Links
+---
 
-> [EditorOptions](/api/types/EditorOptions/)
-> [getEditorOptions](/api/GridBase/getEditorOptions/)   
-> [setEditorOptions](/api/GridBase/setEditorOptions/)   
+#### API Links
+
+* [EditorOptions](/api/types/EditorOptions/)
+* [getEditorOptions](/api/GridBase/getEditorOptions/)   
+* [setEditorOptions](/api/GridBase/setEditorOptions/)   

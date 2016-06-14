@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 정렬 방향을 정의한다.
+ 정렬 방향을 정의한다.
 
 #### Members
 
@@ -26,6 +26,8 @@ tags:
 > Value: "descending"  
 > 역방향으로 정렬한다.  
 
+---
+
 #### Demo Links
 
-> [ColumnSorting](http://demo.realgrid.com/Demo/ColumnSorting){:target="_blank"} 참조
+* [ColumnSorting](http://demo.realgrid.com/Demo/ColumnSorting){:target="_blank"}

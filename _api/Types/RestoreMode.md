@@ -188,7 +188,7 @@ function setColumns(grid) {
 
 #### Description
 
-> dataProvider의 복원 모드를 지정한다. 
+ dataProvider의 복원 모드를 지정한다. 
 변경된 값은 restoreUpdatedRows() 함수로 복원 시킬 수 있다.
 
 #### Members

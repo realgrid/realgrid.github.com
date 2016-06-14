@@ -182,7 +182,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 여러 줄을 입력을 받을 수 있는 텍스트 편집기이다.   
+ 여러 줄을 입력을 받을 수 있는 텍스트 편집기이다.   
 Ctrl+Enter로 줄 나누기를 할 수 있다.  
 
 #### Properties
@@ -231,4 +231,4 @@ function setColumns(grid) {
 
 #### Demo Links
 
-> [Editors](http://demo.realgrid.com/Demo/Editors){:target="_blank"} 참조
+* [Editors](http://demo.realgrid.com/Demo/Editors){:target="_blank"}

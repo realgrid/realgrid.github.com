@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 검증 결과 표시에 대한 설정들이다.
+ 검증 결과 표시에 대한 설정들이다.
 
 #### Properties
 
@@ -29,6 +29,8 @@ tags:
 > default: "Validation error."   
 > 표시할 메시지 내용을 지정한다.  
 
+---
+
 #### Demo Links
 
-> [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation#.example)
+* [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation#.example)

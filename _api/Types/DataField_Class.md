@@ -101,51 +101,55 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-    fields = [{
-        "fieldName": "OrderID",
-        "dataType": "number"
-    }, {
-        "fieldName": "CustomerID"
-    }, {
-        "fieldName": "EmployeeID"
-    }, {
-        "fieldName": "OrderDate",
-        "dataType": "datetime"
-    }, {
-        "fieldName": "CompanyName"
-    }, {
-        "fieldName": "ProductName"
-    }, {
-        "fieldName": "Quantity",
-        "dataType": "numeric"
-    }, {
-        "fieldName": "UnitPrice",
-        "dataType": "numeric"
-    }, {
-        "fieldName": "Price",
-        "dataType": "numeric",
-        "calculateExpression": "values['Quantity'] * values['UnitPrice']"
-    }, {
-        "fieldName": "Price2",
-        "dataType": "numeric",
-        "calculateCallback": function (dataRow, fieldName, fieldNames, values) {
-            var quantity = values[fieldNames.indexOf("Quantity")];
-            var unitprice = values[fieldNames.indexOf("UnitPrice")];
-            if (isNaN(quantity) || isNaN(unitprice))
-                return undefined;
-            else
-                return quantity >= 1000 ? Math.round(quantity * unitprice * 0.95) : quantity * unitprice;
-        }
-    }];
- 
-    dataProvider.setFields(fields);
+fields = [{
+    "fieldName": "OrderID",
+    "dataType": "number"
+}, {
+    "fieldName": "CustomerID"
+}, {
+    "fieldName": "EmployeeID"
+}, {
+    "fieldName": "OrderDate",
+    "dataType": "datetime"
+}, {
+    "fieldName": "CompanyName"
+}, {
+    "fieldName": "ProductName"
+}, {
+    "fieldName": "Quantity",
+    "dataType": "numeric"
+}, {
+    "fieldName": "UnitPrice",
+    "dataType": "numeric"
+}, {
+    "fieldName": "Price",
+    "dataType": "numeric",
+    "calculateExpression": "values['Quantity'] * values['UnitPrice']"
+}, {
+    "fieldName": "Price2",
+    "dataType": "numeric",
+    "calculateCallback": function (dataRow, fieldName, fieldNames, values) {
+        var quantity = values[fieldNames.indexOf("Quantity")];
+        var unitprice = values[fieldNames.indexOf("UnitPrice")];
+        if (isNaN(quantity) || isNaN(unitprice))
+            return undefined;
+        else
+            return quantity >= 1000 ? Math.round(quantity * unitprice * 0.95) : quantity * unitprice;
+    }
+}];
+
+dataProvider.setFields(fields);
 </pre>
+
+---
+
+#### API Links
+
+* [setFields](/api/DataProvider/setFields/) 
 
 #### Demo Links
 
-> [Data Type](http://demo.realgrid.com/Demo/DataType) 참조  
-> [Boolean Field](http://demo.realgrid.com/Demo/BooleanField) 참조  
-> [Datetime Field](http://demo.realgrid.com/Demo/DatetimeField) 참조  
-> [Subtypes](http://demo.realgrid.com/Demo/Subtypes) 참조  
- 
-> [setFields](/api/DataProvider/setFields/)   
+* [Data Type](http://demo.realgrid.com/Demo/DataType) 
+* [Boolean Field](http://demo.realgrid.com/Demo/BooleanField) 
+* [Datetime Field](http://demo.realgrid.com/Demo/DatetimeField) 
+* [Subtypes](http://demo.realgrid.com/Demo/Subtypes)

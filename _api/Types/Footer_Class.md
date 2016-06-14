@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 푸터 영역과 관련된 설정 모델이다. 푸터는 컬럼 및 컬럼그룹들의 푸터와 Indicator, StateBar, CheckBar 등의 Foot 영역들로 구성된다.
+ 푸터 영역과 관련된 설정 모델이다. 푸터는 컬럼 및 컬럼그룹들의 푸터와 Indicator, StateBar, CheckBar 등의 Foot 영역들로 구성된다.
 
 #### Properties
 
@@ -48,16 +48,18 @@ tags:
 ### Example  
 
 <pre class="prettyprint">
-    gridView.setFooter({
-        resizable: false,
-        visible: true,
-        mergeCells: ["Col1", "Col2", "Col3"]
-        //mergeCells: [["Col1", "Col2", "Col3"], ["Col6", "Col7"]] //이런 형태도 가능하다.
-        ...
-    });
+gridView.setFooter({
+    resizable: false,
+    visible: true,
+    mergeCells: ["Col1", "Col2", "Col3"]
+    //mergeCells: [["Col1", "Col2", "Col3"], ["Col6", "Col7"]] //이런 형태도 가능하다.
+    ...
+});
 </pre>
 
-#### Demo Links
+---
 
-> [setFilteringOptions](/api/GridBase/setFooter/)  
-> [getFilteringOptions](/api/GridBase/getFooter/)  
+#### API Links
+
+* [setFilteringOptions](/api/GridBase/setFooter/)  
+* [getFilteringOptions](/api/GridBase/getFooter/)  

@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 컬럼 필터의 선택상자와 관련된 설정 모델이다.
+ 컬럼 필터의 선택상자와 관련된 설정 모델이다.
 
 #### Properties
 
@@ -55,27 +55,21 @@ tags:
 > 모든 필터를 보여줄것인지를 지정한다.  
 > FLASH Ver. 전용  
 
-<<<<<<< Updated upstream
-#### Demo Links
-=======
 ### Example  
 
 <pre class="prettyprint">
-    gridView.setFilteringOptions({
-    	HandleVisibility: "visible",
-    	selector: {
-    		maxWidth: 100,
-    		maxHeight: 200,
-    		closeWhenClick: true
-    	},
-    })
+gridView.setFilteringOptions({
+    HandleVisibility: "visible",
+    selector: {
+        maxWidth: 100,
+        maxHeight: 200,
+        closeWhenClick: true
+    }
+})
 </pre>
 
-#### See Also
->>>>>>> Stashed changes
+---
+
+#### API Links
 
 > [FilteringOptions](/api/types/FilteringOptions/)
-
-
-
-

@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 헤더 영역의 설정 모델이다. 헤더는 컬럼 및 컬럼그룹들의 헤더와 Indicator, StateBar, CheckBar 등의 Head 영역들로 구성된다.
+ 헤더 영역의 설정 모델이다. 헤더는 컬럼 및 컬럼그룹들의 헤더와 Indicator, StateBar, CheckBar 등의 Head 영역들로 구성된다.
 
 #### Properties
 
@@ -110,5 +110,4 @@ var columns = [{
 }];
 
 gridView.setColumns(columns);
-
 </pre>

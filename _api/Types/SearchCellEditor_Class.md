@@ -191,7 +191,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 드롭다운 에디터에서 검색이 필요할때 사용하는 편집기이다. 
+ 드롭다운 에디터에서 검색이 필요할때 사용하는 편집기이다. 
 
 #### Properties
 
@@ -258,6 +258,8 @@ function setColumns(grid) {
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
 <p></p>
 
+---
+
 #### Demo Links
 
-> [Editors](http://demo.realgrid.com/Demo/Editors){:target="_blank"} 참조
+* [Editors](http://demo.realgrid.com/Demo/Editors){:target="_blank"}

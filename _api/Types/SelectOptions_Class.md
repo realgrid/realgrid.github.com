@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 선택 영역 표시에 대한 설정 모델이다.
+ 선택 영역 표시에 대한 설정 모델이다.
 
 #### Properties
 
@@ -33,4 +33,4 @@ tags:
 
 #### Demo Links
 
-> [Selecting](http://demo.realgrid.net/Demo/Selecting)
+* [Selecting](http://demo.realgrid.net/Demo/Selecting)

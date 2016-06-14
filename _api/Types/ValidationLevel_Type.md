@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> Row 데이터 검증 결과 수준을 정의합니다.
+ Row 데이터 검증 결과 수준을 정의합니다.
 
 #### Memebers
 
@@ -35,6 +35,8 @@ tags:
 > Type: "ignore"    
 > 검증 수준이 없음   
 
+---
+
 #### Demo Links
 
-> [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation#.example)
+* [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation#.example)

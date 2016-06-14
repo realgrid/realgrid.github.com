@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 드롭다운 리스트가 펼쳐질 기준 위치를 지정한다.
+ 드롭다운 리스트가 펼쳐질 기준 위치를 지정한다.
 
 #### Members
 
@@ -30,35 +30,34 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-    gridView.setColumns([{
-        "name": "CustomerID",
-        "fieldName": "CustomerID",
-        "width": "150",
-        "sortable": false,
-        "lookupDisplay": true,
-        "values": ["VINET", "HANAR", "SUPRD", "VICTE", "THREE", "SEVEN"],
-        "labels": [&quot;&lt;VINET&gt;&quot;, &quot;&lt;HANAR&gt;&quot;, &quot;&lt;SUPRD&gt;&quot;, &quot;&lt;VICTE&gt;&quot;, &quot;&lt;THREE&gt;&quot;, &quot;&lt;SEVEN&gt;&quot;],
-        "editor": {
-            "type": "dropDown",
-            "dropDownCount": 4,
-            "dropDownPosition": "button"
-        },
+gridView.setColumns([{
+    "name": "CustomerID",
+    "fieldName": "CustomerID",
+    "width": "150",
+    "sortable": false,
+    "lookupDisplay": true,
+    "values": ["VINET", "HANAR", "SUPRD", "VICTE", "THREE", "SEVEN"],
+    "labels": [&quot;&lt;VINET&gt;&quot;, &quot;&lt;HANAR&gt;&quot;, &quot;&lt;SUPRD&gt;&quot;, &quot;&lt;VICTE&gt;&quot;, &quot;&lt;THREE&gt;&quot;, &quot;&lt;SEVEN&gt;&quot;],
+    "editor": {
+        "type": "dropDown",
+        "dropDownCount": 4,
+        "dropDownPosition": "button"
+    },
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "DropDown Edit",
         "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "DropDown Edit",
-            "styles": {
-                "background": "linear,#22ffd500,#ffffd500,90"
-            }
+            "background": "linear,#22ffd500,#ffffd500,90"
         }
-    }]);
+    }
+}]);
 </pre>
 
-
---- 
+---
 
 #### Demo Links
 
-* [Editors](http://demo.realgrid.com/Demo/Editors) 참조
+* [Editors](http://demo.realgrid.com/Demo/Editors)
  

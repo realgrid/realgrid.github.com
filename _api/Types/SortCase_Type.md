@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 정렬시 대소문자 구분 여부.  
+ 정렬시 대소문자 구분 여부.  
 
 #### Members
 

@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 그리드의 셀을 선택하는 방식을 정의한다.
+ 그리드의 셀을 선택하는 방식을 정의한다.
 
 #### Members
 
@@ -43,6 +43,8 @@ tags:
 > Type: "none"   
 > 다중선택하지 않음(단일 셀)  
 
+---
+
 #### Demo Links
 
-> [Selecting](http://demo.realgrid.com/Demo/Selecting){:target="_blank"} 참조
+* [Selecting](http://demo.realgrid.com/Demo/Selecting){:target="_blank"}

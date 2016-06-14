@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 그리드의 고정 행 및 컬럼 영역에 대한 설정 모델이다. 그리드 위쪽에 하나 이상의 행을 수직 스크롤링에서 제외 시킬 수 있다. 또한, 하나 이상의 최상위 컬럼을 수평 스크롤에서 제외 시킬 수 있다.
+ 그리드의 고정 행 및 컬럼 영역에 대한 설정 모델이다. 그리드 위쪽에 하나 이상의 행을 수직 스크롤링에서 제외 시킬 수 있다. 또한, 하나 이상의 최상위 컬럼을 수평 스크롤에서 제외 시킬 수 있다.
 
 #### Properties
 
@@ -82,16 +82,20 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    grid.setFixedOptions({
-        rowCount: 2,
-        colCount: 2
-    });
+gridView.setFixedOptions({
+    rowCount: 2,
+    colCount: 2
+});
 </pre>
+
+---
+
+#### API Links
+
+* [setFixedOptions](/api/GridBase/setFixedOptions/)
+* [getFixedOptions](/api/GridBase/getFixedOptions/)
 
 #### Demo Links
 
-> [Fixed Columns Demo](http://demo.realgrid.net/Demo/ColumnFixing)   
-> [Fixed Rows Demo](http://demo.realgrid.net/Demo/FixedRows)
-
-> [setFixedOptions](/api/GridBase/setFixedOptions/)
-> [getFixedOptions](/api/GridBase/getFixedOptions/)
+* [Fixed Columns Demo](http://demo.realgrid.net/Demo/ColumnFixing)   
+* [Fixed Rows Demo](http://demo.realgrid.net/Demo/FixedRows)

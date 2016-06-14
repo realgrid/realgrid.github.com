@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> DropDown내 Item의 정렬 순서를 정의한다.
+ DropDown내 Item의 정렬 순서를 정의한다.
 
 #### Members
 
@@ -52,5 +52,4 @@ var columns = [{
 }];
 
 gridView.setColumns(columns);
-
 </pre>

@@ -18,7 +18,7 @@ tags:
 
 #### Description
 
-> 그리드 수준에서 관리되는 표시 정보들에 대한 설정 모델이다.
+ 그리드 수준에서 관리되는 표시 정보들에 대한 설정 모델이다.
 
 #### Properties
 
@@ -140,14 +140,16 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-    gridView.setDisplayOptions({
-        columnResizable: true,
-        columnMovable: true,
-        rowHeight: 40
-    });
+gridView.setDisplayOptions({
+    columnResizable: true,
+    columnMovable: true,
+    rowHeight: 40
+});
 </pre>
 
-#### Demo Links
+---
 
-> [setDisplayOptions](/api/GridBase/setDisplayOptions/)   
-> [getDisplayOptions](/api/GridBase/getDisplayOptions/)   
+#### API Links
+
+* [setDisplayOptions](/api/GridBase/setDisplayOptions/)   
+* [getDisplayOptions](/api/GridBase/getDisplayOptions/)   

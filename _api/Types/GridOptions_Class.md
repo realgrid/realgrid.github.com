@@ -18,7 +18,7 @@ tags:
 
 #### Description
 
-> 그리드 전체에 대한 설정
+ 그리드 전체에 대한 설정
 
 #### Properties
 
@@ -104,20 +104,24 @@ tags:
 ### Example  
 
 <pre class="prettyprint">
-	gridView.setDisplayOptions({
-	    hideDeletedRows: true,
-	    display: {
-        	fitStyle: "evenFill"
-        },
-        fixed: {
-        	colCount: 3
-        }
-    });
+gridView.setDisplayOptions({
+    hideDeletedRows: true,
+    display: {
+        fitStyle: "evenFill"
+    },
+    fixed: {
+        colCount: 3
+    }
+});
 </pre>
+
+---
+
+#### API Links
+
+* [setOptions](/api/GridBase/setOptions/)  
+* [getOptions](/api/GridBase/getOptions/) 
 
 #### Demo Links
 
-> [GridFitting](http://demo.realgrid.com/Demo/GridFitting) 참조  
-
-> [setOptions](/api/GridBase/setOptions/)  
-> [getOptions](/api/GridBase/getOptions/)  
+* [GridFitting](http://demo.realgrid.com/Demo/GridFitting) 
