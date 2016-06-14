@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> DataProvider 설정 정보를 가져온다.
+ DataProvider 설정 정보를 가져온다.
 
 #### Syntax
 

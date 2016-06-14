@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 현재 DataProvider에 설정되어 있는 데이터필드 정보의 목록을 배열로 리턴한다.
+ 현재 DataProvider에 설정되어 있는 데이터필드 정보의 목록을 배열로 리턴한다.
 
 #### Syntax
 

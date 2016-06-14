@@ -182,7 +182,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정된 rowStates에 해당하는 Row의 건수를 가져온다.
+ 지정된 rowStates에 해당하는 Row의 건수를 가져온다.
 
 
 #### Syntax

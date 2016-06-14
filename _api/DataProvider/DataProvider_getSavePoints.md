@@ -180,7 +180,7 @@ function setColumns(grid) {
 
 #### Description
 
-> [DataProvider savePoint](/api/DataProvider/savePoint)를 이용해서 복제한 dataSet의 id를 가져온다.
+ [DataProvider savePoint](/api/DataProvider/savePoint)를 이용해서 복제한 dataSet의 id를 가져온다.
 
 #### Syntax
 
@@ -220,7 +220,7 @@ $("#button2").click(function(){
 
 #### Demo Links
 
-> [DataRollback](http://demo.realgrid.com/Demo/DataRollback#.example)<br/>
-[SavePoint](http://help.realgrid.com/api/DataProvider/savePoint/)<br/>
-[clearSavePoints](http://help.realgrid.com/api/DataProvider/clearSavePoints/)<br/>
-[rollback](http://help.realgrid.com/api/DataProvider/rollback/){:target="_blank"} 참조
+* [DataRollback](http://demo.realgrid.com/Demo/DataRollback#.example)<br/>
+* [SavePoint](http://help.realgrid.com/api/DataProvider/savePoint/)<br/>
+* [clearSavePoints](http://help.realgrid.com/api/DataProvider/clearSavePoints/)<br/>
+* [rollback](http://help.realgrid.com/api/DataProvider/rollback/){:target="_blank"} 참조

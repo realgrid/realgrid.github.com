@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> DataProvider 동작에 관한 설정을 한다.  
+ DataProvider 동작에 관한 설정을 한다.  
 
 #### Syntax
 

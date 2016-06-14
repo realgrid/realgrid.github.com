@@ -176,7 +176,7 @@ function setColumns(grid) {
 
 #### Description
 
-> DataProvider의 모든 행을 삭제한다.
+ DataProvider의 모든 행을 삭제한다.
 
 #### Syntax
 

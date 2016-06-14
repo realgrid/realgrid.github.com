@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 이 Data provider에 연결된 그리드들이 다시 그려지게 한다.
+ 이 Data provider에 연결된 그리드들이 다시 그려지게 한다.
 
 #### Syntax
 

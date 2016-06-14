@@ -180,7 +180,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 복수개의 rowState를 변경한다.
+ 복수개의 rowState를 변경한다.
 
 #### Syntax
 
@@ -219,7 +219,6 @@ $("#button1").click(function(){
 
 <button id="button1" class="btn btn-success btn-xs">버튼1</button>
 버튼을 누르면 체크된 행들의 rowState를 updated로 변경한다.
-
 
 <div id="realgrid" style="width: 100%; height: 300px;"></div>
 <p></p>

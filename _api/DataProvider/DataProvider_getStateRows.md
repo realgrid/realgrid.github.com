@@ -184,7 +184,7 @@ function setColumns(grid) {
 
 #### Description
 
-> RowState 상태를 갖는 행의 번호들을 배열로 가져온다.
+ RowState 상태를 갖는 행의 번호들을 배열로 가져온다.
 
 #### Syntax
 

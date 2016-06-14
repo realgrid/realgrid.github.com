@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> DataProvider에 저장되어 있는 데이터셋의 복제를 생성해서 저장하고 savePoint id를 리턴한다.
+ DataProvider에 저장되어 있는 데이터셋의 복제를 생성해서 저장하고 savePoint id를 리턴한다.
 
 #### Syntax
 
@@ -43,7 +43,10 @@ tags:
 
 #### Demo Links
 
-> [DataRollback](http://demo.realgrid.com/Demo/DataRollback#.example)<br/>
-[rollback](http://help.realgrid.com/api/DataProvider/rollback/)<br/>
-[clearSavePoints](http://help.realgrid.com/api/DataProvider/clearSavePoints/)<br/>
-[getSavePoints](http://help.realgrid.com/api/DataProvider/getSavePoints/){:target="_blank"} 참조
+* [DataRollback](http://demo.realgrid.com/Demo/DataRollback#.example)<br/>
+
+#### API Links
+
+* [rollback](http://help.realgrid.com/api/DataProvider/rollback/)<br/>
+* [clearSavePoints](http://help.realgrid.com/api/DataProvider/clearSavePoints/)<br/>
+* [getSavePoints](http://help.realgrid.com/api/DataProvider/getSavePoints/){:target="_blank"}
