@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 기존 데이터행들을 모두 삭제하고 지정한 Json 배열을 데이터행들로 추가한다. 개별 추가 이벤트는 발생하지 않고 [onRowCountChanged](/api/LocalDataProvider/onRowCountChanged) 콜백만 호출된다.
+ 기존 데이터행들을 모두 삭제하고 지정한 Json 배열을 데이터행들로 추가한다. 개별 추가 이벤트는 발생하지 않고 [onRowCountChanged](/api/LocalDataProvider/onRowCountChanged) 콜백만 호출된다.
 
 #### Syntax
 
@@ -48,11 +48,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var source = {
-        rows: [
-          {}, {}, ...
-        ]
-    };
-    dataProvider.setJsonRows(source, "rows");
+var source = {
+    rows: [
+      {}, {}, ...
+    ]
+};
+dataProvider.setJsonRows(source, "rows");
 </pre>
 

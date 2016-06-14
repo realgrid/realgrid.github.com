@@ -186,9 +186,9 @@ function setColumns(grid) {
 
 #### Description
 
-> rows에 지정된 데이타행들을 삭제한다.  
-> [DataProviderOptions](/api/types/DataProviderOptions/)의 softDeleting이 true인 경우 실제로 삭제되지않고 rowState만 변경된다.  
-> 이 경우 [onRowDeleted](/api/LocalDataProvider/onRowDeleted/)나 [onRowsDeleted](/api/LocalDataProvider/onRowsDeleted/)가 발생하지 않고 [onRowStateChanged](/api/LocalDataProvider/onRowStateChanged/)나 [onRowStatesChanged](/api/LocalDataProvider/onRowStatesChanged)가 발생한다.
+ rows에 지정된 데이타행들을 삭제한다.  
+ [DataProviderOptions](/api/types/DataProviderOptions/)의 softDeleting이 true인 경우 실제로 삭제되지않고 rowState만 변경된다.  
+ 이 경우 [onRowDeleted](/api/LocalDataProvider/onRowDeleted/)나 [onRowsDeleted](/api/LocalDataProvider/onRowsDeleted/)가 발생하지 않고 [onRowStateChanged](/api/LocalDataProvider/onRowStateChanged/)나 [onRowStatesChanged](/api/LocalDataProvider/onRowStatesChanged)가 발생한다.
 
 #### Syntax
 

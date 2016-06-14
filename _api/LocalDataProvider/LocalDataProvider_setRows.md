@@ -185,7 +185,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 기존 데이터행들을 모두 삭제하고 매개변수로 넘어온 행들을 추가한다. 개별 행 추가 이벤트는 발생하지 않고 [onRowCountChanged](/api/LocalDataProvider/onRowCountChanged/) 콜백만 호출된다.
+ 기존 데이터행들을 모두 삭제하고 매개변수로 넘어온 행들을 추가한다. 개별 행 추가 이벤트는 발생하지 않고 [onRowCountChanged](/api/LocalDataProvider/onRowCountChanged/) 콜백만 호출된다.
 
 #### Syntax
 

@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> LocalDataProvider에 데이터행이 이동되기 직전에 호출된다.
+ LocalDataProvider에 데이터행이 이동되기 직전에 호출된다.
 
 #### Syntax
 
@@ -42,11 +42,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    dataProvider.onRowMoving = function (provider, row, newRow) {
-        if (provider.getValue(row,"field") == "move") {
-        } else {
-            return false;
-        }
-    };
+dataProvider.onRowMoving = function (provider, row, newRow) {
+    if (provider.getValue(row,"field") == "move") {
+    } else {
+        return false;
+    }
+};
 </pre>
 

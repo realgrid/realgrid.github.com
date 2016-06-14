@@ -188,8 +188,8 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정한 위치 부터 기존 데이터행의 값을 수정한다.  
-> undefined로 지정하거나 명시되지 않은 경우 기존의 값을 유지.
+ 지정한 위치 부터 기존 데이터행의 값을 수정한다.  
+ undefined로 지정하거나 명시되지 않은 경우 기존의 값을 유지.
 
 #### Syntax
 
@@ -252,4 +252,4 @@ $("#button1").click(function(){
 
 #### Demo Links
 
-> [AddMultiRows](http://demo.realgrid.com/Demo/AddMultiRows){:target="_blank"} 참조
+* [AddMultiRows](http://demo.realgrid.com/Demo/AddMultiRows){:target="_blank"}

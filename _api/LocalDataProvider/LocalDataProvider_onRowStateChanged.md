@@ -19,7 +19,7 @@ tags:
 
 #### Syntax
 
-> function onRowStateChagned(provider, row)
+ function onRowStateChagned(provider, row)
 
 #### Arguments
 
@@ -38,8 +38,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    dataProvider.onRowStateChanged = function (provider, row) {
-        console.log(provider.getRowState(row));
-    };
+dataProvider.onRowStateChanged = function (provider, row) {
+    console.log(provider.getRowState(row));
+};
 </pre>
 

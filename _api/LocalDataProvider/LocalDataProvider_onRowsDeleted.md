@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> LocalDataProvider에 데이터행들이 삭제된 후 호출된다.
+ LocalDataProvider에 데이터행들이 삭제된 후 호출된다.
 
 #### Syntax
 
@@ -37,8 +37,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    dataProvider.onRowsDeleted = function (provider, rows) {
-        console.log("Rows deleted: " + rows);
-    };
+dataProvider.onRowsDeleted = function (provider, rows) {
+    console.log("Rows deleted: " + rows);
+};
 </pre>
 
