@@ -180,7 +180,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 그룹핑된 필드의 이름을 가져온다.  
+ 그룹핑된 필드의 이름을 가져온다.  
 
 
 #### Syntax

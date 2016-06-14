@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 지정한 필드 목록에 포함된 순서대로 행 그룹핑을 실행한다.
+ 지정한 필드 목록에 포함된 순서대로 행 그룹핑을 실행한다.
 
 
 #### Syntax
@@ -35,12 +35,12 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.groupBy(["field1", "field2"]);  // 그룹을 설정하는 경우
-    gridView.groupBy([]);  // 그룹을 해제하려는 경우
+gridView.groupBy(["field1", "field2"]);  // 그룹을 설정하는 경우
+gridView.groupBy([]);  // 그룹을 해제하려는 경우
 </pre>
 
 ---
 
 #### Demo Links
 
-> [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"} 참조
+* [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"} 

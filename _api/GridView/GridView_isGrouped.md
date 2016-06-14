@@ -180,8 +180,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 그리드가 그룹핑 되어 있는지 여부를 반환한다.   
-
+ 그리드가 그룹핑 되어 있는지 여부를 반환한다.   
 
 #### Syntax
 

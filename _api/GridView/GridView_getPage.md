@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> [Paging](/api/features/Paging/) 모드에서 현재 페이지 번호를 리턴한다.
+ [Paging](/api/features/Paging/) 모드에서 현재 페이지 번호를 리턴한다.
 
 #### Syntax
 
@@ -31,11 +31,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var page = gridView.getPage();
+var page = gridView.getPage();
 </pre>
 
 ---
 
 #### Demo Links
 
-> [Paging](http://demo.realgrid.com/Demo/PagingRealtime){:target="_blank"} 참조
+* [Paging](http://demo.realgrid.com/Demo/PagingRealtime){:target="_blank"}

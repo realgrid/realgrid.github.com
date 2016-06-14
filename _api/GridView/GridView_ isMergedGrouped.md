@@ -180,8 +180,8 @@ function setColumns(grid) {
 
 #### Description
 
-> 그리드가 머지모드로 되어 있는지 여부를 반환한다.  
-> (RowGroupOptions 에 mergeMode가 true로 설정되면 반환값도 true.)   
+ 그리드가 머지모드로 되어 있는지 여부를 반환한다.  
+ (RowGroupOptions 에 mergeMode가 true로 설정되면 반환값도 true.)   
 
 
 #### Syntax

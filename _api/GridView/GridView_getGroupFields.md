@@ -180,7 +180,7 @@ function setColumns(grid) {
 
 #### Description
 
-> Grouping 필드의 index를 가져온다.  
+ Grouping 필드의 index를 가져온다.  
 
 
 #### Syntax

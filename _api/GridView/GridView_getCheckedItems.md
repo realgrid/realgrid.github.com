@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> Check된 아이템들의 목록을 배열로 반환한다.
+ Check된 아이템들의 목록을 배열로 반환한다.
 
 #### Syntax
 
@@ -35,11 +35,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var items = gridView.getCheckedItems();
+var items = gridView.getCheckedItems();
 </pre>
 
 ---
 
 #### Demo Links
 
-> [CheckBar](http://demo.realgrid.com/Demo/CheckBar){:target="_blank"} 참조
+* [CheckBar](http://demo.realgrid.com/Demo/CheckBar){:target="_blank"} 

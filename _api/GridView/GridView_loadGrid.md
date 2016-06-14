@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 그리드의 필드 및 컬럼 정보 등 모든 설정 정보 및 데이터를 한번에 설정한다.
+ 그리드의 필드 및 컬럼 정보 등 모든 설정 정보 및 데이터를 한번에 설정한다.
 
 #### Syntax
 
@@ -164,6 +164,6 @@ gridView.loadGrid(data);
 
 #### Demo Links
 
-> [LoadCsvData](http://demo.realgrid.com/Demo/LoadCsvData)<br>
-[LoadJsonData](http://demo.realgrid.com/Demo/LoadJsonData)<br>
-[LoadXmlData](http://demo.realgrid.com/Demo/LoadXmlData){:target="_blank"} 참조
+* [LoadCsvData](http://demo.realgrid.com/Demo/LoadCsvData)
+* [LoadJsonData](http://demo.realgrid.com/Demo/LoadJsonData)
+* [LoadXmlData](http://demo.realgrid.com/Demo/LoadXmlData){:target="_blank"}
