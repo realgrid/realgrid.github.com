@@ -195,7 +195,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정한 그룹을 펼친다(expand). 
+ 지정한 그룹을 펼친다(expand). 
 
 #### Syntax
 

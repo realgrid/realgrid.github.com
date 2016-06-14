@@ -45,6 +45,7 @@ tags:
 gridView.checkRow(0,true,false);    
 </pre>
 
+---
 
 #### API Links
 

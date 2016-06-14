@@ -41,6 +41,8 @@ try {
 
 </pre>
 
+---
+
 #### API Links
 
 * [endUpdate](/api/GridBase/endUpdate)

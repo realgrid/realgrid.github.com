@@ -33,6 +33,8 @@ tags:
     gridView.cancel();
 </pre>
 
+---
+
 #### API Links
 
 * [commit](/api/GridBase/commit)

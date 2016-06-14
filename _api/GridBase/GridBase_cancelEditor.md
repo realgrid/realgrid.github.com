@@ -33,6 +33,8 @@ tags:
 gridView.cancelEditor();    
 </pre>
 
+---
+
 #### API Links
 
 * [commitEditor](/api/GridBase/commitEditor)
