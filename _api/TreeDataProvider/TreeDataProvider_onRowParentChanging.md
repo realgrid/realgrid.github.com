@@ -19,7 +19,7 @@ versions:
 
 #### Description
 
-> [TreeDataProvider.changeRowParent](/api/TreeDataProvider/changeRowParent/)함수를 사용하여 부모를 바꾸려고 할때 발생한다. 
+ [TreeDataProvider.changeRowParent](/api/TreeDataProvider/changeRowParent/)함수를 사용하여 부모를 바꾸려고 할때 발생한다. 
 
 #### Syntax
 
@@ -51,17 +51,17 @@ versions:
 #### Examples 
 
 <pre class="prettyprint">
-    treeProvider.onRowParentChanging = function (provider, rowId, parentId, childIndex)  {
-        if (parentId === '-1') {
-            return false;      //Root 로는 이동 불가
-        } else {
-            return true;
-        }
+treeProvider.onRowParentChanging = function (provider, rowId, parentId, childIndex)  {
+    if (parentId === '-1') {
+        return false;      //Root 로는 이동 불가
+    } else {
+        return true;
     }
+}
 </pre>
 
 ---
 
 #### Demo Links
 
-> [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"} 참조   
+* [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"}

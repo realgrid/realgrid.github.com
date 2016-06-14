@@ -12,8 +12,8 @@ tags:
 
 #### Description
 
-> TreeDataProvider에서 데이터행들이 삭제되기 직전에 호출된다.  
-> 삭제를 취소하려는 경우 false를 return한다.  
+ TreeDataProvider에서 데이터행들이 삭제되기 직전에 호출된다.  
+ 삭제를 취소하려는 경우 false를 return한다.  
 
 #### Syntax
 
@@ -38,13 +38,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    treeProvider.onRowsDeleting = function (provider, rowIds) {
-        if (rowIds.length >= 10) {
-            RealGrids.alert("10행 이상 삭제할 수 없습니다. 삭제를 취소 합니다.");
-            return false;  
-        } else {
-            return true;
-        };
+treeProvider.onRowsDeleting = function (provider, rowIds) {
+    if (rowIds.length >= 10) {
+        RealGrids.alert("10행 이상 삭제할 수 없습니다. 삭제를 취소 합니다.");
+        return false;  
+    } else {
+        return true;
     };
+};
 </pre>
 

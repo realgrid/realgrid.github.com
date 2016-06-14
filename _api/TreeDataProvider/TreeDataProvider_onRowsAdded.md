@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 
+ 
 
 #### Syntax
 
@@ -39,8 +39,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    treeProvider.onRowsAdded = function (provider, parentId, rowIds) {
-        console.log("onRowsAdded:" + parentId + ", " + rowIds.length);
-    };
+treeProvider.onRowsAdded = function (provider, parentId, rowIds) {
+    console.log("onRowsAdded:" + parentId + ", " + rowIds.length);
+};
 </pre>
 

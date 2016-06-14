@@ -10,7 +10,7 @@ permalink: /api/TreeDataProvider/getChildCount/
 
 #### Description
 
-> 지정한 데이터행의 자식 행 개수를 가져온다.  
+ 지정한 데이터행의 자식 행 개수를 가져온다.  
 
 #### Syntax
 
@@ -37,4 +37,4 @@ permalink: /api/TreeDataProvider/getChildCount/
 
 #### Demo Links
 
-> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조   
+* [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"}   
