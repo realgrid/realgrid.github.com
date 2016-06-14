@@ -72,4 +72,4 @@ gridView.setFilteringOptions({
 
 #### API Links
 
-> [FilteringOptions](/api/types/FilteringOptions/)
+* [FilteringOptions](/api/types/FilteringOptions/)

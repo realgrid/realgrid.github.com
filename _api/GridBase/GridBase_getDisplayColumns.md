@@ -35,6 +35,8 @@ tags:
 gridView.getDisplayColumns();
 </pre>
 
+---
+
 #### Demo Links
 
 * [ColumnLayout](http://demo.realgrid.com/Demo/ColumnLayout)

@@ -13,7 +13,8 @@ tags:
 #### Description
 
  TreeDataProvider에서 데이터행이 삭제된 후 호출된다.  
- [softDeleting = true](/api/DataProvider/DataProviderOptions/) 일 경우 Row의 State가 Deleted로 변경된 것 만으로는 호출되지 않는다.  완전히 TreeDataProvider에서 삭제되었을 때 발생.
+ [softDeleting = true](http://help.realgrid.com/api/types/DataProviderOptions/) 일 경우 Row의 State가 Deleted로 변경된 것 만으로는 호출되지 않는다.   
+ 완전히 TreeDataProvider에서 삭제되었을 때 발생.
 
 #### Syntax
 
