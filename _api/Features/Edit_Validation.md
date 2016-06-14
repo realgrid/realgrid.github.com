@@ -21,7 +21,9 @@ tags:
 
 * Row Validation: 데이터행의 입력이 완료되는 시점에 전체 필드의 입력 값에 대한 타당성을 검증하고, 실패하면 에러 레벨에 따라 메시지를 표시하고 data provider에 commit 하지 않는다.
 
+---
+
 #### Demo Links
 
-> [Edit Column Validation Demo](http://demo.realgrid.net/Demo/EditColumnValidation) 참조  
-> [Row Vaildations](http://demo.realgrid.com/Demo/EditRowValidation) 참조  
+* [Edit Column Validation Demo](http://demo.realgrid.net/Demo/EditColumnValidation) 참조  
+* [Row Vaildations](http://demo.realgrid.com/Demo/EditRowValidation) 참조  

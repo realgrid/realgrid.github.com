@@ -17,4 +17,4 @@ tags:
 
 #### Demo Links
 
-> [Column Filtering Demo](http://demo.realgrid.net/Demo/ColumnFiltering) 참조  
+* [Column Filtering Demo](http://demo.realgrid.net/Demo/ColumnFiltering)   
