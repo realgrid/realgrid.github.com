@@ -8,6 +8,8 @@ objectname:
 directiontype: 
 permalink: /api/types/VerticalMovingStep/
 jsonly: true
+versions:
+    - JS 1.0.14+
 tags: 
     - 버티컬
 ---

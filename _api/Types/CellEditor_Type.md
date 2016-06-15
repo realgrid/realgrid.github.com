@@ -7,11 +7,13 @@ order: CellEditor
 objectname: 
 directiontype: 
 permalink: /api/types/CellEditor/
+tags:
+    - 셀편집기
 ---
 
 #### Description
 
-> 데이터 셀 편집기(Cell Editor)의 유형을 정의한다.
+데이터 셀 편집기(Cell Editor)의 유형을 정의한다.
 
 #### Members
 

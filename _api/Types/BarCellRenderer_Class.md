@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> Bar 셀렌더러는 숫자형 컬럼 셀의 값을 막대 상자로 표시하는 렌더러이다. 
+Bar 셀렌더러는 숫자형 컬럼 셀의 값을 막대 상자로 표시하는 렌더러이다. 
 
 #### Properties
 
@@ -75,6 +75,8 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
+---
+
 #### Demo Links
 
-> [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 
+* [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 

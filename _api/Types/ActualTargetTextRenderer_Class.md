@@ -7,12 +7,14 @@ order: ActualTargetTextRenderer
 objectname: 
 directiontype: 
 permalink: /api/types/ActualTargetTextRenderer/
+tags:
+    - 렌더러랜더러
 ---
 
 #### Description
 
-> 각각 두 개의 데이터 필드에 저장된 목표값(혹은 기대값)과 실행값을 비교하여 표시하는 시리즈 렌더러이다. 
-> ActualTarget text renderer 는 "실행값 / 목표값" 형식으로 표시한다.
+각각 두 개의 데이터 필드에 저장된 목표값(혹은 기대값)과 실행값을 비교하여 표시하는 시리즈 렌더러이다. 
+ActualTarget text renderer 는 "실행값 / 목표값" 형식으로 표시한다.
 
 #### Properties
 
@@ -73,6 +75,8 @@ permalink: /api/types/ActualTargetTextRenderer/
 	gridView.setColumns(columns);
 </pre>
 
+---
+
 #### Demo Links
 
-> [Actual / Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer) 참조  
+* [Actual / Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer) 참조  

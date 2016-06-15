@@ -19,7 +19,7 @@ tags:
 
 #### Description
 
-> Bar Cell Renderer에서 표시되는 막대상자의 시작 위치를 지정합니다.
+Bar Cell Renderer에서 표시되는 막대상자의 시작 위치를 지정합니다.
 
 #### Members
 
@@ -73,6 +73,8 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
+---
+
 #### Demo Links
 
-> [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 
+* [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 

@@ -11,7 +11,7 @@ permalink: /api/types/Alignment/
 
 #### Description
 
-> 그리드 스타일 중 textAlignment, lineAlignment 혹은 iconAlignment 등의 값을 지정하는 상수다.
+그리드 스타일 중 textAlignment, lineAlignment 혹은 iconAlignment 등의 값을 지정하는 상수다.
 
 #### Members
 
@@ -67,6 +67,8 @@ permalink: /api/types/Alignment/
 	gridView.setColumns(columns);
 </pre>
 
+---
+
 #### Demo Links
 
-> [Style Properties](http://demo.realgrid.com/Demo/StylesProperties) 참조  
+* [Style Properties](http://demo.realgrid.com/Demo/StylesProperties) 참조  

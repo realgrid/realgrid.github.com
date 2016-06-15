@@ -3,7 +3,7 @@ layout: apipost
 title: DateCellEditor
 part: Types
 typename: Cell Editors
-orderno: 0
+order: DateCellEditor
 objectname: 
 directiontype: 
 permalink: /api/types/DateCellEditor/
@@ -17,8 +17,8 @@ tags:
 
 #### Description
 
-> Date picker를 표시해서 날짜를 선택한다.  
-> RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년, 월이나 요일의 표시 문구를 GridBase.setEditorOptions()을 통해 개발자가 원하는 대로 바꿀 수 있다. (ex 월, 화, 수... -> Mon, Tue, Wed...) 
+Date picker를 표시해서 날짜를 선택한다.  
+RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년, 월이나 요일의 표시 문구를 GridBase.setEditorOptions()을 통해 개발자가 원하는 대로 바꿀 수 있다. (ex 월, 화, 수... -> Mon, Tue, Wed...) 
 
 #### Properties
 
@@ -95,8 +95,10 @@ tags:
     }]);
 </pre>
 
-#### Demo Links
+---
 
-> [EditorOptions](/api/types/EditorOptions/)
-> [getEditorOptions](/api/GridBase/getEditorOptions/)   
-> [setEditorOptions](/api/GridBase/setEditorOptions/)   
+#### API Links
+
+* [EditorOptions](/api/types/EditorOptions/)
+* [getEditorOptions](/api/GridBase/getEditorOptions/)   
+* [setEditorOptions](/api/GridBase/setEditorOptions/)   
