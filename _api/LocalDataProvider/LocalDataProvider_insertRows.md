@@ -181,7 +181,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정한 데이터행 위치에 한 행 이상의 값을 삽입한다.
+ 지정한 데이터행 위치에 한 행 이상의 값을 삽입한다.
 
 #### Syntax
 

@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드 CheckBar와 관련된 설정 정보들을 가져온다. [CheckBar](/api/types/CheckBar/)가 설정 모델이다.  
+ 그리드 CheckBar와 관련된 설정 정보들을 가져온다. [CheckBar](/api/types/CheckBar/)가 설정 모델이다.  
 
 #### Syntax
 
@@ -30,11 +30,17 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var checkbar = gridView.getCheckBar();
-    checkbar.width = 30;
-    gridView.setCheckBar(checkBar);
+var checkbar = gridView.getCheckBar();
+checkbar.width = 30;
+gridView.setCheckBar(checkBar);
 </pre>
 
+---
+
+#### API Links
+
+* [setCheckBar](/api/GridBase/setCheckBar)  
+
 #### Demo Links
-> [setCheckBar](/api/GridBase/setCheckBar)  
-> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+
+* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

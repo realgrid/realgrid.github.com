@@ -22,7 +22,7 @@ tags:
 
 #### Description
 
-> 컬럼헤더에 이미지나 체크박스의 위치 유형을 정의합니다.   
+ 컬럼헤더에 이미지나 체크박스의 위치 유형을 정의합니다.   
 
 #### Members
 
@@ -53,39 +53,43 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
-        "name": "Country",
-        "fieldName": "Country",
-        "width": "90",
-        "tag": "grouping",
-        "styles": {
-            "textAlignment": "near"
-        },
-        "header": {
-            "text": "Country",
-            "imageLocation": "left",
-            "imageUrl": "/img/common/realgridsmall.png"
-   
-        }    
-    }, {
-        "name": "OrderDate",
-        "fieldName": "OrderDate",
-        "width": "130",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Order Date",
-            "checkLocation": "left"
-        }     
-	}];
-	
-	gridView.setColumns(columns);
+var columns = [{
+      "name": "Country",
+      "fieldName": "Country",
+      "width": "90",
+      "tag": "grouping",
+      "styles": {
+          "textAlignment": "near"
+      },
+      "header": {
+          "text": "Country",
+          "imageLocation": "left",
+          "imageUrl": "/img/common/realgridsmall.png"
+ 
+      }    
+  }, {
+      "name": "OrderDate",
+      "fieldName": "OrderDate",
+      "width": "130",
+      "styles": {
+          "textAlignment": "center"
+      },
+      "header": {
+          "text": "Order Date",
+          "checkLocation": "left"
+      }     
+}];
+
+gridView.setColumns(columns);
 </pre>
+
+---
+
+#### API Links
+
+* [ColumnHeader](/api/types/ColumnHeader) 
 
 #### Demo Links 
 
-> [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 참조  
-> [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage) 참조  
-
-> [ColumnHeader](/api/types/ColumnHeader)   
+* [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 
+* [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage)

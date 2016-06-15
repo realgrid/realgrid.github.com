@@ -188,7 +188,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 그룹핑이 시작될때 호출된다.  
+ 그룹핑이 시작될때 호출된다.  
 
 #### Syntax
 

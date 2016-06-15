@@ -30,41 +30,41 @@ permalink: /api/types/Alignment/
 #### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
-        "name": "OrderID",
-        "fieldName": "OrderID",
-        "type": "data",
-        "width": "90",
-        "styles": {
-            "textAlignment": "near"
-        },
-        "header": {
-            "text": "Order"
-        }
-    }, {
-        "name": "CustomerID",
-        "fieldName": "CustomerID",
-        "type": "data",
-        "width": "130",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Customer ID"
-        }
-    }, {
-        "name": "EmployeeID",
-        "fieldName": "EmployeeID",
-        "type": "data",
-        "width": "100",
-        "styles": {
-            "textAlignment": "far"
-        },
-        "header": {
-            "text": "Employee ID"
-        }
-	}]
-	gridView.setColumns(columns);
+var columns = [{
+    "name": "OrderID",
+    "fieldName": "OrderID",
+    "type": "data",
+    "width": "90",
+    "styles": {
+        "textAlignment": "near"
+    },
+    "header": {
+        "text": "Order"
+    }
+}, {
+    "name": "CustomerID",
+    "fieldName": "CustomerID",
+    "type": "data",
+    "width": "130",
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "Customer ID"
+    }
+}, {
+    "name": "EmployeeID",
+    "fieldName": "EmployeeID",
+    "type": "data",
+    "width": "100",
+    "styles": {
+        "textAlignment": "far"
+    },
+    "header": {
+        "text": "Employee ID"
+    }
+}]
+gridView.setColumns(columns);
 </pre>
 
 ---

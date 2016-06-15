@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 그리드에 연결되어 있는 [DataProvider](/api/DataProvider/)를 반환한다.
+ 그리드에 연결되어 있는 [DataProvider](/api/DataProvider/)를 반환한다.
 
 #### Syntax
 
@@ -35,5 +35,8 @@ tags:
 var provider = grid.getDataSource();
 </pre>
 
-#### Demo Links
-> [setDataSource](/api/GridBase/setDataSource)
+---
+
+#### API Links
+
+* [setDataSource](/api/GridBase/setDataSource)

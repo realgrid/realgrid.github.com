@@ -5,6 +5,7 @@ part: Objects
 objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onColumnHeaderDblClicked/
+jsonly: true
 tags:
   - event
   - click
@@ -15,7 +16,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 컬럼 헤더셀을 더블 클릭했을 때 호출된다.  
+ 사용자가 마우스로 컬럼 헤더셀을 더블 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -38,13 +39,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    grid.onColumnHeaderDblClicked =  function (grid, column) {
-        console.log(column);  
-        if (column.type == "data") {
-            alert("DataColumn클릭");
-        } else if (column.type == "group") {
-            alert("columnGroup클릭");
-        };
+grid.onColumnHeaderDblClicked =  function (grid, column) {
+    console.log(column);  
+    if (column.type == "data") {
+        alert("DataColumn클릭");
+    } else if (column.type == "group") {
+        alert("columnGroup클릭");
     };
+};
 </pre>
 

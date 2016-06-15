@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 행 추가 및 삭제 등으로 행의 개수가 변경됐을 때 호출된다.
+ 행 추가 및 삭제 등으로 행의 개수가 변경됐을 때 호출된다.
 
 #### Syntax
 
@@ -38,8 +38,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    dataProvider.onRowCountChanged = function (provider, count) {
-        console.log("DataProvider changed.");
-    };
+dataProvider.onRowCountChanged = function (provider, count) {
+    console.log("DataProvider changed.");
+};
 </pre>
 

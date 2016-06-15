@@ -16,8 +16,8 @@ tags:
 
 #### Description
 
-> 드랍다운 에디터의 values 속성으로 지정된 목록 중 한 값을 선택한다.
-> 또한, labels에 values 대신 드랍다운 리스트에 표시될 텍스트들을 지정할 수 있다. 
+ 드랍다운 에디터의 values 속성으로 지정된 목록 중 한 값을 선택한다.  
+ 또한, labels에 values 대신 드랍다운 리스트에 표시될 텍스트들을 지정할 수 있다. 
 
 #### Properties
 
@@ -85,7 +85,7 @@ tags:
 > Default: 'button'  
 > 리스트가 펼쳐질 기준을 지정합니다. 'button'이면 드롭다운 버튼의 오른쪽에, 'editor'이면 왼쪽에 맞춥니다.  
 
-#### Examples s  
+#### Examples 
 
 <pre class="prettyprint">
 gridView.setColumns([{
@@ -112,6 +112,8 @@ gridView.setColumns([{
     }
 }]);
 </pre>
+
+---
 
 #### Demo Links
 

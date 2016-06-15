@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드 Update중 에러가 발생 했을때 RealGrids.onerror 콜백 호출된 이후 UI의 계속 진행 여부를 설정한다.
+ 그리드 Update중 에러가 발생 했을때 RealGrids.onerror 콜백 호출된 이후 UI의 계속 진행 여부를 설정한다.
 
 #### Syntax
 
@@ -32,7 +32,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    grdMain.setThrowUpdateError(true);
+gridView.setThrowUpdateError(true);
 </pre>
 
 

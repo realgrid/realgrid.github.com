@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> [Paging](/api/features/Paging/) 개수를 변경한다.
+ [Paging](/api/features/Paging/) 개수를 변경한다.
 
 #### Syntax
 
@@ -39,4 +39,4 @@ tags:
 
 #### Demo Links
 
-> [Paging](http://demo.realgrid.com/Demo/PagingLazyLoading#){:target="_blank"} 참조
+* [Paging](http://demo.realgrid.com/Demo/PagingLazyLoading){:target="_blank"}

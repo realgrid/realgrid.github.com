@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> Check된 데이터 행들의 목록을 반환한다.
+ Check된 데이터 행들의 목록을 반환한다.
 
 #### Syntax
 
@@ -30,13 +30,12 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var rows = treeView.getCheckRows();
+var rows = treeView.getCheckRows();
 </pre>
-
 
 ---
 
 #### Demo Links
 
-> [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"} 참조    
+* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"}    
 

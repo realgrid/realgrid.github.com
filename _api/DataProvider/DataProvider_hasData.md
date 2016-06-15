@@ -186,7 +186,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정한 데이터행이 실제 값이 들어 있는 행이면 true를 리턴한다. [setRowCount](/api/LocalDataProvider/setRowCount/)로 생성된 가상 행 상태이면 false를 리턴한다.
+* 지정한 데이터행이 실제 값이 들어 있는 행이면 true를 리턴한다. [setRowCount](/api/LocalDataProvider/setRowCount/)로 생성된 가상 행 상태이면 false를 리턴한다.
 
 #### Syntax
 

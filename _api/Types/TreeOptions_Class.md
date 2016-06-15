@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-TreeView 표시에 대한 설정들이다.
+ TreeView 표시에 대한 설정들이다.
 
 #### Properties
 
@@ -53,5 +53,3 @@ TreeView 표시에 대한 설정들이다.
 > Type: Stroke      
 > default: undefined  
 > 노드의 선 스타일을 지정한다. 기본적으로 body.line 속성을 상속받는다.     
-
-

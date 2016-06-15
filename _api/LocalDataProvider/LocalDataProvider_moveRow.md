@@ -180,7 +180,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정된 dataRow를 newRow로 지정된 dataRow앞으로 이동한다.
+ 지정된 dataRow를 newRow로 지정된 dataRow앞으로 이동한다.
 
 #### Syntax
 

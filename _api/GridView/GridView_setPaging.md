@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
-> 그리드가 [Paging](/api/features/Paging/) 모드로 실행되도록 한다. 
+ 그리드가 [Paging](/api/features/Paging/) 모드로 실행되도록 한다. 
 
 #### Syntax
 
@@ -58,4 +58,4 @@ tags:
 
 #### Demo Links
 
-> [PagingOverview](http://demo.realgrid.com/Demo/PagingOverview#){:target="_blank"} 참조
+* [PagingOverview](http://demo.realgrid.com/Demo/PagingOverview){:target="_blank"}

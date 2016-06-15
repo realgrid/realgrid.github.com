@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> DataProvider를 구성하는 각 필드의 자료형을 지정하는 상수입니다.
+ DataProvider를 구성하는 각 필드의 자료형을 지정하는 상수입니다.
 
 #### Members
 
@@ -38,21 +38,23 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-    fields = [{
-        "fieldName": "OrderID",
-        "dataType": "text"
-    }, {
-        "fieldName": "OrderDate",
-        "dataType": "datetime"
-    }, {
-        "fieldName": "UnitPrice",
-        "dataType": "number"
-    }];
- 
-    dataProvider.setFields(fields);
+fields = [{
+    "fieldName": "OrderID",
+    "dataType": "text"
+}, {
+    "fieldName": "OrderDate",
+    "dataType": "datetime"
+}, {
+    "fieldName": "UnitPrice",
+    "dataType": "number"
+}];
+
+dataProvider.setFields(fields);
 </pre>
 
-#### Demo Links
+---
 
-> [DataField](/api/DataProvider/DataField)    
-> [setFields](/api/DataProvider/setFields/)   
+#### API Links
+
+* [DataField](/api/DataProvider/DataField)    
+* [setFields](/api/DataProvider/setFields/)   

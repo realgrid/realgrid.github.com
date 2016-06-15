@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> [CheckBar](/api/types/CheckBar/)에 체크가 되어있으면 true를 반환한다.  
+ [CheckBar](/api/types/CheckBar/)에 체크가 되어있으면 true를 반환한다.  
 
 #### Syntax
 
@@ -32,10 +32,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    if (gridView.isCheckedItem(0)) {
-        alert("체크");
-    }
+if (gridView.isCheckedItem(0)) {
+    alert("체크");
+}
 </pre>
 
-#### Demo Links
-> [isCheckedRow](/api/GridBase/isCheckedRow)
+---
+
+#### API Links
+
+* [isCheckedRow](/api/GridBase/isCheckedRow)

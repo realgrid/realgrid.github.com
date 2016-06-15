@@ -8,14 +8,14 @@ objectname:
 directiontype: 
 permalink: /api/types/SelectOptions/
 tags:
-    - 선택옵션
-    - 선택영역
+    - 선택 옵션
+    - 선택 영역
 ---
 
 
 #### Description
 
-선택 영역 표시에 대한 설정 모델이다.
+ 선택 영역 표시에 대한 설정 모델이다.
 
 #### Properties
 
@@ -33,4 +33,4 @@ tags:
 
 #### Demo Links
 
-> [Selecting](http://demo.realgrid.net/Demo/Selecting)
+* [Selecting](http://demo.realgrid.net/Demo/Selecting)

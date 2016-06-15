@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-StateBar의 state 표시 방법을 정의합니다.
+ StateBar의 state 표시 방법을 정의합니다.
 
 #### Members
 
@@ -24,4 +24,25 @@ StateBar의 state 표시 방법을 정의합니다.
 > **TEXT**  
 > Value: "text"   
 > 각 상태 값이 개발자가 지정한 값으로 표시 됩니다.                                    
-                         
+           
+#### Examples
+
+<pre class="prettyprint">
+gridView.setStateBar({
+    mark: "text",
+    stateTexts: {
+        created: "C",
+        updated: "U",
+        deleted: "D",
+        createAndDeleted: "X"
+    }
+});
+</pre>
+
+---
+
+#### Demo Links
+
+* [StateBar](http://demo.realgrid.com/Demo/StateBar)  
+* [setStateBar](/api/GridBase/setStateBar/)   
+* [getStateBar](/api/GridBase/getStateBar/)              

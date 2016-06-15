@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 지정한 itemIndex의 CheckBar에 checkable 상태를 지정한다.
+ 지정한 itemIndex의 CheckBar에 checkable 상태를 지정한다.
 
 #### Syntax
 
@@ -38,8 +38,12 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setCheckable(1, true);
+gridView.setCheckable(1, true);
 </pre>
 
-#### Demo Links
-> [CheckBar](/api/types/CheckBar), [setCheckableExpression](/api/GridBase/setCheckableExpression)
+---
+
+#### API Links
+
+* [CheckBar](/api/types/CheckBar)
+* [setCheckableExpression](/api/GridBase/setCheckableExpression)

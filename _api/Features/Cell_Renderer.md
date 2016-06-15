@@ -46,16 +46,18 @@ tags:
 * [SparkWinLossRenderer](/api/types/SparkWinLossRenderer) - 일정 범위 내의 데이터 흐름을 윈로스 형태로 표시합니다.     
 * [TextCellRenderer](/api/types/TextCellRenderer) - 셀에 표시할 값을 텍스트로 표시합니다.   
 
+---
+
 #### Demo Links
 
-> [Renderer Demo](http://demo.realgrid.net/Demo/RendererConcept) 참조    
-> [Actual/Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer) 참조    
-> [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조    
-> [Barcode Cell Renderer](http://demo.realgrid.com/Demo/BarcodeCellRenderer) 참조    
-> [Check Cell Renderer](http://demo.realgrid.com/Demo/CheckCellRenderer) 참조    
-> [Icon Cell Renderer](http://demo.realgrid.com/Demo/IconCellRenderer) 참조    
-> [Image Cell Renderer](http://demo.realgrid.com/Demo/ImageCellRenderer) 참조    
-> [Shape Cell Renderer](http://demo.realgrid.com/Demo/ShapeCellRenderer) 참조    
-> [Signal Cell Renderer](http://demo.realgrid.com/Demo/SignalCellRenderer) 참조    
-> [Spark Renderer](http://demo.realgrid.com/Demo/SparkLineRenderer) 참조    
+* [Renderer Demo](http://demo.realgrid.net/Demo/RendererConcept)     
+* [Actual/Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer)     
+* [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer)     
+* [Barcode Cell Renderer](http://demo.realgrid.com/Demo/BarcodeCellRenderer)     
+* [Check Cell Renderer](http://demo.realgrid.com/Demo/CheckCellRenderer)     
+* [Icon Cell Renderer](http://demo.realgrid.com/Demo/IconCellRenderer)     
+* [Image Cell Renderer](http://demo.realgrid.com/Demo/ImageCellRenderer)     
+* [Shape Cell Renderer](http://demo.realgrid.com/Demo/ShapeCellRenderer)    
+* [Signal Cell Renderer](http://demo.realgrid.com/Demo/SignalCellRenderer)   
+* [Spark Renderer](http://demo.realgrid.com/Demo/SparkLineRenderer)     
 

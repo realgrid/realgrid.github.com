@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드를 표시하거나 감춘다.  
+ 그리드를 표시하거나 감춘다.  
 
 #### Syntax
 
@@ -31,6 +31,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setVisible(false);
+gridView.setVisible(false);
 </pre>
 

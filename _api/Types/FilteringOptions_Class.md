@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 컬럼 필터링과 관련된 설정 모델이다.
+ 컬럼 필터링과 관련된 설정 모델이다.
 
 #### Properties
 
@@ -71,28 +71,25 @@ tags:
 > Type: object
 > none, fill, hoveredNone, hoveredFill 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
 
-<<<<<<< Updated upstream
-#### Demo Links
-=======
 ### Example  
 
 <pre class="prettyprint">
-    gridView.setFilteringOptions({
-    	HandleVisibility: "visible",
-    	selector: {
-    		maxWidth: 100,
-    		maxHeight: 200,
-    		closeWhenClick: true
-    	},
-    })
+gridView.setFilteringOptions({
+    HandleVisibility: "visible",
+    selector: {
+        maxWidth: 100,
+        maxHeight: 200,
+        closeWhenClick: true
+    }
+})
 </pre>
 
-#### See Also
->>>>>>> Stashed changes
+---
 
-> [setFilteringOptions](/api/GridBase/setFilteringOptions/)  
-> [getFilteringOptions](/api/GridBase/getFilteringOptions/)  
+#### API Links
 
-> [FilterSelectorOptions](/api/GridBase/setFilteringOptions/)   
-> [ToastOptions](/api/types/ToastOptions/)    
-> [HandleVisibility](/api/types/HandleVisibility/)  
+* [setFilteringOptions](/api/GridBase/setFilteringOptions/)  
+* [getFilteringOptions](/api/GridBase/getFilteringOptions/) 
+* [FilterSelectorOptions](/api/GridBase/setFilteringOptions/)   
+* [ToastOptions](/api/types/ToastOptions/)    
+* [HandleVisibility](/api/types/HandleVisibility/)  

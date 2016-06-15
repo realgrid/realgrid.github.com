@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 트리 그리드 선택 표시 등, 관련된 설정 정보들을 가져온다. [TreeOptions](/api/types/TreeOptions)이 설정 모델이다.
+ 트리 그리드 선택 표시 등, 관련된 설정 정보들을 가져온다. [TreeOptions](/api/types/TreeOptions)이 설정 모델이다.
 
 #### Syntax
 
@@ -30,6 +30,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var options = treeView.getTreeOptions();
+var options = treeView.getTreeOptions();
 </pre>
 

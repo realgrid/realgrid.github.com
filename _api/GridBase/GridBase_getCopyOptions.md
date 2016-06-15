@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> ctrl+c를 이용해서 그리드를 복사할때 적용되는 설정을 가져온다.
+ ctrl+c를 이용해서 그리드를 복사할때 적용되는 설정을 가져온다.
 
 #### Syntax
 
@@ -31,9 +31,14 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var cpOpt = gridView.getCopyOptions();
-    alert(JSON.stringify(cpOpt));
+var cpOpt = gridView.getCopyOptions();
+alert(JSON.stringify(cpOpt));
 </pre>
 
-#### Demo Links
-> [setCopyOptions](/api/GridBase/setCopyOptions), [getPasteOptions](/api/GridBase/getPasteOptions), [setPasteOptions](/api/GridBase/setPasteOptions)
+---
+
+#### API Links
+
+* [setCopyOptions](/api/GridBase/setCopyOptions)
+* [getPasteOptions](/api/GridBase/getPasteOptions)
+* [setPasteOptions](/api/GridBase/setPasteOptions)

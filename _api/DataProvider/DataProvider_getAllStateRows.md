@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> RowState가 "none"이 아닌 모든 행의 번호를 상태별로 가져온다.
+ RowState가 "none"이 아닌 모든 행의 번호를 상태별로 가져온다.
 
 #### Syntax
 
@@ -40,4 +40,4 @@ tags:
 
 #### Demo Links
 
-> [RowState](http://demo.realgrid.com/Demo/RowState){:target="_blank"} 참조 
+* [RowState](http://demo.realgrid.com/Demo/RowState){:target="_blank"} 참조 

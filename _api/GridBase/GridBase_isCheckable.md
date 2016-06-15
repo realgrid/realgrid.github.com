@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> [CheckBar](/api/types/CheckBar/)에 체크가 가능한 상태이면 true를 반환한다.  
+ [CheckBar](/api/types/CheckBar/)에 체크가 가능한 상태이면 true를 반환한다.  
 
 #### Syntax
 
@@ -38,5 +38,9 @@ tags:
     }
 </pre>
 
+---
+
 #### Demo Links
-> [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)
+
+* [setCheckable](/api/GridBase/setCheckable)
+* [setCheckableExpression](/api/GridBase/setCheckableExpression)

@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 지정한 트리 행의 자식 행을 추가한다. 
+ 지정한 트리 행의 자식 행을 추가한다. 
 
 #### Syntax
 
@@ -46,11 +46,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var childId = treeProvider.addChildRow(3, [], 0, true);
+var childId = treeProvider.addChildRow(3, [], 0, true);
 </pre>
 
 ---
 
 #### Demo Links
 
-> [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"} 참조    
+* [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"}  

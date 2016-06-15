@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 필드 이름으로 지정되는 데이터필드에 연결되어 있는 첫 번째 컬럼 정보를 반환한다.  
+ 필드 이름으로 지정되는 데이터필드에 연결되어 있는 첫 번째 컬럼 정보를 반환한다.  
 
 #### Syntax
 
@@ -42,6 +42,12 @@ if (column) {
 }
 </pre>
 
-#### Demo Links
-> [columnByName](/api/GridBase/columnByName), [columnByTag](/api/GridBase/columnByTag), [columnsByField](/api/GridBase/columnsByField), [columnsByTag](/api/GridBase/columnsByTag)
+---
+
+#### API Links
+
+* [columnByName](/api/GridBase/columnByName)
+* [columnByTag](/api/GridBase/columnByTag)
+* [columnsByField](/api/GridBase/columnsByField)
+* [columnsByTag](/api/GridBase/columnsByTag)
 

@@ -11,7 +11,7 @@ permalink: /api/types/ContentFit/
 
 #### Description
 
-> 이미지를 셀에 어떤 위치, 어떤 크기로 표시할 것인 지를 정의한다.
+ 이미지를 셀에 어떤 위치, 어떤 크기로 표시할 것인 지를 정의한다.
 
 #### Members
 
@@ -42,17 +42,21 @@ permalink: /api/types/ContentFit/
 #### Examples   
 
 <pre class="prettyprint">
-    gridView.setColumnHeaderOptions({
-        checkColor: "ffff0000",
-        checkNoneColor: "ff00ff00",
-        ...
-    });
+gridView.setColumnHeaderOptions({
+    checkColor: "ffff0000",
+    checkNoneColor: "ff00ff00",
+    ...
+});
 </pre>
+
+---
+
+#### API Links
+
+* [setColumnHeaderOptions](/api/GridBase/setColumnHeaderOptions/)   
+* [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions/)  
 
 #### Demo Links
 
-> [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 참조  
-> [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage) 참조  
-
-> [setColumnHeaderOptions](/api/GridBase/setColumnHeaderOptions/)   
-> [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions/)   
+* [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 
+* [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage) 

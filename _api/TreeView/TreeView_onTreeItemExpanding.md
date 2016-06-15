@@ -10,7 +10,7 @@ permalink: /api/TreeView/onTreeItemExpanding/
 
 #### Description
 
-> TreeView의 아이템 노드가 펼쳐지기 직전에 호출된다.
+ TreeView의 아이템 노드가 펼쳐지기 직전에 호출된다.
 
 #### Syntax
 
@@ -38,8 +38,8 @@ permalink: /api/TreeView/onTreeItemExpanding/
 #### Examples 
 
 <pre class="prettyprint">
-    treeView.onTreeItemExpanding = function (tree, itemIndex, rowId) {
-        return false;
-    };
+treeView.onTreeItemExpanding = function (tree, itemIndex, rowId) {
+    return false;
+};
 </pre>
 

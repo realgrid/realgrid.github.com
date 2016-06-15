@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> [CheckBar](/api/types/CheckBar/)에 checkableExpression 설정과 적용을 동시에 수행한다.
+ [CheckBar](/api/types/CheckBar/)에 checkableExpression 설정과 적용을 동시에 수행한다.
 
 #### Syntax
 
@@ -39,9 +39,15 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setCheckableExpression("row < 10", true);
-    /* dataRow가 10이하 인경우만 체크 가능하도록 한다.*/
+gridView.setCheckableExpression("row < 10", true);
+/* dataRow가 10이하 인경우만 체크 가능하도록 한다.*/
 </pre>
 
-#### Demo Links
-> [CheckBar](/api/types/CheckBar), [setCheckable](/api/GridBase/setCheckable), [resetCheckables](/api/GridBase/resetCheckables), [applyCheckables](/api/GridBase/applyCheckables)
+---
+
+#### API Links
+
+* [CheckBar](/api/types/CheckBar)
+* [setCheckable](/api/GridBase/setCheckable)
+* [resetCheckables](/api/GridBase/resetCheckables)
+* [applyCheckables](/api/GridBase/applyCheckables)

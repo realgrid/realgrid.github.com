@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> Check된 [아이템](/api/features/Grid%20Item/)의 index들의 목록을 배열로 반환한다.
+ Check된 [아이템](/api/features/Grid%20Item/)의 index들의 목록을 배열로 반환한다.
 
 #### Syntax
 
@@ -30,11 +30,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var items = treeView.getCheckedItems();
+var items = treeView.getCheckedItems();
 </pre>
 
 ---
 
 #### Demo Links
 
-> [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"} 참조    
+* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"}  

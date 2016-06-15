@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
-> LocalDataProvider에 데이터가 변경되면 호출된다.  
-> key 입력이나 setValue로 변경되었을때 호출된다.  
+ LocalDataProvider에 데이터가 변경되면 호출된다.  
+ key 입력이나 setValue로 변경되었을때 호출된다.  
 
 #### Syntax
 
@@ -34,8 +34,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    dataProvider.onDataChanged = function (provider) {
-        alert("DataChanged");
-    };
+dataProvider.onDataChanged = function (provider) {
+    alert("DataChanged");
+};
 </pre>
 

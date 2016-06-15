@@ -181,8 +181,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정된 dataRow부터 지정된 개수만큼 newRow로 지정된 dataRow앞으로 이동한다.
-> 
+ 지정된 dataRow부터 지정된 개수만큼 newRow로 지정된 dataRow앞으로 이동한다. 
 
 #### Syntax
 

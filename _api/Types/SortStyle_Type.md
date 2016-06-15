@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-그리드 컬럼 Header 클릭 시 정렬하는 방법을 정의 합니다.
+ 그리드 컬럼 Header 클릭 시 정렬하는 방법을 정의 합니다.
 
 #### Memebers
 
@@ -39,10 +39,12 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var options = {};
-    options.style = "exclusive";
-    grdMain.sortingOptions(options);
+var options = {};
+options.style = "exclusive";
+gridView.sortingOptions(options);
 </pre>
+
+---
 
 #### API Links
 
@@ -57,4 +59,3 @@ tags:
 #### Demo Links
 
 * [Column Sorting Demo](http://demo.realgrid.net/Demo/ColumnSorting)
-

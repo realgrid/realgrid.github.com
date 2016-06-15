@@ -13,12 +13,11 @@ tags:
     - 붙여넣기설정
 ---
 
-
 #### Description
 
-> 클립보드의 데이터를 그리드에 붙여넣을 때 사용하는 옵션이다.    
-> PasteOptions 정보를 가져오려면 [GridBase.getPasteOptions()](/api/GridBase/getPasteOptions/)함수를 사용한다.   
-> PasteOptions에 값을 지정하려면 [GridBase.setPasteOptions()](/api/GridBase/setPasteOptions/)함수를 사용한다.
+ 클립보드의 데이터를 그리드에 붙여넣을 때 사용하는 옵션이다.    
+ PasteOptions 정보를 가져오려면 [GridBase.getPasteOptions()](/api/GridBase/getPasteOptions/)함수를 사용한다.   
+ PasteOptions에 값을 지정하려면 [GridBase.setPasteOptions()](/api/GridBase/setPasteOptions/)함수를 사용한다.
 
 #### Properies
 
@@ -111,15 +110,13 @@ tags:
 gridView.setPasteOptions({ checkReadOnly: true })
 </pre>
 
+---
+
 #### API Links
 
-> [GridBase.getPasteOptions()](/api/GridBase/getPasteOptions/)<br/>
-> [GridBase.setPasteOptions()](/api/GridBase/setPasteOptions/)
+* [GridBase.getPasteOptions()](/api/GridBase/getPasteOptions/)
+* [GridBase.setPasteOptions()](/api/GridBase/setPasteOptions/)
 
 #### Demo Links
 
-> [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste){:target="_blank"} 참조
-
-
-
-  
+* [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste){:target="_blank"}

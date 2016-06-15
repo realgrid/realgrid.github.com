@@ -182,7 +182,7 @@ function setColumns(grid) {
 
 #### Description
 
-> DataProvider에 필터를 적용한다. 필터에 부합하지 않은 행은 DataProvider에 존재하지 않게 된다.
+ DataProvider에 필터를 적용한다. 필터에 부합하지 않은 행은 DataProvider에 존재하지 않게 된다.
 
 #### Syntax
 
@@ -225,4 +225,4 @@ $("#button1").click(function(){
 
 #### Demo Links
 
-> [LoadFilter](http://demo.realgrid.com/Demo/LoadFilter#.example){:target="_blank"} 참조
+* [LoadFilter](http://demo.realgrid.com/Demo/LoadFilter){:target="_blank"}

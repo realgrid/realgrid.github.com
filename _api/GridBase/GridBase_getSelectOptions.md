@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 선택 방식 및 선택 표시와 관련된 설정 정보들을 가져온다. [SelectOptions](/api/types/SelectOptions/)이 설정 모델이다.
+ 그리드 선택 방식 및 선택 표시와 관련된 설정 정보들을 가져온다. [SelectOptions](/api/types/SelectOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -37,5 +37,8 @@ if (options) {
 }
 </pre>
 
-#### Demo Links
-> [setSelectOptions](/api/GridBase/setSelectOptions)
+---
+
+#### API Links
+
+* [setSelectOptions](/api/GridBase/setSelectOptions)

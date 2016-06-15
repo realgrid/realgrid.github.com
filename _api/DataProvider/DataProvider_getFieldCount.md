@@ -175,7 +175,7 @@ function setColumns(grid) {
 
 #### Description
 
-> Data provider에 설정된 데이터필드의 개수를 가져온다.
+ Data provider에 설정된 데이터필드의 개수를 가져온다.
 
 #### Syntax
 

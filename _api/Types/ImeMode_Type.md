@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 입력 전환시 기본 IME 상태를 정의한다.
+ 입력 전환시 기본 IME 상태를 정의한다.
 
 #### Members
 

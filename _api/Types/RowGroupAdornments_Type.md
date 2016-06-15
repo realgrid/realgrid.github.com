@@ -18,7 +18,7 @@ tags:
 
 #### Description
 
-> 그리드 행이 그룹 상태일 때 그룹의 Header와 Footer표시 여부를 정의한다.
+ 그리드 행이 그룹 상태일 때 그룹의 Header와 Footer표시 여부를 정의한다.
 
 #### Members
 
@@ -38,6 +38,8 @@ tags:
 > Value: "none"   
 > 아무것도 표시하지 않는다. expandedAdornments 상태에서만 적용된다.             
 
+---
+
 #### Demo Links
 
-> [MergedRowGrouping](http://demo.realgrid.com/Demo/RowGroupMerging){:target="_blank"} 참조
+* [MergedRowGrouping](http://demo.realgrid.com/Demo/RowGroupMerging){:target="_blank"}

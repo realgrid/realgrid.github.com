@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 기존에 설정되어 있는 컬럼들을 모두 제거하고 새로운 컬럼들로 그리드를 재구성한다.
+ 기존에 설정되어 있는 컬럼들을 모두 제거하고 새로운 컬럼들로 그리드를 재구성한다.
 
 #### Syntax
 
@@ -34,13 +34,20 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var columns = [{
-        name: "column1",
-        }, {
-        name: "column2",
-        }];
-    gridView.setColumns(columns);
+var columns = [{
+    name: "column1",
+    }, {
+    name: "column2",
+    }];
+gridView.setColumns(columns);
 </pre>
 
+---
+
+#### API Links
+
+* [getColumns](/api/GridBase/getColumns)
+
 #### Demo Links
-> [ColumnGrouping](http://demo.realgrid.com/Demo/ColumnGrouping), [getColumns](/api/GridBase/getColumns)
+
+* [ColumnGrouping](http://demo.realgrid.com/Demo/ColumnGrouping)

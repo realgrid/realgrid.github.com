@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 지정된 아이템을 체크하거나 해제한다.  
+ 지정된 아이템을 체크하거나 해제한다.  
 
 #### Syntax
 
@@ -41,9 +41,18 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.checkItem(0,true,false);    
+gridView.checkItem(0,true,false);    
 </pre>
 
+---
+
+#### API Links
+
+> [checkAll](/api/GridBase/checkAll)
+* [checkItems](/api/GridBase/checkItems)
+* [setCheckable](/api/GridBase/setCheckable)
+* [setCheckableExpression](/api/GridBase/setCheckableExpression) 
+
 #### Demo Links
-> [checkAll](/api/GridBase/checkAll), [checkItems](/api/GridBase/checkItems), [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)  
-> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+
+* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

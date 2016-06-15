@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드에 발생한 에러창을 클릭할때 발생한다.  
+ 그리드에 발생한 에러창을 클릭할때 발생한다.  
 
 #### Syntax
 
@@ -35,8 +35,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-        gridView.onErrorClicked = function (grid, error) {
-            console.log("onErrorClicked: " + error);
-        };
+gridView.onErrorClicked = function (grid, error) {
+    console.log("onErrorClicked: " + error);
+};
 </pre>
 

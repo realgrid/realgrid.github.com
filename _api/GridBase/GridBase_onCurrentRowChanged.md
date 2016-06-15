@@ -15,9 +15,9 @@ tags:
 
 #### Description
 
-> dataRow의 위치가 변경된 후 호출되는 callback 이다.  
-> [onCurrentChanged](/api/GridBase/onCurrentChanged)의 경우 선택된 cell의 itemIndex가 변경되는 경우 발생되지만  
-> onCurrentRowChanged의 경우 선택된 cell의 dataRow가 변경되는 경우에 발생한다. 
+ dataRow의 위치가 변경된 후 호출되는 callback 이다.  
+ [onCurrentChanged](/api/GridBase/onCurrentChanged)의 경우 선택된 cell의 itemIndex가 변경되는 경우 발생되지만  
+ onCurrentRowChanged의 경우 선택된 cell의 dataRow가 변경되는 경우에 발생한다. 
 
 #### Syntax
 
@@ -45,10 +45,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onCurrentRowChanged =  function (grid, oldRow, newRow) {
-      alert(onCurrentRowChanged: " + "(" + oldRow + " => " + newRow + ")");
-    };
+gridView.onCurrentRowChanged =  function (grid, oldRow, newRow) {
+  alert(onCurrentRowChanged: " + "(" + oldRow + " => " + newRow + ")");
+};
 </pre>
 
-#### Demo Links
-> [onCurrentChanged](/api/GridBase/onCurrentChanged)
+---
+
+#### API Links
+
+* [onCurrentChanged](/api/GridBase/onCurrentChanged)

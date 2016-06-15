@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> RealGrid내에서 사용할 이미지경로의 목록을 저장하기 위한 모델이다. 실제 이미지파일이 위치한 경로를 보관한다.
+ RealGrid내에서 사용할 이미지경로의 목록을 저장하기 위한 모델이다. 실제 이미지파일이 위치한 경로를 보관한다.
 
 #### Properties
 
@@ -43,11 +43,10 @@ imgs.addUrls([
 ]);
  
 gridView.registerImageList(imgs);
-
 </pre>
 
 ---
 
 #### Demo Links
 
-> [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer#.example){:target="_blank"} 참조
+* [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer){:target="_blank"}

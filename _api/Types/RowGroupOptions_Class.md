@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> Row Grouping과 관련된 영역들의 표시 방법 등에 대한 설정 모델이다.
+ Row Grouping과 관련된 영역들의 표시 방법 등에 대한 설정 모델이다.
 
 #### Properties
 
@@ -71,18 +71,22 @@ tags:
 ### Example  
 
 <pre class="prettyprint">
-    gridView.setRowGroup({
-        summaryMode: "aggregate",
+gridView.setRowGroup({
+    summaryMode: "aggregate",
 
-        footerStatement: "행 그룹핑된 컬럼의 풋터입니다.",
-        footerCellMerge: true,
-        ...
-    });
+    footerStatement: "행 그룹핑된 컬럼의 풋터입니다.",
+    footerCellMerge: true,
+    ...
+});
 </pre>
+
+---
+
+#### API Links
+
+* [setRowGroup](/api/GridBase/setRowGroup/)  
+* [getRowGroup](/api/GridBase/getRowGroup/)  
 
 #### Demo Links
 
-> [setRowGroup](/api/GridBase/setRowGroup/)  
-> [getRowGroup](/api/GridBase/getRowGroup/)  
-
-> [Row Grouping](http://demo.realgrid.net/Demo/RowGrouping)
+* [Row Grouping](http://demo.realgrid.net/Demo/RowGrouping)

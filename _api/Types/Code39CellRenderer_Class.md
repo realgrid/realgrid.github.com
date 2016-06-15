@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> Code39 Barcode를 표시하는 렌더러이다.
+ Code39 Barcode를 표시하는 렌더러이다.
 
 #### properties
 
@@ -41,7 +41,9 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
+---
+
 #### Demo Links 
 
-> [Barcode Cell Renderer](http://demo.realgrid.net/Demo/BarcodeCellRenderer) 참조  
+* [Barcode Cell Renderer](http://demo.realgrid.net/Demo/BarcodeCellRenderer) 
 

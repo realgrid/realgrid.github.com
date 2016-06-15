@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> row 인덱스와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 변경한다.
+ row 인덱스와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 변경한다.
 
 #### Syntax
 
@@ -39,5 +39,5 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-	treeProvider.setValue(2, 1, "text");
+treeProvider.setValue(2, 1, "text");
 </pre>

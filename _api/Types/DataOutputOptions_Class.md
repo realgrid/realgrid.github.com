@@ -19,7 +19,7 @@ tags:
 
 #### Description
 
-> datetime, boolean 필드에 대해 변환 형식을 지정한다.
+ datetime, boolean 필드에 대해 변환 형식을 지정한다.
 
 #### Properties
 
@@ -51,17 +51,18 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-	var options = {
-		datetimeFormat: "yyyy-MM-dd",
-		booleanFormat: "거짓;참"
-	};
-	
-	dataProvider.getOutputRows(options, 0, 10);	
+var options = {
+	datetimeFormat: "yyyy-MM-dd",
+	booleanFormat: "거짓;참"
+};
+
+dataProvider.getOutputRows(options, 0, 10);	
 </pre>
 
+---
 
-#### Demo Links
+#### API Links
 
-> [getOutputRow](/api/LocalDataProvider/getOutputRow/)     
-> [getOutputRows](/api/LocalDataProvider/getOutputRows/)     
+* [getOutputRow](/api/LocalDataProvider/getOutputRow/)     
+* [getOutputRows](/api/LocalDataProvider/getOutputRows/)     
 

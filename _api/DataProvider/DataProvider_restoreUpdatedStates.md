@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> dataProvider.options.[restoreMode](/api/types/RestoreMode/) 가 "explicit" 일 경우 수정되었던 데이터가 원래대로 다시 수정된 경우 RowState를 원래대로 복원하고 싶을때 사용한다.   
+ dataProvider.options.[restoreMode](/api/types/RestoreMode/) 가 "explicit" 일 경우 수정되었던 데이터가 원래대로 다시 수정된 경우 RowState를 원래대로 복원하고 싶을때 사용한다.   
 
 #### Syntax
 

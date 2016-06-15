@@ -178,7 +178,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 현재 몇 레벨로 Grouping 되었는지를 리턴 합니다. 
+ 현재 몇 레벨로 Grouping 되었는지를 리턴 합니다. 
 
 #### Syntax
 

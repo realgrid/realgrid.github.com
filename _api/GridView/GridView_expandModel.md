@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 지정한 그룹아이템 모델을 펼친다. recursive를 true로 하면 그룹에 포함된 자손 그룹도 펼친 상태가 된다.
+ 지정한 그룹아이템 모델을 펼친다. recursive를 true로 하면 그룹에 포함된 자손 그룹도 펼친 상태가 된다.
 
 #### Syntax
 
@@ -42,16 +42,17 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var recursive = $("#chkExpandRecursive").is(":checked");
-    var force = $("#chkExpandForce").is(":checked");
-	var itemIndex = gridView.getCurrent().itemIndex;
-	var group = gridView.getModelAs(itemIndex, RealGrids.ItemType.GROUP);
-	if (group) {
-	    gridView.expandModel(group, recursive, force);
+var recursive = $("#chkExpandRecursive").is(":checked");
+var force = $("#chkExpandForce").is(":checked");
+var itemIndex = gridView.getCurrent().itemIndex;
+var group = gridView.getModelAs(itemIndex, RealGrids.ItemType.GROUP);
+if (group) {
+    gridView.expandModel(group, recursive, force);
+}
 </pre>
 
 ---
 
 #### Demo Links
 
-> [ItemModelApi](http://demo.realgrid.com/Demo/ItemModelApi){:target="_blank"} 참조
+* [ItemModelApi](http://demo.realgrid.com/Demo/ItemModelApi){:target="_blank"}

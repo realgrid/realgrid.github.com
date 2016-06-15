@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 아이템 모델의 부모 아이템 모델을 리턴합니다.    
+ 아이템 모델의 부모 아이템 모델을 리턴합니다.    
 
 #### Syntax
 
@@ -37,17 +37,24 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var extended = $("#chkExtendedModel").is(":checked");
-    var idx = gridView.getCurrent();
-    var item = gridView.getModel(idx.itemIndex);
-    var parent = gridView.getParentModel(item,extended);
-    console.log(JSON.stringify(parent));
-    if (parent) {
-        idx.itemIndex = parent.itemIndex;
-        gridView.setCurrent(idx);
-    }
+var extended = $("#chkExtendedModel").is(":checked");
+var idx = gridView.getCurrent();
+var item = gridView.getModel(idx.itemIndex);
+var parent = gridView.getParentModel(item,extended);
+console.log(JSON.stringify(parent));
+if (parent) {
+    idx.itemIndex = parent.itemIndex;
+    gridView.setCurrent(idx);
+}
 </pre>
 
+---
+
+#### API Links
+
+* [getModel](/api/GridBase/getModel)
+* [getChildModel](/api/GridBase/getChildModel)
+
 #### Demo Links
-> [getModel](/api/GridBase/getModel), [getChildModel](/api/GridBase/getChildModel)
-> [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)
+
+* [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)

@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> TreeDataProvider에 데이터행들이 삭제된 후 호출된다.  
+ TreeDataProvider에 데이터행들이 삭제된 후 호출된다.  
 
 #### Syntax
 
@@ -36,13 +36,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    dataProvider.onRowsDeleted = function (provider, rowIds) {
-        console.log("Rows deleted: " + rowIds.length);
-    };
+dataProvider.onRowsDeleted = function (provider, rowIds) {
+    console.log("Rows deleted: " + rowIds.length);
+};
 </pre>
 
 ---
 
 #### Demo Links
 
-> [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"} 참조   
+* [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"}

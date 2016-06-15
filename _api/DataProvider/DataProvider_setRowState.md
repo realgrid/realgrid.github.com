@@ -177,7 +177,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정된 행의 rowState를 변경한다.
+ 지정된 행의 rowState를 변경한다.
 
 
 #### Syntax

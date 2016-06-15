@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 화면에 표시되는 그리드를 엑셀 등의 외부 문서로 내보기할 때 지정하는 설정 모델.
+ 화면에 표시되는 그리드를 엑셀 등의 외부 문서로 내보기할 때 지정하는 설정 모델.
 
 #### Properties
 
@@ -125,18 +125,22 @@ tags:
 ### Example  
 
 <pre class="prettyprint">
-    gridView.exportGrid({
-        type: "excel",
-        target: "local",
-        fileName: "gridExportSample.xlsx",
-        indicator: "default",
-        header: "visible",
-        footer: "hidden"
-    });
+gridView.exportGrid({
+    type: "excel",
+    target: "local",
+    fileName: "gridExportSample.xlsx",
+    indicator: "default",
+    header: "visible",
+    footer: "hidden"
+});
 </pre>
+
+---
+
+#### API Links
+
+* [exportGrid](/api/GridBase/exportGrid/)
 
 #### Demo Links
 
-> [Export to Excel File](http://demo.realgrid.com/Demo/ExportToExcel) 참조  
-
-> [exportGrid](/api/GridBase/exportGrid/)  
+* [Export to Excel File](http://demo.realgrid.com/Demo/ExportToExcel) 

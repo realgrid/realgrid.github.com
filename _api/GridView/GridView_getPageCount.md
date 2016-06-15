@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> [Paging](/api/features/Paging/) 모드일 때 전체 페이지 개수를 리턴한다.
+ [Paging](/api/features/Paging/) 모드일 때 전체 페이지 개수를 리턴한다.
 
 #### Syntax
 
@@ -31,11 +31,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var count = gridView.getPageCount();
+var count = gridView.getPageCount();
 </pre>
 
 ---
 
 #### Demo Links
 
-> [Paging](http://demo.realgrid.com/Demo/PagingRealtime#){:target="_blank"} 참조
+* [Paging](http://demo.realgrid.com/Demo/PagingRealtime){:target="_blank"}

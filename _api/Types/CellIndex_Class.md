@@ -40,9 +40,8 @@ permalink: /api/types/CellIndex/
 #### Examples   
 
 <pre class="prettyprint">
-    var index = gridView.getCurrent();
-
-    console.log(index);
+var index = gridView.getCurrent();
+console.log(index);
 </pre>
 
 ---

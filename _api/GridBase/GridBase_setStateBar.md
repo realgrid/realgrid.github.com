@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 StateBar와 관련된 정보들을 설정한다. [StateBar](/api/types/StateBar/)가 설정 모델이다.
+ 그리드 StateBar와 관련된 정보들을 설정한다. [StateBar](/api/types/StateBar/)가 설정 모델이다.
 
 #### Syntax
 
@@ -32,23 +32,31 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-	gridView.setStateBar({
-	    width: 20,
-	    visible: true,
-	    mark: "text",
-	    stateTexts: {
-	        created: "C",
-	        updated: "U",
-	        deleted: "D",
-	        createAndDeleted: "X"
-	    },
-		headText: "head",
-		footText: "foot",
-		headImageUrl: "/img/common/dot_arrow2_top.gif",
-		footImageUrl: "/img/common/dot_arrow2_bottom.gif"
-	});
+gridView.setStateBar({
+    width: 20,
+    visible: true,
+    mark: "text",
+    stateTexts: {
+        created: "C",
+        updated: "U",
+        deleted: "D",
+        createAndDeleted: "X"
+    },
+	headText: "head",
+	footText: "foot",
+	headImageUrl: "/img/common/dot_arrow2_top.gif",
+	footImageUrl: "/img/common/dot_arrow2_bottom.gif"
+});
 </pre>
 
+---
+
+#### API Links
+
+* [getStateBar](/api/GridBase/getStateBar)
+* [getRowState](/api/DataProvider/getRowState)
+* [setRowState](/api/DataProvider/setRowState)  
+
 #### Demo Links
-> [getStateBar](/api/GridBase/getStateBar), [getRowState](/api/DataProvider/getRowState), [setRowState](/api/DataProvider/setRowState)  
-> [StateBar Demo](http://demo.realgrid.com/Demo/StateBar)
+
+* [StateBar Demo](http://demo.realgrid.com/Demo/StateBar)

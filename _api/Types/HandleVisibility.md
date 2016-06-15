@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
-> 소팅(sorting), 필터링(filtering)시 컬럼 헤더에 표시되는 기능 아이콘을 핸들(Handle)이라고 하고 HandleVisiblity는 핸들의 표시방법을 정의한다. HandleVisiblity는 [SortingOptions](/api/types/SortingOptions/), [FilteringOptions](/api/types/FilteringOptions/)의 handleVisiblity속성으로 구현되어 있다.
+ 소팅(sorting), 필터링(filtering)시 컬럼 헤더에 표시되는 기능 아이콘을 핸들(Handle)이라고 하고 HandleVisiblity는 핸들의 표시방법을 정의한다. HandleVisiblity는 [SortingOptions](/api/types/SortingOptions/), [FilteringOptions](/api/types/FilteringOptions/)의 handleVisiblity속성으로 구현되어 있다.
 
 #### Members
 

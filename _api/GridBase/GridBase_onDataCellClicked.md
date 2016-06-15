@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 사용자가 데이터 셀을 마우스로 클릭했을 때 호출된다.   
+ 사용자가 데이터 셀을 마우스로 클릭했을 때 호출된다.   
 
 #### Syntax
 
@@ -38,8 +38,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onDataCellClicked =  function (grid, index) {
-      console.log(index);
-    };
+gridView.onDataCellClicked =  function (grid, index) {
+  console.log(index);
+};
 </pre>
 

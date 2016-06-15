@@ -12,8 +12,8 @@ tags:
 
 #### Description
 
-> 그리드에 itemIndex로 입력된 데이터행 앞에 새로운 데이터행을 생성한다.  
-> 그리드가 편집상태이거나 데이터건수가 없는 경우 추가되지 않는다.
+ 그리드에 itemIndex로 입력된 데이터행 앞에 새로운 데이터행을 생성한다.  
+ 그리드가 편집상태이거나 데이터건수가 없는 경우 추가되지 않는다.
 
 #### Syntax
 
@@ -34,11 +34,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.beginInsertRow(0);
+gridView.beginInsertRow(0);
 </pre>
 
 ---
 
 #### Demo Links
 
-> [Inserting](http://demo.realgrid.com/Demo/Inserting){:target="_blank"} 참조
+* [Inserting](http://demo.realgrid.com/Demo/Inserting){:target="_blank"} 

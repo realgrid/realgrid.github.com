@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 지정한 행의 값을 Array객체로 가져온다. 
+ 지정한 행의 값을 Array객체로 가져온다. 
 
 #### Syntax
 
@@ -40,4 +40,4 @@ tags:
 
 #### Demo Links
 
->[GetValues](http://demo.realgrid.com/Demo/GetValues){:target="_blank"} 참조
+* [GetValues](http://demo.realgrid.com/Demo/GetValues){:target="_blank"} 

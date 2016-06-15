@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 지정한 데이터행의 자식들을 JSON 객체로 가져온다.  
+ 지정한 데이터행의 자식들을 JSON 객체로 가져온다.  
 
 #### Syntax
 
@@ -51,6 +51,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var rows = treeProvider.getJsonRows(-1, true, "child", "icon");
+var rows = treeProvider.getJsonRows(-1, true, "child", "icon");
 </pre>
 

@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
-> [GridBase addPopupMenu](/api/GridBase/addPopupMenu/)로 추가한 팝업메뉴 항목이 클릭됐을 때 호출된다.  
-> [MenuItem](/api/types/MenuItem/)에 callback이 지정된 경우 호출되지 않는다.
+ [GridBase addPopupMenu](/api/GridBase/addPopupMenu/)로 추가한 팝업메뉴 항목이 클릭됐을 때 호출된다.  
+ [MenuItem](/api/types/MenuItem/)에 callback이 지정된 경우 호출되지 않는다.
 
 #### Syntax
 
@@ -38,13 +38,16 @@ None.
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onMenuItemClicked = function (grid, data) {
-        var s = data.label + (data.checked ? " checked" : "");
-        if (data.tag)
-            s += "n" + "tag: " + data.tag;
-        alert(s);
-    };
+gridView.onMenuItemClicked = function (grid, data) {
+    var s = data.label + (data.checked ? " checked" : "");
+    if (data.tag)
+        s += "n" + "tag: " + data.tag;
+    alert(s);
+};
 </pre>
 
-#### Demo Links
-> [onContextMenuItemClicked](/api/GridBase/onContextMenuItemClicked)
+---
+
+#### API Links
+
+* [onContextMenuItemClicked](/api/GridBase/onContextMenuItemClicked)

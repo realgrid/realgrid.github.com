@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
-> 아이템 index와 itemType에 해당하는 아이템모델을 리턴한다.   
-> 지정한 itemIndex에 해당하는 모델이 지정한 itemType과 맞지 않으면 null을 리턴한다.  
+ 아이템 index와 itemType에 해당하는 아이템모델을 리턴한다.   
+ 지정한 itemIndex에 해당하는 모델이 지정한 itemType과 맞지 않으면 null을 리턴한다.  
 
 #### Syntax
 
@@ -43,17 +43,22 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var extended = true;
-    var itemIndex = gridView.getCurrent().itemIndex;
-    var group = gridView.getModelAs(itemIndex, RealGrids.ItemType.GROUP);
-    if (group && group.count > 0) {
-        var item = gridView.getChildModel(group, 0, extended);
-        console.log(JSON.stringify(item));
-    }
+var extended = true;
+var itemIndex = gridView.getCurrent().itemIndex;
+var group = gridView.getModelAs(itemIndex, RealGrids.ItemType.GROUP);
+if (group && group.count > 0) {
+    var item = gridView.getChildModel(group, 0, extended);
+    console.log(JSON.stringify(item));
+}
 </pre>
 
+---
+
+#### API Links
+* [getModel](/api/GridBase/getModel)
+* [getParentModel](/api/GridBase/getParentModel)  
+* [Grid Item](/api/features/Grid%20Item/)  
 
 #### Demo Links
-> [getModel](/api/GridBase/getModel), [getParentModel](/api/GridBase/getParentModel)  
-> [Grid Item](/api/features/Grid%20Item/)  
-> [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)
+
+* [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)

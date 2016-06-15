@@ -42,5 +42,12 @@ if (styles) {
 }
 </pre>
 
+---
+
+#### API Links
+
+* [setStyles](/api/GridBase/setStyles)
+
 #### Demo Links
-> [setStyles](/api/GridBase/setStyles), [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)
+
+* [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)

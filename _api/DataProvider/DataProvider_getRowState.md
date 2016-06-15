@@ -182,7 +182,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 매개변수로 지정한 행의 RowState를 가져온다.
+ 매개변수로 지정한 행의 RowState를 가져온다.
 
 #### Syntax
 

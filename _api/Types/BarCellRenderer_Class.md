@@ -48,31 +48,31 @@ Bar 셀렌더러는 숫자형 컬럼 셀의 값을 막대 상자로 표시하는
 #### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
-        "name": "Quantity",
-        "fieldName": "Quantity",
-        "type": "data",
-        "width": 100,
-        "renderer": {
-            "type": "bar",
-            "minimum": 0,
-            "maximum": 100,
-            "minWidth": 150,
-            "showLabel": true,
-            "origin":"left"
-        },
-        "styles": {
-            "figureBackground": "linear,#ff000044,#ffeeeeee,90",
-            "textAlignment": "center",
-            "lineAlignment": "far",
-            "paddingRight": 5,
-            "figureSize": "70%"
-        },
-        "header": {
-            "text": "Quantity"
-        }
-	}]
-	gridView.setColumns(columns);
+var columns = [{
+    "name": "Quantity",
+    "fieldName": "Quantity",
+    "type": "data",
+    "width": 100,
+    "renderer": {
+        "type": "bar",
+        "minimum": 0,
+        "maximum": 100,
+        "minWidth": 150,
+        "showLabel": true,
+        "origin":"left"
+    },
+    "styles": {
+        "figureBackground": "linear,#ff000044,#ffeeeeee,90",
+        "textAlignment": "center",
+        "lineAlignment": "far",
+        "paddingRight": 5,
+        "figureSize": "70%"
+    },
+    "header": {
+        "text": "Quantity"
+    }
+}]
+gridView.setColumns(columns);
 </pre>
 
 ---

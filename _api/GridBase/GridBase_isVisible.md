@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드가 표시된 상태면 true를 리턴한다.
+ 그리드가 표시된 상태면 true를 리턴한다.
 
 #### Syntax
 
@@ -33,5 +33,8 @@ tags:
 var visible = gridView.isVisible();
 </pre>
 
-#### Demo Links
-> [setVisible](/api/GridBase/setVisible)
+---
+
+#### API Links
+
+* [setVisible](/api/GridBase/setVisible)

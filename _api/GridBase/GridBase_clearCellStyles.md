@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 셀 스타일을 clear한다.
+ 셀 스타일을 clear한다.
 
 #### Syntax
 
@@ -30,9 +30,19 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.clearCellStyles();
+gridView.clearCellStyles();
 </pre>
 
+---
+
+#### API Links
+
+* [addCellStyle](/api/GridBase/addCellStyle)
+* [addCellStyles](/api/GridBase/addCellStyles)
+* [removeCellStyles](/api/GridBase/removeCellStyles)
+* [setCellStyle](/api/GridBase/setCellStyle)
+* [setCellStyles](/api/GridBase/setCellStyles) 
+
 #### Demo Links
-> [addCellStyle](/api/GridBase/addCellStyle), [addCellStyles](/api/GridBase/addCellStyles), [removeCellStyles](/api/GridBase/removeCellStyles), [setCellStyle](/setCellStyle), [setCellStyles](/api/GridBase/setCellStyles)    
-> [DataCellStyle Demo](http://demo.realgrid.com/Demo/DataCellStyleConcept)
+
+* [DataCellStyle Demo](http://demo.realgrid.com/Demo/DataCellStyleConcept)

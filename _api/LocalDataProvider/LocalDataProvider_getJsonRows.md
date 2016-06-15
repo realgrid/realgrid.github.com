@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 지정한 범위 내의 데이터행들을 JSON 객체의 배열로 가져온다.
+ 지정한 범위 내의 데이터행들을 JSON 객체의 배열로 가져온다.
 
 #### Syntax
 
@@ -40,7 +40,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var rows = provider.getJsonRows(10, 19);
+var rows = dataProvider.getJsonRows(10, 19);
 </pre>
 
 

@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 지정한 영역의 스타일 값들을 모두 제거해서 기본값을 따르게 한다.  
+ 지정한 영역의 스타일 값들을 모두 제거해서 기본값을 따르게 한다.  
 
 #### Syntax
 
@@ -34,9 +34,15 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.clearStyles("header");
+gridView.clearStyles("header");
 </pre>
 
+---
+
+#### API Links
+
+* [setStyles](/api/GridBase/setStyles) 
+
 #### Demo Links
-> [setStyles](/api/GridBase/setStyles)  
-> [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)
+
+* [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)

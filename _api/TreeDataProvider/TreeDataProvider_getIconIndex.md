@@ -10,7 +10,7 @@ permalink: /api/TreeDataProvider/getIconIndex/
 
 #### Description
 
-> 트리 행에 표시된 아이콘 인덱스를 가져온다.  
+ 트리 행에 표시된 아이콘 인덱스를 가져온다.  
 
 #### Syntax
 
@@ -30,11 +30,11 @@ permalink: /api/TreeDataProvider/getIconIndex/
 #### Examples 
 
 <pre class="prettyprint">
-    var icon = treeProvider.getIconIndex(2);
+var icon = treeProvider.getIconIndex(2);
 </pre>
 
 ---
 
 #### Demo Links
 
-> [Lazy Loading Csv](http://demo.realgrid.net/Demo/TreeLazyLoading2){:target="_blank"} 참조   
+* [Lazy Loading Csv](http://demo.realgrid.net/Demo/TreeLazyLoading2){:target="_blank"} 

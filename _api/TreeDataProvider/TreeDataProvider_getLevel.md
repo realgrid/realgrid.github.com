@@ -10,7 +10,7 @@ permalink: /api/TreeDataProvider/getLevel/
 
 #### Description
 
-> 트리에서 지정된 rowId의 레벨을 가져온다.  
+ 트리에서 지정된 rowId의 레벨을 가져온다.  
 
 #### Syntax
 
@@ -30,6 +30,6 @@ permalink: /api/TreeDataProvider/getLevel/
 #### Examples 
 
 <pre class="prettyprint">
-    var level = treeProvider.getLevel(10);
+var level = treeProvider.getLevel(10);
 </pre>
 

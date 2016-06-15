@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 지정한 데이터행을 JSON 객체로 가져온다.
+ 지정한 데이터행을 JSON 객체로 가져온다.
 
 #### Syntax
 
@@ -34,7 +34,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var row = provider.getJsonRow(10);
+var row = dataProvider.getJsonRow(10);
 </pre>
 
 

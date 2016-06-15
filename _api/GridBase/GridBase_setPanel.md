@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 그리드 Panel과 관련된 정보들을 설정한다. [Panel](/api/types/Panel/)이 설정 모델이다.
+ 그리드 Panel과 관련된 정보들을 설정한다. [Panel](/api/types/Panel/)이 설정 모델이다.
 
 #### Syntax
 
@@ -33,12 +33,15 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.setPanel({
-        minHeight: 30,
-        visible: true,
-        ...
-    });
+gridView.setPanel({
+    minHeight: 30,
+    visible: true,
+    ...
+});
 </pre>
 
-#### Demo Links
-> [getPanel](/api/GridBase/getPanel)
+---
+
+#### API Links
+
+* [getPanel](/api/GridBase/getPanel)

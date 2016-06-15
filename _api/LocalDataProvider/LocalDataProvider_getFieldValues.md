@@ -181,7 +181,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정한 필드의 데이터를 지정한 범위에 맞게 객체의 배열로 가져온다.
+ 지정한 필드의 데이터를 지정한 범위에 맞게 객체의 배열로 가져온다.
 
 #### Syntax
 
@@ -218,4 +218,4 @@ $("#button1").click(function(){
 
 #### Demo Links
 
-> [GetValues](http://demo.realgrid.com/Demo/GetValues#.example){:target="_blank"} 참조
+* [GetValues](http://demo.realgrid.com/Demo/GetValues){:target="_blank"}

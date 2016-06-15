@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 입력된 [아이템](/api/features/Grid%20Item/)행의 index가 체크되어있는지 확인한다.
+ 입력된 [아이템](/api/features/Grid%20Item/)행의 index가 체크되어있는지 확인한다.
 
 #### Syntax
 
@@ -32,11 +32,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    treeView.isCheckedItem(0);    
+treeView.isCheckedItem(0);    
 </pre>
 
 ---
 
 #### Demo Links
 
-> [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"} 참조    
+* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"} 

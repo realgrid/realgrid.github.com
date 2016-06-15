@@ -183,7 +183,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정한 그룹을 접는다(collapse). 
+ 지정한 그룹을 접는다(collapse). 
 
 #### Syntax
 

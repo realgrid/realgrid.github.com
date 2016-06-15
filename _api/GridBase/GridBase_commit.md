@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 편집 중인 행의 편집을 완료하고 DataProvider에 저장한다.  
+ 편집 중인 행의 편집을 완료하고 DataProvider에 저장한다.  
 
 #### Syntax
 
@@ -33,8 +33,12 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.commit(false)
+gridView.commit(false)
 </pre>
 
-#### Demo Links
-> [cancel](/api/GridBase/cancel), [commitEditor](/api/GridBase/commitEditor)  
+---
+
+#### API Links
+
+* [cancel](/api/GridBase/cancel)
+* [commitEditor](/api/GridBase/commitEditor)  

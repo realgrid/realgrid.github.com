@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 컬럼 단위 혹은, 행 단위 데이터 검증 조건과 방식을 지정한다.
+ 컬럼 단위 혹은, 행 단위 데이터 검증 조건과 방식을 지정한다.
 
 #### Properties
 
@@ -58,28 +58,29 @@ tags:
 ### Example  
 
 <pre class="prettyprint">
-    validations = [{
-        criteria: "value['CustomerID'] is not empty",
-        message: "CustomerID는 반드시 필요합니다.",
-        mode: "always",
-        level: "error"
-    }, {
-        criteria: "(values['Quantity'] >= 100) and (values['UnitPrice'] >= 50)",
-        message: "Quantity는 100보다 크고 UnitPrice는 50보다 커야합니다!",
-        mode: "always",
-        level: "error"
-    }, {
-        criteria: "values['Quantity'] <= 200",
-        message: "Quantity는 200보다 작아야 합니다",
-        mode: "always",
-        level: "warning"
-    }];
- 
-    gridView.setValidations(validations);
+validations = [{
+    criteria: "value['CustomerID'] is not empty",
+    message: "CustomerID는 반드시 필요합니다.",
+    mode: "always",
+    level: "error"
+}, {
+    criteria: "(values['Quantity'] >= 100) and (values['UnitPrice'] >= 50)",
+    message: "Quantity는 100보다 크고 UnitPrice는 50보다 커야합니다!",
+    mode: "always",
+    level: "error"
+}, {
+    criteria: "values['Quantity'] <= 200",
+    message: "Quantity는 200보다 작아야 합니다",
+    mode: "always",
+    level: "warning"
+}];
+
+gridView.setValidations(validations);
 </pre>
 
-#### See Also
+---
 
-> [Column Validation](http://demo.realgrid.com/Demo/EditColumnValidation) 참조  
-> [Row Validation](http://demo.realgrid.com/Demo/EditRowValidation) 참조  
+#### Demo Links
+
+* [Column Validation](http://demo.realgrid.com/Demo/EditColumnValidation)* [Row Validation](http://demo.realgrid.com/Demo/EditRowValidation)
 

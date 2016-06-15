@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 모든 조상 행들의 [아이템](/api/features/Grid%20Item/)의 index를 가져온다.
+ 모든 조상 행들의 [아이템](/api/features/Grid%20Item/)의 index를 가져온다.
 
 #### Syntax
 
@@ -38,6 +38,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-   var items = treeView.getAncestors(5, false);  
+var items = treeView.getAncestors(5, false);  
 </pre>
 

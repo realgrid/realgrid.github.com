@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 사용자가 checkBar의 체크박스를 클릭하거나 [GridBase checkItem](/api/GridBase/checkItem/)을 호출하여 체크를 변경한 경우 호출된다.  
+ 사용자가 checkBar의 체크박스를 클릭하거나 [GridBase checkItem](/api/GridBase/checkItem/)을 호출하여 체크를 변경한 경우 호출된다.  
 
 #### Syntax
 
@@ -42,10 +42,17 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onItemChecked = function (grid, itemIndex, checked) {
-        console.log("onItemChecked:",grid.id, itemIndex, checked);
-    };
+gridView.onItemChecked = function (grid, itemIndex, checked) {
+    console.log("onItemChecked:",grid.id, itemIndex, checked);
+};
 </pre>
 
+---
+
+#### API Links
+
+* [CheckBar](/api/types/CheckBar)
+
 #### Demo Links
-> [CheckBar](/api/types/CheckBar), [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+
+* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

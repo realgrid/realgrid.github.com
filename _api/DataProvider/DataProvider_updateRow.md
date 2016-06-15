@@ -188,7 +188,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정한 데이터행의 필드 값들을 수정한다. values 매개변수로 넘겨지는 값은 Array이거나 Json 객체일 수 있다.
+ 지정한 데이터행의 필드 값들을 수정한다. values 매개변수로 넘겨지는 값은 Array이거나 Json 객체일 수 있다.
 
 #### Syntax
 
@@ -235,4 +235,4 @@ $("#button1").click(function(){
 
 #### Demo Links
 
-> [AddMultiRows](http://demo.realgrid.com/Demo/AddMultiRows#.example)참조
+* [AddMultiRows](http://demo.realgrid.com/Demo/AddMultiRows#.example)

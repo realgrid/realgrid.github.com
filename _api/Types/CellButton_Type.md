@@ -69,7 +69,6 @@ var columns = [{
 gridView.setColumns(columns);
 </pre>
 
-
 ---
 
 #### Tutorial Links

@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 마지막 데이터행 다음 부터 하나 이상의 행을 추가한다.
+ 마지막 데이터행 다음 부터 하나 이상의 행을 추가한다.
 
 #### Syntax
 
@@ -49,7 +49,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var rows = [[], {}, []...];
-    dataProvider.addRows(rows, 0, -1);
+var rows = [[], {}, []...];
+dataProvider.addRows(rows, 0, -1);
 </pre>
 

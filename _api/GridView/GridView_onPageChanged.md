@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드가 [Paging](/api/features/Paging/) 상태일 때, 다른 페이지로 이동한 후 호출된다.
+ 그리드가 [Paging](/api/features/Paging/) 상태일 때, 다른 페이지로 이동한 후 호출된다.
 
 #### Syntax
 
@@ -35,13 +35,13 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    gridView.onPageChanged =  function (grid, page) {
-        alert("Page moved to " + page);
-    }
+gridView.onPageChanged =  function (grid, page) {
+    alert("Page moved to " + page);
+}
 </pre>
 
 ---
 
-#### See Also
+#### Demo Links
 
-> [PagingLazyLoading](http://demo.realgrid.com/Demo/PagingLazyLoading2#.example){:target="_blank"} 참조
+* [PagingLazyLoading](http://demo.realgrid.com/Demo/PagingLazyLoading){:target="_blank"}

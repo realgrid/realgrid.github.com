@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-기간 등 일정 범위 내의 데이터 흐름을 간략하고 직관적으로 표시하는 데 사용될 수 있다.
+ 기간 등 일정 범위 내의 데이터 흐름을 간략하고 직관적으로 표시하는 데 사용될 수 있다.
 
 #### Properties
 
@@ -46,4 +46,8 @@ tags:
 > 하나의 스파크 컬럼 막대그래프가 차지하는 비율. 최대 1을 넘지 않는다.  
 > ex) 스파크 컬럼 막대그래프의 비율 = RealGrid.column.width / 그려지는 스파크 컬럼의 개수 ** barWidth
 
+---
 
+#### Demo Links
+
+* [Spark Line Renderer](http://demo.realgrid.com/Demo/SparkLineRenderer){:target="_blank"}

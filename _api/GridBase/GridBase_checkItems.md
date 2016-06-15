@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 입력된 아이템배열에 해당하는 아이템을 체크하거나 해제한다.  
+ 입력된 아이템배열에 해당하는 아이템을 체크하거나 해제한다.  
 
 #### Syntax
 
@@ -41,6 +41,15 @@ tags:
     gridView.checkItems([0,1,2,3],true);    
 </pre>
 
+---
+
+#### API Links
+
+* [checkAll](/api/GridBase/checkAll)
+* [checkItem](/api/GridBase/checkItem)
+* [setCheckable](/api/GridBase/setCheckable)
+* [setCheckableExpression](/api/GridBase/setCheckableExpression) 
+
 #### Demo Links
-> [checkAll](/api/GridBase/checkAll), [checkItem](/api/GridBase/checkItem), [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)  
-> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+
+* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

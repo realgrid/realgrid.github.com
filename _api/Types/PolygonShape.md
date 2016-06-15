@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> Shape의 유형을 정의합니다.
+ Shape의 유형을 정의합니다.
 
 #### Memebers
 
@@ -66,9 +66,11 @@ tags:
 > Value: "equal"           
 > 등호         
 
-#### Description
+---
 
-> [Shape Cell Renderer](http://demo.realgrid.net/Demo/ShapeCellRenderer) 참조
+#### Demo Links
+
+* [Shape Cell Renderer](http://demo.realgrid.net/Demo/ShapeCellRenderer)
 
 
 

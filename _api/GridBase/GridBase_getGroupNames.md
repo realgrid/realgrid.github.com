@@ -11,8 +11,8 @@ deprecated: true
 
 #### Description
 
-> deprecated 대상  
-> 대신 [getColumnGroupNames](/api/GridBase/getColumnGroupNames/)을 사용하세요.
+ deprecated 대상  
+ 대신 [getColumnGroupNames](/api/GridBase/getColumnGroupNames/)을 사용하세요.
 
 #### Syntax
 
@@ -30,7 +30,7 @@ deprecated: true
 #### Examples 
 
 <pre class="prettyprint">
-var groups = grid.getGroupNames();
+var groups = gridView.getGroupNames();
 </pre>
 
 

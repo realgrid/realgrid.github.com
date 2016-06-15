@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 그리드에서 사용자가 데이터를 편집하는 것에 대한 설정 모델이다.
+ 그리드에서 사용자가 데이터를 편집하는 것에 대한 설정 모델이다.
 
 #### Properties
 
@@ -215,22 +215,25 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-    gridView.setEditOptions({
-        deletable: true,
-        deleteRowsConfirm: true,
-        deleteRowsMessage: "Are you sure?",
-        insertable: true,
-        appendable: true
-    });
+gridView.setEditOptions({
+    deletable: true,
+    deleteRowsConfirm: true,
+    deleteRowsMessage: "Are you sure?",
+    insertable: true,
+    appendable: true
+});
 </pre>
+
+---
+
+#### API Links
+ 
+* [setEditOptions](/api/GridBase/setColumnHeaderOptions/)   
+* [getEditOptions](/api/GridBase/getColumnHeaderOptions/) 
 
 #### Demo Links
 
-> [Inserting](http://demo.realgrid.com/Demo/Inserting) 참조  
-> [Updating Rows](http://demo.realgrid.com/Demo/Updating) 참조  
-> [Delete Rows](http://demo.realgrid.com/Demo/Deleting) 참조  
-> [Editors](http://demo.realgrid.com/Demo/Editors) 참조  
- 
-> [setEditOptions](/api/GridBase/setColumnHeaderOptions/)   
-> [getEditOptions](/api/GridBase/getColumnHeaderOptions/)   
-
+* [Inserting](http://demo.realgrid.com/Demo/Inserting) 
+* [Updating Rows](http://demo.realgrid.com/Demo/Updating)  
+* [Delete Rows](http://demo.realgrid.com/Demo/Deleting) 
+* [Editors](http://demo.realgrid.com/Demo/Editors)

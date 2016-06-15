@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 그리드 Indicator에 대한 설정 모델이다. Indicator는 행 번호를 표시하거나, 포커스 된 행의 위치 등을 표시한다.
+ 그리드 Indicator에 대한 설정 모델이다. Indicator는 행 번호를 표시하거나, 포커스 된 행의 위치 등을 표시한다.
 
 #### Properties
 
@@ -101,15 +101,15 @@ gridView.setIndicator({
 	headImageUrl: "/img/common/dot_arrow2_top.gif",
 	footImageUrl: "/img/common/dot_arrow2_bottom.gif"
 })
-
 </pre>
 
 ---
 
+#### API Links
+
+* [setIndicator](/api/GridBase/setIndicator/)   
+* [getIndicator](/api/GridBase/getIndicator/) 
+
 #### Demo Links
 
-> [Indicator](http://demo.realgrid.com/Demo/Indicator){:target="_blank"} 참조
-
-
-> [setIndicator](/api/GridBase/setIndicator/)   
-> [getIndicator](/api/GridBase/getIndicator/)     
+* [Indicator](http://demo.realgrid.com/Demo/Indicator){:target="_blank"}

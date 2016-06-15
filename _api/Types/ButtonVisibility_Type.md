@@ -40,48 +40,48 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-    var columns = [{
-        "name": "OrderID",
-        "fieldName": "OrderID",
-        "type": "data",
-        "width": "90",
-        "button": "action",
-        "buttonVisibility": "always",
-        "styles": {
-            "textAlignment": "near"
-        },
-        "header": {
-            "text": "Order"
-        }
-    }, {
-        "name": "CustomerID",
-        "fieldName": "CustomerID",
-        "type": "data",
-        "width": "130",
-        "button": "action",
-        "buttonVisibility": "visible",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Customer ID"
-        }
-    }, {
-        "name": "EmployeeID",
-        "fieldName": "EmployeeID",
-        "type": "data",
-        "width": "100",
-        "editButtonVisibility": "visible",
-        "lables": ["ID1", "ID2"],
-        "values": ["V1", "V2"],
-        "editor": {
-            type: "dropdown"
-        },
-        "header": {
-            "text": "Employee ID"
-        }
-    }]
-    gridView.setColumns(columns);
+var columns = [{
+    "name": "OrderID",
+    "fieldName": "OrderID",
+    "type": "data",
+    "width": "90",
+    "button": "action",
+    "buttonVisibility": "always",
+    "styles": {
+        "textAlignment": "near"
+    },
+    "header": {
+        "text": "Order"
+    }
+}, {
+    "name": "CustomerID",
+    "fieldName": "CustomerID",
+    "type": "data",
+    "width": "130",
+    "button": "action",
+    "buttonVisibility": "visible",
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "Customer ID"
+    }
+}, {
+    "name": "EmployeeID",
+    "fieldName": "EmployeeID",
+    "type": "data",
+    "width": "100",
+    "editButtonVisibility": "visible",
+    "lables": ["ID1", "ID2"],
+    "values": ["V1", "V2"],
+    "editor": {
+        type: "dropdown"
+    },
+    "header": {
+        "text": "Employee ID"
+    }
+}]
+gridView.setColumns(columns);
 </pre>
 
 ---

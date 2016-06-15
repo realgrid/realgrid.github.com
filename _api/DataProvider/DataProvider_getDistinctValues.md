@@ -175,7 +175,7 @@ function setColumns(grid) {
 
 #### Description
 
-> 지정한 필드로 Ascending Sort 후 같은 필드 데이터는 중복 제거하고 지정한 개수만큼 가져온다.
+ 지정한 필드로 Ascending Sort 후 같은 필드 데이터는 중복 제거하고 지정한 개수만큼 가져온다.
 
 #### Syntax
 

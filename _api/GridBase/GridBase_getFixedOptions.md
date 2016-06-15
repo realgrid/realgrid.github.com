@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 고정 영역에 관한 설정 정보들을 가져온다. [FixedOptions](/api/types/FixedOptions/)가 설정 모델이다.
+ 그리드 고정 영역에 관한 설정 정보들을 가져온다. [FixedOptions](/api/types/FixedOptions/)가 설정 모델이다.
 
 #### Syntax
 
@@ -37,6 +37,13 @@ if (options) {
 }
 </pre>
 
+---
+
+#### API Links
+
+* [setFixedOptions](/api/GridBase/setFixedOptions) 
+
 #### Demo Links
-> [setFixedOptions](/api/GridBase/setFixedOptions)  
-> [ColumnFixed Demo](http://demo.realgrid.com/Demo/ColumnFixing), [RowFixed Demo](http://demo.realgrid.com/Demo/FixedRows)
+
+* [ColumnFixed Demo](http://demo.realgrid.com/Demo/ColumnFixing)
+* [RowFixed Demo](http://demo.realgrid.com/Demo/FixedRows)

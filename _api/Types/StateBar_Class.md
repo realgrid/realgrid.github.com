@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-StateBar와 관련된 설정 모델이다. StateBar는 행들의 상태를 표시하는 수직 Bar다. 
+ StateBar와 관련된 설정 모델이다. StateBar는 행들의 상태를 표시하는 수직 Bar다. 
 
 #### Properties
 
@@ -61,28 +61,30 @@ StateBar와 관련된 설정 모델이다. StateBar는 행들의 상태를 표�
 #### Examples
 
 <pre class="prettyprint">
-	gridView.setStateBar({
-	    width: 20,
-	    visible: true,
-	    mark: "text",
-	    stateTexts: {
-	        created: "C",
-	        updated: "U",
-	        deleted: "D",
-	        createAndDeleted: "X"
-	    },
-		headText: "head",
-		footText: "foot",
-		headImageUrl: "/img/common/dot_arrow2_top.gif",
-		footImageUrl: "/img/common/dot_arrow2_bottom.gif"
-	});
+gridView.setStateBar({
+    width: 20,
+    visible: true,
+    mark: "text",
+    stateTexts: {
+        created: "C",
+        updated: "U",
+        deleted: "D",
+        createAndDeleted: "X"
+    },
+	headText: "head",
+	footText: "foot",
+	headImageUrl: "/img/common/dot_arrow2_top.gif",
+	footImageUrl: "/img/common/dot_arrow2_bottom.gif"
+});
 </pre>
 
 ---
 
+#### API Links
+
+* [setStateBar](/api/GridBase/setStateBar/)   
+* [getStateBar](/api/GridBase/getStateBar/) 
+
 #### Demo Links
 
-> [StateBar](http://demo.realgrid.com/Demo/StateBar) 참조  
-
-> [setStateBar](/api/GridBase/setStateBar/)   
-> [getStateBar](/api/GridBase/getStateBar/)     
+* [StateBar](http://demo.realgrid.com/Demo/StateBar) 

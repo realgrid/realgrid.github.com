@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> loadData()에서 사용하는 clientPolicy의 타입. 데이터 로드 정책을 결정한다.
+ loadData()에서 사용하는 clientPolicy의 타입. 데이터 로드 정책을 결정한다.
 
 #### Properties
 
@@ -35,5 +35,3 @@ tags:
 > **DELAY**  
 > Value: "delay"  
 > 로딩이 완료된 데이터셋을 보관한 후 사용자 편집이 완료된 후 가능한 시점에 Data Provider에 저장한다. 저장될 때 Data Provider의 onDataSaved 콜백이 호출된다.
-
-

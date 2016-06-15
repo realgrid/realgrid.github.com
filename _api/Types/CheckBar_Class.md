@@ -18,7 +18,7 @@ tags:
 
 #### Description
 
-> CheckBar와 관련된 설정 모델이다. CheckBar는 행들의 Check 상태를 표시하는 수직 Bar다. 
+ CheckBar와 관련된 설정 모델이다. CheckBar는 행들의 Check 상태를 표시하는 수직 Bar다. 
 
 #### Properties
 
@@ -85,43 +85,48 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-	var options = {
-        checkableExpression: "state = 'c'"
-        checkableOnly: true,
-        exclusive: false,
-        showAll: true,
-        showGroup: true,
-        visible: true,
-        visibleOnly: false,
-        width: 20,
-        headText: "head",
-        footText: "foot",
-        headImageUrl: "/img/common/dot_arrow2_top.gif",
-        footImageUrl: "/img/common/dot_arrow2_bottom.gif"
-	}
-	gridView.setCheckBar(options);
+var options = {
+      checkableExpression: "state = 'c'"
+      checkableOnly: true,
+      exclusive: false,
+      showAll: true,
+      showGroup: true,
+      visible: true,
+      visibleOnly: false,
+      width: 20,
+      headText: "head",
+      footText: "foot",
+      headImageUrl: "/img/common/dot_arrow2_top.gif",
+      footImageUrl: "/img/common/dot_arrow2_bottom.gif"
+}
+gridView.setCheckBar(options);
 </pre>
+
+---
+
+#### API Links
+
+* [setCheckBar](/api/GridBase/setCheckBar)  
+* [getCheckBar](/api/GridBase/getCheckBar)  
+* [applyCheckables](/api/GridBase/applyCheckables)  
+* [checkAll](/api/GridBase/checkAll)  
+* [checkItem](/api/GridBase/checkItem)  
+* [checkItems](/api/GridBase/checkItems)  
+* [checkRow](/api/GridBase/checkRow)  
+* [checkRows](/api/GridBase/checkRows)  
+* [isAllChecked](/api/GridBase/isAllChecked)  
+* [isCheckable](/api/GridBase/isCheckable)  
+* [isCheckedItem](/api/GridBase/isCheckedItem)  
+* [isCheckedRow](/api/GridBase/isCheckedRow)  
+* [resetCheckables](/api/GridBase/resetCheckables)  
+* [setAllCheck](/api/GridBase/setAllCheck)  
+* [setCheckable](/api/GridBase/setCheckable)  
+* [setCheckableExpression](/api/GridBase/setCheckableExpression)  
 
 #### Demo Links 
 
-> [CheckBar](http://demo.realgrid.net/Demo/CheckBar)  
+* [CheckBar](http://demo.realgrid.net/Demo/CheckBar)  
 
-> [setCheckBar](/api/GridBase/setCheckBar)  
-> [getCheckBar](/api/GridBase/getCheckBar)  
-> [applyCheckables](/api/GridBase/applyCheckables)  
-> [checkAll](/api/GridBase/checkAll)  
-> [checkItem](/api/GridBase/checkItem)  
-> [checkItems](/api/GridBase/checkItems)  
-> [checkRow](/api/GridBase/checkRow)  
-> [checkRows](/api/GridBase/checkRows)  
-> [isAllChecked](/api/GridBase/isAllChecked)  
-> [isCheckable](/api/GridBase/isCheckable)  
-> [isCheckedItem](/api/GridBase/isCheckedItem)  
-> [isCheckedRow](/api/GridBase/isCheckedRow)  
-> [resetCheckables](/api/GridBase/resetCheckables)  
-> [setAllCheck](/api/GridBase/setAllCheck)  
-> [setCheckable](/api/GridBase/setCheckable)  
-> [setCheckableExpression](/api/GridBase/setCheckableExpression)  
 
 
 

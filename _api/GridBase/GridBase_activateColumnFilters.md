@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> [DataColumn](/api/types/DataColumn)에 등록된 [ColumnFilter](/api/types/ColumnFilter)들 중, filterNames 배열에 포함된 필터명을 갖는 filter들을 적용시키거나 해제한다.
+ [DataColumn](/api/types/DataColumn)에 등록된 [ColumnFilter](/api/types/ColumnFilter)들 중, filterNames 배열에 포함된 필터명을 갖는 filter들을 적용시키거나 해제한다.
 
 #### Syntax
 
@@ -39,12 +39,20 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var aColumn = gridView.columnByField("content");
-    gridView.activateColumnFilters(aColumn, ["filter1", "filter2", "filter3"], true);
-    ....
-    gridView.activateColumnFilters("col1", "filter1", false);
+var aColumn = gridView.columnByField("content");
+gridView.activateColumnFilters(aColumn, ["filter1", "filter2", "filter3"], true);
+....
+gridView.activateColumnFilters("col1", "filter1", false);
 </pre>
 
+---
+
+#### API Links
+
+* [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters)
+* [setColumnFilters](/api/GridBase/setColumnFilters)
+* [clearColumnFilters](/api/GridBase/setColumnFilters)  
+
 #### Demo Links
-> [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters), [setColumnFilters](/api/GridBase/setColumnFilters), [clearColumnFilters](/api/GridBase/setColumnFilters)  
-> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+
+* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

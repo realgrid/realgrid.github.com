@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 Item의 상태값을 가져온다.  
+ 그리드 Item의 상태값을 가져온다.  
 
 #### Syntax
 
@@ -35,9 +35,12 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    idx = gridView.getCurrent().itemIndex;
-    consloe.log(grdMain.getItemState(idx));
+idx = gridView.getCurrent().itemIndex;
+consloe.log(grdMain.getItemState(idx));
 </pre>
 
-#### Demo Links
-> [getRowState](/api/dataProvider/getRowState)
+---
+
+#### API Links
+
+* [getRowState](/api/dataProvider/getRowState)

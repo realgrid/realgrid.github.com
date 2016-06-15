@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 그리드 헤더 영역에 표시되는 컬럼 헤더에 대한 설정 정보를 관리한다.
+ 그리드 헤더 영역에 표시되는 컬럼 헤더에 대한 설정 정보를 관리한다.
 
 #### Properties
 
@@ -93,65 +93,69 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
-        "name": "Country",
-        "fieldName": "Country",
-        "width": "90",
-        "tag": "grouping",
-        "styles": {
-            "textAlignment": "near"
-        },
-        "header": {
-            "text": "Country",
-            "imageLocation": "left",
-            "imageUrl": "/img/common/realgridsmall.png"
-   
-        }
-    }, {
-        "name": "OrderID",    
-        "fieldName": "OrderID",
-        "width": "120",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Order ID",
-            "subText": "주문번호",
-            "subTextLocation": "right",
-            "subTextGap": 4,
-            "subStyles": { "foreground": "#ffff0000", "fontSize": 10 }
-        }        
-    }, {
-        "name": "OrderDate",
-        "fieldName": "OrderDate",
-        "width": "130",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Order Date",
-            "checkLocation": "left"
-        }
-    }, {
-        "name": "Phone",
-        "fieldName": "Phone",
-        "width": "80",
-        "styles": {
-            "textAlignment": "near"
-        },
-        "header": {
-            "text": "Phone"
-        }        
-	}];
-	
-	gridView.setColumns(columns);
+var columns = [{
+    "name": "Country",
+    "fieldName": "Country",
+    "width": "90",
+    "tag": "grouping",
+    "styles": {
+        "textAlignment": "near"
+    },
+    "header": {
+        "text": "Country",
+        "imageLocation": "left",
+        "imageUrl": "/img/common/realgridsmall.png"
+
+    }
+}, {
+    "name": "OrderID",    
+    "fieldName": "OrderID",
+    "width": "120",
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "Order ID",
+        "subText": "주문번호",
+        "subTextLocation": "right",
+        "subTextGap": 4,
+        "subStyles": { "foreground": "#ffff0000", "fontSize": 10 }
+    }        
+}, {
+    "name": "OrderDate",
+    "fieldName": "OrderDate",
+    "width": "130",
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "Order Date",
+        "checkLocation": "left"
+    }
+}, {
+    "name": "Phone",
+    "fieldName": "Phone",
+    "width": "80",
+    "styles": {
+        "textAlignment": "near"
+    },
+    "header": {
+        "text": "Phone"
+    }        
+}];
+
+gridView.setColumns(columns);
 </pre>
+
+---
+
+#### API Links
+
+* [SubTextLocation](/api/types/subTextLocation)   
+* [ColumnHeaderItemLocation](/api/types/ColumnHeaderItemLocation) 
 
 #### Demo Links 
 
-> [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 참조  
-> [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage) 참조  
-> [Column HeaderSubText](http://demo.realgrid.net/Demo/HeaderSubText) 참조  
-
-> [SubTextLocation](/api/types/subTextLocation)   
-> [ColumnHeaderItemLocation](/api/types/ColumnHeaderItemLocation)   
+* [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 
+* [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage)
+* [Column HeaderSubText](http://demo.realgrid.net/Demo/HeaderSubText)

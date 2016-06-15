@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드 Footer와 관련된 설정 정보들을 가져온다. [Footer](/api/types/Footer/)가 설정 모델이다.
+ 그리드 Footer와 관련된 설정 정보들을 가져온다. [Footer](/api/types/Footer/)가 설정 모델이다.
 
 #### Syntax
 
@@ -36,6 +36,12 @@ if (footer) {
 }
 </pre>
 
+---
+
+#### API Links
+
+* [setFooter](/api/GridBase/setFooter)  
+
 #### Demo Links
-> [setFooter](/api/GridBase/setFooter)  
-> [Column Footer](http://demo.realgrid.com/Demo/ColumnFooter)
+
+* [Column Footer](http://demo.realgrid.com/Demo/ColumnFooter)

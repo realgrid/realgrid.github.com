@@ -175,7 +175,7 @@ function setColumns(grid) {
 
 #### Description
 
-> DataProvider에 저장된 데이터행의 개수를 가져온다.
+ DataProvider에 저장된 데이터행의 개수를 가져온다.
 
 #### Syntax
 

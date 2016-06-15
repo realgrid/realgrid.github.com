@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 지정한 ItemIndex가 그룹 아이템인지 확인한다.
+ 지정한 ItemIndex가 그룹 아이템인지 확인한다.
 
 #### Syntax
 
@@ -34,11 +34,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var bGroupItem = gridView.isGroupItem(1);
+var bGroupItem = gridView.isGroupItem(1);
 </pre>
 
 ---
 
 #### Demo Links
 
-> [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"} 참조
+* [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"}

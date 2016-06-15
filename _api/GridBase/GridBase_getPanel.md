@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 Panel에 대한 설정 정보들을 가져온다. [Panel](/api/types/Panel/)이 설정 모델이다.
+ 그리드 Panel에 대한 설정 정보들을 가져온다. [Panel](/api/types/Panel/)이 설정 모델이다.
 
 #### Syntax
 
@@ -34,5 +34,8 @@ tags:
 var panelOptions = grid.getPanel();
 </pre>
 
-#### Demo Links
-> [setPanel](/api/GridBase/setPanel)
+---
+
+#### API Links
+
+* [setPanel](/api/GridBase/setPanel)

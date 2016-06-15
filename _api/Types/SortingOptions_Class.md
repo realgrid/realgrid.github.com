@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-컬럼 정렬과 관련된 설정 모델이다. 
+ 컬럼 정렬과 관련된 설정 모델이다.  
 style이 "exclusive"일 때 Shift키와 함께 컬럼 헤더를 클릭하면 "inclusive"처럼 동작한다.  
 
 #### Properties
@@ -73,16 +73,17 @@ style이 "exclusive"일 때 Shift키와 함께 컬럼 헤더를 클릭하면 "in
 > Type: object
 > ascending, descending, hoveredAscending, hoveredDescending, none, hoveredNone 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
 
-#### Examples s
+#### Examples
 
 **다중컬럼 정렬이 가능하도록 설정하기**
 
 <pre class="prettyprint">
-    var options = {};
-    options.style = "inclusive";
-    gridView.setSortingOptions(options);
+var options = {};
+options.style = "inclusive";
+gridView.setSortingOptions(options);
 </pre>
 
+---
     
 #### API Links
 

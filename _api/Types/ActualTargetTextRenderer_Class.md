@@ -47,32 +47,32 @@ ActualTarget text renderer 는 "실행값 / 목표값" 형식으로 표시한다
 #### Examples   
 
 <pre class="prettyprint">
-	var fields = [{
-	    fieldName: "target",
-	    dataType: "number"
-	}, {
-	    fieldName: "actual",
-	    dataType: "number"
-	}];
-	dataProvider.setFields(fields);
-	
-	var columns = [{
-	    name: "colText",
-        type: "series",
-        fieldNames: "target,actual",
-        fillHeight: 100,
-        renderer: {
-            type: "actualTargetText",
-            actualFont: "Arial,30,bold",
-            actualForeground: "#ff888888",
-            dynamicStyles: [{
-                criteria: "value[1] / value[0] >= 1.0",
-                styles: "actualForeground=#ffff0000"
-            }]
-        },
-        header: { text: "Text" }
-	}]
-	gridView.setColumns(columns);
+var fields = [{
+    fieldName: "target",
+    dataType: "number"
+}, {
+    fieldName: "actual",
+    dataType: "number"
+}];
+dataProvider.setFields(fields);
+
+var columns = [{
+    name: "colText",
+    type: "series",
+    fieldNames: "target,actual",
+    fillHeight: 100,
+    renderer: {
+        type: "actualTargetText",
+        actualFont: "Arial,30,bold",
+        actualForeground: "#ff888888",
+        dynamicStyles: [{
+            criteria: "value[1] / value[0] >= 1.0",
+            styles: "actualForeground=#ffff0000"
+        }]
+    },
+    header: { text: "Text" }
+}]
+gridView.setColumns(columns);
 </pre>
 
 ---

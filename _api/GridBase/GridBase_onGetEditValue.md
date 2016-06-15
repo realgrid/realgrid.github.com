@@ -51,25 +51,26 @@ function onGetEditValue(grid, index, editResult)
 #### Examples 
 
 <pre class="prettyprint">
-    dataProvider.setFields([
-        {fieldName:"code"},
-        {fieldName:"codeName"}
-    ]);
-    ....
-    gridView.setColumns([
-        {fieldName:"code", name:"code", labels:["A","B","C"], values[1,2,3], lookupDisplay:true, labelField:"codeName", editor:{type:"dropDown"}}
-    ]);
-    ....
-    gridView.onGetEditValue = function (grid, index, editResult) {
-        if (index.column === "code") {
-            grid.setValue(index.itemIndex, "codeName", editResult.text)
-        }
-    } 
+dataProvider.setFields([
+    {fieldName:"code"},
+    {fieldName:"codeName"}
+]);
+....
+gridView.setColumns([
+    {fieldName:"code", name:"code", labels:["A","B","C"], values[1,2,3], lookupDisplay:true, labelField:"codeName", editor:{type:"dropDown"}}
+]);
+....
+gridView.onGetEditValue = function (grid, index, editResult) {
+    if (index.column === "code") {
+        grid.setValue(index.itemIndex, "codeName", editResult.text)
+    }
+} 
 </pre>
 
 ---
 
 #### Demo Links
+
 * [Column Lookup](http://demo.realgrid.com/Demo/ColumnLookup)
 * [Editors](http://demo.realgrid.com/Demo/Editors)
 

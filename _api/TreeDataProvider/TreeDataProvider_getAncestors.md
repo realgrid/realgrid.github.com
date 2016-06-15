@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 모든 조상 행들의 rowId를 가져온다.  
+ 모든 조상 행들의 rowId를 가져온다.  
 
 #### Syntax
 
@@ -39,4 +39,4 @@ tags:
 
 #### Demo Links
 
-> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조   
+* [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"}   

@@ -39,7 +39,7 @@ RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년,
 > false이면 날짜를 선택시 grid에 날짜가 입력되고 dataProvider에는 Edit종료후 반영된다.    
 
 > **editFormat**    
-> Type: String    입
+> Type: String    
 > Default: null    
 
 > **yearDisplayFormat**    
@@ -69,30 +69,30 @@ RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년,
 #### Examples   
 
 <pre class="prettyprint">
-    gridView.setColumns([{
-		"name": "OrderDate",
-		"fieldName": "OrderDate",
-		"width": "180",
-		"sortable": false,
-		"editor": {
-		    "type": "date",
-		    "datetimeFormat": "yyyy.MM.dd",
-		    "yearDisplayFormat": "{Y} Year ",   
-		    "monthDisplayFormat": "{M} Month",  
-		    "months": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
-		    "weekDays": ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'] 
-		},
-		"styles": {
-		    "textAlignment": "center",
-            "datetimeFormat": "yyyy.MM.dd"
-		},
-		"header": {
-		    "text": "Date Edit",
-		    "styles": {
-		        "background": "linear,#22ffd500,#ffffd500,90"
-		    }
-		}
-    }]);
+gridView.setColumns([{
+	"name": "OrderDate",
+	"fieldName": "OrderDate",
+	"width": "180",
+	"sortable": false,
+	"editor": {
+	    "type": "date",
+	    "datetimeFormat": "yyyy.MM.dd",
+	    "yearDisplayFormat": "{Y} Year ",   
+	    "monthDisplayFormat": "{M} Month",  
+	    "months": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
+	    "weekDays": ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'] 
+	},
+	"styles": {
+	    "textAlignment": "center",
+        "datetimeFormat": "yyyy.MM.dd"
+	},
+	"header": {
+	    "text": "Date Edit",
+	    "styles": {
+	        "background": "linear,#22ffd500,#ffffd500,90"
+	    }
+	}
+}]);
 </pre>
 
 ---

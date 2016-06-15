@@ -11,7 +11,7 @@ permalink: /api/types/ColumnHeaderOptions/
 
 #### Description
 
-> 컬럼 헤더와 관련된 옵션 정보이다.
+ 컬럼 헤더와 관련된 옵션 정보이다.
 
 #### Properties
 
@@ -57,17 +57,21 @@ permalink: /api/types/ColumnHeaderOptions/
 #### Examples   
 
 <pre class="prettyprint">
-    gridView.setColumnHeaderOptions({
-        checkColor: "ffff0000",
-        checkNoneColor: "ff00ff00",
-        ...
-    });
+gridView.setColumnHeaderOptions({
+    checkColor: "ffff0000",
+    checkNoneColor: "ff00ff00",
+    ...
+});
 </pre>
+
+---
+
+#### API Links
+
+* [setColumnHeaderOptions](/api/GridBase/setColumnHeaderOptions/)   
+* [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions/)  
 
 #### Demo Links
 
-> [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 참조  
-> [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage) 참조  
-
-> [setColumnHeaderOptions](/api/GridBase/setColumnHeaderOptions/)   
-> [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions/)   
+* [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox)  
+* [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage)  
