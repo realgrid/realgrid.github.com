@@ -1,12 +1,11 @@
 ---
 layout: tutopost
-title: A1 RealGridJS 설치하기 (v1.0.10 이상)
-date:   2015-03-29 21:13:31 +9:00 GMT
-permalink: /tutorial/a1/
-categories:
-  - Tutorial
+title: v1.0.10 이전 버전 설치하기 (v1.0.9.1988 이하)
+date:   2015-03-31 21:13:31 +9:00 GMT
+permalink: /tip/setup-oldversion/
+categories: Tutorial
 course:
-  - A-Class
+  - Tip
 tags: 
   - RealGridJS
   - RealGrid
@@ -33,46 +32,30 @@ $(document).ready( function(){
 
 ### 들어가며
 
-이번 강좌에서는 RealGridJS의 설치에 대해 배워보겠습니다. 이 강좌의 내용에 해당하는 버전은 1.0.10 이후 버전입니다.
-
-> 1.0.10 버전 보다 이전 버전의 설치 방법은 \[[v1.0.10 이전 버전 설치하기 (v1.0.9.1988 이하)](/tip/setup-oldversion)\]강좌를 참조하세요.
+이번 강좌에서는 RealGridJS의 설치에 대해 배워보겠습니다.
 
 ### 이론
 
-RealGrid를 개발 환경에 맞게 설치해 보겠습니다. 만약, RealGrid가 없다면 [평가판요청](http://www.realgrid.com/#download){:target="_blank"}페이지에서 평가판을 요청하면 메일로 평가판을 받을 수 있습니다. 메일에 포함된 RealGrid파일중 설치에 <mark>반드시 필요한 파일</mark>은 아래 다섯 개의 Javascript파일들과 RealGridJS화면 구성에 필요한 assets폴더에 들어있는 이미지 파일들 입니다.
-
-Javascript파일중 jszip.min.js파일은 엑셀파일 Import/Export에 필요한 파일이므로 엑셀파일 내보내기 기능이 필요한 화면에서는 반드시 포함시켜주셔야 합니다.
+RealGrid를 개발 환경에 맞게 설치해 보겠습니다. 만약, RealGrid가 없다면 [평가판요청](http://www.realgrid.com/#download){:target="_blank"}페이지에서 평가판을 요청하면 메일로 평가판을 받을 수 있습니다. 메일에 포함된 RealGrid파일중 설치에 <mark>반드시 필요한 파일</mark>은 아래 두 개의 javascript파일들과 RealGridJS화면 구성에 필요한 assets폴더 입니다.
 
 ***참고로 RealGridJS는 JQuery와 같은 외부 라이브러리가 필요없습니다.***    
 
-##### RealGridJS 평가용/개발자용 버전 파일
-<pre>
-/scripts/assets/
-/scripts/realgridjs-lic.js
-<mark>/scripts/realgridjs_eval.{version}.min.js</mark>
-/scripts/realgridjs-api.{version}.js.js
-/scripts/jszip.min.js
-</pre>
-
-##### RealGridJS 운영용 버전 파일
-<pre>
-/scripts/assets/
-/scripts/realgridjs-lic.js
-<mark>/scripts/realgridjs.{version}.min.js</mark>
-/scripts/realgridjs-api.{version}.js.js
-/scripts/jszip.min.js
+<pre class="prettyprint">
+/dlgrids_eval.js
+/realgridjs.js
+/jszip.min.js
+/assets/
 </pre>
 
 ### 실습
 
 이제 RealGridJS를 웹 화면에 올려 보겠습니다.   
 
-1. 세 개의 스크립트파일을 순서대로 include합니다. 반드시 아래의 순서대로 파일을 불러와야 합니다.
+1. 두 개의 스크립트파일을 순서대로 include합니다. 반드시 `dlgrigs_eval.js`파일이 먼저 와야 합니다.
 
     <pre class="prettyprint">
-    &lt;script type="text/javascript" src="/scripts/realgridjs-lic.js"&gt;&lt;/script&gt;
-    &lt;script type="text/javascript" src="/scripts/realgridjs_eval.1.0.14.min.js"&gt;&lt;/script&gt;
-    &lt;script type="text/javascript" src="/scripts/realgridjs-api.1.0.14.js"&gt;&lt;/script&gt;</pre>
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/dlgrids_eval.js&quot;&gt;&lt;/script&gt1;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/realgridjs.js&quot;&gt;&lt;/script&gt1;</pre>
 
 2. GridView객체를 저장할 gridView변수를 정의 합니다.
 
@@ -101,7 +84,6 @@ Javascript파일중 jszip.min.js파일은 엑셀파일 Import/Export에 필요�
     <pre class="prettyprint">
     &lt;div id=&quot;realgrid&quot; style=&quot;width: 100%; height: 200px;&quot;&gt;&lt;/div&gt;</pre>
     
-<!-- more -->
 
 ### 실행화면
 
@@ -115,16 +97,15 @@ Javascript파일중 jszip.min.js파일은 엑셀파일 Import/Export에 필요�
 &lt;!--RealGrid&#xb294; Jquery&#xc5c6;&#xc774;&#xb3c4; &#xc0ac;&#xc6a9;&#xd560; &#xc218; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;.--&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;/script/jquery-1.11.2.min.js&quot;&gt;&lt;/script&gt;
 &lt;!--realgrid--&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;/script/realgridjs-lic.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;/script/realgridjs_eval.1.0.14.min.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;/script/realgridjs-api.1.0.14.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;/script/jszip.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/dlgrids_eval.js&quot;&gt;&lt;/script&gt1;
+&lt;script type=&quot;text/javascript&quot; src=&quot;/script/realgridjs.js&quot;&gt;&lt;/script&gt1;
 
 &lt;script&gt;
 var gridView;
 var dataProvider;
 
 $(document).ready( function(){
+    RealGridJS.setTrace(false);
     RealGridJS.setRootContext(&quot;/script&quot;);
     
     dataProvider = new RealGridJS.LocalDataProvider();
