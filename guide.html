@@ -4,6 +4,26 @@ title: RealGrid 개발자 가이드 (Tutorial A Class)
 permalink: /guide/
 ---
 
+
+<style type="text/css" media="screen,print">
+
+    * {
+      overflow: visible !important;
+    }
+
+  .break{
+    display: block;
+    clear: both;
+    page-break-after: always;
+    border :1px solid red
+  }
+  .page-breaker {
+  display: block;
+  page-break-after: always;
+  border :1px solid red
+  }
+</style>
+
 {% assign tutorials_a = (site.posts | sort: 'date' reversed) %}
 
 <div class="row">
@@ -22,7 +42,7 @@ permalink: /guide/
 </div>
 
 {% for post in tutorials_a %}{% if post.categories contains "Tutorial" %}{% if post.course contains "A-Class" %}
-<div class="row">    
+<div class="row" style="page-break-before:always;">    
     <div class="col-md-1"></div>
     <div class="post col-md-10">
 
