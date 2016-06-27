@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> dataRow 행의 field 셀에 지정된 DataCellStyle을 가져온다.   
+ dataRow 행의 field 셀에 지정된 DataCellStyle을 가져온다.   
 
 #### Syntax
 
@@ -34,20 +34,23 @@ tags:
 > Type: string  
 > 셀 스타일 id가 반환된다.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.addCellStyle("style02", {
-        "paddingLeft": 15,
-        "background": "#000000",
-        "foreground": "#ffffff"
-    }, true);
-    gridView.setCellStyle(4, 1, "style02");
-    gridView.setCellStyle(4, 3, "style02");
-    gridView.setCellStyle(3, 2, "style02");
+gridView.addCellStyle("style02", {
+    "paddingLeft": 15,
+    "background": "#000000",
+    "foreground": "#ffffff"
+}, true);
+gridView.setCellStyle(4, 1, "style02");
+gridView.setCellStyle(4, 3, "style02");
+gridView.setCellStyle(3, 2, "style02");
 
-    gridView.getCellStyle(4, 1);
+gridView.getCellStyle(4, 1);
 </pre>
 
-#### See Also
-[DataCellStyle Demo](http://demo.realgrid.com/Demo/DataCellStyleConcept)
+---
+
+#### Demo Links
+
+* [DataCellStyle Demo](http://demo.realgrid.com/Demo/DataCellStyleConcept)

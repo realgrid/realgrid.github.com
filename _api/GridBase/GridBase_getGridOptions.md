@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드 옵션 정보를 가져온다. [setGridOptions](/api/GridBase/setGridOptions/)와 다르게 [GridOptions](/api/types/GridOptions/)에서 선언된 그리드 수준의 정보만을 반환한다.
+ 그리드 옵션 정보를 가져온다. [setGridOptions](/api/GridBase/setGridOptions/)와 다르게 [GridOptions](/api/types/GridOptions/)에서 선언된 그리드 수준의 정보만을 반환한다.
 
 #### Syntax
 
@@ -27,7 +27,7 @@ tags:
 > Type: Object  
 > 그리드 옵션 정보. [GridOptions](/api/types/GridOptions/)에서 선언된 속성들을 반환한다.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
 var options = gridView.getGridOptions();
@@ -36,7 +36,10 @@ if (options) {
 }
 </pre>
 
-#### See Also
-> [setGridOptions](/api/GridBase/setGridOptions)
+---
+
+#### API Links
+
+* [setGridOptions](/api/GridBase/setGridOptions)
 
 

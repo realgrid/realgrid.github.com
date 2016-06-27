@@ -14,13 +14,11 @@ tags:
 
 #### Description
 
-> [DataColumn](/api/types/DataColumn)에 등록된 [ColumnFilter](/api/types/ColumnFilter)들을 모두 적용시키거나 해제시킨다.  
+ [DataColumn](/api/types/DataColumn)에 등록된 [ColumnFilter](/api/types/ColumnFilter)들을 모두 적용시키거나 해제시킨다.  
 
 #### Syntax
 
-> <pre class="prettyprint">
 > function activateAllColumnFilters(column, active)
-> </pre>
 
 #### Parameters
 
@@ -36,15 +34,23 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var aColumn = grdMain.columnByField("content");
-    grdMain.activateAllColumnFilters(aColumn,true);
-    ....
-    grdMain.activateAllColumnFilters("content",false);
+var aColumn = gridView.columnByField("content");
+grdiView.activateAllColumnFilters(aColumn,true);
+....
+gridView.activateAllColumnFilters("content",false);
 </pre>
 
-#### See Also
-> [activateColumnFilters](/api/GridBase/activateColumnFilters), [setColumnFilters](/api/GridBase/setColumnFilters), [clearColumnFilters](/api/GridBase/setColumnFilters)  
-> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+---
+
+#### API Links
+
+* [activateColumnFilters](/api/GridBase/activateColumnFilters) 
+* [setColumnFilters](/api/GridBase/setColumnFilters)
+* [clearColumnFilters](/api/GridBase/setColumnFilters)  
+
+#### Demo Links
+
+* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

@@ -7,11 +7,15 @@ order: FixedOptions
 objectname: 
 directiontype: 
 permalink: /api/types/FixedOptions/
+tags: 
+  - 행고정
+  - 열고정 
+  - FixedOptions
 ---
 
 #### Description
 
-> 그리드의 고정 행 및 컬럼 영역에 대한 설정 모델이다. 그리드 위쪽에 하나 이상의 행을 수직 스크롤링에서 제외 시킬 수 있다. 또한, 하나 이상의 최상위 컬럼을 수평 스크롤에서 제외 시킬 수 있다.
+ 그리드의 고정 행 및 컬럼 영역에 대한 설정 모델이다. 그리드 위쪽에 하나 이상의 행을 수직 스크롤링에서 제외 시킬 수 있다. 또한, 하나 이상의 최상위 컬럼을 수평 스크롤에서 제외 시킬 수 있다.
 
 #### Properties
 
@@ -75,18 +79,23 @@ permalink: /api/types/FixedOptions/
 > Default: false  
 > true면 고정 컬럼 셀들에 대한 모든 동적 스타일들을 무시한다.   
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    grid.setOptions({
-        fixed: {
-            rowCount: 2,
-            colCount: 2
-        }
-    });
+gridView.setFixedOptions({
+    rowCount: 2,
+    colCount: 2
+});
 </pre>
 
-#### See Also
+---
 
-> [Fixed Columns Demo](http://demo.realgrid.net/Demo/ColumnFixing)   
-> [Fixed Rows Demo](http://demo.realgrid.net/Demo/FixedRows)
+#### API Links
+
+* [setFixedOptions](/api/GridBase/setFixedOptions/)
+* [getFixedOptions](/api/GridBase/getFixedOptions/)
+
+#### Demo Links
+
+* [Fixed Columns Demo](http://demo.realgrid.net/Demo/ColumnFixing)   
+* [Fixed Rows Demo](http://demo.realgrid.net/Demo/FixedRows)

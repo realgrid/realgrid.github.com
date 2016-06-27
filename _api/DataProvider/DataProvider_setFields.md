@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 기존 필드 정보와 데이터 행들을 모두 삭제하고 매개변수로 전달되는 필드 정보 배열로 부터 새로운 필드셋을 구성한다.  
+ 기존 필드 정보와 데이터 행들을 모두 삭제하고 매개변수로 전달되는 필드 정보 배열로 부터 새로운 필드셋을 구성한다.  
 
 #### Syntax
 
@@ -29,7 +29,7 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
     provider.setFields([{

@@ -11,7 +11,7 @@ jsonly: true
 
 #### Description
 
-> TreeView의 값이 변경된 후 commit()시 발생한다.
+ TreeView의 값이 변경된 후 commit()시 발생한다.
 
 #### Syntax
 
@@ -35,11 +35,11 @@ jsonly: true
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeView.onTreeItemChanged = function (tree, itemIndex, rowId) {
-        console.log("TreeItem item changed:: " + itemIndex);	
-    };
+treeView.onTreeItemChanged = function (tree, itemIndex, rowId) {
+    console.log("TreeItem item changed:: " + itemIndex);	
+};
 </pre>
 

@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 지정한 필터이름에 해당하는 필터를 가져온다.  
+ 지정한 필터이름에 해당하는 필터를 가져온다.  
 
 #### Syntax
 
@@ -35,30 +35,33 @@ tags:
 > 필터  
 
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.setColumns([
-    	{fieldName:"fldName1", 
-    	 name:"colName1",
-    	 filters:[
-    	 	{name:"Male",
-    	 	 criteria:"value ='male'"
-    	 	},
-    	 	{name:"Female",
-    	 	 criteria:"value = 'female'"
-    	 	}
-    	 ]},
-    	....
-    ]);
-    ....
+gridView.setColumns([
+	{fieldName:"fldName1", 
+	 name:"colName1",
+	 filters:[
+	 	{name:"Male",
+	 	 criteria:"value ='male'"
+	 	},
+	 	{name:"Female",
+	 	 criteria:"value = 'female'"
+	 	}
+	 ]},
+	....
+]);
+....
 
-    var fieldName = gridView.getCurrent().fieldName;
-    var column = gridView.columnByField(fieldName);
-    var filter = gridView.getColumnFilter(column, 'Male');
-	
-    alert(JSON.stringify(filter));				
+var fieldName = gridView.getCurrent().fieldName;
+var column = gridView.columnByField(fieldName);
+var filter = gridView.getColumnFilter(column, 'Male');
+
+alert(JSON.stringify(filter));				
 </pre>
 
-#### See Also
-> [Column Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering) 참조
+---
+
+#### Demo Links
+
+* [Column Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering) 참조

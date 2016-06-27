@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드에 설정되어 있는 컬럼 이름들을 가져온다.  
+ 그리드에 설정되어 있는 컬럼 이름들을 가져온다.  
 
 #### Syntax
 
@@ -31,11 +31,15 @@ tags:
 > Type: array of string  
 > 컬럼 이름 배열.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
 var columnNames = gridView.getColumnNames(false);
 </pre>
 
-#### See Also
-> [getColumns](/api/GridBase/getColumns), [getColumnGroupNames](/api/GridBase/getColumnGroupNames)
+---
+
+#### API Links
+
+* [getColumns](/api/GridBase/getColumns)
+* [getColumnGroupNames](/api/GridBase/getColumnGroupNames)

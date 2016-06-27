@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 표시 정보를 설정한다. [DisplayOptions](/api/types/DisplayOptions/)이 설정 모델이다.
+ 그리드 표시 정보를 설정한다. [DisplayOptions](/api/types/DisplayOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -29,16 +29,19 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.setDisplayOptions({
-        columnResizalbe: true,
-        columnMovable:false,
-        rowResizalbe: false,
-        ...
-    });
+gridView.setDisplayOptions({
+    columnResizalbe: true,
+    columnMovable:false,
+    rowResizalbe: false,
+    ...
+});
 </pre>
 
-#### See Also
-> [getDisplayOptions](/api/GridBase/getDisplayOptions)
+---
+
+#### API Links
+
+* [getDisplayOptions](/api/GridBase/getDisplayOptions)

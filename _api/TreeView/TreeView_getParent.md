@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 부모행의 [아이템](/api/features/Grid%20Item/)의 index배열을 가져온다.
+ 부모행의 [아이템](/api/features/Grid%20Item/)의 index배열을 가져온다.
 
 #### Syntax
 
@@ -30,9 +30,9 @@ tags:
 > Type: Number  
 > 부모행의 itemIndex이다.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeView.getParent(2);
+treeView.getParent(2);
 </pre>
 

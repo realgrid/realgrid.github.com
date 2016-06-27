@@ -7,12 +7,15 @@ order: RowGroupOptions
 objectname: 
 directiontype: 
 permalink: /api/types/RowGroupOptions/
+tags:
+  - 로우그룹
+  - 설정
 ---
 
 
 #### Description
 
-> Row Grouping과 관련된 영역들의 표시 방법 등에 대한 설정 모델이다.
+ Row Grouping과 관련된 영역들의 표시 방법 등에 대한 설정 모델이다.
 
 #### Properties
 
@@ -55,6 +58,35 @@ permalink: /api/types/RowGroupOptions/
 > Default: false  
 > 행 그룹핑시 그룹핑된 컬럼의 merge 표현 여부를 지정한다.  
 
-#### See Also
+> **footerStatement**  
+> Type: String  
+> Default: null  
+> 행 그룹핑시 그룹핑된 컬럼 풋터의 텍스트를 지정한다.   
 
-> [Row Grouping](http://demo.realgrid.net/Demo/RowGrouping)
+> **footerCellMerge**  
+> Type: Boolean  
+> Default: false  
+> 행 그룹핑시 그룹핑된 컬럼 풋터의 머지 여부를 지정한다.  
+
+### Example  
+
+<pre class="prettyprint">
+gridView.setRowGroup({
+    summaryMode: "aggregate",
+
+    footerStatement: "행 그룹핑된 컬럼의 풋터입니다.",
+    footerCellMerge: true,
+    ...
+});
+</pre>
+
+---
+
+#### API Links
+
+* [setRowGroup](/api/GridBase/setRowGroup/)  
+* [getRowGroup](/api/GridBase/getRowGroup/)  
+
+#### Demo Links
+
+* [Row Grouping](http://demo.realgrid.net/Demo/RowGrouping)

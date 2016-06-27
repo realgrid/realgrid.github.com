@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 그리드 CheckBar와 관련된 정보들을 설정한다. [CheckBar](/api/types/CheckBar/)이 설정 모델이다.
+ 그리드 CheckBar와 관련된 정보들을 설정한다. [CheckBar](/api/types/CheckBar/)이 설정 모델이다.
 
 #### Syntax
 
@@ -31,15 +31,28 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.setCheckBar({
-        width: 30,
-        visible: true,
-        ...
-    });
+var options = {
+      checkableExpression: "state = 'c'"
+      checkableOnly: true,
+      exclusive: false,
+      showAll: true,
+      showGroup: true,
+      visible: true,
+      visibleOnly: false,
+      width: 20,
+      headText: "head",
+      footText: "foot",
+      headImageUrl: "/img/common/dot_arrow2_top.gif",
+      footImageUrl: "/img/common/dot_arrow2_bottom.gif"
+}
+gridView.setCheckBar(options);
 </pre>
 
-#### See Also
-> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+---
+
+#### Demo Links
+
+* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

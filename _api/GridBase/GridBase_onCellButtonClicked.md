@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 사용자가 데이터셀 내부의 action 버튼을 클릭했을 때 호출된다.  
+ 사용자가 데이터셀 내부의 action 버튼을 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -38,17 +38,17 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.setColumns([
-        {fieldName:"fldName1", name:"colName1", button:"action"},
-        {fieldName:"fldname2", name:"colName2", button:"action"},
-        ....
-    ]);
+gridView.setColumns([
+    {fieldName:"fldName1", name:"colName1", button:"action"},
+    {fieldName:"fldname2", name:"colName2", button:"action"},
+    ....
+]);
 
-    gridView.onCellButtonClicked =  function (grid, itemIndex, column) {
-        alert("CellButton Clicked: itemIndex=" + itemIndex + ", fieldName=" + column.fieldName);
-    };
+gridView.onCellButtonClicked =  function (grid, itemIndex, column) {
+    alert("CellButton Clicked: itemIndex=" + itemIndex + ", fieldName=" + column.fieldName);
+};
 </pre>
 

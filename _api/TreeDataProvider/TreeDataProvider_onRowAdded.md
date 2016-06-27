@@ -9,7 +9,7 @@ permalink: /api/TreeDataProvider/onRowAdded/
 
 #### Description
 
-> TreeDataProvider에 데이터가 추가되면 발생하는 이벤트 함수.  
+ TreeDataProvider에 데이터가 추가되면 발생하는 이벤트 함수.  
 
 #### Syntax
 
@@ -29,15 +29,16 @@ permalink: /api/TreeDataProvider/onRowAdded/
 
 > None.  
   
-#### Example  
+#### Examples   
 
 <pre class="prettyprint">
-    treeProvider.onRowAdded = function (provider, rowId) {
-        console.log(rowId);
-    };
+treeProvider.onRowAdded = function (provider, rowId) {
+    console.log(rowId);
+};
 </pre>
 
 ---
-#### See Also
 
-> [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"} 참조   
+#### Demo Links
+
+* [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"}  

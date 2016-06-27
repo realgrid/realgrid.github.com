@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 아이템 모델의 최상위 조상 아이템 모델을 리턴합니다.  
+ 아이템 모델의 최상위 조상 아이템 모델을 리턴합니다.  
 
 #### Syntax
 
@@ -35,19 +35,22 @@ tags:
 > Type: Object  
 > Item Model 객체  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var extended = $("#chkExtendedModel").is(":checked");
-    var idx = gridView.getCurrent();
-    var item = gridView.getModel(idx.itemIndex);
-    var root = gridView.getRootModel(item, extended);
-    console.log(JSON.stringify(root));
-    if (root && root.itemIndex >= 0) {
-        idx.itemIndex = root.itemIndex;
-        gridView.setCurrent(idx);
-    }
+var extended = $("#chkExtendedModel").is(":checked");
+var idx = gridView.getCurrent();
+var item = gridView.getModel(idx.itemIndex);
+var root = gridView.getRootModel(item, extended);
+console.log(JSON.stringify(root));
+if (root && root.itemIndex >= 0) {
+    idx.itemIndex = root.itemIndex;
+    gridView.setCurrent(idx);
+}
 </pre>
 
-#### See Also
-> [getParentModel](/api/GridBase/getParentModel)
+---
+
+#### API Links
+
+* [getParentModel](/api/GridBase/getParentModel)

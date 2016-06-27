@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 현재 선택된 행(itemIndex)들을 가져온다.
+ 현재 선택된 행(itemIndex)들을 가져온다.
 
 
 #### Syntax
@@ -29,12 +29,15 @@ tags:
 > Type: Arrary of Number  
 > 현재 선택된 행들.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-        var sel = gridView.getSelectedItems();
-        window.console && console.log("SelectedItems: ", JSON.stringify(sel));
+var sel = gridView.getSelectedItems();
+window.console && console.log("SelectedItems: ", JSON.stringify(sel));
 </pre>
 
-#### See Also
-> [getSelectedRows](/api/GridBase/getSelectedRows)
+---
+
+#### API Links
+
+* [getSelectedRows](/api/GridBase/getSelectedRows)

@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> UpdateError로 표시된 에러 메시지를 지웁니다.
+ UpdateError로 표시된 에러 메시지를 지웁니다.
 
 #### Syntax
 
@@ -26,9 +26,9 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.clearUpdateError();    
+gridView.clearUpdateError();    
 </pre>
 

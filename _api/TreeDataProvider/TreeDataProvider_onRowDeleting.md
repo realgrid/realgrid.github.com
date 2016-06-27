@@ -12,8 +12,8 @@ tags:
 
 #### Description
 
-> TreeDataProvider에서 데이터행이 삭제되기 직전에 호출된다.
-> 삭제를 취소하려는 경우 false를 return한다.
+ TreeDataProvider에서 데이터행이 삭제되기 직전에 호출된다.  
+ 삭제를 취소하려는 경우 false를 return한다.
 
 #### Syntax
 
@@ -35,7 +35,7 @@ tags:
 > Default: true  
 > 삭제하려면 true, 삭제를 취소하려면 false 를 리턴한다.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
 treeProvider.onRowDeleting = function (provider, rowId) {

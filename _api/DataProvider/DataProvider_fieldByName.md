@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 필드명으로 필드 정보를 가져온다.
+ 필드명으로 필드 정보를 가져온다.
 
 #### Syntax
 
@@ -31,7 +31,7 @@ tags:
 > Type: [DataField](/api/types/DataField)   
 > 필드정보가 반환된다.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
     var field = provider.fieldByName("company");

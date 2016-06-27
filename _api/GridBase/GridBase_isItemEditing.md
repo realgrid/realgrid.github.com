@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 그리드가 현재 편집중이면 true를 반환한다.
+ 그리드가 현재 편집중이면 true를 반환한다.
 
 #### Syntax
 
@@ -29,13 +29,19 @@ tags:
 > Type: Boolean  
 > 그리드가 편집중이면 true를 반환한다.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    if (grdMain.isItemEditing()) {
-        alert("편집중입니다");
-    }
+if (grdMain.isItemEditing()) {
+    alert("편집중입니다");
+}
 </pre>
 
-#### See Also
-> [commit](/api/GridBase/commit), [cancel](/api/GridBase/cancel), [commitEditor](/api/GridBase/commitEditor), [cancelEditor](/api/GridBase/cancelEditor)
+---
+
+#### API Links
+
+* [commit](/api/GridBase/commit)
+* [cancel](/api/GridBase/cancel)
+* [commitEditor](/api/GridBase/commitEditor)
+* [cancelEditor](/api/GridBase/cancelEditor)

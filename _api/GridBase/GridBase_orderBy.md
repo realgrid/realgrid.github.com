@@ -13,8 +13,8 @@ tags:
 
 #### Description
 
-> 하나 이상의 데이터 필드를 기준으로 [Grid Item](/api/features/Grid Item/)들을 정렬한다.  
-> 정렬은 Item Model 수준에서 실행되고, [Data Provider](/api/features/Data Provider/) 행들의 실제 위치는 변경되지 않는다.  
+ 하나 이상의 데이터 필드를 기준으로 [Grid Item](/api/features/Grid Item/)들을 정렬한다.  
+ 정렬은 Item Model 수준에서 실행되고, [Data Provider](/api/features/Data Provider/) 행들의 실제 위치는 변경되지 않는다.  
 
 #### Syntax
 
@@ -34,16 +34,19 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var fields = ["field1", "field2"];
-    var dirs = [RealGrids.SortDirection.ASCENDING, RealGrids.SortDirection.DESCENDING];
-    gridView.orderBy(fields, dirs);
+var fields = ["field1", "field2"];
+var dirs = [RealGrids.SortDirection.ASCENDING, RealGrids.SortDirection.DESCENDING];
+gridView.orderBy(fields, dirs);
 
-    // 정렬을 해제하는 경우
-    gridView.orderBy([],[]);
+// 정렬을 해제하는 경우
+gridView.orderBy([],[]);
 </pre>
 
-#### See Also
-> [SortingOptions](/api/types/SortingOptions)
+---
+
+#### API Links
+
+* [SortingOptions](/api/types/SortingOptions)

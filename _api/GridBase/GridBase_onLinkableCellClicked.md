@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
-> LinkCellRenderer로 정의된 셀을 클릭시 발생한다.  
+ LinkCellRenderer로 정의된 셀을 클릭시 발생한다.  
 
 #### Syntax
 
@@ -41,14 +41,21 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.onLinkableCellClicked = function (grid, index, url) {
-        console.log("onLinkableCellClicked: " + JSON.stringify(index) + " => " + url);  
-        window.open(url, '_newtab');
-    };
+gridView.onLinkableCellClicked = function (grid, index, url) {
+    console.log("onLinkableCellClicked: " + JSON.stringify(index) + " => " + url);  
+    window.open(url, '_newtab');
+};
 </pre>
 
-#### See Also
-> [LinkCellRenderer](/api/types/LinkCellRenderer/), [LinkCellRendere Demo](http://demo.realgrid.com/Demo/LinkCellRenderer)
+---
+
+#### API Links
+
+* [LinkCellRenderer](/api/types/LinkCellRenderer/)
+
+#### Demo Links
+
+* [LinkCellRendere Demo](http://demo.realgrid.com/Demo/LinkCellRenderer)

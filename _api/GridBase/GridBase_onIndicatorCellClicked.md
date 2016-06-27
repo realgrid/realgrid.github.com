@@ -1,25 +1,25 @@
 ---
 layout: apipost
-title: onIndicatorCellClicked
+title: onIndicatorCellDblClicked
 part: Objects
 objectname: GridBase
 directiontype: Callback
-permalink: /api/GridBase/onIndicatorCellClicked/
+permalink: /api/GridBase/onIndicatorCellDblClicked/
 jsonly: true
 tags:
   - event
   - click
   - indicator
+  - dblClick
 ---
-
 
 #### Description
 
-> 사용자가 마우스로 Indicator셀을 클릭했을 때 호출된다.  
+* 사용자가 마우스로 Indicator셀을 더블 클릭했을 때 호출된다.  
 
 #### Syntax
 
-> function onIndicatorCellClicked (grid, index)  
+> function onIndicatorCellDblClicked (grid, itemIndex)  
 
 #### Arguments
 
@@ -27,7 +27,7 @@ tags:
 > Type: [GridBase](/api/GridBase/)  
 > GridBase 컨트롤  
 
-> **index**  
+> **itemIndex**  
 > Type: number  
 > 클릭된 영역의 인덱스 값, head = -1, foot = -2  
 
@@ -35,11 +35,11 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    grid.onIndicatorCellClicked =  function (grid, index) {
-        console.log("onIndicatorCellClicked : " + "(" + index + ")")
-    };
+grid.onIndicatorCellDblClicked =  function (grid, itemIndex) {
+    console.log("onIndicatorCellDblClicked : " + "(" + itemIndex + ")")
+};
 </pre>
 

@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> TreeDataProvider에 데이터가 수정되면 발생하는 이벤트 함수.  
+ TreeDataProvider에 데이터가 수정되면 발생하는 이벤트 함수.  
 
 #### Syntax
 
@@ -33,11 +33,11 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeProvider.onRowUpdated = function (provider, rowId) {
-        console.log("onRowUpdated: "+rowId);
-    };
+treeProvider.onRowUpdated = function (provider, rowId) {
+    console.log("onRowUpdated: "+rowId);
+};
 </pre>
 

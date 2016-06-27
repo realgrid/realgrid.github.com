@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> [Paging](/api/features/Paging/) 모드일 때 표시할 페이지 번호를 지정한다.
+ [Paging](/api/features/Paging/) 모드일 때 표시할 페이지 번호를 지정한다.
 
 #### Syntax
 
@@ -33,10 +33,15 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var count = grid.getPageCount();
-    grid.setPage(count - 1);
+var count = gridView.getPageCount();
+gridView.setPage(count - 1);
 </pre>
 
+---
+
+#### Demo Links
+
+* [Paging](http://demo.realgrid.com/Demo/PagingLazyLoading){:target="_blank"} 

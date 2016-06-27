@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 그리드를 내부적으로 새로 그려줍니다. 
+ 그리드를 내부적으로 새로 그려줍니다. 
 
 #### Syntax
 
@@ -28,11 +28,15 @@ tags:
 
 > None
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    grdMain.refresh();
+gridView.refresh();
 </pre>
 
-#### See Also
-> [beginUpdate](/api/GridBase/beginUpdate), [endUpdate](/api/GridBase/endUpdate)
+---
+
+#### API Links
+
+* [beginUpdate](/api/GridBase/beginUpdate)
+* [endUpdate](/api/GridBase/endUpdate)

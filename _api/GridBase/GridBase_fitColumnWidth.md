@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 컬럼의 폭을 데이터에 따라 자동으로 조절한다.  
+ 컬럼의 폭을 데이터에 따라 자동으로 조절한다.  
 
 #### Syntax
 
@@ -46,11 +46,14 @@ tags:
 > None.  
 
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.fitColumnWidth('CustomerID', 200, 10, true);
+gridView.fitColumnWidth('CustomerID', 200, 10, true);
 </pre>
 
-#### See Also
-> [GridFitting](http://demo.realgrid.com/Demo/GridFitting)
+---
+
+#### Demo Links
+
+* [GridFitting](http://demo.realgrid.com/Demo/GridFitting)

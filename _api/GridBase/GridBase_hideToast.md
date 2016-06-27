@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> Toast 팝업 창을 숨긴다. RealGridJS에서 사용가능하다.  
+ Toast 팝업 창을 숨긴다. RealGridJS에서 사용가능하다.  
 
 #### Syntax
 
@@ -29,11 +29,14 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.hideToast(function(){gridView.setValue(0,0,"toast 종료")});
+gridView.hideToast(function(){gridView.setValue(0,0,"toast 종료")});
 </pre>
 
-#### See Also
-> [showToast](/api/GridBase/showToast)
+---
+
+#### API Links
+
+* [showToast](/api/GridBase/showToast)

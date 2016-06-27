@@ -18,8 +18,8 @@ tags:
 
 #### Description
 
-> 트리의 기존 데이터행들을 모두 삭제하고 매개변수로 전달되는 JSON 객체를 데이터 행들로 추가한다.  
-> 트리의 JSON 데이터 구조에 관한 설명은 튜토리얼 [B9-2](/tutorial/b9-2/)페이지를 참조.  
+ 트리의 기존 데이터행들을 모두 삭제하고 매개변수로 전달되는 JSON 객체를 데이터 행들로 추가한다.  
+ 트리의 JSON 데이터 구조에 관한 설명은 튜토리얼 [B9-2](/tutorial/b9-2/)페이지를 참조.  
 
 #### Syntax
 
@@ -47,9 +47,9 @@ tags:
 
 > None.   
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeProvider.setJsonRows(data, "rows", "", "icon");
+treeProvider.setJsonRows(data, "rows", "", "icon");
 </pre>
 

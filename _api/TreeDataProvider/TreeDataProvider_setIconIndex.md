@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 지정한 데이터행의 아이콘을 변경한다.   
+ 지정한 데이터행의 아이콘을 변경한다.   
 
 #### Syntax
 
@@ -33,13 +33,14 @@ tags:
 
 > None.   
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeProvider.setIconIndex(1, 2);
+treeProvider.setIconIndex(1, 2);
 </pre>
 
 ---
-#### See Also
 
-> [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"} 참조   
+#### Demo Links
+
+* [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"}   

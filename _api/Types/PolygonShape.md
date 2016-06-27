@@ -7,12 +7,14 @@ order: PolygonShape
 objectname: 
 directiontype: 
 permalink: /api/types/PolygonShape/
+tags:
+  - 다각형셰이프
 ---
 
 
 #### Description
 
-> Shape의 유형을 정의합니다.
+ Shape의 유형을 정의합니다.
 
 #### Memebers
 
@@ -64,9 +66,11 @@ permalink: /api/types/PolygonShape/
 > Value: "equal"           
 > 등호         
 
-#### Description
+---
 
-> [Shape Cell Renderer](http://demo.realgrid.net/Demo/ShapeCellRenderer) 참조
+#### Demo Links
+
+* [Shape Cell Renderer](http://demo.realgrid.net/Demo/ShapeCellRenderer)
 
 
 

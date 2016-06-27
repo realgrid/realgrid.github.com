@@ -10,7 +10,7 @@ permalink: /api/TreeDataProvider/getChildren/
 
 #### Description
 
-> 모든 자식 행들의 rowId를 가져온다.
+ 모든 자식 행들의 rowId를 가져온다.
 
 #### Syntax
 
@@ -27,13 +27,14 @@ permalink: /api/TreeDataProvider/getChildren/
 > Type: Array of Number.  
 > 배열로 만들어진 Row Id들의 목록.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var rows = treeProvider.getChildren(3);
+var rows = treeProvider.getChildren(3);
 </pre>
 
 ---
-#### See Also
 
-> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조   
+#### Demo Links
+
+* [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"}  

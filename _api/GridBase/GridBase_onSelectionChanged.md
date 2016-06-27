@@ -13,8 +13,8 @@ tags:
 
 #### Description
 
-> 사용자가 마우스나 키보드로 선택 영역의 크기를 변경하는 중에 호출된다. 변경 중인 선택 영역의 정보는 [getSelectionData](/api/GridBase/getSelectionData/) 함수로 알 수 있다.  
-> grid.SelectOptions.style이 none인경우 발생하지 않는다  
+ 사용자가 마우스나 키보드로 선택 영역의 크기를 변경하는 중에 호출된다. 변경 중인 선택 영역의 정보는 [getSelectionData](/api/GridBase/getSelectionData/) 함수로 알 수 있다.  
+ grid.SelectOptions.style이 none인경우 발생하지 않는다  
 
 #### Syntax
 
@@ -30,15 +30,18 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.onSelectionChanged =  function (grid) {
-        <!-- var cells = grid.getSelectionData(); -->
-        var selectArea = grid.getSelection();
-        console.log(selectArea);  
-    };
+gridView.onSelectionChanged =  function (grid) {
+    <!-- var cells = grid.getSelectionData(); -->
+    var selectArea = grid.getSelection();
+    console.log(selectArea);  
+};
 </pre>
 
-#### See Also
-> [onSelectionEnded](/api/GridBase/onSelectionEnded)
+---
+
+#### API Links
+
+* [onSelectionEnded](/api/GridBase/onSelectionEnded)

@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 행 추가 및 삭제 등으로 행의 개수가 변경됐을 때 호출된다.
+ 행 추가 및 삭제 등으로 행의 개수가 변경됐을 때 호출된다.
 
 #### Syntax
 > function onRowCountChanged(provider, count)
@@ -31,10 +31,10 @@ tags:
 
 > none
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeProvider.onRowCountChanged = function (provider, count) {
-        console.log("TreeProvider changed.");
-    };
+treeProvider.onRowCountChanged = function (provider, count) {
+    console.log("TreeProvider changed.");
+};
 </pre>

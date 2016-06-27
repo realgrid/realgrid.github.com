@@ -11,8 +11,8 @@ tags:
 
 #### Description
 
-> Busy Indicator(모래시계)를 숨긴다. RealGrid+ Web에서 사용가능하다.  
-> RealGridJS에서는 [hideToast](/api/GridBase/hideToast)를 사용한다.
+ Busy Indicator(모래시계)를 숨긴다. RealGrid+ Web에서 사용가능하다.  
+ RealGridJS에서는 [hideToast](/api/GridBase/hideToast)를 사용한다.
 
 #### Syntax
 
@@ -26,11 +26,16 @@ tags:
 
 > None
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.hideBusyIndicator();
+gridView.hideBusyIndicator();
 </pre>
 
-#### See Also
-> [showBusyIndicator](/api/GridBase/showBusyIndicator), [showToast](/api/GridBase/showToast), [hideToast](/api/GridBase/hideToast)
+---
+
+#### API Links
+
+* [showBusyIndicator](/api/GridBase/showBusyIndicator)
+* [showToast](/api/GridBase/showToast)
+* [hideToast](/api/GridBase/hideToast)

@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 컬럼 헤더 관련된 정보들을 재설정한다. [ColumnHeaderOptions](/api/types/ColumnHeaderOptions/)이 설정 클래스 이다.
+ 컬럼 헤더 관련된 정보들을 재설정한다. [ColumnHeaderOptions](/api/types/ColumnHeaderOptions/)이 설정 클래스 이다.
 
 #### Syntax
 
@@ -32,15 +32,22 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.setColumnHeaderOptions({
-        checkColor: "ffff0000",
-        checkNoneColor: "ff00ff00",
-        ...
-    });
+gridView.setColumnHeaderOptions({
+    checkColor: "ffff0000",
+    checkNoneColor: "ff00ff00",
+    ...
+});
 </pre>
 
-#### See Also
-> [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions), [HeaderCheckBox](http://demo.realgrid.com/Demo/HeaderCheckbox)
+---
+
+#### API Links
+
+* [getColumnHeaderOptions](/api/GridBase/getColumnHeaderOptions)
+
+#### Demo Links
+
+* [HeaderCheckBox](http://demo.realgrid.com/Demo/HeaderCheckbox)

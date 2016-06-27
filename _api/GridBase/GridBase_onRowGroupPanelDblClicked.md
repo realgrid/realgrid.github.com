@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 RowGroupPanel을 더블클릭했을 때 호출된다.  
+ 사용자가 마우스로 RowGroupPanel을 더블클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -36,13 +36,16 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.onRowGroupPanelDblClicked =  function (grid, column) {
-        console.log("onRowGroupPanelDblClicked : " + "(" + column.name + ")")
-    };
+gridView.onRowGroupPanelDblClicked =  function (grid, column) {
+    console.log("onRowGroupPanelDblClicked : " + "(" + column.name + ")")
+};
 </pre>
 
-#### See Also
->  [Region Events](http://demo.realgrid.com/Demo/RegionEvents)
+---
+
+#### Demo Links
+
+* [Region Events](http://demo.realgrid.com/Demo/RegionEvents)

@@ -15,9 +15,9 @@ tags:
 
 #### Description
 
-> 포커스 셀의 위치를 지정한다.  
-> row의 경우 itemIndex > dataRow 순으로 적용되고  
-> column의 경우 column > fieldIndex > fieldName 순으로 적용된다.  
+ 포커스 셀의 위치를 지정한다.  
+ row의 경우 itemIndex > dataRow 순으로 적용되고  
+ column의 경우 column > fieldIndex > fieldName 순으로 적용된다.  
 
 #### Syntax
 
@@ -33,17 +33,21 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var index = {
-        itemIndex: $("#txtItemIndex").val(),
-        column: $("#txtColumn").val(),
-        dataRow: $("#txtDataRow").val(),
-        fieldName: $("#txtFieldName").val(),
-    };
-    gridView.setCurrent(index);
+var index = {
+    itemIndex: $("#txtItemIndex").val(),
+    column: $("#txtColumn").val(),
+    dataRow: $("#txtDataRow").val(),
+    fieldName: $("#txtFieldName").val(),
+};
+gridView.setCurrent(index);
 </pre>
 
-#### See Also
-> [getCurrent](/api/GridBase/getCurrent), [resetCurrent](/api/GridBase/resetCurrent)
+---
+
+#### API Links
+
+* [getCurrent](/api/GridBase/getCurrent)
+* [resetCurrent](/api/GridBase/resetCurrent)

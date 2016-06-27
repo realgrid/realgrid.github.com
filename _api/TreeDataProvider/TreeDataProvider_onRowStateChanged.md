@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> TreeDataProvider의 데이터행의 rowState가 변경되는 경우 호출된다.  
+ TreeDataProvider의 데이터행의 rowState가 변경되는 경우 호출된다.  
 
 #### Syntax
 
@@ -32,10 +32,10 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeProvider.onRowStateChanged = function (provider, rowId) {
-        console.log("onRowStateChanged:" + rowId);
-    };
+treeProvider.onRowStateChanged = function (provider, rowId) {
+    console.log("onRowStateChanged:" + rowId);
+};
 </pre>

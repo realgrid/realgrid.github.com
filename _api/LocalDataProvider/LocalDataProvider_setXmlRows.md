@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 기존 데이터행들을 모두 삭제하고 지정한 매개변수로 전달되는 XML을 데이터 행들로 추가한다.
+ 기존 데이터행들을 모두 삭제하고 지정한 매개변수로 전달되는 XML을 데이터 행들로 추가한다.
 
 #### Syntax
 
@@ -44,14 +44,14 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var source = {
-        rows: [
-          {}, {}, ...
-        ]
-    };
-    dataProvider.setXmlRows(source, "rows");
+var source = {
+    rows: [
+      {}, {}, ...
+    ]
+};
+dataProvider.setXmlRows(source, "rows");
 </pre>
 

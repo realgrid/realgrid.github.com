@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 키보드로 키 입력시 KeyUp 될 때 발생하는 콜백함수이다.   
+ 키보드로 키 입력시 KeyUp 될 때 발생하는 콜백함수이다.   
 
 #### Syntax
 
@@ -48,13 +48,17 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.onKeyUp = function (grid, key, ctrl, shift, alt) {
-        console.log("onKeyUp: key = " + key);
-    };
+gridView.onKeyUp = function (grid, key, ctrl, shift, alt) {
+    console.log("onKeyUp: key = " + key);
+};
 </pre>
 
-#### See Also
-> [onKeyDown](/api/GridBase/onKeyDown), [onKeyPress](/api/GridBase/onKeyPress)
+---
+
+#### API Links
+
+* [onKeyDown](/api/GridBase/onKeyDown)
+* [onKeyPress](/api/GridBase/onKeyPress)

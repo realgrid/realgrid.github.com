@@ -7,8 +7,13 @@ order: ImageList
 objectname: 
 directiontype: 
 permalink: /api/types/ImageList/
+tags:
+  - 이미지리스트
 ---
 
+#### Description
+
+ RealGrid내에서 사용할 이미지경로의 목록을 저장하기 위한 모델이다. 실제 이미지파일이 위치한 경로를 보관한다.
 
 #### Properties
 
@@ -27,3 +32,21 @@ permalink: /api/types/ImageList/
 > Default: null  
 > rootUrl에 대한 상대 경로를 하나 이상의 이미지 경로를 Array로 지정한다.
 
+#### Examples
+
+<pre class="prettyprint">
+var imgs = new RealGridJS.ImageList("images1","http://" + location.host + "/img/demo/smallflag/");
+imgs.addUrls([
+    "ar.png",
+    "at.png",
+    "be.png"
+]);
+ 
+gridView.registerImageList(imgs);
+</pre>
+
+---
+
+#### Demo Links
+
+* [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer){:target="_blank"}

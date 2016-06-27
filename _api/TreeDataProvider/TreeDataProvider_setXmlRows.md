@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 트리의 기존 데이터행들을 모두 삭제하고 매개변수로 전달되는 XML을 데이터 행들로 추가한다.   
+ 트리의 기존 데이터행들을 모두 삭제하고 매개변수로 전달되는 XML을 데이터 행들로 추가한다.   
 
 #### Syntax
    
@@ -43,9 +43,9 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeProvider.setXmlRows(rows, "row", "", "icon");
+treeProvider.setXmlRows(rows, "row", "", "icon");
 </pre>
 

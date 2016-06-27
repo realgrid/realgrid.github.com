@@ -43,7 +43,11 @@ $on-laptop:        900px;
     }
 }
 
-
+video { 
+    height: 430px;
+    //transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

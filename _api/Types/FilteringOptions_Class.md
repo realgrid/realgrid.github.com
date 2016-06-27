@@ -7,11 +7,15 @@ order: FilteringOptions
 objectname: 
 directiontype: 
 permalink: /api/types/FilteringOptions/
+tags: 
+  - FilterOptions
+  - 필터옵션
+  - 필터링옵션   
 ---
 
 #### Description
 
-> 컬럼 필터링과 관련된 설정 모델이다.
+ 컬럼 필터링과 관련된 설정 모델이다.
 
 #### Properties
 
@@ -67,6 +71,25 @@ permalink: /api/types/FilteringOptions/
 > Type: object
 > none, fill, hoveredNone, hoveredFill 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
 
-#### See Also
+### Example  
 
-> [ColumnFiltering](http://demo.realgrid.net/Demo/ColumnFiltering)
+<pre class="prettyprint">
+gridView.setFilteringOptions({
+    HandleVisibility: "visible",
+    selector: {
+        maxWidth: 100,
+        maxHeight: 200,
+        closeWhenClick: true
+    }
+})
+</pre>
+
+---
+
+#### API Links
+
+* [setFilteringOptions](/api/GridBase/setFilteringOptions/)  
+* [getFilteringOptions](/api/GridBase/getFilteringOptions/) 
+* [FilterSelectorOptions](/api/GridBase/setFilteringOptions/)   
+* [ToastOptions](/api/types/ToastOptions/)    
+* [HandleVisibility](/api/types/HandleVisibility/)  

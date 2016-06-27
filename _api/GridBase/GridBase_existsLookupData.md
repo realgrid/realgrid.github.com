@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 지정된 lookupsource에 지정된 키가 존재하는지 확인한다.  
+ 지정된 lookupsource에 지정된 키가 존재하는지 확인한다.  
 
 #### Syntax
 
@@ -33,21 +33,28 @@ tags:
 
 > Boolean
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-	var dataRow = gridView.getCurrent().dataRow;
-	var comp = dataProvider.getValue(dataRow, "company");
-	
-	var isExist = gridView.existsLookupData("compGender", comp);
-	
-	if (isExist) {
-		alert("있음");
-	}
-	else {
-		alert("없음");
-	}
+var dataRow = gridView.getCurrent().dataRow;
+var comp = dataProvider.getValue(dataRow, "company");
+
+var isExist = gridView.existsLookupData("compGender", comp);
+
+if (isExist) {
+	alert("있음");
+}
+else {
+	alert("없음");
+}
 </pre>
 
-#### See Also
-> [setLookups](/api/GridBase/setLookups), [addLookupSource](/api/GridBase/addLookupSource), [clearLookupData](/api/GridBase/clearLookupData), [fillLookupData](/api/GridBase/fillLookupData), [removeLookupSource](/api/GridBase/removeLookupSource)
+---
+
+#### API Links
+
+* [setLookups](/api/GridBase/setLookups)
+* [addLookupSource](/api/GridBase/addLookupSource)
+* [clearLookupData](/api/GridBase/clearLookupData)
+* [fillLookupData](/api/GridBase/fillLookupData)
+* [removeLookupSource](/api/GridBase/removeLookupSource)

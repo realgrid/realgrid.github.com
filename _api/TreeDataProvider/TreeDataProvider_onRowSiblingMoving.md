@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
-> [TreeDataProvider.moveRowSibling()](/api/TreeDataProvider/moveRowSibling/) 함수를 사용하여 형제간 위치를 바꾸려고 할때 발생한다. (같은 부모의 형제간 위치 이동)  
+ [TreeDataProvider.moveRowSibling()](/api/TreeDataProvider/moveRowSibling/) 함수를 사용하여 형제간 위치를 바꾸려고 할때 발생한다. (같은 부모의 형제간 위치 이동)  
 
 #### Syntax
 
@@ -42,19 +42,20 @@ tags:
 > type: Boolean  
 > false 를 return하면 이동이 취소된다.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeProvider.onRowSiblingMoving = function (provider, rowId, delta) {
-        if (rowId === '10') {
-            return false;      //rowId가 10인 행은 이동 불가
-        } else {
-            return true;
-        }
+treeProvider.onRowSiblingMoving = function (provider, rowId, delta) {
+    if (rowId === '10') {
+        return false;      //rowId가 10인 행은 이동 불가
+    } else {
+        return true;
     }
+}
 </pre>
 
 ---
-#### See Also
 
-> [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"} 참조   
+#### Demo Links
+
+* [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"} 

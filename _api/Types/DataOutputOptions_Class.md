@@ -8,11 +8,18 @@ objectname:
 directiontype: 
 permalink: /api/types/DataOuptputOptions/
 jsonly: true
+tags:
+  - datetimeFormat
+  - booleanFormat
+  - 데이트타임
+  - 불린
+  - 아웃풋옵션
+  - DataOuptputOptions
 ---
 
 #### Description
 
-> datetime, boolean 필드에 대해 변환 형식을 지정한다.
+ datetime, boolean 필드에 대해 변환 형식을 지정한다.
 
 #### Properties
 
@@ -41,7 +48,21 @@ jsonly: true
 > Default: ""  
 > DateTime 필드의 값이 null 일때 표현되는 값을 지정한다. 
 
+#### Examples   
 
-#### See Also
+<pre class="prettyprint">
+var options = {
+	datetimeFormat: "yyyy-MM-dd",
+	booleanFormat: "거짓;참"
+};
 
-> 
+dataProvider.getOutputRows(options, 0, 10);	
+</pre>
+
+---
+
+#### API Links
+
+* [getOutputRow](/api/LocalDataProvider/getOutputRow/)     
+* [getOutputRows](/api/LocalDataProvider/getOutputRows/)     
+

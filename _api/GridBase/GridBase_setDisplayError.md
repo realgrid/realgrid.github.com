@@ -10,7 +10,7 @@ permalink: /api/GridBase/setDisplayError/
 
 #### Description
 
-> 그리드 에러가 발생 했을때 RealGrids.onerror 콜백 호출된 이후 에러 메시지의 표시 여부를 설정한다.
+ 그리드 에러가 발생 했을때 RealGrids.onerror 콜백 호출된 이후 에러 메시지의 표시 여부를 설정한다.
 
 #### Syntax
 
@@ -27,10 +27,10 @@ permalink: /api/GridBase/setDisplayError/
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    grdMain.setDisplayError(true);
+gridView.setDisplayError(true);
 </pre>
 
 
