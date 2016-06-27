@@ -24,9 +24,9 @@ tags:
 javascript에서 지원하는 instanceof 연산자를 사용하여 확인 할 수 있습니다. 
 
 <pre class="prettyprint">
-//정의한 변수명이 grdMain일 경우
-if(grdMain instanceof RealGridJS.GridView)
+//정의한 변수명이 gridView일 경우
+if(gridView instanceof RealGridJS.GridView)
     alert("GridView");
-else if(grdMain instanceof RealGridJS.TreeView)
+else if(gridView instanceof RealGridJS.TreeView)
     alert("TreeView");
 </pre>

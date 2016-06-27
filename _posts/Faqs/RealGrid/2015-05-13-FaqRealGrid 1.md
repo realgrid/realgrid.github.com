@@ -108,7 +108,7 @@ function onCellEditedMenu(grid, itemIndex,  dataRow, field){
                $.post("/realgrid/product/teamCode.do",ajaxData,function(json){
                        $.each(json, function(k,v){
                               // existsLookupData 함수를 이용해서 해당값이 없으면
-                              if (!grdMain.existsLookupData("type1", [searchType1, v.teamCode])) {
+                              if (!gridView.existsLookupData("type1", [searchType1, v.teamCode])) {
                                       // type1 에 fillLookupData 이용해서 트리 값을 채워줍니다.
                                       grid.fillLookupData("type1",{"rows" :  [[searchType1, v.teamCode, v.teamName]]});
                               };
@@ -127,7 +127,7 @@ function onCellEditedMenu(grid, itemIndex,  dataRow, field){
               
                $.post("/realgrid/product/empCode.do",ajaxData,function(json){
                        $.each(json, function(k,v){
-                              if (!grdMain.existsLookupData("type2", [searchType1, searchType2, v.empCode])) {
+                              if (!gridView.existsLookupData("type2", [searchType1, searchType2, v.empCode])) {
                                      grid.fillLookupData("type2", { "rows" :  [[searchType1, searchType2, v.empCode, v.empName]]});
                               };
                        });

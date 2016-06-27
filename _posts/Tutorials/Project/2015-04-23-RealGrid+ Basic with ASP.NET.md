@@ -63,13 +63,13 @@ RealGrid가 위치할 부분에 object태그를 사용하여 아래와 같이 �
     &lt;body&gt;
     &lt;/body&gt;
 &lt;/html&gt;&lt;h1&gt;RealGrid on ASP.NET and SQL Server&lt;/h1&gt;
-&lt;object type=&quot;application/x-shockwave-flash&quot; name=&quot;grdMain&quot; id=&quot;grdMain&quot; data=&quot;/objects/RealGridWeb.swf&quot; width=&quot;100%&quot; height=&quot;300&quot;&gt;
+&lt;object type=&quot;application/x-shockwave-flash&quot; name=&quot;gridView&quot; id=&quot;gridView&quot; data=&quot;/objects/RealGridWeb.swf&quot; width=&quot;100%&quot; height=&quot;300&quot;&gt;
     &lt;param name=&quot;quality&quot; value=&quot;high&quot;&gt;
     &lt;param name=&quot;wmode&quot; value=&quot;opaque&quot;&gt;
     &lt;param name=&quot;allowscriptaccess&quot; value=&quot;sameDomain&quot;&gt;
     &lt;param name=&quot;allowfullscreen&quot; value=&quot;false&quot;&gt;
     &lt;param name=&quot;seamlesstabbing&quot; value=&quot;false&quot;&gt;
-    &lt;param name=&quot;flashvars&quot; value=&quot;id=grdMain&quot;&gt;
+    &lt;param name=&quot;flashvars&quot; value=&quot;id=gridView&quot;&gt;
 &lt;/object&gt;
 </pre>
 
@@ -385,7 +385,7 @@ DataInsert.cshtml 의 내용은 다음과 같습니다.
 default.cshtml로 돌아와서 아래와 같이 삽입/추가/저장 버튼 3개를 추가하도록 합니다.
 
 <pre class="prettyprint">
-&lt;param name="flashvars" value="id=grdMain"&gt;
+&lt;param name="flashvars" value="id=gridView"&gt;
         &lt;/object&gt;
 
         &lt;input type="button" id="btnInsert" value="Insert Row" &gt;

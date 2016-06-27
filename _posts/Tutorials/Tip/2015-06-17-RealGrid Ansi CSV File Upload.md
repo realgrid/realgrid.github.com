@@ -46,7 +46,7 @@ Input File과 Button을 생성합니다.
 &lt;body&gt;	
 	&lt;input type="file" id="csvInputFile" name="files"/&gt;
 	&lt;input type="button" value="load local csv" onclick="handleFileSelect();"/&gt;
-	&lt;div id="grdMain"&gt;&lt;/div&gt;
+	&lt;div id="gridView"&gt;&lt;/div&gt;
 &lt;body&gt;
 </pre>
 

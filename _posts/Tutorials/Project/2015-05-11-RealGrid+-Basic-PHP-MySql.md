@@ -64,13 +64,13 @@ RealGrid가 위치할 부분에 object태그를 사용하여 아래와 같이 �
 <pre class="prettyprint">
 &lt;body&gt;
 &lt;h1&gt;RealGrid on PHP and MySQL&lt;/h1&gt;
-&lt;object type="application/x-shockwave-flash" name="grdMain" id="grdMain" data="/objects/RealGridWeb.swf" width="100%" height="300"&gt;
+&lt;object type="application/x-shockwave-flash" name="gridView" id="gridView" data="/objects/RealGridWeb.swf" width="100%" height="300"&gt;
 &lt;param name="quality" value="high"&gt;
 &lt;param name="wmode" value="opaque"&gt;
 &lt;param name="allowscriptaccess" value="sameDomain"&gt;
 &lt;param name="allowfullscreen" value="false"&gt;
 &lt;param name="seamlesstabbing" value="false"&gt;
-&lt;param name="flashvars" value="id=grdMain"&gt;
+&lt;param name="flashvars" value="id=gridView"&gt;
 &lt;/object&gt;
 &lt;/body&gt;
 </pre>
@@ -354,7 +354,7 @@ echo $json;
 default.html로 돌아와서 아래와 같이 삽입/추가/저장 버튼 3개를 추가하도록 합니다.
 
 <pre class="prettyprint">
-	&lt;param name="flashvars" value="id=grdMain"&gt;
+	&lt;param name="flashvars" value="id=gridView"&gt;
 	&lt;/object>
 	
 	&lt;input type="button" id="btnInsert" value="Insert Row" &gt;

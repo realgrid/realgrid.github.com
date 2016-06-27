@@ -30,7 +30,7 @@ html, body {
 
 &lt;body &gt;
 	&lt;div style="height: 100%; width: 100%"&gt;
-		&lt;div id="grdMain"&gt;&lt;/div&gt;
+		&lt;div id="gridView"&gt;&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/body&gt;
 </pre>;

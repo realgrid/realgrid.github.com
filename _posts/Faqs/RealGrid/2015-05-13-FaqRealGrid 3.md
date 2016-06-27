@@ -20,10 +20,10 @@ tags:
 
 # A.
 
-셀렉트 박스가 이동하기 직전 발생하는 grdMain.onCurrentChanging  이벤트함수를 사용하여 해당 셀 값을 비교해 전체 편집의 속성을 Editable 로 바꾸는 방법입니다.
+셀렉트 박스가 이동하기 직전 발생하는 gridView.onCurrentChanging  이벤트함수를 사용하여 해당 셀 값을 비교해 전체 편집의 속성을 Editable 로 바꾸는 방법입니다.
 
 <pre class="prettyprint">
-grdMain.onCurrentChanging = function(grid, oldIndex, newIndex){
+gridView.onCurrentChanging = function(grid, oldIndex, newIndex){
     var value = grid.getValue(newIndex.itemIndex, newIndex.fieldName);
 
     var editable = value == 111; 

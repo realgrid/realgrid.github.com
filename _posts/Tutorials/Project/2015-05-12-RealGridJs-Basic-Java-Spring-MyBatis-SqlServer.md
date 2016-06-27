@@ -82,17 +82,17 @@ RealGrid의 core 라이브러리 파일인 realgridjs.js파일을 웹 페이지�
 
 &lt;script type="text/javascript"&gt;
     $(function() {
-        setupGridJs("grdMain", "100%", "300");
+        setupGridJs("gridView", "100%", "300");
     });
 
-    var grdMain;
+    var gridView;
     var dataProvider;
     
     function setupGridJs(id, width, height) {
         $("#"+id).css({ width : width, height : height });
-        grdMain = new RealGridJS.GridView(id);
+        gridView = new RealGridJS.GridView(id);
         dataProvider = new RealGridJS.LocalDataProvider();
-        grdMain.setDataSource(dataProvider);
+        gridView.setDataSource(dataProvider);
     };
 &lt;/script&gt;
 &lt;/head&gt;
@@ -101,7 +101,7 @@ RealGrid의 core 라이브러리 파일인 realgridjs.js파일을 웹 페이지�
         &lt;span&gt;RealGrid on Java Spring MVC and SQLServer&lt;/span&gt;
     &lt;/div&gt;
     
-    &lt;div id="grdMain"&gt;&lt;/div&gt;
+    &lt;div id="gridView"&gt;&lt;/div&gt;
 &lt;/body&gt;
 </pre>
 
@@ -198,7 +198,7 @@ GridView의 setColumns()로 Column을 정의합니다.
             }
         } ];
 
-        if (grid == grdMain)
+        if (grid == gridView)
             grid.setColumns(columns);
     }
 </pre>
@@ -206,20 +206,20 @@ GridView의 setColumns()로 Column을 정의합니다.
   
 
 이제 필드와 컬럼을 정의한 부분을 RealGrid가 로드된 시점에 호출해 보겠습니다.
-아래 화면에서 선택된 부분을 코딩 합니다. id는 <div id=”grdMain”>태그의 id 속성값 이며, 화면에 그리드가 여러개인 경우 처리를 위해 필요합니다.
+아래 화면에서 선택된 부분을 코딩 합니다. id는 <div id=”gridView”>태그의 id 속성값 이며, 화면에 그리드가 여러개인 경우 처리를 위해 필요합니다.
         
 **default.jsp**
 
 <pre class="prettyprint">
     function setupGridJs(id, width, height) {
         $("#"+id).css({ width : width, height : height });
-        grdMain = new RealGridJS.GridView(id);
+        gridView = new RealGridJS.GridView(id);
         dataProvider = new RealGridJS.LocalDataProvider();
-        grdMain.setDataSource(dataProvider);
+        gridView.setDataSource(dataProvider);
         
         setFields(dataProvider);
-        setColumns(grdMain);
-        setOption(grdMain);
+        setColumns(gridView);
+        setOption(gridView);
         
         loadData(dataProvider);
     };
@@ -728,12 +728,12 @@ function loadData(provider) {
 <pre class="prettyprint">
 function setupGridJs(id, width, height) {
     $("#"+id).css({ width : width, height : height });
-    grdMain = new RealGridJS.GridView(id);
+    gridView = new RealGridJS.GridView(id);
     dataProvider = new RealGridJS.LocalDataProvider();
-    grdMain.setDataSource(dataProvider);
+    gridView.setDataSource(dataProvider);
     
     setFields(dataProvider);
-    setColumns(grdMain);
+    setColumns(gridView);
     
     loadData(dataProvider);
 };
@@ -762,13 +762,13 @@ editOptions에 대한 보다 자세한 설명은 다음 링크를 참조하세�
 <pre class="prettyprint">
 function setupGridJs(id, width, height) {
     $("#"+id).css({ width : width, height : height });
-    grdMain = new RealGridJS.GridView(id);
+    gridView = new RealGridJS.GridView(id);
     dataProvider = new RealGridJS.LocalDataProvider();
-    grdMain.setDataSource(dataProvider);
+    gridView.setDataSource(dataProvider);
     
     setFields(dataProvider);
-    setColumns(grdMain);
-    setOption(grdMain);
+    setColumns(gridView);
+    setOption(gridView);
     
     loadData(dataProvider);
 };
@@ -821,26 +821,26 @@ $(function() {
     $("#btnInsert").click(btnInsertClickHandler);
     $("#btnAppend").click(btnAppendClickHandler);
     $("#btnSaveData").click(btnSaveDataClickHandler);
-    setupGridJs("grdMain", "100%", "300");
+    setupGridJs("gridView", "100%", "300");
 });
 
 function btnInsertClickHandler(e) {
-    var curr = grdMain.getCurrent();
-    grdMain.beginInsertRow(Math.max(0, curr.itemIndex));
-    grdMain.showEditor();
-    grdMain.setFocus();
+    var curr = gridView.getCurrent();
+    gridView.beginInsertRow(Math.max(0, curr.itemIndex));
+    gridView.showEditor();
+    gridView.setFocus();
 }
 
 function btnAppendClickHandler(e) {
-    grdMain.beginAppendRow();
-    grdMain.showEditor();
-    grdMain.setFocus();
+    gridView.beginAppendRow();
+    gridView.showEditor();
+    gridView.setFocus();
 }
 
 function btnSaveDataClickHandler(e) {
-    grdMain.commit();
+    gridView.commit();
 
-    var currRow = grdMain.getCurrent().dataRow;
+    var currRow = gridView.getCurrent().dataRow;
     if (currRow &lt; 0)
         return;
 
@@ -851,7 +851,7 @@ function btnSaveDataClickHandler(e) {
 }
 
 function saveData(urlStr) {
-    var jRowData = dataProvider.getJsonRow(grdMain.getCurrent().dataRow);
+    var jRowData = dataProvider.getJsonRow(gridView.getCurrent().dataRow);
 
     $.post(urlStr, jRowData, function(data) {
         if (data &gt; 0) {
@@ -908,9 +908,9 @@ public &#64;ResponseBody int updateProduct(&#64;ModelAttribute Product product){
 RealGrid는 데이터가 수정되면 RowState를 UPDATED로 변경합니다. 이것을 토대로 default.jsp 을 수정해보도록 하겠습니다.
 
 <pre class="prettyprint">
-grdMain.commit();
+gridView.commit();
 
-var currRow = grdMain.getCurrent().dataRow;
+var currRow = gridView.getCurrent().dataRow;
 if (currRow < 0)
     return;
 
@@ -991,9 +991,9 @@ btnSaveDataClickHandler()는 다음과 같이 수정합니다.
 
 <pre class="prettyprint">
 function btnSaveDataClickHandler(e) {
-    grdMain.commit();
+    gridView.commit();
 
-    var currRow = grdMain.getCurrent().dataRow;
+    var currRow = gridView.getCurrent().dataRow;
     if (currRow < 0)
         return;
 
@@ -1024,7 +1024,7 @@ deleteRowsConfirm, softDeleting property를  true, false로 바꿔보면서 테�
   
 <pre class="prettyprint">
 function saveData(urlStr) {
-    var jRowData = dataProvider.getJsonRow(grdMain.getCurrent().dataRow);
+    var jRowData = dataProvider.getJsonRow(gridView.getCurrent().dataRow);
 
     $.post(urlStr, jRowData, function(data) {
         if (data > 0) {
@@ -1050,7 +1050,7 @@ default.jsp에 btnSaveAllData 버튼을 추가하고 해당 메소드를 아래�
 
 <pre class="prettyprint">
 function btnSaveAllDataClickHandler(e) {
-    grdMain.commit();
+    gridView.commit();
 
     savadataAll("/sample/allSaveProducts.do");
 }

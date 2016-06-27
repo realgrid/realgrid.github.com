@@ -20,7 +20,7 @@ label 값 가져오는 방법을 알려주세요.
 
 # A.
 
-column에 labels값을 지정한 경우 grdMain.columnByField("productName")와 같이 컬럼명으로 해당 컬럼 정보를 가져올 수 있습니다.  
+column에 labels값을 지정한 경우 gridView.columnByField("productName")와 같이 컬럼명으로 해당 컬럼 정보를 가져올 수 있습니다.  
 아래와 같이 labels, values 속성에 값을 지정하고 확인 할 수 있습니다.  
 
 <pre class="prettyprint">
@@ -34,11 +34,11 @@ var columns = [{
 }];
 
 
-var column = grdMain.columnByField("productName");
+var column = gridView.columnByField("productName");
 console.log(column.labes);
 //logs : ["PC","Mouse","Keyboard"]
 
-grdMain.onCellEdited = function getLabels(grid, itemIndex, dataRow, field){ 
+gridView.onCellEdited = function getLabels(grid, itemIndex, dataRow, field){ 
 
     var column = grid.columnByField("productName");
     var values = column.values;
