@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 필드 이름으로 지정되는 데이터필드에 연결되어 있는 첫 번째 컬럼 정보를 반환한다.  
+ 필드 이름으로 지정되는 데이터필드에 연결되어 있는 첫 번째 컬럼 정보를 반환한다.  
 
 #### Syntax
 
@@ -30,7 +30,7 @@ tags:
 > Type: Object  
 > 컬럼 설정 정보나 컬럼이 존재하지 않는 경우 null.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
 var field = "fldName";
@@ -42,6 +42,12 @@ if (column) {
 }
 </pre>
 
-#### See Also
-> [columnByName](/api/GridBase/columnByName), [columnByTag](/api/GridBase/columnByTag), [columnsByField](/api/GridBase/columnsByField), [columnsByTag](/api/GridBase/columnsByTag)
+---
+
+#### API Links
+
+* [columnByName](/api/GridBase/columnByName)
+* [columnByTag](/api/GridBase/columnByTag)
+* [columnsByField](/api/GridBase/columnsByField)
+* [columnsByTag](/api/GridBase/columnsByTag)
 

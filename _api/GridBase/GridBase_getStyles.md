@@ -33,7 +33,7 @@ tags:
 > Type: object  
 > 스타일 데이터.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
 var styles = grid.getStyles("header", true);
@@ -42,5 +42,12 @@ if (styles) {
 }
 </pre>
 
-#### See Also
-> [setStyles](/api/GridBase/setStyles), [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)
+---
+
+#### API Links
+
+* [setStyles](/api/GridBase/setStyles)
+
+#### Demo Links
+
+* [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)

@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
-> 그리드가 [Paging](/api/features/Paging/) 모드로 실행되도록 한다. 
+ 그리드가 [Paging](/api/features/Paging/) 모드로 실행되도록 한다. 
 
 #### Syntax
 
@@ -48,9 +48,14 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    grid.setPaging(true, 10, -1);
+    gridView.setPaging(true, 10, -1);
 </pre>
 
+---
+
+#### Demo Links
+
+* [PagingOverview](http://demo.realgrid.com/Demo/PagingOverview){:target="_blank"}

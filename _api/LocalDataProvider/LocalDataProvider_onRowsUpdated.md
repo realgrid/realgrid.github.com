@@ -16,8 +16,8 @@ tags:
 
 #### Description
 
-> LocalDataProvider에 데이터행들이 수정된 후에 호출된다.  
-> [updateRows](/api/LocalDataProvider/updateRows/) 또는 [updateStrictRows](/api/LocalDataProvider/updateStrictRows/)에서 rowEvents를 false로 입력하고 실행하는 경우에만 호출된다.
+ LocalDataProvider에 데이터행들이 수정된 후에 호출된다.  
+ [updateRows](/api/LocalDataProvider/updateRows/) 또는 [updateStrictRows](/api/LocalDataProvider/updateStrictRows/)에서 rowEvents를 false로 입력하고 실행하는 경우에만 호출된다.
 
 #### Syntax
 
@@ -41,16 +41,16 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    rows = [{"no":"1","title":"title1","content":"content1"},{"no":"2","title":"title2"}];
-    dataProvider.updateRows(0,rows,0,-1,false);
+rows = [{"no":"1","title":"title1","content":"content1"},{"no":"2","title":"title2"}];
+dataProvider.updateRows(0,rows,0,-1,false);
 
-    ....
+....
 
-    dataProvider.onRowsUpdated = function (provider, row,count) {
-        console.log("row ==>",row, "count==>",count);
-    };
+dataProvider.onRowsUpdated = function (provider, row,count) {
+    console.log("row ==>",row, "count==>",count);
+};
 </pre>
 

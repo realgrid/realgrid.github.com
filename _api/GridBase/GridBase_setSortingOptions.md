@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 그리드 정렬과 관련된 정보들을 설정한다. [SortingOptions](/api/types/SortingOptions/)이 설정 모델이다.
+ 그리드 정렬과 관련된 정보들을 설정한다. [SortingOptions](/api/types/SortingOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -30,16 +30,22 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.setSortingOptions({
-        enabled: true,
-        style: "exclusive",
-        ...
-    });
+gridView.setSortingOptions({
+    enabled: true,
+    style: "exclusive",
+    ...
+});
 </pre>
 
-#### See Also
-> [getSortingOptions](/api/GridBase/getSortingOptions)  
-> [Sort Demo](http://demo.realgrid.com/Demo/ColumnSorting)
+---
+
+#### API Links
+
+* [getSortingOptions](/api/GridBase/getSortingOptions)  
+
+#### Demo Links
+
+* [Sort Demo](http://demo.realgrid.com/Demo/ColumnSorting)

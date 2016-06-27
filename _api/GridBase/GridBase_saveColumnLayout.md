@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드의 컬럼 레이아웃을 저장한다.
+ 그리드의 컬럼 레이아웃을 저장한다.
 
 #### Syntax
 
@@ -28,17 +28,20 @@ tags:
 > Type: Array of String  
 > 그리드에 표시된 column명들   
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var dispCols = gridView.saveColumnLayout();
-    var params = { Id: SessionId, layout: JSON.stringify(dispCols) };
-    $.ajax({
-        type: "post",
-        url: "/Demo/SetColumnLayout",
-        data: params
-    });
+var dispCols = gridView.saveColumnLayout();
+var params = { Id: SessionId, layout: JSON.stringify(dispCols) };
+$.ajax({
+    type: "post",
+    url: "/Demo/SetColumnLayout",
+    data: params
+});
 </pre>
 
-#### See Also
-> [ColumnLayout](http://demo.realgrid.com/Demo/ColumnLayout)
+---
+
+#### Demo Links
+
+* [ColumnLayout](http://demo.realgrid.com/Demo/ColumnLayout)

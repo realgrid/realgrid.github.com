@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> [CheckBar\|CheckBar](/api/GridBase/).head의 v 표시가 활성 상태이면 true를 반환한다.
+ [CheckBar\|CheckBar](/api/GridBase/).head의 v 표시가 활성 상태이면 true를 반환한다.
 
 #### Syntax
 
@@ -28,13 +28,17 @@ tags:
 > Type: Boolean  
 > [CheckBar\|CheckBar](/api/GridBase/).head의 v 표시가 활성 상태이면 true를 반환한다.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    if (grdMain.isAllChecked()) {
-        alert("체크 표시 상태");
-    }
+if (grdMain.isAllChecked()) {
+    alert("체크 표시 상태");
+}
 </pre>
 
-#### See Also
-> [getCheckedItems](/api/GridView/getCheckedItems), [getCheckedRows](/api/GridView/getCheckedRows)
+---
+
+#### API Links
+
+* [getCheckedItems](/api/GridView/getCheckedItems)
+* [getCheckedRows](/api/GridView/getCheckedRows)

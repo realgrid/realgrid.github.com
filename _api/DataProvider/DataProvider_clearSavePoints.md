@@ -12,8 +12,8 @@ tags:
 
 #### Description
 
-> savePoint를 이용하여 복제한 데이터셋을 삭제한다.
-> 
+ savePoint를 이용하여 복제한 데이터셋을 삭제한다.
+ 
 
 #### Syntax
 
@@ -27,9 +27,14 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
     provider.clearSavePoints();
 </pre>
 
+---
+
+#### Demo Links
+
+* [DataRollack](http://demo.realgrid.com/Demo/DataRollback){:target="_blank"} 참조

@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 수정이나 추가 중인 편집 아이템의 한 필드값이 편집 완료되었을 때 호출된다.  
+ 수정이나 추가 중인 편집 아이템의 한 필드값이 편집 완료되었을 때 호출된다.  
 
 #### Syntax
 
@@ -42,14 +42,14 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.onCellEdited =  function (grid, itemIndex, dataRow, field) {
-        if (field == 2) { // 2 == "Age"
-            var v = grid.getValue(itemIndex, field);
-            alert(v);
-        }
-    };
+gridView.onCellEdited =  function (grid, itemIndex, dataRow, field) {
+    if (field == 2) { // 2 == "Age"
+        var v = grid.getValue(itemIndex, field);
+        alert(v);
+    }
+};
 </pre>
 

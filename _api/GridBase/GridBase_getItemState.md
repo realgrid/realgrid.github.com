@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드 Item의 상태값을 가져온다.  
+ 그리드 Item의 상태값을 가져온다.  
 
 #### Syntax
 
@@ -32,12 +32,15 @@ tags:
 > 편집:"updating", 추가:"appending", 삽입:"inseting"이 출력된다.  
 > 입력된 itemIndex가 현재 선택된 itemIndex인 경우 "focused"가 출력된다.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    idx = gridView.getCurrent().itemIndex;
-    consloe.log(grdMain.getItemState(idx));
+idx = gridView.getCurrent().itemIndex;
+consloe.log(grdMain.getItemState(idx));
 </pre>
 
-#### See Also
-> [getRowState](/api/dataProvider/getRowState)
+---
+
+#### API Links
+
+* [getRowState](/api/dataProvider/getRowState)

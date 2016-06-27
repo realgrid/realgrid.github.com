@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 사용자가 컬럼 헤더의 체크박스를 클릭했을 때 호출된다.  
+ 사용자가 컬럼 헤더의 체크박스를 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -38,29 +38,28 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
+var columns = [{
+    "name": "OrderDate",
+    "fieldName": "OrderDate",
+    "width": "130",
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "Order Date",
+        "checked": true,
+        "checkLocation": "left"
+    }
+}];
 
-    var columns = [{
-        "name": "OrderDate",
-        "fieldName": "OrderDate",
-        "width": "130",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Order Date",
-            "checked": true,
-            "checkLocation": "left"
-        }
-    }];
+gridView.setColumns(columns);
+....
 
-    gridView.setColumns(columns);
-    ....
-
-    gridView.onColumnCheckedChanged = function (grid, column, checked) {
-        console.log("onColumnCheckedChanged: " + "(" + column.name + ", " + checked + ")");
-    };
+gridView.onColumnCheckedChanged = function (grid, column, checked) {
+    console.log("onColumnCheckedChanged: " + "(" + column.name + ", " + checked + ")");
+};
 </pre>
 

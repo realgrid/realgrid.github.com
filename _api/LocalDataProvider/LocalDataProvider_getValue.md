@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
->  row와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 반환한다.
+ row와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 반환한다.
 
 #### Syntax
 
@@ -33,11 +33,11 @@ tags:
 > Type: *  
 > 데이터 필드의 값.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var dataRow = grid.getCurrent().dataRow;
-    var value = grid.getValue(dataRow, "title");
+var dataRow = gridView.getCurrent().dataRow;
+var value = gridView.getValue(dataRow, "title");
 </pre>
 
 

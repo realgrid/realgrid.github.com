@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 RowGroup의 Bar를 클릭했을 때 호출된다.  
+ 사용자가 마우스로 RowGroup의 Bar를 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -35,11 +35,11 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    grid.onRowGroupBarClicked =  function (grid, index) {
-        console.log("onRowGroupBarClicked : " + "(" + index + ")")
-    };
+gridView.onRowGroupBarClicked =  function (grid, index) {
+    console.log("onRowGroupBarClicked : " + "(" + index + ")")
+};
 </pre>
 

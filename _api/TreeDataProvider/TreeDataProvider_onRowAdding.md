@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> TreeDataProvider에 데이터가 추가되기 직전에 발생하는 이벤트 함수.  
+ TreeDataProvider에 데이터가 추가되기 직전에 발생하는 이벤트 함수.  
 
 #### Syntax
 
@@ -37,12 +37,12 @@ tags:
 
 > callback 함수에서 명시적으로 false를 리턴하면 행이 삽입되지 않는다.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeProvider.onRowAdding = function (provider, rowId, index) {
-        console.log("onRowAdding:" + rowId + ", " + index);
-       	return true;
-    };
+treeProvider.onRowAdding = function (provider, rowId, index) {
+    console.log("onRowAdding:" + rowId + ", " + index);
+   	return true;
+};
 </pre>
 

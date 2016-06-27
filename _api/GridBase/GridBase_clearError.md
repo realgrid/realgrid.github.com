@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 표시된 에러 메시지를 지웁니다.
+ 표시된 에러 메시지를 지웁니다.
 
 #### Syntax
 
@@ -26,9 +26,9 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.clearError();    
+gridView.clearError();    
 </pre>
 

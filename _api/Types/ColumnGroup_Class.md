@@ -20,7 +20,7 @@ tags:
 
 #### Description
 
-> 컬럼 그룹은 하나 이상의 컬럼 및 하위 컬럼 그룹들을 수평 혹은 수직으로 배치한다.
+ 컬럼 그룹은 하나 이상의 컬럼 및 하위 컬럼 그룹들을 수평 혹은 수직으로 배치한다.
 
 #### Properties
 
@@ -79,71 +79,74 @@ tags:
 > Default:  null     
 > 컬럼그룹에 적용할 스타일들을 지정한다.     
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
+var columns = [{
+    "type": "group",
+    "name": "GroupOrder",
+    "orientation": "vertical",
+    "resizable": true,
+    "movable": false,
+    "hideChildHeaders": false,
+    "width": 250,
+    "columns": [{
         "type": "group",
-        "name": "GroupOrder",
-        "orientation": "vertical",
-        "resizable": true,
-        "movable": false,
-        "hideChildHeaders": false,
-        "width": 250,
+        "name": "GroupIds",
         "columns": [{
-            "type": "group",
-            "name": "GroupIds",
-            "columns": [{
-                "name": "OrderID",
-                "fieldName": "OrderID",
-                "type": "data",
-                "width": "90",
-                "styles": {
-                    "textAlignment": "center"
-                },
-                "header": {
-                    "text": "Order"
-                }
-            }, {
-                "name": "CustomerID",
-                "fieldName": "CustomerID",
-                "width": "130",
-                "styles": {
-                    "textAlignment": "center"
-                },
-                "header": {
-                    "text": "Customer ID"
-                }
-            }, {
-                "name": "EmployeeID",
-                "fieldName": "EmployeeID",
-                "width": "100",
-                "styles": {
-                    "textAlignment": "center"
-                },
-                "header": {
-                    "text": "Employee ID"
-                }
-            }]
+            "name": "OrderID",
+            "fieldName": "OrderID",
+            "type": "data",
+            "width": "90",
+            "styles": {
+                "textAlignment": "center"
+            },
+            "header": {
+                "text": "Order"
+            }
         }, {
-            "name": "OrderDate",
-            "fieldName": "OrderDate",
+            "name": "CustomerID",
+            "fieldName": "CustomerID",
             "width": "130",
             "styles": {
                 "textAlignment": "center"
             },
             "header": {
-                "text": "Order Date"
+                "text": "Customer ID"
+            }
+        }, {
+            "name": "EmployeeID",
+            "fieldName": "EmployeeID",
+            "width": "100",
+            "styles": {
+                "textAlignment": "center"
+            },
+            "header": {
+                "text": "Employee ID"
             }
         }]
-	}];
-	
-	gridView.setColumns(columns);
+    }, {
+        "name": "OrderDate",
+        "fieldName": "OrderDate",
+        "width": "130",
+        "styles": {
+            "textAlignment": "center"
+        },
+        "header": {
+            "text": "Order Date"
+        }
+    }]
+}];
+
+gridView.setColumns(columns);
 </pre>
 
-#### See Also 
+---
 
-> [Column Grouping](http://demo.realgrid.net/Demo/ColumnGrouping) 참조  
+#### API Links
 
-> [ColumnGroupHeader](/api/types/ColumnGroupHeader)  
+* [ColumnGroupHeader](/api/types/ColumnGroupHeader) 
 
+#### Demo Links 
+
+* [Column Grouping](http://demo.realgrid.net/Demo/ColumnGrouping)

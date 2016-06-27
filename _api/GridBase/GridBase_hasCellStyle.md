@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 셀 스타일이 등록되어 있는지 확인한다.  
+ 셀 스타일이 등록되어 있는지 확인한다.  
 
 #### Syntax
 
@@ -30,11 +30,16 @@ tags:
 > Type: Boolean  
 > 셀 스타일이 이미 등록되어 있다면 true, 아니면 false  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var value = gridView.hasCellStyle("style01");
+var value = gridView.hasCellStyle("style01");
 </pre>
 
-#### See Also
-> [addCellStyle](/api/GridBase/addCellStyle), [getCellStyle](/api/GridBase/getCellStyle), [setCellStyle](/api/GridBase/setCellStyle)
+---
+
+#### API Links
+
+* [addCellStyle](/api/GridBase/addCellStyle)
+* [getCellStyle](/api/GridBase/getCellStyle)
+* [setCellStyle](/api/GridBase/setCellStyle)

@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
-> 지정한 설정에 따라 데이터셋을 로드해서 DataProvider 로컬 저장소에 저장한다. 
+ 지정한 설정에 따라 데이터셋을 로드해서 DataProvider 로컬 저장소에 저장한다. 
 
 #### Syntax
 
@@ -36,38 +36,38 @@ tags:
 
 > None.   
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    grdMain.showProgress();
+gridView.showProgress();
 
-    var current = grdMain.getCurrent();
-    var dataRow = current.dataRow >= 0 ? current.dataRow : 0;    
+var current = gridView.getCurrent();
+var dataRow = current.dataRow >= 0 ? current.dataRow : 0;    
 
-    $.ajax({
-        url: "/DemoData/defaultloaddata.csv?__time__=" + new Date().getTime(),
-        success: function (data) {
-            dataProvider.fillCsvData(data, { count: 10, fillMode: "insert", fillPos: dataRow });
-        },
-        error: function (xhr, status, error) {
-            //$("#loadResult").css("color", "red").text("Load failed: " + error).show();
-        },
-        complete: function (data) {
-            setLoading(false);
-            grdMain.closeProgress();
+$.ajax({
+    url: "/DemoData/defaultloaddata.csv?__time__=" + new Date().getTime(),
+    success: function (data) {
+        dataProvider.fillCsvData(data, { count: 10, fillMode: "insert", fillPos: dataRow });
+    },
+    error: function (xhr, status, error) {
+        //$("#loadResult").css("color", "red").text("Load failed: " + error).show();
+    },
+    complete: function (data) {
+        setLoading(false);
+        gridView.closeProgress();
 
-            grdMain.setFocus();
-        },
-        xhr: function () {
-            var xhr = new window.XMLHttpRequest();
-            //Download progress
-            xhr.addEventListener("progress", function (evt) {
-                if (evt.lengthComputable) {
-                    grdMain.setProgress(0, evt.total, evt.loaded);
-                }
-            }, false);
-            return xhr;
-        }
-    });
+        gridView.setFocus();
+    },
+    xhr: function () {
+        var xhr = new window.XMLHttpRequest();
+        //Download progress
+        xhr.addEventListener("progress", function (evt) {
+            if (evt.lengthComputable) {
+                gridView.setProgress(0, evt.total, evt.loaded);
+            }
+        }, false);
+        return xhr;
+    }
+});
 </pre>
 

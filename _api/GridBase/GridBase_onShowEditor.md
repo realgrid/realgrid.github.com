@@ -13,8 +13,8 @@ tags:
 
 #### Description
 
-> Cell별로 Editor의 표시여부를 임의로 변경하기 위해서 사용한다.  
-> false 를 return하면 Editor가 표시되지 않는다.
+ Cell별로 Editor의 표시여부를 임의로 변경하기 위해서 사용한다.  
+ false 를 return하면 Editor가 표시되지 않는다.
 
 #### Syntax
 
@@ -36,19 +36,22 @@ tags:
 > Default: true
 > false 를 리턴하면 Editor가 표시되지 않는다.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-	gridView.onShowEditor = function (id, index) { 
-    	console.log("onShowEditor:" + index.itemIndex + "," + index.column);  
+gridView.onShowEditor = function (id, index) { 
+	console.log("onShowEditor:" + index.itemIndex + "," + index.column);  
 
-    	if (index.column == "OrderID") then
-    	{
-    		return false;  
-        }
-    
+	if (index.column == "OrderID") then
+	{
+		return false;  
     }
+
+}
 </pre>
 
-#### See Also
-> [onHideEditor](/api/GridBase/onHideEditor)
+---
+
+#### API Links
+
+* [onHideEditor](/api/GridBase/onHideEditor)

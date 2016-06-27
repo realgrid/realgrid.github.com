@@ -7,12 +7,13 @@ order: IndicatorValue
 objectname: 
 directiontype: 
 permalink: /api/types/IndicatorValue/
+tags:
+  - 인디케이터
 ---
-
 
 #### Description
 
-> 그리드의 Indicator영역에 표시하는 방법을 정의합니다.
+ 그리드의 Indicator영역에 표시하는 방법을 정의합니다.
 
 #### Members
 
@@ -28,3 +29,8 @@ permalink: /api/types/IndicatorValue/
 > Value: "row"    
 > Row의 고유번호를 표시합니다. (정렬에 따라서 섞여서 표시)  
 
+---
+
+#### Demo Links
+
+* [Indicator](http://demo.realgrid.com/Demo/Indicator)

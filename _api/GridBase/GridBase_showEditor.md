@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
-> 현재 위치한 셀에서 그리드의 editor 를 보여준다.
-> 그리드가 편집 불가 상태(editable: false)라면 editor는 표시되지 않는다.
+ 현재 위치한 셀에서 그리드의 editor 를 보여준다.
+ 그리드가 편집 불가 상태(editable: false)라면 editor는 표시되지 않는다.
 
 #### Syntax
 
@@ -29,9 +29,9 @@ tags:
 
 > None
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.showEditor();
+gridView.showEditor();
 </pre>
 

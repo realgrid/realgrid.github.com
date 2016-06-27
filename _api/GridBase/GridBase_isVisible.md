@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드가 표시된 상태면 true를 리턴한다.
+ 그리드가 표시된 상태면 true를 리턴한다.
 
 #### Syntax
 
@@ -27,11 +27,14 @@ tags:
 > Type: boolean  
 > 그리드가 표시된 상태면 true.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
 var visible = gridView.isVisible();
 </pre>
 
-#### See Also
-> [setVisible](/api/GridBase/setVisible)
+---
+
+#### API Links
+
+* [setVisible](/api/GridBase/setVisible)

@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
-> 지정한 그룹아이템 모델을 확장한다. recursive를 true로 하면 그룹에 포함된 자손그룹들도 확장된다.  
-> recursive와 force를 모두 true로 입력하면 이미 확장된 그룹아이템모델의 자손그룹을 확장한다.  
+ 지정한 그룹아이템 모델을 확장한다. recursive를 true로 하면 그룹에 포함된 자손그룹들도 확장된다.   
+ recursive와 force를 모두 true로 입력하면 이미 확장된 그룹아이템모델의 자손그룹을 확장한다.  
 
 #### Syntax
 
@@ -41,13 +41,21 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var aModel = gridView.getModel(0); 
-    gridView.expandModel(aModel, true, true);
+var aModel = gridView.getModel(0); 
+gridView.expandModel(aModel, true, true);
 </pre>
 
-#### See Also
-> [getModel](/api/GridBase/GetModel), [getParentModel](/api/GridBase/getParentModel), [collapseModel](/api/GridBase/expandModel)  
-> [ItemMoelApi](http://demo.realgrid.com/Demo/ItemModelApi)
+---
+
+#### API Links
+
+* [getModel](/api/GridBase/GetModel)
+* [getParentModel](/api/GridBase/getParentModel)
+* [collapseModel](/api/GridBase/expandModel)  
+
+#### Demo Links
+
+* [ItemMoelApi](http://demo.realgrid.com/Demo/ItemModelApi)

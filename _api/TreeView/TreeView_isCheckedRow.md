@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 입력된 데이터행의 트리 아이디가 체크되어있는지 확인한다.
+ 입력된 데이터행의 트리 아이디가 체크되어있는지 확인한다.
 
 #### Syntax
 
@@ -29,13 +29,14 @@ tags:
 > Type: Boolean  
 > 입력된 rowId의 데이터행이 체크되었으면 true, 해제되었으면 false를 return한다.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeView.isCheckedRow(0);
+treeView.isCheckedRow(0);
 </pre>
 
 ---
-#### See Also
 
-> [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"} 참조    
+#### Demo Links
+
+* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"}   

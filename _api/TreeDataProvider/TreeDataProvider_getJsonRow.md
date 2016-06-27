@@ -11,7 +11,7 @@ jsonly: true
 
 #### Description
 
-> 지정한 데이터행을 JSON 객체로 가져온다. 
+ 지정한 데이터행을 JSON 객체로 가져온다. 
 
 #### Syntax
 
@@ -28,9 +28,9 @@ jsonly: true
 > Type: Object  
 > JSON 객체   
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    var row = treeProvider.getJsonRow(2);
+var row = treeProvider.getJsonRow(2);
 </pre>
 

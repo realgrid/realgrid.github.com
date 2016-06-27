@@ -11,7 +11,7 @@ permalink: /api/types/CellRenderer/
 
 #### Description
 
-> 셀의 Renderer 유형을 정의합니다.
+ 셀의 Renderer 유형을 정의합니다.
 
 #### Members
 

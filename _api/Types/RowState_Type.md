@@ -7,12 +7,16 @@ order: RowState
 objectname: 
 directiontype: 
 permalink: /api/types/RowState/
+tags:
+  - 행상태
 ---
 
 
 #### Description
 
-> DataProvider 각 행의 변경 상태를 나타내는 상수 값이다.
+ DataProvider 각 행의 변경 상태를 나타내는 상수 값이다.
+[loadData](/api/DataProvider/loadData/)나 [setRows](/api/LocalDataProvider/setRows/)로 처음 데이터가 로드되면 각 행은 NONE상태를 갖는다.    
+상태가 `created`인 행은 수정이 되어도 `updated`로 변경되지 않는다.    
 
 #### Members
 
@@ -36,8 +40,8 @@ permalink: /api/types/RowState/
 > Type: "createAndDeleted"    
 > 새로 추가된 후에 다시 삭제된 행의 상태.    
 
-#### Description
+---
 
-> loadData나 setRows로 처음 데이터가 로드되면 각 행은 NONE상태를 갖는다.    
-> 상태가 CREATED인 행은 수정이 되어도 UPDATED로 변경되지 않는다.    
+#### Demo Links
 
+* [StateBar](http://demo.realgrid.com/Demo/StateBar){:target="_blank"}

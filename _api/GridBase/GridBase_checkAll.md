@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 그리드의 데이터행을 모두 체크,해제한다. [CheckBar](/api/types/CheckBar/)의 exclusive에 영향을 받지않는다.  
+ 그리드의 데이터행을 모두 체크,해제한다. [CheckBar](/api/types/CheckBar/)의 exclusive에 영향을 받지않는다.  
 
 #### Syntax
 
@@ -38,12 +38,21 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.checkAll(true,false);
+gridView.checkAll(true,false);
 </pre>
 
-#### See Also
-> [checkItem](/api/GridBase/checkItem), [checkItems](/api/GridBase/checkItems), [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)    
-> [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+---
+
+#### API Links
+
+* [checkItem](/api/GridBase/checkItem)
+* [checkItems](/api/GridBase/checkItems)
+* [setCheckable](/api/GridBase/setCheckable)
+* [setCheckableExpression](/api/GridBase/setCheckableExpression) 
+
+#### Demo Links
+
+* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)

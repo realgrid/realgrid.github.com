@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
-> 트리뷰 표시 및 동작과 관련된 설정을 한다.
+ 트리뷰 표시 및 동작과 관련된 설정을 한다.
 
 #### Syntax
 
@@ -28,13 +28,13 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    treeView.setTreeOptions({
-        iconImages: "icons",
-        iconWidth: 20,
-        ...
-    });
+treeView.setTreeOptions({
+    iconImages: "icons",
+    iconWidth: 20,
+    ...
+});
 </pre>
 

@@ -7,11 +7,14 @@ order: EditOptions
 objectname: 
 directiontype: 
 permalink: /api/types/EditOptions/
+tags:
+  - EditOptions
+  - 편집옵션 
 ---
 
 #### Description
 
-> 그리드에서 사용자가 데이터를 편집하는 것에 대한 설정 모델이다.
+ 그리드에서 사용자가 데이터를 편집하는 것에 대한 설정 모델이다.
 
 #### Properties
 
@@ -24,6 +27,11 @@ permalink: /api/types/EditOptions/
 > Type: boolean   
 > Default: true   
 > true면 사용자 삭제나 GridView.deleteSelection() 실행 시 삭제 여부를 묻는 대화 상자를 먼저 호출한다. GridView.deleteSelection(true)로 호출하면 대화 상자 표시 없이 바로 삭제한다. 
+
+> **confirmWhenDelete**                 
+> Type: Boolean  
+> Default: true   
+> deleteRowsConfirm 와 같다.      
 
 > **deleteRowsMessage**   
 > Type: string   
@@ -98,7 +106,7 @@ permalink: /api/types/EditOptions/
 > **forceAppend**    
 > Type: Boolean    
 > Default: false    
-> 변경된 내용이 없어도 appending 상태에서 항상 commit할것인지의 여부.  
+> 변경된 내용이 없어도 appending 상태에서 항상 commit 할 것인지의 여부.  
 
 > **checkable**                 
 > Type: boolean   
@@ -157,64 +165,75 @@ permalink: /api/types/EditOptions/
 > **appendWhenExitLast**                 
 > Type: Boolean  
 > Default: false   
->      
+> commitWhenExitLast 가 true 일 경우 enter/tab 키로 마지막셀을 벗어날 경우 행이 추가된다.       
 
 > **appendWhenInsertKey**                 
 > Type: Boolean  
 > Default: false   
->      
+> Insert 키 입력시 해당 위치에 행이 삽입되는 것이 아니라 가장 마지막행에 추가된다.       
 
 > **commitWhenExitLast**                 
 > Type: Boolean  
 > Default: false   
->      
+> tab/enter 키로 마지막 셀을 벗어날 때 행 commit 한다.       
 
 > **commitWhenNoEdit**                 
 > Type: Boolean  
 > Default: false   
 >      
 
-> **confirmWhenDelete**                 
-> Type: Boolean  
-> Default: true   
->      
-
 > **crossWhenExitLast**                 
 > Type: Boolean  
 > Default: false   
->      
+> tab/enter 키로 마지막 셀을 벗어날 때 다음 행으로 이동한다.        
 
 > **editWhenClickFocused**                 
 > Type: Boolean  
 > Default: false   
->      
+> 한번 선택된 셀을 다시한번 선택하면 에디터가 표시된다.(더블 클릭이 아님)       
 
 > **editWhenFocused**                 
 > Type: Boolean  
 > Default: false   
->      
-
-> **firstCellWhenInsert**                 
-> Type: Boolean  
-> Default: false   
->      
+> 셀이 선택될때마다 에디터가 표시된다.      
 
 > **forceInsert**                 
 > Type: Boolean  
 > Default: false   
->      
+> 변경된 내용이 없어도 Inserting 상태에서 항상 commit 할 것인지의 여부.       
 
 > **revertable**                 
 > Type: Boolean  
 > Default: false   
->      
+> dataProvider.softDeleting = true 인 경우 삭제 상태인 행들을 ctrl+shift+del 키 입력시 원래 상태로 되돌리겠는지의 여부를 설정한다.     
 
 > **showOnlyValidationMessage**                 
 > Type: Boolean  
 > Default: true   
 >      
 
-> **useArrowKeys**                 
-> Type: Boolean  
-> Default: true   
->      
+#### Examples   
+
+<pre class="prettyprint">
+gridView.setEditOptions({
+    deletable: true,
+    deleteRowsConfirm: true,
+    deleteRowsMessage: "Are you sure?",
+    insertable: true,
+    appendable: true
+});
+</pre>
+
+---
+
+#### API Links
+ 
+* [setEditOptions](/api/GridBase/setColumnHeaderOptions/)   
+* [getEditOptions](/api/GridBase/getColumnHeaderOptions/) 
+
+#### Demo Links
+
+* [Inserting](http://demo.realgrid.com/Demo/Inserting) 
+* [Updating Rows](http://demo.realgrid.com/Demo/Updating)  
+* [Delete Rows](http://demo.realgrid.com/Demo/Deleting) 
+* [Editors](http://demo.realgrid.com/Demo/Editors)

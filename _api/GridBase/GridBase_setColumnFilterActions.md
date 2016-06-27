@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 컬럼 필터 리스트에 사용자가 임의의 동작을 할 수 있는 filter action을 추가한다. 
+ 컬럼 필터 리스트에 사용자가 임의의 동작을 할 수 있는 filter action을 추가한다. 
 
 #### Syntax
 
@@ -35,17 +35,17 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.onFilterActionClicked = function (grid, column, action, x, y) {
-        console.log("onFilterActionClicked");
-        if (action == "autoFilter") {
-            var offset = $("#realgrid").offset();
-            /* 그리드가 표시되는 DIV의 좌표를 구해온다 */
-            showAutoFiltering(column, x + offset.left, y + offset.top);
-        }
-    };
+gridView.onFilterActionClicked = function (grid, column, action, x, y) {
+    console.log("onFilterActionClicked");
+    if (action == "autoFilter") {
+        var offset = $("#realgrid").offset();
+        /* 그리드가 표시되는 DIV의 좌표를 구해온다 */
+        showAutoFiltering(column, x + offset.left, y + offset.top);
+    }
+};
 .
 .
 .
@@ -87,5 +87,12 @@ function showAutoFiltering(column, x, y) {
 
 </pre>
 
-#See Also
-> [Columnfiltering Demo](http://demo.realgrid.com/Demo/ColumnFiltering), [onFilterActionClicked](/api/GridBase/onFilterActionClicked)
+---
+
+#### API Links
+
+* [onFilterActionClicked](/api/GridBase/onFilterActionClicked)
+
+#### Demo Links
+
+> [Columnfiltering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

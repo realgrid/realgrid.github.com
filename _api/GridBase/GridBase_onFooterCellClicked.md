@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> 사용자가 마우스로 컬럼 Footer셀을 클릭했을 때 호출된다.  
+ 사용자가 마우스로 컬럼 Footer셀을 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -34,11 +34,11 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.onFooterCellClicked =  function (grid, column) {
-        console.log("onFooterCellClicked : " + "(" + column.name + ")")
-    };
+gridView.onFooterCellClicked =  function (grid, column) {
+    console.log("onFooterCellClicked : " + "(" + column.name + ")")
+};
 </pre>
 

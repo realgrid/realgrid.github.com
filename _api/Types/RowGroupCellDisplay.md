@@ -7,12 +7,14 @@ order: RowGroupCellDisplay
 objectname: 
 directiontype: 
 permalink: /api/types/RowGroupCellDisplay/
+tags:
+  - 그룹
 ---
 
 
 #### Description
 
-> 그리드 행이 그룹 상태일 때 셀들의 표시 방법을 정의합니다.
+ 그리드 행이 그룹 상태일 때 셀들의 표시 방법을 정의한다.
 
 #### Members
 

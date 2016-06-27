@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
-> current를 첫번째 행, 첫번째 열로 초기화한다. 
+ current를 첫번째 행, 첫번째 열로 초기화한다. 
 
 #### Syntax
 
@@ -28,11 +28,15 @@ tags:
 
 > None
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.resetCurrent();
+gridView.resetCurrent();
 </pre>
 
-#### See Also
-> [setCurrent](/api/GridBase/setCurrent), [getCurrent](/api/GridBase/getCurrent)
+---
+
+#### API Links
+
+* [setCurrent](/api/GridBase/setCurrent)
+* [getCurrent](/api/GridBase/getCurrent)

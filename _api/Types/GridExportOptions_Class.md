@@ -7,11 +7,15 @@ order: GridExportOptions
 objectname: 
 directiontype: 
 permalink: /api/types/GridExportOptions/
+tags:
+  - ExcelExportOptions
+  - 엑셀옵션
+  - 엑셀익스포트옵션   
 ---
 
 #### Description
 
-> 화면에 표시되는 그리드를 엑셀 등의 외부 문서로 내보기할 때 지정하는 설정 모델.
+ 화면에 표시되는 그리드를 엑셀 등의 외부 문서로 내보기할 때 지정하는 설정 모델.
 
 #### Properties
 
@@ -116,4 +120,27 @@ permalink: /api/types/GridExportOptions/
 > **compatibility**  
 > Type: boolean  
 > Default: false  
-> excel 2007 호환 여부를 지정한다.    
+> excel 2007 호환 여부를 지정한다.  
+
+### Example  
+
+<pre class="prettyprint">
+gridView.exportGrid({
+    type: "excel",
+    target: "local",
+    fileName: "gridExportSample.xlsx",
+    indicator: "default",
+    header: "visible",
+    footer: "hidden"
+});
+</pre>
+
+---
+
+#### API Links
+
+* [exportGrid](/api/GridBase/exportGrid/)
+
+#### Demo Links
+
+* [Export to Excel File](http://demo.realgrid.com/Demo/ExportToExcel) 

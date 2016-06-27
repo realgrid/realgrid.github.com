@@ -19,7 +19,7 @@ tags:
 
 #### Description
 
-> Bar Cell Renderer에서 표시되는 막대상자의 시작 위치를 지정합니다.
+Bar Cell Renderer에서 표시되는 막대상자의 시작 위치를 지정합니다.
 
 #### Members
 
@@ -43,36 +43,38 @@ tags:
 > Type: "bottom"  
 > 막대 상자가 셀의 아래쪽부터 사작한다.                
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
-        "name": "Quantity",
-        "fieldName": "Quantity",
-        "type": "data",
-        "width": 100,
-        "renderer": {
-            "type": "bar",
-            "minimum": 0,
-            "maximum": 100,
-            "minWidth": 150,
-            "showLabel": true,
-            "origin":"left"
-        },
-        "styles": {
-            "figureBackground": "linear,#ff000044,#ffeeeeee,90",
-            "textAlignment": "center",
-            "lineAlignment": "far",
-            "paddingRight": 5,
-            "figureSize": "70%"
-        },
-        "header": {
-            "text": "Quantity"
-        }
-	}]
-	gridView.setColumns(columns);
+var columns = [{
+      "name": "Quantity",
+      "fieldName": "Quantity",
+      "type": "data",
+      "width": 100,
+      "renderer": {
+          "type": "bar",
+          "minimum": 0,
+          "maximum": 100,
+          "minWidth": 150,
+          "showLabel": true,
+          "origin":"left"
+      },
+      "styles": {
+          "figureBackground": "linear,#ff000044,#ffeeeeee,90",
+          "textAlignment": "center",
+          "lineAlignment": "far",
+          "paddingRight": 5,
+          "figureSize": "70%"
+      },
+      "header": {
+          "text": "Quantity"
+      }
+}]
+gridView.setColumns(columns);
 </pre>
 
-#### See Also
+---
 
-> [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 
+#### Demo Links
+
+* [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 

@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 지정한 행의 값을 Array객체로 가져온다. 
+ 지정한 행의 값을 Array객체로 가져온다. 
 
 #### Syntax
 
@@ -30,8 +30,14 @@ tags:
 > Type: Object  
 > Array객체로 만들어진 행의 값  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
     var values = dataProvider.getValues(0);
 </pre>
+
+---
+
+#### Demo Links
+
+* [GetValues](http://demo.realgrid.com/Demo/GetValues){:target="_blank"} 

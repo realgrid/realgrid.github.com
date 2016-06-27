@@ -10,7 +10,7 @@ permalink: /api/GridBase/setFooter/
 
 #### Description
 
-> 그리드 Footer와 관련된 정보들을 설정한다. [Footer](/api/types/Footer/)가 설정 모델이다.
+ 그리드 Footer와 관련된 정보들을 설정한다. [Footer](/api/types/Footer/)가 설정 모델이다.
 
 #### Syntax
 
@@ -26,15 +26,18 @@ permalink: /api/GridBase/setFooter/
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.setFooter({
-        resizable: false,
-        visible: true,
-        ...
-    });
+gridView.setFooter({
+    resizable: false,
+    visible: true,
+    ...
+});
 </pre>
 
-#### See Also
-> [getFooter](/api/GridBase/getFooter)
+---
+
+#### API Links
+
+* [getFooter](/api/GridBase/getFooter)

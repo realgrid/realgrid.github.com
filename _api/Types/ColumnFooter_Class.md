@@ -11,7 +11,7 @@ permalink: /api/types/ColumnFooter/
 
 #### Description
 
-> 그리드 푸터 영역에 표시되는 컬럼 푸터에 대한 설정 정보를 관리한다.
+ 그리드 푸터 영역에 표시되는 컬럼 푸터에 대한 설정 정보를 관리한다.
 
 #### Properties
 
@@ -45,55 +45,57 @@ permalink: /api/types/ColumnFooter/
 > Default:  null     
 > 그룹 푸터 데이터셀들에게 적용할 스타일들을 지정한다.   
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
-        "name": "QuantityPerUnit",
-        "fieldName": "QuantityPerUnit",
-        "type": "data",
-        "width": "140",
+var columns = [{
+    "name": "QuantityPerUnit",
+    "fieldName": "QuantityPerUnit",
+    "type": "data",
+    "width": "140",
+    "styles": {
+        "textAlignment": "near"
+    },
+    "header": {
+        "text": "Quantity / Unit"
+    },
+    "footer": {
         "styles": {
-            "textAlignment": "near"
+            "textAlignment": "far",
+            "font": "굴림,12"
         },
-        "header": {
-            "text": "Quantity / Unit"
-        },
-        "footer": {
-            "styles": {
-                "textAlignment": "far",
-                "font": "굴림,12"
+        "text": "합계 =>",
+        "groupText": "합계 =>"
+    }
+}, {
+    "name": "Quantity",
+    "fieldName": "Quantity",
+    "type": "data",
+    "width": "100",
+    "styles": {
+        "textAlignment": "far"
+    },
+    "header": {
+        "text": "Quantity"
+    },
+    "footer": {
+        "styles": { 
+            "textAlignment": "far",
+            "numberFormat": "0,000",
+            "suffix": " $",
+            "font": "Arial,12"
             },
-            "text": "합계 =>",
-            "groupText": "합계 =>"
-        }
-    }, {
-        "name": "Quantity",
-        "fieldName": "Quantity",
-        "type": "data",
-        "width": "100",
-        "styles": {
-            "textAlignment": "far"
-        },
-        "header": {
-            "text": "Quantity"
-        },
-        "footer": {
-            "styles": { 
-                "textAlignment": "far",
-                "numberFormat": "0,000",
-                "suffix": " $",
-                "font": "Arial,12"
-                },
-            "expression": "sum",
-            "groupExpression": "sum"
-        }
-	}];
-	
-	gridView.setColumns(columns);
+        "expression": "sum",
+        "groupExpression": "sum"
+    }
+}];
+
+gridView.setColumns(columns);
 </pre>
 
-#### See Also 
+---
 
-> [Column Footer](http://demo.realgrid.net/Demo/ColumnFooter) 참조  
-> [Expression Overview](http://demo.realgrid.com/Demo/ExpressionConcept) 참조  
+#### Demo Links 
+
+* [Column Footer](http://demo.realgrid.net/Demo/ColumnFooter) 
+* [Expression Overview](http://demo.realgrid.com/Demo/ExpressionConcept) 

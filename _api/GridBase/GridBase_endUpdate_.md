@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 이 전에 [beginUpdate](/api/GridBase/beginUpdate/)가 호출되었다면 update lock을 풀고 그리드를 다시 그리게 한다.  
+ 이 전에 [beginUpdate](/api/GridBase/beginUpdate/)가 호출되었다면 update lock을 풀고 그리드를 다시 그리게 한다.  
 
 #### Syntax
 
@@ -30,7 +30,7 @@ tags:
 
 > None.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
 gridView.beginUpdate();
@@ -43,5 +43,8 @@ gridView.endUpdate();
 
 </pre>
 
-#### See Also
-> [beginUpdate](/api/GridBase/beginUpdate)
+---
+
+#### API Links
+
+* [beginUpdate](/api/GridBase/beginUpdate)

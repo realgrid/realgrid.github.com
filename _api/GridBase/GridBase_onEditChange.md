@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
-> 아이템이 사용자의 Key입력등으로 값이 변경되면 호출된다.  
+ 아이템이 사용자의 Key입력등으로 값이 변경되면 호출된다.  
 
 #### Syntax
 
@@ -39,11 +39,11 @@ tags:
 
 None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.onEditChange =  function (grid, index, value) {
-        console.log("grid ==>",grid.id," field ==>",index.fieldName," value==>",value);
-    };
+gridView.onEditChange =  function (grid, index, value) {
+    console.log("grid ==>",grid.id," field ==>",index.fieldName," value==>",value);
+};
 </pre>
 

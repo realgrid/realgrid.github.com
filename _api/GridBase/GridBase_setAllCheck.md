@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
-> checkBar.head 영역에 v 표시 활성화 여부를 지정한다.  
-> checkbar에 체크 표시되는 것은 아니다.  
+ checkBar.head 영역에 v 표시 활성화 여부를 지정한다.  
+ checkbar에 체크 표시되는 것은 아니다.  
 
 #### Syntax
 
@@ -31,11 +31,14 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-	gridView.setAllCheck(true);
+gridView.setAllCheck(true);
 </pre>
 
-#### See Also
-> [ChcekBar](/api/types/CheckBar)
+---
+
+#### API Links
+
+* [ChcekBar](/api/types/CheckBar)

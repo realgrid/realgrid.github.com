@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 필터링이 시작될때 호출된다.  
+ 필터링이 시작될때 호출된다.  
 
 #### Syntax
 
@@ -31,11 +31,11 @@ tags:
 > Default: True  
 > 필터링 실행 여부를 지정한다.  False를 반환하면 필터링은 취소된다.  
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-    gridView.onFiltering = function (grid){
-	    return false;
-	}
+gridView.onFiltering = function (grid){
+    return false;
+}
 </pre>
 

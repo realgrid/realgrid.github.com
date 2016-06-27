@@ -11,11 +11,13 @@ jsonly: true
 tags:
   - buttonVisibility
   - 버튼표시
+  - button
+  - 버튼
 ---
 
 #### Description
 
-> 데이터 셀에 버튼을 표시하는 방법을 지정한다.
+[DataColumn](/api/types/DataColumn)의 `buttonVisibility`속성과 `editButtonVisibility`속성에 사용되며, 데이터 셀에 버튼을 표시하는 방법을 지정한다.
 
 #### Members
 
@@ -35,53 +37,64 @@ tags:
 > Value: "hidden"  
 > 버튼을 표시하지 않는다.     
 
-### Example  
+#### Examples   
 
 <pre class="prettyprint">
-	var columns = [{
-        "name": "OrderID",
-        "fieldName": "OrderID",
-        "type": "data",
-        "width": "90",
-        "button": "action",
-        "buttonVisibility": "always",
-        "styles": {
-            "textAlignment": "near"
-        },
-        "header": {
-            "text": "Order"
-        }
-    }, {
-        "name": "CustomerID",
-        "fieldName": "CustomerID",
-        "type": "data",
-        "width": "130",
-        "button": "action",
-        "buttonVisibility": "visible",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Customer ID"
-        }
-    }, {
-        "name": "EmployeeID",
-        "fieldName": "EmployeeID",
-        "type": "data",
-        "width": "100",
-        "button": "action",
-        "buttonVisibility": "hidden",
-        "styles": {
-            "textAlignment": "far"
-        },
-        "header": {
-            "text": "Employee ID"
-        }
-	}]
-	gridView.setColumns(columns);
+var columns = [{
+    "name": "OrderID",
+    "fieldName": "OrderID",
+    "type": "data",
+    "width": "90",
+    "button": "action",
+    "buttonVisibility": "always",
+    "styles": {
+        "textAlignment": "near"
+    },
+    "header": {
+        "text": "Order"
+    }
+}, {
+    "name": "CustomerID",
+    "fieldName": "CustomerID",
+    "type": "data",
+    "width": "130",
+    "button": "action",
+    "buttonVisibility": "visible",
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "Customer ID"
+    }
+}, {
+    "name": "EmployeeID",
+    "fieldName": "EmployeeID",
+    "type": "data",
+    "width": "100",
+    "editButtonVisibility": "visible",
+    "lables": ["ID1", "ID2"],
+    "values": ["V1", "V2"],
+    "editor": {
+        type: "dropdown"
+    },
+    "header": {
+        "text": "Employee ID"
+    }
+}]
+gridView.setColumns(columns);
 </pre>
 
-#### See Also
+---
 
-> [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons) 참조  
-> [B7-6 Cell Button](http://help.realgrid.com/tutorial/b7-6/) 참조  
+#### Tutorial Links
+
+* [B7-6 Cell Button](/tutorial/b7-6/)
+
+#### API Links
+
+* [CellButton](/api/types/CellButton/)
+
+#### Demo Links
+
+* [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons)
+

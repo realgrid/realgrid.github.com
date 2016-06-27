@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
-> 그리드에서 선택할 영역을 지정한다. [SelectionItem](/api/types/SelectionItem/)이 설정모델이다.
+ 그리드에서 선택할 영역을 지정한다. [SelectionItem](/api/types/SelectionItem/)이 설정모델이다.
 
 
 #### Syntax
@@ -30,12 +30,16 @@ tags:
 
 > None.
 
-#### Example
+#### Examples 
 
 <pre class="prettyprint">
-        var sel = {startItem: 0, endItem: 10, style: "rows"};
-        gridView.setSelection(sel);
+var sel = {startItem: 0, endItem: 10, style: "rows"};
+gridView.setSelection(sel);
 </pre>
 
-#### See Also
-> [getSelection](/api/GridBase/getSelection), [getSelectionData](/api/GridBase/getSelectionData)
+---
+
+#### API Links
+
+* [getSelection](/api/GridBase/getSelection)
+* [getSelectionData](/api/GridBase/getSelectionData)
