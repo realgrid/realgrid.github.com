@@ -13,8 +13,8 @@ tags:
 
 #### Description
 
- 컬럼 이름으로 컬럼 설정 정보를 가져온다.   
- 매개변수로 지정한 컬럼 이름에 해당하는 컬럼이 존재하지 않으면 null을 반환한다.  
+> 컬럼 이름으로 컬럼 설정 정보를 가져온다.   
+> 매개변수로 지정한 컬럼 이름에 해당하는 컬럼이 존재하지 않으면 null을 반환한다.  
 
 #### Syntax
 
@@ -31,7 +31,7 @@ tags:
 > Type: Object  
 > [DataColumn](/api/types/DataColumn/)또는 [ColumnGroup](/api/types/ColumnGroup/) 컬럼이 존재하지 않는 경우 null.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
 var colName = "column1";
@@ -43,13 +43,7 @@ if (column) {
 }
 </pre>
 
----
-
-#### API Links
-
-* [columnByField](/api/GridBase/columnByField)
-* [columnByTag](/api/GridBase/columnByTag)
-* [columnsByField](/api/GridBase/columnsByField)
-* [columnsByTag](/api/GridBase/columnsByTag)
+#### See Also
+> [columnByField](/api/GridBase/columnByField), [columnByTag](/api/GridBase/columnByTag), [columnsByField](/api/GridBase/columnsByField), [columnsByTag](/api/GridBase/columnsByTag)
 
 

@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 적용된 모든 셀 스타일을 삭제한다.
+> 적용된 모든 셀 스타일을 삭제한다.
 
 #### Syntax
 
@@ -27,15 +27,11 @@ tags:
 
 > None
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.removeAllCellStyles();
+    gridView.removeAllCellStyles();
 </pre>
 
----
-
-#### API Links
-
-* [addCellStyle](/api/GridBase/addCellStyle)
-* [setCellStyle](/api/GridBase/setCellStyle)
+#### See Also
+> [addCellStyle](/api/GridBase/addCellStyle), [setCellStyle](/api/GridBase/setCellStyle)

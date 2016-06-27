@@ -7,15 +7,12 @@ order: Indicator
 objectname: 
 directiontype: 
 permalink: /api/types/Indicator/
-tags:
-  - 지시자
-  - 인디케이터
 ---
 
 
 #### Description
 
- 그리드 Indicator에 대한 설정 모델이다. Indicator는 행 번호를 표시하거나, 포커스 된 행의 위치 등을 표시한다.
+> 그리드 Indicator에 대한 설정 모델이다. Indicator는 행 번호를 표시하거나, 포커스 된 행의 위치 등을 표시한다.
 
 #### Properties
 
@@ -62,54 +59,5 @@ tags:
 > **rowOffset**       
 > Type: Number  
 > Default: 0  
-> 인디케이터에 표시될 숫자와 데이터 행 번호와의 간격을 지정한다. (인디케이터 숫자 = 데이터 행 번호 + rowOffset)   
+> 인디케이터에 표시될 숫자와 데이터 행 번호와의 간격을 지정한다. (인디케이터 숫자 = 데이터 행 번호 + rowOffset)
 
-> **headText**       
-> Type: String  
-> Default: null  
-> head 영역에 표시할 text를 지정한다.  
-   
-> **footText**       
-> Type: String  
-> Default: null  
-> foot 영역에 표시할 text를 지정한다.  
-
-> **headImageUrl**       
-> Type: String  
-> Default: null  
-> head 영역에 표시할 이미지의 Url을 지정한다.  
-   
-> **footImageUrl**       
-> Type: String  
-> Default: null  
-> foot 영역에 표시할 이미지의 Url을 지정한다.  
-
-
-#### Examples
-
-<pre class="prettyprint">
-gridView.setIndicator({
-	displayValue: "index",
-	width: 50,
-	selectable: true,
-	visible: true,
-	zeroBase: true,
-	rowOffset: 0, 
-	indexOffset: 0,
-	headText: "head",
-	footText: "foot",
-	headImageUrl: "/img/common/dot_arrow2_top.gif",
-	footImageUrl: "/img/common/dot_arrow2_bottom.gif"
-})
-</pre>
-
----
-
-#### API Links
-
-* [setIndicator](/api/GridBase/setIndicator/)   
-* [getIndicator](/api/GridBase/getIndicator/) 
-
-#### Demo Links
-
-* [Indicator](http://demo.realgrid.com/Demo/Indicator){:target="_blank"}

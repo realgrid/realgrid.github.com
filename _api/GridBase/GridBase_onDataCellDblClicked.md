@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 사용자가 데이터 셀을 마우스로 더블클릭했을 때 호출된다.   
+> 사용자가 데이터 셀을 마우스로 더블클릭했을 때 호출된다.   
 
 #### Syntax
 
@@ -33,16 +33,13 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onDataCellDblClicked =  function (grid, index) {
-  console.log(index);
-};
+    gridView.onDataCellDblClicked =  function (grid, index) {
+      console.log(index);
+    };
 </pre>
 
----
-
-#### API Links
-
-* [onDataCellClicked](/api/GridBase/onDataCellClicked)
+#### See Also
+> [onDataCellClicked](/api/GridBase/onDataCellClicked)

@@ -13,9 +13,8 @@ tags:
 
 #### Description
 
- [DataProvider loadData](/api/DataProvider/loadData/)() 호출이 실패 했을 때 
- 호출된다.  
- 하지만 [DataProvider loadData](/api/DataProvider/loadData/)의 onFailed 매개변수에 callback 함수를 지정했다면 이 callback은 호출되지 않는다.
+> [DataProvider loadData](/api/DataProvider/loadData/)() 호출이 실패 했을 때 
+> 호출된다. 하지만 [DataProvider loadData](/api/DataProvider/loadData/)의 onFailed 매개변수에 callback 함수를 지정했다면 이 callback은 호출되지 않는다.
 
 #### Syntax
 
@@ -39,7 +38,7 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     dataProvider.onLoadFailed= function (provider, error) {

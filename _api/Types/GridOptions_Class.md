@@ -7,18 +7,12 @@ order: GridOptions
 objectname: 
 directiontype: 
 permalink: /api/types/GridOptions/
-tags:
-  - GridOptions
-  - 그리드설정
-  - SortMode
-  - 소트모드  
-  - FilterMode
-  - 필터모드  
 ---
+
 
 #### Description
 
- 그리드 전체에 대한 설정
+> 그리드 전체에 대한 설정
 
 #### Properties
 
@@ -100,28 +94,3 @@ tags:
 > **stateBar**  
 > Type: [stateBar](/api/types/StateBar/)  
 > StateBar을 설정한다.  
-
-### Example  
-
-<pre class="prettyprint">
-gridView.setDisplayOptions({
-    hideDeletedRows: true,
-    display: {
-        fitStyle: "evenFill"
-    },
-    fixed: {
-        colCount: 3
-    }
-});
-</pre>
-
----
-
-#### API Links
-
-* [setOptions](/api/GridBase/setOptions/)  
-* [getOptions](/api/GridBase/getOptions/) 
-
-#### Demo Links
-
-* [GridFitting](http://demo.realgrid.com/Demo/GridFitting) 

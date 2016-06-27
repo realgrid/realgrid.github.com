@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 아이템 모델의 자식 아이템 모델을 리턴합니다.  
+> 아이템 모델의 자식 아이템 모델을 리턴합니다.  
 
 #### Syntax
 
@@ -36,18 +36,15 @@ tags:
 > Item Model 객체.  
 
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var itemIndex = gridView.getCurrent().itemIndex;
-var model = gridView.getModel(itemIndex);
-if (model && model.type==="group") {
-	var childModel = gridView.getChildModel(model, 0);
-}
+	var itemIndex = gridView.getCurrent().itemIndex;
+	var model = gridView.getModel(itemIndex);
+	if (model && model.type==="group") {
+		var childModel = gridView.getChildModel(model, 0);
+	}
 </pre>
 
----
-
-#### Demo Links
-
-* [ItemModel Demo](http://demo.realgrid.com/Demo/ItemModelApi)
+#### See Also
+> [ItemModel Demo](http://demo.realgrid.com/Demo/ItemModelApi)

@@ -11,7 +11,7 @@ permalink: /api/GridBase/linearizeColumns/
 
 #### Description
 
-  컬럼 그룹들을 모두 제거하고 데이터 값을 표시하는 컬럼들만 일렬로 배치한다.
+>  컬럼 그룹들을 모두 제거하고 데이터 값을 표시하는 컬럼들만 일렬로 배치한다.
 
 #### Syntax
 
@@ -27,12 +27,12 @@ permalink: /api/GridBase/linearizeColumns/
 
 > none
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.linearizeColumns()
+    gridView.linearizeColumns()
 </pre>
 
-#### API Links 
+#### See Also 
 
-* [restoreColumns](/api/GridBase/restoreColumns) 
+> [restoreColumns](/api/GridBase/restoreColumns) 

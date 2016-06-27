@@ -1,4 +1,4 @@
----
+--ㅑ
 layout: apipost
 title: ValidationLevel
 part: Types
@@ -7,15 +7,12 @@ order: ValidationLevel
 objectname: 
 directiontype: 
 permalink: /api/types/ValidationLevel/
-tags: 
-    - 데이터검증수준
-    - 벨리데이션
 ---
 
 
 #### Description
 
- Row 데이터 검증 결과 수준을 정의합니다.
+> Row 데이터 검증 결과 수준을 정의합니다.
 
 #### Memebers
 
@@ -35,8 +32,3 @@ tags:
 > Type: "ignore"    
 > 검증 수준이 없음   
 
----
-
-#### Demo Links
-
-* [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation#.example)

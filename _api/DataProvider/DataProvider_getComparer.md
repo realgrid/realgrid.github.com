@@ -10,7 +10,7 @@ permalink: /api/DataProvider/getComparer/
 
 #### Description
 
- [setComparer](/api/DataProvider/)로 추가했던 비교 함수를 가져옵니다. (현재, 사용되지 않는 기능입니다)
+> [setComparer](/api/DataProvider/)로 추가했던 비교 함수를 가져옵니다. (현재, 사용되지 않는 기능입니다)
 
 #### Syntax
 

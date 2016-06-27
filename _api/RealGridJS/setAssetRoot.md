@@ -27,7 +27,7 @@ permalink: /api/RealGridJS/setAssetRoot/
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     RealGridJS.setAssetRoot("assets");

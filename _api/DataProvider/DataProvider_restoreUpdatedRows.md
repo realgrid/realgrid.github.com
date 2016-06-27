@@ -15,8 +15,8 @@ tags:
 
 #### Description
 
- 수정된 행들만 데이터들을 원래대로 복원한다.  
- dataProvider.options.[restoreMode](/api/types/RestoreMode/)  가 "explicit" 나 "auto" 로 지정되어 있어야한다.  
+> 수정된 행들만 데이터들을 원래대로 복원한다.  
+> dataProvider.options.[restoreMode](/api/types/RestoreMode/)  가 "explicit" 나 "auto" 로 지정되어 있어야한다.  
 
 #### Syntax
 
@@ -32,15 +32,10 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     var rows = grid.getCheckedRows();
     provider.restoreUpdatedRows(rows);
 </pre>
 
----
-
-#### Tutorial Links
-
-* [복원 모드(RestoreMode)](http://help.realgrid.com/tutorial/c6/){:target="_blank"} 참조 

@@ -7,16 +7,12 @@ order: GridFitStyle
 objectname: 
 directiontype: 
 permalink: /api/types/GridFitStyle/
-tags: 
-  - FitStyle
-  - 핏스타일
-  - 그리드크기 
 ---
 
 
 #### Description
 
- 컬럼들의 표시 너비를 그리드 너비에 맞게 조정해서 수평 스크롤이 필요없게 하거나, 그리드에 채운 상태로 표시하는 방식을 지정하는 상수다.  
+> 컬럼들의 표시 너비를 그리드 너비에 맞게 조정해서 수평 스크롤이 필요없게 하거나, 그리드에 채운 상태로 표시하는 방식을 지정하는 상수다.  
   
 #### Members
 
@@ -37,22 +33,3 @@ tags:
 > Value: "fill"  
 > 컬럼의 width와 fillWidth를 이용해 채운다. fillWidth가 전혀 선택되지 않았다면 "even"과 동일하다.            
 
-### Example  
-
-<pre class="prettyprint">
-gridView.setDisplayOptions({
-    fitStyle: "evenFill"
-});
-</pre>
-
----
-
-#### API Links
-
-* [DisplayOptions](/api/types/DisplayOptions/)  
-* [setDisplayOptions](/api/GridBase/setDisplayOptions/)  
-* [getDisplayOptions](/api/GridBase/getDisplayOptions/)  
-
-#### Demo Links
-
-* [GridFitting](http://demo.realgrid.com/Demo/GridFitting)

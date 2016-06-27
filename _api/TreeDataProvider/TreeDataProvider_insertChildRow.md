@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
- 지정한 행에 자식 행을 추가한다.    
+> 지정한 행에 자식 행을 추가한다.    
 
 #### Syntax
 
@@ -50,14 +50,13 @@ tags:
 > Type: Number.  
 > 추가된 자식 행의 Row Id.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeProvider.insertChildRow(9, 0, [], 2, false)
+    treeProvider.insertChildRow(9, 0, [], 2, false)
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"}   
+> [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"} 참조   

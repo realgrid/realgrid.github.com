@@ -10,7 +10,7 @@ permalink: /api/TreeDataProvider/getValue/
 
 #### Description
 
- row와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 반환한다.
+>  row와 데이터 필드 인덱스로 지정되는 데이터셀의 값을 반환한다.
 
 #### Syntax
 
@@ -31,10 +31,10 @@ permalink: /api/TreeDataProvider/getValue/
 > Type: *  
 > 데이터 필드의 값.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeProvider.getValue(3, "title");
+    treeProvider.getValue(3, "title");
 </pre>
 
 

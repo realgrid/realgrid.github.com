@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 지정한 셀 스타일들을 삭제한다.
+> 지정한 셀 스타일들을 삭제한다.
 
 #### Syntax
 
@@ -30,15 +30,12 @@ tags:
 
 > None
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var ids = ["style01", "style02", "style03"]
-gridView.removeCellStyles(ids);
+    var ids = ["style01", "style02", "style03"]
+    gridView.removeCellStyles(ids);
 </pre>
 
----
-
-#### API Links
-
-* [addCellStyle](/api/GridBase/addCellStyle)
+#### See Also
+> [addCellStyle](/api/GridBase/addCellStyle)

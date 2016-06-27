@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
- 사용자 입력이나 setValue 등 사용자 코드로 변경된 값이 행에 반영될때 발생한다.  
- 그러나 PasteOptions.noEditEvent가 true이면 발생하지 않는다.  
+> 사용자 입력이나 setValue 등 사용자 코드로 변경된 값이 행에 반영될때 발생한다.  
+> 그러나 PasteOptions.noEditEvent가 true이면 발생하지 않는다.  
 
 #### Syntax
 
@@ -47,12 +47,12 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onEditRowChanged = function (grid, itemIndex, dataRow, field, oldValue, newValue) {
-    var v = grid.getValue(itemIndex, field);
-    console.log("onEditRowChanged, " + field + ": " + oldValue + " => " + newValue);  
-};
+    gridView.onEditRowChanged = function (grid, itemIndex, dataRow, field, oldValue, newValue) {
+        var v = grid.getValue(itemIndex, field);
+        console.log("onEditRowChanged, " + field + ": " + oldValue + " => " + newValue);  
+    };
 </pre>
 

@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- dataRow에 해당하는 아이템모델을 리턴한다.   
+> dataRow에 해당하는 아이템모델을 리턴한다.   
 
 #### Syntax
 
@@ -34,21 +34,15 @@ tags:
 > Type: Object  
 > Item Model 객체  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var extended = true;
-var dataRow = gridView.getCurrent().dataRow;
-var item = gridView.getModelOfRow(dataRow, extended);
-console.log(JSON.stringify(item));
+    var extended = true;
+    var dataRow = gridView.getCurrent().dataRow;
+    var item = gridView.getModelOfRow(dataRow, extended);
+    console.log(JSON.stringify(item));
 </pre>
 
----
-
-#### API Links
-
-* [Grid Item](/api/features/Grid%20Item/)  
-
-#### Demo Links
-
-* [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)
+#### See Also
+> [Grid Item](/api/features/Grid%20Item/)  
+> [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)

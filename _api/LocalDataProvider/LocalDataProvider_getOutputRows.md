@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
- 지정한 범위 내의 데이터행들을 형식을 지정하여 JSON 객체의 배열로 가져온다.
+> 지정한 범위 내의 데이터행들을 형식을 지정하여 JSON 객체의 배열로 가져온다.
 
 #### Syntax
 
@@ -40,10 +40,10 @@ tags:
 > Type: Array of object.  
 > JSON 객체로 만들어진 데이터행들의 목록.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var rows = dataProvider.getOutputRows({datetimeFormat: "yyyyMMdd"}, 10, 19);
+    var rows = provider.getOutputRows({datetimeFormat: "yyyyMMdd"}, 10, 19);
 </pre>
 
 

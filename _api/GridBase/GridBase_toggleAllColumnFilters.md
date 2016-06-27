@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
- 해당 컬럼의 모든 필터들을 토글한다.
+> 해당 컬럼의 모든 필터들을 토글한다.
 
 #### Syntax
 
@@ -32,38 +32,28 @@ tags:
 
 > NONE
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-  gridView.setColumns([
-      { fieldName:"field1", 
-        name:"column1", 
-        filters:[
-          {  name:"filter1",
-             criteria:"value='11'",
-             active:true  },
-          {  name:"filter2",
-             criteria:"value='12'",
-             active:false  },
-          {  name:"filter3",
-             criteria:"value='13'"  }
-        ]
-      }
-  ]);
-  ...
-  gridView.toggleAllColumnFilters("column1");
+    gridView.setColumns([
+        { fieldName:"field1", 
+          name:"column1", 
+          filters:[
+            {  name:"filter1",
+               criteria:"value='11'",
+               active:true  },
+            {  name:"filter2",
+               criteria:"value='12'",
+               active:false  },
+            {  name:"filter3",
+               criteria:"value='13'"  }
+          ]
+        }
+    ]);
+    ...
+    gridView.toggleAllColumnFilters("column1");
 </pre>
 
----
-
-#### API Links
-
-* [toggleColumnFilters](/api/GridBase/toggleColumnFilters)
-* [setColumnFilters](/api/GridBase/setColumnFilters)
-* [clearColumnFilters](/api/GridBase/clearColumnFilters)
-* [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters)
-* [activateColumnFilters](/api/GridBase/activateColumnFilters)  
-
-#### Demo Links
-
-* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+#### See Also
+> [toggleColumnFilters](/api/GridBase/toggleColumnFilters), [setColumnFilters](/api/GridBase/setColumnFilters), [clearColumnFilters](/api/GridBase/clearColumnFilters), [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters), [activateColumnFilters](/api/GridBase/activateColumnFilters)  
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

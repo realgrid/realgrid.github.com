@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 현재 선택 영역에 포함된 셀들의 값을 가져온다.  
+> 현재 선택 영역에 포함된 셀들의 값을 가져온다.  
 
 #### Syntax
 
@@ -29,16 +29,13 @@ tags:
 > Type: object  
 > 셀 데이터들.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var data = grid.getSelectionData(10);
-$("#txtTitle").text("selected values :").show();
+    var data = grid.getSelectionData(10);
+    $("#txtTitle").text("selected values :").show();
 </pre>
 
----
-
-#### API Links
-
-* [getSelection](/api/GridBase/getSelection)
+#### See Also
+> [getSelection](/api/GridBase/getSelection)
 

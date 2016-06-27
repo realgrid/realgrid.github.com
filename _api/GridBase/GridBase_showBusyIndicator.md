@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- Busy Indicator(모래시계)를 표시한다.
+> Busy Indicator(모래시계)를 표시한다.
 
 #### Syntax
 
@@ -27,8 +27,8 @@ tags:
 
 > None
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.showBusyIndicator();
+    grdMain.showBusyIndicator();
 </pre>

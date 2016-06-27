@@ -55,13 +55,9 @@ var columns = [{
 
 물론, iconIndex 값은 동적 스타일을 이용해 셀 값에 따라 다르게 지정할 수 있다.
 
----
+#### See Also
+> [Icon Cell Renderer](http://demo.realgrid.com/Demo/IconCellRenderer)  
 
-#### Demo Links
-* [Icon Cell Renderer](http://demo.realgrid.com/Demo/IconCellRenderer)  
-
-#### API Links
-
-* [ImageList](/api/types/ImageList)   
-* [addImageList](/api/GridBase/addImageList)  
-* [registerImageList](/api/GridView/registerImageList)  
+> [ImageList](/api/types/ImageList)   
+> [addImageList](/api/GridBase/addImageList)  
+> [registerImageList](/api/GridView/registerImageList)  

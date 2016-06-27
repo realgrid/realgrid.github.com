@@ -37,15 +37,14 @@ permalink: /api/types/CellIndex/
 > Default: null  
 > 필드 이름   
 
-#### Examples   
+### Example  
 
 <pre class="prettyprint">
-var index = gridView.getCurrent();
-console.log(index);
+    var index = gridView.getCurrent();
+
+    console.log(index);
 </pre>
 
----
+#### See Also
 
-#### API Links
-
-* [getCurrent](/api/GridBase/getCurrent)
+> [getCurrent](/api/GridBase/getCurrent)

@@ -13,7 +13,8 @@ tags:
 
 #### Description
 
- TreeDataProvider에 데이터가 수정되기 전에 발생하는 이벤트 함수.   
+> TreeDataProvider에 데이터가 수정되기 전에 발생하는 이벤트 함수.  
+> 
 
 #### Syntax
 
@@ -34,12 +35,12 @@ tags:
 > type: Boolean  
 > false 를 return하면 수정이 취소된다.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeProvider.onRowUpdating = function (provider, rowId) {
-    console.log("onRowUpdating:" + rowId);
-    return true;
-};
+    treeProvider.onRowUpdating = function (provider, rowId) {
+        console.log("onRowUpdating:" + rowId);
+        return true;
+    };
 </pre>
 

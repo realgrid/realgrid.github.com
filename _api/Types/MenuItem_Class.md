@@ -7,14 +7,7 @@ order: MenuItem
 objectname: 
 directiontype: 
 permalink: /api/types/MenuItem/
-tags:
-  - 메뉴항목
-  - 메뉴아이템
 ---
-
-#### Description
-
- 메뉴항목을 지정하는 모델이다.
 
 
 #### Properties
@@ -52,3 +45,5 @@ tags:
 > **children**  
 > Type: array of MenuItem  
 > 2단계이상일때 하위 메뉴 항목 배열           
+
+

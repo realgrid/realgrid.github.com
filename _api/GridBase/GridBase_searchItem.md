@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 지정한 필드들의 값에 해당하는 첫번째 행을 찾아 행의 번호를 반환한다.
+> 지정한 필드들의 값에 해당하는 첫번째 행을 찾아 행의 번호를 반환한다.
 
 #### Syntax
 
@@ -30,18 +30,15 @@ tags:
 > Type: Number  
 > 검색된 행 번호. 검색되지 않으면 -1.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var options = {
-    fields = ['field1', 'field2'],
-    values = ['value1', 'value2']
-}
-var itemindex = gridView.searchItem(options);
+    var options = {
+        fields = ['field1', 'field2'],
+        values = ['value1', 'value2']
+    }
+    var itemindex = gridView.searchItem(options);
 </pre>
 
----
-
-#### API Links
-
-* [searchCell](/api/GridBase/searchCell)
+#### See Also
+> [searchCell](/api/GridBase/searchCell)

@@ -7,15 +7,11 @@ order: FilterSelectorOptions
 objectname: 
 directiontype: 
 permalink: /api/types/FilterSelectorOptions/
-tags:
-  - FilterSelectorOptions
-  - 필터셀렉터옵션 
-  - 필터설정
 ---
 
 #### Description
 
- 컬럼 필터의 선택상자와 관련된 설정 모델이다.
+> 컬럼 필터의 선택상자와 관련된 설정 모델이다.
 
 #### Properties
 
@@ -52,24 +48,13 @@ tags:
 > **showAll**  
 > Type: Boolean  
 > Default: true  
-> 모든 필터를 보여줄것인지를 지정한다.  
+> 모든 필텨를 보여줄것인지를 지정한다.  
 > FLASH Ver. 전용  
 
-### Example  
+#### See Also
 
-<pre class="prettyprint">
-gridView.setFilteringOptions({
-    HandleVisibility: "visible",
-    selector: {
-        maxWidth: 100,
-        maxHeight: 200,
-        closeWhenClick: true
-    }
-})
-</pre>
+> [ColumnFiltering](http://demo.realgrid.net/Demo/ColumnFiltering)
 
----
 
-#### API Links
 
-* [FilteringOptions](/api/types/FilteringOptions/)
+

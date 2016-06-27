@@ -7,15 +7,12 @@ order: SelectionStyle
 objectname: 
 directiontype: 
 permalink: /api/types/SelectionStyle/
-tags:
-    - 선택영역
-    - 선택방법
 ---
 
 
 #### Description
 
- 그리드의 셀을 선택하는 방식을 정의한다.
+> 그리드의 셀을 선택하는 방식을 정의합니다.
 
 #### Members
 
@@ -43,8 +40,3 @@ tags:
 > Type: "none"   
 > 다중선택하지 않음(단일 셀)  
 
----
-
-#### Demo Links
-
-* [Selecting](http://demo.realgrid.com/Demo/Selecting){:target="_blank"}

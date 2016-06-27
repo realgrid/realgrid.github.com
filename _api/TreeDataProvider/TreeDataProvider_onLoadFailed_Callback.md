@@ -10,7 +10,7 @@ permalink: /api/TreeDataProvider/onLoadFailed Callback/
 
 #### Description
 
- [loadData](/api/TreeDataProvider/loadData) 호출이 실패 했을 때 호출된다. 하지만 [loadData](/api/TreeDataProvider/loadData)의 onFailed 매개변수에 callback 함수를 지정했다면 이 callback은 호출되지 않는다.  
+> [loadData](/api/TreeDataProvider/loadData) 호출이 실패 했을 때 호출된다. 하지만 [loadData](/api/TreeDataProvider/loadData)의 onFailed 매개변수에 callback 함수를 지정했다면 이 callback은 호출되지 않는다.  
 RealGrid Plus 전용 함수.  
 
 #### Syntax
@@ -35,11 +35,11 @@ RealGrid Plus 전용 함수.
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeProvider.onLoadFailed= function (provider, error) {
-    console.log("Data load failed: " + error);
-}
+    dataProvider.onLoadFailed= function (provider, error) {
+        console.log("Data load failed: " + error);
+    }
 </pre>
 

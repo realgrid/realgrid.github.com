@@ -10,9 +10,9 @@ deprecated: true
 
 
 #### Description
- deprecated 대상.  
- [getOptions](/api/GridBase/getOptions/), [setOptions](/api/GridBase/setOptions/)를 대신 사용해야 한다.  
- 매개변수가 하나 존재하면 [setOptions](/api/GridBase/setOptions/), 없으면 [getOptions](/api/GridBase/getOptions/)와 동일하게 실행된다.
+> deprecated 대상.  
+> [getOptions](/api/GridBase/getOptions/), [setOptions](/api/GridBase/setOptions/)를 대신 사용해야 한다.  
+> 매개변수가 하나 존재하면 [setOptions](/api/GridBase/setOptions/), 없으면 [getOptions](/api/GridBase/getOptions/)와 동일하게 실행된다.
 
 #### Syntax
 

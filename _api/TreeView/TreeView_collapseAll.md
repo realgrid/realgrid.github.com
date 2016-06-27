@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 트리뷰의 모든 아이템들을 접는다. 화면에 표시되는 아이템들 뿐 아니라 포함되어 있는 모든 아이템들을 접는다.  
+> 트리뷰의 모든 아이템들을 접는다. 화면에 표시되는 아이템들 뿐 아니라 포함되어 있는 모든 아이템들을 접는다.  
 
 #### Syntax
 
@@ -26,14 +26,13 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeView.collapseAll();
+    treeView.collapseAll();
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"}   
+> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조    

@@ -10,7 +10,7 @@ permalink: /api/GridBase/getGroupSummary/
 
 #### Description
 
- 지정한 그룹아이템 모델의 합계 정보를 리턴한다. "number"형 필드에 대해서만 의미있는 값을 리턴한다. 현재 TreeView에서는 지원하지 않습니다.  
+> 지정한 그룹아이템 모델의 합계 정보를 리턴한다. "number"형 필드에 대해서만 의미있는 값을 리턴한다. 현재 TreeView에서는 지원하지 않습니다.  
 
 #### Syntax
 
@@ -36,27 +36,24 @@ permalink: /api/GridBase/getGroupSummary/
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var idx = gridView.getCurrent();
-var aModel = gridView.getModel(idx.itemIndex);
-if (aModel) {
-    if (aModel.type != "group") {
-        aModel = gridView.getParentModel(aModel);
+    var idx = gridView.getCurrent();
+    var aModel = gridView.getModel(idx.itemIndex);
+    if (aModel) {
+        if (aModel.type != "group") {
+            aModel = gridView.getParentModel(aModel);
+        }
     }
-}
 
-if (aModel && aModel.type=="group") {
-    var summary = gridView.getGroupSummary(aModel, "numField");
-    if (summary) {
-        console.log(JSON.stringify(summary));
+    if (aModel && aModel.type=="group") {
+        var summary = gridView.getGroupSummary(aModel, "numField");
+        if (summary) {
+            console.log(JSON.stringify(summary));
+        }
     }
-}
 </pre>
 
----
-
-#### Demo Links
-
-* [Column Footer](http://demo.realgrid.com/Demo/ColumnFooter)
+#### See Also
+> [Column Footer](http://demo.realgrid.com/Demo/ColumnFooter)

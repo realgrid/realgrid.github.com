@@ -27,7 +27,7 @@ permalink: /api/RealGridJS/setRootContext/
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     RealGridJS.setRootContext("/images/realgridjs");

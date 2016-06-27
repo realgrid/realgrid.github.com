@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
- [ImageList](/api/types/ImageList)는 셀 렌더러나 트리뷰의 아이콘으로 사용될 이미지 url 목록이다. 이 목록을 그리드에 추가한다.  
+> [ImageList](/api/types/ImageList)는 셀 렌더러나 트리뷰의 아이콘으로 사용될 이미지 url 목록이다. 이 목록을 그리드에 추가한다.  
 
 #### Syntax
 
@@ -32,26 +32,22 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var imgs = new RealGridJS.ImageList("images1","http://" + location.host + "/img/demo/smallflag/");
-imgs.addUrls([
-    "ar.png",
-    "at.png",
-    "be.png",
-    "se.png",
-    "ch.png",
-    "gb.png",
-    "us.png",
-    "ve.png"
-]);
+    var imgs = new RealGridJS.ImageList("images1","http://" + location.host + "/img/demo/smallflag/");
+    imgs.addUrls([
+        "ar.png",
+        "at.png",
+        "be.png",
+        "se.png",
+        "ch.png",
+        "gb.png",
+        "us.png",
+        "ve.png"
+    ]);
 
-gridView.registerImageList(imgs);
+    grid.registerImageList(imgs);
 </pre>
 
----
 
-#### Demo Links
-
-* [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer){:target="_blank"}

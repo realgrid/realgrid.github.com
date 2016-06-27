@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 현재 DataProvider에 설정되어 있는 데이터필드 정보의 목록을 배열로 리턴한다.
+> 현재 DataProvider에 설정되어 있는 데이터필드 정보의 목록을 배열로 리턴한다.
 
 #### Syntax
 
@@ -27,7 +27,7 @@ tags:
 > Type: array of object  
 > 배열의 각 항목은 [DataField](/api/types/DataField/)와 동일한 내용의 object다.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     var fields = provider.getFields();

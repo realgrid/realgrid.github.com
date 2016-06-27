@@ -81,8 +81,6 @@ var columns = [{
 }];
 </pre>
 
----
 
-#### Demo Links
-
-* [Popup Menu Demo](http://demo.realgrid.net/Demo/PopupMenu) 
+#### See Also
+> [Popup Menu Demo](http://demo.realgrid.net/Demo/PopupMenu) 참조  

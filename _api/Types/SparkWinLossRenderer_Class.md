@@ -7,16 +7,12 @@ order: SparkWinLossRenderer
 objectname: 
 directiontype: 
 permalink: /api/types/SparkWinLossRenderer/
-tags:
-    - 스파크윈로스랜더러
-    - series
-    - 시리즈
 ---
 
 
 #### Description
 
-기간 등 일정 범위 내의 데이터 흐름을 간략하고 직관적으로 표시하는 데 사용될 수 있다.
+> 기간 등 일정 범위 내의 데이터 흐름을 간략하고 직관적으로 표시하는 데 사용될 수 있다.
 
 #### Properties
 
@@ -40,9 +36,3 @@ tags:
 > Type: Number  
 > Default: 0.4  
 > 전체 높이 중 Loss일 경우의 비율
-
----
-
-#### Demo Links
-
-* [Spark Line Renderer](http://demo.realgrid.com/Demo/SparkLineRenderer){:target="_blank"}

@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 그리드 필터링과 관련된 정보들을 설정한다. [FilteringOptions](/api/types/FilteringOptions/)이 설정 모델이다.
+> 그리드 필터링과 관련된 정보들을 설정한다. [FilteringOptions](/api/types/FilteringOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -30,21 +30,15 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.setFilteringOptions({
-    enabled: true,
-    ...
-});
+    gridView.setFilteringOptions({
+        enabled: true,
+        ...
+    });
 </pre>
 
----
-
-#### API Links
-
-* [getFilteringOptions](/api/GridBase/getFilteringOptions)  
-
-#### Demo Links
-
-* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+#### See Also
+> [getFilteringOptions](/api/GridBase/getFilteringOptions)  
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

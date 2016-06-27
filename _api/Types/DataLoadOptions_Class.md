@@ -11,7 +11,7 @@ permalink: /api/types/DataLoadOptions/
 
 #### Description
 
- 데이터 로드에 관련된 옵션 값을 정의합니다. 
+> 데이터 로드에 관련된 옵션 값을 정의합니다. 
 
 #### Properties
 

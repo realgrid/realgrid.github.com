@@ -18,8 +18,8 @@ tags:
 
 #### Description
 
- Check 셀 렌더러는 셀의 값을 true/false 두 가지 상태로 표시하는 렌더러이다.    
- 컬럼에 연결된 필드의 자료형이 Boolean이 아니라면, 렌더러의 trueValues에 지정된 값들을 true로, falseValues로 지정된 값들을 false로 판단한다.
+> Check 셀 렌더러는 셀의 값을 true/false 두 가지 상태로 표시하는 렌더러이다.    
+> 컬럼에 연결된 필드의 자료형이 Boolean이 아니라면, 렌더러의 trueValues에 지정된 값들을 true로, falseValues로 지정된 값들을 false로 판단한다.
 
 #### properties
 
@@ -63,76 +63,74 @@ tags:
 > Default: "default"   
 > 표시되는 기호 모양을 체크표시로 할 것인지 체크박스로 할 것인지를 지정한다. "default", "box"  
 
-#### Examples   
+### Example  
 
 <pre class="prettyprint">
-var columns = [{
-    "name": "Shipping",
-    "fieldName": "Shipping",
-    "type": "data",
-    "width": "70",
-    "editable": false,
-    "renderer": {
-        "type": "check",
-        "editable": true,
-        "startEditOnClick": true,
-        "trueValues": "True",
-        "falseValues": "False",
-        "labelPosition": "right"
-    },
-    "styles": {
-        "paddingLeft": 8,
-        "textAlignment": "center",
-        "background": "#33ffff00"
-    },
-    "header": {
-        "text": "Check Edit",
+	var columns = [{
+        "name": "Shipping",
+        "fieldName": "Shipping",
+        "type": "data",
+        "width": "70",
+        "editable": false,
+        "renderer": {
+            "type": "check",
+            "editable": true,
+            "startEditOnClick": true,
+            "trueValues": "True",
+            "falseValues": "False",
+            "labelPosition": "right"
+        },
         "styles": {
-            "fontBold": true
+            "paddingLeft": 8,
+            "textAlignment": "center",
+            "background": "#33ffff00"
+        },
+        "header": {
+            "text": "Check Edit",
+            "styles": {
+                "fontBold": true
+            }
         }
-    }
-}, {
-    "name": "EmployeeID",
-    "fieldName": "EmployeeID",
-    "type": "data",
-    "width": "85",
-    "renderer": {
-        "type": "check",
-        "shape": "box",
-        "falseValues": "2,4,6"
-    },
-    "styles": {
-        "textAlignment": "center"
-    },
-    "header": {
-        "text": "Employee ID 1"
-    }
-}, {
-    "name": "EmployeeID",
-    "fieldName": "EmployeeID",
-    "type": "data",
-    "width": "85",
-    "renderer": {
-        "type": "check",
-        "falseValues": "1,3"
-    },
-    "styles": {
-        "textAlignment": "center",
-        "figureBackground": "#ffff0000",
-        "figureInactiveBackground": "#33ff0000",
-        "figureSize": "130%"
-    },
-    "header": {
-        "text": "Employee ID 2"
-    }
-}]
+    }, {
+        "name": "EmployeeID",
+        "fieldName": "EmployeeID",
+        "type": "data",
+        "width": "85",
+        "renderer": {
+            "type": "check",
+            "shape": "box",
+            "falseValues": "2,4,6"
+        },
+        "styles": {
+            "textAlignment": "center"
+        },
+        "header": {
+            "text": "Employee ID 1"
+        }
+    }, {
+        "name": "EmployeeID",
+        "fieldName": "EmployeeID",
+        "type": "data",
+        "width": "85",
+        "renderer": {
+            "type": "check",
+            "falseValues": "1,3"
+        },
+        "styles": {
+            "textAlignment": "center",
+            "figureBackground": "#ffff0000",
+            "figureInactiveBackground": "#33ff0000",
+            "figureSize": "130%"
+        },
+        "header": {
+            "text": "Employee ID 2"
+        }
+	}]
 
-gridView.setColumns(columns);
+	gridView.setColumns(columns);
 </pre>
 
----
+#### See Also 
 
-#### Demo Links 
-
-* [Check Cell Renderer](http://demo.realgrid.net/Demo/CheckCellRenderer) 
+> [Check Cell Renderer](http://demo.realgrid.net/Demo/CheckCellRenderer) 참조  
 

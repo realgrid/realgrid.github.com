@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 그리드 고정 영역에 관한 정보를 설정한다. [FixedOptions](/api/types/FixedOptions/)이 설정 모델이다.
+> 그리드 고정 영역에 관한 정보를 설정한다. [FixedOptions](/api/types/FixedOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -30,18 +30,15 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.setFixedOptions({
-    colCount: 2,
-    rowCount: 0,
-    ...
-});
+    gridView.setFixedOptions({
+        colCount: 2,
+        rowCount: 0,
+        ...
+    });
 </pre>
 
----
-
-#### API Links
-
-* [getFixedOptions](/api/GridBase/getFixedOptions)
+#### See Also
+> [getFixedOptions](/api/GridBase/getFixedOptions)

@@ -12,8 +12,8 @@ tags:
 
 #### Description
 
- 지정한 itemIndex의 값들을 JSON객체로 가져온다. itemIndex와 연결된 dataRow는 return되는 객체의 __rowId에 담겨있다.  
- 입력된 itemIndex가 dataRow와 연결된 행이 아닌경우 null이 출력된다.  
+> 지정한 itemIndex의 값들을 JSON객체로 가져온다. itemIndex와 연결된 dataRow는 return되는 객체의 __rowId에 담겨있다.  
+> 입력된 itemIndex가 dataRow와 연결된 행이 아닌경우 null이 출력된다.  
 
 #### Syntax
 
@@ -30,8 +30,8 @@ tags:
 > Type: Object  
 > JSON객체로 만들어진 item행의 값  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var values = treeView.getValues(0);
+    var values = treeMain.getValues(0);
 </pre>

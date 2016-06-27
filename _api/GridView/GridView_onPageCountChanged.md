@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 그리드가 [Paging](/api/features/Paging/) 상태일 때, 다른 페이지로 이동한 후 호출된다.
+> 그리드가 [Paging](/api/features/Paging/) 상태일 때, 다른 페이지로 이동한 후 호출된다.
 
 #### Syntax
 
@@ -34,10 +34,10 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onPageCountChanged =  function (grid, pageCount) {
-    alert("onPageCountChanged:" + pageCount);
-}
+    grid.onPageCountChanged =  function (grid, pageCount) {
+        alert("onPageCountChanged:" + pageCount);
+    }
 </pre>

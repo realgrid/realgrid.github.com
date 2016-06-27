@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- lookupSource에 lookupData를 추가한다.  
+> lookupSource에 lookupData를 추가한다.  
 
 #### Syntax
 
@@ -35,22 +35,15 @@ tags:
 > None.  
 
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.fillLookupData("empLookup", {
-    rows: [
-        ["TOMSP", 5, "TOMSP_5X"], 
-        ["TOMSP", 6, "TOMSP_6X"]
-]});
+    gridView.fillLookupData("empLookup", {
+        rows: [
+            ["TOMSP", 5, "TOMSP_5X"], 
+            ["TOMSP", 6, "TOMSP_6X"]
+    ]});
 </pre>
 
----
-
-#### API Links
-
-* [addLookupSource](/api/GridBase/addLookupSource/)
-* [clearLookupData](/api/GridBase/clearLookupData/)
-* [existsLookupData](/api/GridBase/existsLookupData/)
-* [removeLookupSource](/api/GridBase/removeLookupSource/)
-* [setLookups](/api/GridBase/setLookups/)
+#### See Also
+[addLookupSource](/api/GridBase/addLookupSource/), [clearLookupData](/api/GridBase/clearLookupData/), [existsLookupData](/api/GridBase/existsLookupData/), [removeLookupSource](/api/GridBase/removeLookupSource/), [setLookups](/api/GridBase/setLookups/)

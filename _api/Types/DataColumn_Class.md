@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
- DataProvider 필드들 중 하나의 값을 표시하는 컬럼이다.
+> DataProvider 필드들 중 하나의 값을 표시하는 컬럼이다.
 
 #### Properties
 
@@ -117,7 +117,7 @@ tags:
 > **alwaysShowEditButton**  
 > Type: Boolean  
 > Default: false   
->  이 값이 true면 데이터셀 위에 마우스가 진입하거나 셀이 포커스된 상태가 아니더라도 셀 편집기([Cell Editor](/api/features/Cell Editor/))가 버튼을 표시하는 유형일 때 그 버튼을 항상 표시하도록 지정한다. 현재 버튼이 표시되는 셀 편집기는 [DropDownCellEditor](/api/types/DropDownCellEditor), [DateCellEditor](/api/types/DateCellEditor), [SearchCellEditor](/api/types/SearchCellEditor)가 있다.    
+>  이 값이 true면 데이터셀 위에 마우스가 진입하거나 셀이 포커스된 상태가 아니더라도 [Cell Editor](/api/features/Cell Editor/)가 버튼을 표시하는 것일 때 그 버튼을 항상 표시한다.   
 
 > **buttonVisibility**  
 > Type: [ButtonVisibility](/api/types/ButtonVisibility)  
@@ -127,7 +127,7 @@ tags:
 > **editButtonVisibility**  
 > Type: [ButtonVisibility](/api/types/ButtonVisibility)  
 > Default: [ButtonVisibility](/api/types/ButtonVisibility).DEFAULT   
-> 셀 편집기([Cell Editor](/api/features/Cell Editor/)) 버튼이 표시되는 방법을 지정한다. 현재 버튼이 표시되는 셀 편집기는 [DropDownCellEditor](/api/types/DropDownCellEditor), [DateCellEditor](/api/types/DateCellEditor), [SearchCellEditor](/api/types/SearchCellEditor)가 있다.       
+> 편집기 버튼이 표시되는 방법을 지정한다.  
 
 > **mergeRule**  
 > Type: Object   
@@ -244,17 +244,6 @@ tags:
 > Default:  null     
 > 이 컬럼에 적용할 [EditValidation](/api/types/EditValidation) 목록을 지정한다.     
 
-> **displayRegExp**  
-> Type: String
-> Default:  null     
-> 문자열 변경시(마스킹 등) 사용할 정규식 패턴을 지정한다.    
-
-> **displayReplace**  
-> Type: String
-> Default:  null     
-> 문자열 변경시(마스킹 등) 사용할 패턴을 지정한다.  
-
-
 #### Examples
 
 **컬럼을 생성하는 기본적인 방법**
@@ -280,40 +269,6 @@ gridView.onRowInserting = function(grid, itemIndex) {
     grid.setColumnProperty("column1", "defaultValue", newCode);
 }
 </pre>
-
-**정규식을 이용한 마스킹 방법**
-<pre class="prettyprint">
-var columns = [{
-    "fieldName": "phone",
-    "width": 120,
-    "header": { "text": "전화번호" },
-    "styles": {
-        "textAlignment": "near",
-        "font": "arial",
-        "background": "#ffffff99"
-    },
-    "displayRegExp": /^([0-9]+)\(([0-9]+)\)(\d{3})(\d{4})$/, 
-    "displayReplace": "$1-$2-$3-$4"
-}, {
-    "fieldName": "email",
-    "width": 150,
-    "header": { "text": "E-Mail" },
-    "styles": {
-        "textAlignment": "near",
-        "font": "arial",
-        "background": "#ffffff99"
-    },
-    "displayRegExp": /^([a-zA-Z0-9._%+-]+)(@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4})$/,
-    "displayReplace":
-        function (match, p1, p2, offset, string) {
-            return p1.substring(0, 2) + "****" + p2;
-        }
-}];
-
-gridView.setColumns(columns);
-</pre>
-
----
 
 #### Tutorial Links
 

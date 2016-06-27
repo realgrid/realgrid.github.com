@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
- LocalDataProvider에서 데이터행이 삭제된 후 호출된다.  
- softDeleting = true 일 경우 호출되지 않는다.
+> LocalDataProvider에서 데이터행이 삭제된 후 호출된다.  
+> softDeleting = true 일 경우 호출되지 않는다.
 
 #### Syntax
 
@@ -35,11 +35,11 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-dataProvider.onRowDeleted = function (provider, row) {
-	alert("OK -> row = " + row);
-}
+	provider.onRowDeleted = function (provider, row) {
+		alert("OK -> row = " + row);
+	}
 </pre>
 

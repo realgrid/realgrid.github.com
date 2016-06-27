@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 그리드가 [Paging](/api/features/Paging/) 상태일 때, 다른 페이지로 이동하기 직전에 호출된다.
+> 그리드가 [Paging](/api/features/Paging/) 상태일 때, 다른 페이지로 이동하기 직전에 호출된다.
 
 #### Syntax
 
@@ -34,16 +34,11 @@ tags:
 > Type: boolean  
 > false를 리턴하면 페이지 이동이 취소된다.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onPageChanging =  function (grid, newPage) {
-    return false;
-}
+    grid.onPageChanging =  function (grid, newPage) {
+        return false;
+    }
 </pre>
 
----
-
-#### Demo Links
-
-* [PagingLazyLoading](http://demo.realgrid.com/Demo/PagingLazyLoading){:target="_blank"} 

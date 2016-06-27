@@ -15,9 +15,9 @@ tags:
 
 #### Description
 
- 키보드로 키 입력시 KeyDown 될 때 발생하는 콜백함수이다.   
- 결과값으로 false를 반환하면 키 입력이 취소된다. 
- 키를 입력하고 있는 동안 계속 발생된다.  
+> 키보드로 키 입력시 KeyDown 될 때 발생하는 콜백함수이다.   
+> 결과값으로 false를 반환하면 키 입력이 취소된다. 
+> 키를 입력하고 있는 동안 계속 발생된다.  
 
 #### Syntax
 
@@ -50,20 +50,16 @@ tags:
 > Type: boolean  
 > 키 입력을 금지할때 false 를 리턴한다..
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onKeyDown = function (grid, key, ctrl, shift, alt) {
-    if (key === "F".charCodeAt() && ctrl) {
-    	console.log("TEST");
-    	return false;
-    }
-};
+    gridView.onKeyDown = function (grid, key, ctrl, shift, alt) {
+        if (key === "F".charCodeAt() && ctrl) {
+        	console.log("TEST");
+        	return false;
+        }
+    };
 </pre>
 
----
-
-#### API Links
-
-* [onKeyUp](/api/GridBase/onKeyUp)
-* [onKeyPress](/api/GridBase/onKeyPress)
+#### See Also
+> [onKeyUp](/api/GridBase/onKeyUp), [onKeyPress](/api/GridBase/onKeyPress)

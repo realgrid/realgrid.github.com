@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- LocalDataProvider에서 데이터행이 이동된후에 호출된다.
+> LocalDataProvider에서 데이터행이 이동된후에 호출된다.
 
 #### Syntax
 
@@ -38,18 +38,18 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-dataProvider.onRowMoved = function (provider, row, newRow) {
-    var values = provider.getRow(newRow);
+    dataProvider.onRowMoved = function (provider, row, newRow) {
+        var values = provider.getRow(newRow);
 
-    $("#txtUserId2").val(values.UserId);
-    $("#txtUserName2").val(values.UserName);
-    $("#txtAge2").val(values.Age);
-    $("#txtGender2").val(values.Gender);
-    $("#txtPhone2").val(values.MobilePhone);
-    $("#txtMail2").val(values.Email);
-};
+        $("#txtUserId2").val(values.UserId);
+        $("#txtUserName2").val(values.UserName);
+        $("#txtAge2").val(values.Age);
+        $("#txtGender2").val(values.Gender);
+        $("#txtPhone2").val(values.MobilePhone);
+        $("#txtMail2").val(values.Email);
+    };
 </pre>
 

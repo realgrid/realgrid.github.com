@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 입력된 dataRow와 연결된 item이 체크되어있으면 true를 반환한다.  
+> 입력된 dataRow와 연결된 item이 체크되어있으면 true를 반환한다.  
 
 #### Syntax
 
@@ -29,16 +29,13 @@ tags:
 > Type: Boolean  
 > dataRow와 연결된 item이 체크되어있으면 true를 반환한다.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-if (gridView.isCheckedRow(0)) {
-    alert("체크");
-}
+    if (gridView.isCheckedRow(0)) {
+        alert("체크");
+    }
 </pre>
 
----
-
-#### API Links
-
-* [isCheckedItem](/api/GridBase/isCheckedItem)
+#### See Also
+> [isCheckedItem](/api/GridBase/isCheckedItem)

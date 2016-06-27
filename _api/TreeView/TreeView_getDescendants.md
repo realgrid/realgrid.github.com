@@ -10,9 +10,10 @@ tags:
  - 자손행 아이템인덱스
 ---
 
+
 #### Description
 
- 자손행의 [아이템](/api/features/Grid%20Item/)의 index배열을 가져온다.
+> 자손행의 [아이템](/api/features/Grid%20Item/)의 index배열을 가져온다.
 
 #### Syntax
 
@@ -28,9 +29,9 @@ tags:
 
 > Type: Array of Number
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeView.getDescendants(0);    
+    treeView.getDescendants(0);    
 </pre>
 

@@ -16,7 +16,7 @@ tags:
 
 #### Syntax
 
- function collapse(itemIndex, recursive)
+> function collapse(itemIndex, recursive)
 
 #### Parameters
 
@@ -33,14 +33,13 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeView.collapse(0,true);
+    treeView.collapse(0,true);
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"}   
+> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조    

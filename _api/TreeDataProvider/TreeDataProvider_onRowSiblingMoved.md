@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
- [TreeDataProvider.moveRowSibling()](/api/TreeDataProvider/moveRowSibling/) 함수를 사용하여 형제간 위치 이동이 완료된 후 발생한다. (같은 부모의 형제간 위치 이동)  
+> [TreeDataProvider.moveRowSibling()](/api/TreeDataProvider/moveRowSibling/) 함수를 사용하여 형제간 위치 이동이 완료된 후 발생한다. (같은 부모의 형제간 위치 이동)  
 
 #### Syntax
 
@@ -41,16 +41,15 @@ tags:
 
 > None.   
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeProvider.onRowSiblingMoved = function (provider, rowId, delta) {
-    console.log("onRowSiblingMoved: " + rowId + ", " + delta);
-}
+    treeProvider.onRowSiblingMoved = function (provider, rowId, delta) {
+        console.log("onRowSiblingMoved: " + rowId + ", " + delta);
+    }
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"}  
+> [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"} 참조   

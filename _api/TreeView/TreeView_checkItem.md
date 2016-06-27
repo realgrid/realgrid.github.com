@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 입력된 아이템을 체크하거나 해제한다.
+> 입력된 아이템을 체크하거나 해제한다.
 
 #### Syntax
 
@@ -39,14 +39,13 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeView.checkItem(0, true, false);    
+    treeView.checkItem(0, true, false);    
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"}    
+> [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"} 참조    

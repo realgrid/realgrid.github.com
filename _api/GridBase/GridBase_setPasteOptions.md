@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 그리드 붙여넣기 정보를 설정한다. [PasteOptions](/api/types/PasteOptions/)이 설정 모델이다.
+> 그리드 붙여넣기 정보를 설정한다. [PasteOptions](/api/types/PasteOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -30,24 +30,16 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.setPasteOptions({
-    singleMode: false,
-    enableAppend: false,
-    ...
-});
+    gridView.setPasteOptions({
+        singleMode: false,
+        enableAppend: false,
+        ...
+    });
 </pre>
 
----
-
-#### API Links
-
-* [getPasteOptions](/api/GridBase/getPasteOptions)
-* [getCopyCoptions](/api/GridBase/getCopyOptions)
-* [setCopyOptions](/api/GridBase/setCopyOptions) 
-
-#### Demo Links
-
-* [Copy &amp; Paste Demo](http://demo.realgrid.com/Demo/CopyAndPaste)
+#### See Also
+> [getPasteOptions](/api/GridBase/getPasteOptions), [getCopyCoptions](/api/GridBase/getCopyOptions), [setCopyOptions](/api/GridBase/setCopyOptions)  
+> [Copy &amp; Paste Demo](http://demo.realgrid.com/Demo/CopyAndPaste)

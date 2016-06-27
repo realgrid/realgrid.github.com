@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- [CheckBar](/api/types/CheckBar/)에 체크가 가능한 상태이면 true를 반환한다.  
+> [CheckBar](/api/types/CheckBar/)에 체크가 가능한 상태이면 true를 반환한다.  
 
 #### Syntax
 
@@ -30,7 +30,7 @@ tags:
 > Type: Boolean  
 > CheckBar에 체크가 가능한 상태이면 true를 반환한다.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     if (gridView.isCheckable(0)) {
@@ -38,9 +38,5 @@ tags:
     }
 </pre>
 
----
-
-#### Demo Links
-
-* [setCheckable](/api/GridBase/setCheckable)
-* [setCheckableExpression](/api/GridBase/setCheckableExpression)
+#### See Also
+> [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression)

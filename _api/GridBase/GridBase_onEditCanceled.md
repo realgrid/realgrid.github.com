@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
- 사용자가 편집중 ESCAPE 키를 입력하거나 [GridBase cancel](/api/GridBase/cancel/)이 호출되어 편집이 취소된후 호출된다.  
+> 사용자가 편집중 ESCAPE 키를 입력하거나 [GridBase cancel](/api/GridBase/cancel/)이 호출되어 편집이 취소된후 호출된다.  
 
 #### Syntax
 
@@ -36,16 +36,13 @@ tags:
 
 None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onEditCanceled =  function (id, index) {
-    console.log("id ==>",id,"index ==>",index);
-};
+    gridView.onEditCanceled =  function (id, index) {
+        console.log("id ==>",id,"index ==>",index);
+    };
 </pre>
 
----
-
-#### API Links
-
-* [onEditCommit](/api/GridBase/onEditCommit)
+#### See Also
+> [onEditCommit](/api/GridBase/onEditCommit)

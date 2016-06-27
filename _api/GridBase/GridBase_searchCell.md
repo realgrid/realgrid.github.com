@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 지정한 필드들의 값에 해당하는 셀을 찾아 CellIndex를 반환한다.  
+> 지정한 필드들의 값에 해당하는 셀을 찾아 CellIndex를 반환한다.  
 
 #### Syntax
 
@@ -31,30 +31,27 @@ tags:
 > Type: CellIndex  
 > 검색된 [CellIndex](/api/types/CellIndex/) 
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-function searchHandler() {
-    var value = $("#searchTxt").val();
-    var fields = [ "RequestType", "ServiceCode" ];
-    var startFieldIndex = fields.indexOf(gridView.getCurrent().fieldName) + 1;
-    var options = {
-        fields : fields,
-        value : value,
-        startItemIndex : gridView.getCurrent().itemIndex,
-        startFieldIndex : startFieldIndex,
-        wrap : true,
-        caseSensitive : false,
-        partialMatch : true
-    };
+    function searchHandler() {
+        var value = $("#searchTxt").val();
+        var fields = [ "RequestType", "ServiceCode" ];
+        var startFieldIndex = fields.indexOf(gridView.getCurrent().fieldName) + 1;
+        var options = {
+            fields : fields,
+            value : value,
+            startItemIndex : gridView.getCurrent().itemIndex,
+            startFieldIndex : startFieldIndex,
+            wrap : true,
+            caseSensitive : false,
+            partialMatch : true
+        };
 
-    var index = gridView.searchCell(options);
-    gridVeiw.setCurrent(index);
-}
+        var index = gridView.searchCell(options);
+        gridVeiw.setCurrent(index);
+    }
 </pre>
 
----
-
-#### API Links
-
-* [searchitem](/api/GridBase/searchItem)
+#See Also
+> [searchitem](/api/GridBase/searchItem)

@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- TreeDataProvider에서 여러건의 데이터행의 rowState가 변경되는 경우 호출된다.   
+> TreeDataProvider에서 여러건의 데이터행의 rowState가 변경되는 경우 호출된다.   
 
 
 #### Syntax
@@ -33,15 +33,15 @@ tags:
 
 > None.   
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeProvider.onRowStatesChanged = function (provider, rowIds) {
-    if (rowIds.length > 0) {
-        for (idx in rowIds) {
-            console.log("row ==>", rowIds[idx], "rowState ==>", provider.getRowState(rowIds[idx]));
+    treeProvider.onRowStatesChanged = function (provider, rowIds) {
+        if (rowIds.length > 0) {
+            for (idx in rowIds) {
+                console.log("row ==>", rowIds[idx], "rowState ==>", provider.getRowState(rowIds[idx]));
+            }
         }
-    }
-};
+    };
 </pre>
 

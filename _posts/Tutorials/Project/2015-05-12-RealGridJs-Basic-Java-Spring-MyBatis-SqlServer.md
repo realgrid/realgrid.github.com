@@ -12,9 +12,6 @@ tags:
     - spring
 ---
 
-**소스코드 다운로드 : [RealGrid.Guide.Java.Spring3.1.SqlServer.0.2.zip](/files/RealGrid.Guide.Java.Spring3.1.SqlServer.0.2.zip)**
-
-
 ### Architectures
 
 * 개발도구: eGovFrame 2.6, Spring 3.1.2.RELEASE

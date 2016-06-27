@@ -11,7 +11,7 @@ jsonly: true
 
 #### Description
 
- TreeView의 아이템 노드가 펼쳐진 후에 호출된다.
+> TreeView의 아이템 노드가 펼쳐진 후에 호출된다.
 
 #### Syntax
 
@@ -35,11 +35,11 @@ jsonly: true
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeView.onTreeItemExpanded = function (tree, itemIndex, rowId) {
-    console.log("TreeItem expanded: " + itemIndex);	
-};
+    treeView.onTreeItemExpanded = function (tree, itemIndex, rowId) {
+        console.log("TreeItem expanded: " + itemIndex);	
+    };
 </pre>
 

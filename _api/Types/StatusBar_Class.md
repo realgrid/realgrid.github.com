@@ -13,7 +13,7 @@ permalink: /api/types/StatusBar/
 
 #### Description
 
-StatusBar와 관련된 설정 모델이다. StatusBar는 행들의 상태를 표시하는 수직 Bar다. 
+> StatusBar와 관련된 설정 모델이다. StatusBar는 행들의 상태를 표시하는 수직 Bar다. 
 
 #### Properties
 

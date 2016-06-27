@@ -13,7 +13,7 @@ tags:
 
 #### Description	
 
- 편집을 취소하고 에디터 창을 닫습니다.
+> 편집을 취소하고 에디터 창을 닫습니다.
 
 #### Syntax
 
@@ -27,15 +27,11 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.cancelEditor();    
+    gridView.cancelEditor();    
 </pre>
 
----
-
-#### API Links
-
-* [commitEditor](/api/GridBase/commitEditor)
-* [cancel](/api/GridBase/cancel)
+#### See Also
+> [commitEditor](/api/GridBase/commitEditor), [cancel](/api/GridBase/cancel)

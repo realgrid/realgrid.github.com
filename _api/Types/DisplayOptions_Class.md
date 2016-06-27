@@ -7,18 +7,11 @@ order: DisplayOptions
 objectname: 
 directiontype: 
 permalink: /api/types/DisplayOptions/
-tags: 
-  - DisplayOptions
-  - 디스플레이옵션
-  - 화면옵션
-  - 행높이 조절
-  - 행높이 변경
-  - 컬럼리사이징
 ---
 
 #### Description
 
- 그리드 수준에서 관리되는 표시 정보들에 대한 설정 모델이다.
+> 그리드 수준에서 관리되는 표시 정보들에 대한 설정 모델이다.
 
 #### Properties
 
@@ -135,21 +128,3 @@ tags:
 > Type: Boolean  
 > Default: true 
 > Merged Cell에서 개별 cell 영역 표시 여부를 지정한다.    
-
-
-#### Examples   
-
-<pre class="prettyprint">
-gridView.setDisplayOptions({
-    columnResizable: true,
-    columnMovable: true,
-    rowHeight: 40
-});
-</pre>
-
----
-
-#### API Links
-
-* [setDisplayOptions](/api/GridBase/setDisplayOptions/)   
-* [getDisplayOptions](/api/GridBase/getDisplayOptions/)   

@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 그리드가 포커스를 갖도록 합니다.   
+> 그리드가 포커스를 갖도록 합니다.   
 
 
 #### Syntax
@@ -27,10 +27,10 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.setFocus();
+    gridView.setFocus();
 </pre>
 
 

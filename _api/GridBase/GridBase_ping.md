@@ -12,8 +12,8 @@ tags:
 
 #### Description
 
- RealGrid+ Web의 경우 입력된 메세지를 그리드 대화상자에 표시한다.  
- RealGridJS의 경우 alert창으로 입력된 메세지를 표시한다.  
+> RealGrid+ Web의 경우 입력된 메세지를 그리드 대화상자에 표시한다.  
+> RealGridJS의 경우 alert창으로 입력된 메세지를 표시한다.  
 
 #### Syntax
 
@@ -29,8 +29,8 @@ tags:
 
 > none
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.ping("테스트");
+    gridView.ping("테스트");
 </pre>

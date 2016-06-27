@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
- 그리드에 [Data Provider](/api/LocalDataProvider/)를 연결한다.
+> 그리드에 [Data Provider](/api/LocalDataProvider/)를 연결한다.
 
 #### Syntax
 
@@ -31,16 +31,13 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-dataProvider = new RealGridJS.LocalDataProvider();
-gridView = new RealGridJS.GridView("realgrid");
-gridView.setDataSource(dataProvider);	
+    dataProvider = new RealGridJS.LocalDataProvider();
+    gridView = new RealGridJS.GridView("realgrid");
+    gridView.setDataSource(dataProvider);	
 </pre>
 
----
-
-#### Tutorial  Links
-
-* [Data Loading](/tutorial/a24/)
+#### See Also
+> [Data Loading](/tutorial/a24/)

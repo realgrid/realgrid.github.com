@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- (x, y) 좌표에 해당하는 셀의 위치 정보를 가져온다.  
+> (x, y) 좌표에 해당하는 셀의 위치 정보를 가져온다.  
 
 #### Syntax
 
@@ -34,7 +34,7 @@ tags:
 
 > [CellIndex](/api/types/CellIndex/) 값.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
 var gridLoaded = false;

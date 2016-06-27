@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
- 사용자가 여러 행을 붙여넣기 했을 때 발생한다.  
+> 사용자가 여러 행을 붙여넣기 했을 때 발생한다.  
 
 #### Syntax
 
@@ -37,16 +37,13 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onRowsPasted =  function (grid, items) {
-    alert("붙여넣기된 행들 : " + items);
-};
+    gridView.onRowsPasted =  function (grid, items) {
+        alert("붙여넣기된 행들 : " + items);
+    };
 </pre>
 
----
-
-#### API Links
-
-* [PasteOPtions](/api/types/PasteOptions)
+#### See Also
+> [PasteOPtions](/api/types/PasteOptions)

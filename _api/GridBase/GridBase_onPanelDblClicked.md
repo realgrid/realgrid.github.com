@@ -19,7 +19,7 @@ tags:
 
 #### Description
 
- 사용자가 마우스로 Panel을 더블 클릭했을 때 호출된다.  
+> 사용자가 마우스로 Panel을 더블 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -35,16 +35,13 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onPanelDblClicked =  function (grid) {
-    console.log("onPanelDblClicked")
-};
+    gridView.onPanelDblClicked =  function (grid) {
+        console.log("onPanelDblClicked")
+    };
 </pre>
 
----
-
-#### API Links
-
-* [onPanelClicked](/api/GridBase/onPanelClicked)
+#### See Also
+> [onPanelClicked](/api/GridBase/onPanelClicked)

@@ -18,7 +18,7 @@ tags:
 
 #### Description
 
- 사용자가 마우스로 Panel을 클릭했을 때 호출된다.  
+> 사용자가 마우스로 Panel을 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -34,16 +34,13 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onPanelClicked =  function (grid) {
-    console.log("onPanelClicked")
-};
+    gridView.onPanelClicked =  function (grid) {
+        console.log("onPanelClicked")
+    };
 </pre>
 
----
-
-#### API Links
-
-* [onPanelDblClicked](/api/GridBase/onPanelDblClicked)
+#### See Also
+> [onPanelDblClicked](/api/GridBase/onPanelDblClicked)

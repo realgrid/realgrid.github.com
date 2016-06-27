@@ -13,8 +13,8 @@ tags:
 
 #### Description
 
- 셀 스타일 정보를 미리 추가한다.   
- DataProvider의 각 행 및 필드 단위로 미리 지정된 스타일을 javascript를 통해 지정할 수 있게 한다.    
+> 셀 스타일 정보를 미리 추가한다.  
+> DataProvider의 각 행 및 필드 단위로 미리 지정된 스타일을 javascript를 통해 지정할 수 있게 한다.    
 
 #### Syntax
 
@@ -39,24 +39,18 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.addCellStyle("style01", {
-    "background": "#4400ff00",
-    "fontSize": 14,
-    "paddingTop": 5
-});
+    gridView.addCellStyle("style01", {
+        "background": "#4400ff00",
+        "fontSize": 14,
+        "paddingTop": 5
+    });
 
-....
-gridView.setCellStyles([dataRows], [fieldNames], "styleId");
+    ....
+    gridView.setCellStyles([dataRows], [fieldNames], "styleId");
 </pre>
 
----
-
-#### API Links
-* [setCellStyles](/api/GridBase/setCellStyles) 
-* [addCellStyles](/api/GridBase/addCellStyles) 
-* [clearCellStyles](/api/GridBase/clearCellStyles) 
-* [removeAllCellStyles](/api/GridBase/removeAllCellStyles) 
-* [removeCellStyles](/api/GridBase/removeCellStyles)  
+#### See Also
+> [setCellStyles](/api/GridBase/setCellStyles), [addCellStyles](/api/GridBase/addCellStyles), [clearCellStyles](/api/GridBase/clearCellStyles), [removeAllCellStyles](/api/GridBase/removeAllCellStyles), [removeCellStyles](/api/GridBase/removeCellStyles)  

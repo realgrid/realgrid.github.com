@@ -10,7 +10,7 @@ permalink: /api/GridBase/getEditorOptions/
 
 #### Description
 
- 에디터 표시 정보를 설정한다. [EditorOptions](/api/types/EditorOptions/)이 설정 모델이다.
+> 에디터 표시 정보를 설정한다. [EditorOptions](/api/types/EditorOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -25,13 +25,11 @@ permalink: /api/GridBase/getEditorOptions/
 > Type: object  
 > [EditorOptions](/api/types/EditorOptions/) 설정 모델과 동일한 내용의 객체가 반환된다.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
 var options = grid.getEditorOptions();
 </pre>
 
----
-
-#### API Links
-* [setEditorOptions](/api/GridBase/setEditorOptions)
+#### See Also
+> [setEditorOptions](/api/GridBase/setEditorOptions)

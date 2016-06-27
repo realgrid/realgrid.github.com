@@ -15,13 +15,13 @@ tags:
 
 #### Description
 
- Code128 Barcode를 표시하는 렌더러이다.  
+> Code128 Barcode를 표시하는 렌더러이다.  
 
 #### properties
 
 > None.  
 
-#### Examples   
+### Example  
 
 <pre class="prettyprint">
 	var columns = [{
@@ -41,9 +41,7 @@ tags:
 	gridView.setColumns(columns);
 </pre>
 
----
+#### See Also 
 
-#### Demo Links 
-
-* [Barcode Cell Renderer](http://demo.realgrid.net/Demo/BarcodeCellRenderer)  
+> [Barcode Cell Renderer](http://demo.realgrid.net/Demo/BarcodeCellRenderer) 참조  
 

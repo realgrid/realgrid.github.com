@@ -18,8 +18,8 @@ tags:
 
 #### Description
 
- LocalDataProvider의 마지막 행 다음에 새로운 행을 추가한다.  
- 추가하기 직전에 [onRowInserting](/api/LocalDataProvider/onRowInserting/), 호출된 후 [onRowInserted](/api/LocalDataProvider/onRowInserted/), [onRowCountChanged](/api/LocalDataProvider/onRowCountChanged/) 이벤트가 순서대로 발생한다.
+> LocalDataProvider의 마지막 행 다음에 새로운 행을 추가한다.  
+> 추가하기 직전에 [onRowInserting](/api/LocalDataProvider/onRowInserting/), 호출된 후 [onRowInserted](/api/LocalDataProvider/onRowInserted/), [onRowCountChanged](/api/LocalDataProvider/onRowCountChanged/) 이벤트가 순서대로 발생한다.
 
 #### Syntax
 
@@ -35,21 +35,21 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var values = {
-    UserId: $("#txtUserId").val(),
-    UserName: $("#txtUserName").val(),
-    Age: $("#txtAge").val(),
-    Gender: $("#txtGender").val(),
-    MobilePhone: $("#txtPhone").val(),
-    Email: $("#txtMail").val()
-};
-try {
-    dataProvider.addRow(values);
-} catch(err) {
-    alert(err);
-}
+    var values = {
+        UserId: $("#txtUserId").val(),
+        UserName: $("#txtUserName").val(),
+        Age: $("#txtAge").val(),
+        Gender: $("#txtGender").val(),
+        MobilePhone: $("#txtPhone").val(),
+        Email: $("#txtMail").val()
+    };
+    try {
+        dataProvider.addRow(values);
+    } catch(err) {
+        alert(err);
+    }
 </pre>
 

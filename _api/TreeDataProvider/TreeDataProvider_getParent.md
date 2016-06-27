@@ -10,7 +10,7 @@ permalink: /api/TreeDataProvider/getParent/
 
 #### Description
 
- 지정한 데이터 행의 부모 rowId를 가져온다.  
+> 지정한 데이터 행의 부모 rowId를 가져온다.  
 
 #### Syntax
 
@@ -27,14 +27,13 @@ permalink: /api/TreeDataProvider/getParent/
 > Type: Number.  
 > 부모 행의 Row Id.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     var row = treeProvider.getParent(10);
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"}   
+> [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"} 참조   

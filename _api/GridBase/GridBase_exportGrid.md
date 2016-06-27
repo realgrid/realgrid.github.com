@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 지정한 설정에 따라 현재 그리드의 모양과 데이터를 외부 문서로 내보낸다.  
+> 지정한 설정에 따라 현재 그리드의 모양과 데이터를 외부 문서로 내보낸다.  
 
 #### Syntax
 
@@ -29,16 +29,16 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.exportGrid({
-    type: "excel",
-    target: "remote",
-    url: "/demo/excelbin",
-    indicator: "default",
-    header: "visible",
-    footer: "hidden"
-});
+    gridView.exportGrid({
+        type: "excel",
+        target: "remote",
+        url: "/demo/excelbin",
+        indicator: "default",
+        header: "visible",
+        footer: "hidden"
+    });
 </pre>
 

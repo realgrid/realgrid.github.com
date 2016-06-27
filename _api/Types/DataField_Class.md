@@ -7,7 +7,7 @@ order: DataField
 objectname: 
 directiontype: 
 permalink: /api/types/DataField/
-tags: 
+tag: 
     - 필드
     - datafield
     - field
@@ -89,67 +89,3 @@ tags:
 > **baseYear**   
 > Type: string   
 > 년도 값이 100보다 작을 경우 기준 년도. 기본값은 2000   
-
-> **calculateExpression**   
-> Type: string   
-> Calculate Field로 사용할 경우 사용될 수식을 지정한다. values['필드명'], values[필드인덱스]로 참조한다.  
-
-> **calculateCallback**   
-> Type: function   
-> Calculate Field로 사용할 경우 사용될 수식을 지정한다. 해당 필드에서 계산될 Function 을 지정한다.    
-
-#### Examples   
-
-<pre class="prettyprint">
-fields = [{
-    "fieldName": "OrderID",
-    "dataType": "number"
-}, {
-    "fieldName": "CustomerID"
-}, {
-    "fieldName": "EmployeeID"
-}, {
-    "fieldName": "OrderDate",
-    "dataType": "datetime"
-}, {
-    "fieldName": "CompanyName"
-}, {
-    "fieldName": "ProductName"
-}, {
-    "fieldName": "Quantity",
-    "dataType": "numeric"
-}, {
-    "fieldName": "UnitPrice",
-    "dataType": "numeric"
-}, {
-    "fieldName": "Price",
-    "dataType": "numeric",
-    "calculateExpression": "values['Quantity'] * values['UnitPrice']"
-}, {
-    "fieldName": "Price2",
-    "dataType": "numeric",
-    "calculateCallback": function (dataRow, fieldName, fieldNames, values) {
-        var quantity = values[fieldNames.indexOf("Quantity")];
-        var unitprice = values[fieldNames.indexOf("UnitPrice")];
-        if (isNaN(quantity) || isNaN(unitprice))
-            return undefined;
-        else
-            return quantity >= 1000 ? Math.round(quantity * unitprice * 0.95) : quantity * unitprice;
-    }
-}];
-
-dataProvider.setFields(fields);
-</pre>
-
----
-
-#### API Links
-
-* [setFields](/api/DataProvider/setFields/) 
-
-#### Demo Links
-
-* [Data Type](http://demo.realgrid.com/Demo/DataType) 
-* [Boolean Field](http://demo.realgrid.com/Demo/BooleanField) 
-* [Datetime Field](http://demo.realgrid.com/Demo/DatetimeField) 
-* [Subtypes](http://demo.realgrid.com/Demo/Subtypes)

@@ -26,8 +26,8 @@ tags:
 
 #### Description
 
- 그리드 헤더 영역에 표시되는 컬럼그룹 헤더에 대한 설정 정보를 관리한다.  
- 그리드 헤더가 표시되는 경우라면 항상 표시되는 컬럼헤더와 달리 visible 값을 false로 하면 컬럼그룹 헤더가 표시되지 않는다.
+> 그리드 헤더 영역에 표시되는 컬럼그룹 헤더에 대한 설정 정보를 관리한다.  
+> 그리드 헤더가 표시되는 경우라면 항상 표시되는 컬럼헤더와 달리 visible 값을 false로 하면 컬럼그룹 헤더가 표시되지 않는다.
 
 #### Properties
 
@@ -41,78 +41,76 @@ tags:
 > Default: true     
 > 컬럼그룹 헤더를 표시할 것인 지를 지정한다. 
 
-#### Examples   
+### Example  
 
 <pre class="prettyprint">
-var columns = [{
-    "type": "group",
-    "name": "GroupOrder",
-    "orientation": "vertical",
-    "resizable": true,
-    "movable": false,
-    "hideChildHeaders": false,
-    "width": 250,
-    "header": {
-    	"text": "GroupOrder Hader",
-        "visible": true
-    },
-    "columns": [{
+	var columns = [{
         "type": "group",
-        "name": "GroupIds",
+        "name": "GroupOrder",
+        "orientation": "vertical",
+        "resizable": true,
+        "movable": false,
+        "hideChildHeaders": false,
+        "width": 250,
+        "header": {
+        	"text": "GroupOrder Hader",
+            "visible": true
+        },
         "columns": [{
-            "name": "OrderID",
-            "fieldName": "OrderID",
-            "type": "data",
-            "width": "90",
-            "styles": {
-                "textAlignment": "center"
-            },
-            "header": {
-                "text": "Order"
-            }
+            "type": "group",
+            "name": "GroupIds",
+            "columns": [{
+                "name": "OrderID",
+                "fieldName": "OrderID",
+                "type": "data",
+                "width": "90",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Order"
+                }
+            }, {
+                "name": "CustomerID",
+                "fieldName": "CustomerID",
+                "width": "130",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Customer ID"
+                }
+            }, {
+                "name": "EmployeeID",
+                "fieldName": "EmployeeID",
+                "width": "100",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Employee ID"
+                }
+            }]
         }, {
-            "name": "CustomerID",
-            "fieldName": "CustomerID",
+            "name": "OrderDate",
+            "fieldName": "OrderDate",
             "width": "130",
             "styles": {
                 "textAlignment": "center"
             },
             "header": {
-                "text": "Customer ID"
-            }
-        }, {
-            "name": "EmployeeID",
-            "fieldName": "EmployeeID",
-            "width": "100",
-            "styles": {
-                "textAlignment": "center"
-            },
-            "header": {
-                "text": "Employee ID"
+                "text": "Order Date"
             }
         }]
-    }, {
-        "name": "OrderDate",
-        "fieldName": "OrderDate",
-        "width": "130",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Order Date"
-        }
-    }]
-}];
-
-gridView.setColumns(columns);
+	}];
+	
+	gridView.setColumns(columns);
 </pre>
 
----
+#### See Also 
 
-#### API Links
+> [Column Grouping](http://demo.realgrid.net/Demo/ColumnGrouping) 참조  
 
-* [ColumnGroup](/api/types/ColumnGroup) 
+> [ColumnGroup](/api/types/ColumnGroup)  
 
-#### Demo Links 
 
-* [Column Grouping](http://demo.realgrid.net/Demo/ColumnGrouping) 

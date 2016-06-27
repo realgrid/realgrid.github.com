@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 그리드 RowGroup과 관련된 정보들을 설정한다. [RowGroupOptions](/api/types/RowGroupOptions/)이 설정 모델이다.
+> 그리드 RowGroup과 관련된 정보들을 설정한다. [RowGroupOptions](/api/types/RowGroupOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -29,22 +29,16 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.setRowGroup({
-    mergeExpander: true,
-    mergeMode: true,
-    ...
-});
+    gridView.setRowGroup({
+        mergeExpander: true,
+        mergeMode: true,
+        ...
+    });
 </pre>
 
----
-
-#### API Links
-
-* [getRowGroup](/api/GridBase/getRowGroup)  
-
-#### Demo Links
-
-* [RowGrouping Demo](http://demo.realgrid.com/Demo/RowGrouping)
+#### See Also
+> [getRowGroup](/api/GridBase/getRowGroup)  
+> [RowGrouping Demo](http://demo.realgrid.com/Demo/RowGrouping)

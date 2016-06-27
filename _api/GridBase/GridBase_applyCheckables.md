@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- CheckBar에 Expression 기준으로 checkable을 적용한다.
+> CheckBar에 Expression 기준으로 checkable을 적용한다.
 
 #### Syntax
 
@@ -27,21 +27,13 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.setCheckBar({ checkableExpression: "row < 10" });
-gridView.applyCheckables();
+    gridView.setCheckBar({ checkableExpression: "row < 10" });
+    gridView.applyCheckables();
 </pre>
 
----
-
-#### API Links
-
-* [setCheckable](/api/GridBase/setCheckable)
-* [setCheckableExpression](/api/GridBase/setCheckableExpression)
-* [resetCheckables](/api/GridBase/resetCheckables)  
-
-#### Demo Links
-
-* [checkBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+#### See Also
+> [setCheckable](/api/GridBase/setCheckable), [setCheckableExpression](/api/GridBase/setCheckableExpression), [resetCheckables](/api/GridBase/resetCheckables)  
+> [checkBar Demo](http://demo.realgrid.com/Demo/CheckBar)

@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 
+> 
 
 #### Syntax
 
@@ -36,11 +36,11 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeProvider.onRowsAdded = function (provider, parentId, rowIds) {
-    console.log("onRowsAdded:" + parentId + ", " + rowIds.length);
-};
+    treeProvider.onRowsAdded = function (provider, parentId, rowIds) {
+        console.log("onRowsAdded:" + parentId + ", " + rowIds.length);
+    };
 </pre>
 

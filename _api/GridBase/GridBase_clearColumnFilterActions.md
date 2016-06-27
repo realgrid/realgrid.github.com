@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 지정된 컬럼에 존재하는 FilterActions을 clear한다.  
+> 지정된 컬럼에 존재하는 FilterActions을 clear한다.  
 
 #### Syntax
 
@@ -29,19 +29,13 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.clearColumnFilterActions("OrderID")
+    gridView.clearColumnFilterActions("OrderID")
 </pre>
 
----
-
-#### API Links
-
-* [setColumnFilterActions](/api/GridBase/setColumnFilterActions)  
-* [ColumnFilterAction](/api/types/ColumnFilterAction/)  
-
-#### Demo Links
-
-* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+#### See Also
+> [setColumnFilterActions](/api/GridBase/setColumnFilterActions)  
+> [ColumnFilterAction](/api/types/ColumnFilterAction/)  
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)

@@ -7,14 +7,12 @@ order: ItemType
 objectname: 
 directiontype: 
 permalink: /api/types/ItemType/
-tags:
-  - 아이템형태
 ---
 
 
 #### Description
 
- 아이템의 형태를 정의한다.
+> 아이템의 형태를 정의한다.
 
 #### Members
 
@@ -33,3 +31,4 @@ tags:
 > **TREE**  
 > Value: "tree"  
 > 아이템에 트리이다.  
+

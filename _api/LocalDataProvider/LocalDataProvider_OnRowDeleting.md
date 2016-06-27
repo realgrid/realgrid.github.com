@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
- LocalDataProvider에서 데이터행이 삭제되기 직전에 호출된다.    
- 삭제를 취소하려는 경우 false를 return한다.
+> LocalDataProvider에서 데이터행이 삭제되기 직전에 호출된다.  
+> 삭제를 취소하려는 경우 false를 return한다.
 
 #### Syntax
 
@@ -36,16 +36,16 @@ tags:
 > Type: Boolean  
 > false를 리턴하면 삭제가 취소된다.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-dataProvider.onRowDeleting = function (provider, row) {
-    if (provider.getValue(row,"field") == "1") {
-        RealGrids.alert("삭제할수 없습니다");
-        return false;  
-    } else {
-        return true;
+    provider.onRowDeleting = function (provider, row) {
+        if (provider.getValue(row,"field") == "1") {
+            RealGrids.alert("삭제할수 없습니다");
+            return false;  
+        } else {
+            return true;
+        };
     };
-};
 </pre>
 

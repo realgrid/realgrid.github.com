@@ -7,15 +7,11 @@ order: DynamicStyle
 objectname: 
 directiontype: 
 permalink: /api/types/DynamicStyle/
-tags:
-  - DynamicStyle
-  - 다아나믹스타일
-  - 동적스타일
 ---
 
 #### Description
 
- 동적 스타일을 적용할 조건과 표현식을 지정한다.
+> 동적 스타일을 적용할 조건과 표현식을 지정한다.
 
 #### Properties
 
@@ -28,34 +24,3 @@ tags:
 > Type: Object  
 > 스타일을 설정한다.      
 
-#### Examples   
-
-<pre class="prettyprint">
-gridView.setStyles({
-    body:{
-        dynamicStyles:[{
-            criteria:"(row mod 2) = 0",
-            styles:{
-                background:"#FFC9DAF8"
-            }
-        }, {
-        criteria:"(row mod 2) = 1", 
-        styles:{
-            background:"#FF073763",
-            foreground:"#FFFFFFFF"
-        }
-        }]
-    }
-});
-</pre>
-
----
-
-#### Tutorial Links
-
-* [짝수, 홀수 행의 스타일을 다르게 표현하기](http://help.realgrid.com/tutorial/c3/)
-
-#### Demo Links
-
-* [Dynamic Styles on Columns](http://demo.realgrid.com/Demo/DynamicStylesColumn)    
-* [Dynamic Styles on Rows](http://demo.realgrid.com/Demo/DynamicStylesRow)   

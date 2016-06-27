@@ -8,14 +8,11 @@ objectname:
 directiontype: 
 permalink: /api/types/DataFillMode/
 jsonly: true
-tags: 
-  - FillMode
-  - 채우기모드
 ---
 
 #### Description
 
- Data provider에 행을 채우는 방법.
+> Data provider에 행을 채우는 방법.
 
 #### Members
 
@@ -35,39 +32,3 @@ tags:
 > Value: "update"  
 > 기존 데이터를 대체. 추가할 데이터는 남아있는데 이미 마지막행일 경우는 append와 같이 뒤로 추가한다.  
 
-#### Examples   
-
-<pre class="prettyprint">
-dataProvider.fillJsonData(data, { count: 1000, fillMode: "set" });
-</pre>
-
-<pre class="prettyprint">
-dataProvider.fillJsonData(data, {});
-</pre>
-
-<pre class="prettyprint">
-dataProvider.fillJsonData(data, {
-    quoted: true,
-    start: 0,
-    count: 10,
-    fillMode: "update",
-    fillPos: start
-});
-</pre>
-
----
-
-#### API Links
-
-* [fillJsonData](/api/LocalDataProvider/fillJsonData/)   
-* [fillCsvData](/api/LocalDataProvider/fillCsvData/)   
-* [fillXmlData](/api/LocalDataProvider/fillXmlData/)  
-* [Tree fillJsonData](/api/TreeDataProvider/fillJsonData/)   
-* [Tree fillCsvData](/api/TreeDataProvider/fillCsvData/)   
-* [Tree fillXmlData](/api/TreeDataProvider/fillXmlData/) 
-
-#### Demo Links
-
-* [LoadJsonData](http://demo.realgrid.com/Demo/LoadJsonData)  
-* [LazyLoadData](http://demo.realgrid.com/Demo/LazyLoadData)  
-* [PagingLazyLoading2](http://demo.realgrid.com/Demo/PagingLazyLoading2)

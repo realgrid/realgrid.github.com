@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- [TreeDataProvider.setValue](/api/TreeDataProvider/setValue/)를 이용하여 데이터를 변경한후 호출된다.
+> [TreeDataProvider.setValue](/api/TreeDataProvider/setValue/)를 이용하여 데이터를 변경한후 호출된다.
 
 #### Syntax
 
@@ -33,11 +33,11 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeProvider.onValueChanged = function (provider, rowId) {
-    console.log("onValueChanged:"+rowId);
-};
+    treeProvider.onValueChanged = function (provider, rowId) {
+        console.log("onValueChanged:"+rowId);
+    };
 </pre>
 

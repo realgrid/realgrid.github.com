@@ -19,7 +19,7 @@ tags:
 
 #### Description
 
- [TreeDataProvider.changeRowParent](/api/TreeDataProvider/changeRowParent/)함수를 사용하여 부모가 바뀐 뒤 발생한다. 
+> [TreeDataProvider.changeRowParent](/api/TreeDataProvider/changeRowParent/)함수를 사용하여 부모가 바뀐 뒤 발생한다. 
 
 #### Syntax
 
@@ -47,16 +47,15 @@ tags:
 
 > None. 
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeProvider.onRowParentChanged = function (provider, rowId, parentId, childIndex)  {
-    console.log("onRowParentChanged: " + rowId + ", " + parentId + ", " + childIndex);
-}
+    treeProvider.onRowParentChanged = function (provider, rowId, parentId, childIndex)  {
+        console.log("onRowParentChanged: " + rowId + ", " + parentId + ", " + childIndex);
+    }
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"} 
+> [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"} 참조   

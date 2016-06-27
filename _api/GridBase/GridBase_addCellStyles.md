@@ -13,8 +13,8 @@ tags:
 
 #### Description
 
- 복수개의 셀 스타일 정보를 미리 추가한다.   
- DataProvider의 각 행 및 필드 단위로 미리 지정된 스타일을 javascript를 통해 지정할 수 있도록 합니다.  
+> 복수개의 셀 스타일 정보를 미리 추가한다.  
+> DataProvider의 각 행 및 필드 단위로 미리 지정된 스타일을 javascript를 통해 지정할 수 있도록 합니다.  
 
 #### Syntax
 
@@ -35,44 +35,38 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.addCellStyles([{
-    "id": "style1",
-    "foreground": "#ffffffff",
-    "background": "#ff333333",
-    "fontSize": 14,
-    "fontBold": true,
-    "editable": false
-}, {
-    "id": "style11",
-    "foreground": "#ffffff00",
-    "background": "#ff111111",
-    "fontSize": 16,
-    "fontBold": true,
-    "readOnly": false
-}, {
-    "id": "style2",
-    "background": "#110000ff",
-    "foreground": "#ff000088",
-    "fontSize": 13,
-    "fontBold": true,
-    "textAlignment": "center"
-}, {
-    "id": "styleNew",
-    "background": "#33ffff00"
-}]);
-
-....
-gridView.setCellStyles([dataRows], [fieldNames], "styleId");
+    gridView.addCellStyles([{
+        "id": "style1",
+        "foreground": "#ffffffff",
+        "background": "#ff333333",
+        "fontSize": 14,
+        "fontBold": true,
+        "editable": false
+    }, {
+        "id": "style11",
+        "foreground": "#ffffff00",
+        "background": "#ff111111",
+        "fontSize": 16,
+        "fontBold": true,
+        "readOnly": false
+    }, {
+        "id": "style2",
+        "background": "#110000ff",
+        "foreground": "#ff000088",
+        "fontSize": 13,
+        "fontBold": true,
+        "textAlignment": "center"
+    }, {
+        "id": "styleNew",
+        "background": "#33ffff00"
+    }]);
+    ....
+    gridView.setCellStyles([dataRows], [fieldNames], "styleId");
+    
 </pre>
 
----
-
-#### API Links
-* [setCellStyles](/api/GridBase/setCellStyles)
-* [addCellStyle](/api/GridBase/addCellStyle)
-* [clearCellStyles](/api/GridBase/clearCellStyles)
-* [removeAllCellStyles](/api/GridBase/removeAllCellStyles)
-* [removeCellStyles](/api/GridBase/removeCellStyles) 
+#### See Also
+> [setCellStyles](/api/GridBase/setCellStyles), [addCellStyle](/api/GridBase/addCellStyle), [clearCellStyles](/api/GridBase/clearCellStyles), [removeAllCellStyles](/api/GridBase/removeAllCellStyles), [removeCellStyles](/api/GridBase/removeCellStyles) 

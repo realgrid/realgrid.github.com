@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- Check된 데이터 행들의 목록을 반환한다.
+> Check된 데이터 행들의 목록을 반환한다.
 
 #### Syntax
 
@@ -35,14 +35,11 @@ tags:
 > Type: Array of Number  
 > Check된 행 인덱스들의 배열.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var rows = gridView.getCheckedRows(true);
+    var rows = grid.getCheckedRows(true);
 </pre>
 
----
 
-#### Demo Links
 
-* [CheckBar](http://demo.realgrid.com/Demo/CheckBar){:target="_blank"} 

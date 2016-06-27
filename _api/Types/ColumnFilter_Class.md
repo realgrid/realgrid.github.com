@@ -20,7 +20,7 @@ tags:
 
 #### Description
 
- 컬럼 필터링에 관련된 설정 정보를 관리한다.
+> 컬럼 필터링에 관련된 설정 정보를 관리한다.
 
 #### Properties
 
@@ -49,58 +49,55 @@ tags:
 > Default: true     
 > 필터를 수행할 것인 지를 지정한다.  
 
-#### Examples   
+### Example  
 
 <pre class="prettyprint">
-var columns = [{
-      "name": "CustomerID",
-      "fieldName": "CustomerID",
-      "type": "data",
-      "width": "130",
-      "styles": {
-          "textAlignment": "center"
-      },
-      "header": {
-          "text": "Customer ID"
-      },
-      "filters": [{
-          name: "VINET",
-          criteria: "value = 'VINET'"
-      }, {
-          name: "VICTE",
-          criteria: "value = 'VICTE'"
-      }, {
-          name: "HANAR",
-          criteria: "value = 'HANAR'"
-      }]
-}];
-
-gridView.setColumns(columns);
+	var columns = [{
+        "name": "CustomerID",
+        "fieldName": "CustomerID",
+        "type": "data",
+        "width": "130",
+        "styles": {
+            "textAlignment": "center"
+        },
+        "header": {
+            "text": "Customer ID"
+        },
+        "filters": [{
+            name: "VINET",
+            criteria: "value = 'VINET'"
+        }, {
+            name: "VICTE",
+            criteria: "value = 'VICTE'"
+        }, {
+            name: "HANAR",
+            criteria: "value = 'HANAR'"
+        }]
+	}];
+	
+	gridView.setColumns(columns);
 </pre>
 
----
+#### See Also 
 
-#### API Links
+> [Column Filtering](http://demo.realgrid.net/Demo/ColumnFiltering) 참조  
 
-* [getFilteringOptions](/api/GridBase/getFilteringOptions)  
-* [setFilteringOptions](/api/GridBase/setFilteringOptions)  
-* [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters)  
-* [activateColumnFilters](/api/GridBase/activateColumnFilters)  
-* [addColumnFilters](/api/GridBase/addColumnFilters)  
-* [clearColumnFilterActions](/api/GridBase/clearColumnFilterActions)  
-* [clearColumnFilters](/api/GridBase/clearColumnFilters)  
-* [getActiveColumnFilters](/api/GridBase/getActiveColumnFilters)  
-* [getColumnFilter](/api/GridBase/getColumnFilter)  
-* [getColumnFilters](/api/GridBase/getColumnFilters)  
-* [removeColumnFilters](/api/GridBase/removeColumnFilters)  
-* [setColumnFilterActions](/api/GridBase/setColumnFilterActions)  
-* [setColumnFilters](/api/GridBase/setColumnFilters)  
-* [toggleAllColumnFilters](/api/GridBase/toggleAllColumnFilters)  
-* [toggleColumnFilters](/api/GridBase/toggleColumnFilters)  
-* [onFilterActionClicked](/api/GridBase/onFilterActionClicked)  
-* [onFiltering](/api/GridBase/onFiltering)  
-* [onFilteringChanged](/api/GridBase/onFilteringChanged)  
+> [getFilteringOptions](/api/GridBase/getFilteringOptions)  
+> [setFilteringOptions](/api/GridBase/setFilteringOptions)  
+> [activateAllColumnFilters](/api/GridBase/activateAllColumnFilters)  
+> [activateColumnFilters](/api/GridBase/activateColumnFilters)  
+> [addColumnFilters](/api/GridBase/addColumnFilters)  
+> [clearColumnFilterActions](/api/GridBase/clearColumnFilterActions)  
+> [clearColumnFilters](/api/GridBase/clearColumnFilters)  
+> [getActiveColumnFilters](/api/GridBase/getActiveColumnFilters)  
+> [getColumnFilter](/api/GridBase/getColumnFilter)  
+> [getColumnFilters](/api/GridBase/getColumnFilters)  
+> [removeColumnFilters](/api/GridBase/removeColumnFilters)  
+> [setColumnFilterActions](/api/GridBase/setColumnFilterActions)  
+> [setColumnFilters](/api/GridBase/setColumnFilters)  
+> [toggleAllColumnFilters](/api/GridBase/toggleAllColumnFilters)  
+> [toggleColumnFilters](/api/GridBase/toggleColumnFilters)  
+> [onFilterActionClicked](/api/GridBase/onFilterActionClicked)  
+> [onFiltering](/api/GridBase/onFiltering)  
+> [onFilteringChanged](/api/GridBase/onFilteringChanged)  
 
-#### Demo Links 
-
-* [Column Filtering](http://demo.realgrid.net/Demo/ColumnFiltering)

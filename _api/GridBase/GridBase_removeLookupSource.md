@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 지정한 룩업 소스를 삭제한다.
+> 지정한 룩업 소스를 삭제한다.
 
 #### Syntax
 
@@ -29,19 +29,12 @@ tags:
 
 > None
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var sourceId= "empLookup";
-gridView.removeLookupSource(sourceId);
+    var sourceId= "empLookup";
+    gridView.removeLookupSource(sourceId);
 </pre>
 
----
-
-#### API Links
-
-* [addLookupSource](/api/GridBase/addLookupSource)
-
-#### Demo Links
-
-* [ColumnLookup Demo](http://demo.realgrid.com/Demo/ColumnLookup)
+#### See Also
+> [addLookupSource](/api/GridBase/addLookupSource), [ColumnLookup Demo](http://demo.realgrid.com/Demo/ColumnLookup)

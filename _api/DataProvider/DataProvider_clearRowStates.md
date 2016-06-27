@@ -14,8 +14,8 @@ tags:
 
 #### Description
 
- RowState가 "none"이 아닌 행들의 RowState를 모두 제거한다.  
- 이 때 deleteRows 매개변수를 true로 지정하면 "deleted"나 "createAndDeleted" 상태를 갖는 행들을 실제로 삭제한다.
+> RowState가 "none"이 아닌 행들의 RowState를 모두 제거한다. 
+> 이 때 deleteRows 매개변수를 true로 지정하면 "deleted"나 "createAndDeleted" 상태를 갖는 행들을 실제로 삭제한다.
 
 #### Syntax
 
@@ -35,14 +35,8 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre>
     provider.clearRowStates(true, false);
 </pre>
-
----
-
-#### Demo Links
-
-* [RowState](http://demo.realgrid.com/Demo/RowState){:target="_blank"} 참조

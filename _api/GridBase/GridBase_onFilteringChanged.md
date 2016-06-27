@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 컬럼에 필터들이 설정되어 있고, 그 필터의 상태가 변경될 경우 호출된다.  
+> 컬럼에 필터들이 설정되어 있고, 그 필터의 상태가 변경될 경우 호출된다.  
 
 #### Syntax
 
@@ -30,17 +30,14 @@ tags:
 
 None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onFilteringChanged = function (grid){
-    alert("필터가 변경됨");
-}
+    gridView.onFilteringChanged = function (grid){
+	    alert("필터가 변경됨");
+	}
 </pre>
 
----
-
-#### Demo Links
-
-* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+#### See Also
+> [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
 

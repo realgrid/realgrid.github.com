@@ -7,15 +7,12 @@ order: Panel
 objectname: 
 directiontype: 
 permalink: /api/types/Panel/
-tags:
-  - 패널
-  - 그룹
 ---
 
 
 #### Description
 
- 그리드 Panel 표시 정보들에 대한 설정 모델이다.
+> 그리드 Panel 표시 정보들에 대한 설정 모델이다.
 
 #### Properties
 

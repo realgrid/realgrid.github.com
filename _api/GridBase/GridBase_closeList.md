@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 필터박스 또는 DropDown Editor를 닫는다.
+> 필터박스 또는 DropDown Editor를 닫는다.
 
 #### Syntax
 
@@ -28,14 +28,11 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.closeList();
+    gridView.closeList();
 </pre>
 
----
-
-#### API Links
-
-* [hideEditor](/api/GridBase/hideEditor)
+#### See Also
+> [hideEditor](/api/GridBase/hideEditor)

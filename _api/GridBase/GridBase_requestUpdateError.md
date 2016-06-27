@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- UpdateError를 발생시킨다.(RealGrid+ Web TEST 용)
+> UpdateError를 발생시킨다.(RealGrid+ Web TEST 용)
 
 #### Syntax
 
@@ -32,8 +32,8 @@ tags:
 
 > None
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.requestUpdateError(null, "This is test update exception");
+    gridView.requestUpdateError(null, "This is test update exception");
 </pre>

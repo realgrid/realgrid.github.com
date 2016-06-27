@@ -7,27 +7,20 @@ order: SortDirection
 objectname: 
 directiontype: 
 permalink: /api/types/SortDirection/
-tags:
-    - 정렬방향
 ---
 
 
 #### Description
 
- 정렬 방향을 정의한다.
+> 정렬할 순서를 정의합니다.
 
 #### Members
 
 > **ASCENDING**  
 > Value: "ascending"  
-> 순방향으로 정렬한다.  
+> 순방향으로 정렬합니다.  
 
 > **DESCENDING**   
 > Value: "descending"  
-> 역방향으로 정렬한다.  
+> 역방향으로 정렬합니다.  
 
----
-
-#### Demo Links
-
-* [ColumnSorting](http://demo.realgrid.com/Demo/ColumnSorting){:target="_blank"}

@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 입력된 아이템을 확장한다.
+> 입력된 아이템을 확장한다.
 
 #### Syntax
 
@@ -38,14 +38,13 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeView.expand(0,true);
+    treeView.expand(0,true);
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"}
+> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조    

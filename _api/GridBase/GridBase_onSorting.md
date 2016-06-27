@@ -15,8 +15,8 @@ tags:
 
 #### Description
 
- 소팅이 시작될때 호출된다.  
- False를 반환하면 소팅은 취소된다.  
+> 소팅이 시작될때 호출된다.  
+> False를 반환하면 소팅은 취소된다.  
 
 #### Syntax
 
@@ -34,16 +34,13 @@ tags:
 > Default: True  
 > 소팅 실행 여부를 지정한다. False를 반환하면 소팅은 취소된다.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onSorting = function (grid){
-    console.log("onSorting: " + JSON.stringify(fields) + ", " + JSON.stringify(directions));
-}
+    gridView.onSorting = function (grid){
+
+	}
 </pre>
 
----
-
-#### API Links
-
-* [Sorting](/api/features/Sorting)
+#### See Also
+> [Sorting](/api/features/Sorting)

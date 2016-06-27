@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- [LocalDataProvider.setValue](/api/LocalDataProvider/setValue/)를 이용하여 데이터를 변경한후 호출된다.
+> [LocalDataProvider.setValue](/api/LocalDataProvider/setValue/)를 이용하여 데이터를 변경한후 호출된다.
 
 #### Syntax
 
@@ -37,11 +37,10 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-dataProvider.onValueChanged = function (provider, row, field) {
-    consloe.log("onValueChanged: " + row + ", " + field);
-};
+    dataProvider.onValueChanged = function (provider, row, field) {
+    };
 </pre>
 

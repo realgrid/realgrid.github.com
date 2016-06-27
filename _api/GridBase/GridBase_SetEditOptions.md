@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 그리드 편집 방식과 관련된 정보들을 재설정한다. [EditOptions](/api/types/EditOptions/)이 설정 모델이다.
+> 그리드 편집 방식과 관련된 정보들을 재설정한다. [EditOptions](/api/types/EditOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -30,22 +30,16 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.setEditOptions({
-    deletable: true,
-    readOnly: false,
-    ...
-});
+    gridView.setEditOptions({
+        deletable: true,
+        readOnly: false,
+        ...
+    });
 </pre>
 
----
-
-#### Tutorial Links
- 
-* [데이터 편집하기](/tutorial/a23/)
-
-#### API Links
-
-* [getEditOptions](/api/GridBase/getEditOptions) 
+#### See Also
+> [getEditOptions](/api/GridBase/getEditOptions)  
+> [데이터 편집하기](/tutorial/a23/)

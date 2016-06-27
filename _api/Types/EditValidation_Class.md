@@ -7,16 +7,11 @@ order: EditValidation
 objectname: 
 directiontype: 
 permalink: /api/types/EditValidation/
-tags: 
-  - EditValidation
-  - Validation
-  - 값 검증
-  - 검증   
 ---
 
 #### Description
 
- 컬럼 단위 혹은, 행 단위 데이터 검증 조건과 방식을 지정한다.
+> 컬럼 단위 혹은, 행 단위 데이터 검증 조건과 방식을 지정한다.
 
 #### Properties
 
@@ -54,33 +49,4 @@ tags:
 > Type: Text  
 > Default: null   
 > 설명. 현재는 Validation 실패 시 message가 설정되지 않을 때 메시지로 사용된다.     
-
-### Example  
-
-<pre class="prettyprint">
-validations = [{
-    criteria: "value['CustomerID'] is not empty",
-    message: "CustomerID는 반드시 필요합니다.",
-    mode: "always",
-    level: "error"
-}, {
-    criteria: "(values['Quantity'] >= 100) and (values['UnitPrice'] >= 50)",
-    message: "Quantity는 100보다 크고 UnitPrice는 50보다 커야합니다!",
-    mode: "always",
-    level: "error"
-}, {
-    criteria: "values['Quantity'] <= 200",
-    message: "Quantity는 200보다 작아야 합니다",
-    mode: "always",
-    level: "warning"
-}];
-
-gridView.setValidations(validations);
-</pre>
-
----
-
-#### Demo Links
-
-* [Column Validation](http://demo.realgrid.com/Demo/EditColumnValidation)* [Row Validation](http://demo.realgrid.com/Demo/EditRowValidation)
 

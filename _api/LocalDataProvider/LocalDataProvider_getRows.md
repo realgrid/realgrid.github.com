@@ -16,7 +16,7 @@ tags:
 
 #### Description
 
- 지정한 범위 내의 데이터행들을 배열의 배열로 가져온다.
+> 지정한 범위 내의 데이터행들을 배열의 배열로 가져온다.
 
 #### Syntax
 
@@ -37,10 +37,10 @@ tags:
 > Type: Array of object.  
 > 배열로 만들어진 데이터행들의 목록.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var rows = dataProvider.getRows(10, 19);
+    var rows = provider.getRows(10, 19);
 </pre>
 
 

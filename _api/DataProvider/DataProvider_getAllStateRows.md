@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- RowState가 "none"이 아닌 모든 행의 번호를 상태별로 가져온다.
+> RowState가 "none"이 아닌 모든 행의 번호를 상태별로 가져온다.
 
 #### Syntax
 
@@ -30,14 +30,10 @@ tags:
 > "created", "updated", "deleted", "createAndDeleted" 상태 이름들을 속성으로 갖는 object. 각 속성의 값은 해당 상태의 행 번호 배열이다. 
 
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     var rows = provider.getAllStateRows();
 </pre>
 
----
 
-#### Demo Links
-
-* [RowState](http://demo.realgrid.com/Demo/RowState){:target="_blank"} 참조 

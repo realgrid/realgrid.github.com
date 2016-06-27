@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
- [checkItems](/api/GridBase/checkItems/)을 입력하여 여러건의 체크상태를 변경하면 호출된다.  
+> [checkItems](/api/GridBase/checkItems/)을 입력하여 여러건의 체크상태를 변경하면 호출된다.  
 
 #### Syntax
 
@@ -39,16 +39,13 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onItemsChecked =  (grid, items, checked) {
-    console.log("onItemsChecked", items, checked);
-};
+    gridView.onItemsChecked =  (grid, items, checked) {
+        console.log("onItemsChecked", items, checked);
+    };
 </pre>
 
----
-
-#### API Links
-
-* [checkItems](/api/GridBase/checkItems)
+#### See Also
+> [checkItems](/api/GridBase/checkItems)

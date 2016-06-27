@@ -19,7 +19,7 @@ tags:
 
 #### Description
 
- Group컬럼에서 하위 컬럼을 배치하는 방향을 정의합니다.
+> Group컬럼에서 하위 컬럼을 배치하는 방향을 정의합니다.
 
 #### Members
 
@@ -31,76 +31,74 @@ tags:
 > Value: "vertical"     
 > 하위 컬럼들을 세로 방향으로 배치합니다.   
 
-#### Examples   
+### Example  
 
 <pre class="prettyprint">
-var columns = [{
-    "type": "group",
-    "name": "GroupOrder",
-
-    "orientation": "vertical",
-
-    "resizable": true,
-    "movable": false,
-    "hideChildHeaders": false,
-    "width": 250,
-    "columns": [{
+	var columns = [{
         "type": "group",
-        "name": "GroupIds",
+        "name": "GroupOrder",
+
+        "orientation": "vertical",
+
+        "resizable": true,
+        "movable": false,
+        "hideChildHeaders": false,
+        "width": 250,
         "columns": [{
-            "name": "OrderID",
-            "fieldName": "OrderID",
-            "type": "data",
-            "width": "90",
-            "styles": {
-                "textAlignment": "center"
-            },
-            "header": {
-                "text": "Order"
-            }
+            "type": "group",
+            "name": "GroupIds",
+            "columns": [{
+                "name": "OrderID",
+                "fieldName": "OrderID",
+                "type": "data",
+                "width": "90",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Order"
+                }
+            }, {
+                "name": "CustomerID",
+                "fieldName": "CustomerID",
+                "width": "130",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Customer ID"
+                }
+            }, {
+                "name": "EmployeeID",
+                "fieldName": "EmployeeID",
+                "width": "100",
+                "styles": {
+                    "textAlignment": "center"
+                },
+                "header": {
+                    "text": "Employee ID"
+                }
+            }]
         }, {
-            "name": "CustomerID",
-            "fieldName": "CustomerID",
+            "name": "OrderDate",
+            "fieldName": "OrderDate",
             "width": "130",
             "styles": {
                 "textAlignment": "center"
             },
             "header": {
-                "text": "Customer ID"
-            }
-        }, {
-            "name": "EmployeeID",
-            "fieldName": "EmployeeID",
-            "width": "100",
-            "styles": {
-                "textAlignment": "center"
-            },
-            "header": {
-                "text": "Employee ID"
+                "text": "Order Date"
             }
         }]
-    }, {
-        "name": "OrderDate",
-        "fieldName": "OrderDate",
-        "width": "130",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Order Date"
-        }
-    }]
-}];
-
-gridView.setColumns(columns);
+	}];
+	
+	gridView.setColumns(columns);
 </pre>
 
----
+#### See Also
 
-#### API Links
+> [Column Grouping Demo](http://demo.realgrid.net/Demo/ColumnGrouping) 참조  
 
-* [ColumnGroup](/api/types/ColumnGroup) 
+> [ColumnGroup](/api/types/ColumnGroup)  
 
-#### Demo Links
 
-* [Column Grouping Demo](http://demo.realgrid.net/Demo/ColumnGrouping) 

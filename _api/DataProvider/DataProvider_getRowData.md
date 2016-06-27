@@ -11,9 +11,9 @@ deprecated: true
 
 #### Description
 
- 지정한 데이터행의 값들을 JSON 객체로 가져온다.  
- deprecated 대상입니다.   
- [getJsonRow](/api/DataProvider/getJsonRow/)를 사용하세요.  
+> 지정한 데이터행의 값들을 JSON 객체로 가져온다.  
+> deprecated 대상입니다.   
+> [getJsonRow](/api/DataProvider/getJsonRow/)를 사용하세요  
 
 
 #### Syntax
@@ -31,7 +31,7 @@ deprecated: true
 > Type: object.  
 > JSON 객체로 만들어진 데이터행의 값.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     var row = provider.getRowData(19);

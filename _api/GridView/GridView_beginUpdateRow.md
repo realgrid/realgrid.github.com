@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 입력된 itemIndex에 해당하는 데이터 행을 편집상태로 변경한다.
+> 입력된 itemIndex에 해당하는 데이터 행을 편집상태로 변경한다.
 
 #### Syntax
 
@@ -28,14 +28,9 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-    gridView.beginUpdateRow(0);
+    grid.beginUpdateRow(0);
 </pre>
 
----
-
-#### Demo Links
-
-* [Updating](http://demo.realgrid.com/Demo/Updating){:target="_blank"} 참조

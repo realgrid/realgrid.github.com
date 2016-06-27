@@ -15,8 +15,8 @@ tags:
 
 #### Description
 
- 그리드에서 오른쪽 마우스를 클릭했을때 표시되는 컨텍스트 메뉴에 추가할 메뉴 항목들을 지정한다.  
- 메뉴가 클릭되면 [onContextMenuItemClicked](/api/GridBase/onContextMenuItemClicked) callback이 호출된다.  
+> 그리드에서 오른쪽 마우스를 클릭했을때 표시되는 컨텍스트 메뉴에 추가할 메뉴 항목들을 지정한다.  
+> 메뉴가 클릭되면 [onContextMenuItemClicked](/api/GridBase/onContextMenuItemClicked) callback이 호출된다.  
 
 #### Syntax
 
@@ -32,7 +32,7 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
 gridView.setContextMenu([
@@ -52,9 +52,6 @@ gridView.onContextMenuItemClicked = function (grid, label, index) {
     alert("Context menu가 클릭됐습니다: " + label.label + "n" + JSON.stringify(index));
 };
 </pre>
-
----
-
-#### API Links
-
-* [onContextMenuItemClicked](/api/GridBase/onContextMenuItemClicked)  
+    
+#### See Also
+> [onContextMenuItemClicked](/api/GridBase/onContextMenuItemClicked)  

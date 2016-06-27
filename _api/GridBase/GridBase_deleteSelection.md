@@ -13,9 +13,9 @@ tags:
 
 #### Description
 
- 현재 선택된 행들을 삭제한다.  
- grid.editOptions.deletable이 false인 경우 작동하지 않는다.  
- grid.selectOptions.style이 columns이거나 singleColumn 인경우 작동하지 않는다.
+> 현재 선택된 행들을 삭제한다.  
+> grid.editOptions.deletable이 false인 경우 작동하지 않는다.  
+> grid.selectOptions.style이 columns이거나 singleColumn 인경우 작동하지 않는다.
 
 #### Syntax
 
@@ -32,15 +32,11 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.deleteSelection(true);
+    gridView.deleteSelection(true);
 </pre>
 
----
-
-#### API Links
-
-* [setSelection](/api/GridBase/setSelection)
-* [clearSelection](/api/GridBase/clearSelection)
+#### See Also
+> [setSelection](/api/GridBase/setSelection), [clearSelection](/api/GridBase/clearSelection)

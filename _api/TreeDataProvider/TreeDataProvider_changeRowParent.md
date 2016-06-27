@@ -18,7 +18,7 @@ tags:
 
 #### Description
 
- 특정 데이터행의 위치를 지정한 행의 하위로 이동한다.  
+> 특정 데이터행의 위치를 지정한 행의 하위로 이동한다.  
 
 #### Syntax
 
@@ -42,15 +42,14 @@ tags:
 
 > none.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-//rowId가 10인 행을 rowId가 40인 행의 자식으로 이동하면서 자식들 중 첫번째에 위치하게 한다.
-treeProvider.changeRowParent(10, 40, 0);  
+	//rowId가 10인 행을 rowId가 40인 행의 자식으로 이동하면서 자식들 중 첫번째에 위치하게 한다.
+	treeProvider.changeRowParent(10, 40, 0);  
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [TreeView Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"}    
+> [TreeView Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"} 참조    

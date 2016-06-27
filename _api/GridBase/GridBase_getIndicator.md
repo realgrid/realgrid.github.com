@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 그리드 Indicator와 관련된 설정 정보들을 가져온다. [Indicator](/api/types/Indicator/)가 설정 모델이다.
+> 그리드 Indicator와 관련된 설정 정보들을 가져온다. [Indicator](/api/types/Indicator/)가 설정 모델이다.
 
 #### Syntax
 
@@ -28,7 +28,7 @@ tags:
 > Type: object  
 > [Indicator](/api/types/Indicator/) 설정 모델과 동일한 내용의 객체가 반환된다.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
 var options = gridView.getIndicator();
@@ -37,8 +37,5 @@ if (options) {
 }
 </pre>
 
----
-
-#### API Links
-
-* [setIndicator](/api/GridBase/setIndicator)
+#### See Also
+> [setIndicator](/api/GridBase/setIndicator)

@@ -7,14 +7,12 @@ order: Header
 objectname: 
 directiontype: 
 permalink: /api/types/Header/
-tags:
-  - 헤더
 ---
 
 
 #### Description
 
- 헤더 영역의 설정 모델이다. 헤더는 컬럼 및 컬럼그룹들의 헤더와 Indicator, StateBar, CheckBar 등의 Head 영역들로 구성된다.
+> 헤더 영역과 관련된 설정 모델이다. 헤더는 컬럼 및 컬럼그룹들의 헤더와 Indicator, StateBar, CheckBar 등의 Head 영역들로 구성된다.
 
 #### Properties
 
@@ -82,32 +80,3 @@ tags:
 > Type: object|string     
 > Default: null       
 > SubText의 스타일을 지정한다.  
-
-#### Examples 
-
-<pre class="prettyprint">
-var columns = [{
-    name: "col1",
-    fieldName: "field1",
-    header: {
-        text: "header",
-        subText: "해더",
-        height: 30,
-        minHeight: 23,
-        resizable: false,
-        visible: true,
-        filterable: true,
-        sortable: true,
-        subTextGap: 4,
-        subTextLocation: "lower",
-        imageList: null,
-        itemOffset: 1,
-        itemGap: true,
-        styles: null,
-        subStyles: {foreground: "#ffff0000", fontSize: 10}
-    },
-    width: 100
-}];
-
-gridView.setColumns(columns);
-</pre>

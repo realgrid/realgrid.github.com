@@ -17,7 +17,7 @@ tags:
 
 #### Description
 
- 사용자가 마우스로 RowGroup의 Foot셀을 클릭했을 때 호출된다.  
+> 사용자가 마우스로 RowGroup의 Foot셀을 클릭했을 때 호출된다.  
 
 #### Syntax
 
@@ -33,16 +33,13 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.onRowGroupFootClicked =  function (grid) {
-    console.log("onRowGroupFootClicked")
-};
+    gridView.onRowGroupFootClicked =  function (grid, index) {
+        console.log("onRowGroupFootClicked : " + "(" + index + ")")
+    };
 </pre>
 
----
-
-#### Demo Links
-
-*  [Region Events](http://demo.realgrid.com/Demo/RegionEvents)
+#### See Also
+>  [Region Events](http://demo.realgrid.com/Demo/RegionEvents)

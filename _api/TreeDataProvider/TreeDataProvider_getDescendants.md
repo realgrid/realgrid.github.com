@@ -10,7 +10,7 @@ permalink: /api/TreeDataProvider/getDescendants/
 
 #### Description
 
- 모든 자손 행들의 rowId를 가져온다.  
+> 모든 자손 행들의 rowId를 가져온다.  
 
 #### Syntax
 
@@ -27,14 +27,13 @@ permalink: /api/TreeDataProvider/getDescendants/
 > Type: Array of Number.  
 > 배열로 만들어진 Row Id들의 목록.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var rows = treeProvider.getDescendants(3);
+    var rows = treeProvider.getDescendants(3);
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"}
+> [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"} 참조   

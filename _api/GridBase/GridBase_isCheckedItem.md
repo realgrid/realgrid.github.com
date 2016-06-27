@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- [CheckBar](/api/types/CheckBar/)에 체크가 되어있으면 true를 반환한다.  
+> [CheckBar](/api/types/CheckBar/)에 체크가 되어있으면 true를 반환한다.  
 
 #### Syntax
 
@@ -29,16 +29,13 @@ tags:
 > Type: Boolean  
 > CheckBar에 체크가 되어있으면 true가 반환된다.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-if (gridView.isCheckedItem(0)) {
-    alert("체크");
-}
+    if (gridView.isCheckedItem(0)) {
+        alert("체크");
+    }
 </pre>
 
----
-
-#### API Links
-
-* [isCheckedRow](/api/GridBase/isCheckedRow)
+#### See Also
+> [isCheckedRow](/api/GridBase/isCheckedRow)

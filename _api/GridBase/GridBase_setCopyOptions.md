@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
- Copy 정보를 설정한다. [CopyOptions](/api/types/CopyOptions/)가 설정 모델이다.
+> Copy 정보를 설정한다. [CopyOptions](/api/types/CopyOptions/)가 설정 모델이다.
 
 #### Syntax
 
@@ -31,23 +31,15 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.setCopyOptions({
-    singleMode:true,
-    datetimeFormat:"yyyyMMdd"
-});
+    gridView.setCopyOptions({
+        singleMode:true,
+        datetimeFormat:"yyyyMMdd"
+    });
 </pre>
 
----
-
-#### API Links
-
-* [getCopyOptions](/api/GridBase/getCopyOptions)
-* [setPasteOptions](/api/GridBase/setPasteOptions)
-* [getPasteOptions](/api/GridBase/getPasteOptions)
-
-#### Demo Links
-
-* [Copy&amp;Paste](/http://demo.realgrid.com/Demo/CopyAndPaste)  
+#### See Also
+> [Copy&amp;Paste](/http://demo.realgrid.com/Demo/CopyAndPaste)  
+> [getCopyOptions](/api/GridBase/getCopyOptions), [setPasteOptions](/api/GridBase/setPasteOptions), [getPasteOptions](/api/GridBase/getPasteOptions), 

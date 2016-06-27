@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 그리드 itemIndex와 연결된 dataRow를 가져온다.  
+> 그리드 itemIndex와 연결된 dataRow를 가져온다.  
 
 #### Syntax
 
@@ -31,8 +31,8 @@ tags:
 > Type: array of Number  
 > 입력된 itemIndex와 연결된 dataRow이다.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var dataRows = gridView.getRowsOfItems([1,2,3,4]);
+    var dataRows = gridView.getRowsOfItems([1,2,3,4]);
 </pre>

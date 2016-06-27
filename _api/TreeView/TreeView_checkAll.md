@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 트리뷰의 모든 아이템에 체크 또는 해제한다.
+> 트리뷰의 모든 아이템에 체크 또는 해제한다.
 
 #### Syntax
 
@@ -29,14 +29,13 @@ tags:
 
 > None.  
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-treeView.checkAll(true);
+    treeView.checkAll(true);
 </pre>
 
 ---
+#### See Also
 
-#### Demo Links
-
-* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"}   
+> [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"} 참조    

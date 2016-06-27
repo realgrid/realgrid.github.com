@@ -7,14 +7,11 @@ order: DataFilterMode
 objectname: 
 directiontype: 
 permalink: /api/types/DataFilterMode/
-tags:
-  - filterMode
-  - 필터모드
 ---
 
 #### Description
 
- 필터의 동작 모드를 지정한다.
+> 필터의 동작 모드를 지정한다.
   
 #### Members
 
@@ -25,28 +22,4 @@ tags:
 > **OR**  
 > Value: "or"  
 > 여러개의 필터중 하나의 필터라도 부합하면 나온다.  
-
-#### Examples
-
-<pre class="prettyprint">
-var filters = [
-	"value['company'] = 'Mynte'",
-	"value['gender'] = 'Female'"
-];
-
-var filterMode = "and";
-
-dataProvider.setFilters(filters, filterMode);	
-
-jsonData = "../../DemoData/defaultdemodata.json";
-$.getJSON(jsonData, {}, function(data) {
-	dataProvider.setRows(data)
-});
-</pre>
-
----
-
-#### API Links
-
-* [setFilters](/api/LocalDataProvider/setFilters/)   
 

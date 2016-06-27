@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 지정한 그리드 행의 Row Id 값을 가져온다.
+> 지정한 그리드 행의 Row Id 값을 가져온다.
 
 #### Syntax
 
@@ -31,15 +31,13 @@ tags:
 > Type: Number  
 > Row ID값
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-var itemIndex = gridView.getCurrent().itemIndex;
+    var itemIndex = gridView.getCurrent().itemIndex;
 
-var rowId = gridView.getDataRow(itemIndex);
+    var rowId = gridView.getDataRow(itemIndex);
 </pre>
 
----
-
-#### API Links
-* [getItemIndex](/api/GridBase/getItemIndex)
+#### See Also
+> [getItemIndex](/api/GridBase/getItemIndex)

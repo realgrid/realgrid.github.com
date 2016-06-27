@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- [Paging](/api/features/Paging/) 개수를 변경한다.
+> [Paging](/api/features/Paging/) 개수를 변경한다.
 
 #### Syntax
 
@@ -29,14 +29,9 @@ tags:
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
     gridView.setPageCount(10);
 </pre>
 
----
-
-#### Demo Links
-
-* [Paging](http://demo.realgrid.com/Demo/PagingLazyLoading){:target="_blank"}

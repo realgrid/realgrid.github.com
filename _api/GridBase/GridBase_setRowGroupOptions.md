@@ -11,9 +11,9 @@ deprecated: true
 
 #### Description
 
- deprecated 대상.  
- [setRowGroup](/api/GridBase/setRowGroup/)을 대신 사용해야 한다.  
- 그리드 RowGroup과 관련된 정보들을 설정한다. [RowGroupOptions](/api/types/RowGroupOptions/)이 설정 모델이다.
+> deprecated 대상.  
+> [setRowGroup](/api/GridBase/setRowGroup/)을 대신 사용해야 한다.  
+> 그리드 RowGroup과 관련된 정보들을 설정한다. [RowGroupOptions](/api/types/RowGroupOptions/)이 설정 모델이다.
 
 #### Syntax
 
@@ -29,13 +29,13 @@ deprecated: true
 
 > None.
 
-#### Examples 
+#### Example
 
 <pre class="prettyprint">
-gridView.setRowGroupOptions({
-    expandedAdornments: "both",
-    collapsedAdornments: "header",
-    ...
-});
+    grid.setRowGroupOptions({
+        expandedAdornments: "both",
+        collapsedAdornments: "header",
+        ...
+    });
 </pre>
 
