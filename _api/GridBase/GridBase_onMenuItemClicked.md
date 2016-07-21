@@ -31,6 +31,10 @@ tags:
 > Type: [MenuItem](/api/types/MenuItem/)    
 > 클릭된 [MenuItem](/api/types/MenuItem/) 객체    
 
+> **index**  
+> Type: [CellIndex](/api/types/CellIndex/)    
+> 팝업 메뉴가 호출된 셀 인덱스 정보.    
+
 #### Return
 
 None.
@@ -38,7 +42,7 @@ None.
 #### Examples 
 
 <pre class="prettyprint">
-gridView.onMenuItemClicked = function (grid, data) {
+gridView.onMenuItemClicked = function (grid, data, index) {
     var s = data.label + (data.checked ? " checked" : "");
     if (data.tag)
         s += "n" + "tag: " + data.tag;

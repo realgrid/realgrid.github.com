@@ -90,6 +90,11 @@ tags:
 > Default: null    
 > 표시할 툴팁 메시지를 지정한다.  
 
+> **fixedHeight**  
+> Type: Number      
+> Default: 0    
+> 컬럼 헤더의 높이를 지정한다.  [Header](/api/types/Header/).heightFill 속성이 "fixed" 인 경우 사용 가능하다.  
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -105,7 +110,6 @@ var columns = [{
         "text": "Country",
         "imageLocation": "left",
         "imageUrl": "/img/common/realgridsmall.png"
-
     }
 }, {
     "name": "OrderID",    
@@ -153,9 +157,11 @@ gridView.setColumns(columns);
 
 * [SubTextLocation](/api/types/subTextLocation)   
 * [ColumnHeaderItemLocation](/api/types/ColumnHeaderItemLocation) 
+* [Header](/api/types/Header/)  
 
 #### Demo Links 
 
-* [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 
-* [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage)
-* [Column HeaderSubText](http://demo.realgrid.net/Demo/HeaderSubText)
+* [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox)   
+* [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage)  
+* [Column HeaderSubText](http://demo.realgrid.net/Demo/HeaderSubText)  
+* [Column HeaderHeight](http://demo.realgrid.net/Demo/HeaderHeight)  

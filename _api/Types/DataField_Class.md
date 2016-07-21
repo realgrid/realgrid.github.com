@@ -96,7 +96,12 @@ tags:
 
 > **calculateCallback**   
 > Type: function   
-> Calculate Field로 사용할 경우 사용될 수식을 지정한다. 해당 필드에서 계산될 Function 을 지정한다.    
+> Calculate Field로 사용할 경우 사용될 수식을 지정한다. 해당 필드에서 계산될 Function 을 지정한다.  
+
+> **comparer**   
+> Type: function   
+> 값 비교시 사용될 Function 을 지정한다.    
+
 
 #### Examples   
 
@@ -105,7 +110,29 @@ fields = [{
     "fieldName": "OrderID",
     "dataType": "number"
 }, {
-    "fieldName": "CustomerID"
+    "fieldName": "CustomerID",
+    //텍스트 필드의 숫자들을 소팅시 숫자처럼 적용되게 처리.
+    "comparer" : function(field, row1, row2) {
+        var val1 = dataProvider.getValue(row1,field);
+        var val2 = dataProvider.getValue(row2,field);
+        if (val1 === undefined || val1 === null) {
+            return (val2 === undefined || val2 === null) ? 0 : -1;
+        }
+        if (val2 === undefined || val2 === null) {
+            return 1;
+        }
+        try {
+            var num1 = +val1;
+            var num2 = +val2;
+            if (isNaN(num1) || isNaN(num2)) {
+                throw "error";
+            }
+            return num1 > num2 ? 1 : (num1 == num2 ? 0 : -1 );
+        }
+        catch (err) {
+            return val1 > val2 ? 1 : (val1 == val2 ? 0 : -1 );
+        }
+    }
 }, {
     "fieldName": "EmployeeID"
 }, {

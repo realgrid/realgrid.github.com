@@ -11,7 +11,7 @@ tags:
   - dataProvider
   - setOptions
   - Options
-  - 데이터프로바이더옵
+  - 데이터프로바이더옵션  
 ---
 
 #### Description
@@ -94,6 +94,11 @@ tags:
 > undefined, null, 빈문자열을 다른 값으로 인식할지의 여부를 지정한다.  
 > [restoreUpdatedStates()](/api/DataProvider/restoreUpdatedStates/)와 관계가 있다.  
 > true일때 undefined -> "값변경" -> "" 으로 변경시 rowState가 복원되지 않는다.   
+
+> **commitBeforeDataEdit**  
+> Type: boolean  
+> Default: false  
+> true인 경우 그리드가 편집중일때 grid.setValue, dataProvider.setValue를 하는 경우 편집 중인 행을 commit시킨다.    
 
 #### Examples   
 

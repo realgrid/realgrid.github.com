@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function onRowAdding (provider, rowId, index)
+> function onRowAdding (provider, rowId, index, values)
 
 #### Arguments
 
@@ -33,6 +33,10 @@ tags:
 > Type: Number  
 > 부모 행의 자식들 중 삽입된 행의 위치(순서)  
 
+> **values**  
+> Type: Array of String    
+> 추가된 행의 데이터들.    
+
 #### Return
 
 > callback 함수에서 명시적으로 false를 리턴하면 행이 삽입되지 않는다.  
@@ -40,8 +44,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-treeProvider.onRowAdding = function (provider, rowId, index) {
-    console.log("onRowAdding:" + rowId + ", " + index);
+treeProvider.onRowAdding = function (provider, rowId, index, values) {
+    console.log("onRowAdding:" + rowId + ", " + index + ", " + JSON.stringify(values));
    	return true;
 };
 </pre>

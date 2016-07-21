@@ -24,6 +24,11 @@ tags:
 > Default: 0   
 > 고정 컬럼의 개수를 최상위 컬럼 단위로 지정한다. 고정 컬럼은 그리드의 왼쪽에 지정된다. 
 
+> **rightColCount**           
+> Type: number  
+> Default: 0   
+> 고정 컬럼의 개수를 최상위 컬럼 단위로 지정한다. 고정 컬럼은 그리드의 오른쪽에 지정된다. 
+
 > **rowCount**           
 > Type: number  
 > Default: 0    

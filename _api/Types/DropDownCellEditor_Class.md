@@ -85,6 +85,16 @@ tags:
 > Default: 'button'  
 > 리스트가 펼쳐질 기준을 지정합니다. 'button'이면 드롭다운 버튼의 오른쪽에, 'editor'이면 왼쪽에 맞춥니다.  
 
+> **partialMatch**   
+> Type: boolean  
+> Default: false  
+> true 인 경우 한글 초성만 입력해도 해당하는 라벨 위치로 바로 이동합니다.     
+
+> **dropDownWhenClick**   
+> Type: boolean  
+> Default: false  
+> true 인 경우 버튼이 아닌 셀 자체를 클릭해도 DropDownEditor가 펼쳐진다.     
+
 #### Examples 
 
 <pre class="prettyprint">
@@ -99,7 +109,8 @@ gridView.setColumns([{
     "editor": {
         "type": "dropDown",
         "dropDownCount": 4,
-        "dropDownPosition": "button"
+        "dropDownPosition": "button",
+        "partialMatch": "true"
     },
     "styles": {
         "textAlignment": "center"

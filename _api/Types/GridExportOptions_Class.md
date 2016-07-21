@@ -122,6 +122,37 @@ tags:
 > Default: false  
 > excel 2007 호환 여부를 지정한다.  
 
+> **showLevelOutLine**  
+> Type: boolean      
+> Default: true  
+> row grouping 된 자료를 export시 엑셀 왼쪽에 위치한 그룹간 묶음선 표시여부를 지정한다.
+
+> **documentTitle**  
+> Type: number    
+> Default: 0  
+> export를 시작할 행을 지정한다.    
+
+> **start**  
+> Type: number    
+> Default: 0  
+> export를 시작할 행을 지정한다.    
+
+> **count**  
+> Type: number  
+> Default: -1  
+> export할 행 수를 지정한다. -1을 지정하면 모든 행이 export된다.    
+
+> **showProgress**  
+> Type: boolean  
+> Default: false  
+> Export시 프로그래스 바 표시 여부를 지정한다.     
+
+> **progressMessage**  
+> Type: string  
+> Default: "Exporting..."  
+> Export시 프로그래스 바에 표시될 메시지를 지정한다.    
+
+
 ### Example  
 
 <pre class="prettyprint">

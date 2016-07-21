@@ -81,7 +81,7 @@ var columns = [{
     "footer": {
         "styles": { 
             "textAlignment": "far",
-            "numberFormat": "0,000",
+            "numberFormat": "#,##0",
             "suffix": " $",
             "font": "Arial,12"
             },

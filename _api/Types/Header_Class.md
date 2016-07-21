@@ -83,31 +83,28 @@ tags:
 > Default: null       
 > SubText의 스타일을 지정한다.  
 
+> **showTooltip**  
+> Type: boolean     
+> Default: false       
+> 툴팁 표시 여부를 지정한다.    
+
+> **heightFill**  
+> Type: [HeaderHeightFill](/api/types/HeaderHeightFill/)       
+> Default: HeaderHeightFill.Default       
+> 헤더의 높이를 지정한다.   
+
+> **summary**  
+> Type: boolean     
+> Default: false       
+> summary 표시 여부를 지정한다.       
+
 #### Examples 
 
 <pre class="prettyprint">
-var columns = [{
-    name: "col1",
-    fieldName: "field1",
-    header: {
-        text: "header",
-        subText: "해더",
-        height: 30,
-        minHeight: 23,
-        resizable: false,
-        visible: true,
-        filterable: true,
-        sortable: true,
-        subTextGap: 4,
-        subTextLocation: "lower",
-        imageList: null,
-        itemOffset: 1,
-        itemGap: true,
-        styles: null,
-        subStyles: {foreground: "#ffff0000", fontSize: 10}
-    },
-    width: 100
-}];
-
-gridView.setColumns(columns);
+    gridView.setHeader({
+        height: 200,
+        heightFill: "fixed",
+        showTooltip: true
+    })
 </pre>
+
