@@ -57,11 +57,13 @@ gridView.setColumns([
 gridView.setLookups([
     { id:"field1Data",
       levels:1,
+      ordered: true,
       keys:["data1","data2","data3"],
       values:["데이타1","데이타2","데이타3",],
     },
     { id:"field2Data",
       levels:2,
+      ordered: true,
       keys: [
         ["data1","data1_code1"],
         ["data1","data1_code2"],
