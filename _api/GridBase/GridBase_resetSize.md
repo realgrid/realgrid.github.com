@@ -23,11 +23,13 @@ tags:
 
 #### Syntax
 
-> function resetSize()
+> function resetSize(callback)
 
 #### Parameters
 
-> None
+> **callback**  
+> Type: function()    
+> 그리드 크기가 재설정된(그리기가 완료된 후) 이후 실행할 함수를 지정한다.  
 
 #### Return value
 
@@ -36,6 +38,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-gridView.resetSize();    
+gridView.resetSize(function(){"다시 그리기가 완료되었습니다."};    
 </pre>
 
