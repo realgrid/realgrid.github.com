@@ -46,6 +46,11 @@ tags:
 > 달력 팝업에 표시되는 요일의 표시형태를 지정한다.   
 > ex) ['SUN', 'MON', 'TUE', 'WED'....]   
 
+> **viewGridInside**  
+> Type: Boolean     
+> Default: false   
+> editor element가 그리드 element내부에 생성되어 브라우저가 스크롤 되는 경우 함께 스크롤 된다.        
+
 > **useCssStyle**  
 > Type: Boolean     
 > Default: false   
@@ -248,7 +253,7 @@ gridView.setEditorOptions({
     .rg-dropdown-item:hover {
         background:#88ff88;
     }
-    
+
     .rg-popup-menu {
         background : rgb(233, 233, 233);
         border : 1px solid rgb(200, 200, 200);
