@@ -34,7 +34,21 @@ tags:
 > **styles**  
 > Type: Object   
 > Default: null  
-> 토스트의 스타일을 지정한다.  
+> ToastView의 스타일을 지정한다.   
+>   
+> ToastView에서 사용하는 VisualStyles의 속성은 다음과 같습니다.   
+> background  
+> foreground  
+> border  
+> figureBackground : css box-Shadow 색상  
+> fontFamily  
+> fontItalic  
+> fontBold  
+> fontUnderline  
+> paddingLeft  
+> paddingRight  
+> paddingTop  
+> paddingBottom  
 
 #### Examples
 
