@@ -152,6 +152,10 @@ tags:
 > Default: "Exporting..."  
 > Export시 프로그래스 바에 표시될 메시지를 지정한다.    
 
+> **applyDynamicStyles**  
+> Type: boolean  
+> Default: false  
+> DynamicStyles을 적용하여 Export할 것인지를 지정한다.     
 
 ### Example  
 

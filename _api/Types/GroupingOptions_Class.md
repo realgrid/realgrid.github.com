@@ -43,6 +43,11 @@ tags:
 > Type: [ToastOptions](/api/types/ToastOptions)  
 > 대량 데이터셋의 정렬/필터링/그룹핑시 화면이 멈춰있는 상태일때 진행중임을 알려주는 Toast View 표시여부와 메세지를 지정한다.
 
+> **removeIncludeLower**  
+> Type: boolean  
+> Default: false  
+> 그룹핑을 해제하는 경우 하위 그룹까지 같이 해제할 것인지를 지정한다.    
+
 #### Examples 
 
 <pre class="prettyprint">
