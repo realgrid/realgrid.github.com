@@ -2,7 +2,6 @@
 layout: tutopost
 title: 호환성보기가 설정된 브라우져에서 리얼그리드 표시 문제  
 date:   2016-08-26 11:13:31 +9:00 GMT
-permalink: /tip/CompatibilityView/
 categories: Tutorial
 course:
   - Tip
@@ -12,7 +11,7 @@ tags:
   - 호환성 보기
   - Compatibility View
 ---
-
+   
 ### 해결 방법
 
 호환성 보기가 설정된 Internet Explorer 브라우져에서는 리얼그리드가 표시되지 않을 수 있습니다.   
