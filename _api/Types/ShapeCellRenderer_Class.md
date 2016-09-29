@@ -21,6 +21,9 @@ Shape는 컬럼 스타일의 figureSize 설정으로 크기를 자유롭게 지�
 
 #### Properties
 
-> None.  
+> **showTooltip**  
+> Type: boolean  
+> Default: false  
+> 셀 데이터 값을 툴팁으로 표시해준다.   
 
 

@@ -50,6 +50,11 @@ tags:
 > paddingTop  
 > paddingBottom  
 
+> **zIndex**   
+> Type: number  
+> Default: 3000 
+> 표시되는 토스트 창의 zIndex를 지정한다.   
+
 #### Examples
 
 <pre class="prettyprint">

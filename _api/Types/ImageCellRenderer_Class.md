@@ -22,7 +22,12 @@ tags:
 > **smoothing**  
 > Type: boolean  
 > Default: false  
-> true이면 실제 이미지보다 크게 그릴 때 보정하여 그린다. 느리지만 보다 품질 좋은 렌더링을 하게된다.
+> true이면 실제 이미지보다 크게 그릴 때 보정하여 그린다. 느리지만 보다 품질 좋은 렌더링을 하게된다.  
+
+> **showTooltip**  
+> Type: boolean  
+> Default: false  
+> 셀 데이터 값을 툴팁으로 표시해준다.   
 
 #### Examples 
 

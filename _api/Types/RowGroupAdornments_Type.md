@@ -34,6 +34,10 @@ tags:
 > Value: "footer"   
 > 그룹 Footer만 표시한다.              
 
+> **SUMMARY**   
+> Value: "summary"   
+> summary의 내용에 헤더의 위치에 표시된다. expandedAdornments 상태에서만 적용된다.         
+
 > **NONE**   
 > Value: "none"   
 > 아무것도 표시하지 않는다. expandedAdornments 상태에서만 적용된다.             
@@ -42,4 +46,5 @@ tags:
 
 #### Demo Links
 
+* [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"}
 * [MergedRowGrouping](http://demo.realgrid.com/Demo/RowGroupMerging){:target="_blank"}

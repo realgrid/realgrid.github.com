@@ -72,9 +72,27 @@ tags:
 > 데이터필드에 지정된 booleanFormat이나 기본 형식 이 외에, boolean 필드의 값으로 변환할 때 사용할 변환 형식을 지정한다
 
 > **numberChars**  
-> Type:  
+> Type: Array of String   
 > Default: null  
 > number 필드 값으로 변환할 때 에러로 판단하지 않고 무시해도 되는 하나 이상의 문자열들을 지정한다. 즉, 여기에 지정한 문자열들을 모두 빈 문자열로 치환한 후 숫자로 변환한다.
+
+> **numberCharsOfCols**  
+> Type: Object  
+> Default: null  
+> 컬럼별로 number 필드 값으로 변환할 때 에러로 판단하지 않고 무시해도 되는 하나 이상의 문자열들을 지정한다.  
+> ex) numberCharsOfCols: {"column1":[",","kr"], "column2": [" ","€"]}  
+
+> **numberSeparator**  
+> Type: String    
+> Default: null  
+> number 필드 값으로 변환할 때 소수점으로 표시되는 문자를 지정한다.
+> ex) numberSeparator: "." 
+
+> **numberSeparatorOfCols**  
+> Type: Object  
+> Default: null  
+> 컬럼별로 number 필드 값으로 변환할 때 소수점으로 표시되는 문자를 지정한다.    
+> ex) numberSeparatorOfCols: {"column1": ".", "column2": ","}   
 
 > **selectionBase**  
 > Type: boolean  
@@ -90,7 +108,7 @@ tags:
 > **noEditEvent**  
 > Type: boolean  
 > Default: true  
-> true면 onEditRowChanged가 발생하지 않는다. onEditRowPasted는 지정여부와 상관없이 항상 발생한다.  
+> true면 onEditRowChanged, onCellEdited가 발생하지 않는다. onEditRowPasted는 지정여부와 상관없이 항상 발생한다.  
 
 > **checkReadOnly**  
 > Type: boolean  
@@ -101,6 +119,11 @@ tags:
 > Type: boolean  
 > Default: false  
 > 여러 행 붙여넣기시 그 행만큼 onEditRowPasted 이벤트의 발생 여부를 지정한다.  
+
+> **checkDomainOnly**  
+> Type: boolean  
+> Default: false  
+> true이면 DropDown Editor의 domainOnly가 true인 컬럼에 붙여넣기 할때 values에 없는 값은 붙여넣기 되지 않는다.    
 
 #### Examples
 

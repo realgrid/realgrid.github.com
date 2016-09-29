@@ -19,7 +19,11 @@ tags:
 
 #### Properties
 
-> None.
+> **showTooltip**  
+> Type: Boolean   
+> Default: false     
+> 셀 데이터 값을 툴팁으로 표시해준다. 
+
 
 ---
 

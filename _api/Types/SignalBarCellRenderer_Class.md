@@ -25,6 +25,11 @@ tags:
 > Default: 4  
 > 바의 개수를 지정한다.
 
+> **showTooltip**  
+> Type: boolean  
+> Default: false  
+> 셀 데이터 값을 툴팁으로 표시해준다.   
+
 ---
 
 #### Demo Links

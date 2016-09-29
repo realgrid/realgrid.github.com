@@ -74,6 +74,10 @@ tags:
 > popup 메뉴에 CSS Style을 적용할 것인지의 여부를 지정한다.       
 > useCssStyle, useCssStylePopupMenu 둘 중 하나라도 true이면 사용으로 설정된다.  
 
+> **applyCellFont**  
+> Type: Boolean     
+> Default: false   
+> Cell Editor에 해당 컬럼의 font 및 fontSize 적용여부를 지정한다.         
 
 
 #### Examples   

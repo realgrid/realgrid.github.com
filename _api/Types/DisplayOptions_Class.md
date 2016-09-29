@@ -141,6 +141,11 @@ tags:
 > Default: 0 
 > onCurrentRowChanged()를 지연시켜 발생시키길 원할때 지정한다. 단위는 밀리초(ms)이다.     
 
+> **toastZIndex**   
+> Type: number  
+> Default: 3000 
+> 표시되는 토스트 창의 zIndex를 지정한다.   
+
 #### Examples   
 
 <pre class="prettyprint">
