@@ -19,6 +19,11 @@ tags:
 
 #### Properties
 
+> **enabled**  
+> Type: Boolean  
+> Default: true  
+> false이면 복사가 되지 않는다.    
+
 > **singleMode**  
 > Type: Boolean  
 > Default: false  
