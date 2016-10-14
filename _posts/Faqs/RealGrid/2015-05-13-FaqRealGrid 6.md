@@ -21,6 +21,6 @@ excel or csv 파일 불러오기가 안됩니다.
 
 # A.
 
-그리드가 읽어들이는 encoding type은 UTF-8입니다. 엑셀에서 csv로 저장하였을 경우 해당 csv파일은 anci로 encoding되어 있습니다.  
+그리드가 읽어들이는 encoding type은 UTF-8입니다. 엑셀에서 csv로 저장하였을 경우 해당 csv파일은 ansi로 encoding되어 있습니다.  
 때문에 엑셀에서 csv로 저장한 파일을 바로 데이타로 사용하였을 경우 데이타 이상현상이 나타나게 됩니다.
 
