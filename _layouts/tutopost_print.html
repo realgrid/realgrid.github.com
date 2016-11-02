@@ -1,0 +1,23 @@
+---
+layout: print
+---
+<div class="post col-md-12">
+
+  <header class="post-header">
+    <h2 class="post-title">{{ page.title }}</h2>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <div class="post-tags">
+    <p><span class="octicon octicon-tag"></span>
+      {% for tag in page.tags %}
+        <span class="label label-default">{{ tag }}&nbsp;</span>
+      {% endfor %}
+    </p>
+  </div>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
