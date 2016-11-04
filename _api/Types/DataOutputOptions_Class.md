@@ -1,12 +1,12 @@
 ---
 layout: apipost
-title: DataOuptputOptions
+title: DataOutputOptions
 part: Types
 typename: Classes
 order: DataOuptputOptions
 objectname: 
 directiontype: 
-permalink: /api/types/DataOuptputOptions/
+permalink: /api/types/DataOutputOptions/
 jsonly: true
 tags:
   - datetimeFormat
