@@ -3,7 +3,7 @@ layout: apipost
 title: DataOutputOptions
 part: Types
 typename: Classes
-order: DataOuptputOptions
+order: DataOutputOptions
 objectname: 
 directiontype: 
 permalink: /api/types/DataOutputOptions/

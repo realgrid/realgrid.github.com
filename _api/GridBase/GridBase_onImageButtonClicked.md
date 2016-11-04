@@ -21,7 +21,7 @@ tags:
 
 #### Syntax
 
-> function onImageButtonClicked (grid, itemIndex, column)  
+> function onImageButtonClicked (grid, itemIndex, column, buttonIndex, name)  
 
 #### Arguments
 
