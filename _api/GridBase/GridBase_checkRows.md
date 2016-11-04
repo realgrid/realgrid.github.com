@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function checkRows(dataRows, checked)  
+> function checkRows(dataRows, checked, checkEvent)  
 
 #### Parameters
 
@@ -28,6 +28,12 @@ tags:
 > **checked**  
 > Type: Boolean  
 > true를 입력하면 dataRows와 연결된 Item을 체크한다.  
+
+> **checkEvent**  
+> Type: Boolean  
+> Default: true  
+> onItemChecked()의 발생 여부를 지정한다.  
+> ver 1.1.20부터 지원된다.   
 
 #### Return value
 

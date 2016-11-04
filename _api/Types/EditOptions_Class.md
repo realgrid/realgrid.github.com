@@ -212,6 +212,16 @@ tags:
 > Default: true   
 >      
 
+> **maxLengthToNextCell**                 
+> Type: Boolean  
+> Default: false
+> column.editor.maxLength에 지정한 자리수 만큼 입력되면 다음 셀로 이동된다.      
+> editFormat이 있는 경우 보여지는 글자를 기준으로 maxLength가 체크된다. (numberEditor, dateEditor)  
+> multiLine의 경우 \n과 같이 제어문자도 글자수에 포함된다.  
+> editOptions.skipReadOnly가 true인경우 readOnly인 셀은 건너뛴다.  
+> ver 1.1.20부터 지원된다.
+
+
 #### Examples   
 
 <pre class="prettyprint">

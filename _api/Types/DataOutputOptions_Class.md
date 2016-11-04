@@ -48,12 +48,40 @@ tags:
 > Default: ""  
 > DateTime 필드의 값이 null 일때 표현되는 값을 지정한다. 
 
+> **nullText**  
+> Type: String  
+> Default: ""  
+> text 필드의 값이 null 일때 표현되는 값을 지정한다. 
+> ver 1.1.20부터 지원된다.
+
+> **nanText**  
+> Type: String  
+> Default: ""  
+> number 필드의 값이 null 일때 표현되는 값을 지정한다. 
+> ver 1.1.20부터 지원된다.
+
+> **numberFormat**  
+> Type: String  
+> Default: ""  
+> number 필드의 값에 형식을 지정할때 사용한다. 
+> ex) "#,##0.###" 
+> ver 1.1.20부터 지원된다.
+
+> **numberCallback**  
+> Type: function (index, column, value)  
+> Default: undefined  
+> number 필드 변환시 수행될 콜백함수를 지정한다. 원하는 형태로 지정 가능하다. 
+> ver 1.1.20부터 지원된다.
+
 #### Examples   
 
 <pre class="prettyprint">
 var options = {
 	datetimeFormat: "yyyy-MM-dd",
-	booleanFormat: "거짓;참"
+	booleanFormat: "거짓;참",
+	numberCallback: function (index, column, value) {
+	    return value / 2;
+	}
 };
 
 dataProvider.getOutputRows(options, 0, 10);	

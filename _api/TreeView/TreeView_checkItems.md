@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function checkItems(items, checked)  
+> function checkItems(items, checked, checkEvent)  
 
 #### Parameters
 
@@ -29,6 +29,12 @@ tags:
 > Type: Boolean  
 > Default: true  
 > true로 입력하면 입력된 items배열에 포함되는 아이템들을 체크하거나 해제한다.  
+
+> **checkEvent**  
+> Type: Boolean  
+> Default: true  
+> onItemsChecked()의 발생 여부를 지정한다.  
+> ver 1.1.20부터 지원된다.     
 
 
 #### Return value
