@@ -77,7 +77,7 @@ tags:
 > **applyCellFont**  
 > Type: Boolean     
 > Default: false   
-> Cell Editor에 해당 컬럼의 font 및 fontSize 적용여부를 지정한다.         
+> Cell Editor에 해당 컬럼의 font 및 fontSize 적용여부를 지정한다.       
 
 
 #### Examples   

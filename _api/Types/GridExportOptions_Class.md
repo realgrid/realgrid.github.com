@@ -75,13 +75,15 @@ tags:
 
 > **confirmMessage**  
 > Type: string  
-> Default: "Excel 문서로 저장하시겠습니까?"
+> Default: "Excel 문서로 저장하시겠습니까?"  
 > 메세지 상자에 표시될 문자열을 입력한다.  
+> RealGridPlus(flash) 버전에서만 지원한다.  
 
 > **confirmTitle**  
 > Type: string  
-> Default: "Excel 저장"
+> Default: "Excel 저장"  
 > 메세지 상자에 표시될 Title을 입력한다.  
+> RealGridPlus(flash) 버전에서만 지원한다.  
 
 > **lookupDisplay**  
 > Type: boolean  

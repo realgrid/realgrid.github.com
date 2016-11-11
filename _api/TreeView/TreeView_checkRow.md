@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function checkRow(rowId, checked, exclusive)  
+> function checkRow(rowId, checked, exclusive, checkEvent)  
 
 #### Parameters
 
@@ -34,6 +34,12 @@ tags:
 > Type: Boolean  
 > Default: false  
 > true로 입력하면 체크된 다른 아이템이 있는 경우 체크를 해제하고 입력된 rowId만 체크한다.  
+
+> **checkEvent**  
+> Type: Boolean  
+> Default: true  
+> onItemChecked()의 발생 여부를 지정한다.  
+> ver 1.1.20부터 지원된다.   
 
 #### Return value
 

@@ -16,7 +16,7 @@ tags:
 
 #### Syntax
 
-> function checkAll(checked, visibleOnly, checkableOnly)  
+> function checkAll(checked, visibleOnly, checkableOnly, checkEvent)  
 
 #### Parameters
 
@@ -33,6 +33,12 @@ tags:
 > Type: Boolean  
 > Default: false  
 > 체크가능한 행만 체크할 것인지의 여부    
+
+> **checkEvent**  
+> Type: Boolean  
+> Default: true  
+> onItemAllChecked()의 발생 여부를 지정한다.  
+> ver 1.1.20부터 지원된다.     
 
 #### Return value
 

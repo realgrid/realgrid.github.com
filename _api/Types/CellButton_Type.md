@@ -34,6 +34,11 @@ tags:
 > 사용자가 마우스 클릭 시 팝업 메뉴가 실행되는 버튼을 표시한다.     
 > 컬럼에 popupMenu 속성 값이 정의 되어야 하고 [DataColumn](/api/types/DataColumn) 이 popupMenu 값과 [addPopupMenu](/api/GridBase/addPopupMenu) 호출시 name 값과 일치 해야 한다. 팝업 메뉴의 메뉴 항목 클릭시 [onMenuItemClicked](/api/GridBase/onMenuItemClicked) Callback 함수가 호출된다.    
 
+> **IMAGE**  
+> Value: "image"  
+> 사용자가 마우스 클릭할 수 있는 버튼을 표시한다.    
+> 버튼 클릭시 [onImageButtonClicked](/api/GridBase/onImageButtonClicked) Callback 함수가 호출된다.  
+> RealGridJS ver 1.1.20부터 지원된다.  
 
 #### Examples   
 
@@ -65,6 +70,24 @@ var columns = [{
     "header": {
         "text": "Customer ID"
     }
+}, {
+    "fieldName": "EmployeeID",
+    "button" : "image",
+    "imageButtons": {
+        "width": 16,  // 없으면 기본값
+        "height": 13,  // 없으면 기본값
+        "images": [{
+            "name": "button1",
+            "up": "assets/calendar_up.png",
+            "hover": "assets/calendar_hover.png",
+            "down": "assets/calendar_down.png"
+        }, {
+            "name": "button2",
+            "up": "assets/ellipsis_up.png",
+            "hover": "assets/ellipsis_hover.png",
+            "down": "assets/ellipsis_down.png"
+        }]
+    }    
 }]
 gridView.setColumns(columns);
 </pre>

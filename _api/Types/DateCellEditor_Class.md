@@ -66,6 +66,11 @@ RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년,
 > 각 요일에 대한 표시 방법을 지정한다.    
 > ex> ["sun", "mon", "tue", "wed", "thr", "fri", "sat"]  
 
+> **maxLength**  
+> Type: Number  
+> Default:  
+> 사용자가 입력할 수 있는 문자의 최대 개수. 
+
 #### Examples   
 
 <pre class="prettyprint">

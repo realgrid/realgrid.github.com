@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function checkRows(rowIds, checked)  
+> function checkRows(rowIds, checked, checkEvent)  
 
 #### Parameters
 
@@ -29,6 +29,12 @@ tags:
 > Type: Boolean  
 > Default: true  
 > true로 입력하면 rowIds로 입력한 데이터행을 모두체크한다. false로 입력하면 모두 해제한다.  
+
+> **checkEvent**  
+> Type: Boolean  
+> Default: true  
+> onItemChecked()의 발생 여부를 지정한다.  
+> ver 1.1.20부터 지원된다.   
 
 #### Return value
 

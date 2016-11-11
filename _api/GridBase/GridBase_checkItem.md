@@ -16,7 +16,7 @@ tags:
 
 #### Syntax
 
-> function checkItem(itemIndex, checked, exclusive)  
+> function checkItem(itemIndex, checked, exclusive, checkEvent)  
 
 #### Parameters
 
@@ -32,7 +32,14 @@ tags:
 > **exclusive**  
 > Type: Boolean  
 > Default: false  
-> true로 입력하면 체크된 다른아이템이 있는 경우 모두 해제하고 itemIndex로 입력된 아이템만 체크한다.  
+> true로 입력하면 체크된 다른아이템이 있는 경우 모두 해제하고 itemIndex로 입력된 아이템만 체크한다. 
+
+> **checkEvent**  
+> Type: Boolean  
+> Default: true  
+> onItemChecked()의 발생 여부를 지정한다.  
+> ver 1.1.20부터 지원된다.     
+
 
 #### Return value
 

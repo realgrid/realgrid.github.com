@@ -213,6 +213,19 @@ function setColumns(grid) {
 > Default: false  
 > true이면 정수만 입력할수 있다.  
 
+> **textAlignment**  
+> Type: [Alignment](/api/types/Alignment/)
+> Default: Alignment.NEAR  
+> 입력이 시작되는 위치를 지정한다. far로 지정하면 오른쪽 끝에서 부터 입력이 시작된다.  
+> ver 1.1.20부터 지원된다.  
+
+> **editFormat**  
+> Type: numberFormat
+> Default: null  
+> 입력되는 숫자의 포맷을 지정한다. "#,##0.##" 을 지정하면 "1,234,567.89" 와 같이 천단위 구분기호 , 를 표시하면서 소수점은 2자리까지만 입력받는다.    
+> ver 1.1.20부터 지원된다.  
+
+
 #### Examples 
 
 <pre class="prettyprint">
