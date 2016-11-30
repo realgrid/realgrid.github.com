@@ -34,6 +34,11 @@ style이 "exclusive"일 때 Shift키와 함께 컬럼 헤더를 클릭하면 "in
 > Default: false  
 > 소트시 현재 포커스된 행을 유지할 것인지의 여부를 지정한다.  
 
+> **HandleVisibility**  
+> Type: [HandleVisibility](/api/types/HandleVisibility/)  
+> Default: HandleVisibility.VISIBLE  
+> 필터 핸들의 표시 방법을 지정한다.
+
 > **toast**  
 > Type: [ToastOptions](/api/types/ToastOptions)  
 > Default: none  
