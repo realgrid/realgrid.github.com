@@ -34,7 +34,7 @@ permalink: /api/GridBase/getGroupSummary/
 
 #### Return value
 
-> None.  
+> Summary Objects  
 
 #### Examples 
 
