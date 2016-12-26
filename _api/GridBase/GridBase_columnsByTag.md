@@ -43,7 +43,7 @@ gridView.setColumns([
 	...
 ])
 var tag= "numField";
-var columns = gridView.columnByTag(tag);
+var columns = gridView.columnsByTag(tag);
 </pre>
 
 ---

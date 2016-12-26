@@ -24,7 +24,7 @@ tags:
 #### Parameters
 
 > **options**  
-> Type: [DataOutputOptions](/api/types/DataOuptputOptions/)  
+> Type: [DataOutputOptions](/api/types/DataOutputOptions/)  
 > datetime, boolean 필드에 대해 변환 형식을 지정한다.  
 
 > **startRow**  
