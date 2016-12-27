@@ -5,6 +5,7 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/closeProgress/
+jsonly: true
 tags:
   - progress
 ---
