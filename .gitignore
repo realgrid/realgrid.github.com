@@ -9,3 +9,5 @@ _site
 .jekyll-metadata
 
 *.plist
+
+.jekyll-metadata

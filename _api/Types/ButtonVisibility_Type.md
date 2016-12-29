@@ -37,6 +37,10 @@ tags:
 > Value: "hidden"  
 > 버튼을 표시하지 않는다.     
 
+> **ROWFOCUSED**   
+> Value: "rowfocused"   
+> 행이 선택되면 버튼을 표시한다.   
+
 #### Examples   
 
 <pre class="prettyprint">

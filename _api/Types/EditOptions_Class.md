@@ -219,7 +219,14 @@ tags:
 > editFormat이 있는 경우 보여지는 글자를 기준으로 maxLength가 체크된다. (numberEditor, dateEditor)  
 > multiLine의 경우 \n과 같이 제어문자도 글자수에 포함된다.  
 > editOptions.skipReadOnly가 true인경우 readOnly인 셀은 건너뛴다.  
-> ver 1.1.20부터 지원된다.
+> JS ver 1.1.20부터 지원된다.  
+
+> **displayEmptyEditRow**                 
+> Type: Boolean  
+> Default: false
+> 그리드의 마지막에 항상 빈 행이 추가된다.  
+> 해당 빈 행에 데이터가 입력되고 행 commit()이 발생하면 다시 빈 행이 추가된다.          
+> JS ver 1.1.21부터 지원된다.  
 
 
 #### Examples   

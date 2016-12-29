@@ -44,6 +44,13 @@ tags:
 > Default: null     
 > 머지시켜 보여줄 풋터 셀들을 나열한다. 첫번째 지정된 컬럼이 기준 컬럼이다. 
 > ex> 아래 example에서 "Col2" 컬럼이 다른 자리로 이동되면 "Col1", "Col2"이 머지된다.
+> RealGridJS 1.1.16 부터 지원 한다.
+
+> **count**  
+> Type: number   
+> Default: 1     
+> 지정한 수 만큼 footer가 생깁니다.  
+> RealGridJS 1.1.21 부터 지원 한다.  
 
 ### Example  
 

@@ -80,11 +80,13 @@ tags:
 > Type: Boolean  
 > Default: true  
 > false이면 횡 스크롤이 끝날때 표시되고 true이면 횡 스크롤 되는 중에도 표시된다.  
+> RealGridJS만 지원  
 
 > **horzScrollStep**  
 > Type: Number   
 > Default: 8     
 > 최소 수평 스크롤 크기를 픽셀 단위로 지정한다.       
+> RealGridJS만 지원  
 
 > **emptyMessage**   
 > Type: String  
@@ -124,47 +126,61 @@ tags:
 > RealGridJS인 경우 ver 1.1.20부터 지원된다.
 
 > **focusActiveColor**   
-> Type: String  
-> Default: NaN  
-> 포커스가 활성화 되었을때 색상을 지정한다.  
-> RealGridJS인 경우 ver 1.1.20부터 지원된다.
+> Type: String   
+> Default: NaN   
+> 포커스가 활성화 되었을때 색상을 지정한다.   
+> RealGridJS인 경우 ver 1.1.20부터 지원된다.  
 
-> **innerFocusColor**   
-> Type: String  
-> Default: NaN  
+> **innerFocusColor**    
+> Type: String   
+> Default: NaN   
 > 머지 셀의 내부 포커스 색상을 지정한다.   
-> RealGridJS만 ver 1.1.20부터 지원된다.
+> RealGridJS만 ver 1.1.20부터 지원된다.  
 
-> **focusBorderWidth**   
-> Type: String  
-> Default: NaN  
+> **focusBorderWidth**    
+> Type: String   
+> Default: NaN   
 > 포커스의 경계선 굵기를 지정한다.   
-> RealGridJS만 ver 1.1.20부터 지원된다.
+> RealGridJS만 ver 1.1.20부터 지원된다.  
 
 > **rightClickable**   
-> Type: Boolean  
-> Default: true 
+> Type: Boolean   
+> Default: true   
 > 마우스 오른쪽 버튼 사용 가능 여부를 지정한다.  
 
 > **editItemMerging**   
 > Type: Boolean   
-> Default: false   
+> Default: false    
 > Merged Row Grouping 또는 Cell Merging상태에서 셀 편집시 편집중인 행의 분리 여부를 지정한다.  
 
 > **showInnerFocus**   
-> Type: Boolean  
-> Default: true 
+> Type: Boolean   
+> Default: true   
 > Merged Cell에서 개별 cell 영역 표시 여부를 지정한다.    
+> RealGridJS만 지원
 
 > **rowChangeDelay**   
 > Type: number  
-> Default: 0 
-> onCurrentRowChanged()를 지연시켜 발생시키길 원할때 지정한다. 단위는 밀리초(ms)이다.     
+> Default: 0   
+> onCurrentRowChanged()를 지연시켜 발생시키길 원할때 지정한다. 단위는 밀리초(ms)이다.      
+> RealGridJS만 지원
 
 > **toastZIndex**   
-> Type: number  
-> Default: 3000 
-> 표시되는 토스트 창의 zIndex를 지정한다.   
+> Type: number   
+> Default: 3000  
+> 표시되는 토스트 창의 zIndex를 지정한다.    
+
+> **hintDuration**   
+> Type: number   
+> Default: 0  
+> tooltip을 지연시켜 발생시키길 원할때 지정한다. 단위는 밀리초(ms)이다.   
+> RealGridJS만 ver 1.1.21부터 지원된다.    
+
+> **eachRowResizable**   
+> Type: boolean   
+> Default: false    
+> true로 설정하면 행 높이를 개별로 조절할 수 있다.       
+> RealGridJS만 ver 1.1.21부터 지원된다.   
 
 #### Examples   
 
