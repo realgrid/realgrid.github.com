@@ -26,7 +26,7 @@ tags:
 #### Parameters
 
 > **paging**  
-> Type: number  
+> Type: Boolean  
 > true면 그리드가 페이징 모드로 데이터를 표시한다.
 
 > **pageSize**  
