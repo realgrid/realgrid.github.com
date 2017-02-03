@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: setColumn
+title: removeColumn
 part: Objects
 objectname: GridBase
 directiontype: Function
-permalink: /api/GridBase/setColumn/
+permalink: /api/GridBase/removeColumn/
 jsonly: true
 versions:
     - JS 1.1.22+
@@ -38,57 +38,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-var column = {
-    "type": "group",
-    "name": "GroupOrder",
-    "orientation": "vertical",
-    "resizable": true,
-    "movable": false,
-    "hideChildHeaders": false,
-    "width": 250,
-    "columns": [{
-        "type": "group",
-        "name": "GroupIds",
-        "columns": [{
-            "name": "OrderID",
-            "fieldName": "OrderID",
-            "type": "data",
-            "width": "90",
-            "styles": {
-                "textAlignment": "center"
-            },
-            "header": {
-                "text": "Order"
-            }
-        }]
-    }, {
-        "name": "OrderDate",
-        "fieldName": "OrderDate",
-        "width": "130",
-        "styles": {
-            "textAlignment": "center"
-        },
-        "header": {
-            "text": "Order Date"
-        }
-    }]
-};
-
-var groupColumn = gridView.addColumn(column, null);
-
-var column1 = {
-    "name": "EmployeeID",
-    "fieldName": "EmployeeID",
-    "width": "100",
-    "styles": {
-        "textAlignment": "center"
-    },
-    "header": {
-        "text": "Employee ID"
-    }
-};
-
-gridView.addColumn(column1, groupColumn, 0);
+gridView.removeColumn("EmployeeID"); //일반 컬럼 삭제
+gridView.removeColumn("OrderDate", "GroupIds"); //GroupIds 그룹 컬럼안에 있는 OrderDate 컬럼 삭제 
 </pre>
 
 ---

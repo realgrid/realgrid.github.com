@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: setColumn
+title: addColumn
 part: Objects
 objectname: GridBase
 directiontype: Function
-permalink: /api/GridBase/setColumn/
+permalink: /api/GridBase/addColumn/
 jsonly: true
 versions:
     - JS 1.1.22+
@@ -21,7 +21,7 @@ tags:
 
 #### Syntax
 
-> function setColumn(column)
+> function addColumn(column, group, index)
 
 #### Parameters
 
