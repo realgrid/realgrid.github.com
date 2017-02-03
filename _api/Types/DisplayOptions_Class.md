@@ -119,6 +119,12 @@ tags:
 > 포커스의 색상을 지정한다.  
 > RealGridJS인 경우 ver 1.1.20부터 지원된다.
 
+> **focusBackground**   
+> Type: String  
+> Default:   
+> 포커스의 배경 색상을 지정한다.  
+> RealGridJS만 ver 1.1.22부터 지원된다.
+
 > **focusActiveColor**   
 > Type: String  
 > Default: NaN  

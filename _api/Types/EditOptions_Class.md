@@ -228,6 +228,17 @@ tags:
 > 해당 빈 행에 데이터가 입력되고 행 commit()이 발생하면 다시 빈 행이 추가된다.          
 > JS ver 1.1.21부터 지원된다.  
 
+> **invalidFormatMessage**                 
+> Type: String  
+> Default: "잘못된 입력 유형입니다." 
+> mask에서 지정한 형태가 아닐때 표시할 오류 메시지를 지정한다.           
+> JS ver 1.1.22부터 지원된다.  
+
+> **showInvalidFormatMessage**                 
+> Type: Boolean  
+> Default: true
+> mask에서 지정한 형태가 아닐때 오류 메시지를 보여줄것인지를 지정한다.          
+> JS ver 1.1.22부터 지원된다.  
 
 #### Examples   
 

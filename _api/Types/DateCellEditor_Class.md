@@ -71,6 +71,12 @@ RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년,
 > Default:  
 > 사용자가 입력할 수 있는 문자의 최대 개수. 
 
+> **mask**  
+> Type: [Mask](/api/types/Mask)     
+> Default: null  
+> 입력 마스크를 지정한다.  
+> JS ver 1.1.22부터 지원된다. 
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -85,7 +91,12 @@ gridView.setColumns([{
 	    "yearDisplayFormat": "{Y} Year ",   
 	    "monthDisplayFormat": "{M} Month",  
 	    "months": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],  // ['Jan', 'Feb, 'Mar', 'Apr'....]   
-	    "weekDays": ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'] 
+	    "weekDays": ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'],
+	    "mask": {
+	      "editMask": "9999.99.99",  
+	      "includedFormat": true,
+	      "overWrite": true 
+	    }, 	    
 	},
 	"styles": {
 	    "textAlignment": "center",

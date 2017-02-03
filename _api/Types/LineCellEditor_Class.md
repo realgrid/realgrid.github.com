@@ -28,3 +28,41 @@ tags:
 > Type: String  
 > Default: [TextInputCase](/api/types/TextInputCase).DEFAULT  
 > 편집기에 입력되는 문자를 자동으로 대소문자로 변경한다. [TextInputCase](/api/types/TextInputCase)에 지정할 수 있는 값들이 선언되어 있다. [TextInputCase](/api/types/TextInputCase).DEFAULT로 지정하면 컬럼의 textInputCase에 지정한 값을 따르게 된다.  
+
+> **mask**  
+> Type: [Mask](/api/types/Mask)     
+> Default: null  
+> 입력 마스크를 지정한다.  
+> JS ver 1.1.22부터 지원된다. 
+
+#### Examples   
+
+<pre class="prettyprint">
+var columns = [{
+  fieldName: "fieldName",
+  name: "name",
+  editor {
+    type: "text",
+    mask: "9999-99-99",
+    displayRegExp..
+    displayReplace...
+  }
+}, { 
+  fieldName: "date", 
+  name: "date", 
+  editor:{
+    type: "date", 
+    mask:{
+      editMask: "9999-99-99",  
+      includedFormat: true,
+      overWrite: true 
+    }, 
+    datetimeFormat:"yyyy-MM-dd" 
+  }, 
+  styles:{
+    datetimeFormat:"yyyy-MM-dd"
+  }
+}];
+
+gridView.setColumns(columns);
+</pre>  
