@@ -261,7 +261,7 @@ gridView.setEditOptions({
 
 #### Demo Links
 
-* [Inserting](http://demo.realgrid.com/Demo/Inserting) 
-* [Updating Rows](http://demo.realgrid.com/Demo/Updating)  
-* [Delete Rows](http://demo.realgrid.com/Demo/Deleting) 
-* [Editors](http://demo.realgrid.com/Demo/Editors)
+* [Inserting](http://demo.realgrid.com/Editing/Inserting/) 
+* [Updating Rows](http://demo.realgrid.com/Editing/Updating/)  
+* [Delete Rows](http://demo.realgrid.com/Editing/Deleting/) 
+* [Editors](http://demo.realgrid.com/Editing/Editors/)

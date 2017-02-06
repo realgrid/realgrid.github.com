@@ -36,4 +36,4 @@ tags:
 
 #### Demo Links
 
-* [ExportToExcel](http://demo.realgrid.com/Demo/ExportToExcel#.example){:target="_blank"}
+* [ExportToExcel](http://demo.realgrid.com/Excels/ExcelExport/){:target="_blank"}

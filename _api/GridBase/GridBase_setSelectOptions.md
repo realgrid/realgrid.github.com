@@ -51,4 +51,4 @@ gridView.setSelectOptions({
 
 #### Demo Links
 
-* [Selecting Demo](http://demo.realgrid.com/Demo/Selecting)
+* [Selecting Demo](http://demo.realgrid.com/GridComponent/Selecting/)

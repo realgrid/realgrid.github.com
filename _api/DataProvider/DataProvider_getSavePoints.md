@@ -220,7 +220,7 @@ $("#button2").click(function(){
 
 #### Demo Links
 
-* [DataRollback](http://demo.realgrid.com/Demo/DataRollback#.example)<br/>
+* [DataRollback](http://demo.realgrid.com/DataManager/DataRollback/)<br/>
 * [SavePoint](http://help.realgrid.com/api/DataProvider/savePoint/)<br/>
 * [clearSavePoints](http://help.realgrid.com/api/DataProvider/clearSavePoints/)<br/>
 * [rollback](http://help.realgrid.com/api/DataProvider/rollback/){:target="_blank"} 참조

@@ -44,4 +44,4 @@ gridView.getSortedFields();
 
 #### Demo Links
 
-* [ColumnSorting](http://demo.realgrid.com/Demo/ColumnSorting)
+* [ColumnSorting](http://demo.realgrid.com/Columns/ColumnSorting/)

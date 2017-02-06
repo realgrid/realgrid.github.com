@@ -59,4 +59,4 @@ gridView.checkRow(0,true,false);
 
 #### Demo Links
 
-* [CheckBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+* [CheckBar Demo](http://demo.realgrid.com/GridComponent/CheckBar/)

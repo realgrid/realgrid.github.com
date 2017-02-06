@@ -224,4 +224,4 @@ $("#btnShowTooltip").click(function(){
 
 #### Demo Links
 
-* [ColumnTooltip](http://demo.realgrid.com/Demo/ColumnTooltip) 
+* [ColumnTooltip](http://demo.realgrid.com/CellComponent/Tooltip/) 

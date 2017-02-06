@@ -46,4 +46,4 @@ tags:
 
 #### Demo Links
 
-* [LookupTree](http://demo.realgrid.com/Demo/LookupTree)
+* [LookupTree](http://demo.realgrid.com/CellComponent/LookupTree/)

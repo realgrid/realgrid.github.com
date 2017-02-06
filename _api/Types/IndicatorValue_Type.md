@@ -33,4 +33,4 @@ tags:
 
 #### Demo Links
 
-* [Indicator](http://demo.realgrid.com/Demo/Indicator)
+* [Indicator](http://demo.realgrid.com/GridComponent/Indicator/)

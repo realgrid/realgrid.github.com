@@ -99,4 +99,4 @@ Shape는 컬럼 스타일의 figureSize 설정으로 크기를 자유롭게 지�
 
 #### Demo Links
 
-* [ShapeCellRenderer](http://demo.realgrid.com/Demo/ShapeCellRenderer){:target="_blank"}
+* [ShapeCellRenderer](http://demo.realgrid.com/Renderer/ShapeCellRenderer/){:target="_blank"}

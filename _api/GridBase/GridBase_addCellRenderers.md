@@ -93,4 +93,4 @@ gridView.setColumns([
 
 #### Demo Links
 
-* [RendererWithStyles](http://demo.realgrid.com/Demo/RendererWithStyles) 
+* [RendererWithStyles](http://demo.realgrid.com/Renderer/RendererwithStyles/) 

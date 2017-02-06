@@ -35,4 +35,4 @@ tags:
 
 #### Demo Links
 
-* [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation#.example)
+* [CustomColumnValidation](http://demo.realgrid.com/Validation/CustomColumnValidation/)

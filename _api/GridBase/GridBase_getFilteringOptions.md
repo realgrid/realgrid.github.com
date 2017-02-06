@@ -45,4 +45,4 @@ if (options) {
 
 #### Demo Links
 
-* [Column Filtering](http://demo.realgrid.com/Demo/ColumnFiltering)
+* [Column Filtering](http://demo.realgrid.com/Columns/ColumnFiltering/)

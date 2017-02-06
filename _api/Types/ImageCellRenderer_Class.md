@@ -55,4 +55,4 @@ gridView.setColumns(columns);
 
 #### Demo Links
 
-* [ImageCellRenderer](http://demo.realgrid.com/Demo/ImageCellRenderer){:target="_blank"}
+* [ImageCellRenderer](http://demo.realgrid.com/Renderer/ImageCellRenderer/){:target="_blank"}

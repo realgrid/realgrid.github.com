@@ -58,7 +58,7 @@ var columns = [{
 ---
 
 #### Demo Links
-* [Icon Cell Renderer](http://demo.realgrid.com/Demo/IconCellRenderer)  
+* [Icon Cell Renderer](http://demo.realgrid.com/Renderer/IconCellRenderer/)  
 
 #### API Links
 

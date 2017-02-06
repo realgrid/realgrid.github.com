@@ -85,4 +85,4 @@ grid.onMenuItemClicked = function (grid, data) {
 
 #### Demo Links
 
-* [popupMenu Demo](http://demo.realgrid.com/Demo/PopupMenu)
+* [popupMenu Demo](http://demo.realgrid.com/CellComponent/PopupMenu/)

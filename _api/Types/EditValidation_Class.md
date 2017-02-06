@@ -82,5 +82,5 @@ gridView.setValidations(validations);
 
 #### Demo Links
 
-* [Column Validation](http://demo.realgrid.com/Demo/EditColumnValidation)* [Row Validation](http://demo.realgrid.com/Demo/EditRowValidation)
+* [Column Validation](http://demo.realgrid.com/Validation/ColumnValidation/)* [Row Validation](http://demo.realgrid.com/Validation/RowValidation/)
 

@@ -30,4 +30,4 @@ tags:
 
 #### Demo Links
 
-* [ColumnSorting](http://demo.realgrid.com/Demo/ColumnSorting){:target="_blank"}
+* [ColumnSorting](http://demo.realgrid.com/Columns/ColumnSorting/){:target="_blank"}

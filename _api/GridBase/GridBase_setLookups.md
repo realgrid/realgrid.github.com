@@ -101,4 +101,4 @@ gridView.setLookups([
 
 #### Demo Links
 
-* [Lookup Tree](http://demo.realgrid.com/Demo/LookupTree) 
+* [Lookup Tree](http://demo.realgrid.com/CellComponent/LookupTree/) 

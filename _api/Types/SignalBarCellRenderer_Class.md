@@ -34,4 +34,4 @@ tags:
 
 #### Demo Links
 
-* [SignalCellRenderer](http://demo.realgrid.com/Demo/SignalCellRenderer){:target="_blank"}
+* [SignalCellRenderer](http://demo.realgrid.com/Renderer/SignalCellRenderer/){:target="_blank"}

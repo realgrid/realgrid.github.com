@@ -68,4 +68,4 @@ gridView.onFilterActionClicked = function (grid, column, action, x, y) {
 
 #### Demo Links
 
-* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+* [Filtering Demo](http://demo.realgrid.com/Columns/ColumnFiltering/)

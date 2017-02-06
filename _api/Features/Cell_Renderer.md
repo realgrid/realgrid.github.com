@@ -51,13 +51,13 @@ tags:
 #### Demo Links
 
 * [Renderer Demo](http://demo.realgrid.net/Demo/RendererConcept)     
-* [Actual/Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer)     
-* [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer)     
-* [Barcode Cell Renderer](http://demo.realgrid.com/Demo/BarcodeCellRenderer)     
-* [Check Cell Renderer](http://demo.realgrid.com/Demo/CheckCellRenderer)     
-* [Icon Cell Renderer](http://demo.realgrid.com/Demo/IconCellRenderer)     
-* [Image Cell Renderer](http://demo.realgrid.com/Demo/ImageCellRenderer)     
-* [Shape Cell Renderer](http://demo.realgrid.com/Demo/ShapeCellRenderer)    
-* [Signal Cell Renderer](http://demo.realgrid.com/Demo/SignalCellRenderer)   
-* [Spark Renderer](http://demo.realgrid.com/Demo/SparkLineRenderer)     
+* [Actual/Target Renderer](http://demo.realgrid.com/Series/ActualTargetRenderer/)     
+* [Bar Cell Renderer](http://demo.realgrid.com/Renderer/BarCellRenderer/)     
+* [Barcode Cell Renderer](http://demo.realgrid.com/Renderer/BarcodeCellRenderer/)     
+* [Check Cell Renderer](http://demo.realgrid.com/Renderer/CheckCellRenderer/)     
+* [Icon Cell Renderer](http://demo.realgrid.com/Renderer/IconCellRenderer/)     
+* [Image Cell Renderer](http://demo.realgrid.com/Renderer/ImageCellRenderer/)     
+* [Shape Cell Renderer](http://demo.realgrid.com/Renderer/ShapeCellRenderer/)    
+* [Signal Cell Renderer](http://demo.realgrid.com/Renderer/SignalCellRenderer/)   
+* [Spark Renderer](http://demo.realgrid.com/Series/SparkLineRenderer/)     
 

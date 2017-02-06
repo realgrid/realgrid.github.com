@@ -64,4 +64,4 @@ alert(JSON.stringify(filter));
 
 #### Demo Links
 
-* [Column Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering) 참조
+* [Column Filtering Demo](http://demo.realgrid.com/Columns/ColumnFiltering/) 참조

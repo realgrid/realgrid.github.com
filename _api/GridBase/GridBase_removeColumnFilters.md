@@ -52,4 +52,4 @@ gridView.removeColumnFilters(aColumn,["filter1"]);
 
 #### Demo Links
 
-* [FilteringDemo](/http://demo.realgrid.com/Demo/ColumnFiltering)
+* [FilteringDemo](/http://demo.realgrid.com/Columns/ColumnFiltering/)

@@ -47,4 +47,4 @@ gridView.setRowGroup({
 
 #### Demo Links
 
-* [RowGrouping Demo](http://demo.realgrid.com/Demo/RowGrouping)
+* [RowGrouping Demo](http://demo.realgrid.com/RowGroup/RowGrouping/)

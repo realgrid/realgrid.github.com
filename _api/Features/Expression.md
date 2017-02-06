@@ -130,10 +130,10 @@ var/varp/stdev/stdevp는 그리드 summaryMode가 SummaryMode.STATISTICS 일 때
 #### Demo Links
 
 * [Edit Column Validation Demo](http://demo.realgrid.net/Demo/EditColumnValidation)   
-* [Row Vaildations](http://demo.realgrid.com/Demo/EditRowValidation)   
-* [Row Grouping](http://demo.realgrid.com/Demo/RowGrouping)   
-* [Dynamic Styles on Columns](http://demo.realgrid.com/Demo/DynamicStylesColumn)  
-* [Dynamic Styles on Rows](http://demo.realgrid.com/Demo/DynamicStylesRow)  
+* [Row Vaildations](http://demo.realgrid.com/Validation/RowValidation/)   
+* [Row Grouping](http://demo.realgrid.com/RowGroup/RowGrouping/)   
+* [Dynamic Styles on Columns](http://demo.realgrid.com/GridStyle/DynamicStylesonColumns/)  
+* [Dynamic Styles on Rows](http://demo.realgrid.com/GridStyle/DynamicStylesonRows/)  
  
 
 

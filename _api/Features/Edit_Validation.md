@@ -26,4 +26,4 @@ tags:
 #### Demo Links
 
 * [Edit Column Validation Demo](http://demo.realgrid.net/Demo/EditColumnValidation) 참조  
-* [Row Vaildations](http://demo.realgrid.com/Demo/EditRowValidation) 참조  
+* [Row Vaildations](http://demo.realgrid.com/Validation/RowValidation/) 참조  

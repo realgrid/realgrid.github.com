@@ -54,4 +54,4 @@ gridView.setColumnProperty(column, "editable", false);
 
 #### Demo Links
 
-* [ColumnProperties](http://demo.realgrid.com/Demo/ColumnProperties)
+* [ColumnProperties](http://demo.realgrid.com/Columns/ColumnProperties/)

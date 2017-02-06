@@ -100,5 +100,5 @@ gridView.setColumns(columns);
 
 #### Demo Links
 
-* [Cell Buttons](http://demo.realgrid.com/Demo/CellButtons)
+* [Cell Buttons](http://demo.realgrid.com/CellComponent/CellButton/)
 

@@ -58,4 +58,4 @@ gridView.onLinkableCellClicked = function (grid, index, url) {
 
 #### Demo Links
 
-* [LinkCellRendere Demo](http://demo.realgrid.com/Demo/LinkCellRenderer)
+* [LinkCellRendere Demo](http://demo.realgrid.com/Renderer/LinkCellRenderer/)

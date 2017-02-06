@@ -88,4 +88,4 @@ gridView.onEditSearch = function (grid, index, text) {
 
 #### Demo Links
 
-* [Editor Demo](http://demo.realgrid.com/Demo/Editors)
+* [Editor Demo](http://demo.realgrid.com/Editing/Editors/)

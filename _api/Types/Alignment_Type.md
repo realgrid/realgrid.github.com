@@ -71,4 +71,4 @@ gridView.setColumns(columns);
 
 #### Demo Links
 
-* [Style Properties](http://demo.realgrid.com/Demo/StylesProperties) 참조  
+* [Style Properties](http://demo.realgrid.com/GridStyle/StyleProperties/) 참조  

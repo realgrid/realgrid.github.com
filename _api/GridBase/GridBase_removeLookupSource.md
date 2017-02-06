@@ -44,4 +44,4 @@ gridView.removeLookupSource(sourceId);
 
 #### Demo Links
 
-* [ColumnLookup Demo](http://demo.realgrid.com/Demo/ColumnLookup)
+* [ColumnLookup Demo](http://demo.realgrid.com/CellComponent/LookupColumn/)

@@ -72,4 +72,4 @@ gridView.onShowTooltip = function (grid, index, value) {
 
 #### Demo Links
 
-* [Tooltip](http://demo.realgrid.com/Demo/ColumnTooltip)
+* [Tooltip](http://demo.realgrid.com/CellComponent/Tooltip/)

@@ -54,4 +54,4 @@ tags:
 
 #### Demo Links
 
-* [Spark Line Renderer](http://demo.realgrid.com/Demo/SparkLineRenderer){:target="_blank"}
+* [Spark Line Renderer](http://demo.realgrid.com/Series/SparkLineRenderer/

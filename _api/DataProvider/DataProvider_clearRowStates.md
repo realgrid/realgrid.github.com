@@ -45,4 +45,4 @@ tags:
 
 #### Demo Links
 
-* [RowState](http://demo.realgrid.com/Demo/RowState){:target="_blank"} 참조
+* [RowState](http://demo.realgrid.com/Editing/RowStates/){:target="_blank"} 참조

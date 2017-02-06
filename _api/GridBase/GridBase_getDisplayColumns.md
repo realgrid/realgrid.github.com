@@ -39,4 +39,4 @@ gridView.getDisplayColumns();
 
 #### Demo Links
 
-* [ColumnLayout](http://demo.realgrid.com/Demo/ColumnLayout)
+* [ColumnLayout](http://demo.realgrid.com/Columns/ColumnLayout/)

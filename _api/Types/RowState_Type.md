@@ -44,4 +44,4 @@ tags:
 
 #### Demo Links
 
-* [StateBar](http://demo.realgrid.com/Demo/StateBar){:target="_blank"}
+* [StateBar](http://demo.realgrid.com/GridComponent/StateBar/){:target="_blank"}

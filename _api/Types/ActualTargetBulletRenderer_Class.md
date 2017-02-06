@@ -64,4 +64,4 @@ Bullet renderer는 목표값을 수직바로 실행값을 수평바로 표시한
 
 #### Demo Links
 
-* [Actual / Target Renderer](http://demo.realgrid.com/Demo/ActualTargetRenderer) 참조  
+* [Actual / Target Renderer](http://demo.realgrid.com/Series/ActualTargetRenderer/) 참조  

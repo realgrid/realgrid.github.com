@@ -7,7 +7,7 @@ product: flash
 version: 1.1.21.2542
 ---
 
-1. search Editor 추가. 이와 관련 **onEditSearch**콜백과 **fillEditSearchItems** 함수 추가. [Editors](http://demo.realgrid.com/Demo/Editors) 페이지를 참조.
+1. search Editor 추가. 이와 관련 **onEditSearch**콜백과 **fillEditSearchItems** 함수 추가. [Editors](http://demo.realgrid.com/Editing/Editors/) 페이지를 참조.
 2. 외부의 Mouse Wheel 이벤트를 전달하는 **RealGrids.setExternalWheelEvents** 함수 추가.  
      [External Wheel](http://demo.realgrid.com/Demo/ExternalWheel) 페이지를 참조.
 3. **expandAll**에서 특정 level까지만 확장이 가능한 **level**매개변수 추가, level이 1이상이면 해당 레벨의 자식까지 확장.

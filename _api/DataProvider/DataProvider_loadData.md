@@ -58,6 +58,6 @@ tags:
 
 #### Demo Links
 
-* [LoadJsonData](http://demo.realgrid.com/Demo/LoadJsonData)<br/>
-* [LoadXmlData](http://demo.realgrid.com/Demo/LoadXmlData)<br/>
-* [LoadCsvData](http://demo.realgrid.com/Demo/LoadCsvData){:target="_blank"} 
+* [LoadJsonData](http://demo.realgrid.com/FillData/LoadJsonData/)<br/>
+* [LoadXmlData](http://demo.realgrid.com/FillData/LoadXmlData/)<br/>
+* [LoadCsvData](http://demo.realgrid.com/FillData/LoadCsvData/){:target="_blank"} 

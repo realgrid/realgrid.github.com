@@ -77,4 +77,4 @@ gridView.setColumns(columns);
 
 #### Demo Links
 
-* [Bar Cell Renderer](http://demo.realgrid.com/Demo/BarCellRenderer) 참조 
+* [Bar Cell Renderer](http://demo.realgrid.com/Renderer/BarCellRenderer/) 참조 

@@ -60,4 +60,4 @@ gridView.onRowsDeleting = function (grid, rows) {
 
 #### Demo Links
 
-* [Deleting Demo](http://demo.realgrid.com/Demo/Deleting)
+* [Deleting Demo](http://demo.realgrid.com/Editing/Deleting/)

@@ -38,4 +38,4 @@ tags:
 
 #### Demo Links
 
-* [Updating](http://demo.realgrid.com/Demo/Updating){:target="_blank"} 참조
+* [Updating](http://demo.realgrid.com/Editing/Updating/){:target="_blank"} 참조

@@ -8,13 +8,13 @@ version: 1.1.10
 ---
 
 
-1. [Number 편집기에](http://demo.realgrid.com/Demo/Editors) **positiveOnly** 및 **integerOnly** 속성 추가. positveOnly이면 "-" 키 입력 불가. integerOnly면 ".", "e", "E" 키 입력 불가.
+1. [Number 편집기에](http://demo.realgrid.com/Editing/Editors/) **positiveOnly** 및 **integerOnly** 속성 추가. positveOnly이면 "-" 키 입력 불가. integerOnly면 ".", "e", "E" 키 입력 불가.
 2. Dropdown 및 Date 편집기 표시와 관련된 문제점들을 개선.  
      Dropdown 리스트의 너비가 최소한 리스트 항목들을 모두 표시할 수 있는 정도가 되게 함.  
      리스트가 최우측 컬럼에 표시될 때 그리드 영역을 넘어가지 않도록 함.  
 
 3. 추가 중인 행에서 Dropdown및 Date 편집기 버튼이 동작하지 않은 문제 개선.
-4. [Shape 셀 renderer](http://demo.realgrid.com/Demo/ShapeCellRenderer)에서 shape 표시 위치 문제를 개선.
+4. [Shape 셀 renderer](http://demo.realgrid.com/Renderer/ShapeCellRenderer/)에서 shape 표시 위치 문제를 개선.
 
 Version 1.1.9 - 2014/06/16
 

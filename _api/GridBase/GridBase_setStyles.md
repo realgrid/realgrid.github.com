@@ -67,4 +67,4 @@ gridView.setStyles({
 
 #### Demo Links
 
-* [Styles Overview](http://demo.realgrid.com/Demo/StylesConcept)
+* [Styles Overview](http://demo.realgrid.com/GridStyle/StylesOverview/)

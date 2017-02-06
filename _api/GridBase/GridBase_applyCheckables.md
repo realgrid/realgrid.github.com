@@ -44,4 +44,4 @@ gridView.applyCheckables();
 
 #### Demo Links
 
-* [checkBar Demo](http://demo.realgrid.com/Demo/CheckBar)
+* [checkBar Demo](http://demo.realgrid.com/GridComponent/CheckBar/)

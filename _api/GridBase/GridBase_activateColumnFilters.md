@@ -55,4 +55,4 @@ gridView.activateColumnFilters("col1", "filter1", false);
 
 #### Demo Links
 
-* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+* [Filtering Demo](http://demo.realgrid.com/Columns/ColumnFiltering/)

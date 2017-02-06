@@ -54,4 +54,4 @@ gridView.registerImageList(imgs);
 
 #### Demo Links
 
-* [IconCellRenderer](http://demo.realgrid.com/Demo/IconCellRenderer){:target="_blank"}
+* [IconCellRenderer](http://demo.realgrid.com/Renderer/IconCellRenderer/){:target="_blank"}

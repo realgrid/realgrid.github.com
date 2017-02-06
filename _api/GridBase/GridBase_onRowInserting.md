@@ -48,4 +48,4 @@ gridView.onRowInserting = function (grid, itemIndex) {
 
 #### Demo Links
 
-* [Inserting Demo](http://demo.realgrid.com/Demo/Inserting)
+* [Inserting Demo](http://demo.realgrid.com/Editing/Inserting/)

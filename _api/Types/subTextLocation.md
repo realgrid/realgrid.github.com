@@ -67,4 +67,4 @@ var columns = [{
 
 #### Demo Links
 
-* [HeaderSubText](http://demo.realgrid.com/Demo/HeaderSubText) 
+* [HeaderSubText](http://demo.realgrid.com/HeaderAndFooter/HeaderSubText/) 

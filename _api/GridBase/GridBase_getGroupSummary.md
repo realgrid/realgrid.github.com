@@ -59,4 +59,4 @@ if (aModel && aModel.type=="group") {
 
 #### Demo Links
 
-* [Column Footer](http://demo.realgrid.com/Demo/ColumnFooter)
+* [Column Footer](http://demo.realgrid.com/HeaderAndFooter/ColumnFooter/)

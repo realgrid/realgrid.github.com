@@ -90,4 +90,4 @@ loadData(dataProvider);
 
 #### Demo Links
 
-* [ToastView](http://demo.realgrid.com/Demo/ToastView?ptype=js) 
+* [ToastView](http://demo.realgrid.com/GridComponent/ToastView/) 

@@ -322,7 +322,7 @@ function setColumns(grid) {
 
 
 RealGrid Style은 화면 표시를 효과적이고 융통성있게 관리하기 위한 방법입니다. 그리드는 몇 개의 영역으로 구분되어 있으며 각 영역은 셀로 채워져 있습니다. 예를 들어 인디케이터영역은 인디케이터 셀로 구성되고, 각 데이터행은 데이터 셀들로 채워집니다. 종류별 셀을 화면에 그리는 것이 셀 Renderer인데 이 렌더러가 각 영역의 스타일셋에 지정된 그리기 속성들을 사용하게 됩니다.
-스타일에 관한 자세한 내용은 [Styles](http://demo.realgrid.com/Demo/StylesConcept)페이지를 참조해 주세요.
+스타일에 관한 자세한 내용은 [Styles](http://demo.realgrid.com/GridStyle/StylesOverview/)페이지를 참조해 주세요.
 
 
 include한 styles.js에 그리드 스타일 속성값을 정의한 styles변수를 setStyles함수의 파라메타로 지정합니다.  

@@ -52,4 +52,4 @@ gridView.onShowHeaderTooltip = function (grid, column, value) {
 
 #### Demo Links
 
-* [Tooltip](http://demo.realgrid.com/Demo/ColumnTooltip)
+* [Tooltip](http://demo.realgrid.com/CellComponent/Tooltip/)

@@ -12,17 +12,17 @@ version: 1.1.4
      DataProvider에 setRowStates() 추가.
 3. 여러 행의 상태를 강제로 변경하는 DataProvider.**setRowStates** 추가.
 4. 여러 행을 추가/수정하는 LocalDataProvider 메쏘드들의 마지막 매개변수 rowEvents 추가. true로 지정하면 행별로 이벤트 발생.
-5. 특정한 시점에 보관한 DataProvder의 데이터 셋으로 복원하는 기능 추가. [Data Rollback](http://demo.realgrid.com/Demo/DataRollback) 페이지 참조.
-6. GridView.setColumns()로 처음 설정한 컬럼 셋을 다른 형태로 배치하는 기능 추가. [Column Layout](http://demo.realgrid.com/Demo/ColumnLayout) 페이지 참조.
+5. 특정한 시점에 보관한 DataProvder의 데이터 셋으로 복원하는 기능 추가. [Data Rollback](http://demo.realgrid.com/DataManager/DataRollback/) 페이지 참조.
+6. GridView.setColumns()로 처음 설정한 컬럼 셋을 다른 형태로 배치하는 기능 추가. [Column Layout](http://demo.realgrid.com/Columns/ColumnLayout/) 페이지 참조.
 7. TreeNode 에 CheckBox 추가. [Set Json Array](http://demo.realgrid.com/Demo/TreeSetJsonData) 참조.
-8. DataProvider.**getStateRows(state)**에서 state에 **RowState.NONE**을 지정할 수 있도록 함. 또, **clearRowStates**, **setRowState** 함수 추가. [Row State](http://demo.realgrid.com/Demo/RowState) 페이지 참조.
+8. DataProvider.**getStateRows(state)**에서 state에 **RowState.NONE**을 지정할 수 있도록 함. 또, **clearRowStates**, **setRowState** 함수 추가. [Row State](http://demo.realgrid.com/Editing/RowStates/) 페이지 참조.
 9. 지정하지 않거나 undefined로 지정한 필드값은 변경하지 않는 LocalDataProvider.**updateStrictRow**, **updateStrictRows** 함수 추가. [데이터행 추가](http://demo.realgrid.com/Demo/AddDataRow) 페이지 Strict Update 참조.
-10. GridView에 **checkAll**, **checkItem**, **checkRow**, **isCheckedItem**, **isCheckedRow** 등 CheckBar 관련 함수들 추가. [CheckBar](http://demo.realgrid.com/Demo/CheckBar) 페이지 참조. **checkItem**는 exclusive 매개변수를 true로 지정해서 한 행만 checked 되도록 할 수 있다.
+10. GridView에 **checkAll**, **checkItem**, **checkRow**, **isCheckedItem**, **isCheckedRow** 등 CheckBar 관련 함수들 추가. [CheckBar](http://demo.realgrid.com/GridComponent/CheckBar/) 페이지 참조. **checkItem**는 exclusive 매개변수를 true로 지정해서 한 행만 checked 되도록 할 수 있다.
 11. 그리드 checkBar.**exclusive** 속성을 true로 지정하면 사용자가 마우스로 클릭한 행만 배타적으로 checked 된다.
 12. LocalDataProvider에 **moveRow** 메쏘드 추가. [데이터행 추가](http://demo.realgrid.com/Demo/AddDataRow) 페이지 참조.
 13. 대량의 행을 추가/수정할 때 행별 이벤트가 발생하지 않도록 하는 DataProvider.**beginUpdate()**, **endUpdate()** 메쏘드 추가. [여러 데이터 행 추가하기](http://demo.realgrid.com/Demo/AddMultiRows) 페이지 참조.
-14. SelectionStyle에 행 하나, 컬럼 하나를 선택할 수 있는 **singleRow**, **singleColumn** 옵션 추가. [Selecting](http://demo.realgrid.com/Demo/Selecting) 페이지 참조.
-15. 사용자 입력으로 편집기 내용이 변경될 때 **onEditChange** 이벤트 발생. [Editors](http://demo.realgrid.com/Demo/Editors) 페이지 참조.
+14. SelectionStyle에 행 하나, 컬럼 하나를 선택할 수 있는 **singleRow**, **singleColumn** 옵션 추가. [Selecting](http://demo.realgrid.com/GridComponent/Selecting/) 페이지 참조.
+15. 사용자 입력으로 편집기 내용이 변경될 때 **onEditChange** 이벤트 발생. [Editors](http://demo.realgrid.com/Editing/Editors/) 페이지 참조.
 16. Expression에 **is defined**, **is not defined**, **is empty**, **is not empty** 연산자 추가.
 17. Expression에서 null이나 undefined값의 **len**, **lenb** 연산값이 0이 되도록 개선.
 18. 편집기가 표시되지 않은 상태에서 Copy & Paste 가능.

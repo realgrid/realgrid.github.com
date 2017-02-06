@@ -48,4 +48,4 @@ gridView.setColumn(column);
 
 #### Demo Links
 
-* [Column Properties](http://demo.realgrid.com/Demo/ColumnProperties)
+* [Column Properties](http://demo.realgrid.com/Columns/ColumnProperties/)

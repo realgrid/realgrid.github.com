@@ -45,4 +45,4 @@ gridView.onRowGroupFootDblClicked =  function (grid) {
 
 #### Demo Links
 
-* [Region Events](http://demo.realgrid.com/Demo/RegionEvents)
+* [Region Events](http://demo.realgrid.com/Event/RegionEvents/)

@@ -95,4 +95,4 @@ function showAutoFiltering(column, x, y) {
 
 #### Demo Links
 
-> [Columnfiltering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+> [Columnfiltering Demo](http://demo.realgrid.com/Columns/ColumnFiltering/)

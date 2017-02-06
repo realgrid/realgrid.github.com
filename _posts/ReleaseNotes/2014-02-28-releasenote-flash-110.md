@@ -8,7 +8,7 @@ version: 1.1.0
 ---
 
 1. Flash wmode를 **direct**로 변경.
-2. GridView.onSelectionEnded 이벤트 추가. 선택을 시작하고 마우스가 Up 되거나, 키보드가 Up 되면 발생. [Selecting](http://demo.realgrid.com/Demo/Selecting) 페이지 참조.
+2. GridView.onSelectionEnded 이벤트 추가. 선택을 시작하고 마우스가 Up 되거나, 키보드가 Up 되면 발생. [Selecting](http://demo.realgrid.com/GridComponent/Selecting/) 페이지 참조.
 3. 고정 컬럼이 설정되면 전체적으로 느려지는 현상 개선.
 4. 행 그룹 Footer에 그룹 합계가 잘 못 표시되는 문제 해결.
 5. 마지막 행에서 appending 종료(commit 혹은 cancel) 시 포커스셀의 위치가 잘못되는 현상 개선.

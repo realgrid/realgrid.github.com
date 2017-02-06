@@ -72,4 +72,4 @@ gridView.onValidateRow = function (grid, itemIndex, dataRow, inserting, values) 
 
 #### Demo Links
 
-* [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation)
+* [CustomColumnValidation](http://demo.realgrid.com/Validation/CustomColumnValidation/)

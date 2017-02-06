@@ -262,4 +262,4 @@ function setColumns(grid) {
 
 #### Demo Links
 
-* [Editors](http://demo.realgrid.com/Demo/Editors){:target="_blank"}
+* [Editors](http://demo.realgrid.com/Editing/Editors/){:target="_blank"}

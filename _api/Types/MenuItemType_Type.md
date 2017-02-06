@@ -291,4 +291,4 @@ var menu = [{
 
 #### Demo Links
 
-* [PopupMenu](http://demo.realgrid.com/Demo/PopupMenu#.example){:target="_blank"}
+* [PopupMenu](http://demo.realgrid.com/CellComponent/PopupMenu/){:target="_blank"}

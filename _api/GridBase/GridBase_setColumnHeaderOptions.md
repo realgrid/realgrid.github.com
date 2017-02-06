@@ -50,4 +50,4 @@ gridView.setColumnHeaderOptions({
 
 #### Demo Links
 
-* [HeaderCheckBox](http://demo.realgrid.com/Demo/HeaderCheckbox)
+* [HeaderCheckBox](http://demo.realgrid.com/HeaderAndFooter/HeaderCheckbox/)

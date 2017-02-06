@@ -45,5 +45,5 @@ if (options) {
 
 #### Demo Links
 
-* [ColumnFixed Demo](http://demo.realgrid.com/Demo/ColumnFixing)
-* [RowFixed Demo](http://demo.realgrid.com/Demo/FixedRows)
+* [ColumnFixed Demo](http://demo.realgrid.com/GridComponent/FixedColumns/)
+* [RowFixed Demo](http://demo.realgrid.com/GridComponent/FixedRows/)

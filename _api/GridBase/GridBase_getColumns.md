@@ -54,4 +54,4 @@ gridVIew.getColumns();
 
 #### Demo Links
 
-* [ColumnGrouping](http://demo.realgrid.com/Demo/ColumnGrouping)
+* [ColumnGrouping](http://demo.realgrid.com/Columns/ColumnGrouping/)

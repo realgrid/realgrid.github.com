@@ -17,7 +17,7 @@ permalink: /api/types/CellRenderer/
 
 > **TEXT**    
 > Value: "text"   
-> [Text Cell Renderer](http://demo.realgrid.com/Demo/TextCellRenderer)  
+> [Text Cell Renderer](http://demo.realgrid.com/Renderer/TextCellRenderer/)  
 
 > **BAR**    
 > Value: "bar"   

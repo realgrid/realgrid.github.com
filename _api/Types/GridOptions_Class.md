@@ -124,4 +124,4 @@ gridView.setDisplayOptions({
 
 #### Demo Links
 
-* [GridFitting](http://demo.realgrid.com/Demo/GridFitting) 
+* [GridFitting](http://demo.realgrid.com/Columns/GridFitting/) 

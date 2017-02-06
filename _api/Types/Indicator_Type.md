@@ -112,4 +112,4 @@ gridView.setIndicator({
 
 #### Demo Links
 
-* [Indicator](http://demo.realgrid.com/Demo/Indicator){:target="_blank"}
+* [Indicator](http://demo.realgrid.com/GridComponent/Indicator/){:target="_blank"}

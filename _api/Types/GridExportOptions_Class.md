@@ -180,4 +180,4 @@ gridView.exportGrid({
 
 #### Demo Links
 
-* [Export to Excel File](http://demo.realgrid.com/Demo/ExportToExcel) 
+* [Export to Excel File](http://demo.realgrid.com/Excels/ExcelExport/) 

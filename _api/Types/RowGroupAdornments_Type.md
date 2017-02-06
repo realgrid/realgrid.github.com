@@ -46,5 +46,5 @@ tags:
 
 #### Demo Links
 
-* [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"}
-* [MergedRowGrouping](http://demo.realgrid.com/Demo/RowGroupMerging){:target="_blank"}
+* [RowGrouping](http://demo.realgrid.com/RowGroup/RowGrouping/){:target="_blank"}
+* [MergedRowGrouping](http://demo.realgrid.com/RowGroup/MergedRowGrouping/){:target="_blank"}

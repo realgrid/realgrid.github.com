@@ -59,5 +59,5 @@ gridView.setColumns([{
 
 #### Demo Links
 
-* [Editors](http://demo.realgrid.com/Demo/Editors)
+* [Editors](http://demo.realgrid.com/Editing/Editors/)
  

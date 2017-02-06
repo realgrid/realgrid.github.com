@@ -47,4 +47,4 @@ tags:
 
 #### Demo Links
 
-* [Selecting](http://demo.realgrid.com/Demo/Selecting){:target="_blank"}
+* [Selecting](http://demo.realgrid.com/GridComponent/Selecting/){:target="_blank"}

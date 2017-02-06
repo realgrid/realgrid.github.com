@@ -100,5 +100,5 @@ tags:
 
 #### Demo Links
 
-* [Excel Export - DocumentTitle](http://demo.realgrid.com/Demo/ExportDocumentTitle)  
+* [Excel Export - DocumentTitle](http://demo.realgrid.com/Excels/ExportDocumentTitle/)  
 

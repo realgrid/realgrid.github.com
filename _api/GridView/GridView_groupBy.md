@@ -43,4 +43,4 @@ gridView.groupBy([]);  // 그룹을 해제하려는 경우
 
 #### Demo Links
 
-* [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"} 
+* [RowGrouping](http://demo.realgrid.com/RowGroup/RowGrouping/){:target="_blank"} 

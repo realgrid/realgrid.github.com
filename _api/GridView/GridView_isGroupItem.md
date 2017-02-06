@@ -41,4 +41,4 @@ var bGroupItem = gridView.isGroupItem(1);
 
 #### Demo Links
 
-* [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping){:target="_blank"}
+* [RowGrouping](http://demo.realgrid.com/RowGroup/RowGrouping/){:target="_blank"}

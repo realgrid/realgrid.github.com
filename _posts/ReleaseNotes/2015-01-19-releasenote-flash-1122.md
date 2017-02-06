@@ -12,8 +12,8 @@ version: 1.1.22.2568
 3. readOnly Cell에서 그리드 외부의 control로 focus가 이동할 때 IME가 활성화되지 않는 경우를 위해 **RealGrids.resetIme()**와 **RealGrids.enableImeOnExit(reset)** 추가. **reset** parameter 값이 true이면 외부 control에 마우스 클릭할 때 RealGrid 자체 click callback에서 resetIme를 호출
 4. **GroupingOptions.fixMergedColumns** 속성 추가(기본값은 true). true 이면 merged row grouping 된 컬럼은 이동이나 다른컬럼을 그 위치로 이동이 불가
 5. Excel저장시 첫행에 문서 타이틀을 지정할 수 있는 **GridExportOptions.documentTitle** 속성 추가, 문자열 또는 Object 형태로 지정이 가능, Object의 경우 **text** 속성에 문자열을 지정하고 **styles** 속성에 Cell Styles를 지정.  
-     [Export To Excel file](http://demo.realgrid.com/Demo/ExportToExcel) 페이지를 참조.
-6. **DataProvider.datetimeFormat**에 월과 일의 값에서 앞자리 0를 생략할 수 있는 패턴 추가. [DataType](http://demo.realgrid.com/Demo/DataType) 페이지를 참조.
+     [Export To Excel file](http://demo.realgrid.com/Excels/ExcelExport/) 페이지를 참조.
+6. **DataProvider.datetimeFormat**에 월과 일의 값에서 앞자리 0를 생략할 수 있는 패턴 추가. [DataType](http://demo.realgrid.com/DataManager/DataType/) 페이지를 참조.
 7. Column Layout기능과 관련 기능 추가및 개선  
      **GridBase.restoreColumns()**에 **restoreSize** parameter 추가(기본값은 true). true이면 원 컬럼Set에 지정되어 있던 너비로 재지정 가능.  
      layout 저장시 사용되는 **getDisplayColumns()**를 대신 할 **saveColumnLayout()** 추가.  

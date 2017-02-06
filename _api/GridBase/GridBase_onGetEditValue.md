@@ -71,6 +71,6 @@ gridView.onGetEditValue = function (grid, index, editResult) {
 
 #### Demo Links
 
-* [Column Lookup](http://demo.realgrid.com/Demo/ColumnLookup)
-* [Editors](http://demo.realgrid.com/Demo/Editors)
+* [Column Lookup](http://demo.realgrid.com/CellComponent/LookupColumn/)
+* [Editors](http://demo.realgrid.com/Editing/Editors/)
 

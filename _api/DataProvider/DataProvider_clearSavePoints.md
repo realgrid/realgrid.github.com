@@ -37,4 +37,4 @@ tags:
 
 #### Demo Links
 
-* [DataRollack](http://demo.realgrid.com/Demo/DataRollback){:target="_blank"} 참조
+* [DataRollack](http://demo.realgrid.com/DataManager/DataRollback/){:target="_blank"} 참조

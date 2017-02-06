@@ -71,4 +71,4 @@ tags:
 
 #### Demo Links
 
-* [SearchItem](http://demo.realgrid.com/Demo/SearchItem){:target="_blank"}
+* [SearchItem](http://demo.realgrid.com/DataManager/SearchItem/){:target="_blank"}

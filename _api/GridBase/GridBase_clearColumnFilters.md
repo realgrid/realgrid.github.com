@@ -43,4 +43,4 @@ gridView.clearColumnFilters("content");
 
 #### Demo Links
 
-* [Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+* [Filtering Demo](http://demo.realgrid.com/Columns/ColumnFiltering/)

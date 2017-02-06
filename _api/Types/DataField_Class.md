@@ -56,7 +56,7 @@ tags:
 
 > **header**     
 > Type: string   
-> 그룹 헤더 타이틀, RowGrouping시 그룹 헤더의 타이틀에 기준필드의 헤더 값을 표시할 수 있다. [RowGrouping](http://demo.realgrid.com/Demo/RowGrouping)참조
+> 그룹 헤더 타이틀, RowGrouping시 그룹 헤더의 타이틀에 기준필드의 헤더 값을 표시할 수 있다. [RowGrouping](http://demo.realgrid.com/RowGroup/RowGrouping/)참조
 
 > **defaultValue**     
 > Type: Object   
@@ -176,7 +176,7 @@ dataProvider.setFields(fields);
 
 #### Demo Links
 
-* [Data Type](http://demo.realgrid.com/Demo/DataType) 
-* [Boolean Field](http://demo.realgrid.com/Demo/BooleanField) 
-* [Datetime Field](http://demo.realgrid.com/Demo/DatetimeField) 
+* [Data Type](http://demo.realgrid.com/DataManager/DataType/) 
+* [Boolean Field](http://demo.realgrid.com/DataManager/BooleanField/) 
+* [Datetime Field](http://demo.realgrid.com/DataManager/DatetimeField/) 
 * [Subtypes](http://demo.realgrid.com/Demo/Subtypes)

@@ -48,4 +48,4 @@ gridView.setSortingOptions({
 
 #### Demo Links
 
-* [Sort Demo](http://demo.realgrid.com/Demo/ColumnSorting)
+* [Sort Demo](http://demo.realgrid.com/Columns/ColumnSorting/)

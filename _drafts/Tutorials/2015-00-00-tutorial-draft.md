@@ -133,7 +133,7 @@ tags:
 ---
 **관련 데모 페이지**
 
-* [Selecting](http://demo.realgrid.com/Demo/Selecting?ptype=js)
+* [Selecting](http://demo.realgrid.com/GridComponent/Selecting/)
 
 ---
 **API 참조**

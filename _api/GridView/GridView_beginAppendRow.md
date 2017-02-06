@@ -36,5 +36,5 @@ gridView.beginAppendRow();
 
 #### Demo Links
 
-* [Inserting](http://demo.realgrid.com/Demo/Inserting){:target="_blank"}    
+* [Inserting](http://demo.realgrid.com/Editing/Inserting/){:target="_blank"}    
 

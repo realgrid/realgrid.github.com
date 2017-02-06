@@ -57,4 +57,4 @@ alert(JSON.stringify(filters));
 
 #### Demo Links
 
-* [Column Filtering Demo](http://demo.realgrid.com/Demo/ColumnFiltering)
+* [Column Filtering Demo](http://demo.realgrid.com/Columns/ColumnFiltering/)

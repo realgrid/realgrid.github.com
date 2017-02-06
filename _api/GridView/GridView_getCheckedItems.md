@@ -42,4 +42,4 @@ var items = gridView.getCheckedItems();
 
 #### Demo Links
 
-* [CheckBar](http://demo.realgrid.com/Demo/CheckBar){:target="_blank"} 
+* [CheckBar](http://demo.realgrid.com/GridComponent/CheckBar/){:target="_blank"} 

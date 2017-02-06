@@ -57,5 +57,5 @@ gridView.setStyles({
 
 #### Demo Links
 
-* [Dynamic Styles on Columns](http://demo.realgrid.com/Demo/DynamicStylesColumn)    
-* [Dynamic Styles on Rows](http://demo.realgrid.com/Demo/DynamicStylesRow)   
+* [Dynamic Styles on Columns](http://demo.realgrid.com/GridStyle/DynamicStylesonColumns/)    
+* [Dynamic Styles on Rows](http://demo.realgrid.com/GridStyle/DynamicStylesonRows/)   

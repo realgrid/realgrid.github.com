@@ -57,4 +57,4 @@ gridView.onScrollToBottom =  function (grid) {
 
 #### Demo Links
 
-* [Lazy Load Demo](http://demo.realgrid.com/Demo/LazyLoadData)
+* [Lazy Load Demo](http://demo.realgrid.com/FillData/LazyLoading/)

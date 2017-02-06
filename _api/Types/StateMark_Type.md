@@ -43,6 +43,6 @@ gridView.setStateBar({
 
 #### Demo Links
 
-* [StateBar](http://demo.realgrid.com/Demo/StateBar)  
+* [StateBar](http://demo.realgrid.com/GridComponent/StateBar/)  
 * [setStateBar](/api/GridBase/setStateBar/)   
 * [getStateBar](/api/GridBase/getStateBar/)              

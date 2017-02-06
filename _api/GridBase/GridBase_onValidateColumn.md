@@ -67,4 +67,4 @@ gridView.onValidateColumn =  function (grid, column, inserting, value) {
 
 #### Demo Links
 
-* [CustomColumnValidation](http://demo.realgrid.com/Demo/CustomColumnValidation)
+* [CustomColumnValidation](http://demo.realgrid.com/Validation/CustomColumnValidation/)

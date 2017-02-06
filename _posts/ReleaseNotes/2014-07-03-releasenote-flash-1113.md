@@ -9,9 +9,9 @@ version: 1.1.13
 
 1. 그리드가 처음 로드될 때, 첫번째 셀에 포커스가 가도록 개선. 이 후, 첫번째 셀로 포커스를 이동 시키고 싶은 경우 GridBase.**resetCurrent()** 호출.
 2. 편집 중인 행에 대해 GridBase.getValues(itemIndex)를 호출하면 데이터 행이 아니라 편집 Item의 값들을 가져오도록 변경.
-3. 그리드 body.**rowStylesFirst**를 true로 지정하면, body.dynamicStyles가 column.styles 보다 먼저 적용되도록 개선. [Dynamic Styles on Rows](http://demo.realgrid.com/Demo/DynamicStylesRow) 페이지 참조.
+3. 그리드 body.**rowStylesFirst**를 true로 지정하면, body.dynamicStyles가 column.styles 보다 먼저 적용되도록 개선. [Dynamic Styles on Rows](http://demo.realgrid.com/GridStyle/DynamicStylesonRows/) 페이지 참조.
 4. 그리드 getValue(field) 함수 field 인자에 필드명을 지정 가능.
-5. [Icon 셀렌더러](http://demo.realgrid.com/Demo/IconCellRenderer)에서 텍스트를 표시하지 않도록 하는 옵션 추가. **iconLocation** 스타일 속성 값을 "center"로 하거나, 셀렌더러의 **textVisible**을 false로 지정하면 됨.
+5. [Icon 셀렌더러](http://demo.realgrid.com/Renderer/IconCellRenderer/)에서 텍스트를 표시하지 않도록 하는 옵션 추가. **iconLocation** 스타일 속성 값을 "center"로 하거나, 셀렌더러의 **textVisible**을 false로 지정하면 됨.
 6. 컬럼그룹에 포함된 컬럼들도 병합 모드가 아닐 때는 row grouping 가능하도록 개선.
 7. Column.footer.styles 외에 Column.footer.groupStyles 에 컬럼별 RowGroup footer의 스타일을 추가 지정할 수 있도록 함.
 8. LocalDataProvider.setRowCount(newCount, fillFieldDefaults, defaultValues, rowState) 함수 관련 문제를 개선. fillFieldDefaults가 true면 각 필드의 default 값으로 채움. defaultValues가 배열이거나 json 객체이면 그 값으로 채움. rowState로 새로 생성될 행의 상태값 지정 가능. 기본값은 "none".  

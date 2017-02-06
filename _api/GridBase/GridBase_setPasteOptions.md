@@ -50,4 +50,4 @@ gridView.setPasteOptions({
 
 #### Demo Links
 
-* [Copy &amp; Paste Demo](http://demo.realgrid.com/Demo/CopyAndPaste)
+* [Copy &amp; Paste Demo](http://demo.realgrid.com/Editing/CopyAndPaste/)
