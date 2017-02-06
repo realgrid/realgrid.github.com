@@ -19,7 +19,7 @@ tags:
 
 #### Syntax
 
-> function checkChildren(itemIndex, checked, recursive, visibleOnly)
+> function checkChildren(itemIndex, checked, recursive, visibleOnly, checkableOnly, checkEvent)
 
 #### Parameters
 
@@ -41,6 +41,17 @@ tags:
 > Type: Boolean  
 > Default: true  
 > true로 입력하면 화면에 펼쳐진 자식행을 체크또는 해제하고 false로 입력하면 전체 자식행을 체크또는 해제한다.  
+
+> **checkableOnly**  
+> Type: Boolean  
+> Default: true  
+> true 이면 체크 가능한 상태인 것들만 체크 한다.  
+
+> **checkEvent**  
+> Type: Boolean  
+> Default: true  
+> onItemChecked()의 발생 여부를 지정한다.  
+> ver 1.1.20부터 지원된다.   
 
 #### Return value
 

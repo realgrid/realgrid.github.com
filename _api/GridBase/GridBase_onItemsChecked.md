@@ -42,7 +42,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-gridView.onItemsChecked =  (grid, items, checked) {
+gridView.onItemsChecked = function(grid, items, checked) {
     console.log("onItemsChecked", items, checked);
 };
 </pre>
