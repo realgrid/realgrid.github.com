@@ -71,29 +71,29 @@ tags:
 
 <pre class="prettyprint">
 var columns = [{
-  fieldName: "fieldName",
-  name: "name",
-  editor {
-    type: "text",
-    mask: "9999-99-99",
+    fieldName: "fieldName",
+    name: "name",
+    editor: {
+        type: "text",
+        mask: "9999-99-99"
+    },
     displayRegExp..
     displayReplace...
-  }
 }, { 
-  fieldName: "date", 
-  name: "date", 
-  editor:{
-    type: "date", 
+    fieldName: "date", 
+    name: "date", 
+    editor:{
+        type: "date", 
     mask:{
-      editMask: "9999-99-99",  
-      includedFormat: true,
-      overWrite: true 
+        editMask: "9999-99-99",  
+        includedFormat: true,
+        overWrite: true 
     }, 
     datetimeFormat:"yyyy-MM-dd" 
-  }, 
-  styles:{
-    datetimeFormat:"yyyy-MM-dd"
-  }
+    }, 
+    styles:{
+        datetimeFormat:"yyyy-MM-dd"
+    }
 }];
 
 gridView.setColumns(columns);
