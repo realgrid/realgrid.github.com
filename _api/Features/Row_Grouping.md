@@ -22,5 +22,5 @@ tags:
 
 #### Demo Links
 
-* [Row Grouping Demo](http://demo.realgrid.net/Demo/RowGrouping)    
-* [Row Group Merging Demo](http://demo.realgrid.net/Demo/RowGroupMerging)  
+* [Row Grouping Demo](http://demo.realgrid.com/RowGroup/RowGrouping/)    
+* [Row Group Merging Demo](http://demo.realgrid.com/RowGroup/MergedRowGrouping/)  

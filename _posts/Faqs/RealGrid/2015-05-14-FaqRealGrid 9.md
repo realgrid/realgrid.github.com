@@ -43,7 +43,7 @@ grid.onDataCellClicked = function (grid, index) {
 // cell을 클릭했을때 발생하는 이벤트입니다.
 </pre>
 
-image Renderer를 이용하는 방법은 [http://demo.realgrid.net/Demo/ImageCellRenderer](http://demo.realgrid.net/Demo/ImageCellRenderer) 에 예제가 있습니다.
+image Renderer를 이용하는 방법은 [http://demo.realgrid.com/Renderer/ImageCellRenderer/](http://demo.realgrid.com/Renderer/ImageCellRenderer/) 에 예제가 있습니다.
   
-또는 icon과 link Renderer를 이용하는 방법은 [http://demo.realgrid.net/Demo/LinkCellRenderer](http://demo.realgrid.net/Demo/LinkCellRenderer) 을 참조하시기 바랍니다.
+또는 icon과 link Renderer를 이용하는 방법은 [http://demo.realgrid.com/Renderer/LinkCellRenderer/](http://demo.realgrid.com/Renderer/LinkCellRenderer/) 을 참조하시기 바랍니다.
 

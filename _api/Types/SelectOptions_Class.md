@@ -33,4 +33,4 @@ tags:
 
 #### Demo Links
 
-* [Selecting](http://demo.realgrid.net/Demo/Selecting)
+* [Selecting](http://demo.realgrid.com/GridComponent/Selecting/)

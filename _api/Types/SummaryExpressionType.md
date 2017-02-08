@@ -63,5 +63,5 @@ tags:
 #### Demo Links
 
 * STATISTICAL로 지정되면 좀 더 많은 계산 시간을 요구한다.  
-* [Column Footer Demo](http://demo.realgrid.net/Demo/ColumnFooter)  
-* [Row Grouping Demo](http://demo.realgrid.net/Demo/RowGrouping)  
+* [Column Footer Demo](http://demo.realgrid.com/HeaderAndFooter/ColumnFooter/)  
+* [Row Grouping Demo](http://demo.realgrid.com/RowGroup/RowGrouping/)  

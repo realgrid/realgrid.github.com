@@ -103,4 +103,4 @@ gridView.setColumns(columns);
 
 #### Demo Links 
 
-* [Column Filtering](http://demo.realgrid.net/Demo/ColumnFiltering)
+* [Column Filtering](http://demo.realgrid.com/Columns/ColumnFiltering/)

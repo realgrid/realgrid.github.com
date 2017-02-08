@@ -21,36 +21,36 @@ permalink: /api/types/CellRenderer/
 
 > **BAR**    
 > Value: "bar"   
-> [Bar Cell Renderer](http://demo.realgrid.net/Demo/BarCellRenderer)  
+> [Bar Cell Renderer](http://demo.realgrid.com/Renderer/BarCellRenderer/)  
 
 > **CHECK**   
 > Value: "check"  
-> [Check Cell Renderer(Editor)](http://demo.realgrid.net/Demo/CheckCellRenderer) 
+> [Check Cell Renderer(Editor)](http://demo.realgrid.com/Renderer/CheckCellRenderer/) 
 
 > **IMAGE**  
 > Value: "image"  
-> [Image Cell Renderer](http://demo.realgrid.net/Demo/ImageCellRenderer)  
+> [Image Cell Renderer](http://demo.realgrid.com/Renderer/ImageCellRenderer/)  
 
 > **ICON**    
 > Value: "icon"  
-> [Icon Cell Renderer](http://demo.realgrid.net/Demo/IconCellRenderer)         
+> [Icon Cell Renderer](http://demo.realgrid.com/Renderer/IconCellRenderer/)         
 
 > **SHAPE**  
 > Value: "shape"  
-> [Shape Cell Renderer](http://demo.realgrid.net/Demo/ShapeCellRenderer)   
+> [Shape Cell Renderer](http://demo.realgrid.com/Renderer/ShapeCellRenderer/)   
 
 > **SIGNAL**  
 > Value: "signal"  
-> [Signal Cell Render](http://demo.realgrid.net/Demo/BarCellRenderer)            
+> [Signal Cell Render](http://demo.realgrid.com/Renderer/BarCellRenderer/)            
 
 > **LINK**  
 > Value: "link"  
-> [Link Cell Render](http://demo.realgrid.net/Demo/LinkCellRenderer)      
+> [Link Cell Render](http://demo.realgrid.com/Renderer/LinkCellRenderer/)      
 
 > **CODE128**  
 > Value: "code128"  
-> [Barcode Cell Render](http://demo.realgrid.net/Demo/BarcodeCellRenderer)      
+> [Barcode Cell Render](http://demo.realgrid.com/Renderer/BarcodeCellRenderer/)      
 
 > **CODE39**  
 > Value: "code39"  
-> [Barcode Cell Render](http://demo.realgrid.net/Demo/BarcodeCellRenderer)      
+> [Barcode Cell Render](http://demo.realgrid.com/Renderer/BarcodeCellRenderer/)      

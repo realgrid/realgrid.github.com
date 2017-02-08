@@ -149,4 +149,4 @@ gridView.setColumns(columns);
 
 #### Demo Links 
 
-* [Column Grouping](http://demo.realgrid.net/Demo/ColumnGrouping)
+* [Column Grouping](http://demo.realgrid.com/Columns/ColumnGrouping/)

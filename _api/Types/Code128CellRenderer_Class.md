@@ -48,5 +48,5 @@ tags:
 
 #### Demo Links 
 
-* [Barcode Cell Renderer](http://demo.realgrid.net/Demo/BarcodeCellRenderer)  
+* [Barcode Cell Renderer](http://demo.realgrid.com/Renderer/BarcodeCellRenderer/)  
 

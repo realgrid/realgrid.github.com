@@ -70,7 +70,7 @@ tags:
 
 #### Demo Links
 
-* [Shape Cell Renderer](http://demo.realgrid.net/Demo/ShapeCellRenderer)
+* [Shape Cell Renderer](http://demo.realgrid.com/Renderer/ShapeCellRenderer/)
 
 
 

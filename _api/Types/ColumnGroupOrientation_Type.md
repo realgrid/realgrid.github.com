@@ -103,4 +103,4 @@ gridView.setColumns(columns);
 
 #### Demo Links
 
-* [Column Grouping Demo](http://demo.realgrid.net/Demo/ColumnGrouping) 
+* [Column Grouping Demo](http://demo.realgrid.com/Columns/ColumnGrouping/) 

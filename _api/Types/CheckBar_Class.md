@@ -125,7 +125,7 @@ gridView.setCheckBar(options);
 
 #### Demo Links 
 
-* [CheckBar](http://demo.realgrid.net/Demo/CheckBar)  
+* [CheckBar](http://demo.realgrid.com/GridComponent/CheckBar/)  
 
 
 

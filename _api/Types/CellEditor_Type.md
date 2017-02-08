@@ -133,4 +133,4 @@ gridView.setColumns(columns);
 
 #### Demo Links
 
-* [Editors Demo](http://demo.realgrid.net/Demo/Editors)
+* [Editors Demo](http://demo.realgrid.com/Editing/Editors/)

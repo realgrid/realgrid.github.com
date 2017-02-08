@@ -102,5 +102,5 @@ gridView.setFixedOptions({
 
 #### Demo Links
 
-* [Fixed Columns Demo](http://demo.realgrid.net/Demo/ColumnFixing)   
-* [Fixed Rows Demo](http://demo.realgrid.net/Demo/FixedRows)
+* [Fixed Columns Demo](http://demo.realgrid.com/GridComponent/FixedColumns/)   
+* [Fixed Rows Demo](http://demo.realgrid.com/GridComponent/FixedRows/)

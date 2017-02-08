@@ -97,5 +97,5 @@ gridView.setColumns(columns);
 
 #### Demo Links 
 
-* [Column Footer](http://demo.realgrid.net/Demo/ColumnFooter) 
+* [Column Footer](http://demo.realgrid.com/HeaderAndFooter/ColumnFooter/) 
 * [Expression Overview](http://demo.realgrid.com/Demo/ExpressionConcept) 

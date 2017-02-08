@@ -50,7 +50,6 @@ tags:
 
 #### Demo Links
 
-* [Renderer Demo](http://demo.realgrid.net/Demo/RendererConcept)     
 * [Actual/Target Renderer](http://demo.realgrid.com/Series/ActualTargetRenderer/)     
 * [Bar Cell Renderer](http://demo.realgrid.com/Renderer/BarCellRenderer/)     
 * [Barcode Cell Renderer](http://demo.realgrid.com/Renderer/BarcodeCellRenderer/)     

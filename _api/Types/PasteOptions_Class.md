@@ -142,4 +142,4 @@ gridView.setPasteOptions({ checkReadOnly: true })
 
 #### Demo Links
 
-* [Copy & Paste](http://demo.realgrid.net/Demo/CopyAndPaste){:target="_blank"}
+* [Copy & Paste](http://demo.realgrid.com/Editing/CopyAndPaste/){:target="_blank"}

@@ -1165,7 +1165,7 @@ function savadataAll(urlStr) {
         {updated: Array[0], deleted: Array[0], created: Array[0], createAndDeleted: Array[0]} 형식으로 가져올수 있습니다.
           
 
-        *자세한 내용은 [http://demo.realgrid.net/Demo/RowState](http://demo.realgrid.net/Demo/RowState) 페이지를 참조해주세요.
+        *자세한 내용은 [http://demo.realgrid.com/Editing/RowStates](http://demo.realgrid.com/Editing/RowStates/) 페이지를 참조해주세요.
 <pre class="prettyprint">
 $.ajax({
         headers : {

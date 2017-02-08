@@ -85,4 +85,4 @@ var columns = [{
 
 #### Demo Links
 
-* [Popup Menu Demo](http://demo.realgrid.net/Demo/PopupMenu) 
+* [Popup Menu Demo](http://demo.realgrid.com/CellComponent/PopupMenu/) 

@@ -27,4 +27,4 @@ Column grouping 은 그리드나 트리의 컬럼을 다양한 방식으로 배�
 
 #### Demo Links
 
-* [Column Grouping Demo](http://demo.realgrid.net/Demo/ColumnGrouping) 참조  
+* [Column Grouping Demo](http://demo.realgrid.com/Columns/ColumnGrouping/) 참조  

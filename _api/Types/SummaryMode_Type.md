@@ -38,5 +38,5 @@ tags:
 
 #### Demo Links
 
-* [Column Footer Demo](http://demo.realgrid.net/Demo/ColumnFooter)  
-* [Row Grouping Demo](http://demo.realgrid.net/Demo/RowGrouping)
+* [Column Footer Demo](http://demo.realgrid.com/HeaderAndFooter/ColumnFooter/)  
+* [Row Grouping Demo](http://demo.realgrid.com/RowGroup/RowGrouping/)

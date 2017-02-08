@@ -122,4 +122,4 @@ gridView.setSortingOptions({
 
 #### Demo Links
 
-* [Column Sorting](http://demo.realgrid.net/Demo/ColumnSorting)
+* [Column Sorting](http://demo.realgrid.com/Columns/ColumnSorting/)

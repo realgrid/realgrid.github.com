@@ -20,7 +20,7 @@ tags:
 
 #### Demo Links
 
-* [Paging Demo](http://demo.realgrid.net/Demo/PagingOverview)  
+* [Paging Demo](http://demo.realgrid.com/Paging/paging1/)  
 
 #### API Links
 

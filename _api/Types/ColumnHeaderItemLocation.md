@@ -91,5 +91,5 @@ gridView.setColumns(columns);
 
 #### Demo Links 
 
-* [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox) 
-* [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage)
+* [Column HeaderCheckbox](http://demo.realgrid.com/HeaderAndFooter/HeaderCheckbox/) 
+* [Column HeaderImage](http://demo.realgrid.com/HeaderAndFooter/HeaderImage/)

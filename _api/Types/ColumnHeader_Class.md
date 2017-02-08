@@ -161,7 +161,7 @@ gridView.setColumns(columns);
 
 #### Demo Links 
 
-* [Column HeaderCheckbox](http://demo.realgrid.net/Demo/HeaderCheckbox)   
-* [Column HeaderImage](http://demo.realgrid.net/Demo/HeaderImage)  
-* [Column HeaderSubText](http://demo.realgrid.net/Demo/HeaderSubText)  
-* [Column HeaderHeight](http://demo.realgrid.net/Demo/HeaderHeight)  
+* [Column HeaderCheckbox](http://demo.realgrid.com/HeaderAndFooter/HeaderCheckbox/)   
+* [Column HeaderImage](http://demo.realgrid.com/HeaderAndFooter/HeaderImage/)  
+* [Column HeaderSubText](http://demo.realgrid.com/HeaderAndFooter/HeaderSubText/)  
+* [Column HeaderHeight](http://demo.realgrid.com/HeaderAndFooter/HeaderHeight/)  

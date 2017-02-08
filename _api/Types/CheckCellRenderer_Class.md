@@ -134,5 +134,5 @@ gridView.setColumns(columns);
 
 #### Demo Links 
 
-* [Check Cell Renderer](http://demo.realgrid.net/Demo/CheckCellRenderer) 
+* [Check Cell Renderer](http://demo.realgrid.com/Renderer/CheckCellRenderer/) 
 

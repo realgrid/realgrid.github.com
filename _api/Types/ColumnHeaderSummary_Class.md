@@ -73,4 +73,4 @@ tags:
 
 #### Demo Links 
 
-* [Column HeaderSummary](http://demo.realgrid.net/Demo/HeaderSummary)   
+* [Column HeaderSummary](http://demo.realgrid.com/HeaderAndFooter/HeaderSummary/)   
