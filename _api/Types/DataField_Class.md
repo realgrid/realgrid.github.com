@@ -93,10 +93,12 @@ tags:
 > **calculateExpression**   
 > Type: string   
 > Calculate Field로 사용할 경우 사용될 수식을 지정한다. values['필드명'], values[필드인덱스]로 참조한다.  
+> 수식에 다른 Calc Field의 참조 허용하지 않습니다.  
 
 > **calculateCallback**   
 > Type: function   
 > Calculate Field로 사용할 경우 사용될 수식을 지정한다. 해당 필드에서 계산될 Function 을 지정한다.  
+> 수식에 다른 Calc Field의 참조 허용하지 않습니다.
 
 > **comparer**   
 > Type: function   
