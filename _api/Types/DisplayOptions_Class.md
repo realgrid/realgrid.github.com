@@ -88,10 +88,16 @@ tags:
 > 최소 수평 스크롤 크기를 픽셀 단위로 지정한다.       
 > RealGridJS만 지원  
 
+> **showEmptyMessage**   
+> Type: Boolean  
+> Default: false  
+> 데이터가 없을 경우 그리드에 메시지 표시 여부를 지정한다.    
+> RealGridJS만 ver 1.1.22부터 지원된다.  
+
 > **emptyMessage**   
 > Type: String  
 > Default: "Load data..."     
-> 그리드에 표시되는 컬럼이 하나도 없을 때 표시되는 문자열을 지정한다.   
+> 그리드에 표시되는 내용이 한건도 없을 때 표시되는 문자열을 지정한다.   
 
 > **heightMeasurer**   
 > Type: String  
@@ -187,6 +193,18 @@ tags:
 > Default: false    
 > true로 설정하면 행 높이를 개별로 조절할 수 있다.       
 > RealGridJS만 ver 1.1.21부터 지원된다.   
+
+> **rowFocusVisible**   
+> Type: Boolean  
+> Default: true  
+> 행 포커스의 보임 여부를 지정한다.  
+> RealGridJS만 ver 1.1.22부터 지원된다.
+
+> **rowFocusBackground**   
+> Type: String  
+> Default:   
+> 행 포커스의 배경 색상을 지정한다.  
+> RealGridJS만 ver 1.1.22부터 지원된다.
 
 #### Examples   
 
