@@ -18,16 +18,16 @@ tags:
 
 #### Syntax
 
-> function getColumnHeaderOptions()
+> function getColumnHeaderOptions()  
 
-#### Parameters
+#### Parameters  
 
-> none 
+> none   
 
-#### Return value
+#### Return value  
 
-> Type: Object  
-> [ColumnHeaderOptions](/api/types/ColumnHeaderOptions/) 클래스와 동일한 내용의 객체가 반환된다.
+> Type: Object    
+> [ColumnHeaderOptions](/api/types/ColumnHeaderOptions/) 클래스와 동일한 내용의 객체가 반환된다.  
 
 #### Examples 
 
