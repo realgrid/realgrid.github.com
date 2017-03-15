@@ -24,7 +24,7 @@ tags:
 > **columnsOnly**  
 > Type: Boolean  
 > Default: false  
-> true면 컬럼 그룹들을 포함한 모든 컬럼들의 이름을 가져온다.   
+> false면 컬럼 그룹들을 포함한 모든 컬럼들의 이름을 가져온다.   
 
 #### Return value
 
