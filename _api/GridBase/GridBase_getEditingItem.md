@@ -44,5 +44,5 @@ if (editItem) {
 #### API Links
 
 * [setValue](/api/GridBase/setValue)
-* [getValue](/api/GridView/getValue)
+* [getValue](/api/GridBase/getValue)
 * [getValues](/api/GridBase/getValues)
