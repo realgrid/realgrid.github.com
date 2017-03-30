@@ -56,7 +56,7 @@ gridView.onRowsDeleting = function (grid, rows) {
 
 #### API Links
 
-* [getValues](/api/GridBase/getValues)
+* [getValues](/api/GridView/getValues)
 
 #### Demo Links
 

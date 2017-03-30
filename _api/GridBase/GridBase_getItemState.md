@@ -43,4 +43,4 @@ consloe.log(grdMain.getItemState(idx));
 
 #### API Links
 
-* [getRowState](/api/dataProvider/getRowState)
+* [getRowState](/api/DataProvider/getRowState)

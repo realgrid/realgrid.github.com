@@ -53,7 +53,7 @@ gridView.onScrollToBottom =  function (grid) {
 #### API Links
 
 * [DataFillOptions](/api/types/DataFillOptions/)
-* [fillJsonData](/api/GridBase/fillJsonData)
+* [fillJsonData](/api/LocalDataProvider/fillJsonData)
 
 #### Demo Links
 

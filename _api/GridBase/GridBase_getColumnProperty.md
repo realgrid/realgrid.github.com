@@ -29,6 +29,11 @@ tags:
 > Type: String  
 > 속성이름  
 
+> **extend**  
+> Type: Boolean   
+> 확장정보 포함 여부, 현재 styles에만 적용되며 false 지정시 개발자가 지정한 속성만 표시된다.   
+> RealGridJS 1.1.23 부터 지원     
+
 #### Return value
 
 > Type: Object  

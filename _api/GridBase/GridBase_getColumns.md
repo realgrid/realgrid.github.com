@@ -1,4 +1,3 @@
-
 ---
 layout: apipost
 title: getColumns
@@ -43,14 +42,14 @@ gridView.setColumns(columns);
 ////
 ....
 ////
-gridVIew.getColumns();
+gridView.getColumns();
 </pre>
 
 ---
 
 #### API Links
 
-* [setColumns](/api/GridBase/getColumns)
+* [setColumns](/api/GridBase/setColumns)
 
 #### Demo Links
 

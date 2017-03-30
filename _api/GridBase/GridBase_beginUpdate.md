@@ -4,7 +4,7 @@ title: beginUpdate
 part: Objects
 objectname: GridBase
 directiontype: Function
-permalink: /api/GridViewBase/beginUpdate/
+permalink: /api/GridBase/beginUpdate/
 tags:
   - event
 ---

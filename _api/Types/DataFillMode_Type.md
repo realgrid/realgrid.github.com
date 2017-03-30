@@ -70,4 +70,3 @@ dataProvider.fillJsonData(data, {
 
 * [LoadJsonData](http://demo.realgrid.com/FillData/LoadJsonData/)  
 * [LazyLoadData](http://demo.realgrid.com/FillData/LazyLoading/)  
-* [PagingLazyLoading2](http://demo.realgrid.com/Demo/PagingLazyLoading2)

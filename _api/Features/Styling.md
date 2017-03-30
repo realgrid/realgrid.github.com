@@ -24,4 +24,4 @@ RealGrid는 프로젝트에서 요구하는 디자인 컨셉트와 동일한 스
 
 #### Demo Links
 
-* [StylesRegions](http://demo.realgrid.com/Demo/StylesRegions)
+* [StylesRegions](http://demo.realgrid.com/GridStyle/StyleRegions/)

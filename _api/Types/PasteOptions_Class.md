@@ -123,7 +123,14 @@ tags:
 > **checkDomainOnly**  
 > Type: boolean  
 > Default: false  
-> true이면 DropDown Editor의 domainOnly가 true인 컬럼에 붙여넣기 할때 values에 없는 값은 붙여넣기 되지 않는다.    
+> true이면 DropDown Editor의 domainOnly가 true인 컬럼에 붙여넣기 할때 values에 없는 값은 붙여넣기 되지 않는다.  
+
+> **applyNumberFormat**  
+> Type: boolean  
+> Default: false  
+> true이면 붙여넣기시 editFormat이 있으면 editFormat 형태로, 없으면 styles.numberFormat 형태로 붙여넣기 된다.  
+> RealGridJS 1.1.23 부터 지원된다.     
+  
 
 #### Examples
 

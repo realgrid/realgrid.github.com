@@ -43,4 +43,4 @@ gridView.OnSelectionEnded =  function (grid) {
 
 #### API Links
 
-* [onSelectionChanged](/api/GridBase/onSelectionChagned)
+* [onSelectionChanged](/api/GridBase/onSelectionChanged)

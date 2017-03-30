@@ -112,4 +112,3 @@ dataProvider.fillCsvData(data, { tree:"tree", icon:"icon", quoted:true,  start:1
 * [Tree Load Json Array DataSet](http://demo.realgrid.com/Tree/TreeJsonDataSet/)  
 * [Tree Load CSV DataSet](http://demo.realgrid.com/Tree/TreeCsvDataSet/)
 * [LazyLoadData](http://demo.realgrid.com/FillData/LazyLoading/)  
-* [PagingLazyLoading2](http://demo.realgrid.com/Demo/PagingLazyLoading2)  

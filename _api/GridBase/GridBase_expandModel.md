@@ -52,7 +52,7 @@ gridView.expandModel(aModel, true, true);
 
 #### API Links
 
-* [getModel](/api/GridBase/GetModel)
+* [getModel](/api/GridBase/getModel)
 * [getParentModel](/api/GridBase/getParentModel)
 * [collapseModel](/api/GridBase/expandModel)  
 
