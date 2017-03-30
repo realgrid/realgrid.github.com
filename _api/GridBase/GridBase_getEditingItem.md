@@ -45,4 +45,4 @@ if (editItem) {
 
 * [setValue](/api/GridBase/setValue)
 * [getValue](/api/GridBase/getValue)
-* [getValues](/api/GridBase/getValues)
+* [getValues](/api/GridView/getValues)
