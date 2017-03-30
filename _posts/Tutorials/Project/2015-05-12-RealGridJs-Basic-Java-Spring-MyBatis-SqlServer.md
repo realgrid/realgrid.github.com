@@ -71,8 +71,7 @@ RealGrid의 core 라이브러리 파일인 realgridjs.js파일을 웹 페이지�
 그리드의 라이선스 키는 “dlgrids_eval.js” 파일에 암호화되어 저장되어 있습니다.  
 
 > <mark>주의사항</mark>  
-> dlgrids_eval.js파일은 RealGridJS 1.0.9 버전까지 사용된 파일명으로 1.0.11버전부터 파일명이 변경되었습니다.  
-> 1.0.9버전을 1.0.11버전 이상으로 업그레이드 하는 방법은 튜토리얼 [A1-1](/tutorial/a1-1/)페이지를 참조해 주시기 바랍니다.  
+> dlgrids_eval.js파일은 RealGridJS 1.0.9 버전까지 사용된 파일명으로 1.0.11버전부터 파일명이 변경되었습니다.   
         
 
 **default.jsp**  
