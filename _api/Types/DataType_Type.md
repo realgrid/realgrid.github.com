@@ -56,5 +56,5 @@ dataProvider.setFields(fields);
 
 #### API Links
 
-* [DataField](/api/DataProvider/DataField)    
+* [DataField](/api/types/DataField)    
 * [setFields](/api/DataProvider/setFields/)   
