@@ -37,4 +37,4 @@ var icon = treeProvider.getIconIndex(2);
 
 #### Demo Links
 
-* [Lazy Loading Csv](http://demo.realgrid.net/Demo/TreeLazyLoading2){:target="_blank"} 
+* [Lazy Loading Csv](http://demo.realgrid.com/Tree/TreeLazyLoading){:target="_blank"} 

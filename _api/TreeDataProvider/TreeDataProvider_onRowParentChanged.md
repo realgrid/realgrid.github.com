@@ -59,4 +59,4 @@ treeProvider.onRowParentChanged = function (provider, rowId, parentId, childInde
 
 #### Demo Links
 
-* [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"} 
+* [Tree Move Row](http://demo.realgrid.com/Tree/TreeNodeControl){:target="_blank"} 

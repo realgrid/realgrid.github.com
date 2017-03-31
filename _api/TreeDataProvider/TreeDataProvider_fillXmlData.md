@@ -73,4 +73,4 @@ $.ajax({
 
 #### Demo Links
 
-* [TreeView Load Xml](http://demo.realgrid.net/Demo/TreeLoadXmlData){:target="_blank"}    
+* [TreeView Load Xml](http://demo.realgrid.com/Tree/TreeXmlDataSet){:target="_blank"}    

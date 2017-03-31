@@ -55,4 +55,4 @@ if (group) {
 
 #### Demo Links
 
-* [ItemModelApi](http://demo.realgrid.com/Demo/ItemModelApi){:target="_blank"}
+* [ItemModelApi](http://demo.realgrid.com/RowGroup/ItemModelApi){:target="_blank"}

@@ -45,4 +45,4 @@ dataProvider.onRowsDeleted = function (provider, rowIds) {
 
 #### Demo Links
 
-* [TreeView Editing](http://demo.realgrid.net/Demo/TreeEditing){:target="_blank"}
+* [TreeView Editing](http://demo.realgrid.com/Tree/TreeEditing){:target="_blank"}

@@ -9,7 +9,7 @@ version: 1.1.12
 
 1. 이전 릴리즈 중 그리드가 DataProvider의 client로 등록되는 루틴에 문제 포함. client가 편집 중일 때 DataProvider에 변경이 생기면 **"Client is editing" 에러**가 발생해야 함.  
      <span style="color:Red">DataProvider 함수들을 직접 호출해서 데이터를 변경할 때는, 반드시 먼저 그리드의 **commit()**이나 **cancel()**를 호출해서 편집을 먼저 완료해야 함.</span> [Set Values](http://demo.realgrid.com/Demo/SetValues) 페이지 확인. [Add Data Row](http://demo.realgrid.com/Demo/AddDataRow) 등에서 편집 중 데이터 변경 테스트.
-2. 입력 값의 범위에 제한을 줄 수 있는 [Subtype](http://demo.realgrid.com/Demo/Subtypes) 개념 및 구현 추가.
+2. 입력 값의 범위에 제한을 줄 수 있는 [Subtype](http://demo.realgrid.com/DataManager/Subtypes) 개념 및 구현 추가.
 3. GridView.groupBy(null)이나 groupBy([]) 로 호출하면 row 그룹핑 해제.
 4. 그리드의 setColumn() 함수로 현재 포커스를 가진 셀 컬럼의 **readOnly**, **editable**을 변경할 수 있도록 개선.
 5. 그리드의 fitStyle이 "none"이 아닐 때 **setColumn()** 호출하면 해당 컬럼의 너비가 조금씩 줄어드는 문제 개선.

@@ -67,4 +67,4 @@ treeView.checkChildren(0,true,true,false); // 0번째 부모행의 모든 자식
 
 #### Demo Links
 
-* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"}    
+* [TreeView CheckBar Demo](http://demo.realgrid.com/Tree/TreeCheckBox){:target="_blank"}    

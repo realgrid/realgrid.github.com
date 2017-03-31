@@ -56,4 +56,4 @@ else {
 
 #### Demo Links
 
-* [ItemMoelApi](http://demo.realgrid.com/Demo/ItemModelApi)
+* [ItemMoelApi](http://demo.realgrid.com/RowGroup/ItemModelApi)

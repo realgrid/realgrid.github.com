@@ -52,5 +52,4 @@ treeProvider.changeRowParent(10, 40, 0);
 ---
 
 #### Demo Links
-
-* [TreeView Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"}    
+  

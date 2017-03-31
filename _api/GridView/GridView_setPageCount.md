@@ -39,4 +39,4 @@ tags:
 
 #### Demo Links
 
-* [Paging](http://demo.realgrid.com/Demo/PagingLazyLoading){:target="_blank"}
+* [Paging](http://demo.realgrid.com/Paging/paging1){:target="_blank"}

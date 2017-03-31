@@ -50,4 +50,4 @@ treeView.checkRows([2,3,4],true);
 
 #### Demo Links
 
-* [TreeView CheckBar Demo](http://demo.realgrid.net/Demo/TreeCheckBar){:target="_blank"}    
+* [TreeView CheckBar Demo](http://demo.realgrid.com/Tree/TreeCheckBox){:target="_blank"}    

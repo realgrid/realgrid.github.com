@@ -37,4 +37,4 @@ var rows = treeProvider.getDescendants(3);
 
 #### Demo Links
 
-* [TreeView Data Model](http://demo.realgrid.net/Demo/TreeDataModel){:target="_blank"}
+* [TreeView Data Model](http://demo.realgrid.com/Tree/TreeDataModel/){:target="_blank"}

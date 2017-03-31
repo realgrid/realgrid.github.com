@@ -52,5 +52,3 @@ gridView.getCellStyle(4, 1);
 ---
 
 #### Demo Links
-
-* [DataCellStyle Demo](http://demo.realgrid.com/Demo/DataCellStyleConcept)

@@ -7,7 +7,7 @@ product: flash
 version: 1.1.18
 ---
 
-1. **DisplayOptions.parentChangable**을 true로 지정하여 Drag and drop으로 이동하여 컬럼의 부모를 변경 가능. (단, 그룹내에 하나의 컬럼만 있는 경우 이동 불가) [Column Moving](http://demo.realgrid.com/Demo/ColumnMoving) 페이지를 참조.
+1. **DisplayOptions.parentChangable**을 true로 지정하여 Drag and drop으로 이동하여 컬럼의 부모를 변경 가능. (단, 그룹내에 하나의 컬럼만 있는 경우 이동 불가) [Column Moving](http://demo.realgrid.com/Columns/ColumnMoving) 페이지를 참조.
 2. 컬럼 필터의 expression에 다른 컬럼와의 비교를 위해 values 변수 추가. [Column Filtering](http://demo.realgrid.com/Columns/ColumnFiltering/) 페이지를 참조.
 3. CheckBar의 행별 checkable 제어를 위해 **isCheckable**, **setCheckable**함수 추가. 수식에 의해 checkable을 제어하기 위해 **CheckBarOptions.checkableExpression** 속성과 **applyCheckables**, **setCheckableExpression**, **resetCheckables**함수 추가. [CheckBar](http://demo.realgrid.com/GridComponent/CheckBar/) 페이지를 참조.
 4. csv 데이터의 필드 구분자를 지정할 수 있는 **DataLoadOptions.delimiter**속성 추가. ("|" "\t"등, 기본값은 ",")

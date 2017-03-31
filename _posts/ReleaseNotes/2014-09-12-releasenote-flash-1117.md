@@ -7,7 +7,7 @@ product: flash
 version: 1.1.17
 ---
 
-1. Model정보 가져오는 함수들에 extended 매개변수 추가, extended가 true이면 level, childIndex등의 계층정보 추가 [Item Model API](http://demo.realgrid.com/Demo/ItemModelApi) 페이지 참조.
+1. Model정보 가져오는 함수들에 extended 매개변수 추가, extended가 true이면 level, childIndex등의 계층정보 추가 [Item Model API](http://demo.realgrid.com/RowGroup/ItemModelApi) 페이지 참조.
 2. 컬럼 우측 경계 더블클릭하면 Column 크기를 Data에 맞추는 기능과 동일한 **fitColumnWidth** 함수 추가  
      column매개변수에 Column Group 또는 DataColumn에 해당하는 object나 name을 전달할 수 있습니다.
 3. TreeDataProvider에 편집 관련 **addTreeDataRow**, **insertTreeDataRow**, **removeRows** 함수 추가
@@ -15,7 +15,7 @@ version: 1.1.17
 5. TreeView에서 자식 행의 건수를 가져오는 **getChildCount**와 모든 자손 행의 건수를 가져오는 **getDescendantCount** 함수 추가
 6. GridBase.CheckBarOptions에 전체선택 여부 showAll, Group Row의 Check 여부 showGroup 옵션 추가, 기본은 true
 7. TreeView에서 softDeleting일 때 부모 행을 삭제시 자식 행이 같이 삭제 되도록 하는 DataProvider.Options.changeDescendants 옵션 추가
-8. TreeView에서 자식 행을 가져오는 **getChildren**등의 함수와 addTreeDataRow, insertTreeDataRow의 함수에서 **rowId**를 -1(보이지 않는 최상위 Level Row)로 지정할 수 있도록 개선 [TreeView DataModel](http://demo.realgrid.com/Demo/TreeDataModel) 페이지 참조.
+8. TreeView에서 자식 행을 가져오는 **getChildren**등의 함수와 addTreeDataRow, insertTreeDataRow의 함수에서 **rowId**를 -1(보이지 않는 최상위 Level Row)로 지정할 수 있도록 개선 [TreeView DataModel](http://demo.realgrid.com/Tree/TreeDataModel) 페이지 참조.
 9. setCurrent함수에서 selected 매개변수 추가, selected가 false일 때 selection이 해제되지 않도록 개선
 10. checkRow 호출 시, 보이지 않는 행의 경우 check가 변경되지 않는 문제 해결
 11. TreeView에서 icon이 없을 때 하위 Level Row과의 연결선이 제대로 그려지지 않는 문제 해결

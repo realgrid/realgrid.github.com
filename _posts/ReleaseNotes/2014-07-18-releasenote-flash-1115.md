@@ -27,7 +27,7 @@ version: 1.1.15
 17. 하나의 cell만 선택된 경우 사용자 삭제 시 onRowsDeleting event 발생 시점과 매개변수 문제 개선.
 18. 고정 컬럼에서 필터 리스트 표시 위치 문제 개선.
 19. LocalDataProvider가 softdeleting이고 deleteCreated 일때 상태가 RowState.CREATED 인 복수행 삭제시, rowEvents가 false일 때도 개별 삭제 이벤트 발생하는 문제 개선.
-20. 아이템 모델 함수들 공개. [Item Model Api](http://demo.realgrid.com/Demo/ItemModelApi) 페이지 참조.
+20. 아이템 모델 함수들 공개. [Item Model Api](http://demo.realgrid.com/RowGroup/ItemModelApi) 페이지 참조.
 21. Row Grouping 관련 함수들 추가. [Row Grouping Api](http://demo.realgrid.com/RowGroup/RowGrouping/Api) 페이지 참조.
 22. DataProvider에 개별 삭제 이벤트 추가. removeRow()가 호출되거나, removeRows()의 rowEvents가 true로 호출되면 onRowsDeleted 대신 onRowDelete 이벤트 발생.
 23. 그리드의 setCellStyles로 DataCellStyle 적용시, 컬럼 스타일이나 동적 스타일로 적용한 값들이 초기화되는 문제 개선.

@@ -15,7 +15,7 @@ tags:
 #### Description
 
  그리드 컬럼에 filter를 설정한다.  
- 사용가능한 Operator와 variables는 [Expression](http://demo.realgrid.com/Demo/ExpressionConcept) 참조
+ 사용가능한 Operator와 variables는 [Expression](http://help.realgrid.com/api/features/Expression/) 참조
 
 #### Syntax
 
@@ -64,4 +64,4 @@ gridView.setColumns([
 
 #### Demo Links
 
-* [Expression](http://demo.realgrid.com/Demo/ExpressionConcept)
+* [Expression](http://help.realgrid.com/api/features/Expression/)

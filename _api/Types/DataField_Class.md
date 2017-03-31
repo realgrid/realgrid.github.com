@@ -181,4 +181,4 @@ dataProvider.setFields(fields);
 * [Data Type](http://demo.realgrid.com/DataManager/DataType/) 
 * [Boolean Field](http://demo.realgrid.com/DataManager/BooleanField/) 
 * [Datetime Field](http://demo.realgrid.com/DataManager/DatetimeField/) 
-* [Subtypes](http://demo.realgrid.com/Demo/Subtypes)
+* [Subtypes](http://demo.realgrid.com/DataManager/Subtypes)

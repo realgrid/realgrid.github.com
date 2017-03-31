@@ -224,5 +224,3 @@ $("#button1").click(function(){
 ---
 
 #### Demo Links
-
-* [LoadFilter](http://demo.realgrid.com/Demo/LoadFilter){:target="_blank"}

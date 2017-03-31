@@ -157,5 +157,5 @@ dataProvider.setRows(datas);
 
 #### Demo Links
 
-* [MultiCheckCellEditor](http://demo.realgrid.com/Demo/MultiCheckCellEditor)  
-* [CSS Styles](http://demo.realgrid.com/Demo/CssStyles)  
+* [MultiCheckCellEditor](http://demo.realgrid.com/Editing/MultiCheckCellEditor)  
+* [CSS Styles](http://demo.realgrid.com/GridStyle/CSSStyles)  

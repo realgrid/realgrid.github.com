@@ -14,8 +14,8 @@ version: 1.1.7
 4. DataField.**header** 속성 추가. 이 값을 RowGroup header 등에서 사용할 수 있음.
 5. Indicator cell을 클릭했을 때 행이 선택되지 않도록 하는 Indicator.**selectable** 옵션 추가. [Indicator](http://demo.realgrid.com/GridComponent/Indicator/) 페이지 참조.
 6. EditOptions.**validateOnExit**를 true로 하면 편집하지 않은 경우에도 셀을 벗어날 때 Column Validation이 실행됨.
-7. DataProvider에 getValue, setValue 함수 추가. [Get Values](http://demo.realgrid.com/Demo/GetValues) 페이지 추가.
-8. DataProvider에 한 필드의 여러행 값을 가져오는 getFieldValues 함수 추가. [Get Values](http://demo.realgrid.com/Demo/GetValues) 페이지 추가.
+7. DataProvider에 getValue, setValue 함수 추가. [Get Values](http://demo.realgrid.com/DataManager/GetValues) 페이지 추가.
+8. DataProvider에 한 필드의 여러행 값을 가져오는 getFieldValues 함수 추가. [Get Values](http://demo.realgrid.com/DataManager/GetValues) 페이지 추가.
 9. 그리드 내부에서 표시하던 Validation 에러 등을 javascript excpetion으로 throw 하도록 변경하였습니다.
 10. 데이터셀의 포커스 이동을 셀 단위로 변경.
 11. TreeView에서 불필요한 Line이 그려지는 문제 수정.

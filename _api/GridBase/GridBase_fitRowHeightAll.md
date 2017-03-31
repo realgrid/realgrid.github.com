@@ -56,4 +56,4 @@ gridView.fitRowHeightAll(100,true);
 
 #### Demo Links
 
-* [fitRowHeight](http://demo.realgrid.com/Demo/fitRowHeight)
+* [fitRowHeight](http://demo.realgrid.com/Columns/FitRowHeight)

@@ -72,4 +72,4 @@ $.ajax({
 
 #### Demo Links
 
-* [TreeView Load Json](http://demo.realgrid.net/Demo/TreeLoadJsonData){:target="_blank"}    
+* [TreeView Load Json](http://demo.realgrid.com/Tree/TreeJsonDataSet){:target="_blank"}    

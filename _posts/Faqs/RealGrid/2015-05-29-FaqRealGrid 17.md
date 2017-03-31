@@ -20,7 +20,7 @@ A컬럼의 값과 B컬럼 값의 합을 footer에 표시하고 싶습니다.
 
 # A.
 
-Footer에 들어갈수 있는 수식은 [ExpressionConcept](http://demo.realgrid.net/Demo/ExpressionConcept) 을 참조하시기 바랍니다.  
+Footer에 들어갈수 있는 수식은 [Expression](http://help.realgrid.com/api/features/Expression/) 을 참조하시기 바랍니다.  
 다른 컬럼에 있는 정보를 가져와서 Footer의 수식으로 사용할수는 없습니다.  
 특정컬럼의 Sum, Count, Avg등을 가져오는 API는 존재합니다.  
 

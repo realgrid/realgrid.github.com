@@ -44,5 +44,3 @@ gridView.clearCellStyles();
 * [setCellStyles](/api/GridBase/setCellStyles) 
 
 #### Demo Links
-
-* [DataCellStyle Demo](http://demo.realgrid.com/Demo/DataCellStyleConcept)

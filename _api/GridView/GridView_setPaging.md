@@ -58,4 +58,4 @@ tags:
 
 #### Demo Links
 
-* [PagingOverview](http://demo.realgrid.com/Demo/PagingOverview){:target="_blank"}
+* [PagingOverview](http://demo.realgrid.com/Paging/paging1){:target="_blank"}

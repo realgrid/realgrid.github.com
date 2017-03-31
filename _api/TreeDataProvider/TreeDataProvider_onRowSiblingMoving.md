@@ -58,4 +58,4 @@ treeProvider.onRowSiblingMoving = function (provider, rowId, delta) {
 
 #### Demo Links
 
-* [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"} 
+* [Tree Move Row](http://demo.realgrid.com/Tree/TreeNodeControl){:target="_blank"} 

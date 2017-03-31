@@ -42,4 +42,4 @@ var values = gridView.getValues(0);
 
 #### Demo Links
 
-* [GetValues](http://demo.realgrid.com/Demo/GetValues){:target="_blank"} 
+* [GetValues](http://demo.realgrid.com/DataManager/GetValues){:target="_blank"} 

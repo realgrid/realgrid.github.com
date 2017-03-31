@@ -82,24 +82,61 @@ tags:
 > Default: null  
 > foot 영역에 표시할 이미지의 Url을 지정한다.  
 
+> **stateStyles**       
+> Type: Object  
+> Default: null  
+> 행 상태에 따른 스타일을 지정한다.  
+> RealGridJS 1.1.23 부터 지원한다.  
+
+
 #### Examples   
 
 <pre class="prettyprint">
+//ex1
 var options = {
-      checkableExpression: "state = 'c'"
-      checkableOnly: true,
-      exclusive: false,
-      showAll: true,
-      showGroup: true,
-      visible: true,
-      visibleOnly: false,
-      width: 20,
-      headText: "head",
-      footText: "foot",
-      headImageUrl: "/img/common/dot_arrow2_top.gif",
-      footImageUrl: "/img/common/dot_arrow2_bottom.gif"
+  checkableExpression: "state = 'c'"
+  checkableOnly: true,
+  exclusive: false,
+  showAll: true,
+  showGroup: true,
+  visible: true,
+  visibleOnly: false,
+  width: 20,
+  headText: "head",
+  footText: "foot",
+  headImageUrl: "/img/common/dot_arrow2_top.gif",
+  footImageUrl: "/img/common/dot_arrow2_bottom.gif"
 }
 gridView.setCheckBar(options);
+
+//ex2
+var options = {
+  mark:"text",
+  styles: {font: "나눔고딕코딩"},
+  stateStyles: { 
+    updated: {
+      background: "#FF00FF00", 
+      font: "나눔고딕코딩"
+    },
+    created: {
+      background: "#44FF22FF", 
+      figureBackground: "#88888888", 
+      font: "굴림체"
+    },
+    deleted: {
+      background: "#44000000", 
+      foreground: "#FF88FF88", 
+      font: "바탕체"
+    },
+    createAndDeleted: {
+      background: "#44FFFF00", 
+      foreground: "#FF88FF88", 
+      font: "바탕체"
+    }
+}
+
+gridView.setCheckBar(options);
+
 </pre>
 
 ---

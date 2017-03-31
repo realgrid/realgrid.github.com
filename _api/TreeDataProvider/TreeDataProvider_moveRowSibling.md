@@ -45,4 +45,4 @@ treeProvider.moveRowSibling(10, -1);  //rowId가 10인 행을 같은 레벨의 �
 
 #### Demo Links
 
-* [Tree Move Row](http://demo.realgrid.net/Demo/TreeMoveRow){:target="_blank"}   
+* [Tree Move Row](http://demo.realgrid.com/Tree/TreeNodeControl){:target="_blank"}   

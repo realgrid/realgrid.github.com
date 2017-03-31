@@ -252,5 +252,3 @@ $("#button1").click(function(){
 ---
 
 #### Demo Links
-
-* [AddMultiRows](http://demo.realgrid.com/Demo/AddMultiRows){:target="_blank"}

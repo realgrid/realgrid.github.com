@@ -58,5 +58,3 @@ gridView.setCellStyles([6,7,8,9], [2,3,4,5,6], "style03");
 * [addCellStyle](/api/GridBase/addCellStyle)
 
 #### Demo Links
-
-* [DataCellStyle Overview](http://demo.realgrid.com/Demo/DataCellStyleConcept)

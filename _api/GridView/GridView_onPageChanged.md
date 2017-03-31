@@ -44,4 +44,4 @@ gridView.onPageChanged =  function (grid, page) {
 
 #### Demo Links
 
-* [PagingLazyLoading](http://demo.realgrid.com/Demo/PagingLazyLoading){:target="_blank"}
+* [PagingLazyLoading](http://demo.realgrid.com/Paging/paging1){:target="_blank"}

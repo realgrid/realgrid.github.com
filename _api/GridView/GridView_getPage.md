@@ -38,4 +38,4 @@ var page = gridView.getPage();
 
 #### Demo Links
 
-* [Paging](http://demo.realgrid.com/Demo/PagingRealtime){:target="_blank"}
+* [Paging](http://demo.realgrid.com/Paging/paging1){:target="_blank"}

@@ -50,4 +50,4 @@ if (model && model.type==="group") {
 
 #### Demo Links
 
-* [ItemModel Demo](http://demo.realgrid.com/Demo/ItemModelApi)
+* [ItemModel Demo](http://demo.realgrid.com/RowGroup/ItemModelApi)

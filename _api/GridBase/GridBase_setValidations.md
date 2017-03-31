@@ -60,4 +60,4 @@ gridView.setValidations(validations);
 #### Demo Links
 
 * [EditRowValidation Demo](http://demo.realgrid.com/Validation/RowValidation/)  
-* [Expression](http://demo.realgrid.com/Demo/ExpressionConcept)
+* [Expression](http://help.realgrid.com/api/features/Expression/)

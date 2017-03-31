@@ -57,4 +57,4 @@ if (parent) {
 
 #### Demo Links
 
-* [ItemModelAPI](http://demo.realgrid.com/Demo/ItemModelApi)
+* [ItemModelAPI](http://demo.realgrid.com/RowGroup/ItemModelApi)

@@ -73,7 +73,7 @@ Shift 키를 누른 채 행을 클릭하면 클릭하기 전의 현재 행 위�
 
 [Selecting Demo](http://demo.realgrid.com/GridComponent/Selecting/)  
 [ColumnProperties Demo](http://demo.realgrid.com/Columns/ColumnProperties/)  
-[ColumnMoving Demo](http://demo.realgrid.com/Demo/ColumnMoving)  
+[ColumnMoving Demo](http://demo.realgrid.com/Columns/ColumnMoving)  
 [ColumnResizing Demo](http://demo.realgrid.com/Columns/ColumnResizing/)  
 [ColumnSorting Demo](http://demo.realgrid.com/Columns/ColumnSorting/)  
 [ColumnGrouping Demo](http://demo.realgrid.com/Columns/ColumnGrouping/)  
