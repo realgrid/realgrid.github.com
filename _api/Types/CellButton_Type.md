@@ -76,6 +76,8 @@ var columns = [{
     "imageButtons": {
         "width": 16,  // 없으면 기본값
         "height": 13,  // 없으면 기본값
+        "margin": 2,   // Cell Border와의 간격
+        "imageGap": 2, // 이미지 버튼간 간격
         "images": [{
             "name": "button1",
             "up": "assets/calendar_up.png",
