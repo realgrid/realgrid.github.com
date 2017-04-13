@@ -75,4 +75,4 @@ gridView.setColumns(columns);
 
 #### Demo Links
 
-* [Actual / Target Renderer](http://demo.realgrid.com/Series/ActualTargetRenderer/) 참조  
+
