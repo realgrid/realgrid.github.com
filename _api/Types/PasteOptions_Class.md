@@ -107,7 +107,7 @@ tags:
 
 > **noEditEvent**  
 > Type: boolean  
-> Default: true  
+> Default: false   
 > true면 onEditRowChanged, onCellEdited가 발생하지 않는다. onEditRowPasted는 지정여부와 상관없이 항상 발생한다.  
 
 > **checkReadOnly**  

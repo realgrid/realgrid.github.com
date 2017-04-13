@@ -51,8 +51,8 @@ gridView.setColumns([
         {name:"filter1",
          criteria:"value='가나다라'"},
         {name:"filter2",
-         criteria:"value='일이삼사',
-         active:true"},
+         criteria:"value='일이삼사'",
+         active:true},
         {name:"filter3",
          criteria:"value like '%가나%'"}
       ]
