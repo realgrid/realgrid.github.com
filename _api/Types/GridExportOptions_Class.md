@@ -66,7 +66,7 @@ tags:
 > **indenting**   
 > Type: boolean   
 > Default: true   
-> 행 그룹핑된 자료를 export 시 들여쓰기 여부를 지정한다.
+> 행 그룹핑 및 트리 그리드 자료를 export 시 들여쓰기 여부를 지정한다.
 
 > **showConfirm**  
 > Type:Boolean  
