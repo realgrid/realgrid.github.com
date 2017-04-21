@@ -125,6 +125,12 @@ tags:
 > Default: false  
 > true이면 DropDown Editor의 domainOnly가 true인 컬럼에 붙여넣기 할때 values에 없는 값은 붙여넣기 되지 않는다.  
 
+> **selectBlockPaste**  
+> Type: boolean  
+> Default: false  
+> true이면 하나의 셀을 복사후 여러 개의 셀에 붙여넣기 할 수 있다.(SelectOptions.sytle이 “block”인 경우만 적용된다.)      
+> RealGridJS 1.1.23 부터 지원된다.   
+
 > **applyNumberFormat**  
 > Type: boolean  
 > Default: false  

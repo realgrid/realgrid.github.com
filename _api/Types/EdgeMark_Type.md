@@ -6,6 +6,7 @@ typename: Constants
 order: EdgeMark
 objectname: 
 directiontype: 
+jsonly: true
 versions:
   - JS 1.1.23+
 permalink: /api/types/EdgeMark/
@@ -14,6 +15,8 @@ permalink: /api/types/EdgeMark/
 #### Description
 
 그리드 스타일 중 figureName의 값을 지정하는 상수다. 
+figureName에 값을 지정하면 해당 위치에 엣지마크가 표시된다.  
+figureSize는 픽셀값과 %값 형태로 지정할 수 있다.  
 
 #### Members
 
@@ -59,7 +62,7 @@ var columns = [{
         "textAlignment": "center",
         "figureName": "leftBottom", 
         "figureBackground": "#FF0000FF", 
-        "figureSize": "100%"
+        "figureSize": "7"
     },
     "header": {
         "text": "Customer ID"
