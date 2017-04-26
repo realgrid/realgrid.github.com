@@ -32,7 +32,7 @@ tags:
 > **datetimeFormat**  
 > Type: String  
 > Default: null  
-> 이 값이 지정되면 datetime 필드의 값을 복사할 때 변환 형식으로 사용된다. 지정되지 않은 경우 데이터필드에 설정된 값을 사용한다.  
+> 이 속성에 "yyyy-MM-dd" 같은 형식을 지정하면 지정한 형태로 복사가 된다.     
 
 > **booleanFormat**  
 > Type: String  
