@@ -14,7 +14,7 @@ tags:
 
 #### Description
 
- 사용자 입력이나 setValue 등 사용자 코드로 변경된 값이 행에 반영될때 발생한다.  
+ 사용자 입력으로 변경된 값이 행에 반영될때 발생한다.  
  그러나 PasteOptions.noEditEvent가 true이면 발생하지 않는다.  
 
 #### Syntax
