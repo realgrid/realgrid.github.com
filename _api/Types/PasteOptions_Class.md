@@ -21,9 +21,9 @@ tags:
 
 #### Properies
 
-> enabled
-> Type: Boolean
-> Default: true
+> **enabled**  
+> Type: Boolean  
+> Default: true  
 > false이면 붙여넣기가 되지 않는다.
 
 > **singleMode**  
