@@ -157,7 +157,13 @@ tags:
 > **applyDynamicStyles**  
 > Type: boolean  
 > Default: false  
-> DynamicStyles을 적용하여 Export할 것인지를 지정한다.     
+> DynamicStyles을 적용하여 Export할 것인지를 지정한다.   
+
+> **allColumns**   
+> Type: Boolean  
+> Default: false  
+> true로 지정하면 보이지 않는 컬럼들도 export 된다.     
+> RealGridJS만 ver 1.1.24부터 지원된다.  
 
 ### Example  
 

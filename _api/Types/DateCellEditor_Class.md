@@ -77,6 +77,18 @@ RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년,
 > 입력 마스크를 지정한다.  
 > JS ver 1.1.22부터 지원된다. 
 
+> **minDate**  
+> Type: Date | String     
+> Default: null  
+> 입력 가능한 최소 날짜를 지정한다. 키보드로 입력시 minDate보다 이전 날짜가 입력되면 minDate로 변경된다.    
+> JS ver 1.1.24부터 지원된다. 
+
+> **maxDate**  
+> Type: Date | String     
+> Default: null  
+> 입력 가능한 최대날짜를 지정한다. 키보드로 입력시 maxDate보다 이후 날짜가 입력되면 maxDate로 변경된다.    
+> RealGridJS만 ver 1.1.24부터 지원된다.   
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -96,7 +108,9 @@ gridView.setColumns([{
 	      "editMask": "9999.99.99",  
 	      "includedFormat": true,
 	      "overWrite": true 
-	    }, 	    
+	    },
+	    "minDate": new Date(),           // "2017-08-31" 같은 형태도 가능    
+	    "maxDate": new Date(2017, 7, 31) // "2017-08-31" 같은 형태도 가능	    
 	},
 	"styles": {
 	    "textAlignment": "center",

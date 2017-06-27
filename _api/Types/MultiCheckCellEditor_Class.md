@@ -116,7 +116,18 @@ tags:
 > **showButtons**   
 > Type: Boolean  
 > Default: true  
-> accept, cancel 버튼의 표시 여부를 지정한다.       
+> accept, cancel 버튼의 표시 여부를 지정한다.    
+
+> **allCheckText**   
+> Type: String  
+> Default: 'all'  
+> 모두 체크 적용하는 버튼의 문구를 지정한다.        
+
+> **showAllCheck**   
+> Type: Boolean  
+> Default: false    
+> all 의 표시여부를 지정한다.     
+> RealGridJS만 ver 1.1.24부터 지원된다.  
 
 #### Examples 
 

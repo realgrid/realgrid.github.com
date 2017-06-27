@@ -52,6 +52,13 @@ tags:
 > 지정한 수 만큼 footer가 생깁니다.  
 > RealGridJS 1.1.21 부터 지원 한다.  
 
+> **styles**  
+> Type: array of object   
+> Default: null     
+> 풋터에 적용될 스타일을 지정한다. 멀티 풋터의 경우 [{}, {}, {}] 의 형태로 지정한다.    
+> RealGridJS 1.1.24 부터 지원 한다.  
+
+
 ### Example  
 
 <pre class="prettyprint">

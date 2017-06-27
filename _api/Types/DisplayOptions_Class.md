@@ -206,6 +206,12 @@ tags:
 > 행 포커스의 배경 색상을 지정한다.  
 > RealGridJS만 ver 1.1.22부터 지원된다.
 
+> **emptyShowTooltip**   
+> Type: Boolean  
+> Default: false  
+> true로 지정하면 데이터가 없는 경우에도 [onShowTooltip()](http://help.realgrid.com/api/GridBase/onShowTooltip/) 이 발생한다.    
+> RealGridJS만 ver 1.1.24부터 지원된다.
+
 #### Examples   
 
 <pre class="prettyprint">

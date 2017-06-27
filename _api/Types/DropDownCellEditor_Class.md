@@ -95,6 +95,12 @@ tags:
 > Default: false  
 > true 인 경우 버튼이 아닌 셀 자체를 클릭해도 DropDownEditor가 펼쳐진다.     
 
+> **trimLabelText**   
+> Type: boolean  
+> Default: true    
+> false 인 경우 trim을 하지 않고 목록을 보여준다.    
+> RealGridJS만 ver 1.1.24부터 지원된다.
+
 #### Examples 
 
 <pre class="prettyprint">

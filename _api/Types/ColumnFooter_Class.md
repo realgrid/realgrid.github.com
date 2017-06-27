@@ -36,9 +36,16 @@ permalink: /api/types/ColumnFooter/
 > 행 그룹 푸터에 표시될 [Expression](/api/features/Expression)을 지정한다. [Row Grouping](/api/features/Row Grouping/)을 참조한다.  
 
 > **styles**  
-> Type: Object   
+> Type: Object | Array of Object(JS ver. 1.1.24) 
 > Default:  null     
 > 푸터 데이터셀들에게 적용할 스타일들을 지정한다.   
+> 멀티 풋터의 경우 [{}, {}, {}] 의 형태로 RealGridJS 1.1.24 부터 지원 한다.        
+
+> **dynamicStyles**  
+> Type: Array of Object 
+> Default:  null     
+> 푸터 데이터셀들에게 적용할 동적 스타일들을 지정한다.   
+> 멀티 풋터의 경우 [[{}, {}], [{}], [{}]] 의 형태로 RealGridJS 1.1.24 부터 지원 한다.       
 
 > **groupStyles**  
 > Type: Object   
