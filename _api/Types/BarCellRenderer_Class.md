@@ -50,11 +50,47 @@ Bar 셀렌더러는 숫자형 컬럼 셀의 값을 막대 상자로 표시하는
 > Default: false     
 > 셀 데이터 값을 툴팁으로 표시해준다.   
 
+> **absoluteValue**  
+> Type: Boolean   
+> Default: false     
+> 셀의 값을 절대값으로 사용할 것인지를 지정한다.  
+> RealGridJS 1.1.24 부터 지원 한다.       
+
 
 #### Examples   
 
 <pre class="prettyprint">
 var columns = [{
+    "name": "UnitPrice",
+    "fieldName": "UnitPrice",
+    "type": "data",
+    "width": 90,
+    "renderer": {
+        "type": "bar",
+        "minimum": 0,
+        "maximum": 100,
+        "absoluteValue": true,
+        "showLabel":true
+    },
+    "dynamicStyles":[{
+        "criteria": "value < 0",
+        "styles": {
+            "figureBackground": "#ffff0000"
+        }
+    }, {
+        "criteria": "value > 0",
+        "styles": {
+            "figureBackground": "#ff00ff00"
+        }
+    }],
+    "styles": {
+        "textAlignment": "far",
+        "paddingRight": 5
+    },
+    "header": {
+        "text": "Unit Price"
+    }
+}, {
     "name": "Quantity",
     "fieldName": "Quantity",
     "type": "data",

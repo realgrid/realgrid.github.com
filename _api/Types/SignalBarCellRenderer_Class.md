@@ -30,6 +30,38 @@ tags:
 > Default: false  
 > 셀 데이터 값을 툴팁으로 표시해준다.   
 
+> **absoluteValue**  
+> Type: Boolean   
+> Default: false     
+> 셀의 값을 절대값으로 사용할 것인지를 지정한다.  
+> RealGridJS 1.1.24 부터 지원 한다. 
+
+#### Examples   
+
+<pre class="prettyprint">
+var columns = [{
+    "name": "Signal",
+    "fieldName": "Signal",
+    "type": "data",
+    "width": "100",
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "Signal"
+    },
+    "renderer": {
+	    "type": "signal",
+	    "barCount": 10,
+	    "absoluteValue": true
+	},
+    "styles" : {
+        "figureState": "value"
+    }
+}]
+gridView.setColumns(columns);
+</pre>    
+
 ---
 
 #### Demo Links
