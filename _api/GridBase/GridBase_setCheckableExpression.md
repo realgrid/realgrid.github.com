@@ -40,7 +40,7 @@ tags:
 
 <pre class="prettyprint">
 gridView.setCheckableExpression("row < 10", true);
-/* itemIndex가 10이하 인경우만 체크 가능하도록 한다.*/
+/* itemIndex가 10미만 인경우만 체크 가능하도록 한다.*/
 /* dataRow 인 경우는  "dataRow < 10"*/
 </pre>
 
