@@ -28,7 +28,7 @@ tags:
 > 마우스 호버링시 행 포커스 표시여부를 지정한다.    
 
 > **hoverMask**    
-> Type: String     
+> Type: String | [RowFocusMask](/api/types/RowFocusMask/)    
 > Default: "row"     
 > 행 포커스의 표시 형태를 지정한다. "fill", "row", "data", "cell" 지정 가능    
 

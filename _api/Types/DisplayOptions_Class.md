@@ -212,13 +212,26 @@ tags:
 > true로 지정하면 데이터가 없는 경우에도 [onShowTooltip()](http://help.realgrid.com/api/GridBase/onShowTooltip/) 이 발생한다.    
 > RealGridJS만 ver 1.1.24부터 지원된다.
 
+> **rowHoverMask**   
+> Type: [RowHoverMaskObject](/api/types/RowHoverMask/)  
+> Default:   
+> 마우스 호버링시 그리드의 행 선택 영역 표시를 보여준다.    
+> RealGridJS만 ver 1.1.24부터 지원된다.
+
 #### Examples   
 
 <pre class="prettyprint">
 gridView.setDisplayOptions({
     columnResizable: true,
     columnMovable: true,
-    rowHeight: 40
+    rowHeight: 40,
+    rowHoverMask: {
+    	visible: true,
+    	hoverMask: "row",
+    	styles: {
+    		background:"#30c0c0c0"
+    	}
+    }    
 });
 </pre>
 
