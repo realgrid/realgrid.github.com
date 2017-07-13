@@ -6,6 +6,7 @@ typename: Constants
 order: subTextLocation
 objectname: 
 directiontype: 
+jsonly: true
 permalink: /api/types/subTextLocation/
 tags:
     - 서브텍스트위치

@@ -6,6 +6,7 @@ typename: Constants
 order: StateMark
 objectname: 
 directiontype: 
+jsonly: true  
 permalink: /api/types/StateMark/
 tags:
   - 상태표시

@@ -5,6 +5,9 @@ part: Objects
 objectname: GridBase
 directiontype: Function
 permalink: /api/GridBase/setShadowDomOptions/
+jsonly: true
+versions:
+  - JS 1.1.24+
 tags:
   - clipboard
   - paste

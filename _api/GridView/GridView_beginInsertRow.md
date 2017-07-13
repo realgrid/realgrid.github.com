@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function beginInsertRow(itemIndex)
+> function beginInsertRow(itemIndex, shift)
 
 #### Parameters
 
@@ -27,7 +27,7 @@ tags:
 > itemIndex를 입력하지 않으면 이전에 실행된 beginInsertRow의 itemIndex 앞에 추가되거나 실행된적이 없으면 0번째 itemIndex앞에 추가된다.  
 > 0이상의 값을 입력하면 데이터행 앞에 새로운 데이터행을 생성한다.
 
-> **shiift**  
+> **shift**  
 > Type: Boolean  
 > Default: false   
 > true를 지정하면 데이터행 뒤에 새로운 데이터행을 생성한다.  

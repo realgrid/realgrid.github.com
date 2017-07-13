@@ -3,12 +3,12 @@ layout: apipost
 title: RowFocusMask
 part: Types
 typename: Constants
-order: SelectionStyle
+order: RowFocusMask
 objectname: 
 directiontype: 
 jsonly: true
 versions:
-  - JS 1.1.24+
+  - JS 1.1.22+
 permalink: /api/types/RowFocusMask/
 tags:
     - 선택영역
@@ -18,7 +18,7 @@ tags:
 
 #### Description
 
- 마우스 호버링시 그리드에 표시되는 행 선택 영역 방식을 정의한다.
+선택된 행의 표시 형태에 대한 모델이다. 
 
 #### Members
 
@@ -36,8 +36,8 @@ tags:
 
 > **CELL**    
 > Type: "cell"   
-> 하나의 셀 영역              
-
+> 하나의 셀 영역      
+> JS 1.1.24+        
 
 ---
 
