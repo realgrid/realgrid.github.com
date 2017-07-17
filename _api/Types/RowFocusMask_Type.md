@@ -30,7 +30,7 @@ tags:
 > Type: "data"   
 > column 영역만              
 
-> **FILL** 
+> **FILL**    
 > Type: "fill"    
 > indicator, stateBar, checkBar, column을 포함한 영역 + empty 영역               
 

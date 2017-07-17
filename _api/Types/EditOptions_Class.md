@@ -203,8 +203,8 @@ tags:
 > 변경된 내용이 없어도 Inserting 상태에서 항상 commit 할 것인지의 여부.       
 
 > **revertable**                 
-> Type: Boolean  
-> Default: false   
+> Type: Boolean   
+> Default: false    
 > dataProvider.softDeleting = true 인 경우 삭제 상태인 행들을 ctrl+shift+del 키 입력시 원래 상태로 되돌리겠는지의 여부를 설정한다.     
 
 > **showOnlyValidationMessage**                 
@@ -213,30 +213,30 @@ tags:
 >      
 
 > **maxLengthToNextCell**                 
-> Type: Boolean  
-> Default: false
-> column.editor.maxLength에 지정한 자리수 만큼 입력되면 다음 셀로 이동된다.      
-> editFormat이 있는 경우 보여지는 글자를 기준으로 maxLength가 체크된다. (numberEditor, dateEditor)  
-> multiLine의 경우 \n과 같이 제어문자도 글자수에 포함된다.  
-> editOptions.skipReadOnly가 true인경우 readOnly인 셀은 건너뛴다.  
-> JS ver 1.1.20부터 지원된다.  
+> Type: Boolean   
+> Default: false   
+> column.editor.maxLength에 지정한 자리수 만큼 입력되면 다음 셀로 이동된다.       
+> editFormat이 있는 경우 보여지는 글자를 기준으로 maxLength가 체크된다. (numberEditor, dateEditor)   
+> multiLine의 경우 \n과 같이 제어문자도 글자수에 포함된다.   
+> editOptions.skipReadOnly가 true인경우 readOnly인 셀은 건너뛴다.   
+> JS ver 1.1.20부터 지원된다.   
 
 > **displayEmptyEditRow**                 
-> Type: Boolean  
-> Default: false
-> 그리드의 마지막에 항상 빈 행이 추가된다.  
-> 해당 빈 행에 데이터가 입력되고 행 commit()이 발생하면 다시 빈 행이 추가된다.          
-> JS ver 1.1.21부터 지원된다.  
+> Type: Boolean   
+> Default: false   
+> 그리드의 마지막에 항상 빈 행이 추가된다.   
+> 해당 빈 행에 데이터가 입력되고 행 commit()이 발생하면 다시 빈 행이 추가된다.           
+> JS ver 1.1.21부터 지원된다.   
 
 > **invalidFormatMessage**                 
-> Type: String  
-> Default: "잘못된 입력 유형입니다." 
-> mask에서 지정한 형태가 아닐때 표시할 오류 메시지를 지정한다.           
-> JS ver 1.1.22부터 지원된다.  
+> Type: String   
+> Default: "잘못된 입력 유형입니다."   
+> mask에서 지정한 형태가 아닐때 표시할 오류 메시지를 지정한다.            
+> JS ver 1.1.22부터 지원된다.   
 
 > **showInvalidFormatMessage**                 
-> Type: Boolean  
-> Default: true
+> Type: Boolean   
+> Default: true    
 > mask에서 지정한 형태가 아닐때 오류 메시지를 보여줄것인지를 지정한다.          
 > JS ver 1.1.22부터 지원된다.  
 
