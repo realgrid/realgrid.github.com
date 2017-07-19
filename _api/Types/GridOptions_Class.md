@@ -104,8 +104,10 @@ tags:
 ### Example  
 
 <pre class="prettyprint">
-gridView.setDisplayOptions({
+gridView.setOptions({
     hideDeletedRows: true,
+    sortMode: "explicit",
+    filterMode: "explicit",
     display: {
         fitStyle: "evenFill"
     },
