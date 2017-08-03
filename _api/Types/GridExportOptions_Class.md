@@ -181,6 +181,11 @@ tags:
 > true로 지정하면 보이지 않는 컬럼들도 export 된다.     
 > RealGridJS만 ver 1.1.24부터 지원된다.  
 
+> **separateRows**   
+> Type: Boolean   
+> Default: false  
+> true로 지정하면 export시 병합을 해제한 상태로 excel에 표시됩니다.  
+
 ### Example  
 
 <pre class="prettyprint">
