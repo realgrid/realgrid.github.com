@@ -55,7 +55,7 @@ tags:
 > **imageGap**  
 > Type: Number    
 > Default:      
-> 이미지 간 공백을 지정한다.     
+> 버튼이 여러개 있는 경우 이미지 간 공백을 지정한다.     
 
 #### Examples   
 
@@ -69,6 +69,7 @@ var columns = [{
         "type": "imageButton",
         "showTooltip": true,
         "text": "가나다",
+        "margin": 20,
         "imageUrl": "./button.png",
         "hoverUrl": "./button_hover.png",
         "activeUrl": "./button_active.png"
