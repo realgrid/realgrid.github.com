@@ -63,6 +63,31 @@ tags:
 > Default: "default"   
 > 표시되는 기호 모양을 체크표시로 할 것인지 체크박스로 할 것인지를 지정한다. "default", "box"  
 
+> **trueImage**   
+> Type: String   
+> Default: null   
+> 참일때 표시할 이미지 경로를 지정한다.    
+> RealGridJS 1.1.25 버전부터 지원한다.  
+
+> **falseImage**   
+> Type: String   
+> Default: null   
+> 거짓일때 표시할 이미지 경로를 지정한다.    
+> RealGridJS 1.1.25 버전부터 지원한다.  
+
+> **emptyImage**   
+> Type: String   
+> Default: null   
+> 값이 없을때 표시할 이미지 경로를 지정한다.    
+> RealGridJS 1.1.25 버전부터 지원한다.  
+
+> **showInnerFocus**   
+> Type: Boolean   
+> Default: true   
+> 선택시 표시되는 내부 포커스 표시 여부를 지정한다.  
+> RealGridJS 1.1.25 버전부터 지원한다.  
+ 
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -78,7 +103,10 @@ var columns = [{
         "startEditOnClick": true,
         "trueValues": "True",
         "falseValues": "False",
-        "labelPosition": "right"
+        "labelPosition": "right",
+        "trueImage": "./image/check2.png", 
+        "falseImage": "./image/check1.png", 
+        "emptyImage": "./image/check3.png"
     },
     "styles": {
         "paddingLeft": 8,

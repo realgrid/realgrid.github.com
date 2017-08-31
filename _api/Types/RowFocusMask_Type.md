@@ -8,8 +8,8 @@ objectname:
 directiontype: 
 jsonly: true
 versions:
-  - JS 1.1.22+
-permalink: /api/types/RowFocusMask/
+  - JS 1.1.25+
+permalink: /api/types/RowFocusMaskType/
 tags:
     - 선택영역
     - 선택방법
@@ -36,8 +36,7 @@ tags:
 
 > **CELL**    
 > Type: "cell"   
-> 하나의 셀 영역      
-> JS 1.1.24+        
+> 하나의 셀 영역             
 
 ---
 

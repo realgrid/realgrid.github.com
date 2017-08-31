@@ -67,6 +67,12 @@ tags:
 > Default: true    
 > false이면 지정된 fields중 일치하는 field가 있으면 검색으로 종료한다.
 
+> **parentId**    
+> Type: Number    
+> Default:     
+> TreeDataProvider.searchData(), TreeDataProvider.searchDataRow()에서만 사용된다. 
+> RealGridJS 1.1.25 ver. 이상 지원한다.  
+
 ---
 
 #### Demo Links

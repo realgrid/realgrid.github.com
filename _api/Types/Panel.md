@@ -34,3 +34,17 @@ tags:
 > Default: 0  
 > 그리드 Panel의 높이를 픽셀 단위로 지정한다. 
 
+> **showRemoveButton**  
+> Type: boolean  
+> Default: false  
+> 삭제(x) 표시여부를 지정한다.   
+
+> **removeButtonColor**  
+> Type: String  
+> Default: 
+> 삭제 표시버튼의 색상을 지정한다. "#AARRGGBB" 형태이다.    
+
+> **removeButtonHoveredColor**  
+> Type: String  
+> Default: 
+> 삭제 표시버튼에 호버되었을때 색상을 지정한다. "#AARRGGBB" 형태이다.    

@@ -34,8 +34,8 @@ tags:
 
 <pre class="prettyprint">
 var options = {
-    fields = ['field1', 'field2'],
-    values = ['value1', 'value2']
+    fields: ['field1', 'field2'],
+    values: ['value1', 'value2']
 }
 var itemindex = gridView.searchItem(options);
 </pre>

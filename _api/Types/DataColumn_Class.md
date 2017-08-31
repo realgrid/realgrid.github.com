@@ -104,6 +104,12 @@ tags:
 > Default:  [CellButton](/api/types/CellButton).NONE     
 > 데이터셀 우측에 표시할 버튼의 종류를 지정한다. [CellButton](/api/types/CellButton)을 참조한다.    
 
+> **imageButtons**  
+> Type: Object  
+> Default: null     
+> button의 type이 'image' 인 경우 이미지 버튼에서 사용되는 이미지를 지정한다.   
+> "width", "height", "margin", "imageGap", ["Image"](/api/types/Image/)의 속성을 가진다.      
+
 > **popupMenu**  
 > Type: array of [MenuItem](/api/types/MenuItem)  
 > Default: null     

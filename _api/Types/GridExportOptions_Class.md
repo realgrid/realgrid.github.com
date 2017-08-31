@@ -70,7 +70,6 @@ tags:
 > 행 그룹핑 및 트리 그리드 자료를 export 시 들여쓰기 여부를 지정한다.  
 > JS Ver.만 지원  
 
-
 > **showConfirm**  
 > Type:Boolean  
 > Default: true  
@@ -179,12 +178,19 @@ tags:
 > Type: Boolean  
 > Default: false  
 > true로 지정하면 보이지 않는 컬럼들도 export 된다.     
-> RealGridJS만 ver 1.1.24부터 지원된다.  
+> RealGridJS만 1.1.24 부터 지원된다.  
 
 > **separateRows**   
 > Type: Boolean   
 > Default: false  
 > true로 지정하면 export시 병합을 해제한 상태로 excel에 표시됩니다.  
+
+> **onlyCheckedItems**   
+> Type: Boolean  
+> Default: false  
+> true로 지정하면 체크바에 체크된 행들만 export 된다.   
+> 그룹핑 상태나 트리 그리드인 경우는 지원하지 않는다.      
+> RealGridJS 1.1.25 부터 지원된다.  
 
 ### Example  
 

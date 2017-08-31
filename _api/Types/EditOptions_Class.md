@@ -240,6 +240,12 @@ tags:
 > mask에서 지정한 형태가 아닐때 오류 메시지를 보여줄것인지를 지정한다.          
 > JS ver 1.1.22부터 지원된다.  
 
+> **innerDraggable**                 
+> Type: Boolean   
+> Default: false    
+> Inner Drag & Drop기능 사용 여부를 지정한다.            
+> JS ver 1.1.25부터 지원된다.  
+
 #### Examples   
 
 <pre class="prettyprint">

@@ -33,6 +33,10 @@ tags:
 <pre class="prettyprint">
 gridView.setStyles({
     body:{
+        cellDynamicStyles:[{
+            criteria:"changedcell", //RealgridJS 1.1.25+, dataProvider.restoreMode가 "explicit" 또는 "auto"인 경우만 지원. 값이 변경된 셀에 스타일 적용 
+            styles:{figureName:"leftTop", figureBackground:"#8800FF00", figureSize:"50%"}
+        }],
         dynamicStyles:[{
             criteria:"(row mod 2) = 0",
             styles:{

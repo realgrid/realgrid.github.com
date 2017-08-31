@@ -47,16 +47,6 @@ tags:
 > Default: null  
 > 목표값의 글꼴을 지정한다.  
 
-> **margin**  
-> Type: Number   
-> Default:     
-> 이미지 버튼과 오른쪽 셀 라인간의 마진값을 지정한다.    
-
-> **imageGap**  
-> Type: Number    
-> Default:      
-> 버튼이 여러개 있는 경우 이미지 간 공백을 지정한다.     
-
 #### Examples   
 
 <pre class="prettyprint">

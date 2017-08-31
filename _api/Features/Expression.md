@@ -64,6 +64,7 @@ Relational Operator ::= = \| <> \| < \| > \| <= \| >= \| is \| is not \| match \
 * row - 편집셀이 포함된 Item의 인덱스.
 * datarow - 편집셀이 참조하는 데이터행의 인덱스.
 * checked - 편집셀이 포함된 Item의 checked 상태. true/false 로 리턴.
+* changedcell - 값이 편경된 셀.(RealGridJS 1.1.25+ 지원, dataProvider.restoreMode가 "explicit" 또는 "auto"인 경우만)
 
 ##### Row Validation
 
@@ -115,6 +116,7 @@ var/varp/stdev/stdevp는 그리드 summaryMode가 SummaryMode.STATISTICS 일 때
 * datarow - 데이터셀이 참조하는 데이터행의 인덱스.
 * checked - 데이터셀이 포함된 Item의 checked 상태. true/false로 리턴.
 * state - 데이터셀이 포함된 데이터 행의 상태. 'c':생성, 'u':수정, 'd':삭제, 'x':생성 후 삭제.
+* changedcell - 값이 편경된 셀.(RealGridJS 1.1.25+ 지원, dataProvider.restoreMode가 "explicit" 또는 "auto"인 경우만)
 
 ##### Row Dynamic Styles
 

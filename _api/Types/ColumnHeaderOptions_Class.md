@@ -52,7 +52,26 @@ permalink: /api/types/ColumnHeaderOptions/
 
 > **checkImage**   
 > Type: object   
-> none, fill, hoveredNone, hoveredFill 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.     
+> none, fill, hoveredNone, hoveredFill 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
+
+> **popupMenuColor**   
+> Type: string    
+> Default: Gray 색상    
+> 표시될 팝업메뉴 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.    
+> RealGridJS 1.1.25 ver. 이상 지원한다. 
+
+> **hoveredPopupMenuColor**   
+> Type: string    
+> Default: Dark Gray 색상    
+> 마우스가 호버 되었을때의 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.    
+> RealGridJS 1.1.25 ver. 이상 지원한다. 
+
+> **popupMenuWidth**   
+> Type: number    
+> Default: 7    
+> 팝업메뉴의 너비를 지정한다.      
+> RealGridJS 1.1.25 ver. 이상 지원한다. 
+
 
 #### Examples   
 

@@ -52,6 +52,18 @@ permalink: /api/types/ColumnFooter/
 > Default:  null     
 > 그룹 푸터 데이터셀들에게 적용할 스타일들을 지정한다.   
 
+> **callback**  
+> Type: function (column, footerIndex) { }
+> Default:  null     
+> footer에 사용자 계산이 필요한 경우 사용한다. footer에 표시할 값을 return 하면 된다.   
+> JS Only.   
+
+> **groupCallback**  
+> Type: function (itemIndex, column) { }
+> Default:  null     
+> group footer에 사용자 계산이 필요한 경우 사용한다. group footer에 표시할 값을 return 하면 된다.      
+> JS Only.
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -94,6 +106,38 @@ var columns = [{
             },
         "expression": "sum",
         "groupExpression": "sum"
+    }
+}, {
+    "name": "Quantity1",
+    "fieldName": "Quantity1",
+    "type": "data",
+    "width": "100",
+    "styles": {
+        "textAlignment": "far"
+    },
+    "header": {
+        "text": "Quantity"
+    },
+    "footer": {
+        //멀티풋터인 경우 footerIndex로 구분한다. 
+        "callback":function (column, footerIndex) {
+            if(footerIndex == 0){
+                return "index0"
+            }
+            if(footerIndex == 1){
+                return "index1"
+            }
+            if(footerIndex == 2){
+                return "index2"
+            }
+        }, 
+        //itemIndex를 사용하여 값을 조작.       
+        "groupCallback":function (itemIndex, column) {
+            var mdl = gridView.getModel(itemIndex);
+            var pmdl = gridView.getParentModel(mdl);
+            var cmdl = gridView.getChildModels(pmdl)
+            JSON.stringify(cmdl);
+        }
     }
 }];
 

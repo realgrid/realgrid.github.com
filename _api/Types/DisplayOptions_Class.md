@@ -218,20 +218,52 @@ tags:
 > 마우스 호버링시 그리드의 행 선택 영역 표시를 보여준다.    
 > RealGridJS만 ver 1.1.24부터 지원된다.
 
+> **rowFocusMask**   
+> Type: [RowFocusMaskObject](/api/types/RowFocusMask/)  
+> Default:   
+> 행 및 셀 선택시 그리드의 행 선택 영역 표시를 보여준다.    
+> RealGridJS만 ver 1.1.25부터 지원된다.
+
+> **useCssStyleProgress**  
+> Type: Boolean     
+> Default: false   
+> 프로그래스바에 CSS Style을 적용할 것인지의 여부를 지정한다.       
+
 #### Examples   
 
 <pre class="prettyprint">
+&lt;style&gt;
+  .rg-progress {
+    background-color: rgba(0, 111, 245, 0.05);
+      border: 1px solid #ddd;
+  }
+  .rg-progress-bar {
+    background : linear-gradient(#aaa, #ccc);
+    border : 1px solid #333;
+  }
+  .rg-progress-progress {
+    background : linear-gradient(#fff, #ddd);
+    border-right : 1px solid #333;
+  }
+  .rg-progress-message {
+    font-size : 11px;
+    font-family : Tahoma;
+    font-weight : bold;
+  }
+&lt;/style&gt;
+
 gridView.setDisplayOptions({
     columnResizable: true,
     columnMovable: true,
-    rowHeight: 40,
+    rowHeight: 40,    
     rowHoverMask: {
     	visible: true,
     	hoverMask: "row",
     	styles: {
     		background:"#30c0c0c0"
     	}
-    }    
+    },
+    useCssStyleProgress: true
 });
 </pre>
 
