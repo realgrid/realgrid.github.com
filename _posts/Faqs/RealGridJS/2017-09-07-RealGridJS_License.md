@@ -4,7 +4,7 @@ title:  RealGridJS 운영용 라이선스를 발급 받고 싶습니다.
 date:   2017-09-07 00:00:00
 categories: faq
 part: RealGridJS
-permalink: /faq/RealGridJS_License/
+permalink: /faq/RealGridJSLicense/
 directiontype: 
 tags:
     - License
