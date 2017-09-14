@@ -200,6 +200,13 @@ tags:
 > Default: null     
 > 셀의 값이 nan일때 표시할 값을 지정한다.
 
+> **zeroText**  
+> Type: String   
+> Default: null     
+> 셀의 값이 0일때 표시할 값을 지정한다.  
+> dataType이 number 인 경우만 적용된다. 
+> JS Only.
+
 > **imageList**  
 > Type: String   
 > Default: null     
@@ -259,6 +266,21 @@ tags:
 > Type: String
 > Default:  null     
 > 문자열 변경시(마스킹 등) 사용할 패턴을 지정한다.  
+
+> **excelFormat**  
+> Type: String
+> Default:  null     
+> 엑셀 export시 출력되는 서식을 지정한다.  
+> ex) excelFormat: "#,##0;[Red]\-#,##0;\-"  
+> JS Only.
+
+> **excelFormularStatement**  
+> Type: String
+> Default:  null     
+> 엑셀 export시 출력되는 수식을 지정한다.  
+> ex) excelFormularStatement: "${excelcolumn['컬럼1']}${row} + ${excelcolumn['컬럼2']}${row}""  
+> JS Only.  
+
 
 
 #### Examples
