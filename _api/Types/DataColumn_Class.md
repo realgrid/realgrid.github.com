@@ -258,24 +258,24 @@ tags:
 > 이 컬럼에 적용할 [EditValidation](/api/types/EditValidation) 목록을 지정한다.     
 
 > **displayRegExp**  
-> Type: String
+> Type: String  
 > Default:  null     
 > 문자열 변경시(마스킹 등) 사용할 정규식 패턴을 지정한다.    
 
 > **displayReplace**  
-> Type: String
+> Type: String  
 > Default:  null     
 > 문자열 변경시(마스킹 등) 사용할 패턴을 지정한다.  
 
 > **excelFormat**  
-> Type: String
+> Type: String   
 > Default:  null     
 > 엑셀 export시 출력되는 서식을 지정한다.  
 > ex) excelFormat: "#,##0;[Red]\-#,##0;\-"  
 > JS Only.
 
 > **excelFormularStatement**  
-> Type: String
+> Type: String  
 > Default:  null     
 > 엑셀 export시 출력되는 수식을 지정한다.  
 > ex) excelFormularStatement: "${excelcolumn['컬럼1']}${row} + ${excelcolumn['컬럼2']}${row}"  
