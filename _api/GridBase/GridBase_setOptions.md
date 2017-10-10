@@ -27,6 +27,7 @@ tags:
 > Type: Object  
 > 설정 정보  
 > [summaryMode](/api/types/GridOptions/): String  
+> [sortMode](/api/types/GridOptions/): String  
 > [hideDeletedRows](/api/types/GridOptions/): boolean  
 > [checkBar](/api/types/CheckBar/): Object  
 > [copy](/api/types/CopyOptions/): Object  
