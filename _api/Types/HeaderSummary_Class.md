@@ -26,22 +26,22 @@ tags:
 > **height**  
 > Type: number  
 > Default: 0  
-> Footer의 높이를 픽셀 단위로 지정한다. 0이면 자동으로 계산된다. 0보다 큰 값이면 이 값과 minHeight에 지정한 값 중 큰 값으로 지정된다.
+> HeaderSummary의 높이를 픽셀 단위로 지정한다. 0이면 자동으로 계산된다. 0보다 큰 값이면 이 값과 minHeight에 지정한 값 중 큰 값으로 지정된다.
 
 > **minHeight**  
 > Type: number  
 > Default: 23  
-> Footer의 최소 높이를 지정한다.  
+> HeaderSummary의 최소 높이를 지정한다.  
 
 > **resizable**  
 > Type: boolean   
 > Default: false  
-> 사용자가 Footer 왼쪽 셀의 위쪽을 마우스 드래깅해서 헤더의 높이를 변경하게 할 수 있도록 할 것인 지를 지정한다.
+> 사용자가 HeaderSummary 왼쪽 셀의 위쪽을 마우스 드래깅해서 헤더의 높이를 변경하게 할 수 있도록 할 것인 지를 지정한다.
 
 > **visible**  
 > Type: boolean   
 > Default: true     
-> true면 Footer를 표시한다.  
+> true면 HeaderSummary를 표시한다.  
 
 > **mergeCells**  
 > Type: array of string   
@@ -53,7 +53,7 @@ tags:
 > **styles**  
 > Type: array of object   
 > Default: null     
-> 풋터에 적용될 스타일을 지정한다. 멀티 풋터의 경우 [{}, {}, {}] 의 형태로 지정한다.    
+> HeaderSummary에 적용될 스타일을 지정한다.    
 > RealGridJS 1.1.24 부터 지원 한다.   
 
 #### Examples   
