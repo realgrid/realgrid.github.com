@@ -123,37 +123,37 @@ tags:
 > Type: String  
 > Default: "#555555"  
 > 포커스의 색상을 지정한다.  
-> RealGridJS인 경우 ver 1.1.20부터 지원된다.
+> RealGridJS 1.1.20부터 지원한다. 
 
 > **focusBackground**   
 > Type: String  
 > Default:   
 > 포커스의 배경 색상을 지정한다.  
-> RealGridJS만 ver 1.1.22부터 지원된다.
+> RealGridJS 1.1.22부터 지원된다.
 
 > **focusActiveColor**   
 > Type: String  
 > Default: NaN  
 > 포커스가 활성화 되었을때 색상을 지정한다.  
-> RealGridJS인 경우 ver 1.1.20부터 지원된다.
+> RealGridJS 1.1.20부터 지원된다.
 
 > **focusActiveColor**   
 > Type: String   
 > Default: NaN   
 > 포커스가 활성화 되었을때 색상을 지정한다.   
-> RealGridJS인 경우 ver 1.1.20부터 지원된다.  
+> RealGridJS 1.1.20부터 지원된다.  
 
 > **innerFocusColor**    
 > Type: String   
 > Default: NaN   
 > 머지 셀의 내부 포커스 색상을 지정한다.   
-> RealGridJS만 ver 1.1.20부터 지원된다.  
+> RealGridJS 1.1.20부터 지원된다.  
 
 > **focusBorderWidth**    
 > Type: String   
 > Default: NaN   
 > 포커스의 경계선 굵기를 지정한다.   
-> RealGridJS만 ver 1.1.20부터 지원된다.  
+> RealGridJS 1.1.20부터 지원된다.  
 
 > **rightClickable**   
 > Type: Boolean   
@@ -186,48 +186,55 @@ tags:
 > Type: number   
 > Default: 0  
 > tooltip을 지연시켜 발생시키길 원할때 지정한다. 단위는 밀리초(ms)이다.   
-> RealGridJS만 ver 1.1.21부터 지원된다.    
+> RealGridJS 1.1.21부터 지원된다.    
 
 > **eachRowResizable**   
 > Type: boolean   
 > Default: false    
 > true로 설정하면 행 높이를 개별로 조절할 수 있다.       
-> RealGridJS만 ver 1.1.21부터 지원된다.   
+> RealGridJS 1.1.21부터 지원된다.   
 
 > **rowFocusVisible**   
 > Type: Boolean  
 > Default: true  
 > 행 포커스의 보임 여부를 지정한다.  
-> RealGridJS만 ver 1.1.22부터 지원된다.
+> RealGridJS 1.1.22부터 지원된다.
 
 > **rowFocusBackground**   
 > Type: String  
 > Default:   
 > 행 포커스의 배경 색상을 지정한다.  
-> RealGridJS만 ver 1.1.22부터 지원된다.
+> RealGridJS 1.1.22부터 지원된다.
 
 > **emptyShowTooltip**   
 > Type: Boolean  
 > Default: false  
 > true로 지정하면 데이터가 없는 경우에도 [onShowTooltip()](http://help.realgrid.com/api/GridBase/onShowTooltip/) 이 발생한다.    
-> RealGridJS만 ver 1.1.24부터 지원된다.
+> RealGridJS 1.1.24부터 지원된다.  
 
 > **rowHoverMask**   
 > Type: [RowHoverMaskObject](/api/types/RowHoverMask/)  
 > Default:   
 > 마우스 호버링시 그리드의 행 선택 영역 표시를 보여준다.    
-> RealGridJS만 ver 1.1.24부터 지원된다.
+> RealGridJS 1.1.24부터 지원된다.  
 
 > **rowFocusMask**   
 > Type: [RowFocusMaskObject](/api/types/RowFocusMask/)  
 > Default:   
 > 행 및 셀 선택시 그리드의 행 선택 영역 표시를 보여준다.    
-> RealGridJS만 ver 1.1.25부터 지원된다.
+> RealGridJS 1.1.25부터 지원된다.  
 
 > **useCssStyleProgress**  
 > Type: Boolean     
 > Default: false   
 > 프로그래스바에 CSS Style을 적용할 것인지의 여부를 지정한다.       
+> RealGridJS 1.1.25부터 지원된다.  
+
+> **popupDropdownCount**  
+> Type: Number        
+> Default: 0   
+> 팝업이나 컨택스트 메뉴의 한 화면에 표시되는 목록들의 개수를 지정한다.        
+> RealGridJS 1.1.26부터 지원된다.  
 
 #### Examples   
 

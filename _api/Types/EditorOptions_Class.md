@@ -78,7 +78,7 @@ tags:
 > Type: Boolean     
 > Default: false   
 > Cell Editor에 해당 컬럼의 font 및 fontSize 적용여부를 지정한다.       
-
+> RealGridJS 1.1.19 부터 지원한다.  
 
 #### Examples   
 

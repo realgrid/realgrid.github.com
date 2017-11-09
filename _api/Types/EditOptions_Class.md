@@ -246,6 +246,12 @@ tags:
 > Inner Drag & Drop기능 사용 여부를 지정한다.            
 > JS ver 1.1.25부터 지원된다.  
 
+> **exceptDataClickWhenButton**                 
+> Type: Boolean   
+> Default: false    
+> true인 경우 셀 버튼 클릭 후 발생하는 이벤트인 onCellButtonClicked, onImageButtonClicked 발생후에 onDataCellClicked이벤트가 발생하지 않는다.           
+> JS ver 1.1.26부터 지원된다.  
+
 #### Examples   
 
 <pre class="prettyprint">

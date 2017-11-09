@@ -88,6 +88,11 @@ tags:
 > 행 상태에 따른 스타일을 지정한다.  
 > RealGridJS 1.1.23 부터 지원한다.  
 
+> **dynamicStyles**  
+> Type: Array of [DynamicStyle](/api/types/DynamicStyle)   
+> Default:  null     
+> 셀들에게 적용할 동적 스타일들을 지정한다.       
+> RealGridJS 1.1.26 부터 지원한다.  
 
 #### Examples   
 
@@ -105,7 +110,11 @@ var options = {
   headText: "head",
   footText: "foot",
   headImageUrl: "/img/common/dot_arrow2_top.gif",
-  footImageUrl: "/img/common/dot_arrow2_bottom.gif"
+  footImageUrl: "/img/common/dot_arrow2_bottom.gif",
+  dynamicStyles:[{
+    criteria: "not checkable", 
+    styles: {background:"#FFFFEEFF"}
+  }]
 }
 gridView.setCheckBar(options);
 

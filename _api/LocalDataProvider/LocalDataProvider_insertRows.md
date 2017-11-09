@@ -185,7 +185,7 @@ function setColumns(grid) {
 
 #### Syntax
 
-> function insertRows(row, rows, start, count, rowEvents)
+> function insertRows(row, rows, start, count, rowEvents, itemIndex)
 
 #### Parameters
 
@@ -210,7 +210,13 @@ function setColumns(grid) {
 > **rowEvents**  
 > Type: Boolean  
 > Default: true  
-> false면 상태 변경 이벤트를 발생시키지 않는다. 
+> false면 상태 변경 이벤트를 발생시키지 않는다.  
+
+> **itemIndex**  
+> Type: number  
+> Default: undefined  
+> 화면에 표시될 위치를 지정한다.  
+> JS 1.1.26 이상부터 지원한다.  
 
 #### Return value
 

@@ -187,7 +187,7 @@ function setColumns(grid) {
 
 #### Syntax
 
-> function insertRow(row, values)
+> function insertRow(row, values, itemIndex)
 
 #### Parameters
 
@@ -197,7 +197,13 @@ function setColumns(grid) {
 
 > **values**  
 > Type: Array of value  
-> 입력할 값의 배열
+> 입력할 값의 배열  
+
+> **itemIndex**  
+> Type: number  
+> Default: undefined  
+> 화면에 표시될 위치를 지정한다.  
+> JS 1.1.26 이상부터 지원한다.  
 
 #### Return value
 

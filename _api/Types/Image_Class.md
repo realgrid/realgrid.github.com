@@ -44,7 +44,14 @@ tags:
 > **width**  
 > Type: Number   
 > Default: 45  
-> 이미지 버튼의 크기를 지정한다.     
+> 이미지 버튼의 크기를 지정한다.    
+
+> **cursor**  
+> Type: String   
+> Default: null     
+> 버튼에 마우스 커서가 위치할때 표시될 마우스 커서의 모양을 지정한다.  
+> 지정할 수 있는 값은 W3C 표준([http://www.w3.org/wiki/CSS/Properties/cursor](http://www.w3.org/wiki/CSS/Properties/cursor)) 을 준수한다. uri 미지원    
+> JS 1.1.26 이상부터 지원한다.    
 
 #### Examples 
 
@@ -63,12 +70,14 @@ tags:
                 "name": "팝업버튼",
                 "up": "/img/demo/popup_normal.png",
                 "hover": "/img/demo/popup_hover.png",
-                "down": "/img/demo/popup_click.png"
+                "down": "/img/demo/popup_click.png",
+                "cursor": "help"
             }, {
                 "name": "조회버튼",
                 "up": "/img/demo/search_normal.png",
                 "hover": "/img/demo/search_hover.png",
-                "down": "/img/demo/search_click.png"           
+                "down": "/img/demo/search_click.png",
+                "cursor": "progress"           
             }]
         },
         "styles": {

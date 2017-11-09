@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function getColumnNames(columnsOnly)  
+> function getColumnNames(columnsOnly, visibleOnly)  
 
 #### Parameters
 
@@ -25,6 +25,12 @@ tags:
 > Type: Boolean  
 > Default: false  
 > false면 컬럼 그룹들을 포함한 모든 컬럼들의 이름을 가져온다.   
+
+> **visibleOnly**  
+> Type: Boolean  
+> Default: false  
+> false면 숨긴 컬럼들을 포함한 모든 컬럼들의 이름을 가져온다.   
+> JS 1.1.26부터 지원한다.  
 
 #### Return value
 

@@ -67,6 +67,12 @@ tags:
 > Default: false    
 > 입력시 기존 문자를 덮어쓰기 할 것인지의 여부를 지정한다.      
 
+> **allowEmpty**  
+> Type: Boolean  
+> Default: false    
+> mask가 0로 설정된 경우 빈값 ""의 허용여부를 지정한다. ex) "0000-00-00" 지정시 "" 지정 가능.
+> RealGridJS 1.1.26 부터 지원한다.          
+
 #### Examples   
 
 <pre class="prettyprint">

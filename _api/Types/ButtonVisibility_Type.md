@@ -41,6 +41,10 @@ tags:
 > Value: "rowfocused"   
 > 행이 선택되면 버튼을 표시한다.   
 
+> **function(grid, index, focused, mouseEntered) { return true }**   
+> true를 반환하면 버튼이 표시되고 false를 반환하면 버튼이 표시되지 않는다.  
+> RealGridJS 1.1.26 이상부터 지원한다.  
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -83,6 +87,21 @@ var columns = [{
     },
     "header": {
         "text": "Employee ID"
+    }
+}, {
+    "name": "CustomerID1",
+    "fieldName": "CustomerID1",
+    "type": "data",
+    "width": "130",
+    "button": "action",
+    "buttonVisibility": function(grid, index, focused, mouseEntered) { 
+        return grid.getValue(index.itemIndex, "EmployeeID") === "AAA" 
+    }},
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "Customer ID"
     }
 }]
 gridView.setColumns(columns);

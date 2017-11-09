@@ -19,7 +19,7 @@ tags:
 
 #### Syntax
 
-> function onColumnHeaderClicked (grid, column)  
+> function onColumnHeaderClicked (grid, column, rightClicked)  
 
 #### Arguments
 
@@ -31,6 +31,11 @@ tags:
 > Type: object  
 > [ColumnGroup](/api/types/ColumnGroup/) 혹은 [DataColumn](/api/types/DataColumn/)과 같은 구조의 object.  
 
+> **rightClicked**  
+> Type: boolean    
+> 마우스 오른쪽 버튼이 클릭 되었는지의 여부.  
+> JS ver 1.1.26부터 지원된다.    
+
 #### Return
 
 > None.  
@@ -38,7 +43,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-gridView.onColumnHeaderClicked =  function (grid, column) {
+gridView.onColumnHeaderClicked =  function (grid, column, rightClicked) {
     console.log(column);  
     if (column.type == "data") {
         alert("DataColumn클릭");

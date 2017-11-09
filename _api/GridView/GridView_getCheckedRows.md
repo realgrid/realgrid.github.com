@@ -16,7 +16,7 @@ tags:
 
 #### Syntax
 
-> function getCheckedRows(sort, visibleOnly)
+> function getCheckedRows(sort, visibleOnly, allRows)
 
 #### Parameters
 
@@ -28,7 +28,14 @@ tags:
 > **visibleOnly**  
 > Type: Boolean  
 > Default: false  
-> true로 입력하면 collapse 되어 보이지 않는 행들은 제외한다.   
+> true로 입력하면 collapse되거나 페이징시 보이지 않는 행들은 제외한다.   
+
+> **allRows**  
+> Type: Boolean  
+> Default: false  
+> true로 입력하면 페이징 처리시 보이지 않는 페이지들의 체크된 행들도 가져온다.    
+> visibleOnly가 false 여야 한다.  
+> JS ver 1.1.26부터 지원된다.	
 
 #### Return value
 

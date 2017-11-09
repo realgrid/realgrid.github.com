@@ -281,6 +281,12 @@ tags:
 > ex) excelFormularStatement: "${excelcolumn['컬럼1']}${row} + ${excelcolumn['컬럼2']}${row}"  
 > JS Only.  
 
+> **buttonCursor**  
+> Type: String   
+> Default: null     
+> 버튼에 마우스 커서가 위치할때 표시될 마우스 커서의 모양을 지정한다.  
+> 지정할 수 있는 값은 W3C 표준([http://www.w3.org/wiki/CSS/Properties/cursor](http://www.w3.org/wiki/CSS/Properties/cursor)) 을 준수한다. uri 미지원    
+> JS 1.1.26 이상부터 지원한다.   
 
 
 #### Examples

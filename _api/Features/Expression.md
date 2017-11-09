@@ -125,7 +125,17 @@ var/varp/stdev/stdevp는 그리드 summaryMode가 SummaryMode.STATISTICS 일 때
 * row - 표시 중인 행의 Item 인덱스.
 * datarow - 표시 중인 행의 데이터행 인덱스.
 * checked - 표시 중인 행의 checked 상태. true/false로 리턴.
-* state - 표시 중인 행이 참조하는 데이터행의 상태. 'c':생성, 'u':수정, 'd':삭제, 'x':생성 후 삭제.
+* state - 표시 중인 행이 참조하는 데이터행의 상태. 'c':생성, 'u':수정, 'd':삭제, 'x':생성 후 삭제.  
+
+##### CheckBar Dynamic Styles (RealGridJS 1.1.26+ 지원)
+
+* value[] - 표시 중인 행의 각 필드 값을 value["field name"]나 value[fieldIndex]로 리턴.
+* values[] - 표시 중인 행의 각 필드 값을 values["field name"]나 values[fieldIndex]로 리턴.
+* row - 표시 중인 행의 Item 인덱스.
+* datarow - 표시 중인 행의 데이터행 인덱스.
+* checked - 표시 중인 행의 checked 상태. true/false로 리턴.
+* checkable - 표시 중인 행의 체크가능 상태. true/false로 리턴.
+* state - 표시 중인 행이 참조하는 데이터행의 상태. 'c':생성, 'u':수정, 'd':삭제, 'x':생성 후 삭제.  
 
 ---
 
