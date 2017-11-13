@@ -71,7 +71,13 @@ tags:
 > Type: Number    
 > Default:     
 > TreeDataProvider.searchData(), TreeDataProvider.searchDataRow()에서만 사용된다. 
-> RealGridJS 1.1.25 ver. 이상 지원한다.  
+> RealGridJS 1.1.25부터 지원한다.  
+
+> **columns**    
+> Type: Array of String    
+> Default: Null    
+> 여기에 지정된 순서대로 검색을 수행한다.    
+> RealGridJS 1.1.26부터 지원한다.   
 
 ---
 
