@@ -44,7 +44,7 @@ tags:
 > Default: false  
 > true인 경우 label 값을 복사하고, false인 경우 value값을 복사한다.     
 
-> **copyOptions**  
+> **copyDisplayText**  
 > Type: Boolean   
 > Default: false   
 > number, date, dropdown, multicheck 의 경우 보여지는 Text로 복사한다.       
