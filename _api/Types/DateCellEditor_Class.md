@@ -89,25 +89,25 @@ RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년,
 > 입력 가능한 최대날짜를 지정한다. 키보드로 입력시 maxDate보다 이후 날짜가 입력되면 maxDate로 변경된다.    
 > JS ver 1.1.24부터 지원된다.   
 
-**showWeek**  
+> **showWeek**  
 > Type: Boolean     
 > Default: false  
-> true이면 달력에 년 주차를 표시한다. (ISO 8601 기준으로 표시되나 날짜선택시 앞에 보이는 주차로 반환된다.)      
+> true이면 달력에 년 주차를 표시한다. (ISO 8601 기준으로 표시되나 날짜선택시 앞에 표시되고 있는 주차로 반환된다.)      
 > JS ver 1.1.26부터 지원된다.   
 
-**weekSelectable**  
+> **weekSelectable**  
 > Type: Boolean     
 > Default: false  
 > true이면 년 주차를 선택할 수 있다.      
 > JS ver 1.1.26부터 지원된다.   
 
-**startWeek**  
+> **startWeek**  
 > Type: Number     
 > Default: 0  
 > 달력에서 시작되는 요일을 지정한다. (0:일요일, 1:월요일....)     
 > JS ver 1.1.26부터 지원된다.   
 
-**weekSeparator**  
+> **weekSeparator**  
 > Type: String     
 > Default: ''  
 > 반환되는 결과의 년과 주차사이의 구분자를 지정한다.        
