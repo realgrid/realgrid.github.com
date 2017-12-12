@@ -74,7 +74,7 @@ var columns = [{
     "fieldName": "EmployeeID",
     "button" : "image",
     "imageButtons": {
-        "width": 16,  // 없으면 기본값
+        "imageWidth": 16,  // 없으면 기본값
         "height": 13,  // 없으면 기본값
         "margin": 2,   // Cell Border와의 간격
         "imageGap": 2, // 이미지 버튼간 간격
@@ -82,12 +82,14 @@ var columns = [{
             "name": "button1",
             "up": "assets/calendar_up.png",
             "hover": "assets/calendar_hover.png",
-            "down": "assets/calendar_down.png"
+            "down": "assets/calendar_down.png",
+            "width":45
         }, {
             "name": "button2",
             "up": "assets/ellipsis_up.png",
             "hover": "assets/ellipsis_hover.png",
-            "down": "assets/ellipsis_down.png"
+            "down": "assets/ellipsis_down.png",
+            "width":45
         }]
     }    
 }]
