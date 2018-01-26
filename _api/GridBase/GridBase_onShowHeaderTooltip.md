@@ -6,6 +6,8 @@ objectname: GridBase
 directiontype: Callback
 permalink: /api/GridBase/onShowHeaderTooltip/
 jsonly: true
+versions:
+    - JS 1.1.16+
 tags:
   - tooltip
   - 툴팁

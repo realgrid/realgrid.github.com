@@ -87,6 +87,7 @@ tags:
 > Type: boolean     
 > Default: false       
 > 툴팁 표시 여부를 지정한다.    
+> RealgridJS 1.1.16 부터 지원한다.  
 
 > **heightFill**  
 > Type: [HeaderHeightFill](/api/types/HeaderHeightFill/)       
