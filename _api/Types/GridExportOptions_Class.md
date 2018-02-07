@@ -192,6 +192,14 @@ tags:
 > 그룹핑 상태나 트리 그리드인 경우는 지원하지 않는다.      
 > RealGridJS 1.1.25 부터 지원된다.  
 
+> **exportSeriesColumn**   
+> Type: Boolean  
+> Default: false  
+> true로 지정하면 sparkLine, sparkColumn, sparkWinLoss컬럼들이 export 된다.   
+> spark컬럼들이 참조하고 있는 [DataColumn](/api/types/DataColumn/)들을 반드시 포함하여 export해야하며 DataColumn의 name 속성은 반드시 지정되어 있어야 한다. 또한 DataColumn은 참조한 순서대로 표시되어 있어야 한다.       
+> excel 2010 이상부터 지원한다.  
+> RealGridJS 1.1.27 부터 지원된다.  
+
 ### Example  
 
 <pre class="prettyprint">

@@ -56,3 +56,22 @@ tags:
 > Type: Stroke      
 > default: undefined  
 > 노드의 선 스타일을 지정한다. 기본적으로 body.line 속성을 상속받는다.     
+
+> **lineVisible**   
+> Type: Boolean    
+> default: true   
+> 트리 라인 표시여부를 지정한다.
+
+> **expandImage**       
+> Type: String   
+> default: null  
+> expander 이미지 경로를 지정한다. 펼침 가능 할때 표시할 이미지이다.   
+> 해당 기능 사용시 lineVisible은 false 로 지정하도록 한다.  
+> RealGridJS 1.1.27 부터 지원한다.   
+
+> **collapseImage**       
+> Type: String   
+> default: null  
+> expander 이미지 경로를 지정한다. 접기 가능 할때 표시할 이미지이다.   
+> 해당 기능 사용시 lineVisible은 false 로 지정하도록 한다.  
+> RealGridJS 1.1.27 부터 지원한다.   

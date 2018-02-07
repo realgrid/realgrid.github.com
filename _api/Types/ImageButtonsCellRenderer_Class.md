@@ -50,6 +50,31 @@ ImageButtons 셀 렌더러는 하나의 셀안에 여러개의 이미지 버튼�
 > 셀 안의 버튼의 위치를 지정한다. "near", "center" 지정시 셀의 값이 표시되지 않는다.     
 > JS 1.1.26 이상부터 지원한다.        
 
+> **lineAlignment**  
+> Type: String   
+> Default: "center"   
+> 셀 안의 버튼의 상중하 위치를 지정한다. "near", "center", "far"를 지정할 수 있다.       
+> JS 1.1.27 이상부터 지원한다.     
+
+> **width**  
+> Type: Number   
+> Default: 0    
+> 이미지 버튼들이 표시되는 영역의 너비를 지정한다.       
+> JS 1.1.27 이상부터 지원한다.    
+
+> **height**  
+> Type: Number   
+> Default: 0    
+> 개별이미지들의 높이가 다른상태에서 lineAlignment를 Far, Near로 주는 경우 이미지를 정렬하기위한 높이이다. 또한 height가 추가되는 경우 버튼의 아래위를 클릭해도 버튼 클릭이 발생하지 않는다.         
+> JS 1.1.27 이상부터 지원한다.    
+
+> **showText**  
+> Type: Boolean   
+> Default: false    
+> alignment가 near일때 text 표시 여부를 지정한다. (near일때는 표시하지않고 far일때만 표시한다.)      
+> JS 1.1.27 이상부터 지원한다.      
+
+
 #### Examples   
 
 아래의 코드는 값에 따라 동적으로 표시할 버튼을 다르게 나타내는 예이다.

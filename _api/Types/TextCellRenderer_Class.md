@@ -203,6 +203,12 @@ $(document).ready( function() {
 > Default: false  
 > 셀 데이터 값을 툴팁으로 표시해준다.   
 
+> **tooltipEllipseTextOnly**  
+> Type: boolean  
+> Default: false  
+> 셀 데이터 값이 컬럼의 너비보다 길어서 ...으로 표시된 경우에만 툴팁으로 표시해준다.   
+> RealGridJS 1.1.27 부터 지원한다.  
+
 #### Examples
 
 <pre class="prettyprint">

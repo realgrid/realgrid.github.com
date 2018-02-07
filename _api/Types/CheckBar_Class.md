@@ -19,6 +19,7 @@ tags:
 #### Description
 
  CheckBar와 관련된 설정 모델이다. CheckBar는 행들의 Check 상태를 표시하는 수직 Bar다. 
+ RealGridJS 1.1.27 부터 체크바 영역에서 체크를 한 후 shift 키를 누른 상태에서 이전이나 이후 행을 클릭하면 일괄 체크를 할 수 있다.    
 
 #### Properties
 
