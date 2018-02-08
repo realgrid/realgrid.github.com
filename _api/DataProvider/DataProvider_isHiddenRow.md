@@ -1,13 +1,13 @@
 ---
 layout: apipost
-title: isHiddenRows
+title: isHiddenRow
 part: Objects
 objectname: DataProvider
 directiontype: Function
 jsonly: true
 versions:
     - JS 1.1.27+
-permalink: /api/DataProvider/isHiddenRows/
+permalink: /api/DataProvider/isHiddenRow/
 tags:
   - 숨긴행 확인
   - 표시
@@ -24,7 +24,7 @@ tags:
  
 #### Syntax
 
-> function isHiddenRows(dataRow)  
+> function isHiddenRow(dataRow)  
 
 #### Parameters
 
