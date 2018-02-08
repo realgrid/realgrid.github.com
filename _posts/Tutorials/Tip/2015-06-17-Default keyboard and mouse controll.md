@@ -31,19 +31,20 @@ Page Down | 컬럼을 변경하지 않고 완전하게 표시되는 행 수만�
 Page Up | 컬럼을 변경하지 않고 완전하게 표시되는 행 수만큼 컨트롤을 위로 스크롤합니다. 
 TAB | 포커스를 현재 행의 다음 셀로 이동합니다. 포커스가 행의 마지막 셀에 있으면 아무런 동작을 하지 않습니다.
 Shift+Tab | 포커스를 현재 행의 이전 셀로 이동합니다. 포커스가 행의 첫 번째 셀에 이미 있으면 아무런 동작을 하지 않습니다
-Shift+Insert | <font color="red">TreeView관련 내용 추가 작성 중</font>
+Shift+Insert | 같은 레벨로 노드를 추가한다.   
 Ctrl+Home | 포커스를 컬럼을 변경하지 않고 컨트롤의 첫 번째 행으로 이동합니다.
 Ctrl+End | 포커스를 컬럼을 변경하지 않고 컨트롤의 마지막 행으로 이동합니다.
-Ctrl+Delete | [editOptions.deletable](/api/types/EditOptions) 속성이 true 이면 현재 행을 삭제합니다.<br> [editOptions.deleteRowsConfirm](/api/types/EditOptions) 속성이 true 이면 삭제 여부를 묻는 대화 상자를 먼저 호출 합니다. 대화 상자에 표시할 메시지는 [editOptions.deleteRowsMessage](/api/types/EditOptions) 속성으로 지정할 수 있습니다. <br> [dataProviderOptions.softDeleting](/api/types/DataProviderOptions/) 속성이 true 이면  데이터행을 실제로 삭제하지 않고 행의 상태를 [RowState.DELETED](/api/types/RowState) 나 [RowState.CREATE_AND_DELETED](/api/types/RowState) 로 변경합니다. <br> <font color="red">TreeView관련 내용 추가 작성 중</font>
-Ctrl+Left | <font color="red">TreeView관련 내용 추가 작성 중</font>
-Ctrl+Right | <font color="red">TreeView관련 내용 추가 작성 중</font>
-Ctrl+Insert | <font color="red">TreeView관련 내용 추가 작성 중</font>
+Ctrl+Delete | [editOptions.deletable](/api/types/EditOptions) 속성이 true 이면 현재 행을 삭제합니다.<br> [editOptions.deleteRowsConfirm](/api/types/EditOptions) 속성이 true 이면 삭제 여부를 묻는 대화 상자를 먼저 호출 합니다. 대화 상자에 표시할 메시지는 [editOptions.deleteRowsMessage](/api/types/EditOptions) 속성으로 지정할 수 있습니다. <br> [dataProviderOptions.softDeleting](/api/types/DataProviderOptions/) 속성이 true 이면  데이터행을 실제로 삭제하지 않고 행의 상태를 [RowState.DELETED](/api/types/RowState) 나 [RowState.CREATE_AND_DELETED](/api/types/RowState) 로 변경합니다.  
+Ctrl+Left | 노드를 접는다.   
+Ctrl+Right | 노드를 펼친다.   
+Ctrl+Insert | 자식 레벨로 노드를 추가한다.  
 F2 | readOnly 속성이 false이면 현재 셀이 셀 편집 모드가 됩니다.
 Enter | 현재 셀과 행에 대한 변경 내용을 커밋 합니다. <br>[editOptions.enterToTab](/api/types/EditOptions) 속성이 true 이면 포커스를 현재 셀의 다음 셀로 이동합니다. 포커스가 마지막 행에 있으면 변경 내용을 모두 커밋하고 포커스는 이동하지 않습니다.
 Esc | 컨트롤이 편집 모드에 있으면 편집을 취소하고 해당 컨트롤의 모든 변경 내용을 되돌립니다. Cell 편집 상태에서 ESC 입력 시 Cell 편집 상태를 벗어나고 한번 더 ESC를 입력하면 Row 편집 상태를 벗어납니다.
 백스페이스 | 셀을 편집할 때 커서 앞에 있는 문자를 삭제합니다. 편집 상태가 아닐 경우는 셀의 기존 값을 지우고 편집 상태로 전환합니다.
 delete | 셀을 편집할 때 커서 뒤에 있는 문자를 삭제합니다. 편집 상태가 아닐 경우는 셀의 기존 값을 지우고 편집 상태로 전환합니다
 insert | 포커스가 위치한 행에 새로운 행을 추가합니다. 데이타를 입력하지 않고 포커스를 이동하였을 경우 행추가는 취소됩니다.
+Alt+Down | dropDown, date Editor을 오픈한다.  
 
 <br>
 
