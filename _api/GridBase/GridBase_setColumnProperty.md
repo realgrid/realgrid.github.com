@@ -15,7 +15,9 @@ tags:
 
 #### Description
 
- 그리드에 설정되어 있는 컬럼의 특정 속성 정보를 변경한다.
+ 그리드에 설정되어 있는 컬럼의 특정 속성 정보를 변경한다.  
+ * editor 속성 안에 있는 속성을 변경하려는 경우 editor 전체를 다시 지정해야 한다.  
+ * values, labels를 변경하는 경우 setColumnProperty()로 변경할 수 없으며 setColumn()으로 컬럼 자체를 재지정해야 한다.  
 
 #### Syntax
 
