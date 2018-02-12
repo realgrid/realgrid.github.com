@@ -84,6 +84,12 @@ tags:
 > headerBarStyles  
 > footerBarStyles     
 
+> **headerCallback**  
+> Type: function  
+> Default: null  
+> rowGroup.header 영역에 headerCallback 반환된 값을 표시한다.  
+> 레벨별로 값을 다르게 설정할 수 있다.
+
 
 ### Example  
 
@@ -142,6 +148,22 @@ gridView.setRowGroup({
 	   }
 	]	
 });
+
+//headerCallback 적용
+gridView.setRowGroup({
+    headerStatement: null,
+    headerCallback:function(groupModel){
+        var summary1, summary2, ratio;
+        if (groupModel && groupModel.type=="group") {
+            summary1 = grdMain.getGroupSummary(groupModel, "field2");
+            summary2 = grdMain.getGroupSummary(groupModel, "field3");
+            ratio = summary2.sum / summary1.sum * 100;
+        }
+        return ratio;
+    }
+    //그룹 레벨별 값 설정 
+    //return groupModel.level
+})
 
 </pre>
 
