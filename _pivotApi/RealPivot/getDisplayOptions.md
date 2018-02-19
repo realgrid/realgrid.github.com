@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function getDisplayOptions  
+> function getDisplayOptions()  
 
 #### Parameters
 
@@ -25,7 +25,7 @@ tags:
 
 #### Return value
 
-> Type: Object 
+> Type: Object   
 > [DisplayOptions](/pivotApi/types/DisplayOptions/)들로 구성된 객체를 반환한다.     
 
 #### Examples 

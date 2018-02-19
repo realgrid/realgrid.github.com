@@ -12,7 +12,7 @@ tags:
 
 #### Description
 
- 피벗 그리드를 labe이나 value 기준으로 정렬하려 할 때 사용한다.        
+ 피벗 그리드를 label이나 value 기준으로 정렬하려 할 때 사용한다.        
 
 #### Syntax
 
