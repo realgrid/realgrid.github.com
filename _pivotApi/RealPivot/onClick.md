@@ -24,17 +24,17 @@ tags:
 
 #### Arguments
 
-> **pivot**  
+> **pivot**    
 > Type: PivotView     
 > pivotView 컨트롤    
 
-> **type**  
+> **type**   
 > Type: String    
 > 클릭된 위치의 유형 row, body  
 
-> **index**  
-> Type: Object  
-> 클릭된 위치의 columns, rows의 객체 정보, valueField   
+> **index**   
+> Type: Object   
+> 클릭된 위치의 columns, rows의 객체 정보, valueField    
 
 #### Return value
 

@@ -21,9 +21,9 @@ tags:
 
 #### Parameters
 
-> **items**  
-> Type: Object  
-> text와 callback으로 구성된 메뉴 정보 객체 배열.  
+> **items**   
+> Type: Object   
+> text와 callback으로 구성된 메뉴 정보 객체 배열.   
 
 #### Return value
 

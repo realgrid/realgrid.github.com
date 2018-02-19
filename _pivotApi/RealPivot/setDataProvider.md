@@ -20,9 +20,9 @@ tags:
 
 #### Parameters
 
-> **provider**  
-> Type: [LocalDataProvider](/api/LocalDataProvider/)  
-> Data Provider  
+> **provider**   
+> Type: [LocalDataProvider](/api/LocalDataProvider/)   
+> Data Provider   
 
 #### Return value
 

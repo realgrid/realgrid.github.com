@@ -21,9 +21,9 @@ tags:
 
 #### Parameters
 
-> **pivotFields**  
-> Type: Array of [PivotField](/pivotApi/types/PivotField/)  
-> 피벗 필드  
+> **pivotFields**   
+> Type: Array of [PivotField](/pivotApi/types/PivotField/)   
+> 피벗 필드   
 
 #### Return value
 

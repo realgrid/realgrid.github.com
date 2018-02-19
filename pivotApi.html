@@ -73,12 +73,12 @@ permalink: /pivotApi/
 <div class="col-md-8">
   <h3>Objects</h3>
   {% for object_name in site.pivot_object_names %}
-	  <h5><a class="post-link" href="{{ site.baseurl }}/api/{{ object_name }}/">{{ object_name }}</a></h5>
+	  <h5><a class="post-link" href="{{ site.baseurl }}/pivotApi/{{ object_name }}/">{{ object_name }}</a></h5>
 	  <div class="row">
 	      <div class="col-md-6">
 		  <h6><strong>Functions</strong></h6>
 		  <ul class="post-api-list">
-			{% for api in site.pivotApi %}{% if api.part == 'Objects' and api.objectname == object_name and api.directiontype == 'Function' %}
+			{% for api in site.pivotApi %}{% if api.part == 'Objects' and api.directiontype == 'Function' %}
 				<li>
 				<a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
 				{% if api.deprecated == true %}
@@ -100,7 +100,7 @@ permalink: /pivotApi/
 	      <div class="col-md-6">
 		  <h6><strong>Callbacks</strong></h6>
 		  <ul class="post-api-list">
-			{% for api in site.pivotApi %}{% if api.part == 'Objects' and api.objectname == object_name and api.directiontype == 'Callback' %}
+			{% for api in site.pivotApi %}{% if api.part == 'Objects' and api.directiontype == 'Callback' %}
 				<li>
 				<a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
 				{% if api.deprecated == true %}

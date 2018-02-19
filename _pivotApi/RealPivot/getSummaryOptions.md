@@ -18,7 +18,7 @@ tags:
 
 #### Syntax
 
-> function getSummaryOptions()
+> function getSummaryOptions()  
 
 #### Parameters
 
@@ -26,7 +26,7 @@ tags:
 
 #### Return value
 
-> Type: Object 
+> Type: Object   
 > [SummaryOptions](/pivotApi/types/SummaryOptions/)들로 구성된 객체를 반환한다.  
 
 #### Examples 

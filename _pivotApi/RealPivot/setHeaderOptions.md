@@ -22,8 +22,8 @@ tags:
 #### Parameters
 
 > **options**  
-> Type: Object 
-> [HeaderOptions](/pivotApi/types/HeaderOptions/)으로 구성된 객체를 지정한다.  
+> Type: Object   
+> [HeaderOptions](/pivotApi/types/HeaderOptions/)으로 구성된 객체를 지정한다.   
 
 #### Return value
 

@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function getContextMenu()
+> function getContextMenu()  
 
 #### Parameters
 

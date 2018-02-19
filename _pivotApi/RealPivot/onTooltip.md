@@ -22,17 +22,17 @@ tags:
 
 #### Arguments
 
-> **pivot**  
-> Type: PivotView     
-> pivotView 컨트롤    
+> **pivot**   
+> Type: PivotView      
+> pivotView 컨트롤     
 
-> **index**  
-> Type: Object  
-> 툴팁이 표시되는 위치의 columns, rows 객체와 valueField    
+> **index**   
+> Type: Object   
+> 툴팁이 표시되는 위치의 columns, rows 객체와 valueField     
 
-> **s**  
-> Type: String   
-> 컬럼라벨, 값, 열, 행, 건수 정보   
+> **s**   
+> Type: String    
+> 컬럼라벨, 값, 열, 행, 건수 정보    
 
 #### Return
 

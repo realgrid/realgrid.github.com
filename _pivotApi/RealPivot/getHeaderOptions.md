@@ -17,16 +17,16 @@ tags:
 
 #### Syntax
 
-> function getHeaderOptions()
+> function getHeaderOptions()  
 
 #### Parameters
 
-> None.
+> None.  
 
 #### Return value
 
-> Type: Object 
-> [HeaderOptions](/pivotApi/types/HeaderOptions/)들로 구성된 객체를 반환한다.     
+> Type: Object   
+> [HeaderOptions](/pivotApi/types/HeaderOptions/)들로 구성된 객체를 반환한다.      
 
 #### Examples 
 

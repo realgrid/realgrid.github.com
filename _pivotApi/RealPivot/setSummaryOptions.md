@@ -22,9 +22,9 @@ tags:
 
 #### Parameters
 
-> **options**  
-> Type: Object 
-> [summary](/pivotApi/types/SummaryOptions/)옵션들로 구성된 객체    
+> **options**   
+> Type: Object   
+> [summary](/pivotApi/types/SummaryOptions/)옵션들로 구성된 객체     
 
 #### Return value
 

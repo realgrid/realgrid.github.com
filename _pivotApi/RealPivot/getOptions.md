@@ -16,7 +16,7 @@ tags:
 
 #### Syntax
 
-> function getOptions()
+> function getOptions() 
 
 #### Parameters
 
@@ -24,7 +24,7 @@ tags:
 
 #### Return value
 
-> Type: Objects 
+> Type: Objects   
 > [DisplayOptions](/pivotApi/types/DisplayOptions/), [SummaryOptions](/pivotApi/types/SummaryOptions/), [HeaderOptions](/pivotApi/types/HeaderOptions/)들로 구성된 객체를 반환한다.      
 
 #### Examples 

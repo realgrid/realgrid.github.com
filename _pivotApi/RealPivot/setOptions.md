@@ -21,7 +21,7 @@ tags:
 #### Parameters
 
 > **options**  
-> Type: Objects 
+> Type: Objects   
 > [display](/pivotApi/types/DisplayOptions/), [summary](/pivotApi/types/SummaryOptions/), [header](/pivotApi/types/HeaderOptions/) 옵션들로 구성된 객체    
 
 #### Return value

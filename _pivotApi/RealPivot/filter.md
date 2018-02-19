@@ -20,9 +20,9 @@ tags:
 
 #### Parameters
 
-> **condition**  
-> Type: Object  
-> operation과 conditions로 구성된 객체를 지정한다.        
+> **condition**   
+> Type: Object   
+> operation과 conditions로 구성된 객체를 지정한다.         
 
 #### Return value
 

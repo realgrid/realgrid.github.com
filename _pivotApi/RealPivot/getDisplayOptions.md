@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function getDisplayOptions()
+> function getDisplayOptions  
 
 #### Parameters
 

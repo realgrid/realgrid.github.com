@@ -20,10 +20,10 @@ tags:
 
 #### Parameters
 
-> **condition**  
-> Type: Object  
-> column 객체와 row 객체로 구성된 겍체  
-> 각 객체는 method와 labels, direction으로 이루어져 있다.      
+> **condition**   
+> Type: Object   
+> column 객체와 row 객체로 구성된 겍체   
+> 각 객체는 method와 labels, direction으로 이루어져 있다.       
 
 #### Return value
 
