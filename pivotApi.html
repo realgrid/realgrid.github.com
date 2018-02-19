@@ -1,0 +1,123 @@
+---
+layout: page
+permalink: /pivotApi/
+---
+
+	<script>
+	  $(document).ready( function() {
+
+	  	$('input[type="text"]').focus();
+
+	    $('input[type="text"]').keyup(function(){
+
+	      var that = this, $allListElements = $('ul > li');
+
+	      var $matchingListElements = $allListElements.filter(function(i, li){
+	          var listItemText = $(li).text().toUpperCase(), 
+	              searchText = that.value.toUpperCase();
+	          return ~listItemText.indexOf(searchText);
+	      });
+
+	      $allListElements.hide();
+	      $matchingListElements.show();
+
+	  });
+	});
+	</script>
+
+	<div class="form-group has-success">
+	<input type="text" class="form-control input-sm" placeholder="Filter">
+	</div>
+
+<div class="col-md-4">
+  <h3>Features</h3>
+  <ul class="post-api-list">
+	{% for api in site.pivotApi %}{% if api.part == 'Features' %}
+	    <li>
+	    <a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
+	    </li>
+		<span class="hidden">
+			{% for tag in api.tags %}
+				{{ tag }}&nbsp;
+			{% endfor %}
+		</span>
+	{% endif %}{% endfor %}
+  </ul>
+
+  {% assign sorted_by_orderno = site.pivotApi | sort: "order" %}
+
+  <h3>Types</h3>
+  {% for type_name in site.type_names %}
+	  <h6><strong>{{ type_name }}</strong></h6>
+	  <ul class="post-api-list">
+		{% for api in sorted_by_orderno %}{% if api.part == 'Types' and api.typename == type_name %}
+			<li>
+			<a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
+			{% if api.deprecated == true %}
+				<span class="octicon octicon-circle-slash api-deprecated"></span>
+			{% endif %}
+			{% if api.jsonly == true %}
+				<span> <img src="/images/common/ico_includejs.png" alt="JS"/></span>
+			{% endif %}
+				<span class="hidden">
+					{% for tag in api.tags %}
+						{{ tag }}&nbsp;
+					{% endfor %}
+				</span>
+			</li>
+		{% endif %}{% endfor %}
+	  </ul>	
+  {% endfor %}
+</div>
+
+<div class="col-md-8">
+  <h3>Objects</h3>
+  {% for object_name in site.pivot_object_names %}
+	  <h5><a class="post-link" href="{{ site.baseurl }}/api/{{ object_name }}/">{{ object_name }}</a></h5>
+	  <div class="row">
+	      <div class="col-md-6">
+		  <h6><strong>Functions</strong></h6>
+		  <ul class="post-api-list">
+			{% for api in site.pivotApi %}{% if api.part == 'Objects' and api.objectname == object_name and api.directiontype == 'Function' %}
+				<li>
+				<a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
+				{% if api.deprecated == true %}
+					<span class="octicon octicon-circle-slash api-deprecated"></span>
+				{% endif %}
+				{% if api.jsonly == true %}
+					<span> <img src="/images/common/ico_includejs.png" alt="JS"/></span>
+				{% endif %}
+					<span class="hidden">
+						{% for tag in api.tags %}
+							{{ tag }}&nbsp;
+						{% endfor %}
+					</span>
+				</li>
+			{% endif %}{% endfor %}
+		  </ul>	
+		  </div>
+		  
+	      <div class="col-md-6">
+		  <h6><strong>Callbacks</strong></h6>
+		  <ul class="post-api-list">
+			{% for api in site.pivotApi %}{% if api.part == 'Objects' and api.objectname == object_name and api.directiontype == 'Callback' %}
+				<li>
+				<a class="page-link" href="{{ api.url | prepend: site.baseurl }}">{{ api.title }}</a>
+				{% if api.deprecated == true %}
+					<span class="octicon octicon-circle-slash api-deprecated"></span>
+				{% endif %}
+				{% if api.jsonly == true %}
+					<span> <img src="/images/common/ico_includejs.png" alt="JS"/></span>
+				{% endif %}
+					<span class="hidden">
+						{% for tag in api.tags %}
+							{{ tag }}&nbsp;
+						{% endfor %}
+					</span>
+				</li>
+			{% endif %}{% endfor %}
+		  </ul>
+		  </div>
+	  </div>
+  {% endfor %}
+</div>

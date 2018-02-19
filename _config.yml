@@ -16,6 +16,9 @@ markdown: kramdown
 collections:
   api:
     output: true
+  pivotApi:
+    output: true
+    
 
 type_names:
   - Constants
@@ -31,3 +34,10 @@ object_names:
   - DataProvider
   - LocalDataProvider
   - TreeDataProvider
+
+pivot_type_names:
+  - Constants
+  - Classes
+
+pivot_object_names:
+  - RealPivot
