@@ -2,7 +2,7 @@
 layout: apipost
 title: destory
 part: Objects
-objectname: destory
+objectname: destroy
 directiontype: Function
 permalink: /pivotApi/RealPivot/destory/
 tags:
@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function destory()  
+> function destroy()  
 
 #### Parameters
 
@@ -30,6 +30,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    pivotGrid.destory();
+    pivotGrid.destroy();
 </pre>
 
