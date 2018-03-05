@@ -42,7 +42,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-pivot.onLabelTooltip = function (pivot, type, s) {
+pivot.onLabelTooltip = function (pivot, index, s) {
     return "new LabelTooltip<br/>" + s; 
 }
 </pre>
