@@ -122,7 +122,7 @@ tags:
 > **focusColor**   
 > Type: String  
 > Default: "#555555"  
-> 포커스의 색상을 지정한다.  
+> 포커스의 색상을 지정한다. (포커스 셀의 외곽선)   
 > RealGridJS 1.1.20부터 지원한다. 
 
 > **focusBackground**   
@@ -134,14 +134,8 @@ tags:
 > **focusActiveColor**   
 > Type: String  
 > Default: NaN  
-> 포커스가 활성화 되었을때 색상을 지정한다.  
+> 포커스 셀이 에디팅 되었을때 색상을 지정한다. (에디팅 포커스 셀의 외곽선)    
 > RealGridJS 1.1.20부터 지원된다.
-
-> **focusActiveColor**   
-> Type: String   
-> Default: NaN   
-> 포커스가 활성화 되었을때 색상을 지정한다.   
-> RealGridJS 1.1.20부터 지원된다.  
 
 > **innerFocusColor**    
 > Type: String   
