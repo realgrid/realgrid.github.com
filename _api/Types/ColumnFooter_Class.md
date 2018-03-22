@@ -53,15 +53,15 @@ permalink: /api/types/ColumnFooter/
 > 그룹 푸터 데이터셀들에게 적용할 스타일들을 지정한다.   
 
 > **callback**  
-> Type: function (column, footerIndex, grid) { }
-> Default:  null     
+> Type: function (column, footerIndex, grid) { }  
+> Default: null     
 > footer에 사용자 계산이 필요한 경우 사용한다. footer에 표시할 값을 return 하면 된다.   
 > 3번째 parameter인 grid는 1.1.26부터 지원한다.   
 > JS Only.   
 
 > **groupCallback**  
-> Type: function (itemIndex, column, grid, groupModel) { }
-> Default:  null     
+> Type: function (itemIndex, column, grid, groupModel) { }    
+> Default: null       
 > group footer에 사용자 계산이 필요한 경우 사용한다. group footer에 표시할 값을 return 하면 된다.      
 > 3,4번째 parameter인 grid, groupModel은 1.1.26부터 지원한다.  
 > JS Only.
