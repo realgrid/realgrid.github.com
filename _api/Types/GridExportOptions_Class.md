@@ -200,6 +200,11 @@ tags:
 > excel 2010 이상부터 지원한다.  
 > RealGridJS 1.1.27 부터 지원된다.  
 
+> **pagingAllItems**   
+> Type: Boolean  
+> Default: false  
+> true로 지정하면 엑셀 다운로드시 출력된 모든 데이터를 받을 수 있다. 
+
 ### Example  
 
 <pre class="prettyprint">
