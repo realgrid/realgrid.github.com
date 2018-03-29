@@ -223,18 +223,24 @@ function setColumns(grid) {
 > 입력이 시작되는 위치를 지정한다. far로 지정하면 오른쪽 끝에서 부터 입력이 시작된다.  
 > ver 1.1.20부터 지원된다.  
 
-> **editFormat**  
-> Type: numberFormat
-> Default: null  
+> **editFormat**    
+> Type: numberFormat   
+> Default: null    
 > 입력되는 숫자의 포맷을 지정한다. "#,##0.##" 을 지정하면 "1,234,567.89" 와 같이 천단위 구분기호 , 를 표시하면서 소수점은 2자리까지만 입력받는다.    
 > RealGridJS 1.1.20부터 지원된다.  
 > 일부 국가에서 사용되는 천단위 구분기호와 소수점이 반대인 경우 "#,##0.##;,;." 으로 지정한다.  
 > styles.numberFormat도 "#,##0.##;,;."로 형태로 지정하면 된다.  
 
 > **multipleChar**  
-> Type: String
-> Default: null  
+> Type: String   
+> Default: null     
 > 문자 지정시 해당 키를 입력하면 000 이 입력 된다.      
+> RealGridJS 1.1.21부터 지원된다.  
+
+> **maxIntegerLength**  
+> Type: Number   
+> Default: 0     
+> 지정한 자리수만큼 입력 된다.  0인 경우 제한없이 입력된다.        
 > RealGridJS 1.1.21부터 지원된다.  
 
 
