@@ -20,7 +20,7 @@ tags:
 
  모든 행의 높이를 표시되는 데이터에 맞게 변경한다.   
  (* displayOptions.eachRowResizable: true로 지정되어 있어야 한다. multiLine인 경우 textWrap: "explicit"로 지정 )   
- *데이터 행의 수가 많은 경우 브라우져에서 응답없음이 발생할 수 있으므로 주의해서 사용한다.*
+ `*데이터 행의 수가 많은 경우 브라우져에서 응답없음이 발생할 수 있으므로 주의해서 사용한다.*`
 
 #### Syntax
 
