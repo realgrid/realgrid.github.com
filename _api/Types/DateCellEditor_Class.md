@@ -34,7 +34,7 @@ RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년,
 
 > **commitOnSelect**    
 > Type: boolean    
-> Default: true    
+> Default: false    
 > true이면 달력 팝업에서 날짜를 선택과 동시에 값이 반영되고 onCellEdited event가 발생한다.    
 > false이면 날짜를 선택시 grid에 날짜가 입력되고 dataProvider에는 Edit종료후 반영된다.    
 
