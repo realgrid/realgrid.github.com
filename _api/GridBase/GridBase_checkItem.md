@@ -55,7 +55,7 @@ gridView.checkItem(0,true,false);
 
 #### API Links
 
-> [checkAll](/api/GridBase/checkAll)
+* [checkAll](/api/GridBase/checkAll)
 * [checkItems](/api/GridBase/checkItems)
 * [setCheckable](/api/GridBase/setCheckable)
 * [setCheckableExpression](/api/GridBase/setCheckableExpression) 
