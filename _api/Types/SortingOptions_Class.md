@@ -44,47 +44,47 @@ style이 "exclusive"일 때 Shift키와 함께 컬럼 헤더를 클릭하면 "in
 > Default: none  
 > ToastOptions 참조
 
-> **handleColor**
+> **handleColor**  
 > Type: string  
 > Default: undefined  
 > 소트되었을때의 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
 
-> **handleNoneColor**
-> Type: string  
-> Default: undefined  
+> **handleNoneColor**  
+> Type: string   
+> Default: undefined   
 > 미소트되었을때의 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
 
-> **handleBorderColor**
-> Type: string  
-> Default: undefined  
+> **handleBorderColor**   
+> Type: string   
+> Default: undefined   
 > 소트핸들의 경계선 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
 
-> **hoveredHandleColor**
-> Type: string  
-> Default: undefined  
+> **hoveredHandleColor**  
+> Type: string   
+> Default: undefined   
 > 마우스가 호버되고, 소트되었을때의 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
 
-> **hoveredHandleNoneColor**
-> Type: string  
-> Default: undefined  
+> **hoveredHandleNoneColor**  
+> Type: string   
+> Default: undefined   
 > 마우스가 호버되고, 미소트되었을때의 색상을 지정한다. "#AARRGGBB" 형태의 색상코드이다.  
 
-> **imageHandle**
-> Type: boolean  
-> Default: false  
+> **imageHandle**  
+> Type: boolean   
+> Default: false   
 > 핸들 기호를 이미지로 표시할 것인지의 여부를 지정한다.  
 
-> **handleImage**
-> Type: object
+> **handleImage**  
+> Type: object 
 > ascending, descending, hoveredAscending, hoveredDescending, none, hoveredNone 의 속성을 가진 객체이다. 각 속성에는 해당 속성에 맞는 이미지의 경로를 지정한다.  
 
-> **showSortOrder**
+> **showSortOrder**  
 > Type: boolean  
 > Default: false  
 > 소트 순서 표시 여부를 지정한다.    
 > JS ver 1.1.22부터 지원된다. 
 
-> **sortOrderStyles**
+> **sortOrderStyles**  
 > Type: style object  
 > Default: null  
 > 소트 순서의 스타일을 지정한다.(foreground, font, textAlignment, lineAlignment)
