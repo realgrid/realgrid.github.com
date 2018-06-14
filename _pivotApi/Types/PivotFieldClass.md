@@ -15,79 +15,93 @@ tags:
 ---
 
 #### Description
-
+피벗 그리드를 구성하는 필드의 설정 모델이다.
 
 #### Properties
 
 > **name**  
 > Type: String   
 > Default: null       
-> 이름    
+> 필드 식별 명칭    
 
 > **sourceField**  
 > Type: String   
 > Default: null       
-> 참조 그리드 필드    
+> DataProvider의 원본데이터 필드에 해당하는 fieldName    
 
 > **fieldHeader**  
 > Type: String   
 > Default: null       
-> 고정으로 표시될 값    
+> 필드 헤더, name 대신 피벗 그리드내에 표시할 내용.    
 
 > **dateType**  
-> Type: String   
+> Type: DateValueType   
 > Default: null       
 > 날짜 타입 설정  
 
 > **labelEnable**  
 > Type: Boolean   
 > Default: true       
-> label 표시 여부  
+> UI에서 필드를 컬럼, 행 영역에 추가할 수 있는지의 여부  
 
 > **valueEnable**  
 > Type: Boolean   
 > Default: true       
-> value 표시 여부  
+> UI에서 필드를 값 영역에 추가할 수 있는지의 여부  
 
 > **filterEnable**  
 > Type: Boolean   
 > Default: true       
-> filter 설정 여부    
+> UI에서 필드를 필터 영역에 추가할 수 있는지의 여부    
 
 > **displayLabels**  
-> Type: String   
+> Type: Object   
 > Default: null       
-> 실제 field값 대신 표시    
+> 행/컬럼 라벨에 필드 값 대신 표시할 내용, value:label 형식으로 지정    
+> Example: {0: "상반기", 1: "하반기"}  
 
 > **displayFormat**  
 > Type: String   
 > Default: null       
-> 현재 값을 표시할 포맷 형식    
+> 행/컬럼 라벨에 필드 값을 표시할 포맷 형식    
+> Example: "${value+1} 월"
 
 > **displayField**  
 > Type: String   
 > Default: null       
-> 실제 field값 대신 표시할 field    
+> 행/컬럼 라벨에 실제 필드 값 대신 표시할 필드의 name    
 
 > **summaryHeader**  
 > Type: String   
 > Default: null       
-> 고정 표시값  
+> 행/컬럼 그룹 요약 라빌에 표시할 고정 값  
+> Example: "요약"  
 
 > **summaryFormat**  
 > Type: String   
 > Default: null       
-> 동적 표시값   
+> 행/컬럼 그룹 요약 라벨에 표시할 포맷 형식  
+> Example: "${label} 요약"
+
+> **mustValues**
+> Type: Array
+> Default: null  
+> 행/컬럼에서 원본 데이터에 없어도 반드시 라벨로 표시되어야 할 값의 목록  
+
+> **sortDir**
+> Type: SortDirection
+> Default: SortDirection.NONE
+> 필드의 기본 정렬 방식을 지정
 
 > **expression**  
-> Type: String   
+> Type: ValueType   
 > Default: null       
-> value 표현 방식 설정  
+> 값의 표현 방식 설정  
 
 > **numberFormat**  
 > Type: String   
-> Default: null       
-> 숫자 포맷 설정    
+> Default: "#0"       
+> 숫자 값의 포맷 설정    
 
 > **prefix**  
 > Type: String   

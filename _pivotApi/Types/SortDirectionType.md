@@ -10,6 +10,7 @@ permalink: /pivotApi/types/SortDirection/
 tags:
   - 소트방식
   - 소트방법
+  - 정렬방법
 ---
 
 #### Description
@@ -19,15 +20,15 @@ tags:
 
 > **NONE**   
 > Value: "none"  
->    
+> 정렬하지 않음   
 
 > **ASCENDING**  
 > Value: "ascending"   
->   
+> 순차 정렬  
 
 > **DESCENDING**  
 > Value: "descending"   
->   
+> 역차 정렬  
 
 
 #### Examples   

@@ -10,22 +10,22 @@ permalink: /pivotApi/types/FilterOperation/
 tags:
   - 필터
   - 연산자
+  - 오퍼레이션
 ---
 
 #### Description
 
-필터의 operation에 지정하는 상수이다.  
-condition간 연관관계를 나타낸다.  
+다수의 필터간 연산 방식을 지정하는 상수이다.  
 
 #### Members
 
 > **AND**   
 > Value: "and"  
-> 모든 조건을 만족     
+> 모든 필터의 조건을 만족     
 
 > **OR**  
 > Value: "or"   
-> 대상 조건 중 하나의 조건을 만족       
+> 필터의 조건 중 하나를 만족       
 
 
 #### Examples   

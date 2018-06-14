@@ -24,7 +24,7 @@ PivotField의 values.expression에 사용한다.
 
 > **COUNT**  
 > Value: "count"   
-> 개수    
+> 건수    
 
 > **MIN**  
 > Value: "min"    
@@ -36,11 +36,11 @@ PivotField의 values.expression에 사용한다.
 
 > **AVERAGE**  
 > Value: "average"    
-> 평균    
+> 평균값    
 
 > **DISTINCT**  
 > Value: "distinct"    
-> 중복제거    
+> 유일값    
 
 
 #### Examples   

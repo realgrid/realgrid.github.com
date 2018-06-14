@@ -8,23 +8,23 @@ objectname:
 directiontype: 
 permalink: /pivotApi/types/SummaryPosition/
 tags:
-  - 합계위치
-  - 합계표시위치
+  - 요약위치
+  - 요약표시위치
 ---
 
 #### Description
 
-합계행이 표시되는 위치를 지정한다.  
+컬럼/행 내에 요약 셀이 표시되는 위치를 지정한다.  
 
 #### Members
 
 > **FIRST**   
 > Value: "first"  
->    
+> 요약을 앞에 표시   
 
 > **LAST**  
 > Value: "last"   
->   
+> 요약을 뒤에 표시  
 
 
 #### Examples   

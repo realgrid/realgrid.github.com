@@ -6,15 +6,14 @@ objectname: getSummaryOptions
 directiontype: Function
 permalink: /pivotApi/RealPivot/getSummaryOptions/
 tags:
-  - 합계옵션
-  - 소게옵션
+  - 요약옵션
   - 옵션
 ---
 
 
 #### Description
 
- 피벗 그리드의 Summary옵션정보들을 가져온다.    
+ 피벗 그리드의 요약에 관한 옵션 정보들을 가져온다.    
 
 #### Syntax
 

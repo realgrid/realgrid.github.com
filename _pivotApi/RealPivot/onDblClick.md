@@ -18,7 +18,7 @@ tags:
 
 #### Description
 
- 사용자가 그리드를 마우스로 클릭했을 때 호출된다.        
+ 사용자가 그리드를 마우스로 더블 클릭했을 때 호출된다.        
 
 #### Syntax
 
@@ -32,7 +32,7 @@ tags:
 
 > **type**  
 > Type: String    
-> 더블클릭된 위치의 유형 row, body  
+> 더블클릭된 위치의 유형, "column" | "row" | "body"   
 
 > **index**  
 > Type: Object  

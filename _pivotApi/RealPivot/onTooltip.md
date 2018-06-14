@@ -32,7 +32,7 @@ tags:
 
 > **s**   
 > Type: String    
-> 컬럼라벨, 값, 열, 행, 건수 정보    
+> 기본으로 제공되는 툴팁의 문자열    
 
 #### Return
 
@@ -43,7 +43,7 @@ tags:
 
 <pre class="prettyprint">
 pivot.onTooltip = function (pivot, index, s) {
-    return "new tooltip<br/>" + s; 
+    return s; 
 }
 </pre>
 

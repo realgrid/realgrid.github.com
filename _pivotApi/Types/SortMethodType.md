@@ -13,23 +13,22 @@ tags:
 ---
 
 #### Description
-
+컬럼/행의 정렬 방식
 
 #### Members
 
 > **LABEL**   
 > Value: "label"  
->    
+> 라벨의 값을 기준으로 정렬   
 
 > **VALUE**  
 > Value: "value"   
->   
-
+> 특정 조건의 값을 기준으로 정렬  
+> Example: 컬럼의 2018년 판매액 요약을 기준으로 행을 정렬
 
 #### Examples   
 
 <pre class="prettyprint">
-//sort label
 pivot.sort({
   	column: {
       	method: "label",
@@ -40,26 +39,13 @@ pivot.sort({
      	]
   	},
   	row: {
-      	method: "label",
-      	labels: [
-          { name: "CustomerID", direction: "ascending"},
-          { name: "ProductName", direction: "descending"}
-     	 ]
-  	}
-});
-
-//sort value
-pivot.sort({
-  	column: {
-      	method: "value",
-      	fieldName: "UnitPrice",
-      	direction: "descending"
-    },
-    row: {
         method: "value",
         fieldName: "UnitPrice", 
-        direction: "descending"
-    }
+        direction: "descending",
+        conditions: [{
+          "name": "OrderYear", value: "2018"
+        }]
+  	}
 });
 </pre>
 
