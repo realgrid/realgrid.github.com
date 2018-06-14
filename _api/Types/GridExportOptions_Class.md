@@ -174,16 +174,22 @@ tags:
 > DynamicStyles을 적용하여 Export할 것인지를 지정한다.   
 > JS Ver.만 지원  
 
+> **separateRows**   
+> Type: Boolean   
+> Default: false  
+> true로 지정하면 export시 병합을 해제한 상태로 excel에 표시됩니다.  
+
+> **pagingAllItems**   
+> Type: Boolean  
+> Default: false  
+> true로 지정하면 엑셀 다운로드시 출력된 모든 데이터를 받을 수 있다. 
+> RealGridJS 1.1.23 부터 지원된다.  
+
 > **allColumns**   
 > Type: Boolean  
 > Default: false  
 > true로 지정하면 보이지 않는 컬럼들도 export 된다.     
 > RealGridJS만 1.1.24 부터 지원된다.  
-
-> **separateRows**   
-> Type: Boolean   
-> Default: false  
-> true로 지정하면 export시 병합을 해제한 상태로 excel에 표시됩니다.  
 
 > **onlyCheckedItems**   
 > Type: Boolean  
@@ -200,10 +206,13 @@ tags:
 > excel 2010 이상부터 지원한다.  
 > RealGridJS 1.1.27 부터 지원된다.  
 
-> **pagingAllItems**   
-> Type: Boolean  
-> Default: false  
-> true로 지정하면 엑셀 다운로드시 출력된 모든 데이터를 받을 수 있다. 
+> **textCallback**   
+> Type: function (index, column, value)     
+> text 필드 출력시 수행될 콜백함수를 지정한다. 원하는 형태로 지정 가능하다.     
+> 일반적인 경우 사용하지 않는다.  
+> text타입으로 된 시간값을 export하였을때 엑셀에서 연산을 가능할 수 있게 하기위해 만들어졌다.   
+> return 값이 숫자인 경우 숫자 형식으로 export된다.    
+> RealGridJS 1.1.28 부터 지원된다.   
 
 ### Example  
 
@@ -214,7 +223,16 @@ gridView.exportGrid({
     fileName: "gridExportSample.xlsx",
     indicator: "default",
     header: "visible",
-    footer: "hidden"
+    footer: "hidden",
+    //데이터가 "00:00:00"의 형태일때 엑셀 export처리
+    textCallback: function (itemIndex, column, value) {              
+	    if (column === "T_TIME" && value) {
+	        var vals = value.split(":");
+	        return (parseInt(vals[0]) * 3600 + parseInt(vals[1]) * 60 + parseInt(vals[2])) / 86400;
+	    } else {
+	        return value;
+	    }
+	}
 });
 </pre>
 

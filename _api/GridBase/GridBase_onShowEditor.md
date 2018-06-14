@@ -32,8 +32,8 @@ tags:
 
 #### Return
 
-> Type: Boolean
-> Default: true
+> Type: Boolean  
+> Default: true  
 > false 를 리턴하면 Editor가 표시되지 않는다.  
 
 #### Examples 

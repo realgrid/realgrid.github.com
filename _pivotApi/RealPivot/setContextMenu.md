@@ -40,7 +40,10 @@ pivot.setContextMenu([{
 }, {
 	text: "엑셀저장",
 	callback: function(){
-		pivot.exportGrid();
+		pivot.exportGrid({
+			target: "local",
+    		fileName: "gridExportSample.xlsx"
+	    });
 	} 
 }]);
 </pre>
