@@ -58,13 +58,13 @@ tags:
 > Type: Object   
 > Default: null       
 > 행/컬럼 라벨에 필드 값 대신 표시할 내용, value:label 형식으로 지정    
-> Example: {0: "상반기", 1: "하반기"}  
+> Example: {1: "상반기", 2: "하반기"}  
 
 > **displayFormat**  
 > Type: String   
 > Default: null       
 > 행/컬럼 라벨에 필드 값을 표시할 포맷 형식    
-> Example: "${value+1} 월"
+> Example: "${value} 월"
 
 > **displayField**  
 > Type: String   
@@ -84,14 +84,14 @@ tags:
 > Example: "${label} 요약"
 
 > **mustValues**
-> Type: Array
-> Default: null  
+> Type: Array  
+> Default: null    
 > 행/컬럼에서 원본 데이터에 없어도 반드시 라벨로 표시되어야 할 값의 목록  
 
 > **sortDir**
-> Type: SortDirection
-> Default: SortDirection.NONE
-> 필드의 기본 정렬 방식을 지정
+> Type: SortDirection  
+> Default: SortDirection.NONE  
+> 필드의 기본 정렬 방식을 지정  
 
 > **expression**  
 > Type: ValueType   
@@ -101,7 +101,9 @@ tags:
 > **numberFormat**  
 > Type: String   
 > Default: "#0"       
-> 숫자 값의 포맷 설정    
+> 숫자 값의 포맷 설정  
+> 자릿수 필수 표시 여부는 0, 값이 있는 경우에만 표시는 #을 사용한다.   
+> ex) #,##0.000  //천단위 ,를 표시하고 고정소수점 3자리를 사용   
 
 > **prefix**  
 > Type: String   

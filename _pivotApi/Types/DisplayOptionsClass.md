@@ -69,11 +69,6 @@ tags:
 > Default: false       
 > 피벗 구현시 진행바 표시 여부를 지정한다.     
 
-> **virtualRendering**  
-> Type: Boolean   
-> Default: true       
-> 화면에 표시되는 부분만 구현할지의 여부를 지정한다. false이면 피벗 전체를 한번에 구현한다.     
-
 > **notReadyMessage**  
 > Type: String    
 > Default: RealPivotMessages.notReadyText      
@@ -88,7 +83,13 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-	
+pivot.setOptions({        
+    display: {
+        showProgress: true,
+        showTooltip: true,
+        tooltipDelay: 1000
+    }       
+});	
 </pre>
 
 ---

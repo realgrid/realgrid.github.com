@@ -30,6 +30,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-	pivot.resetSize();
+pivot.resetSize();
 </pre>
 

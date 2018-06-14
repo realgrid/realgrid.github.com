@@ -31,20 +31,20 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-	//filter and
-    pivot.filter({
-    operation: "and",  
-    conditions: [
-        { name: "OrderYear", values: [1996] },
-        { name: "UnitPrice", criteria: "value > 50" }
-    ]});
+//filter and
+pivot.filter({
+operation: "and",  
+conditions: [
+    { name: "OrderYear", values: [1996] },
+    { name: "UnitPrice", criteria: "value > 50" }
+]});
 
-    //filter or
-    pivot.filter({
-    operation: "or",  
-    conditions: [
-        { name: "OrderYear", values: [1996] },
-        { name: "UnitPrice", criteria: "value > 50" }
-    ]});    
+//filter or
+pivot.filter({
+operation: "or",  
+conditions: [
+    { name: "OrderYear", values: [1996] },
+    { name: "UnitPrice", criteria: "value > 50" }
+]});    
 </pre>
 

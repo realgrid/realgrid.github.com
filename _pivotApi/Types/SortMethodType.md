@@ -30,22 +30,22 @@ tags:
 
 <pre class="prettyprint">
 pivot.sort({
-  	column: {
-      	method: "label",
-      	labels: [  
-          { name: "OrderYear", direction: "descending"},
-          { name: "OrderQuarter", direction: "descending"},
-          { name: "OrderMonth", directions: "descending"}
-     	]
-  	},
-  	row: {
-        method: "value",
-        fieldName: "UnitPrice", 
-        direction: "descending",
-        conditions: [{
-          "name": "OrderYear", value: "2018"
-        }]
-  	}
+  column: {
+    method: "label",
+    labels: [  
+      { name: "OrderYear", direction: "descending"},
+      { name: "OrderQuarter", direction: "descending"},
+      { name: "OrderMonth", directions: "descending"}
+    ]
+  },
+  row: {
+    method: "value",
+    fieldName: "UnitPrice", 
+    direction: "descending",
+    conditions: [{
+      "name": "OrderYear", value: "2018"
+    }]
+  }
 });
 </pre>
 

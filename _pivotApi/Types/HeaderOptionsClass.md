@@ -55,7 +55,23 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
+pivot.setOptions({
+	header: {
+	    titleVisible: true, 
+    	titleHeight: 50,
+		setupButtonVisible: false, 
+		menuButtonVisible: false
+	}
+});	
 
+or 
+
+pivot.setHeaderOptions({
+	titleVisible: true, 
+	titleHeight: 50,
+	setupButtonVisible: false, 
+	menuButtonVisible: false
+});
 </pre>
 
 ---

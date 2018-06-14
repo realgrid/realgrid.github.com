@@ -35,26 +35,26 @@ tags:
 <pre class="prettyprint">
 //sort label
 pivot.sort({
-  	column: {
-      	method: "label",
-      	labels: [  
+    column: {
+        method: "label",
+        labels: [  
           { name: "OrderYear", direction: "descending"},
           { name: "OrderQuarter", direction: "descending"},
           { name: "OrderMonth", directions: "descending"}
-     	]
-  	},
-  	row: {
-      	method: "value",
-      	labels: [
+      ]
+    },
+    row: {
+        method: "value",
+        labels: [
           { name: "CustomerID", direction: "ascending"},
           { name: "ProductName", direction: "descending"}
-     	 ]
-  	}
+       ]
+    }
 });
 
 //sort value
 pivot.sort({
-  	column: {
+    column: {
       method: "value",
       fieldName: "UnitPrice",
       direction: "descending"

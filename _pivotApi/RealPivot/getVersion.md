@@ -29,6 +29,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var version = pivotGrid.getVersion();
+var version = pivotGrid.getVersion();
 </pre>
 

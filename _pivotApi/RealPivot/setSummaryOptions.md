@@ -32,9 +32,9 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    pivot.setSummaryOptions({
-        rowVisible: true,
-        columnVisible: true
-    });
+pivot.setSummaryOptions({
+    rowVisible: true,
+    columnVisible: true
+});
 </pre>
 

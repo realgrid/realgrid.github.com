@@ -181,9 +181,6 @@ $(document).ready( function(){
             }, {
                 name: "OrderQuarter",
                 direction: "ascending"
-            }, {
-                name: "OrderMonth",
-                direction: "descending"
             }
         ],
         rows: ["CustomerID", "ProductName"],
@@ -6522,7 +6519,7 @@ var realPivotLic = '......라이선스정보.....';
         labelEnable: false
     }]);</pre>
 
-10. Pivot 화면에 표시될 Column필드들과 Row필드 Value필드들을 지정하는 코드를 추가합니다.  
+10. Pivot 화면에 표시될 Column필드들과 Row필드, Value필드들을 지정하는 코드를 추가합니다.  
 
     <pre class="prettyprint">
     pivot.setPivotFields({
@@ -6533,9 +6530,6 @@ var realPivotLic = '......라이선스정보.....';
             }, {
                 name: "OrderQuarter",
                 direction: "ascending"
-            }, {
-                name: "OrderMonth",
-                direction: "descending"
             }
         ],
         rows: ["CustomerID", "ProductName"],
@@ -6551,14 +6545,14 @@ var realPivotLic = '......라이선스정보.....';
 11. Pivot 화면을 생성하여 화면에 표시하는 코드를 추가 합니다. 
 
     <pre class="prettyprint">
-    pivot.drawView()</pre>
+    pivot.drawView();</pre>
 
 
 <!-- more -->
 
 ### 실행화면
 
-<div id="realpivotDiv" style="width: 100%; height: 200px;"></div>
+<div id="realpivotDiv" style="width: 100%; height: 500px;"></div>
 <p></p>
 
 ### 전체 소스코드
@@ -6765,9 +6759,6 @@ $(document).ready( function(){
             }, {
                 name: "OrderQuarter",
                 direction: "ascending"
-            }, {
-                name: "OrderMonth",
-                direction: "descending"
             }
         ],
         rows: ["CustomerID", "ProductName"],

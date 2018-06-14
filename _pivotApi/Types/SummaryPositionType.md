@@ -30,7 +30,12 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-
+pivot.setOptions({        
+    summary: {
+        rowPosition: "first",
+        columnPosition: "last"
+    }       
+});
 </pre>
 
 ---

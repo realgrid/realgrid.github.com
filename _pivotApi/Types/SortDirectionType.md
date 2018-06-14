@@ -34,7 +34,25 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-
+pivot.setPivotFields({
+    columns: [
+        {
+            name: "OrderYear",
+            direction: "descending"
+        }, {
+            name: "OrderQuarter",
+            direction: "ascending"
+        }
+    ],
+    rows: ["CustomerID", "ProductName"],
+    values: [{
+        name: "Quantity",
+        expression: "sum"
+    }, {
+        name: "UnitPrice",
+        expression: "sum"
+    }],
+});
 </pre>
 
 ---

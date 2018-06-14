@@ -31,14 +31,14 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    pivot.setOptions({
-        display: {
-            rowLabelWidth: 120,
-            tooltipDelay: 1000,
-            showTooltip: true,
-            showLabelTooltip: true,
-            showProgress: true
-        }
-    });
+pivot.setOptions({
+    display: {
+        rowLabelWidth: 120,
+        tooltipDelay: 1000,
+        showTooltip: true,
+        showLabelTooltip: true,
+        showProgress: true
+    }
+});
 </pre>
 

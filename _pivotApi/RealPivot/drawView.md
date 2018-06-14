@@ -31,6 +31,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-	pivot.drawView();
+pivot.drawView();
 </pre>
 

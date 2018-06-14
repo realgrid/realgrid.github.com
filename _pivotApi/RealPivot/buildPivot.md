@@ -30,6 +30,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-	pivot.buildPivot();
+pivot.buildPivot();
 </pre>
 

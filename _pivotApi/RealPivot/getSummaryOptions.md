@@ -31,6 +31,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var options = pivot.getSummaryOptions()
+var options = pivot.getSummaryOptions()
 </pre>
 
