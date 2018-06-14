@@ -30,7 +30,7 @@ tags:
 
 > **type**   
 > Type: String    
-> 클릭된 위치의 유형 row, body  
+> 클릭된 위치의 유형, "column" | "row" | "body"   
 
 > **index**   
 > Type: Object   

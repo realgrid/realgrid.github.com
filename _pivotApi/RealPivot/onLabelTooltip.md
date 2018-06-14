@@ -32,7 +32,7 @@ tags:
 
 > **s**   
 > Type: String   
->  
+> 기본으로 제공되는 툴팁 문자열   
 
 #### Return
 
@@ -43,7 +43,7 @@ tags:
 
 <pre class="prettyprint">
 pivot.onLabelTooltip = function (pivot, index, s) {
-    return "new LabelTooltip<br/>" + s; 
+    return s; 
 }
 </pre>
 

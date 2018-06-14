@@ -13,7 +13,7 @@ tags:
 
 #### Description
 
- 피벗 그리드를 구성한다.      
+ 피벗 데이터를 구성한다.      
 
 #### Syntax
 

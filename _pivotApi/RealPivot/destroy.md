@@ -6,8 +6,7 @@ objectname: destroy
 directiontype: Function
 permalink: /pivotApi/RealPivot/destory/
 tags:
-  - 새로운 필드
-  - 필드 생성
+  - 소멸자
 ---
 
 

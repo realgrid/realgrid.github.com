@@ -23,7 +23,8 @@ tags:
 > **condition**   
 > Type: Object   
 > column 객체와 row 객체로 구성된 겍체   
-> 각 객체는 method와 labels, direction으로 이루어져 있다.       
+> [method](/pivotApi/types/SortMethodType/)가 label인 경우 labels 속성이 필요하고  
+> method가 value인 경우 fieldName, direction, conditions 속성 필요하다.       
 
 #### Return value
 
@@ -43,7 +44,7 @@ pivot.sort({
      	]
   	},
   	row: {
-      	method: "label",
+      	method: "value",
       	labels: [
           { name: "CustomerID", direction: "ascending"},
           { name: "ProductName", direction: "descending"}
@@ -54,7 +55,7 @@ pivot.sort({
 //sort value
 pivot.sort({
   	column: {
-      	method: "value",
+      method: "value",
       fieldName: "UnitPrice",
       direction: "descending"
     },
@@ -62,6 +63,9 @@ pivot.sort({
         method: "value",
         fieldName: "UnitPrice", 
         direction: "descending"
+        conditions: [{
+          name: "OrderYear", value: 1997
+        }]
     }
 });
 </pre>

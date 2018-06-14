@@ -8,53 +8,53 @@ objectname:
 directiontype: 
 permalink: /pivotApi/types/DateValueType/
 tags:
-  - 날짜밸류타입
-  - 밸류
+  - 날짜값타입
+  - 날짜
 ---
 
 #### Description
 
-row에 표시되는 data들의 범위
+Date 필드를 피벗에 표현하는 방식
 
 #### Members
 
 > **YEAR**   
 > Value: "year"  
-> 년 단위     
+> 년도     
 
 > **HALF**  
 > Value: "half"   
-> 반기 단위    
+> 반기, [0,1]     
 
 > **QUARTER**  
 > Value: "quarter"    
-> 분기 단위    
+> 분기, [0,1,2,3]    
 
 > **MONTH**  
 > Value: "month"    
-> 월 단위     
+> 월, [0-11]      
 
 > **WEEKOFYEAR**  
 > Value: "weekofyear"    
-> 년 주차 단위  
+> 년 주차, [0-52]  
 > 1월 1일을 기준으로 계산, ISO 8601표준과 다름    
 
 > **WEEKOFMONTH**  
 > Value: "weekofmonth"    
-> 월 주차 단위  
+> 월 주차, [0-5] 
 > 1일을 기준으로 계산    
 
 > **WEEKDAY**  
 > Value: "weekday"    
-> 주 단위    
+> 주, 일요일(0) - 토요일(6)    
 
 > **DAY**  
 > Value: "day"    
-> 일 단위    
+> 일, [0-31]    
 
 > **HOUR**  
 > Value: "hour"    
-> 시간 단위    
+> 시간, [0-23]    
 
 
 #### Examples   

@@ -15,7 +15,7 @@ tags:
 
 #### Description
 
- 피벗 그리드 수준에서 관리되는 표시 정보들에 대한 설정 모델이다.
+ 피벗 그리드의 표시에 관련된 정보들에 대한 설정 모델이다.
 
 #### Properties
 
@@ -32,17 +32,17 @@ tags:
 > **columnWidth**  
 > Type: Number   
 > Default: 60      
-> 컬럼의 너비를 지정한다.    
+> 최하위 컬럼의 너비를 지정한다.    
 
 > **rowLabelWidth**  
 > Type: Number   
 > Default: 80       
-> 표시되는 row label의 너비를 지정한다.    
+> 최하위 행의 너비를 지정한다.    
 
 > **rowGroupWidth**  
 > Type: Number   
 > Default: 70       
-> 표시되는 row group의 너비를 지정한다.    
+> 행 그룹의 너비를 지정한다.    
 
 > **showTooltip**  
 > Type: Boolean   
@@ -62,28 +62,33 @@ tags:
 > **blankFillValue**  
 > Type: Number   
 > Default: 0      
-> 값이 없는 영역에 채울 값을 지정한다.    
+> 값이 없는 영역에 채울 값을 지정한다. 기본 값을 채우지 않으려면 null로 설정한다.    
 
 > **showProgress**  
 > Type: Boolean   
 > Default: false       
-> 피벗 계산시 진행창 표시 여부를 지정한다.     
+> 피벗 구현시 진행바 표시 여부를 지정한다.     
+
+> **virtualRendering**  
+> Type: Boolean   
+> Default: true       
+> 화면에 표시되는 부분만 구현할지의 여부를 지정한다. false이면 피벗 전체를 한번에 구현한다.     
 
 > **notReadyMessage**  
 > Type: String    
-> Default: '피벗 설정이 준비되지 않았습니다.'      
+> Default: RealPivotMessages.notReadyText      
 > 피벗 그리드 객체만 생성되었을때의 메시지를 지정한다.    
 
 > **emptyMessage**  
 > Type: String   
-> Default: '데이터가 존재하지 않습니다.'      
+> Default: RealPivotMessages.emptyDataText      
 > 피벗 설정이 완료된 이후 데이터가 로드되지 않았을때 표시할 메시지를 지정한다.    
 
 
 #### Examples   
 
 <pre class="prettyprint">
-
+	
 </pre>
 
 ---
