@@ -33,18 +33,18 @@ tags:
 
 <pre class="prettyprint">
 pivot.setContextMenu([{
-	text: "버전확인",
-	callback: function(){
-		alert(pivot.getVersion())
-	}
+    text: "버전확인",
+    callback: function(){
+        alert(pivot.getVersion())
+    }
 }, {
-	text: "엑셀저장",
-	callback: function(){
-		pivot.exportGrid({
-			target: "local",
-    		fileName: "gridExportSample.xlsx"
-	    });
-	} 
+    text: "엑셀저장",
+    callback: function(){
+        pivot.exportGrid({
+            target: "local",
+            fileName: "gridExportSample.xlsx"
+        });
+    }
 }]);
 </pre>
 

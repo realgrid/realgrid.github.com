@@ -83,11 +83,21 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-pivot.setDisplayOptions({        
+pivot.setOptions({
+    display: {
+        showProgress: true,
+        showTooltip: true,
+        tooltipDelay: 1000
+    }
+});
+
+or
+
+pivot.setDisplayOptions({
     showProgress: true,
     showTooltip: true,
     tooltipDelay: 1000
-});	
+});
 </pre>
 
 ---

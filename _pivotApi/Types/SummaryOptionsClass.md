@@ -63,14 +63,27 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
+pivot.setOptions({
+    summary: {
+        columnVisible: true,
+        rowVisible: false,
+        columnGroupVisible: false,
+        rowGroupVisible: false,
+        columnPosition: "last",
+        rowPosition: "first"
+    }
+});
+
+or	
+
 pivot.setSummaryOptions({
-	columnVisible: true,
+    columnVisible: true,
     rowVisible: false,
     columnGroupVisible: false,
     rowGroupVisible: false,
     columnPosition: "last",
     rowPosition: "first"
-}}
+})
 </pre>
 
 ---

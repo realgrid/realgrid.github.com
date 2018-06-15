@@ -32,8 +32,8 @@ tags:
 
 <pre class="prettyprint">
 $(function() { 	
-	dataProvider = new RealGridJS.LocalDataProvider();
-	setFields(dataProvider);
+    dataProvider = new RealGridJS.LocalDataProvider();
+    setFields(dataProvider);
 
     pivot = new RealPivot(id);
     pivot.setDataProvider(dataProvider);
