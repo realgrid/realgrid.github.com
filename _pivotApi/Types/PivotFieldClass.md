@@ -35,7 +35,7 @@ tags:
 > 필드 헤더, name 대신 피벗 그리드내에 표시할 내용.    
 
 > **dateType**  
-> Type: DateValueType   
+> Type: [DateValueType](/pivotApi/types/DateValueType/)    
 > Default: null       
 > 날짜 타입 설정  
 
@@ -83,18 +83,18 @@ tags:
 > 행/컬럼 그룹 요약 라벨에 표시할 포맷 형식  
 > Example: "${label} 요약"
 
-> **mustValues**
+> **mustValues**  
 > Type: Array  
 > Default: null    
 > 행/컬럼에서 원본 데이터에 없어도 반드시 라벨로 표시되어야 할 값의 목록  
 
-> **sortDir**
-> Type: SortDirection  
+> **sortDir**   
+> Type: [SortDirection](/pivotApi/types/SortDirection/)  
 > Default: SortDirection.NONE  
 > 필드의 기본 정렬 방식을 지정  
 
 > **expression**  
-> Type: ValueType   
+> Type: [ValueType](/pivotApi/types/ValueType/)  
 > Default: null       
 > 값의 표현 방식 설정  
 

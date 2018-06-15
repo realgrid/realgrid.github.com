@@ -56,21 +56,21 @@ tags:
 
 <pre class="prettyprint">
 pivot.setOptions({
-	header: {
-	    titleVisible: true, 
-    	titleHeight: 50,
-		setupButtonVisible: false, 
-		menuButtonVisible: false
-	}
-});	
+    header: {
+        titleVisible: true,
+        titleHeight: 50,
+        setupButtonVisible: false,
+        menuButtonVisible: false
+    }
+});
 
-or 
+or
 
 pivot.setHeaderOptions({
-	titleVisible: true, 
-	titleHeight: 50,
-	setupButtonVisible: false, 
-	menuButtonVisible: false
+    titleVisible: true,
+    titleHeight: 50,
+    setupButtonVisible: false,
+    menuButtonVisible: false
 });
 </pre>
 

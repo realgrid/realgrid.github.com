@@ -14,7 +14,7 @@ tags:
 #### Description
 
 표시되는 값의 유형.   
-PivotField의 values.expression에 사용한다.  
+PivotField의 expression에 사용한다.  
 
 #### Members
 
