@@ -6267,28 +6267,28 @@ Javascript파일중 jszip.min.js파일은 엑셀파일 Export에 필요한 파�
 
 ##### RealPivot 평가용/개발자용 버전 파일
 <pre>
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/default_blue.css&quot;&gt;
+<mark>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/default_blue.css&quot;&gt;</mark>
 
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-lic.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs_eval.1.1.27.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-api.1.1.27.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.0.9.0.min.js&quot;&gt;&lt;/script&gt;
+<mark>&lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;</mark>
+<mark>&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.0.9.0.min.js&quot;&gt;&lt;/script&gt;</mark>
 </pre>
 
 ##### RealPivot 운영용 버전 파일
 <pre>
-&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/default_blue.css&quot;&gt;
+<mark>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/default_blue.css&quot;&gt;</mark>
 
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-lic.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs.1.1.27.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-api.1.1.27.js&quot;&gt;&lt;/script&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot.0.9.0.min.js&quot;&gt;&lt;/script&gt;
+<mark>&lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;</mark>
+<mark>&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot.0.9.0.min.js&quot;&gt;&lt;/script&gt;</mark>
 </pre>
 
 그리고 라이선스 파일인 realgridjs-lic.js 안에는 아래와 같이 RealGridJS와 RealPivot의 라이선스 정보가 생성되어 있어야 정상 동작합니다. 물론 service.realgrid.com에서 RealPivot용으로 다운 받으셨다면 정상적으로 보이실 것입니다.   
