@@ -14,6 +14,7 @@ tags:
 #### Description
 
  피벗 그리드 필드에 [Data Provider](/api/LocalDataProvider/)의 필드를 맵핑한다.  
+ 날짜 필드의 경우 하나의 DataProvider 필드에서 데이터 유형별로 여러개의 피벗 필드를 매핑할 수 있다.  
 
 #### Syntax
 
@@ -41,7 +42,8 @@ tags:
         name: "CustomerID",
         sourceField: "CustomerID",
         fieldHeader: "고객사",
-        valueEnable: false
+        valueEnable: false,
+        sortDir: "descending"
     }, {
         name: "EmployeeID",
         fieldHeader: "처리자",
