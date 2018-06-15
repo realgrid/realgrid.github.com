@@ -47,3 +47,9 @@ pivot.onLabelTooltip = function (pivot, index, s) {
 }
 </pre>
 
+---
+
+#### API Links
+
+* [DisplayOptions](/pivotApi/types/DisplayOptions/)   
+

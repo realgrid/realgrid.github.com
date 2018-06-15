@@ -31,6 +31,12 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var options = pivot.getDisplayOptions();
+var options = pivot.getDisplayOptions();
 </pre>
 
+---
+
+#### API Links
+
+* [DisplayOptions](/pivotApi/types/DisplayOptions/)   
+* [getDisplayOptions](/pivotApi/RealPivot/getDisplayOptions/)   

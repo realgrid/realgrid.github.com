@@ -30,6 +30,11 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    var options = pivot.getOptions();
+var options = pivot.getOptions();
 </pre>
 
+---
+
+#### API Links
+
+* [getOptions](/pivotApi/RealPivot/getOptions/)   

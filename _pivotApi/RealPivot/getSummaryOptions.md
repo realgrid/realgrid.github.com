@@ -34,3 +34,9 @@ tags:
 var options = pivot.getSummaryOptions()
 </pre>
 
+---
+
+#### API Links
+
+* [SummaryOptions](/pivotApi/types/SummaryOptions/)   
+* [getSummaryOptions](/pivotApi/RealPivot/getSummaryOptions/)   

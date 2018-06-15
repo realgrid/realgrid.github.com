@@ -29,6 +29,6 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    pivotGrid.destroy();
+pivotGrid.destroy();
 </pre>
 

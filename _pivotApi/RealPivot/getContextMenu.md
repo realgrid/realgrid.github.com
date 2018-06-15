@@ -34,3 +34,8 @@ tags:
 var contextMenu = pivot.getContextMenu();
 </pre>
 
+---
+
+#### API Links
+
+* [setContextMenu](/pivotApi/RealPivot/setContextMenu/)   

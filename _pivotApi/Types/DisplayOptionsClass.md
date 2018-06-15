@@ -83,15 +83,18 @@ tags:
 #### Examples   
 
 <pre class="prettyprint">
-pivot.setOptions({        
-    display: {
-        showProgress: true,
-        showTooltip: true,
-        tooltipDelay: 1000
-    }       
+pivot.setDisplayOptions({        
+    showProgress: true,
+    showTooltip: true,
+    tooltipDelay: 1000
 });	
 </pre>
 
 ---
+
+#### API Links
+
+* [setDisplayOptions](/pivotApi/RealPivot/setDisplayOptions/)   
+* [getDisplayOptions](/pivotApi/RealPivot/getDisplayOptions/)   
 
 

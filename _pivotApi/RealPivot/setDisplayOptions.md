@@ -32,12 +32,18 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-    pivot.setDisplayOptions({
-        rowLabelWidth: 120,
-        tooltipDelay: 1000,
-        showTooltip: true,
-        showLabelTooltip: true,
-        showProgress: true
-    });
+pivot.setDisplayOptions({
+    rowLabelWidth: 120,
+    tooltipDelay: 1000,
+    showTooltip: true,
+    showLabelTooltip: true,
+    showProgress: true
+});
 </pre>
 
+---
+
+#### API Links
+
+* [DisplayOptions](/pivotApi/types/DisplayOptions/)   
+* [setDisplayOptions](/pivotApi/RealPivot/setDisplayOptions/)   

@@ -42,3 +42,8 @@ pivot.setOptions({
 });
 </pre>
 
+---
+
+#### API Links
+
+* [getOptions](/pivotApi/RealPivot/getOptions/)   

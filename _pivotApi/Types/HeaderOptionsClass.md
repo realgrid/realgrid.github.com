@@ -76,4 +76,9 @@ pivot.setHeaderOptions({
 
 ---
 
+#### API Links
+
+* [getHeaderOptions](/pivotApi/RealPivot/getHeaderOptions/)   
+* [setHeaderOptions](/pivotApi/RealPivot/setHeaderOptions/)   
+
 

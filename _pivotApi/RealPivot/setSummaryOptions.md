@@ -38,3 +38,9 @@ pivot.setSummaryOptions({
 });
 </pre>
 
+---
+
+#### API Links
+
+* [SummaryOptions](/pivotApi/types/SummaryOptions/)   
+* [getSummaryOptions](/pivotApi/RealPivot/getSummaryOptions/)   

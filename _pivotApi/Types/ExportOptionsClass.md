@@ -7,22 +7,22 @@ order: ExportOptions
 objectname: 
 directiontype: 
 permalink: /pivotApi/types/ExportOptions/
-tags:
-  - ExcelExportOptions
-  - 엑셀옵션
-  - 엑셀익스포트옵션   
+tags: 
+  - 익스포트
+  - export
+  - 옵션
 ---
 
 #### Description
 
- 화면에 표시되는 그리드를 엑셀 외부 문서로 내보기할 때 지정하는 설정 모델.
+화면에 표시되는 요약영역과 관련된 옵션을 설정하는 모델이다.  
 
 #### Properties
 
 > **target**  
-> Type: string  
-> Default: "remote"   
-> 문서를 로컬에 직접 저장할 지 혹은, 서버를 경유해서 저장할 지를 지정한다. "remote"와 "local"을 지정할 수 있다.
+> Type: string, "local" | "remote"  
+> Default: "local"    
+> 문서를 로컬에 직접 저장할 지 (IE 9이하 버전은 불가), 서버를 경유해서 저장할 지를 지정한다. 
 
 > **url**   
 > Type: string         
@@ -33,6 +33,16 @@ tags:
 > Type: string         
 > Default: null   
 > export 시 저장될 파일 이름.  
+
+> **expandAll**  
+> Type: Boolean  
+> Default : true
+> 접혀진 그룹 하위의 모든 셀을 출력할것인지의 여부 
+
+> **numberFormat**  
+> Type: string   
+> Default: undefined   
+> 이 값이 지정되면 number 필드의 값을 출력할 때 변환 형식으로 사용된다.     
 
 > **start**  
 > Type: number    
@@ -56,29 +66,20 @@ tags:
 
 > **applyCssStyles**  
 > Type: boolean  
-> Default: false  
-> CSS Styles을 적용하여 Export할 것인지를 지정한다.   
+> Default: true  
+> css style을 출력 문서에 반영할 지의 여부  
 
 > **done**  
 > Type: function(){}  
-> Default: null  
-> 피벗그리드의 데이터 스트림 전송이 끝난 이후에 발생한다.    
+> Default: 
+> excel 데이터 전송이 끝난 후 발생하는 콜백 함수이다.    
 
 ### Example  
 
 <pre class="prettyprint">
-pivot.exportGrid({
+gridView.exportGrid({
     target: "local",
-    fileName: "gridExportSample.xlsx"
+    fileName: "PivotExport.xlsx"
 });
-</pre>
-
 ---
 
-#### API Links
-
-* [exportGrid](/api/GridBase/exportGrid/)
-
-#### Demo Links
-
-* [Export to Excel File](http://demo.realgrid.com/Excels/ExcelExport/) 

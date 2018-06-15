@@ -48,3 +48,8 @@ pivot.setContextMenu([{
 }]);
 </pre>
 
+---
+
+#### API Links
+
+* [getContextMenu](/pivotApi/RealPivot/getContextMenu/)   

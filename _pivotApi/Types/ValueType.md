@@ -34,7 +34,7 @@ PivotField의 values.expression에 사용한다.
 > Value: "max"    
 > 최대값    
 
-> **AVG**  
+> **AVERAGE**  
 > Value: "avg"    
 > 평균값    
 

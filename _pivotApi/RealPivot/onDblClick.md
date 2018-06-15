@@ -50,3 +50,8 @@ pivot.onDblClick = function (pivot, type, index) {
 }
 </pre>
 
+---
+
+#### API Links
+
+* [onClick](/pivotApi/RealPivot/onClick/)   

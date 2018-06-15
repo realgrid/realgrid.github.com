@@ -33,15 +33,35 @@ tags:
 
 <pre class="prettyprint">
 	pivot.setPivotFields({
-	    columns: ["OrderYear", "OrderQuarter", "OrderMonth"],
-	    rows: ["CustomerID", "ProductName"],
+	    //columns: ["OrderYear", "OrderQuarter", "OrderMonth"],
+	    //rows: ["CustomerID", "ProductName"],
+        columns: [
+            {
+                name: "OrderYear",
+                direction: "descending"
+            }, {
+                name: "OrderQuarter",
+                direction: "ascending"
+            }, {
+                name: "OrderMonth",
+                direction: "descending"
+            }
+        ],	    
+        rows: [{
+            name: "CustomerID",
+            direction: "ascending"
+        }, {
+            name: "ProductName",
+            direction: "ascending"
+        }],	    
 	    values: [{
 	        name: "Quantity",
 	        expression: "sum"
 	    }, {
 	        name: "UnitPrice",
 	        expression: "max"
-	    }]
+	    }],
+	    
 	});
 </pre>
 

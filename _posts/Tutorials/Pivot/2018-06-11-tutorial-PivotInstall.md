@@ -6257,36 +6257,38 @@ RealPivot은 단독으로 동작하지 않고 RealGridJS가 반드시 설치되�
 
 ### 이론
 
-RealPivot을 개발환경에 맞게 설치하는 방법을 알아보도록 하겠습니다. 만약, RealPivot이 없다면 라이선스를 발급 요청하는 사이트인 [http://service.realgrid.com](http://service.realgrid.com){:target="_blank"}에서 평가판을 신청하면 다운로드 받을 수 있습니다. 내려받은 압축 파일에 포함된 파일중 설치에 <mark>반드시 필요한 파일</mark>은 아래 네 개의 Javascript파일들과 CSS 파일 하나 입니다.  
+RealPivot을 개발환경에 맞게 설치하는 방법을 알아보도록 하겠습니다. 만약, RealPivot이 없다면 라이선스를 발급 요청하는 사이트인 [http://service.realgrid.com](http://service.realgrid.com){:target="_blank"}에서 평가판을 신청하면 다운로드 받을 수 있습니다. 내려받은 압축 파일에 포함된 파일중 설치에 <mark>반드시 필요한 파일</mark>은 아래 목록중 맨 밑에 위치한 두 개의 Javascript파일들과 CSS 파일 하나 입니다.  
 
 Javascript파일중 jszip.min.js파일은 엑셀파일 Export에 필요한 파일이므로 엑셀 내보내기 기능이 필요한 화면에서는 반드시 포함시켜주셔야 합니다.
 
 그러나 위에서 언급한 것과 같이 RealPivot은 단독으로 동작하지 않으며 RealGridJS가 반드시 필요하기 때문에 실제로 필요한 파일 목록은 아래와 같습니다.  
 
-***참고로 RealGridPivot는 JQuery와 같은 외부 라이브러리가 필요없습니다.***    
+***참고로 RealPivot는 JQuery와 같은 외부 라이브러리가 필요없습니다.***    
 
-##### RealGridPivot 평가용/개발자용 버전 파일
+##### RealPivot 평가용/개발자용 버전 파일
 <pre>
 &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/default_blue.css&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-lic.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs_eval.1.1.27.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-api.1.1.27.js&quot;&gt;&lt;/script&gt;
+
 &lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.0.9.0.min.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/domutils.js&quot;&gt;&lt;/script&gt;
 </pre>
 
-##### RealGridPivot 운영용 버전 파일
+##### RealPivot 운영용 버전 파일
 <pre>
 &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/default_blue.css&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-lic.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs.1.1.27.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-api.1.1.27.js&quot;&gt;&lt;/script&gt;
+
 &lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot.0.9.0.min.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/domutils.js&quot;&gt;&lt;/script&gt;
 </pre>
 
 그리고 라이선스 파일인 realgridjs-lic.js 안에는 아래와 같이 RealGridJS와 RealPivot의 라이선스 정보가 생성되어 있어야 정상 동작합니다. 물론 service.realgrid.com에서 RealPivot용으로 다운 받으셨다면 정상적으로 보이실 것입니다.   
@@ -6298,7 +6300,7 @@ var realPivotLic = '......라이선스정보.....';
 
 ### 실습
 
-이제 RealGridPivot을 웹 화면에 올려 보겠습니다.   
+이제 RealPivot을 웹 화면에 올려 보겠습니다.   
 
 1. CSS 및 스크립트파일 순서대로 include합니다. 반드시 아래의 순서대로 파일을 불러와야 합니다.
 
@@ -6310,12 +6312,11 @@ var realPivotLic = '......라이선스정보.....';
     &lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.0.9.0.min.js&quot;&gt;&lt;/script&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/domutils.js&quot;&gt;&lt;/script&gt;</pre>
 
 2. RealPivot이 표시될 `div` 태그를 작성하고 크기를 지정해야 합니다. <mark>크기가 지정되지 않으면 화면에 RealPivot이 표시되지 않습니다.</mark>
 
     <pre class="prettyprint">
-    &lt;div id=&quot;realpivotDiv&quot; style=&quot;width: 100%; height: 200px;&quot;&gt;&lt;/div&gt;</pre>
+    &lt;div id=&quot;realpivotDiv&quot; style=&quot;width: 100%; height: 500px;&quot;&gt;&lt;/div&gt;</pre>
 
 3. Pivot객체를 저장할 pivot변수를 정의 합니다.
 
@@ -6566,7 +6567,6 @@ var realPivotLic = '......라이선스정보.....';
 &lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.0.9.0.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/domutils.js&quot;&gt;&lt;/script&gt;
 
 &lt;script&gt;
 var pivot;

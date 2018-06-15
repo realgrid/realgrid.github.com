@@ -75,4 +75,8 @@ pivot.setSummaryOptions({
 
 ---
 
+#### API Links
+
+* [getSummaryOptions](/pivotApi/RealPivot/getSummaryOptions/)   
+* [setSummaryOptions](/pivotApi/RealPivot/setSummaryOptions/)   
 

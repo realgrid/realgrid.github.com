@@ -38,3 +38,9 @@ tags:
     });
 </pre>
 
+---
+
+#### API Links
+
+* [HeaderOptions](/pivotApi/types/HeaderOptions/)   
+* [setHeaderOptions](/pivotApi/RealPivot/setHeaderOptions/)   

@@ -32,3 +32,5 @@ tags:
 var version = pivotGrid.getVersion();
 </pre>
 
+---
+
