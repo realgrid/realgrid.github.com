@@ -21,9 +21,9 @@ tags:
 
 #### Parameters
 
->**column**
->Type: string or Object
->컬럼 이름이나 컬럼 정보 객체
+>**column**   
+>Type: string or Object   
+>컬럼 이름이나 컬럼 정보 객체  
 
 #### Return value
 

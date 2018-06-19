@@ -217,6 +217,17 @@ tags:
 ### Example  
 
 <pre class="prettyprint">
+var columns = [{
+    name: "T_TIME",
+    fieldName: "T_TIME",
+    width: 80,
+    header: { text: "소요시간" },
+    styles: { textAlignment: "center", datetimeFormat: "HH:mm:ss" },
+    excelFormat: "[h]:mm:ss"
+}];
+
+...
+
 gridView.exportGrid({
     type: "excel",
     target: "local",

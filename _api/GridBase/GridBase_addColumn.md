@@ -40,8 +40,8 @@ tags:
 
 #### Return value
 
-> Type: Object
-> [ColumnGroup](/api/types/ColumnGroup/)이나 [DataColumn](/api/types/DataColumn/)과 같은 내용으로 구성되는 object다.  
+> Type: Object  
+> [ColumnGroup](/api/types/ColumnGroup/)이나 [DataColumn](/api/types/DataColumn/)과 같은 내용으로 구성되는 object다.   
 
 #### Examples 
 

@@ -78,6 +78,7 @@ Relational Operator ::= = \| <> \| < \| > \| <= \| >= \| is \| is not \| match \
 
 * value - 현재 필터링 여부를 검사하는 데이터셀의 값.
 * field- 데이터셀의 데이터필드 인덱스.
+* state - 데이터셀이 포함된 데이터 행의 상태. 'c':생성, 'u':수정, 'd':삭제, 'x':생성 후 삭제.(RealGridJS 1.1.28+ 지원)
 
 ##### Column Summary
 
