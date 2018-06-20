@@ -95,6 +95,42 @@ tags:
 > 셀들에게 적용할 동적 스타일들을 지정한다.       
 > RealGridJS 1.1.26 부터 지원한다.  
 
+> **checkImageUrl**       
+> Type: String  
+> Default: null  
+> 체크 이미지 경로를 지정한다.  
+> RealGridJS 1.1.28 부터 지원한다.  
+
+> **unCheckImageUrl**       
+> Type: String  
+> Default: null  
+> 체크해제 이미지 경로를 지정한다.  
+> RealGridJS 1.1.28 부터 지원한다.  
+
+> **radioImageUrl**       
+> Type: String  
+> Default: null  
+> 라디오 체크 이미지 경로를 지정한다. exclusive: true인경우에만 사용된다.    
+> RealGridJS 1.1.28 부터 지원한다.  
+
+> **headCheckImageUrl**       
+> Type: String  
+> Default: null  
+> head영역에 표시되는 체크 이미지 경로를 지정한다.  
+> RealGridJS 1.1.28 부터 지원한다.  
+
+> **headUnCheckImageUrl**       
+> Type: String  
+> Default: null  
+> head영역에 표시되는 체크해제 이미지 경로를 지정한다.  
+> RealGridJS 1.1.28 부터 지원한다.  
+
+> **drawCheckBox**       
+> Type: Boolean  
+> Default: null  
+> checkbox의 외곽라인을 여부를 지정한다.     
+> RealGridJS 1.1.28 부터 지원한다.  
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -173,15 +209,6 @@ gridView.setCheckBar(options);
 #### Demo Links 
 
 * [CheckBar](http://demo.realgrid.com/GridComponent/CheckBar/)  
-
-
-
-
-
-
-
-
-
 
 
 
