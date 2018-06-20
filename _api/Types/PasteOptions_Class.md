@@ -142,10 +142,10 @@ tags:
 > true이면 붙여넣기시 editFormat이 있으면 editFormat 형태로, 없으면 styles.numberFormat 형태로 붙여넣기 된다.  
 > RealGridJS 1.1.23 부터 지원된다.     
   
-  **noDataEvent**  
+> **noDataEvent**  
 > Type: boolean  
 > Default: false   
-> true면 여러줄의 Data를 붙여넣기 하는 경우 붙여넣기를 하는 중에는 refresh되지 않아 속도가 개선된다.  
+> true이면 여러줄의 Data를 붙여넣기 하는 경우 붙여넣기를 하는 중에는 refresh되지 않아 속도가 개선된다.  
 > RealGridJS 1.1.26 부터 지원된다.     
 
 
