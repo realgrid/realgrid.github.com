@@ -288,6 +288,14 @@ tags:
 > 지정할 수 있는 값은 W3C 표준([http://www.w3.org/wiki/CSS/Properties/cursor](http://www.w3.org/wiki/CSS/Properties/cursor)) 을 준수한다. uri 미지원    
 > JS 1.1.26 이상부터 지원한다.   
 
+> **lookupData**  
+> Type: Array Of Object | Object   
+> Default: null     
+> values, labels를 한번에 JSON data로 지정할 수 있게 만들어졌다.    
+> lookupData:[{value:"O", label:"오뚜기"},{value:"M", label:"매일유업"}] 형태로 지정한다.    
+> value와 label에 해당하는 속성명을 지정할 수 있는 lookupData:{value:"code", label:"text", list:[{code:"O", text:"오뚜기"},{code:"M", text:"매일유업"}]} 형태도 가능하다.   
+> JS 1.1.28 이상부터 지원한다.   
+
 
 #### Examples
 

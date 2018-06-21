@@ -14,7 +14,9 @@ tags:
 
 #### Description
 
- 프로그래스 창을 표시한다.
+ 프로그래스 창을 표시한다.  
+
+ ※ 프로그래스바를 "데이터 로딩중" 용도로 사용한다면 HttpRequest ProgressEvent의 total, loaded 정보를 이용하여 프로그래스바를 진행시키기에 때문에 해당 정보가 반환되지 않는다면 프로그래스바는 진행되지 않는다.    
 
 #### Syntax
 

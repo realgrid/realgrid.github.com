@@ -83,11 +83,18 @@ tags:
 > Default: null  
 > foot 영역에 표시할 이미지의 Url을 지정한다.  
 
+> **done**       
+> Type: function(){}   
+> Default: null  
+> 데이터 stream 전송이 끝난 후 발생하는 콜백함수 이다. 전송이 끝난 후 후처리가 필요한 경우 여기에서 실행한다.    
+> RealGridJS 1.1.18 부터 지원한다.
+
 > **stateStyles**       
 > Type: Object  
 > Default: null  
 > 행 상태에 따른 스타일을 지정한다.  
-> RealGridJS 1.1.23 부터 지원한다.  
+> RealGridJS 1.1.23 부터 지원한다.
+
 
 > **dynamicStyles**  
 > Type: Array of [DynamicStyle](/api/types/DynamicStyle)   
@@ -116,13 +123,13 @@ tags:
 > **headCheckImageUrl**       
 > Type: String  
 > Default: null  
-> head영역에 표시되는 체크 이미지 경로를 지정한다.  
+> showAll이 true인 경우 head영역에 표시되는 체크 이미지 경로를 지정한다.  
 > RealGridJS 1.1.28 부터 지원한다.  
 
 > **headUnCheckImageUrl**       
 > Type: String  
 > Default: null  
-> head영역에 표시되는 체크해제 이미지 경로를 지정한다.  
+> showAll이 true인 경우 head영역에 표시되는 체크해제 이미지 경로를 지정한다.  
 > RealGridJS 1.1.28 부터 지원한다.  
 
 > **drawCheckBox**       
@@ -182,6 +189,16 @@ var options = {
 }
 
 gridView.setCheckBar(options);
+
+//styles
+gridView.setStyles({
+  checkBar:{
+    line:'#fffff000',                     //checkbox의 외곽라인색상
+    figureBackground:'#ffff0ff0',         //check mark의 색상
+    figureInactiveBackground:'#11333333', //checkable이 false일때 checkbox의 배경색
+    figureSize:14
+  }
+});
 
 </pre>
 
