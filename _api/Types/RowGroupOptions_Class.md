@@ -85,11 +85,11 @@ tags:
 > footerBarStyles     
 
 > **headerCallback**  
-> Type: function  
+> Type: function(groupModel, grid)  
 > Default: null  
 > rowGroup.header 영역에 headerCallback 반환된 값을 표시한다.  
 > 레벨별로 값을 다르게 설정할 수 있다.
-
+> 1.1.28버전부터 grid parameter가 추가되었다.  
 
 ### Example  
 
@@ -152,7 +152,7 @@ gridView.setRowGroup({
 //headerCallback 적용
 gridView.setRowGroup({
     headerStatement: null,
-    headerCallback:function(groupModel){
+    headerCallback:function(groupModel, grid){
         var summary1, summary2, ratio;
         if (groupModel && groupModel.type=="group") {
             summary1 = grdMain.getGroupSummary(groupModel, "field2");

@@ -196,9 +196,10 @@ function setColumns(grid) {
  숫자와 구두점 및 부호만을 입력할 수 있고 우측으로 정렬된 편집기이다.
  
  RealGridJS 1.1.27에서 styles.numberFormat에 round 관련 속성이 추가되었다. 가장 마지막 위치에 c나 f 지정하여 사용한다.  
- styles.numberFormat = "#,##0.###;.;,;f" 포멧;소수점기호;천자리기호;f 또는 c를 입력  
+ styles.numberFormat = "#,##0.###;.;,;f" 포멧;소수점기호;천자리기호;f or c or a를 입력  
  f:Math.floor 절사   
  c:Math.ceil 올림  
+ a:Math.abs 절대값 (RealGridJS 1.1.28+ 지원한다.)
 
 #### Properties
 
