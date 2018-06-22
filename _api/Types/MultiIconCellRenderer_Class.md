@@ -68,7 +68,7 @@ gridView.setColumns([{
         "textAlignment": "center", //near, center, far
         "iconLocation": "top",     //top, bottom, center, left, right
         "iconAlignment": "near",   //near, center, far  상중하
-        "iconOffset": 5            //셀라인과의 공백
+        "iconOffset": 5            //셀라인과의 여백
     },
     "header": {
         "text": "Company Name"
