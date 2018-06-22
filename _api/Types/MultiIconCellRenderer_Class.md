@@ -60,7 +60,7 @@ gridView.setColumns([{
     "renderer": {
         "type": "multiIcon",
         "showTooltip": true,
-        "textVisible": false,
+        "textVisible": true,
         "minWidth": 30,
         "icons": ['/img/demo/smallflag/ar.png', '/img/demo/smallflag/fr.png']
     },
@@ -76,7 +76,40 @@ gridView.setColumns([{
 }]);   
 
 //동적으로 표시하는 경우
+gridView.setColumns([{
+	"name": "EmployeeID",
+	"fieldName": "EmployeeID",
+	"width": "100",
+	"renderer": {
+	    "type": "multiIcon",
+	    "showTooltip": true,
+	    "textVisible": true,
+	    "minWidth": 0,
+	    "renderCallback": function (grid, index, value) {		      
+	        var ret = [];
+	        if (value == "1") {
+	            ret.push('/img/demo/smallflag/ar.png');
+	        } else if (value == "2") {
+	            ret.push('/img/demo/smallflag/ar.png');
+	            ret.push('/img/demo/smallflag/fr.png');
+	        } else if (value == "3") {
+	            ret.push('/img/demo/smallflag/ar.png');
+	            ret.push('/img/demo/smallflag/fr.png');
+	            ret.push('/img/demo/smallflag/de.png');
+	        }
 
+	        return ret;
+	    },
+	},
+	"styles": {
+	    "textAlignment": "near",
+	    "iconLocation": "left",
+	    "iconAlignment": "center",
+	},
+	"header": {
+	    "text": "Employee ID"
+	}
+}]); 
 </pre>
 
 ---
