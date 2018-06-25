@@ -274,11 +274,11 @@ tags:
 > ex) excelFormat: "#,##0;[Red]\-#,##0;\-"  
 > JS Only.
 
-> **excelFormularStatement**  
+> **excelFormulaStatement**  
 > Type: String  
 > Default:  null     
 > 엑셀 export시 출력되는 수식을 지정한다.  
-> ex) excelFormularStatement: "${excelcolumn['컬럼1']}${row} + ${excelcolumn['컬럼2']}${row}"  
+> ex) excelFormulaStatement: "${excelcolumn['컬럼1']}${row} + ${excelcolumn['컬럼2']}${row}"  
 > JS Only.  
 
 > **buttonCursor**  
