@@ -51,6 +51,7 @@ Relational Operator ::= = \| <> \| < \| > \| <= \| >= \| is \| is not \| match \
 * 현재 is, is not 연산자의 피연산자는 empty, null, defined, nan 이다.
 * match, imatch 는 정규식 연산자이다. 왼쪽 피연사자가 오른쪽 정규식에 match되는 부분이 하나라도 존재하면 true가 된다. imatch는 대소문자를 구분하지 않는 정규식 연산다다.
 * like, ilike 는 SQL Like 연산자와 유사하다. ilike는 대소문자를 구분하지 않는다.
+* 논리 연산자가 산술 연산자보다 우선순위가 높으므로 피연산자가 산술식으로 이루어진 경우 ()를 사용하여 연산 우선순위를 명확하게 지정한다.  ex) (a + b) and (c + 3) 
 
 #### Runtimes
 
