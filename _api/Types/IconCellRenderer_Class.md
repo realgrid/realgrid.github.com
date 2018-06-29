@@ -37,6 +37,9 @@ tags:
 gridView.setColumns([{
 	fieldName: "fieldName",
 	name: "colName",
+    renderer: {
+        type: "icon",
+    },
 	styles: {
 		iconIndex: "value[url필드명]"   //url필드에 각 행마다 필요한 아이콘 이미지 경로가 들어있다. 
 	}
@@ -46,6 +49,9 @@ gridView.setColumns([{
 gridView.setColumns([{
 	fieldName: "fieldName",
 	name: "colName",
+    renderer: {
+        type: "icon",
+    },
 	dynamicStyles: function(grid, index, value) {
 		if (value) {
 			return {
