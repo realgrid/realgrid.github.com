@@ -37,7 +37,7 @@ tags:
 
 <pre class="prettyprint">
 var dataRow = gridView.getCurrent().dataRow;
-var value = gridView.getValue(dataRow, "title");
+var value = dataProvider.getValue(dataRow, "title");
 </pre>
 
 
