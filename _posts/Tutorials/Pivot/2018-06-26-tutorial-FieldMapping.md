@@ -1,6 +1,6 @@
 ---
 layout: tutopost
-title: RealPivot PivotField
+title: 2. RealPivot PivotField
 date:   2018-06-26 09:00:00 +9:00 GMT
 permalink: /tutorial/PivotField/
 categories:

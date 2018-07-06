@@ -1,6 +1,6 @@
 ---
 layout: tutopost
-title: RealPivot 설치하기
+title: 1. RealPivot 설치하기
 date:   2018-06-11 09:00:00 +9:00 GMT
 permalink: /tutorial/pivotinstall/
 categories:

@@ -152,7 +152,7 @@ permalink: /tutorial/
 		    </div>
 		    <div role="tabpanel" class="tab-pane" id="pivot">
 				<ul class="post-api-list">
-				    {% for post in site.posts %}{% if post.course contains "Pivot" %}	      
+				    {% for post in site.posts reversed %}{% if post.course contains "Pivot" %}	      
 				      <li>
 				          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 				          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
