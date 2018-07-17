@@ -23,7 +23,7 @@ tags:
 > **condition**   
 > Type: Object   
 > column 객체와 row 객체로 구성된 겍체   
-> [method](/pivotApi/types/SortMethodType/)가 label인 경우 labels 속성이 필요하고  
+> [method](/pivotApi/types/SortMethod/)가 label인 경우 labels 속성이 필요하고  
 > method가 value인 경우 fieldName, direction, conditions 속성 필요하다.       
 
 #### Return value

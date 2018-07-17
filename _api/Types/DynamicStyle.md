@@ -31,8 +31,8 @@ tags:
 
 > **function(grid, index, value){}**    
 > grid: gridView객체     
-> index: CellIndex    
-> value: 해당셀의 값    
+> index: CellIndex   
+> value: 해당셀의 값  
 > 개발자 스크립트를 통해 적용할 스타일을 판단하고 해당 스타일을 return 하면 화면에 적용된다.
 > 기존 criteria에서 사용하는 표현식들을 사용할 수 없으며 javascript로 구현하여야 한다.  
 > 하나의 다이나믹스타일 객체에서 criteria, styles를 같이 사용할 수 없다.     

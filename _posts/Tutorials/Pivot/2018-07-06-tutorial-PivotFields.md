@@ -1,8 +1,8 @@
 ---
 layout: tutopost
-title: 2. PivotField와 FieldMapping
-date:   2018-06-26 09:00:00 +9:00 GMT
-permalink: /tutorial/FieldMapping/
+title: 3. 피벗의 행과 열, 값 필드 지정
+date:   2018-07-06 09:00:00 +9:00 GMT
+permalink: /tutorial/PivotFields/
 categories:
   - Tutorial
 course:
@@ -10,8 +10,11 @@ course:
 tags: 
   - RealPivot
   - Pivot
-  - fieldMapping
   - PivotField
+  - column
+  - row
+  - value
+
 ---
 
 <link rel="stylesheet" type="text/css" href="/script/css/default_blue.css">
@@ -6116,90 +6119,22 @@ $(document).ready( function(){
 
     dataProvider.fillJsonData(datas);
 
-    //년도로 보여주기    
-    $("#btnYear").click(function () {
+    $("#btnView").click(function () {
         pivot.setFieldMapping([{
             name: "CustomerID",
             sourceField: "CustomerID",
             fieldHeader: "고객사",
             valueEnable: false
         }, {
+            name: "ProductName",
+            sourceField: "ProductName",
+            fieldHeader: "제품명",
+            valueEnable: false        
+        }, {    
             name: "OrderYear",
             sourceField: "OrderDate",
-            dateType: "year",            //년도 기준으로 보여주기 위해 "year"로 설정
+            dateType: "year",            
             fieldHeader: "영업년도",
-            valueEnable: false
-        }, {
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",      // 천단위 , 를 표시하기 위해 "#,##0"로 설정 
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{
-                name: "OrderYear",
-                direction: "ascending"
-            }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
-            }]
-        });
-
-        pivot.drawView();
-    });
-
-    //반기로 보여주기    
-    $("#btnHalf").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
-            valueEnable: false
-        }, {
-            name: "OrderHalf",
-            sourceField: "OrderDate",
-            dateType: "half",            //반기 기준으로 보여주기 위해 "half"로 설정
-            fieldHeader: "영업반기",
-            valueEnable: false
-        }, {
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",      // 천단위 , 를 표시하기 위해 "#,##0"로 설정 
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{
-                name: "OrderHalf",
-                direction: "ascending"
-            }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
-            }]
-        });
-
-        pivot.drawView();        
-    });    
-
-    //반기로 보여주기    
-    $("#btnHalf1").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
             valueEnable: false
         }, {
             name: "OrderHalf",
@@ -6210,197 +6145,46 @@ $(document).ready( function(){
             displayLabels: {
                 1: "상반기",
                 2: "하반기"
-            }
+            }        
         }, {
-            name: "UnitPrice",
+            name: "UnitPriceSum",
             sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",        
+            fieldHeader: "판매액 합",
+            numberFormat: "#,##0",      
             labelEnable: false
+        }, {
+            name: "UnitPriceAvg",
+            sourceField: "UnitPrice",
+            fieldHeader: "판매액 평균",
+            numberFormat: "#,##0",      
+            labelEnable: false        
         }]);
 
         pivot.setPivotFields({
             columns: [{
+                name: "OrderYear",
+                direction: "ascending"
+            }, {
                 name: "OrderHalf",
-                direction: "ascending"       
+                direction: "ascending"
             }],
             rows: [{
                 name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
-            }]
-        });
-
-        pivot.drawView();
-    });        
-
-    //년도,분기로 보여주기    
-    $("#btnQuarter").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
-            valueEnable: false
-        }, {
-            name: "OrderYear",
-            sourceField: "OrderDate",
-            dateType: "year",            
-            fieldHeader: "영업년도",
-            valueEnable: false        
-        }, {    
-            name: "OrderQuarter",
-            sourceField: "OrderDate",
-            dateType: "quarter",            
-            fieldHeader: "영업반기",
-            valueEnable: false,
-            displayLabels: {
-                1: "1사분기",
-                2: "2사분기",
-                3: "3사분기",
-                4: "4사분기"
-            }
-        }, {
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",        
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{                   
-                name: "OrderYear",          // 년도
                 direction: "ascending"
             }, {
-                name: "OrderQuarter",       // 분기
+                name: "ProductName",
                 direction: "ascending"        
             }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
             values: [{
-                name: "UnitPrice",
+                name: "UnitPriceSum",
                 expression: "sum"
-            }]
-        });
-
-        pivot.drawView();         
-    });    
-
-    //년도,분기로 보여주기    
-    $("#btnQuarter1").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
-            valueEnable: false
-        }, {
-            name: "OrderYear",
-            sourceField: "OrderDate",
-            dateType: "year",            
-            fieldHeader: "영업년도",
-            valueEnable: false        
-        }, {    
-            name: "OrderQuarter",
-            sourceField: "OrderDate",
-            dateType: "quarter",            
-            fieldHeader: "영업반기",
-            valueEnable: false,
-            displayLabels: {
-                1: "1사분기",
-                2: "2사분기",
-                3: "3사분기",
-                4: "4사분기"
-            },
-            mustValues: [1, 2, 3, 4]
-        }, { 
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",        
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{                   
-                name: "OrderYear",          // 년도
-                direction: "ascending"
             }, {
-                name: "OrderQuarter",       // 분기
-                direction: "ascending"        
-            }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
+                name: "UnitPriceAvg",
+                expression: "avg"
             }]
         });
 
-        pivot.drawView();         
-    });    
-
-    //년도,분기로 보여주기    
-    $("#btnQuarter2").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
-            valueEnable: false
-        }, {
-            name: "OrderYear",
-            sourceField: "OrderDate",
-            dateType: "year",            
-            fieldHeader: "영업년도",
-            valueEnable: false, 
-            displayFormat: "${value}년도",
-            summaryFormat: "${value}년요약"        
-        }, {    
-            name: "OrderQuarter",
-            sourceField: "OrderDate",
-            dateType: "quarter",            
-            fieldHeader: "영업반기",
-            valueEnable: false,
-            displayLabels: {
-                1: "1사분기",
-                2: "2사분기",
-                3: "3사분기",
-                4: "4사분기"
-            },
-            mustValues: [1, 2, 3, 4]
-        }, { 
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",        
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{                   
-                name: "OrderYear",          // 년도
-                direction: "ascending"
-            }, {
-                name: "OrderQuarter",       // 분기
-                direction: "ascending"        
-            }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
-            }]
-        });
-
-        pivot.drawView();         
+        pivot.drawView();       
     });        
     
 });   
@@ -6408,30 +6192,86 @@ $(document).ready( function(){
 
 ### 들어가며
 
-지난 강좌에서는 RealPivot의 설치에 대해 배워보았습니다.
-이번 강좌에서는 dataProvider의 필드와 피벗 필드를 맵핑하고 피벗 필드의 설정에 대하여 자세히 알아보도록 하겠습니다.    
+지난 강좌에서는 dataProvider의 필드와 피벗 필드를 맵핑하고 피벗 필드의 설정에 대하여 알아 보았습니다.  
+이번 강좌에서는 피벗화면을 구성하는 행, 열, 값 필드들을 개발자의 의도에 맞게 지정하는 방법에 대해 알아보도록 하겠습니다.        
 
-강좌의 내용은 [RealPivot의 설치하기](/tutorial/pivotinstall/)를 기준으로 진행 됩니다.  
 
 ### 이론
 
-필드 맵핑은 피벗 화면을 구성하는데 필수적인 첫번째 단계 입니다.    
-가장 기본적인 기능으로는 피벗필드와 RealGridJS dataProvider의 필드를 서로 맵핑하여 리얼그리드에 로드된 데이터를 피벗으로 표시해주는 기능을 합니다. 그 외에 화면에 표시되는 다양한 형태의 포맷을 지정할 수 있습니다. 그러나 필드만 맵핑해서 피벗을 표시할 수는 없습니다. 피벗의 컬럼과 행, 그리고 값에 표시할 필드들을 지정해주는 단계(setPivotFields()를 진행해야 피벗이 표시됩니다.   
-이 강좌에서는 날짜와 관련된 다양한 형태의 피벗필드를 실습을 통해 확인해보도록 하겠습니다. 
+행, 열, 값 필드 지정은 피벗 화면을 구성하는데 필수적인 두번째 단계 입니다.  
+setPivotFields()를 사용하여 피벗의 구성 형태를 지정할 수 있으며 각 필드들의 정렬방향을 지정할 수 있습니다. 또한 값 필드의 [ValueType](/pivotApi/types/ValueType/)을 지정할 수 있습니다.  
+행과 열 필드 지정은 필수 지정요소는 아닙니다. 예를들어 고객사 별로 전체 합계만 행 단위로 보고 싶다면 행 필드속성에 고객사만 지정하고 값 필드속성에 보고 싶은 값 필드를 지정하면 됩니다.   
 
-##### 다양한 날짜 형태의 지원  
+   <pre class="prettyprint">
+    pivot.setPivotFields({
+        rows: [{
+            name: "CustomerID",
+            direction: "ascending"
+        }],
+        values: [{
+            name: "UnitPrice",
+            expression: "sum"
+        }]
+    });</pre>
 
-RealPivot은 여러 날짜를 다양한 형태로 묶어 표현할 수 있습니다.      
-기본적인 년, 월, 일을 비롯하여 반기, 분기, 주차, 시간대까지도 지원 합니다.  
+반대의 경우도 마찬가지 입니다. 고객사별 전체 합계를 열 단위로 보고 싶다면 열 필드속성에 고객사를 지정하면 됩니다.  
 
-자세한 내용은 [DateValueType](/pivotApi/types/DateValueType/) 확인하세요.  
+   <pre class="prettyprint">
+    pivot.setPivotFields({
+        columns: [{                   
+            name: "CustomerID",         
+            direction: "ascending"     
+        }],
+        values: [{
+            name: "UnitPrice",
+            expression: "sum"
+        }]
+    });</pre>
+
+#### 지정하는 방법
+
+행과 열의 경우 정렬 방향을 지정하지 않을 경우 아래와 같이 간략한 방법으로 지정 가능 합니다.    
+    
+   <pre class="prettyprint">
+    pivot.setPivotFields({
+        columns: ["OrderYear", "OrderQuarter"],
+        rows: ["CustomerID"],
+        values: [{
+            name: "UnitPrice",
+            expression: "sum"
+        }]
+    });</pre>
+
+정렬 방향을 지정하는 경우는 아래와 같이 설정 합니다.
+
+   <pre class="prettyprint">
+    pivot.setPivotFields({
+        columns: [{                   
+            name: "OrderYear",         
+            direction: "ascending"
+        }, {
+            name: "OrderQuarter",       
+            direction: "ascending"        
+        }],
+        rows: [{
+            name: "CustomerID",
+            direction: "ascending"
+        }],
+        values: [{
+            name: "UnitPrice",
+            expression: "sum"
+        }]
+    });</pre>
+
+#### ValueType
+
+expression에 지정할 수 있는 [ValueType](/pivotApi/types/ValueType/)은 `sum`, `count`, `min`, `max`, `avg`, `distinct` 입니다.  
 
 ### 실습
 
-RealGridJS에 하나의 날짜 필드가 있고 RealPivot에 년도에 대한 분류, 그 안에 분기에 대한 분류로 보여주고 싶다면 피벗 필드는 두 개를 생성해야 합니다.
-하나의 피벗 필드로 표현할 수는 없습니다. 먼저 년도만으로 분류된 피벗을 생성해보고 그 후 반기만, 그리고 또 년도와 반기로 이루어진 피벗을 생성해 어떻게 설정해야하는지 확인해보도록 하겠습니다.  
+열 필드로는 년도와 분기 행 필드로는 고객사와 제품명, 그리고 마지막으로 값 필드로는 판매액의 합계와 평균을 지정하여 피벗을 표시해보도록 하겠습니다.  
 
-1. 고객사별 판매액을 년 기준으로 분류하여 표시하기 위해 3개의 필드를 설정 합니다.  
+1. 필요한 필드들을 지정 합니다.     
 
     <pre class="prettyprint">
     pivot.setFieldMapping([{
@@ -6440,85 +6280,15 @@ RealGridJS에 하나의 날짜 필드가 있고 RealPivot에 년도에 대한 �
         fieldHeader: "고객사",
         valueEnable: false
     }, {
+        name: "ProductName",
+        sourceField: "ProductName",
+        fieldHeader: "제품명",
+        valueEnable: false        
+    }, {    
         name: "OrderYear",
         sourceField: "OrderDate",
-        dateType: "year",            //년도 기준으로 보여주기 위해 "year"로 설정
+        dateType: "year",            
         fieldHeader: "영업년도",
-        valueEnable: false
-    }, {
-        name: "UnitPrice",
-        sourceField: "UnitPrice",
-        fieldHeader: "판매액",
-        numberFormat: "#,##0",       //천단위 , 를 표시하기 위해 "#,##0"로 설정 
-        labelEnable: false
-    }]);</pre>
-
-2. 고객사별 판매액을 년 기준으로 분류하여 피벗으로 표시합니다.
-
-    <pre class="prettyprint">
-    pivot.setPivotFields({
-        columns: [{
-            name: "OrderYear",
-            direction: "ascending"
-        }],
-        rows: [{
-            name: "CustomerID",
-            direction: "ascending"
-        }],
-        values: [{
-            name: "UnitPrice",
-            expression: "sum"
-        }]
-    });
-
-    pivot.drawView();</pre>
-
-3. 고객사별 판매액을 반기 기준으로 분류하여 표시하기 위해 3개의 필드를 설정 합니다.  
-
-    <pre class="prettyprint">
-    pivot.setFieldMapping([{
-        name: "CustomerID",
-        sourceField: "CustomerID",
-        fieldHeader: "고객사",
-        valueEnable: false
-    }, {
-        name: "OrderHalf",
-        sourceField: "OrderDate",
-        dateType: "half",            //반기 기준으로 보여주기 위해 "half"로 설정
-        fieldHeader: "영업반기",
-        valueEnable: false
-    }, {
-        name: "UnitPrice",
-        sourceField: "UnitPrice",
-        fieldHeader: "판매액",
-        numberFormat: "#,##0",       //천단위 , 를 표시하기 위해 "#,##0"로 설정 
-        labelEnable: false
-    }]);
-
-    pivot.setPivotFields({
-        columns: [{
-            name: "OrderHalf",
-            direction: "ascending"    
-        }],
-        rows: [{
-            name: "CustomerID",
-            direction: "ascending"
-        }],
-        values: [{
-            name: "UnitPrice",
-            expression: "sum"
-        }]
-    });
-
-    pivot.drawView();</pre>        
-
-4. 상반기/하반기로 분류되었지만 피벗에는 1, 2로 표시됩니다. 이 문제를 해결하기 위해 displayLabels속성을 설정합니다.  
-
-    <pre class="prettyprint">
-    pivot.setFieldMapping([{
-        name: "CustomerID",
-        sourceField: "CustomerID",
-        fieldHeader: "고객사",
         valueEnable: false
     }, {
         name: "OrderHalf",
@@ -6529,198 +6299,51 @@ RealGridJS에 하나의 날짜 필드가 있고 RealPivot에 년도에 대한 �
         displayLabels: {
             1: "상반기",
             2: "하반기"
-        }
+        }        
     }, {
-        name: "UnitPrice",
+        name: "UnitPriceSum",
         sourceField: "UnitPrice",
-        fieldHeader: "판매액",
-        numberFormat: "#,##0",        
+        fieldHeader: "판매액 합",
+        numberFormat: "#,##0",      
         labelEnable: false
-    }]);
+    }, {
+        name: "UnitPriceAvg",
+        sourceField: "UnitPrice",
+        fieldHeader: "판매액 평균",
+        numberFormat: "#,##0",      
+        labelEnable: false        
+    }]);</pre>
 
+2. 고객사, 제품명별 판매액의 합과 평균을 년, 반기 기준으로 분류하여 피벗으로 표시합니다.
+
+    <pre class="prettyprint">
     pivot.setPivotFields({
         columns: [{
+            name: "OrderYear",
+            direction: "ascending"
+        }, {
             name: "OrderHalf",
-            direction: "ascending"       
+            direction: "ascending"
         }],
         rows: [{
             name: "CustomerID",
-            direction: "ascending"
-        }],
-        values: [{
-            name: "UnitPrice",
-            expression: "sum"
-        }]
-    });
-
-    pivot.drawView();</pre>      
-
-5. 이번엔 년도/분기별로 표시해보도록 하겠습니다. 소스필드가 OrderDate인 OrderQuarter필드를 추가하고 화면에 분기 표시를 위해 displayLabels를 설정합니다.  그리고 setPivotFields()의 columns 안에 OrderYear, OrderQuarter 두개의 필드를 설정합니다.      
-
-    <pre class="prettyprint">
-    pivot.setFieldMapping([{
-        name: "CustomerID",
-        sourceField: "CustomerID",
-        fieldHeader: "고객사",
-        valueEnable: false
-    }, {
-        name: "OrderYear",
-        sourceField: "OrderDate",
-        dateType: "year",            
-        fieldHeader: "영업년도",
-        valueEnable: false        
-    }, {    
-        name: "OrderQuarter",
-        sourceField: "OrderDate",
-        dateType: "quarter",            // 분기 기준으로 보여주기 위해 "quarter"로 설정
-        fieldHeader: "영업반기",
-        valueEnable: false,
-        displayLabels: {
-            1: "1사분기",
-            2: "2사분기",
-            3: "3사분기",
-            4: "4사분기"
-        }
-    }, {
-        name: "UnitPrice",
-        sourceField: "UnitPrice",
-        fieldHeader: "판매액",
-        numberFormat: "#,##0",        
-        labelEnable: false
-    }]);
-
-    pivot.setPivotFields({
-        columns: [{                   
-            name: "OrderYear",          // 년도
             direction: "ascending"
         }, {
-            name: "OrderQuarter",       // 분기
+            name: "ProductName",
             direction: "ascending"        
         }],
-        rows: [{
-            name: "CustomerID",
-            direction: "ascending"
-        }],
         values: [{
-            name: "UnitPrice",
+            name: "UnitPriceSum",
             expression: "sum"
-        }]
-    });
-
-    pivot.drawView();</pre>        
-
-6. 결과가 잘 표시됩니다. 그러나 피벗은 데이터 기준으로 표시되기 때문에 특정 분기에 값이 없다면 피벗에 해당 분기는 표시되지 않습니다. (월이나 요일등 다른 조건에서도 같습니다.) 이런 경우 값이 없어도 피벗에 표시해주기 위해서 mustValues 속성을 지원하고 있습니다. 해당 속성에 값이 지정되면 값이 없어도 피벗에는 표시됩니다.           
-
-    <pre class="prettyprint">
-    pivot.setFieldMapping([{
-        name: "CustomerID",
-        sourceField: "CustomerID",
-        fieldHeader: "고객사",
-        valueEnable: false
-    }, {
-        name: "OrderYear",
-        sourceField: "OrderDate",
-        dateType: "year",            
-        fieldHeader: "영업년도",
-        valueEnable: false        
-    }, {    
-        name: "OrderQuarter",
-        sourceField: "OrderDate",
-        dateType: "quarter",            // 분기 기준으로 보여주기 위해 "quarter"로 설정
-        fieldHeader: "영업반기",
-        valueEnable: false,
-        displayLabels: {
-            1: "1사분기",
-            2: "2사분기",
-            3: "3사분기",
-            4: "4사분기"
-        }, 
-        mustValues: [1, 2, 3, 4]       // 값이 없어도 표시
-    }, {
-        name: "UnitPrice",
-        sourceField: "UnitPrice",
-        fieldHeader: "판매액",
-        numberFormat: "#,##0",        
-        labelEnable: false
-    }]);
-
-    pivot.setPivotFields({
-        columns: [{                   
-            name: "OrderYear",          // 년도
-            direction: "ascending"
         }, {
-            name: "OrderQuarter",       // 분기
-            direction: "ascending"        
-        }],
-        rows: [{
-            name: "CustomerID",
-            direction: "ascending"
-        }],
-        values: [{
-            name: "UnitPrice",
-            expression: "sum"
+            name: "UnitPriceAvg",
+            expression: "avg"
         }]
     });
 
-    pivot.drawView();</pre>      
+    pivot.drawView();</pre>
 
 
-7. 결과가 잘 표시됩니다. 그러나 컬럼sum영역(두번째줄 년도)에 값이 년도로 표시되어 컬럼group영역(첫번째줄 년도)의 값과 중복되어 보이므로 요약으로 표시해보도록 하겠습니다. 년도도 숫자만 보이는 것이 아니라 "1996 년도"로 표시하기 위해 displayFormat도 같이 설정하도록 하겠습니다.              
-
-    <pre class="prettyprint">
-    pivot.setFieldMapping([{
-        name: "CustomerID",
-        sourceField: "CustomerID",
-        fieldHeader: "고객사",
-        valueEnable: false
-    }, {
-        name: "OrderYear",
-        sourceField: "OrderDate",
-        dateType: "year",            
-        fieldHeader: "영업년도",
-        valueEnable: false,
-        displayFormat: "${value}년도", 
-        summaryFormat: "${value}년도요약"        
-    }, {    
-        name: "OrderQuarter",
-        sourceField: "OrderDate",
-        dateType: "quarter",            // 분기 기준으로 보여주기 위해 "quarter"로 설정
-        fieldHeader: "영업반기",
-        valueEnable: false,
-        displayLabels: {
-            1: "1사분기",
-            2: "2사분기",
-            3: "3사분기",
-            4: "4사분기"
-        }, 
-        mustValues: [1, 2, 3, 4]       // 값이 없어도 표시
-    }, {
-        name: "UnitPrice",
-        sourceField: "UnitPrice",
-        fieldHeader: "판매액",
-        numberFormat: "#,##0",        
-        labelEnable: false
-    }]);
-
-    pivot.setPivotFields({
-        columns: [{                   
-            name: "OrderYear",          // 년도
-            direction: "ascending"
-        }, {
-            name: "OrderQuarter",       // 분기
-            direction: "ascending"        
-        }],
-        rows: [{
-            name: "CustomerID",
-            direction: "ascending"
-        }],
-        values: [{
-            name: "UnitPrice",
-            expression: "sum"
-        }]
-    });
-
-    pivot.drawView();</pre>    
 <!-- more -->
 
 ### 실행화면
@@ -6729,12 +6352,7 @@ RealGridJS에 하나의 날짜 필드가 있고 RealPivot에 년도에 대한 �
 
 <div id="realpivotDiv" style="width: 100%; height: 500px;"></div>
 <p></p>
-1. <button type="button" class="btn btn-primary btn-xs" id="btnYear">고객사별 년도로 분류</button> 
-2. <button type="button" class="btn btn-primary btn-xs" id="btnHalf">고객사별 반기로 분류(숫자로 표시됨)</button> 
-3. <button type="button" class="btn btn-primary btn-xs" id="btnHalf1">고객사별 반기로 분류(상반기,하반기 문자로 표시됨)</button> 
-4. <button type="button" class="btn btn-primary btn-xs" id="btnQuarter">고객사별 년/분기로 분류</button> 
-5. <button type="button" class="btn btn-primary btn-xs" id="btnQuarter1">고객사별 년/분기로 분류(모든분기표시)</button> 
-6. <button type="button" class="btn btn-primary btn-xs" id="btnQuarter2">고객사별 년/분기로 분류(모든분기표시, 요약)</button> 
+1. <button type="button" class="btn btn-primary btn-xs" id="btnView">고객사, 제품명별 판매액의 합과 평균을 년, 반기 기준으로 분류</button> 
 
 ### 전체 소스코드
 
@@ -6820,90 +6438,22 @@ $(document).ready( function(){
 
     dataProvider.fillJsonData(datas);
 
-    //년도로 보여주기    
-    $("#btnYear").click(function () {
+    $("#btnView").click(function () {
         pivot.setFieldMapping([{
             name: "CustomerID",
             sourceField: "CustomerID",
             fieldHeader: "고객사",
             valueEnable: false
         }, {
+            name: "ProductName",
+            sourceField: "ProductName",
+            fieldHeader: "제품명",
+            valueEnable: false        
+        }, {    
             name: "OrderYear",
             sourceField: "OrderDate",
-            dateType: "year",            //년도 기준으로 보여주기 위해 "year"로 설정
+            dateType: "year",            
             fieldHeader: "영업년도",
-            valueEnable: false
-        }, {
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",      // 천단위 , 를 표시하기 위해 "#,##0"로 설정 
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{
-                name: "OrderYear",
-                direction: "ascending"
-            }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
-            }]
-        });
-
-        pivot.drawView();
-    });
-
-    //반기로 보여주기    
-    $("#btnHalf").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
-            valueEnable: false
-        }, {
-            name: "OrderHalf",
-            sourceField: "OrderDate",
-            dateType: "half",            //반기 기준으로 보여주기 위해 "half"로 설정
-            fieldHeader: "영업반기",
-            valueEnable: false
-        }, {
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",      // 천단위 , 를 표시하기 위해 "#,##0"로 설정 
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{
-                name: "OrderHalf",
-                direction: "ascending"
-            }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
-            }]
-        });
-
-        pivot.drawView();        
-    });    
-
-    //반기로 보여주기    
-    $("#btnHalf1").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
             valueEnable: false
         }, {
             name: "OrderHalf",
@@ -6914,198 +6464,47 @@ $(document).ready( function(){
             displayLabels: {
                 1: "상반기",
                 2: "하반기"
-            }
+            }        
         }, {
-            name: "UnitPrice",
+            name: "UnitPriceSum",
             sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",        
+            fieldHeader: "판매액 합",
+            numberFormat: "#,##0",      
             labelEnable: false
+        }, {
+            name: "UnitPriceAvg",
+            sourceField: "UnitPrice",
+            fieldHeader: "판매액 평균",
+            numberFormat: "#,##0",      
+            labelEnable: false        
         }]);
 
         pivot.setPivotFields({
             columns: [{
+                name: "OrderYear",
+                direction: "ascending"
+            }, {
                 name: "OrderHalf",
-                direction: "ascending"       
+                direction: "ascending"
             }],
             rows: [{
                 name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
-            }]
-        });
-
-        pivot.drawView();
-    });        
-
-    //년도,분기로 보여주기    
-    $("#btnQuarter").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
-            valueEnable: false
-        }, {
-            name: "OrderYear",
-            sourceField: "OrderDate",
-            dateType: "year",            
-            fieldHeader: "영업년도",
-            valueEnable: false        
-        }, {    
-            name: "OrderQuarter",
-            sourceField: "OrderDate",
-            dateType: "quarter",            
-            fieldHeader: "영업반기",
-            valueEnable: false,
-            displayLabels: {
-                1: "1사분기",
-                2: "2사분기",
-                3: "3사분기",
-                4: "4사분기"
-            }
-        }, {
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",        
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{                   
-                name: "OrderYear",          // 년도
                 direction: "ascending"
             }, {
-                name: "OrderQuarter",       // 분기
+                name: "ProductName",
                 direction: "ascending"        
             }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
             values: [{
-                name: "UnitPrice",
+                name: "UnitPriceSum",
                 expression: "sum"
-            }]
-        });
-
-        pivot.drawView();         
-    });    
-
-    //년도,분기로 보여주기    
-    $("#btnQuarter1").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
-            valueEnable: false
-        }, {
-            name: "OrderYear",
-            sourceField: "OrderDate",
-            dateType: "year",            
-            fieldHeader: "영업년도",
-            valueEnable: false        
-        }, {    
-            name: "OrderQuarter",
-            sourceField: "OrderDate",
-            dateType: "quarter",            
-            fieldHeader: "영업반기",
-            valueEnable: false,
-            displayLabels: {
-                1: "1사분기",
-                2: "2사분기",
-                3: "3사분기",
-                4: "4사분기"
-            },
-            mustValues: [1, 2, 3, 4]
-        }, { 
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",        
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{                   
-                name: "OrderYear",          // 년도
-                direction: "ascending"
             }, {
-                name: "OrderQuarter",       // 분기
-                direction: "ascending"        
-            }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
+                name: "UnitPriceAvg",
+                expression: "avg"
             }]
         });
 
-        pivot.drawView();         
-    });    
-
-    //년도,분기로 보여주기    
-    $("#btnQuarter2").click(function () {
-        pivot.setFieldMapping([{
-            name: "CustomerID",
-            sourceField: "CustomerID",
-            fieldHeader: "고객사",
-            valueEnable: false
-        }, {
-            name: "OrderYear",
-            sourceField: "OrderDate",
-            dateType: "year",            
-            fieldHeader: "영업년도",
-            valueEnable: false, 
-            displayFormat: "${value}년도",
-            summaryFormat: "${value}년요약"        
-        }, {    
-            name: "OrderQuarter",
-            sourceField: "OrderDate",
-            dateType: "quarter",            
-            fieldHeader: "영업반기",
-            valueEnable: false,
-            displayLabels: {
-                1: "1사분기",
-                2: "2사분기",
-                3: "3사분기",
-                4: "4사분기"
-            },
-            mustValues: [1, 2, 3, 4]
-        }, { 
-            name: "UnitPrice",
-            sourceField: "UnitPrice",
-            fieldHeader: "판매액",
-            numberFormat: "#,##0",        
-            labelEnable: false
-        }]);
-
-        pivot.setPivotFields({
-            columns: [{                   
-                name: "OrderYear",          // 년도
-                direction: "ascending"
-            }, {
-                name: "OrderQuarter",       // 분기
-                direction: "ascending"        
-            }],
-            rows: [{
-                name: "CustomerID",
-                direction: "ascending"
-            }],
-            values: [{
-                name: "UnitPrice",
-                expression: "sum"
-            }]
-        });
-
-        pivot.drawView();         
-    });        
+        pivot.drawView();       
+    });              
     
 });     
 &lt;/script&gt;
@@ -7115,12 +6514,8 @@ $(document).ready( function(){
 <pre class="prettyprint full-source-html">
 &lt;div id=&quot;realpivotDiv&quot; style=&quot;width: 100%; height: 500px;&quot;&gt;&lt;/div&gt;
 &lt;p&gt;&lt;/p&gt;
-1. &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;btnYear&quot;&gt;&#xace0;&#xac1d;&#xc0ac;&#xbcc4; &#xb144;&#xb3c4;&#xb85c; &#xbd84;&#xb958;&lt;/button&gt; 
-2. &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;btnHalf&quot;&gt;&#xace0;&#xac1d;&#xc0ac;&#xbcc4; &#xbc18;&#xae30;&#xb85c; &#xbd84;&#xb958;(&#xc22b;&#xc790;&#xb85c; &#xd45c;&#xc2dc;&#xb428;)&lt;/button&gt; 
-3. &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;btnHalf1&quot;&gt;&#xace0;&#xac1d;&#xc0ac;&#xbcc4; &#xbc18;&#xae30;&#xb85c; &#xbd84;&#xb958;(&#xc0c1;&#xbc18;&#xae30;,&#xd558;&#xbc18;&#xae30; &#xbb38;&#xc790;&#xb85c; &#xd45c;&#xc2dc;&#xb428;)&lt;/button&gt; 
-4. &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;btnQuarter&quot;&gt;&#xace0;&#xac1d;&#xc0ac;&#xbcc4; &#xb144;/&#xbd84;&#xae30;&#xb85c; &#xbd84;&#xb958;&lt;/button&gt; 
-5. &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;btnQuarter1&quot;&gt;&#xace0;&#xac1d;&#xc0ac;&#xbcc4; &#xb144;/&#xbd84;&#xae30;&#xb85c; &#xbd84;&#xb958;(&#xbaa8;&#xb4e0;&#xbd84;&#xae30;&#xd45c;&#xc2dc;)&lt;/button&gt; 
-6. &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;btnQuarter2&quot;&gt;&#xace0;&#xac1d;&#xc0ac;&#xbcc4; &#xb144;/&#xbd84;&#xae30;&#xb85c; &#xbd84;&#xb958;(&#xbaa8;&#xb4e0;&#xbd84;&#xae30;&#xd45c;&#xc2dc;, &#xc694;&#xc57d;)&lt;/button&gt; 
+1. &lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-xs&quot; id=&quot;btnView&quot;&gt;&#xace0;&#xac1d;&#xc0ac;, &#xc81c;&#xd488;&#xba85;&#xbcc4; &#xd310;&#xb9e4;&#xc561;&#xc758; &#xd569;&#xacfc; &#xd3c9;&#xade0;&#xc744; &#xb144;, &#xbc18;&#xae30; &#xae30;&#xc900;&#xc73c;&#xb85c; &#xbd84;&#xb958;&lt;/button&gt; 
+
 </pre>
 
 ---
