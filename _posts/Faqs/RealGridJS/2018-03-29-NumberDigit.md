@@ -1,6 +1,6 @@
 ---
 layout: faqpost
-title:  RealGridJS 숫자를 입력 받을때 자릿수를 제한하고 싶습니다.  
+title:  숫자를 입력 받을때 자릿수를 제한하고 싶습니다.  
 date:   2017-09-07 00:00:00
 categories: faq
 part: RealGridJS

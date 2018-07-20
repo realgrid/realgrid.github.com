@@ -1,6 +1,6 @@
 ---
 layout: faqpost
-title:  RealGridJS Excel Import에 대한 예제 파일을 보내주실수 있나요?
+title:  Excel Import에 대한 예제 파일을 보내주실수 있나요?
 date:   2017-06-22 00:00:00
 categories: faq
 part: RealGridJS

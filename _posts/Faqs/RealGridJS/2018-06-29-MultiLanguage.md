@@ -1,6 +1,6 @@
 ---
 layout: faqpost
-title:  RealGridJS 다국어 환경인 경우 설정은 어떻게 하나요?  
+title:  다국어 환경인 경우 설정은 어떻게 하나요?  
 date:   2018-06-29 00:00:00
 categories: faq
 part: RealGridJS
