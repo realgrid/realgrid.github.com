@@ -115,6 +115,12 @@ tags:
 > boolean 필드 출력시 수행될 콜백함수를 지정한다. 원하는 형태로 지정 가능하다.   
 > JS Ver.만 지원  
 
+> **numberCallback**   
+> Type: function (index, column, value)   
+> Default: undefined   
+> number 필드 출력시 수행될 콜백함수를 지정한다. 원하는 형태로 지정 가능하다.   
+> JS Ver.만 지원  
+
 > **nullDateText**  
 > Type: string  
 > Default: ""  
