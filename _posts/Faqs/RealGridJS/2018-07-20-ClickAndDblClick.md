@@ -1,10 +1,10 @@
 ---
 layout: faqpost
-title:  더블클릭시 자동으로 발생하는 onDataCellClicked 이벤트를 발생 안하게 할 수 없나요?  
+title:  더블클릭시 자동으로 발생하는 onDataCellClicked 이벤트를 발생 안하게 할 수 있나요?  
 date:   2018-07-20 00:00:00
 categories: faq
 part: RealGridJS
-permalink: /faq/MultiLanguage/
+permalink: /faq/ClickAndDblClick/
 directiontype: 
 tags:
     - 클릭
@@ -16,7 +16,7 @@ tags:
 
 # Q.
 
-더블클릭시 자동으로 발생하는 onDataCellClicked 이벤트를 발생 안하게 할 수 없나요?  
+더블클릭시 자동으로 발생하는 onDataCellClicked 이벤트를 발생 안하게 할 수 있나요?  
 
 ---
 

@@ -188,7 +188,7 @@ tags:
 > **pagingAllItems**   
 > Type: Boolean  
 > Default: false  
-> true로 지정하면 엑셀 다운로드시 출력된 모든 데이터를 받을 수 있다. 
+> true로 지정하면 엑셀 다운로드시 페이징되어 보이지 않는 데이터를 포함한 모든 데이터를 받을 수 있다. 
 > RealGridJS 1.1.23 부터 지원된다.  
 
 > **allColumns**   
