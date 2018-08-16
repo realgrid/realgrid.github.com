@@ -25,7 +25,7 @@ tags:
 > 컬럼 이름. 많은 곳에서 컬럼을 이 이름으로 참조하므로 반드시 지정해야 하며, 그리드 내에서 유일해야 한다.   
 
 > **tag**  
-> Type: String   
+> Type: String | Object   
 > Default: true  
 > 이름과 다르게 지정하지 않아도 되고 중복되어도 상관없다. 컬럼들을 업무 요구에 따라 분류하고 싶을 때 사용할 수 있다. [columnByTag](/api/GridBase/columnByTag) 나 [columnsByTag](/api/GridBase/columnsByTag)로 이 값과 관련된 컬럼들을 찾을 수 있다.  
 
