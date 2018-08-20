@@ -41,6 +41,12 @@ tags:
 > Default: "auto"    
 > "explicit"를 사용하면 필터링된 데이터가 수정되었을때 명시적으로 필터링을 해야 재필터링 된다.   
 
+> **filterOr**  
+> Type: Boolean   
+> Default: false    
+> true를 지정하면 각 컬럼의 필터간 필터링이 or 조건으로 반영되어 표시된다.      
+> RealGridJS 1.1.29 이상부터 지원한다.   
+
 > **checkBar**  
 > Type: [checkBar](/api/types/CheckBar/)  
 > CheckBar를 설정한다.  

@@ -230,6 +230,13 @@ tags:
 > 팝업이나 컨택스트 메뉴의 한 화면에 표시되는 목록들의 개수를 지정한다.        
 > RealGridJS 1.1.26부터 지원된다.  
 
+> **wheelEventPropagate**  
+> Type: Boolean        
+> Default: true   
+> false로 지정하면 그리드내에서 발생할 휠 이벤트가 외부로 전파되지 않는다.          
+> RealGridJS 1.1.29부터 지원된다.  
+
+
 #### Examples   
 
 <pre class="prettyprint">

@@ -40,3 +40,15 @@ tags:
 > Type: string  
 > Default: null  
 > url 표현식으로 지정할때 표현식에 포함된 필드값중에 빈값이면 안되는 field명을 콤마(,)로 구분하여 입력한다. requiredFields에 명시된 필드중 하나이상이 빈값인 경우 해당 셀은 Hyperlink가 생기지 않는다.
+
+> **showUrl**  
+> Type: boolean  
+> Default: true  
+> url을 ToolTip창으로 표시할것인지를 결정한다.  
+
+> **cursor**  
+> Type: string   
+> Default: null     
+> 링크셀에 마우스 커서가 위치할때 표시될 마우스 커서의 모양을 지정한다.  
+> 지정할 수 있는 값은 W3C 표준([http://www.w3.org/wiki/CSS/Properties/cursor](http://www.w3.org/wiki/CSS/Properties/cursor)) 을 준수한다. uri 미지원    
+> RealGridJS 1.1.29부터 지원된다.  

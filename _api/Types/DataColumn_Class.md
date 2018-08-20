@@ -286,7 +286,7 @@ tags:
 > Default: null     
 > 버튼에 마우스 커서가 위치할때 표시될 마우스 커서의 모양을 지정한다.  
 > 지정할 수 있는 값은 W3C 표준([http://www.w3.org/wiki/CSS/Properties/cursor](http://www.w3.org/wiki/CSS/Properties/cursor)) 을 준수한다. uri 미지원    
-> JS 1.1.26 이상부터 지원한다.   
+> RealGridJS 1.1.26 이상부터 지원한다.   
 
 > **lookupData**  
 > Type: Array Of Object | Object   
@@ -294,7 +294,14 @@ tags:
 > values, labels를 한번에 JSON data로 지정할 수 있게 만들어졌다.    
 > lookupData:[{value:"O", label:"오뚜기"},{value:"M", label:"매일유업"}] 형태로 지정한다.    
 > value와 label에 해당하는 속성명을 지정할 수 있는 lookupData:{value:"code", label:"text", list:[{code:"O", text:"오뚜기"},{code:"M", text:"매일유업"}]} 형태도 가능하다.   
-> JS 1.1.28 이상부터 지원한다.   
+> RealGridJS 1.1.28 이상부터 지원한다.   
+
+> **sortByLabel**  
+> Type: boolean   
+> Default: false     
+> lookupDisplay사용시 label기준으로 소트를 원할때 사용한다.    
+> 하나의 field를 여러개의 column에 연결한 경우에는 적용되지 않는다.  
+> RealGridJS 1.1.29 이상부터 지원한다.   
 
 
 #### Examples
