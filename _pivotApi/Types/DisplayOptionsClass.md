@@ -79,6 +79,11 @@ tags:
 > Default: RealPivotMessages.emptyDataText      
 > 피벗 설정이 완료된 이후 데이터가 로드되지 않았을때 표시할 메시지를 지정한다.    
 
+> **showFocus**  
+> Type: Boolean   
+> Default: False      
+> 피벗 그리드에 포커스 보임 여부를 지정한다.  
+> 1.0.1부터 지원한다.      
 
 #### Examples   
 
