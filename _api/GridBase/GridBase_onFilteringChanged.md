@@ -18,13 +18,18 @@ tags:
 
 #### Syntax
 
-> function onFilteringChanged(grid)  
+> function onFilteringChanged(grid, column)  
 
 #### Arguments
 
 > **grid**  
 > Type: [GridBase](/api/GridBase/)  
 > GridBase 컨트롤  
+
+> **column**  
+> Type: [DataColumn](/api/types/DataColumn/)   
+> 필터링된 컬럼 정보가 넘어온다.   
+> RealGridJS 1.1.29부터 지원된다.    
 
 #### Return
 
@@ -33,8 +38,8 @@ None.
 #### Examples 
 
 <pre class="prettyprint">
-gridView.onFilteringChanged = function (grid){
-    alert("필터가 변경됨");
+gridView.onFilteringChanged = function (grid, column){
+    alert(column.name + "필터가 변경됨");
 }
 </pre>
 
