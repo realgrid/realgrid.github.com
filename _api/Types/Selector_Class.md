@@ -1,89 +1,66 @@
 ---
 layout: apipost
-title: ColumnFilter
+title: Selector
 part: Types
 typename: Classes
-order: ColumnFilter
+order: Selector
 objectname: 
 directiontype: 
-permalink: /api/types/ColumnFilter/
+permalink: /api/types/selector/
+jsonly: true
+versions:
+    - JS 1.1.29+
 tags: 
   - ColumnFilter
   - ColumnFiltering
   - Filter
   - Filtering
+  - Selector
   - 컬럼필터
   - 컬럼필터링
   - 필터
   - 필터링
+  - 셀렉터
 ---
 
 #### Description
 
- 컬럼 필터링에 관련된 설정 정보를 관리한다.
+ 필터 검색창과 관련된 설정 정보를 관리한다.
 
 #### Properties
 
-> **name**  
-> Type: String   
-> Default:  null     
-> 필터 이름.  
+> **showSearchInput**  
+> Type: Boolean     
+> Default: true       
+> 필터 검색창 보임여부를 지정한다.     
 
-> **criteria**  
+> **showButtons**  
+> Type: Boolean  
+> Default: true      
+> 확인, 취소 버튼의 표시여부를 지정한다.     
+
+> **acceptText**  
 > Type: String  
-> Default: null    
-> 필터에 표시될 [Expression](/api/features/Expression)을 지정한다.  
+> Default: "확인"    
+> 확인 버튼에 표시되는 문구를 지정한다.    
 
-> **text**  
+> **cancelText**  
 > Type: String  
-> Default: null    
-> selector에 표시되는 문자열이다. null이면 name 이 표시된다.  
-
-> **description**  
-> Type: String   
-> Default:  null     
-> 필터의 설명을 기재한다.  
-
-> **active**  
-> Type: Boolean   
-> Default: true     
-> 필터를 수행할 것인 지를 지정한다.  
-> visible 여부에 상관없이 적용된다.    
-
-> **visible**  
-> Type: Boolean   
-> Default: true     
-> 필터의 보임 여부를 지정한다.  
-> RealGridJS 1.1.29 이상부터 지원한다.     
+> Default: "취소"    
+> 취소 버튼에 표시되는 문구를 지정한다.    
 
 #### Examples   
 
 <pre class="prettyprint">
-var columns = [{
-      "name": "CustomerID",
-      "fieldName": "CustomerID",
-      "type": "data",
-      "width": "130",
-      "styles": {
-          "textAlignment": "center"
-      },
-      "header": {
-          "text": "Customer ID"
-      },
-      "filters": [{
-          name: "VINET",
-          criteria: "value = 'VINET'"
-      }, {
-          name: "VICTE",
-          criteria: "value = 'VICTE'"
-      }, {
-          name: "HANAR",
-          criteria: "value = 'HANAR'",
-          visible: false
-      }]
-}];
-
-gridView.setColumns(columns);
+gridView.setFilteringOptions({
+  clearWhenSearchCheck: true, 
+  selector: {
+    showSearchInput: true,   
+    showButtons: true,        
+    acceptText: "확인",
+    cancelText: "취소"
+  }
+});
 </pre>
 
 ---

@@ -55,6 +55,36 @@ tags:
 > 모든 필터를 보여줄것인지를 지정한다.  
 > FLASH Ver. 전용  
 
+> **useCssStyle**  
+> Type: Boolean     
+> Default: false       
+> CSS 적용여부를 지정한다.  
+> JS Ver. 전용     
+
+> **showSearchInput**  
+> Type: Boolean     
+> Default: true       
+> 필터 검색창 보임여부를 지정한다.     
+> RealGridJS 1.1.29 이상 지원한다.  
+
+> **showButtons**  
+> Type: Boolean  
+> Default: true      
+> 확인, 취소 버튼의 표시여부를 지정한다.     
+> RealGridJS 1.1.29 이상 지원한다.  
+
+> **acceptText**  
+> Type: String  
+> Default: "확인"    
+> 확인 버튼에 표시되는 문구를 지정한다.    
+> RealGridJS 1.1.29 이상 지원한다.  
+
+> **cancelText**  
+> Type: String  
+> Default: "취소"    
+> 취소 버튼에 표시되는 문구를 지정한다.    
+> RealGridJS 1.1.29 이상 지원한다.  
+
 ### Example  
 
 <pre class="prettyprint">

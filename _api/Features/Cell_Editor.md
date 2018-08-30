@@ -32,6 +32,7 @@ tags:
 * [SearchCellEditor](/api/types/SearchCellEditor) - 원하는 셀 데이터를 찾을 수 있다.    
 * [NumberCellEditor](/api/types/NumberCellEditor) - 숫자와 관련 기호만을 입력할 수 있다. 
 * [DateCellEditor](/api/types/DateCellEditor) - 날짜를 입력하거나 달력 리스트를 펼쳐서 날짜를 선택할 수 있다.  
+* [BTDateCellEditor](/api/types/BTDateCellEditor) - BootStrap DatePicker를 사용하여 날짜를 입력하거나 달력 리스트를 펼쳐서 날짜를 선택할 수 있다.  
 
 셀편집기 별로 지정할 수 있는 속성들이 있다. 데이터컬럼에 편집기를 지정하지 않으면 LineCellEditor가 기본으로 사용된다.
  
@@ -46,6 +47,8 @@ tags:
 * [DropDownCellEditor](/api/types/DropDownCellEditor)
 * [NumberCellEditor](/api/types/NumberCellEditor)
 * [DateCellEditor](/api/types/DateCellEditor)
+* [BTDateCellEditor](/api/types/BTDateCellEditor) 
+
 
 #### Demo Links
 

@@ -236,6 +236,17 @@ tags:
 > false로 지정하면 그리드내에서 발생할 휠 이벤트가 외부로 전파되지 않는다.          
 > RealGridJS 1.1.29부터 지원된다.  
 
+> **hscrollBar**  
+> Type: Boolean        
+> Default: true   
+> 수평 스크롤바의 표시여부를 지정한다.            
+> RealGridJS 1.1.29부터 지원된다.   
+
+> **vscrollBar**  
+> Type: Boolean        
+> Default: true   
+> 수직 스크롤바의 표시여부를 지정한다.            
+> RealGridJS 1.1.29부터 지원된다.   
 
 #### Examples   
 

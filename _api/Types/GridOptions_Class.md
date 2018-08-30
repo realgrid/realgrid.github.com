@@ -47,6 +47,12 @@ tags:
 > true를 지정하면 각 컬럼의 필터간 필터링이 or 조건으로 반영되어 표시된다.      
 > RealGridJS 1.1.29 이상부터 지원한다.   
 
+> **currentChangingFirst**  
+> Type: Boolean   
+> Default: false    
+> true를 onCurrentChanging Event가 hideEditor보다 먼저 발생하고 false를 return하면 editor가 사라지지 않는다.      
+> RealGridJS 1.1.29 이상부터 지원한다.   
+
 > **checkBar**  
 > Type: [checkBar](/api/types/CheckBar/)  
 > CheckBar를 설정한다.  

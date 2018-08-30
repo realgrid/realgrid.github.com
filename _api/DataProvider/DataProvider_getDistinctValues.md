@@ -191,6 +191,11 @@ function setColumns(grid) {
 > Type: Number  
 > 가져올 데이터의 개수  
 
+> **sortDirs**  
+> Type: Array of [SortDirection](/api/types/SortDirection/)      
+> 중복 제거된 값을 가져올때의 정렬 방향을 지정한다.       
+> RealGridJS 1.1.29부터 지원된다. 
+
 #### Return value
 
 > Type: Array  

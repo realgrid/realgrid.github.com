@@ -303,6 +303,12 @@ tags:
 > 하나의 field를 여러개의 column에 연결한 경우에는 적용되지 않는다.  
 > RealGridJS 1.1.29 이상부터 지원한다.   
 
+> **displayMinusZero**  
+> Type: boolean   
+> Default: true     
+> false로 지정하면 셀 표시값이 -0 인 경우 0 으로 표시된다.  
+> RealGridJS 1.1.29 이상부터 지원한다.   
+
 
 #### Examples
 

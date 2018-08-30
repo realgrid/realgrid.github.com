@@ -24,7 +24,16 @@ tags:
 
 > **TEXT**  
 > Value: "text"   
-> 각 상태 값이 개발자가 지정한 값으로 표시 됩니다.                                    
+> 각 상태 값이 개발자가 지정한 값으로 표시 됩니다.             
+
+> **NONE**  
+> Value: "none"   
+> 각 상태 값이 표시되지 않는다.  
+
+> **IMAGE**  
+> Value: "none"   
+> 각 상태 값이 지정한 이미지로 표시된다.   
+> RealGridJS 1.1.29부터 지원된다.   
            
 #### Examples
 
@@ -37,6 +46,26 @@ gridView.setStateBar({
         deleted: "D",
         createAndDeleted: "X"
     }
+});
+
+gridView.setStateBar({
+	mark:"image", 
+	stateImages: {
+		created: "./image/created.png", 
+		updated: "./image/updated.png",
+		deleted: "./image/deleted.png", 
+		createAndDeleted: "./image/createAndDeleted.png"
+	}
+});
+
+gridView.setIndicator({
+	mark:"image", 
+	stateImages:{
+		focused:   "./image/focused.png",
+		inserting: "./image/inserting.png", 
+		updating:  "./image/updating.png", 
+		appending: "./image/appending.png"
+	}
 });
 </pre>
 

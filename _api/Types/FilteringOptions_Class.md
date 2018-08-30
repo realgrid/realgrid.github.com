@@ -76,6 +76,13 @@ tags:
 > Default: true  
 > 필터링할때 Parnet도 같이 표시한다.   
 
+> **clearWhenSearchCheck**  
+> Type: boolean  
+> Default: true  
+> 검색을 사용하는 경우 검색된 filter이외에는 기존 check를 해제할것인지를 지정한다.  
+> RealGridJS 1.1.29 이상부터 지원한다.  
+
+
 ### Example  
 
 <pre class="prettyprint">

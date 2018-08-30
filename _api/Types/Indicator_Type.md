@@ -84,6 +84,19 @@ tags:
 > Default: null  
 > foot 영역에 표시할 이미지의 Url을 지정한다.  
 
+> **mark**  
+> Type: [StateMark](/api/types/StateMark/)     
+> Default: StateMark.DEFAULT     
+> Indicator에 표시되는 state의 표시 형태를 지정한다. "default"인 경우 아이콘으로 표시되며 "image" 인 경우 stateImages에서 지정한 값들이 표시된다.  
+> RealGridJS 1.1.29부터 지원된다.   
+
+> **stateImages**  
+> Type: objects   
+> Default: null     
+> Indicator에 표시될 상태 이미지들을 지정한다.  
+> focused, inserting, updating, appending 속성으로 구성된다.  
+> RealGridJS 1.1.29부터 지원된다.   
+
 
 #### Examples
 
@@ -100,7 +113,17 @@ gridView.setIndicator({
 	footText: "foot",
 	headImageUrl: "/img/common/dot_arrow2_top.gif",
 	footImageUrl: "/img/common/dot_arrow2_bottom.gif"
-})
+});
+
+gridView.setIndicator({
+	mark:"image", 
+	stateImages:{
+		focused:   "./image/focused.png",
+		inserting: "./image/inserting.png", 
+		updating:  "./image/updating.png", 
+		appending: "./image/appending.png"
+	}
+});
 </pre>
 
 ---

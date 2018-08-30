@@ -38,6 +38,13 @@ tags:
 > Default: null     
 > StateBar에 표시될 상태 텍스트들을 지정한다.
 
+> **stateImages**  
+> Type: objects   
+> Default: null     
+> StateBar에 표시될 상태 이미지들을 지정한다.  
+> created, updated, deleted, createAndDeleted 속성으로 구성된다.  
+> RealGridJS 1.1.29부터 지원된다.   
+
 > **headText**       
 > Type: String  
 > Default: null  

@@ -20,7 +20,7 @@ tags:
 
 #### Syntax
 
-> function addField(field, resetData)  
+> function addField(field, resetData, calculateData)  
 
 #### Parameters
 
@@ -32,6 +32,12 @@ tags:
 > Type: Boolean  
 > Default: true   
 > 필드가 추가될때 기존 필드에 담겨져 있는 데이터들의 초기화 여부를 지정한다.   
+
+> **calculateData**  
+> Type: Boolean  
+> Default: false     
+> calc Field의 경우 계산 여부를 지정한다.  
+> RealGridJS 1.1.29부터 지원된다.      
 
 #### Return value
 

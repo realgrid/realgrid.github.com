@@ -39,7 +39,11 @@ tags:
 
 > **DATE**      
 > Value: "date"      
-> [DateCellEditor](/api/types/DateCellEditor)유형으로 날짜를 입력하거나 달력을 펼쳐 날짜를 선택 할 수 있다.       
+> [DateCellEditor](/api/types/DateCellEditor)유형으로 날짜를 입력하거나 달력을 펼쳐 날짜를 선택 할 수 있다.      
+
+> **BTDATE**      
+> Value: "btdate"      
+> 외부 달력 컴포넌트인 bootstrap-datepicker([BTDateCellEditor](/api/types/BTDateCellEditor))유형으로 날짜를 입력하거나 달력을 펼쳐 날짜를 선택 할 수 있다.    
 
 #### Examples   
 

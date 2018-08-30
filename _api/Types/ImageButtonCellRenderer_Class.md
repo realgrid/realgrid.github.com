@@ -40,12 +40,21 @@ tags:
 > **text**  
 > Type: String  
 > Default: "Click"    
-> 이미지 위에 표시될 텍스트를 지정한다.    
+> 이미지 위에 표시될 텍스트를 지정한다.   
+> null을 지정하면 셀 값이 표시된다.   
 
-> **targetFont**  
-> Type: String  
+> **hoveredUnderline**  
+> Type: boolean   
+> Default: true     
+> false로 지정하면 마우스 호버시 밑줄이 생기지 않는다.  
+> RealGridJS 1.1.29 이상부터 지원한다.   
+
+> **cursor**  
+> Type: String   
 > Default: null  
-> 목표값의 글꼴을 지정한다.  
+> 버튼에 마우스 커서가 위치할때 표시될 마우스 커서의 모양을 지정한다.  
+> 지정할 수 있는 값은 W3C 표준([http://www.w3.org/wiki/CSS/Properties/cursor](http://www.w3.org/wiki/CSS/Properties/cursor)) 을 준수한다. uri 미지원    
+> RealGridJS 1.1.29 이상부터 지원한다.   
 
 #### Examples   
 
