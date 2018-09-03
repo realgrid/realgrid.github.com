@@ -12,7 +12,7 @@ tags:
   - 편집
   - 값설정
   - edit
-  _ setValue
+  - setValue
 
 ---
 
