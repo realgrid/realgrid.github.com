@@ -37,6 +37,11 @@ tags:
 > true로 설정하면 해당 셀이 편집중이 아닌 경우 값을 설정하고 에디터를 표시한다.  
 > false인 경우 값을 설정하지 않는다.  
 
+> **dropDown**  
+> Type: Boolean
+> Default: true   
+> false로 설정하면 dropdownCellEditor, dateCellEditor등과 같이 dropdown이 되는 editor의 경우 dropdown을 표시하지 않는다.      
+
 #### Return value
 
 > None. 
