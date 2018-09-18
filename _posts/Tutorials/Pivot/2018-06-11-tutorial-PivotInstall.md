@@ -26,7 +26,7 @@ var pivot;
 var dataProvider;
 
 $(document).ready( function(){
-    RealGridJS.setRootContext("/script");
+    RealGridJS.setRootContext("/scripts");
     
     dataProvider = new RealGridJS.LocalDataProvider();
 
@@ -6573,7 +6573,7 @@ var pivot;
 var dataProvider;
 
 $(document).ready( function(){
-    RealGridJS.setRootContext(&quot;/script&quot;);
+    RealGridJS.setRootContext(&quot;/scripts&quot;);
     
     dataProvider = new RealGridJS.LocalDataProvider();
 
@@ -6640,7 +6640,7 @@ $(document).ready( function(){
 
     dataProvider.fillJsonData(datas);    
 
-    pivot = new RealPivot("realpivot");
+    pivot = new RealPivot("realpivotDiv");
     pivot.setDataProvider(dataProvider);
 
     pivot.setFieldMapping([{

@@ -35,32 +35,32 @@ tags:
 <pre class="prettyprint">
 //styles에서 사용방법
 gridView.setColumns([{
-	fieldName: "fieldName",
-	name: "colName",
+    fieldName: "fieldName",
+    name: "colName",
     renderer: {
         type: "icon",
     },
-	styles: {
-		iconIndex: "value[url필드명]"   //url필드에 각 행마다 필요한 아이콘 이미지 경로가 들어있다. 
-	}
-}]);     
+    styles: {
+        iconIndex: "value[url필드명]"   //url필드에 각 행마다 필요한 아이콘 이미지 경로가 들어있다. 
+    }
+}]);
 
 //dynamicStyles에서 사용방법
 gridView.setColumns([{
-	fieldName: "fieldName",
-	name: "colName",
+    fieldName: "fieldName",
+    name: "colName",
     renderer: {
         type: "icon",
     },
-	dynamicStyles: function(grid, index, value) {
-		if (value) {
-			return {
-				iconIndex: "/img/demo/smallflag/ar.png",
-				background: "#ff00ff"
-			};
-		}
-	}
-}]);   
+    dynamicStyles: function (grid, index, value) {
+        if (value) {
+            return {
+                iconIndex: "/img/demo/smallflag/ar.png",
+                background: "#ff00ff"
+            };
+        }
+    }
+}]);
 
 //같이 사용
 gridView.setColumns([{
@@ -76,7 +76,7 @@ gridView.setColumns([{
         "iconIndex": "value[url필드명1]",
         "textAlignment": "center"
     },
-    "dynamicStyles": function(grid, index, value) {
+    "dynamicStyles": function (grid, index, value) {
         if ((index.dataRow % 2) == 0) {
             return {
                 "iconIndex": "value[url필드명2]",
@@ -84,10 +84,10 @@ gridView.setColumns([{
                 "background": "#ff00ffff"
             };
         }
-    },   
-	"header": {
-	    "text": "ID"
-	}
+    },
+    "header": {
+        "text": "ID"
+    }
 }]);
 </pre>
 
