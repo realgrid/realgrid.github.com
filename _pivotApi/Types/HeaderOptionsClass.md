@@ -52,12 +52,14 @@ tags:
 > Default: true       
 > Setup 버튼의 표시 여부를 지정한다.  
 
+<a name="formType"></a>
 > **formType**  
 > Type: [FormType](/pivotApi/types/FormType/)   
 > Default: "normal"       
 > 피벗의 표시형태를 지정한다. "grid"를 지정하면 일반 그리드의 형태로 표시된다.    
 > 1.0.2 버전부터 지원한다.    
 
+<a name="width"></a>
 > **width**  
 > Type: Number   
 > Default: null       
