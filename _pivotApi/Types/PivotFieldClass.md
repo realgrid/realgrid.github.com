@@ -115,9 +115,22 @@ tags:
 > Default: null       
 > value 뒤에 추가로 표시할 내용    
 
+> **sortCallback**  
+> Type: function(a,b)   
+> Default: null       
+> 표시되는 필드의 순서를 임의로 지정하고자 할때 사용한다.  
+> 1.0.2 버전부터 지원한다.  
+
 #### Examples   
 
 <pre class="prettyprint">
+    var quarters = [2, 1, 4, 3];
+    function quarterSortFunction(a, b) {
+        var aidx = quarters.indexOf(a.value);
+        var bidx = quarters.indexOf(b.value);
+        return aidx > bidx ? 1 : aidx < bidx ? -1 : 0;
+    }
+
 	pivot.setFieldMapping([{
 	    name: "OrderID",
 	    sourceField: "OrderID",
@@ -165,7 +178,8 @@ tags:
 	        4: "사사분기"
 	    },
 	    summaryFormat : "${label} 합",
-	    valueEnable: false
+	    valueEnable: false,
+	    sortCallback: quarterSortFunction
 	}, {
 	    name: "OrderMonth",
 	    sourceField: "OrderDate",

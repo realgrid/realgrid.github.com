@@ -52,6 +52,19 @@ tags:
 > Default: true       
 > Setup 버튼의 표시 여부를 지정한다.  
 
+> **formType**  
+> Type: [FormType](/pivotApi/types/FormType/)   
+> Default: "normal"       
+> 피벗의 표시형태를 지정한다. "grid"를 지정하면 일반 그리드의 형태로 표시된다.    
+> 1.0.2 버전부터 지원한다.    
+
+> **width**  
+> Type: Number   
+> Default: null       
+> 필드의 너비를 지정한다. 컬럼의 그룹역활을 하는 필드에는 적용되지 않는다.       
+> 1.0.2 버전부터 지원한다.    
+
+
 #### Examples   
 
 <pre class="prettyprint">
