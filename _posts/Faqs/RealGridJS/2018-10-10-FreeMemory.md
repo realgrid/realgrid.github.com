@@ -24,7 +24,7 @@ tags:
 리얼그리드 사용이 끝난 시점(화면창 닫기 등)에 아래 코드를 실항하시면 됩니다.    
 
 <pre class="prettyprint">
-/데이터 초기화
+//데이터 초기화
 dataProvider.clearRows();
 
 //grid, provider 초기화
