@@ -53,6 +53,27 @@ tags:
 > true를 onCurrentChanging Event가 hideEditor보다 먼저 발생하고 false를 return하면 editor가 사라지지 않는다.      
 > RealGridJS 1.1.29 이상부터 지원한다.   
 
+<a name="backgroundImage"></a>
+> **backgroundImage**  
+> Type: [BackgroundImage](/api/types/BackgroundImage/)   
+> Default: null    
+> 그리드에 배경 이미지를 설정한다.         
+> RealGridJS 1.1.30 이상부터 지원한다.   
+
+<a name="keepNullFocus"></a>
+> **keepNullFocus**   
+> Type: Boolean   
+> Default: false      
+> true로 지정하면 포커스가 없는 상태에서 데이터 채움시 첫번째 셀로 포커스가 이동하지 않는다.            
+> RealGridJS 1.1.30 이상부터 지원한다.   
+
+<a name="resizeDelay"></a>
+> **resizeDelay**   
+> Type: Number   
+> Default: 250      
+> 리얼그리드가 리사이즈 될때 다시 그리기까지의 지연시간을 지정한다.              
+> RealGridJS 1.1.30 이상부터 지원한다.   
+
 > **checkBar**  
 > Type: [checkBar](/api/types/CheckBar/)  
 > CheckBar를 설정한다.  

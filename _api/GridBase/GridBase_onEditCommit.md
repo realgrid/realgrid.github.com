@@ -49,6 +49,7 @@ None.
 <pre class="prettyprint">
 gridView.onEditCommit = function (id, index, oldValue, newValue) {
     console.log("onEditCommit: " + index.itemIndex + ", " + index.column + ", " + oldValue + " => " + newValue);   
+}
 </pre>
 
 ---

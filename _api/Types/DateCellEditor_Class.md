@@ -113,6 +113,13 @@ RealGridJS V1.0.12 버전 부터는 달력 팝업에 표시되는 달력의 년,
 > 반환되는 결과의 년과 주차사이의 구분자를 지정한다.        
 > JS ver 1.1.26부터 지원된다.   
 
+<a name="defaultShowDate"></a>
+> **defaultShowDate**  
+> Type: [DefaultShowDate](/api/types/DefaultShowDate/)     
+> Default: DefaultShowDate.NORMAL  
+> Date Editor 표시시 달력에 선택되는 날짜유형을 지정한다.          
+> JS ver 1.1.30부터 지원된다.   
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -123,6 +130,7 @@ gridView.setColumns([{
 	"sortable": false,
 	"editor": {
 	    "type": "date",
+	    "defaultShowDate": "normal",
 	    "datetimeFormat": "yyyy.MM.dd",
 	    "yearDisplayFormat": "{Y} Year ",   
 	    "monthDisplayFormat": "{M} Month",  

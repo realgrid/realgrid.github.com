@@ -20,7 +20,7 @@ tags:
  
 #### Syntax
 
-> function onValidateColumn (grid, column, inserting, value)  
+> function onValidateColumn (grid, column, inserting, value, itemIndex)  
 
 #### Arguments
 
@@ -29,16 +29,22 @@ tags:
 > GridBase 컨트롤  
 
 > **column**  
-> Type: object  
+> Type: Object  
 > [DataColumn](/api/types/DataColumn/) 모델과 같은 구조의 컬럼 object.  
 
 > **inserting**  
-> Type: boolean  
+> Type: Boolean  
 > 열 추가 중이면 true. 열 수정 중이면 false.  
 
 > **value**  
 > Type: **  
 > 입력된 필드의 값.  
+
+<a name="itemIndex"></a>
+> **itemIndex**   
+> Type: Number   
+> 셀편집된 컬럼의 행번호      
+> RealGridJS 1.1.30 부터 지원한다.    
 
 #### Return
 
@@ -48,9 +54,10 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-gridView.onValidateColumn =  function (grid, column, inserting, value) {
+gridView.onValidateColumn =  function (grid, column, inserting, value, itemIndex) {
     //validate Quantity
-    if (column.name = "Quantity" &&  value < 100) {
+    var CustID = grid.getValue(itemIndex, "CustomerID")
+    if (column.name = "Quantity" &&  value < 100 && CustID == "18650") {
         var error = {};
         error.level = RealGrids.ValidationLevel.ERROR;
         error.message = "onValidateRow Event: if Quantity < 100, validation level 'ERROR!!'";

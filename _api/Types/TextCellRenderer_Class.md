@@ -209,6 +209,13 @@ $(document).ready( function() {
 > 셀 데이터 값이 컬럼의 너비보다 길어서 ...으로 표시된 경우에만 툴팁으로 표시해준다.   
 > RealGridJS 1.1.27 부터 지원한다.  
 
+<a name="hoveredUnderline"></a>
+> **hoveredUnderline**  
+> Type: boolean  
+> Default: true  
+> 데이터셀에 마우스 호버시 밑줄이 그어진다.     
+> RealGridJS 1.1.30 부터 지원한다.  
+
 #### Examples
 
 <pre class="prettyprint">

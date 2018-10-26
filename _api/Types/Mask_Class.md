@@ -70,8 +70,16 @@ tags:
 > **allowEmpty**  
 > Type: Boolean  
 > Default: false    
-> mask가 0로 설정된 경우 빈값 ""의 허용여부를 지정한다. ex) "0000-00-00" 지정시 "" 지정 가능.
+> mask가 0로 설정된 경우 빈값 ""의 허용여부를 지정한다. ex) "0000-00-00" 지정시 "" 지정 가능.   
 > RealGridJS 1.1.26 부터 지원한다.          
+
+<a name="restrictNull"></a>
+> **restrictNull**  
+> Type: Boolean  
+> Default: false    
+> true로 설정하면 중간부터 입력되지 않는다.   
+> RealGridJS 1.1.30 부터 지원한다.          
+
 
 #### Examples   
 
@@ -90,12 +98,12 @@ var columns = [{
     name: "date", 
     editor:{
         type: "date", 
-    mask:{
-        editMask: "9999-99-99",  
-        includedFormat: true,
-        overWrite: true 
-    }, 
-    datetimeFormat:"yyyy-MM-dd" 
+        mask:{
+            editMask: "9999-99-99",  
+            includedFormat: true,
+            overWrite: true 
+        }, 
+        datetimeFormat:"yyyy-MM-dd" 
     }, 
     styles:{
         datetimeFormat:"yyyy-MM-dd"

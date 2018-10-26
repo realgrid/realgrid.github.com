@@ -135,16 +135,27 @@ tags:
 > Default: [ButtonVisibility](/api/types/ButtonVisibility).DEFAULT   
 > 셀 편집기([Cell Editor](/api/features/Cell Editor/)) 버튼이 표시되는 방법을 지정한다. 현재 버튼이 표시되는 셀 편집기는 [DropDownCellEditor](/api/types/DropDownCellEditor), [DateCellEditor](/api/types/DateCellEditor), [SearchCellEditor](/api/types/SearchCellEditor)가 있다.       
 
+<a name="mergeRule"></a>
 > **mergeRule**  
 > Type: Object   
 > Default: null     
 > 컬럼에 속한 셀들을 묶어서 표시할 수 있다. criteria 속성에 이전 행의 셀과 병합할 것인 지를 판단할 수식을 설정한다.  
+> 1.1.30버전부터 모든 선행 컬럼들의 값인 prevvalues 속성이 추가되었다.(보이는 컬럼 기준이다)    
+> ex) criteria = "prevvalues + value"
 > ex) criteria = "value", criteria = "row div 10"  
 
 > **equalBlank**  
 > Type: Boolean   
 > Default: false     
 > 같은 컬럼의 이전 행의 셀과 값이 동일할때 셀의 묶음 여부를 지정한다.
+
+<a name="equalBlankExpression"></a>
+> **equalBlankExpression**  
+> Type: String   
+> Default: "value"     
+> equalBlank가 true인 경우 같은 값으로 처리할 수식을 지정한다.    
+> ex) "equalBlankExpression": "value + values['company']"  
+> RealGridJS 1.1.30 이상부터 지원한다.   
 
 > **labelField**  
 > Type: String  

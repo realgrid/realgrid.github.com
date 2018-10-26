@@ -35,11 +35,6 @@ tags:
 > Default: [TextInputCase](/api/types/TextInputCase/).DEFAULT  
 > 편집기에 입력되는 문자를 자동으로 대소문자로 변경한다. [TextInputCase](/api/types/TextInputCase/)에 지정할 수 있는 값들이 선언되어 있다. [TextInputCase](/api/types/TextInputCase/).DEFAULT로 지정하면 컬럼의 textInputCase에 지정한 값을 따르게 된다.  
 
-> **displayLabels**  
-> Type: boolean  
-> Default: true  
-> 드롭다운 목록에서 label값으로 보여질 것인지 value값으로 보여질 것인지의 여부를 지정한다.   
-
 > **values**  
 > Type: Array  
 > Default: []  
@@ -101,6 +96,30 @@ tags:
 > false 인 경우 trim을 하지 않고 목록을 보여준다.    
 > RealGridJS만 ver 1.1.24부터 지원된다.
 
+<a name="displayLabels"></a>
+> **displayLabels**  
+> ~ 1.1.29버전까지 사용
+> Type: boolean  
+> Default: true  
+> 드롭다운 목록에서 label값으로 보여질 것인지 value값으로 보여질 것인지의 여부를 지정한다.   
+> ********************************************************************
+> 1.1.30버전 이후 사용  
+> Type: [DropDownValueLavel](/api/types/DropDownValueLavel/)  
+> Default: DropDownValueLavel.LABEL  
+> 드롭다운 목록에서 label값으로 보여질 것인지 value값으로 보여질 것인지 또는 label value, value label로 보여질것인지의 여부를 지정한다.   
+
+> **separator**   
+> Type: string  
+> Default: null    
+> displayLabels 속성이 "valueLabel", "labelValue"인 경우 두 값들사이의 구분자를 지정한다.   
+> RealGridJS만 ver 1.1.30부터 지원된다.
+
+> **itemColumned**   
+> Type: boolean  
+> Default: false       
+> displayLabels 속성이 "valueLabel", "labelValue"인 경우 두 값들사이의 여백을 자동으로 조정하여 정렬 표시한다.       
+> RealGridJS만 ver 1.1.30부터 지원된다.
+
 #### Examples 
 
 <pre class="prettyprint">
@@ -128,6 +147,34 @@ gridView.setColumns([{
         }
     }
 }]);
+
+gridView.setColumns([{
+    "name": "CustomerID",
+    "fieldName": "CustomerID",
+    "width": "150",
+    "sortable": false,
+    "lookupDisplay": true,
+    "values": ["1", "2", "3", "4", "5", "6"],
+    "labels": ["VINET", "HANAR", "SUPRD", "VICTE", "THREE", "SEVEN"],
+    "editor": {
+        "type": "dropDown",
+        "dropDownCount": 4,
+        "dropDownPosition": "button",
+        "partialMatch": "true",
+        "displayValues": "valueLabel",  //1.1.30버전부터 지원
+        "separator": ")"
+    },
+    "styles": {
+        "textAlignment": "center"
+    },
+    "header": {
+        "text": "DropDown Edit",
+        "styles": {
+            "background": "linear,#22ffd500,#ffffd500,90"
+        }
+    }
+}]);
+
 </pre>
 
 ---

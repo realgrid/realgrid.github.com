@@ -66,6 +66,8 @@ Relational Operator ::= = \| <> \| < \| > \| <= \| >= \| is \| is not \| match \
 * datarow - 편집셀이 참조하는 데이터행의 인덱스.
 * checked - 편집셀이 포함된 Item의 checked 상태. true/false 로 리턴.
 * changedcell - 값이 편경된 셀.(RealGridJS 1.1.25+ 지원, dataProvider.restoreMode가 "explicit" 또는 "auto"인 경우만)
+<a name="values"></a>
+* values[] - 편집 행의 각 필드 값을 values["field name"]나 values[fieldIndex]로 리턴.(RealGridJS 1.1.30+ 지원)
 
 ##### Row Validation
 

@@ -85,15 +85,33 @@ tags:
 > 취소 버튼에 표시되는 문구를 지정한다.    
 > RealGridJS 1.1.29 이상 지원한다.  
 
+<a name="userFilterAddCallback"></a>
+> **userFilterAddCallback**  
+> Type: function(grid, column, text) {}   
+> Default:     
+> 사용자가 필터검색창에 입력한 내용을 필터로 등록하려 할때 사용한다. null을 return하면 추가하지 않는다.  
+> Ctrl+Enter Key로 등록 요청한다.        
+> RealGridJS 1.1.30 이상 지원한다.  
+
+
+
 ### Example  
 
 <pre class="prettyprint">
 gridView.setFilteringOptions({
-    HandleVisibility: "visible",
-    selector: {
-        maxWidth: 100,
-        maxHeight: 200,
-        closeWhenClick: true
+	HandleVisibility: "visible",
+	selector: {
+		maxWidth: 100,
+		maxHeight: 200,
+		closeWhenClick: true,
+		showSearchInput: true,
+		userFilterAddCallback: function(grid, column, text) {
+			return {
+				text : text,
+				criteria: "value like '"+text+"%'",
+				active:true,
+			}
+		}
     }
 })
 </pre>
