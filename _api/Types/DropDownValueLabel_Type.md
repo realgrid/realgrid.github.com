@@ -1,12 +1,12 @@
 ---
 layout: apipost
-title: DropDownValueLavel
+title: DropDownValueLabel
 part: Types
 typename: Constants
-order: DropDownValueLavel
+order: DropDownValueLabel
 objectname: 
 directiontype: 
-permalink: /api/types/DropDownValueLavel/
+permalink: /api/types/DropDownValueLabel/
 jsonly: true
 versions:
   - JS 1.1.30+
