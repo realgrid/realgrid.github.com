@@ -18,11 +18,11 @@ tags:
 
 #### Syntax
 
-> function onShowEditor (id, index)  
+> function onShowEditor (grid, index)  
 
 #### Arguments
 
-> **id**  
+> **grid**  
 > Type: [GridBase](/api/GridBase/)  
 > GridBase 컨트롤  
 
@@ -39,7 +39,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-gridView.onShowEditor = function (id, index) { 
+gridView.onShowEditor = function (grid, index) { 
 	console.log("onShowEditor:" + index.itemIndex + "," + index.column);  
 
 	if (index.column == "OrderID") then

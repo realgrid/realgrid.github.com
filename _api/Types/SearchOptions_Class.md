@@ -23,7 +23,13 @@ tags:
 > **fields**    
 > Type: Array     
 > Default: null        
-> 검색할 필드 목록. 필드 인덱스나 필드 이름으로 지정할 수 있다. 필드 이름은 대소문자를 구분하지 않는다.
+> 검색할 필드 목록. 필드 인덱스나 필드 이름으로 지정할 수 있다. 필드 이름은 대소문자를 구분하지 않는다.  
+
+> **startFieldIndex**     
+> Type: Number           
+> Default: 0     
+> fields Array에서 검색을 시작할 필드의 인덱스를 지정한다.  
+> var fields = ["a", "b", "c", "d"];   var startFieldIndex = 2  인 경우 "c" 필드부터 검색을 시작한다.        
 
 > **values**    
 > Type: Array     
@@ -38,6 +44,11 @@ tags:
 > searchCell()에서만 사용한다.
 
 > **startIndex**     
+> Type: Number           
+> Default: 0     
+> 몇 번째 행 부터 검색할 것인 지를 지정한다.     
+
+> **startFieldIndex**     
 > Type: Number           
 > Default: 0     
 > 몇 번째 행 부터 검색할 것인 지를 지정한다.     
