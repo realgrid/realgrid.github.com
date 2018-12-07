@@ -219,7 +219,7 @@ function setColumns(grid) {
 > true이면 정수만 입력할수 있다.  
 
 > **textAlignment**  
-> Type: [Alignment](/api/types/Alignment/)
+> Type: [Alignment](/api/types/Alignment/)   
 > Default: Alignment.NEAR  
 > 입력이 시작되는 위치를 지정한다. far로 지정하면 오른쪽 끝에서 부터 입력이 시작된다.  
 > ver 1.1.20부터 지원된다.  
