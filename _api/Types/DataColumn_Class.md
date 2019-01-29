@@ -320,6 +320,14 @@ tags:
 > false로 지정하면 셀 표시값이 -0 인 경우 0 으로 표시된다.  
 > RealGridJS 1.1.29 이상부터 지원한다.   
 
+> **displayCallback**  
+> Type: function(grid, index, value){ }   
+> grid: gridView객체     
+> index: [CellIndex](/api/types/CellIndex/)   
+> value: 해당셀의 값    
+> 화면에 표시하려는 값을 return한다.      
+> RealGridJS 1.1.31 이상부터 지원한다.   
+
 
 #### Examples
 

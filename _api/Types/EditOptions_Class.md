@@ -50,7 +50,7 @@ tags:
 
 > **appendable**             
 > Type: boolean   
-> Default: false     
+> Default: false       
 > true면 그리드 마지막 행에서 사용자가  아래쪽 방향키를 통해 행 추가를 시작할 수 있다.  
 
 > **insertable**  
