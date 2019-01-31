@@ -237,6 +237,7 @@ tags:
 > Type: Array of [DynamicStyle](/api/types/DynamicStyle)   
 > Default:  null     
 > 컬럼 데이터셀들에게 적용할 동적 스타일들을 지정한다.       
+> 자세한 내용은 [DynamicStyle](/api/types/DynamicStyle)에서 확인한다.  
 
 > **ignoreDefaultDynamicStyles**  
 > Type: Boolean  
@@ -324,7 +325,7 @@ tags:
 > Type: function(grid, index, value){ }   
 > grid: gridView객체     
 > index: [CellIndex](/api/types/CellIndex/)   
-> value: 해당셀의 값    
+> value: 해당 셀의 값    
 > 화면에 표시하려는 값을 return한다.      
 > RealGridJS 1.1.31 이상부터 지원한다.   
 
@@ -382,6 +383,14 @@ var columns = [{
         function (match, p1, p2, offset, string) {
             return p1.substring(0, 2) + "****" + p2;
         }
+}, {
+    "fieldName": "oldZipCode",
+    "width": 150,
+    "header": { "text": "우편번호(구)" },
+    "displayCallback":
+        function (grid, index, value) {
+            return value.substring(0, 3) + "-" + value.substring(3, 6);
+        }        
 }];
 
 gridView.setColumns(columns);

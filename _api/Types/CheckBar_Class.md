@@ -138,6 +138,13 @@ tags:
 > checkbox의 외곽라인을 여부를 지정한다.     
 > RealGridJS 1.1.28 부터 지원한다.  
 
+> **syncHeadCheck**       
+> Type: Boolean    
+> Default: false    
+> true인 경우 데이터 영역의 전체 item 체크 상태가 CheckBar Head의 체크 상태가 연동된다.    
+> ex) 데이터행의 모든 item이 체크되면 Head영역에도 자동으로 체크가 됨         
+> RealGridJS 1.1.31 부터 지원한다.  
+
 #### Examples   
 
 <pre class="prettyprint">

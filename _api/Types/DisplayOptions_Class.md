@@ -248,6 +248,39 @@ tags:
 > 수직 스크롤바의 표시여부를 지정한다.            
 > RealGridJS 1.1.29부터 지원된다.   
 
+> **drawBorderTop**  
+> Type: Boolean        
+> Default: true   
+> Grid영역의 Border Top의 표시여부를 지정한다.            
+> RealGridJS 1.1.31부터 지원된다.   
+
+> **drawBorderBottom**  
+> Type: Boolean        
+> Default: true   
+> Grid영역의 Border Bottom의 표시여부를 지정한다.            
+> RealGridJS 1.1.31부터 지원된다.   
+
+> **drawBorderLeft**  
+> Type: Boolean        
+> Default: true   
+> Grid영역의 Border Left의 표시여부를 지정한다.            
+> RealGridJS 1.1.31부터 지원된다.   
+
+> **drawBorderRight**  
+> Type: Boolean        
+> Default: true   
+> Grid영역의 Border Right의 표시여부를 지정한다.            
+> RealGridJS 1.1.31부터 지원된다.   
+
+> **cursorCallback**  
+> Type: function(grid, index, focused){}  
+> grid: gridView객체     
+> index: [CellIndex](/api/types/CellIndex/)   
+> focused: 포커스 여부    
+> Cell별로 마우스 포인터를 지정하고 싶을때 사용한다.      
+> RealGridJS 1.1.31부터 지원한다.     
+
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -283,6 +316,13 @@ gridView.setDisplayOptions({
     	}
     },
     useCssStyleProgress: true
+});
+
+
+gridView.setDisplayOptions({
+  cursorCallback:function(grid, index, focused) {
+    return focused ? "pointer" : "default";
+  }
 });
 </pre>
 

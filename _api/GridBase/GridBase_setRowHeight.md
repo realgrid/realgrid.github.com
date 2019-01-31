@@ -34,7 +34,8 @@ tags:
 > **height**  
 > Type: Number  
 > Default: 0  
-> 0으로 지정시 displayOptions.minRowHeight, maxRowHeight 에 맞게 행 높이가 변경된다. 값 지정시 지정한 행 높이로 변경 된다.    
+> 0으로 지정시 displayOptions.minRowHeight, maxRowHeight 에 맞게 행 높이가 변경된다. 값 지정시 지정한 행 높이로 변경 된다.   
+ 
 > **refresh**  
 > Type: Boolean  
 > Default: true  
@@ -55,6 +56,7 @@ gridView.setRowHeight(1,100,true);
 
 #### API Links
 
+* [getRowHeight](/api/GridBase/getRowHeight)
 * [fitRowHeight](/api/GridBase/fitRowHeight)
 * [fitRowHeightAll](/api/GridBase/fitRowHeightAll)
 * [clearRowHeights](/api/GridBase/clearRowHeights)

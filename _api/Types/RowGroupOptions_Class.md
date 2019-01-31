@@ -85,11 +85,19 @@ tags:
 > footerBarStyles     
 
 > **headerCallback**  
-> Type: function(groupModel, grid)  
+> Type: function(groupModel, grid)   
+> Default: null   
+> rowGroup.header 영역에 headerCallback 반환된 값을 표시한다.   
+> 레벨별로 값을 다르게 설정할 수 있다.  
+> RealGridJS 1.1.28부터 grid parameter가 추가되었다.  
+
+> **createFooterCallback**  
+> Type: function(grid, groupModel)  
 > Default: null  
-> rowGroup.header 영역에 headerCallback 반환된 값을 표시한다.  
-> 레벨별로 값을 다르게 설정할 수 있다.
-> 1.1.28버전부터 grid parameter가 추가되었다.  
+> rowGroup.mergeMode가 true인 경우 일부 그룹 footer의 표시여부를 지정할 수 있다.    
+> 표시하길 원하는 경우 true 값을 반환한다.   
+> RealGridJS 1.1.31부터 지원한다.     
+
 
 ### Example  
 
@@ -149,7 +157,7 @@ gridView.setRowGroup({
 	]	
 });
 
-//headerCallback 적용
+//headerCallback, createFooterCallback 적용
 gridView.setRowGroup({
     headerStatement: null,
     headerCallback:function(groupModel, grid){
@@ -161,8 +169,18 @@ gridView.setRowGroup({
         }
         return ratio;
     }
-    //그룹 레벨별 값 설정 
-    //return groupModel.level
+    createFooterCallback: function(grid, groupModel) {
+		if (group.level >= 5) { return false }
+		if (group.level === 4) {
+			var relation2 = grid.getDataSource().getValue(group.firstItem.dataRow, "relation2");
+			return relation2 === "친족"
+		}
+		if (group.level === 3) {
+			var relation1 = grid.getDataSource().getValue(group.firstItem.dataRow, "relation1");
+			return relation1 === "동일인측"
+		}
+		return true;
+	}
 })
 
 </pre>
