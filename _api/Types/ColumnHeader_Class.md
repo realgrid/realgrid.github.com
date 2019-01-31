@@ -95,9 +95,45 @@ tags:
 > Default: 0    
 > 컬럼 헤더의 높이를 지정한다.  [Header](/api/types/Header/).heightFill 속성이 "fixed" 인 경우 사용 가능하다.  
 
+> **popupMenu**  
+> Type: array of [MenuItem](/api/types/MenuItem)  
+> Default: null     
+> 컬럼 [Popup Menu](/api/features/Popup Menu/)를 지정한다. 메뉴가 지정되면 데이터셀위로 마우스가 진입하거나 포커스를 가질 때 메뉴 버튼이 활성화된다.   
+> RealGridJS 1.1.25부터 지원한다.  
+
 #### Examples   
 
 <pre class="prettyprint">
+//컬럼헤더에 팝업버튼 설정하는 법  
+var menu = [{
+    label: "menu1 입니다.",
+    enabled: true,
+    children: [{
+        label: "submenu1 입니다.",
+        callback: function (grid, index) { console.log(index) }
+    }, {
+        label: "submenu2 입니다."
+    }]
+}, {
+    label: "menu2 입니다",
+    enabled: false
+}];
+
+gridView.addPopupMenu("menu1", menu);
+
+gridView.setColumns([{
+    name: "column1", fieldName: "fieldName1",
+    header: {
+        popupMenu: "menu1"
+    }
+}, {
+    name: "column2", fieldName: "fieldName2",
+    header: {
+        popupMenu: [{ label: "popupMenu", callback: function (grid, index) { console.log("test") } }]
+    }
+}]);
+
+///    
 var columns = [{
     "name": "Country",
     "fieldName": "Country",
