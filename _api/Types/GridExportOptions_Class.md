@@ -220,6 +220,18 @@ tags:
 > return 값이 숫자인 경우 숫자 형식으로 export된다.    
 > RealGridJS 1.1.28 부터 지원된다.   
 
+> **showColumns**   
+> Type: Array of String       
+> Default: null    
+> visible이 false이지만 excel로 export하고자 하는 컬럼을 배열로 지정한다.        
+> RealGridJS 1.1.31 부터 지원된다.   
+
+> **hideColumns**   
+> Type: Array of String       
+> Default: null    
+> visible이 true이지만 excel로 export하지 않을 컬럼을 배열로 지정한다.        
+> RealGridJS 1.1.31 부터 지원된다.   
+
 ### Example  
 
 <pre class="prettyprint">
