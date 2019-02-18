@@ -1,15 +1,13 @@
 ---
 layout: apipost
-title: onGrouping
+title: onGroupingChanged
 part: Objects
 objectname: GridView
 directiontype: Callback
 jsonly: true
-permalink: /api/GridView/onGrouping/
+permalink: /api/GridView/onGroupingChanged/
 tags: 
-  - 그룹핑 취소
-  - 그룹핑 중지
-  - 그룹핑 실행 여부
+  - 그룹핑
 ---
 
 <script>
@@ -188,11 +186,11 @@ function setColumns(grid) {
 
 #### Description
 
- 그룹핑이 시작될때 호출된다.  
+ 그룹핑이 종료된 후 호출된다.  
 
 #### Syntax
 
-> function onGrouping(grid)  
+> function onGroupingChanged(grid)  
 
 #### Arguments  
 
@@ -200,38 +198,17 @@ function setColumns(grid) {
 > Type: [GridBase](/api/GridBase/)  
 > GridBase 컨트롤  
 
-> **fields**  
-> Type: Array of fieldIndex  
-> 필드 인덱스  
-> 그룹핑되는 필드의 인덱스들이 넘어온다.  
-
 #### Return  
 
-> Type: Boolean   
-> Default: True  
-> 그룹핑 실행 여부를 지정한다.  False를 반환하면 그룹핑은 취소된다.  
+> None.
 
 #### Examples 
 
 <pre class="prettyprint">
-$("#button1").click(function(){
-    gridView.onGrouping = function (grid, fields){
-        alert("onGrouping 이벤트가 발생했습니다. true를 반환합니다.");
-        return true;
-    }
-})
+gridView.onGroupingChanged = function (grid){
+    alert("onGroupingChanged 이벤트가 발생했습니다.");
+}
 
-$("#button2").click(function(){
-    gridView.onGrouping = function (grid, fields){
-        alert("onGrouping 이벤트가 발생했습니다. false를 반환합니다.");
-        return false;
-    }
-})
+
+
 </pre>
-<button id="button1" class="btn btn-success btn-xs">버튼1</button>
-버튼을 누르면 onGrouping이벤트가 발생할때 return값으로 true를 반환하도록 설정한다.
-<br/>
-<button id="button2" class="btn btn-success btn-xs">버튼2</button> 
-버튼을 누르면 onGrouping이벤트가 발생할때 return값으로 false를 반환하도록 설정한다. return값이 false로 반환되면 그룹핑이 취소된다.
-<div id="realgrid" style="width: 100%; height: 300px;"></div>
-<p></p>
