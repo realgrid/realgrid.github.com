@@ -143,6 +143,28 @@ tags:
 > 라벨의 value 뒤에 추가로 표시할 내용    
 > 1.0.3 버전부터 지원한다. 
 
+<a name="summaryPrefix"></a>
+> **summaryPrefix**  
+> Type: String   
+> Default: null       
+> 라벨의 요약 앞에 추가로 표시할 내용  
+> 1.0.3 버전부터 지원한다. 
+
+<a name="summarySuffix"></a>
+> **summarySuffix**  
+> Type: String   
+> Default: null       
+> 라벨의 요약 뒤에 추가로 표시할 내용    
+> 1.0.3 버전부터 지원한다.
+
+<a name="dateFormat"></a>
+> **dateFormat**  
+> Type: String   
+> Default: null       
+> date type이 custom일때 적용되는 날짜 포맷이다.  
+> 형식은 리얼그리드의 datetime Format과 동일하다. 
+> ex) "yyyy-MM-dd", "yyyyMMDD"  
+
 #### Examples   
 
 <pre class="prettyprint">
