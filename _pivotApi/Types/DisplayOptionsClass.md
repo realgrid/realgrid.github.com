@@ -85,6 +85,21 @@ tags:
 > 피벗 그리드에 포커스 보임 여부를 지정한다.  
 > 1.0.1부터 지원한다.      
 
+<a name="showFocusGuide"></a>
+> **showFocusGuide**  
+> Type: Boolean   
+> Default: False      
+> true이면 현재 포커스를 기준으로 행, 열의 정보를 확인할 수 있게 가이드가 표시된다.    
+> 1.0.3부터 지원한다.      
+
+<a name="keepLabelSpace"></a>
+> **keepLabelSpace**  
+> Type: Boolean   
+> Default: False      
+> True이면 라벨에 공백이 있는 경우 trim하지 않고 유지한다.         
+> 1.0.3부터 지원한다.      
+
+
 #### Examples   
 
 <pre class="prettyprint">

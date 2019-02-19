@@ -122,6 +122,27 @@ tags:
 > 표시되는 필드의 순서를 임의로 지정하고자 할때 사용한다.  
 > 1.0.2 버전부터 지원한다.  
 
+<a name="valueAlignment"></a>
+> **valueAlignment**  
+> Type: [ValueAlignmentType](/pivotApi/types/ValueAlignment/)   
+> Default: ValueAlignmentType.CENTER       
+> 셀안에 표시되는 데이터의 위치를 지정한다.       
+> 1.0.3 버전부터 지원한다.  
+
+<a name="labelPrefix"></a>
+> **labelPrefix**  
+> Type: String   
+> Default: null       
+> 라벨의 value 앞에 추가로 표시할 내용  
+> 1.0.3 버전부터 지원한다. 
+
+<a name="labelSuffix"></a>
+> **labelSuffix**  
+> Type: String   
+> Default: null       
+> 라벨의 value 뒤에 추가로 표시할 내용    
+> 1.0.3 버전부터 지원한다. 
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -237,7 +258,8 @@ tags:
 	    sourceField: "UnitPrice",
 	    fieldHeader: "판매액",
 	    numberFormat: "#0.00",
-	    labelEnable: false
+	    labelEnable: false,
+	    valueAlignment: "far"   
 	}]);	
 </pre>
 

@@ -59,6 +59,11 @@ tags:
 > Default: "전체 요약"       
 > 행의 요약 라벨에 표시될 텍스트를 지정한다.    
 
+> **totalFixed**  
+> Type: Boolean     
+> Default: false         
+> true이면 스크롤시 합계영역이 고정되어 표시된다.       
+> 1.0.3부터 지원한다.     
 
 #### Examples   
 
@@ -70,7 +75,8 @@ pivot.setOptions({
         columnGroupVisible: false,
         rowGroupVisible: false,
         columnPosition: "last",
-        rowPosition: "first"
+        rowPosition: "first",
+        totalFixed: true
     }
 });
 
@@ -82,7 +88,8 @@ pivot.setSummaryOptions({
     columnGroupVisible: false,
     rowGroupVisible: false,
     columnPosition: "last",
-    rowPosition: "first"
+    rowPosition: "first",
+    totalFixed: true
 })
 </pre>
 
