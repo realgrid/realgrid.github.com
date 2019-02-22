@@ -56,6 +56,12 @@ Date 필드를 피벗에 표현하는 방식
 > Value: "hour"    
 > 시간, [0-23]    
 
+<a name="CUSTOM"></a>
+> **CUSTOM**  
+> Value: null   
+> 리얼그리드의 datetime Format과 동일하다. 
+> ex) "yyyy-MM-dd", "yyyyMMDD"     
+
 
 #### Examples   
 

@@ -74,22 +74,11 @@ tags:
 > Default: 
 > excel 데이터 전송이 끝난 후 발생하는 콜백 함수이다.    
 
-> **showColumns**  
-> Type: array of string  
-> Default: []  
-> export시 출력할 컬럼명들을 지정한다.     
-> RealGridJS 1.1.31 이상부터 지원한다.   
-
-> **hideColumns**  
-> Type: array of string   
-> Default: []  
-> export시 출력하지 않을 컬럼명들을 지정한다.     
-> RealGridJS 1.1.31 이상부터 지원한다.   
 
 ### Example  
 
 <pre class="prettyprint">
-gridView.exportGrid({
+pivot.exportGrid({
     target: "local",
     fileName: "PivotExport.xlsx"
 });

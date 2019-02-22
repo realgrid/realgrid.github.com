@@ -99,7 +99,7 @@ tags:
 > Type: array of [MenuItem](/api/types/MenuItem)  
 > Default: null     
 > 컬럼 [Popup Menu](/api/features/Popup Menu/)를 지정한다. 메뉴가 지정되면 데이터셀위로 마우스가 진입하거나 포커스를 가질 때 메뉴 버튼이 활성화된다.   
-> RealGridJS 1.1.25부터 지원한다.  
+> RealGridJS 1.1.26부터 지원한다.  
 
 #### Examples   
 
