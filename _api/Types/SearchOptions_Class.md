@@ -60,7 +60,7 @@ tags:
 
 > **select**     
 > Type: Boolean           
-> Default: false        
+> Default: true        
 > true로 지정하면 검색된 행이 있을 때 그 행을 선택하고, 현재 표시된 범위 밖이면 표시되도록 스크롤한다.    
 
 > **caseSensitive**    

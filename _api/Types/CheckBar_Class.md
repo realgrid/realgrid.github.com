@@ -67,6 +67,7 @@ tags:
 > Type: String  
 > Default: null  
 > head 영역에 표시할 text를 지정한다.  
+> text를 표시하려면 showAll을 false로 지정해야 한다.   
    
 > **footText**       
 > Type: String  
