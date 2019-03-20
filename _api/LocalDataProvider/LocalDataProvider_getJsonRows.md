@@ -26,11 +26,11 @@ tags:
 
 > **startRow**  
 > Type: number  
-> 시작 행 번호
+> 시작 데이터행 번호
 
 > **endRow**  
 > Type: number  
-> 끝 행 번호. 0보다 작은 값이면 마지막 행까지 가져온다.
+> 끝 데이터행 번호. 0보다 작은 값이면 마지막 행까지 가져온다.
 
 #### Return value
 

@@ -18,13 +18,13 @@ tags:
 
 #### Syntax
 
-> function getJsonRow(row)
+> function getJsonRow(dataRow)
 
 #### Parameters
 
-> **row**  
+> **dataRow**  
 > Type: number  
-> 행 번호
+> 데이터행 번호
 
 #### Return value
 
