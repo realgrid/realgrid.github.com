@@ -16,7 +16,7 @@ tags:
 
 #### Syntax
 
- function collapse(itemIndex, recursive)
+> function collapse(itemIndex, recursive)
 
 #### Parameters
 
