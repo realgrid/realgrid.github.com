@@ -75,5 +75,5 @@ gridView.setFooter({
 
 #### API Links
 
-* [setFilteringOptions](/api/GridBase/setFooter/)  
-* [getFilteringOptions](/api/GridBase/getFooter/)  
+* [setFooter](/api/GridBase/setFooter/)  
+* [getFooter](/api/GridBase/getFooter/)  
