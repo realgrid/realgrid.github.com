@@ -232,6 +232,13 @@ tags:
 > visible이 true이지만 excel로 export하지 않을 컬럼을 배열로 지정한다.        
 > RealGridJS 1.1.31 부터 지원된다.   
 
+<a name="applyFitStyle"></a> 
+> **applyFitStyle**   
+> Type: Boolean         
+> Default: false    
+> true이면 FitStyle이 적용된 너비로 export 된다.            
+> RealGridJS 1.1.32 부터 지원된다.   
+
 ### Example  
 
 <pre class="prettyprint">

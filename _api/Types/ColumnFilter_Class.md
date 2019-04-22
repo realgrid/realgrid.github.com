@@ -21,6 +21,7 @@ tags:
 #### Description
 
  컬럼 필터링에 관련된 설정 정보를 관리한다.
+ 1.1.32버전부터 critera에서 function(){}을 사용할 수 있다.   
 
 #### Properties
 
@@ -29,10 +30,13 @@ tags:
 > Default:  null     
 > 필터 이름.  
 
+<a name="criteria"></a> 
 > **criteria**  
-> Type: String  
+> Type: String || function(dataProvider, dataRow, field, filter) {} 
 > Default: null    
-> 필터에 표시될 [Expression](/api/features/Expression)을 지정한다.  
+> 필터에 표시될 [Expression](/api/features/Expression)을 지정한다.   
+> funtion()의 return 값은 필터링 대상이면 true, 필터링 제외 대상이면 false로 지정한다.  
+> RealGridJS 1.1.32 부터 fuction()을 지원한다.   
 
 > **text**  
 > Type: String  
@@ -55,6 +59,13 @@ tags:
 > Default: true     
 > 필터의 보임 여부를 지정한다.  
 > RealGridJS 1.1.29 이상부터 지원한다.     
+
+<a name="tag"></a> 
+> **tag**  
+> Type: String   
+> Default:  null     
+> 필요한 기타 정보들을 지정한다.    
+> RealGridJS 1.1.32 부터 지원한다.   
 
 #### Examples   
 
@@ -80,6 +91,30 @@ var columns = [{
           name: "HANAR",
           criteria: "value = 'HANAR'",
           visible: false
+      }]
+}];
+
+gridView.setColumns(columns);
+
+////////////////////////////////////////////
+var columns = [{
+      "name": "CustomerID",
+      "fieldName": "CustomerID",
+      "type": "data",
+      "width": "130",
+      "styles": {
+          "textAlignment": "center"
+      },
+      "header": {
+          "text": "Customer ID"
+      },
+      "filters": [{
+          name: "VINET",
+          criteria: function(dataProvider, dataRow, field, filter) {
+              var value = dataProvider.getValue(dataRow, field),
+         
+              return value == "VINET";
+          }
       }]
 }];
 

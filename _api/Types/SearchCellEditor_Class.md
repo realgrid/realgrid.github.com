@@ -222,6 +222,30 @@ function setColumns(grid) {
 > Version Type: JS Only     
 > searchLength, searchDelay와 관계없이 Enter 키 입력으로 즉시 onEditSearch이벤트 발생, 목록이 비어 있는 경우만 동작  
 
+> **initCount**  
+> Type: Number    
+> Default: 0
+> 처음에 보여줄 건수를 지정한다. 0인 경우 모두 표시된다.    
+> RealGridJS 1.1.32 부터 지원한다.           
+
+> **moreItemCount**  
+> Type: Number    
+> Default: 25
+> 더보기 버튼을 클릭하였을때 보여줄 건수를 지정한다.   
+> RealGridJS 1.1.32 부터 지원한다.           
+
+> **moreText**  
+> Type: String    
+> Default: "더보기"
+> 더보기 버튼에 표시되는 텍스트를 지정한다.   
+> RealGridJS 1.1.32 부터 지원한다.           
+
+> **reInquery**  
+> Type: Boolean    
+> Default: true
+> 키 입력시 재조회 여부를 지정한다.      
+> RealGridJS 1.1.32 부터 지원한다.           
+
 #### Examples 
 
 <pre class="prettyprint">

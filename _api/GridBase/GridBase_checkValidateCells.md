@@ -24,14 +24,21 @@ column validation을 사용하여 검증을 수행하며 row validation은 지�
 
 #### Syntax
 
-> function checkValidateCells(itemIndices)
+> function checkValidateCells(itemIndices, visibleOnly)
 
 #### Parameters
 
 > **itemIndices**  
 > Type: Array of Number  
-> 그리드의 행 번호들, 지정하지 않으면 그리드 전체 행을 대상으로 검증을 수행한다.   
+> 그리드의 행 번호들, null로 지정하면 그리드 전체 행을 대상으로 검증을 수행한다.   
  
+<a name="visibleOnly"></a> 
+> **visibleOnly**  
+> Type: Boolean    
+> Default: true    
+> false이면 트리 그리드의 접혀있는 노드등 보이지 않는 행들도 검증 대상에 포함된다.        
+> false는 전체 행을 체크하는 경우에만 적용된다.   
+> RealGridJS 1.1.32 부터 지원한다.           
 
 #### Return value
 

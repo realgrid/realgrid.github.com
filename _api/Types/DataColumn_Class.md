@@ -329,6 +329,12 @@ tags:
 > 화면에 표시하려는 값을 return한다.      
 > RealGridJS 1.1.31 이상부터 지원한다.   
 
+<a name="textOfInvalid"></a>
+> **textOfInvalid**  
+> Type: String   
+> Default: null     
+> 셀데이터가 lookup data에 없는 경우 문자열을 지정하면 해당 문자열이 표시된다.      
+> RealGridJS 1.1.32 이상부터 지원한다.   
 
 #### Examples
 
@@ -391,6 +397,26 @@ var columns = [{
         function (grid, index, value) {
             return value.substring(0, 3) + "-" + value.substring(3, 6);
         }        
+}];
+
+gridView.setColumns(columns);
+</pre>
+
+**lookupData에 없는 데이터를 코드값이 아닌 지정한 문자열("확인.."")로 보여주는 기능**
+
+<pre class="prettyprint">
+//데이터가 1,2,3인 경우 A,B,C가 표시되지만 그외 데이터이면 "확인.."이 표시된다.        
+var columns = [{
+    fieldName:"fieldName", 
+    name:"colName",
+    values:["1", "2", "3"], 
+    labels:["A", "B", "C"],
+    lookupDisplay:true,
+    textOfInvalid:"확인..",
+    dynamicStyles:[{
+        criteria: "not lookupexists",
+        styles:{ foreground:"#FF88ebeb" }
+    }]
 }];
 
 gridView.setColumns(columns);

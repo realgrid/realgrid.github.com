@@ -20,7 +20,7 @@ tags:
  
 #### Syntax
 
-> function onValidateColumn (grid, column, inserting, value, itemIndex)  
+> function onValidateColumn (grid, column, inserting, value, itemIndex, dataRow)  
 
 #### Arguments
 
@@ -43,8 +43,14 @@ tags:
 <a name="itemIndex"></a>
 > **itemIndex**   
 > Type: Number   
-> 셀편집된 컬럼의 행번호      
+> 셀편집된 행의 아이템 인덱스.     
 > RealGridJS 1.1.30 부터 지원한다.    
+
+<a name="dataRow"></a>
+> **dataRow**   
+> Type: Number   
+> 셀편집된 행의 데이터 행 번호.       
+> RealGridJS 1.1.32 부터 지원한다.    
 
 #### Return
 
