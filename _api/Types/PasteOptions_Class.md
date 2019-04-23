@@ -148,10 +148,18 @@ tags:
 > true이면 여러줄의 Data를 붙여넣기 하는 경우 붙여넣기를 하는 중에는 refresh되지 않아 속도가 개선된다.  
 > RealGridJS 1.1.26 부터 지원된다.     
 
+<a name="applyEditMask"></a> 
 > **applyEditMask**  
 > Type: boolean  
 > Default: false   
 > true이면 mask에 붙여넣을수 없는 경우 붙여넣기가 되지 않는다. mask의 입력자리수보다 긴 경우 mask에 들어가는 자리를 제외하고 붙여넣기가 된다.     
+> RealGridJS 1.1.32 부터 지원된다.     
+
+<a name="applyMaxLength"></a> 
+> **applyMaxLength**  
+> Type: boolean  
+> Default: false   
+> true이면 붙여넣기시 editor.maxLength, maxLengthExceptComma가 적용되어 붙여넣기 된다.     
 > RealGridJS 1.1.32 부터 지원된다.     
 
 #### Examples
