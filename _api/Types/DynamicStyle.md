@@ -158,6 +158,10 @@ gridView.setStyles({
 
 * [짝수, 홀수 행의 스타일을 다르게 표현하기](http://help.realgrid.com/tutorial/c3/)
 * [A29 동적 스타일과 편집 여부 설정](http://help.realgrid.com/tutorial/a29/)
+* [A31 DynamicStyle 개요](/tutorial/a31/) 
+* [A32 column.DynamicStyles](/tutorial/a32/) 
+* [A33 body.DynamicStyles](/tutorial/a33/) 
+* [A34 body.CellDynamicStyles](/tutorial/a34/) 
 
 #### Demo Links
 
