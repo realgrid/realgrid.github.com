@@ -20,7 +20,7 @@ tags:
 
 #### Syntax
 
-> function onRowGroupHeaderFooterDblClicked (grid, index)  
+> function onRowGroupHeaderFooterDblClicked (grid, kind, index)  
 
 #### Arguments
 
@@ -28,9 +28,13 @@ tags:
 > Type: [GridBase](/api/GridBase/)  
 > GridBase 컨트롤  
 
-> **index**  
+> **kind**  
 > Type: number  
 > 클릭된 영역의 인덱스 값, head = -1, foot = -2
+
+> **index**
+> Type: object
+> DataColumn과 같은 구조의 object.
 
 #### Return
 
@@ -39,7 +43,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-gridView.onRowGroupHeaderFooterDblClicked =  function (grid, index) {
+gridView.onRowGroupHeaderFooterDblClicked =  function (grid, kind, index) {
     console.log("onRowGroupHeaderFooterDblClicked : " + "(" + index + ")")
 };
 </pre>
