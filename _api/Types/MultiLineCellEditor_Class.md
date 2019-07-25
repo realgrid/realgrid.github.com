@@ -202,6 +202,12 @@ Ctrl+Enter로 줄 나누기를 할 수 있다.
 > Default: 0  
 > 멀티라인셀 에디터가 펼쳐졌을때의 최소 높이를 지정한다.   
 
+> **altEnterNewLine**  
+> Type: Boolean  
+> Default: false  
+> true인경우 ctrl+enter는 무시되고 alt+enter또는 shift+Enter로 newLine이 된다.    
+> RealGridJS 1.1.33버전 이상부터 지원한다.   
+
 #### Examples 
 
 <pre class="prettyprint">

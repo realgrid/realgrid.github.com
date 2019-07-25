@@ -88,7 +88,13 @@ style이 "exclusive"일 때 Shift키와 함께 컬럼 헤더를 클릭하면 "in
 > Type: style object  
 > Default: null  
 > 소트 순서의 스타일을 지정한다.(foreground, font, textAlignment, lineAlignment)
-> JS ver 1.1.22부터 지원된다. 
+> JS ver 1.1.22부터 지원된다.    
+
+> **pageSorting**  
+> Type: boolean  
+> Default: false  
+> true이면 페이징 모드에서 소트시 전체 페이지가 아닌 현재 페이지를 기준으로 소팅된다.   
+> JS ver 1.1.33부터 지원된다.    
 
 #### Examples
 
