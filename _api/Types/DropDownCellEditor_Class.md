@@ -104,7 +104,7 @@ tags:
 > 드롭다운 목록에서 label값으로 보여질 것인지 value값으로 보여질 것인지의 여부를 지정한다.       
 > ********************************************************************     
 > 1.1.30버전 이후 사용     
-> Type: [DropDownValueLavel](/api/types/DropDownValueLavel/)  
+> Type: [DropDownValueLavel](/api/types/DropDownValueLabel/)  
 > Default: DropDownValueLavel.LABEL  
 > 드롭다운 목록에서 label값으로 보여질 것인지 value값으로 보여질 것인지 또는 label value, value label로 보여질것인지의 여부를 지정한다.   
 
