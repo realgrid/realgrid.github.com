@@ -1,41 +1,55 @@
 ---
 layout: faqpost
-title:  RealGridJS 운영용 라이선스를 발급 받고 싶습니다.
-date:   2017-09-07 00:00:00
+title:  RealGridJS 개발/평가용 라이선스를 발급 받고 싶습니다.
+date:   2019-09-25 00:00:00
 categories: faq
 part: RealGridJS
-permalink: /faq/RealGridJSLicense/
+permalink: /faq/RealGridJSDevLicense/
 directiontype: 
 tags:
     - License
     - 라이센스
     - 라이선스
-    - 운영용
+    - 개발용
+    - 평가용
     - 발급  
 ---
 
 # Q.
 
-RealGridJS 운영용 라이선스를 발급 받고 싶습니다.
+RealGridJS 개발/평가용 라이선스를 발급 받고 싶습니다.
 
 ---
 
 # A.
 
-RealGridJS 운영용 라이선스는 구매 계약이 체결되고 저희 회사로 부터 소프트웨어 사용 인증서를 받으신 고객만이 받으실 수 있습니다.  
+RealGridJS 개발/평가용 라이선스는 리얼그리드에 관심 있는 누구나 자유롭게 무료로 사용할 수 있는 라이선스 입니다.  
 
-해당 조건에 만족하신 경우 아래와 같은 절차를 통해 신청해주세요.
+개발/평가용 라이선스는 http://service.realgrid.com 에서 신청하실 수 있으며 처음 사용자라면 간단한 회원 가입절차를 진행 후 신청하실 수 있습니다.
 
-![s1](/images/tutorials/s1.PNG)  
-![s2](/images/tutorials/s2.PNG)  
-![s3](/images/tutorials/s3.PNG)  
-![s4](/images/tutorials/s4.PNG)  
-![s5](/images/tutorials/s5.PNG)  
-![s6](/images/tutorials/s6.PNG)  
-![s7](/images/tutorials/s7.PNG)  
-![s8](/images/tutorials/s8.PNG)  
-![s9](/images/tutorials/s9.PNG)  
-![s10](/images/tutorials/s10.PNG)  
-![s11](/images/tutorials/s11.PNG)  
-![s12](/images/tutorials/s12.PNG)  
-![s13](/images/tutorials/s13.PNG)  
+신청 방법은 아래와 같은 순서로 진행하시면 됩니다.
+
+1. http://service.realgrid.com 에 접속 후 `사용자등록` 버튼 클릭    
+![dev1](/images/tutorials/dev1.PNG)   
+
+2. 사용자 정보 등록 후 `등록` 버튼 클릭   
+![dev2](/images/tutorials/dev2.PNG)   
+
+3. 왼쪽 메뉴 영역에서 `프로젝트 추가` 클릭   
+![dev3](/images/tutorials/dev3.PNG)   
+
+4. 리얼그리드를 적용하려는 프로젝트 정보 입력 후 프로젝트 생성 버튼 클릭   
+![dev4](/images/tutorials/dev4.PNG)   
+
+5. 프로젝트 생성 버튼을 클릭하면 아래와 같은 화면이 표시 됩니다.  
+![dev5](/images/tutorials/dev5.PNG)   
+
+6. 라이선스 발급 신청    
+    6.1 하단에 위치한 `yyyy-mm-dd까지 사용할 수 있는 개발용 라이선스 발급` 버튼 클릭   
+    6.2 라이선스에 필요한 정보 입력 후 `확인` 버튼 클릭    
+        6.2.1 여러개의 도메인이나 ip 신청시 , 로 구분하여 신청    
+![dev6](/images/tutorials/dev6.PNG)  
+
+7. 라이선스 목록에서 `라이선스다운로`, `Grid제품다운로드` 버튼을 클릭하여 그리드 제품 및 라이선스파일을 다운로드 받음
+![dev7](/images/tutorials/dev7.PNG)   
+
