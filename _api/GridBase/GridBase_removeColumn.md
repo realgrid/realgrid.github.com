@@ -21,7 +21,7 @@ tags:
 
 #### Syntax
 
-> function setColumn(column)
+> function removeColumn(column)
 
 #### Parameters
 
