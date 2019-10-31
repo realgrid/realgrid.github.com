@@ -49,6 +49,12 @@ tags:
 > Default: 0      
 > 아이콘 하나의 최소 너비를 지정한다.         
 
+> **iconGap**  
+> Type: Number   
+> Default: 0      
+> 아이콘간 여백을 지정한다.       
+> RealgridJS 1.1.34 부터 지원한다.  
+
 #### Examples 
 
 <pre class="prettyprint">

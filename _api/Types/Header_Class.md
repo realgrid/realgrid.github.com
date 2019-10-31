@@ -99,13 +99,22 @@ tags:
 > Default: false       
 > summary 표시 여부를 지정한다.       
 
+> **tooltipEllipseTextOnly**  
+> Type: boolean     
+> Default: false       
+> true이면 툴팁이 textWrap: "ellipse"가 적용된 상태인 경우에만 표시된다.        
+> RealgridJS 1.1.34 부터 지원한다.  
+
 #### Examples 
 
 <pre class="prettyprint">
     gridView.setHeader({
         height: 200,
         heightFill: "fixed",
-        showTooltip: true
-    })
+        showTooltip: true,
+        tooltipEllipseTextOnly: true
+    });
+
+    gridView.setStyles({ header: { textWrap: "ellipse" } });
 </pre>
 

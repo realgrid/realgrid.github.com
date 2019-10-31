@@ -39,6 +39,12 @@ tags:
 > Default: 4     
 > 탭간 동일 탭으로 인지하는 영역범위      
 
+> **showTooltip**  
+> Type: Boolean        
+> Default: false           
+> showTooltip이 true, header.showTooltip이 true이면 mobile에서도 column header를 tap하면 tooltip이 보여진다.  
+> sortingOptions.enabled가 false이거나 column.sortable이 false인 경우에만 tooltip이 보여진다.              
+> RealgridJS 1.1.33 부터 지원한다.  
 
 ### Example  
 
@@ -48,6 +54,15 @@ gridView.setMobileOptions({
     doubleTapInterval: 300,
     tapThreshold: 4
 });
+----------------------------
+gridView.setHeader({
+    showTooltip: true,
+    tooltipEllipseTextOnly: true
+});
+gridView.setMobileOptions({ showTooltip: true });
+gridView.setSortingOptions({ enabled: false });
+
+gridView.setStyles({ header: { textWrap: "ellipse" } })
 </pre>
 
 ---
