@@ -166,7 +166,7 @@ tags:
 > **convertLookupLabel**  
 > Type: boolean  
 > Default: false   
-> dropdown편집기에 label값을 붙여넣는 경우 value로 변환해서 저장 된다.     
+> true로 지정하면 dropdown편집기에 label값을 붙여넣는 경우 value로 변환해서 저장 된다.     
 > RealGridJS 1.1.33 부터 지원된다.     
 
 #### Examples
