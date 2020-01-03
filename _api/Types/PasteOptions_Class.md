@@ -162,6 +162,13 @@ tags:
 > true이면 붙여넣기시 editor.maxLength, maxLengthExceptComma가 적용되어 붙여넣기 된다.     
 > RealGridJS 1.1.32 부터 지원된다.     
 
+<a name="convertLookupLabel"></a> 
+> **convertLookupLabel**  
+> Type: boolean  
+> Default: false   
+> dropdown편집기에 label값을 붙여넣는 경우 value로 변환해서 저장 된다.     
+> RealGridJS 1.1.33 부터 지원된다.     
+
 #### Examples
 
 **그리드에 붙여넣기 할 때 편집 불가능한 셀에는 붙여넣기 되지 않도록 설정하기**
