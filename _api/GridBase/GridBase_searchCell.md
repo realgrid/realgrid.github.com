@@ -41,7 +41,7 @@ function searchHandler() {
     var options = {
         fields : fields,
         value : value,
-        startItemIndex : gridView.getCurrent().itemIndex,
+        startIndex : gridView.getCurrent().itemIndex,
         startFieldIndex : startFieldIndex,
         wrap : true,
         caseSensitive : false,

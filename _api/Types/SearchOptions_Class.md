@@ -46,12 +46,7 @@ tags:
 > **startIndex**     
 > Type: Number           
 > Default: 0     
-> 몇 번째 행 부터 검색할 것인 지를 지정한다.     
-
-> **startFieldIndex**     
-> Type: Number           
-> Default: 0     
-> 몇 번째 행 부터 검색할 것인 지를 지정한다.     
+> 몇 번째 행 부터 검색할 것인 지를 지정한다.         
 
 > **wrap**     
 > Type: Boolean     
