@@ -37,7 +37,7 @@ versions:
 
 <pre class="prettyprint">
 //텍스트 필드의 숫자들을 소팅시 숫자처럼 적용되게 처리.
-dataProvider.setDataCompare("fieldName", function(field, row1, row2) {
+dataProvider.setDataComparer("fieldName", function(field, row1, row2) {
     var val1 = dataProvider.getValue(row1,field);
     var val2 = dataProvider.getValue(row2,field);
     if (val1 === undefined || val1 === null) {
