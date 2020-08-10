@@ -280,6 +280,10 @@ tags:
 > Cell별로 마우스 포인터를 지정하고 싶을때 사용한다.      
 > RealGridJS 1.1.31부터 지원한다.     
 
+> **scrollMessageCallback**  
+> Type: function(grid, vertical, itemIndex){}  
+> liveScoroll: false일때 스크롤바에 현재 위치를 표시하거나 메세지를 표시할때 사용한다.         
+> RealGridJS 1.1.35부터 지원한다.     
 
 #### Examples   
 
@@ -324,6 +328,29 @@ gridView.setDisplayOptions({
     return focused ? "pointer" : "default";
   }
 });
+</pre>
+
+<pre class="prettyprint">
+//liveScoroll: false일때 scrollMessageCallback을 사용하여 스크롤바에 현재 위치를 표시하거나 메세지를 표시하는 예제  
+&lt;style&gt;
+.rg-scroll-tip-view {
+	border: 1px solid red;
+	background: white;
+	font-size: 12px;
+	white-space: nowrap;
+	border-radius: 4px;
+}
+&lt;/style&gt;
+
+gridView.setDisplayOptions({
+  liveScroll: false, 
+	scrollMessageCallback:function(grid, vertical, itemIndex) { 
+		var dataRow = grid.getDataRow(itemIndex); 
+		if (dataRow >= 0) {
+			return "<span style='color:red'>"+grid.getDataSource().getValue(dataRow, "highwayname")+"</span>"
+		}
+	}
+})
 </pre>
 
 ---

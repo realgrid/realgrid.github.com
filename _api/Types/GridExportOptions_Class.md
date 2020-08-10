@@ -239,6 +239,12 @@ tags:
 > true이면 FitStyle이 적용된 너비로 export 된다.            
 > RealGridJS 1.1.32 부터 지원된다.   
 
+> **exportLink**   
+> Type: Boolean        
+> Default: false      
+> export시 hyperlink까지 포함하여 export한다.          
+> RealGridJS 1.1.35 부터 지원된다.  
+
 ### Example  
 
 <pre class="prettyprint">

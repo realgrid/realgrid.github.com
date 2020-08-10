@@ -93,6 +93,17 @@ tags:
 > Ctrl+Enter Key로 등록 요청한다.        
 > RealGridJS 1.1.30 이상 지원한다.  
 
+> **viewGridInside**  
+> Type: boolean  
+> Default: true  
+> false로 지정하면 필터창의 크기가 그리드보다 큰 경우 그리드 외부영역까지 필터창이 표시된다.    
+> RealGridJS 1.1.35 이상부터 지원한다.  
+
+> **enterCallback**  
+> Type: boolean   
+> Default: false    
+> true로 지정하면 필터 검색창 등록시 Enter Key로 등록 요청한다. false인 경우 Ctrl+Enter Key.        
+> RealGridJS 1.1.35 이상부터 지원한다.  
 
 
 ### Example  

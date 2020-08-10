@@ -86,6 +86,28 @@ tags:
 > columns 속성 사용시 fields 속성은 사용하지 않는다.     
 > RealGridJS 1.1.26부터 지원한다.     
 
+> **dataComparer**    
+> Type: function (dataRow, fieldIndex, v1, v2) {}
+> 검색시 비교 조건을 Custom하게 설정할 수 있다.        
+> RealGridJS 1.1.35부터 지원한다.     
+
+<pre class="prettyprint">
+gridView.searchItem({
+    fields:["field1","field2"], 
+    values:["values1","values2"], 
+    allFields:true, 
+    dataComparer: function (dataRow, fieldIndex, v1, v2) {
+        // v1: values에 입력한 text
+        // v2: cell의 value
+        if (v1 && v2) {
+            return String(v2).indexOf(String(v1)) >= 0;
+        }  else  {
+            return v1 == v2
+        }
+    }
+});
+</pre>
+
 ---
 
 #### Demo Links

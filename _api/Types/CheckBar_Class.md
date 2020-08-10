@@ -115,6 +115,18 @@ tags:
 > 체크해제 이미지 경로를 지정한다.  
 > RealGridJS 1.1.28 부터 지원한다.  
 
+> **disableCheckImageUrl**       
+> Type: String  
+> Default: null  
+> 비활성화된 체크 이미지 경로를 지정한다.  
+> RealGridJS 1.1.35 부터 지원한다.  
+
+> **disableUnCheckImageUrl**       
+> Type: String  
+> Default: null  
+> 비활성화된 체크해제 이미지 경로를 지정한다.  
+> RealGridJS 1.1.35 부터 지원한다.  
+
 > **radioImageUrl**       
 > Type: String  
 > Default: null  

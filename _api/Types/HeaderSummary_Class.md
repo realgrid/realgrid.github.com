@@ -56,17 +56,37 @@ tags:
 > HeaderSummary에 적용될 스타일을 지정한다.    
 > RealGridJS 1.1.24 부터 지원 한다.   
 
+> **count**  
+> Type: number  
+> Default: 1     
+> 지정한 수만큼 Header Summary가 생성된다.   
+> RealGridJS 1.1.35 부터 지원 한다. 
+
 #### Examples   
 
 <pre class="prettyprint">
-    gridView.setHeader({
-        summary:{
-            visible:true,
-            height: 23,
-            mergeCells:["col1","col2"]
-            ...
-        }
-    })
+gridView.setHeader({
+  summary:{
+    visible:true,
+    height: 23,
+    mergeCells:["col1","col2"]
+  }
+})
+
+gridView.setHeader({
+  summary:{
+    visible:true, 
+    count:3, 
+    height:60,
+    styles:[{
+        background:"#ffffff00"
+    },{
+        background:"#ff00ffff"
+    },{
+        background:"#ff11ff55"
+    }]
+  }
+})
 </pre>
 
 ---
