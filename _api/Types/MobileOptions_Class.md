@@ -46,10 +46,10 @@ tags:
 > sortingOptions.enabled가 false이거나 column.sortable이 false인 경우에만 tooltip이 보여진다.              
 > RealgridJS 1.1.33 부터 지원한다.  
 
-> **headerToScroll**
+> **headerToScroll**  
 > Type: Boolean        
-> Default: false
-> ColumnHeader를 touch후 drag했을때 범위선택 또는 그리드 스크롤을 선택할 수 있다.
+> Default: false  
+> ColumnHeader를 touch후 drag했을때 범위선택 또는 그리드 스크롤을 선택할 수 있다.  
 
 ### Example  
 
