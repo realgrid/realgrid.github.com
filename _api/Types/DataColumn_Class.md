@@ -336,6 +336,11 @@ tags:
 > 셀데이터가 lookup data에 없는 경우 문자열을 지정하면 해당 문자열이 표시된다.      
 > RealGridJS 1.1.32 이상부터 지원한다.   
 
+> **filterIconVisible**
+> Type: boolean   
+> Default: true
+>  ColumnFilter가 설정된 Column의 header에 표시되는 filter-icon의 표시 여부를 설정한다.
+
 #### Examples
 
 **컬럼을 생성하는 기본적인 방법**
