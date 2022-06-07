@@ -18,7 +18,7 @@ tags:
 
 #### Syntax
 
-> function OnSelectionEnded (grid)  
+> function onSelectionEnded (grid)  
 
 #### Arguments
 
@@ -33,7 +33,7 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-gridView.OnSelectionEnded =  function (grid) {
+gridView.onSelectionEnded =  function (grid) {
     var cells = grid.getSelectionData();
     console.log(cells);  
 };
