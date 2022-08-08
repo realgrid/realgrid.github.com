@@ -165,6 +165,12 @@ tags:
 > 형식은 리얼그리드의 datetime Format과 동일하다. 
 > ex) "yyyy-MM-dd", "yyyyMMDD"  
 
+<a name="emptyValue"></a>
+> **emptyValue**
+> Type: String
+> Defalut: null
+> expression이 "distinct" 일때 값이 없는 경우 표시되는 text
+> 1.0.9 버전부터 지원한다.
 #### Examples   
 
 <pre class="prettyprint">

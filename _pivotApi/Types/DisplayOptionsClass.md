@@ -99,6 +99,24 @@ tags:
 > True이면 라벨에 공백이 있는 경우 trim하지 않고 유지한다.         
 > 1.0.3부터 지원한다.      
 
+<a name="columnSizeCallback"></a>
+> **columnSizeCallback**
+> Type: Function
+> Defalut: null
+> 컬럼 정보를 생성후 호출되는 콜백이다.
+> 컬럼별로 너비를 지정할때 사용한다.
+> return: number
+> 1.0.9부터 지원한다.
+> ****Arguments****
+>> **fields**
+>> 컬럼의 level에 따른 필드 이름 배열
+>> **labels**
+>> 컬럼의 level에 따른 값 배열
+>> **isSum**
+>> 합계 여부
+>> **vfield**
+>> valueField 이름
+
 
 #### Examples   
 
