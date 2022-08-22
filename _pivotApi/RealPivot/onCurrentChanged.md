@@ -31,7 +31,7 @@ tags:
 > pivotView 컨트롤     
 
 > **index**   
-> Type: Object   
+> Type: [CellIndex](/pivotApi/types/CellIndex/)   
 > 클릭된 위치의 columns, rows의 객체 정보, valueField    
 
 #### Return value

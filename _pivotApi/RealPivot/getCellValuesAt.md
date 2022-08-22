@@ -2,9 +2,9 @@
 layout: apipost
 title: getCellValues
 part: Objects
-objectname: getCellValues
+objectname: getCellValuesAt
 directiontype: Function
-permalink: /pivotApi/RealPivot/getCellValues/
+permalink: /pivotApi/RealPivot/getCellValuesAt/
 versions:
   - 1.0.9+
 tags:
@@ -25,21 +25,14 @@ tags:
 
 #### Syntax
 
-> function getCellValues(valueField, rowPath, columnPath)  
+> function getCellValues(index)  
 
 #### Parameters
 
-> **valueField**
+> **cellIndex**
 > Type: String
-> 값 필드의 이름을 지정한다.
+> 피벗 셀인덱스를 지정한다.  
 
-> **rowPath**
-> Type: Object | Array
-> 가져오려는 객체정보의 row정보를 지정한다. Object 또는 값 배열로 지정한다.
-
-> **columnPath**
-> Type: Object | Array
-> 가져오려는 객체정보의 column정보를 지정한다. Object 또는 값 배열로 지정한다.
 
 #### Return value
 
@@ -50,15 +43,16 @@ tags:
 
 [pivot](/images/pivot/pivots1.png)
 
-BMW-대형, 1사분기-3월의 판매수량 데이터를 가져오는 예제
+셀 포커스가 위치한 BMW-대형, 1사분기-3월의 판매수량의 데이터를 가져오는 예제
 
 <pre class="prettyprint">
-var values = pivot.getCellValues("판매수량", ["BMW", "대형"], [1,3]);
+var curr = pivot.getCurrent();
+var values = pivot.getCellValuesAt(curr);
 
 //결과 values
 {
   cols: {},
-  dataRows: [971, 1091, 5971, 6091],  
+  dataRows: [971, 1091, 5971, 6091],
   value: 12
 }
 </pre>

@@ -23,8 +23,7 @@ tags:
 
 #### Parameters
 
-> None  
-
+> None.  
 
 #### Return value
 
@@ -40,7 +39,6 @@ var setupFields = pivot.getPivotFields();
 ---
 
 #### API Links
-
 
 * [setPivotFields](/pivotApi/RealPivot/setPivotFields/)
 
