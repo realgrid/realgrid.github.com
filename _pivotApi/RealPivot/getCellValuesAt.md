@@ -1,6 +1,6 @@
 ---
 layout: apipost
-title: getCellValues
+title: getCellValuesAt
 part: Objects
 objectname: getCellValuesAt
 directiontype: Function
@@ -32,6 +32,7 @@ tags:
 > **cellIndex**
 > Type: String
 > 피벗 셀인덱스를 지정한다.  
+> 생략하면 현재 선택된 셀의 값을 가져온다.
 
 
 #### Return value
