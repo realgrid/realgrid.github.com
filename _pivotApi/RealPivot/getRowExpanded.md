@@ -21,7 +21,7 @@ tags:
 
 #### Syntax
 
-> function getColumnLabels(path)  
+> function getRowExpanded(path)  
 
 #### Parameters
 
