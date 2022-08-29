@@ -1,10 +1,10 @@
 ---
 layout: apipost
-title: getCopyOptions
+title: getDataOptions
 part: Objects
-objectname: getCopyOptions
+objectname: getDataOptions
 directiontype: Function
-permalink: /pivotApi/RealPivot/getCopyOptions/
+permalink: /pivotApi/RealPivot/getDataOptions/
 versions:
   - 1.0.3+
 tags:

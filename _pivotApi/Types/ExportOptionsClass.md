@@ -69,6 +69,12 @@ tags:
 > Default: true  
 > css style을 출력 문서에 반영할 지의 여부  
 
+<a name="applyStyleCallback"></a>
+> **applyStyleCallback**
+> Type: boolean  
+> Default: False  
+> styleCallback에서 지정한 css style을 출력문서에 반영할 지의 여부  
+
 > **done**  
 > Type: function(){}  
 > Default: 
