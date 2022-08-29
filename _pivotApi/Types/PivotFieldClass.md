@@ -166,18 +166,18 @@ tags:
 > ex) "yyyy-MM-dd", "yyyyMMDD"  
 
 <a name="emptyValue"></a>
-> **emptyValue**
-> Type: String
-> Defalut: null
-> expression이 "distinct" 일때 값이 없는 경우 표시되는 text
-> 1.0.9 버전부터 지원한다.
+> **emptyValue**  
+> Type: String  
+> Defalut: null  
+> expression이 "distinct" 일때 값이 없는 경우 표시되는 text  
+> 1.0.9 버전부터 지원한다.  
 
-<a name="labelType"></a>
-> **labelType**
-> Type: [LabelType](/pivotApi/types/LabelType/)
-> Defalut: "both"
-> 해당 필드를 행 필드나 컬럼 필드로만, 아니면 둘다 적용가능한지의 타입을 지정한다.  
-> 1.0.9 버전부터 지원한다.
+<a name="labelType"></a>  
+> **labelType**  
+> Type: [LabelType](/pivotApi/types/LabelType/)  
+> Defalut: "both"  
+> 해당 필드를 행 필드나 컬럼 필드로만, 아니면 둘다 적용가능한지의 타입을 지정한다.    
+> 1.0.9 버전부터 지원한다.  
 
 
 #### Examples   

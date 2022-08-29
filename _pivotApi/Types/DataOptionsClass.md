@@ -24,10 +24,10 @@ tags:
 > Default: true      
 > true로 설정하면 getCellValues 등과 같이 피벗 그리드의 값을 가져올때 실제 계산된 값이 아닌 표시된 값으로 가져온다.
     
-> **defaultExpression**
-> type: ValueType
-> Default: `sum`
-> ValueField의 expression을 지정하지 않았을때 적용되는 ValueType이다.
+> **defaultExpression**  
+> type: ValueType  
+> Default: `sum`  
+> ValueField의 expression을 지정하지 않았을때 적용되는 ValueType이다.  
 
 #### Examples   
 

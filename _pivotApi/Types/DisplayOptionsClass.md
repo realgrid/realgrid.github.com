@@ -107,14 +107,14 @@ tags:
 > 1.0.9부터 지원한다.
 
 <a name="watchDisplayChange"></a>
-> **watchDisplayChange**
+> **watchDisplayChange**  
 > Type: Boolean  
 > Default: False  
 > True이면 pivot컨테이너의 크기가 변경되었을때 자동으로 pivot의 크기를 변경한다  
 > 1.0.9부터 지원한다.  
 
 <a name="columnSizeCallback"></a>
-> **columnSizeCallback**
+> **columnSizeCallback**  
 > Type: Function  
 > Defalut: null  
 > 컬럼 정보를 생성후 호출되는 콜백이다.  
@@ -123,12 +123,19 @@ tags:
 > 1.0.9부터 지원한다.  
 > ****Arguments****  
 >> **fields**  
->> 컬럼의 level에 따른 필드 이름 배열    
+>> Type: string[]  
+>> 컬럼의 level에 따른 필드 이름 배열     
+>>
 >> **labels**  
+>> Type: string[] | number[]  
 >> 컬럼의 level에 따른 값 배열  
+>>
 >> **isSum**  
+>> Type: Boolean  
 >> 합계 여부  
+>>
 >> **vfield**  
+>> Type: string  
 >> valueField 이름  
 
 

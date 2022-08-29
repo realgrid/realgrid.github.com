@@ -25,7 +25,7 @@ tags:
 
 #### Syntax
 
-> function getCellValues(index)  
+> function getCellValuesAt(index)  
 
 #### Parameters
 
