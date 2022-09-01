@@ -28,8 +28,7 @@ tags:
 #### Parameters
 
 > **valueField**   
-> Type: String 
->    
+> Type: String  
 > 값을 가져올 값 필드를 지정한다.  
 
 > **rowIndex**   

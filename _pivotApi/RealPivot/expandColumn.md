@@ -38,9 +38,9 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-pivot.expandColumn([1996]); //1레발이 1996 인 컬럼을 펼친다.  
+pivot.expandColumn([1996]); //1레벨이 1996 인 컬럼을 펼친다.  
 
-pivot.expandColumn([1996, 4]);  //1레발이 1996이고 2레벨이 4인 컬럼을 펼친다.  
+pivot.expandColumn([1996, 4]);  //1레벨이 1996이고 2레벨이 4인 컬럼을 펼친다.  
 </pre>
 
 ---

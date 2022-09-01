@@ -165,6 +165,21 @@ tags:
 > 형식은 리얼그리드의 datetime Format과 동일하다. 
 > ex) "yyyy-MM-dd", "yyyyMMDD"  
 
+<a name="emptyValue"></a>
+> **emptyValue**  
+> Type: String  
+> Defalut: null  
+> expression이 "distinct" 일때 값이 없는 경우 표시되는 text  
+> 1.0.9 버전부터 지원한다.  
+
+<a name="labelType"></a>  
+> **labelType**  
+> Type: [LabelType](/pivotApi/types/LabelType/)  
+> Defalut: "both"  
+> 해당 필드를 행 필드나 컬럼 필드로만, 아니면 둘다 적용가능한지의 타입을 지정한다.    
+> 1.0.9 버전부터 지원한다.  
+
+
 #### Examples   
 
 <pre class="prettyprint">
@@ -179,7 +194,8 @@ tags:
 	    name: "OrderID",
 	    sourceField: "OrderID",
 	    fieldHeader: "주문ID",
-	    valueEnable: false
+	    valueEnable: false,
+		labelType: "row"   //해당 필드는 행으로만 설정가능하다.   
 	}, {
 	    name: "CustomerID",
 	    sourceField: "CustomerID",
@@ -198,7 +214,8 @@ tags:
 	    fieldHeader: "영업년도",
 	    displayFormat: "${value}년도",
 	    summaryFormat: "${value}년도 합",
-	    valueEnable: false
+	    valueEnable: false,
+		labelType: "column"  //해당 필드는 컬럼으로만 설정가능하다.  
 	}, {
 	    name: "OrderHalf",
 	    sourceField: "OrderDate",
@@ -287,4 +304,6 @@ tags:
 
 ---
 
+#### API Links
 
+* [LabelType](/pivotApi/types/LabelType/)   

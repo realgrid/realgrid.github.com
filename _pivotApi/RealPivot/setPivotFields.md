@@ -23,7 +23,7 @@ tags:
 
 > **source**   
 > Type: Object   
-> columns, rows, values 배열로 구성된 객체     
+> columns, rows, values, filter, sort 배열로 구성된 객체     
 
 #### Return value
 

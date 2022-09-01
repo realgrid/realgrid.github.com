@@ -59,6 +59,7 @@ tags:
 > Default: 200      
 > 툴팁이 표시되기까지의 대기시간을 지정한다.    
 
+<a name="blankFillValue"></a>
 > **blankFillValue**  
 > Type: Number   
 > Default: 0      
@@ -99,24 +100,55 @@ tags:
 > True이면 라벨에 공백이 있는 경우 trim하지 않고 유지한다.         
 > 1.0.3부터 지원한다.      
 
+<a name="labelTextWidth"></a>
+> **labelTextWidth**  
+> Type: Number  
+> 필드 헤더의 너비를 지정한다. 실제 width는 padding, border등을 감안해서 지정된 너비보다 조금 작게 표시된다.  
+> 1.0.9부터 지원한다.
+
+<a name="watchDisplayChange"></a>
+> **watchDisplayChange**  
+> Type: Boolean  
+> Default: False  
+> True이면 pivot컨테이너의 크기가 변경되었을때 자동으로 pivot의 크기를 변경한다  
+> 1.0.9부터 지원한다.  
+
+<a name="columnSizeCallback"></a>
+> **columnSizeCallback**  
+> Type: Function  
+> Defalut: null  
+> 컬럼 정보를 생성후 호출되는 콜백이다.  
+> 컬럼별로 너비를 지정할때 사용한다.  
+> return: number  
+> 1.0.9부터 지원한다.  
+> ****Arguments****  
+>> **fields**  
+>> Type: string[]  
+>> 컬럼의 level에 따른 필드 이름 배열     
+>>
+>> **labels**  
+>> Type: string[] | number[]  
+>> 컬럼의 level에 따른 값 배열  
+>>
+>> **isSum**  
+>> Type: Boolean  
+>> 합계 여부  
+>>
+>> **vfield**  
+>> Type: string  
+>> valueField 이름  
+
 
 #### Examples   
 
 <pre class="prettyprint">
-pivot.setOptions({
-    display: {
-        showProgress: true,
-        showTooltip: true,
-        tooltipDelay: 1000
+funtion sizeCallback(fields, labels, isSum, vField) {
+    if (vField == "값1" && fields[0] === "년도" && labels[0] == "2022" && isSum) {
+        return 0;
     }
-});
-
-or
-
+}
 pivot.setDisplayOptions({
-    showProgress: true,
-    showTooltip: true,
-    tooltipDelay: 1000
+    columnSizeCallback: sizeCallback
 });
 </pre>
 

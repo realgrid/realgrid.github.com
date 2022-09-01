@@ -66,6 +66,12 @@ tags:
 > 필드의 너비를 지정한다. 컬럼의 그룹역활을 하는 필드에는 적용되지 않는다.       
 > 1.0.2 버전부터 지원한다.    
 
+<a name="headerSortable"></a>
+> **headerSortable**  
+> Type: Boolean   
+> Default: True  
+> True이면 Row 또는 Column의 필드 헤더를 클릭했을때 다시 정렬한다.  
+> 1.0.9 버전부터 지원한다.
 
 #### Examples   
 

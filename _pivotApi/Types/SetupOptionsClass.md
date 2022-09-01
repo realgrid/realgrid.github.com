@@ -1,0 +1,51 @@
+---
+layout: apipost
+title: SetupOptions
+part: Types
+typename: Classes
+order: SetupOptions
+objectname: 
+directiontype: 
+permalink: /pivotApi/types/SetupOptions/
+versions:
+  - 1.0.9+
+tags: 
+  - SetupOptions
+  - 설정옵션
+---
+
+#### Description
+
+설정 화면에 표시되는 기본값을 기정한다.  
+
+#### Properties
+
+> **defaultExpression**  
+> Type: [ValueType](/pivotApi/types/ValueType/)      
+> Default: `sum`       
+> 필드가 값 필드로 최초 지정될때 표시되는 `expression`의 기본값을 지정한다.    
+> 1.0.9부터 지원한다.     
+
+> **filterOperation**  
+> Type: [FilterOperation](/pivotApi/types/FilterOperation/)   
+> Default: `and`       
+> FilterOperation의 초기값을 지정한다.
+> 사용자가 변경을 하면 변경된 값이 유지된다.    
+> 1.0.9부터 지원한다.     
+
+#### Examples   
+
+<pre class="prettyprint">
+pivot.setSetupOptions({
+    defaultExpression: "max",
+    filterOperation: "or"
+})
+</pre>
+
+---
+
+#### API Links
+
+* [getSetupOptions](/pivotApi/RealPivot/getSetupOptions/)   
+* [setSetupOptions](/pivotApi/RealPivot/setSetupOptions/)   
+
