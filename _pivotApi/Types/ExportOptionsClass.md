@@ -75,6 +75,32 @@ tags:
 > Default: False  
 > styleCallback에서 지정한 css style을 출력문서에 반영할 지의 여부  
 
+> **xOffset**  
+> Type: number  
+> Default: 0  
+> 왼쪽 여백컬럼의 수를 지정한다.  
+
+> **yOffset**  
+> Type: number  
+> Default: 0  
+> 위쪽 여백행의 수를 지정한다.  
+
+> **xOffsetWidth**  
+> Type: number  
+> Default: 100  
+> 왼쪽 여백컬럼의 너비를 지정한다.  
+
+> **userCells**  
+> Type: Object  
+> Default: null  
+> 엑셀로 출력할때 pivot이외의 내용을 출력할때 사용한다.  
+
+> **userCellsCallback**  
+> Type: function(pivot, rowCount, columnCount) {}  
+> Default: null  
+> 엑셀로 출력되는 row와 column을 참조해서 cell의 위치를 변경할때 사용한다.  
+
+
 > **done**  
 > Type: function(){}  
 > Default: 
