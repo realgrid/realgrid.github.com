@@ -8,6 +8,7 @@ RealPivotMessages = {
 	valueText: "값",
 	countText: "건수",
 	progressMessage: "피벗 화면 구성 중입니다...",
+	progressDataAnalysis: "피벗 데이터 분석중입니다...",
 
 	valueTypeTexts : {
 		sum : "합계",
@@ -42,6 +43,7 @@ RealPivotMessages = {
 			columnGroupText: "컬럼 값 기준 정렬",
 			rowGroupText: "행 값 기준 정렬",
 			formatGroupText: "표시형식",
+			alignmentGroupText: "맞춤방식",
 			selectNoConfigText: "설정하지 않음",
 			selectConfigText: "설정",
 			sortDirectionText: "정렬방식",
@@ -73,5 +75,11 @@ RealPivotMessages = {
 		value : "#,##0.000",
 		labelText : "소수점 3자리(#,##0.000)"
 	}],
-	userDefinedFormatText: "사용자 정의 포맷"
+	userDefinedFormatText: "사용자 정의 포맷",
+	alignmentList: [
+		{value: null, labelText: "기본"}, 
+		{value: "center", labelText:"중앙"},
+		{value: "near", labelText: "좌측"}, 
+		{value: "far", labelText: "우측"}
+	]
 };

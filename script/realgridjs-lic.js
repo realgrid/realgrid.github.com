@@ -1,2 +1,3 @@
 var realPivotLic = 'upVcPE+wPOlpAyL7N9uhT0M/nBOseBrflwxYpzGZyYm9cY8amGDkiNBG+1qQWvM8qfK55bUoayAHe6kAz/8GsGbv3IdPQpJ8dc0fwXGH3yiSf8kgSSJFuQ==';
-var realGridJsLic = 'upVcPE+wPOksRHztag2HLt+UVTCvO3is+83EYTz6U/sTXJR8Yw8Y0WXyjOMqbrgv0x+/TjcSI7/9srbNncEWjw7n7/ElITcuhLGc9fkIdmfRB4hu3LIgQZMVWpaY093J';
+// var realGridJsLic = 'upVcPE+wPOksRHztag2HLt+UVTCvO3is+83EYTz6U/sTXJR8Yw8Y0WXyjOMqbrgv0x+/TjcSI7/9srbNncEWjw7n7/ElITcuhLGc9fkIdmfRB4hu3LIgQZMVWpaY093J';
+var realGridJsLic = "upVcPE+wPOksRHztag2HLt+UVTCvO3is+83EYTz6U/sTXJR8Yw8Y0WXyjOMqbrgvUTr6y7OTHzuja4IdUQG3cZGYNpU1CPdIWN31Xiauiu4vw70i285+tMqq3V/SdirQe7A6ytvfYcC+qzqRvZeRApjecSIpjOml"
