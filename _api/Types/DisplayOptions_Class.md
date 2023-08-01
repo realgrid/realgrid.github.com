@@ -285,6 +285,17 @@ tags:
 > liveScoroll: false일때 스크롤바에 현재 위치를 표시하거나 메세지를 표시할때 사용한다.         
 > RealGridJS 1.1.35부터 지원한다.     
 
+> **vscrollBarVisibility**  
+> Type: [ScrollBarVisibility](/api/types/ScrollBarVisibility/)  
+> Default: `default`  
+> `always`이면 수직스크롤바가 항상 표시되도록 할때 사용한다.  
+> RealGridJS 1.1.44부터 지원한다.  
+
+> **hscrollBarVisibility**  
+> Type: [ScrollBarVisibility](/api/types/ScrollBarVisibility/)  
+> Default: `default`  
+> `always`이면 수평스크롤바가 항상 표시되도록 할때 사용한다.  
+> RealGridJS 1.1.44부터 지원한다.  
 #### Examples   
 
 <pre class="prettyprint">
