@@ -18,13 +18,17 @@ tags:
 
 #### Syntax
 
-> function setSelection(selection)
+> function setSelection(selection, fireEvent)
 
 #### Parameters
 
 > **selection**  
 > Type: object  
 > [SelectionItem](/api/types/SelectionItem/) 모델과 같은 설정 정보. [SelectionItem](/api/types/SelectionItem/) 중 선택하고자 하는 영역의 속성만 전달하면 된다.  
+
+> **fireEvent**
+> Type: boolean
+> `true`로 전달하면 [onSelectionAdd](/api/GridBase/onSelectionAdded/), [onSelectionChanged](/api/GridBase/onSelectionChanged/)이벤트가 발생하지 않는다.
 
 #### Return value
 
