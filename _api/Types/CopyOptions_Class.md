@@ -50,6 +50,12 @@ tags:
 > number, date, dropdown, multicheck 의 경우 보여지는 Text로 복사한다.       
 > RealGridJS 1.1.26부터 지원한다.  
 
+> **cutReadOnlyCell**  
+> Type: Boolean   
+> Default: false   
+> true이면 편집불가 셀도 잘라내기를 허용하고, false의 경우 편집불가 셀은 잘라내기되지 않는다.     
+> RealGridJS 1.1.47부터 지원한다. 
+
 #### Examples   
 
 <pre class="prettyprint">
