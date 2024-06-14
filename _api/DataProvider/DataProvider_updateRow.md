@@ -42,7 +42,7 @@ $(document).ready( function() {
     gridView.resetCurrent();
 
     $("#button1").click(function(){
-      var row = gridView.getCurrent().itemIndex;
+      var row = gridView.getCurrent().dataRow;
       var values = [{
         field1: "배우",
         field2: "여자",
@@ -212,7 +212,7 @@ function setColumns(grid) {
 
 <pre class="prettyprint">
 $("#button1").click(function(){
-    var row = gridView.getCurrent().itemIndex;
+    var row = gridView.getCurrent().dataRow;
     var values = [{
         field1: "배우",
         field2: "여자",
