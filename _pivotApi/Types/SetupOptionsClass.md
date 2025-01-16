@@ -33,6 +33,12 @@ tags:
 > 사용자가 변경을 하면 변경된 값이 유지된다.    
 > 1.0.9부터 지원한다.     
 
+> **positon**    
+> Type: [SetupPosition](/pivotApi/types/SetupPosition/)    
+> Default: `modal`    
+> 설정창이 표시될 위치를 지정한다.    
+> 1.0.11부터 지원한다.
+
 #### Examples   
 
 <pre class="prettyprint">
