@@ -39,6 +39,12 @@ tags:
 > 설정창이 표시될 위치를 지정한다.    
 > 1.0.11부터 지원한다.
 
+> **itemGap**    
+> Type: number    
+> Default: `3`    
+> setupPosition이 `left`또는 `right`일때 설정창과 pivot간의 간격을 지정한다.    
+> 1.0.12부터 지원한다.
+
 #### Examples   
 
 <pre class="prettyprint">
