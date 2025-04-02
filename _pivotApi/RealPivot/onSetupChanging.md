@@ -40,7 +40,8 @@ tags:
 
 #### Return
 
-> None.
+> Type: String  
+> `false`를 return하면 기존 설정값이 유지된다.    
 
 #### Examples 
 

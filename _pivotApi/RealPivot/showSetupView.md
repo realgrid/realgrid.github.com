@@ -17,7 +17,7 @@ tags:
 
 #### Syntax
 
-> function showSetupView(x, y)
+> function showSetupView(x, y, parentElement)
 
 #### Parameters
 
@@ -29,6 +29,11 @@ tags:
 > Type: Integer   
 > 설정화면이 표시될 X좌표, Pivot의 Container Element에서의 상대좌표계   
 
+> **parentElement**    
+> Type: HTMLDivElement    
+> 설정화면이 attach될 Container Element    
+
+
 #### Return value
 
 > None.
@@ -36,15 +41,8 @@ tags:
 #### Examples 
 
 <pre class="prettyprint">
-pivot.setOptions({
-    display: {
-        rowLabelWidth: 120,
-        tooltipDelay: 1000,
-        showTooltip: true,
-        showLabelTooltip: true,
-        showProgress: true
-    }
-});
+pivot.showSetupView(10, 10);  // pivot Container의 왼쪽 상단에 표시
+pivot.showSetupView(10, 10, document.body) // 
 </pre>
 
 ---
