@@ -45,6 +45,18 @@ tags:
 > setupPosition이 `left`또는 `right`일때 설정창과 pivot간의 간격을 지정한다.    
 > 1.0.12부터 지원한다.
 
+> **showResetAllButton**    
+> Type: boolean    
+> Default: `false`    
+> 설정창에 전체 초기화 버튼을 표시한다.    
+> 1.0.14부터 지원한다.    
+
+> **showResetButtons**    
+> Type: boolean    
+> Default: `false`    
+> 설정창에 field 초기화 버튼을 표시한다.    
+> 1.0.14부터 지원한다.
+
 #### Examples   
 
 <pre class="prettyprint">
