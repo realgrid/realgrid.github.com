@@ -113,6 +113,26 @@ tags:
 > True이면 pivot컨테이너의 크기가 변경되었을때 자동으로 pivot의 크기를 변경한다  
 > 1.0.9부터 지원한다.  
 
+> **styleCallback**   
+> Type: Function    
+> Default: null    
+> value가 표시될때 호출되는 콜백이다.    
+> value의 값에 따라 적용될 class를 지정할때 사용한다.    
+> return : string    
+> 1.0.9부터 지원한다.    
+> ****Arguments****    
+>> **pivot**    
+>> Type: RealPivot    
+>> pivot instance    
+>> 
+>> **index**    
+>> Type: CellIndex    
+>> 셀의 위치정보    
+>>
+>> **value**    
+>> Type: any    
+>> 셀의 값    
+
 <a name="columnSizeCallback"></a>
 > **columnSizeCallback**  
 > Type: Function  
@@ -138,6 +158,23 @@ tags:
 >> Type: string  
 >> valueField 이름  
 
+> **headerResizable**    
+> Type: boolean    
+> Default: `true`    
+> Header영역의 resize 여부를 지정한다.    
+> 1.0.15부터 지원한다.    
+
+> **rowResizable**    
+> Type: boolean    
+> Default: `true`    
+> 행의 resize 여부를 지정한다.  
+> 1.0.15부터 지원한다.    
+
+> **columnResizable**    
+> Type: boolean    
+> Default: `true`    
+> 컬럼의 resize 여부를 지정한다.    
+> 1.0.15부터 지원한다.    
 
 #### Examples   
 
@@ -147,9 +184,31 @@ funtion sizeCallback(fields, labels, isSum, vField) {
         return 0;
     }
 }
+
+function styleCallback(pivot, index, value) {
+    if (index.rows["국가"] === "국산" && index.rows["브랜드번호"] === "2" && index.valueField === "차량가격") {
+        var st = '기아';
+        if (value < 0) {
+            st += "-minus"
+        } else if (value < 10000) {
+            st += '-low';
+        } else if (value > 50000) {
+            st += '-high';
+        }
+        return st;
+    }
+    if (typeof value === "number") {
+        if (value < 0) {
+            return "value-minus"
+        }
+    }
+};    
+
 pivot.setDisplayOptions({
-    columnSizeCallback: sizeCallback
+    columnSizeCallback: sizeCallback,
+    styleCallback: styleCallback
 });
+pivot.drawView();
 </pre>
 
 ---

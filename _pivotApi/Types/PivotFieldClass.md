@@ -103,7 +103,9 @@ tags:
 > Default: "#0"       
 > 숫자 값의 포맷 설정  
 > 자릿수 필수 표시 여부는 0, 값이 있는 경우에만 표시는 #을 사용한다.   
+> 절대값으로 표시하는 경우 [styleCallback](/pivotApi/types/DisplayOptions/)을 이용해서 `color` `background-color`등을 변경해야 한다.    
 > ex) #,##0.000  //천단위 ,를 표시하고 고정소수점 3자리를 사용   
+> ex) #,##0;a // 천단위 ,를 표시하고 절대값으로 표시
 
 > **prefix**  
 > Type: String   
