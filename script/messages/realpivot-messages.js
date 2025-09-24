@@ -32,6 +32,8 @@ RealPivotMessages = {
 		closeButtonText: "닫기",
 		fieldAddUnableText: "여기에 추가 할 수 없는 필드입니다.",
 		fieldDuplicateText: "이미 존재하는 필드입니다.",
+		sectionLockText: "추가 할 수 없는 Section입니다.",
+		fieldRemoveUnableText: "제거할수 없는 필드입니다.",
 		filter: {
 			headerText: "필터 설정",
 			allText: "전체",

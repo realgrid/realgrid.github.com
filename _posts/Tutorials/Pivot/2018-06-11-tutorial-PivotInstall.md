@@ -18,7 +18,7 @@ tags:
 <script type="text/javascript" src="/script/realgridjs_eval.1.1.51.min.js"></script>
 <script type="text/javascript" src="/script/realgridjs-api.1.1.51.js"></script>
 <script type="text/javascript" src="/script/messages/realpivot-messages.js"></script>
-<script type="text/javascript" src="/script/realpivot_eval.1.0.14.min.js"></script>
+<script type="text/javascript" src="/script/realpivot_eval.1.0.15.min.js"></script>
 <script type="text/javascript" src="/script/jszip.min.js"></script>
 
 <script>
@@ -6275,7 +6275,7 @@ Javascript파일중 jszip.min.js파일은 엑셀파일 Export에 필요한 파�
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-api.1.1.27.js&quot;&gt;&lt;/script&gt;
 
 <mark>&lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;</mark>
-<mark>&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.0.9.0.min.js&quot;&gt;&lt;/script&gt;</mark>
+<mark>&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.1.0.15.min.js&quot;&gt;&lt;/script&gt;</mark>
 </pre>
 
 ##### RealPivot 운영용 버전 파일
@@ -6310,7 +6310,7 @@ var realPivotLic = '......라이선스정보.....';
     &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs_eval.1.1.27.min.js&quot;&gt;&lt;/script&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-api.1.1.27.js&quot;&gt;&lt;/script&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.0.9.0.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.1.0.15.min.js&quot;&gt;&lt;/script&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
 
 2. RealPivot이 표시될 `div` 태그를 작성하고 크기를 지정해야 합니다. <mark>크기가 지정되지 않으면 화면에 RealPivot이 표시되지 않습니다.</mark>
@@ -6565,7 +6565,7 @@ var realPivotLic = '......라이선스정보.....';
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs_eval.1.1.27.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realgridjs-api.1.1.27.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;messages/realpivot-messages.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.0.9.0.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;scripts/realpivot_eval.1.0.15.min.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;scripts/jszip.min.js&quot;&gt;&lt;/script&gt;
 
 &lt;script&gt;

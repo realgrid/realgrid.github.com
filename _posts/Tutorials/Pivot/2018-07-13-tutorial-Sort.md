@@ -21,7 +21,7 @@ tags:
 <script type="text/javascript" src="/script/realgridjs_eval.1.1.51.min.js"></script>
 <script type="text/javascript" src="/script/realgridjs-api.1.1.51.js"></script>
 <script type="text/javascript" src="/script/messages/realpivot-messages.js"></script>
-<script type="text/javascript" src="/script/realpivot_eval.1.0.14.min.js"></script>
+<script type="text/javascript" src="/script/realpivot_eval.1.0.15.min.js"></script>
 <script type="text/javascript" src="/script/jszip.min.js"></script>
 
 <script>
