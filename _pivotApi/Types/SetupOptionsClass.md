@@ -57,6 +57,24 @@ tags:
 > 설정창에 field 초기화 버튼을 표시한다.    
 > 1.0.14부터 지원한다.
 
+> **rowControlLevel**    
+> Type: [UserControlLevel](/pivotApi/types/UserControlLevel/)    
+> Default: `full`    
+> 설정창에서 사용자가 `행 field`를 변경할수 있는 범위를 지정한다.     
+> 1.0.15부터 지원한다.    
+
+> **columnControlLevel**    
+> Type: [UserControlLevel](/pivotApi/types/UserControlLevel/)    
+> Default: `full`    
+> 설정창에서 사용자가 `열 field`를 변경할수 있는 범위를 지정한다.    
+> 1.0.15부터 지원한다.    
+
+> **valueControlLelvel**    
+Type: [UserControlLevel](/pivotApi/types/UserControlLevel/)    
+> Default: `full`    
+> 설정창에서 사용자가 `값 field`를 변경할수 있는 범위를 지정한다.    
+> 1.0.15부터 지원한다.     
+
 #### Examples   
 
 <pre class="prettyprint">
