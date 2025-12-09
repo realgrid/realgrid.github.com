@@ -25,7 +25,7 @@ tags:
 <script type="text/javascript" src="/script/realgridjs_eval.1.1.51.min.js"></script>
 <script type="text/javascript" src="/script/realgridjs-api.1.1.51.js"></script>
 <script src="/script/jszip.min.js"></script>
-<script src="/script/jquery-1.11.2.min.js"></script>
+<script src="/script/jquery-3.7.1.min.js"></script>
 
 <script type="text/javascript">
 
