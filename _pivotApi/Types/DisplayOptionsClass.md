@@ -93,6 +93,12 @@ tags:
 > true이면 현재 포커스를 기준으로 행, 열의 정보를 확인할 수 있게 가이드가 표시된다.    
 > 1.0.3부터 지원한다.      
 
+> **extendFocusGuide**
+> Type: Boolean    
+> Default: false    
+> true이면 focusGuide를 rowLable과 columnLabel까지 확장한다.    
+> 1.0.16부터 지원한다.
+
 <a name="keepLabelSpace"></a>
 > **keepLabelSpace**  
 > Type: Boolean   
