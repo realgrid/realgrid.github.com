@@ -65,6 +65,12 @@ tags:
 > true이면 스크롤시 합계영역이 고정되어 표시된다.       
 > 1.0.3부터 지원한다.     
 
+> **rowGroupMerge**  
+> Type: Boolean    
+> Deafult: false    
+> true이면 행 그룹 요약 셀이 행 그룹 영역까지 병합되어 표시된다.    
+> 1.0.18부터 지원한다.        
+
 #### Examples   
 
 <pre class="prettyprint">
